@@ -1,0 +1,92 @@
+!!! 5
+%html
+  %head
+    %title Land Manifest - STARPEACE
+    %meta{charset: 'utf-8'}
+    %meta{viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'}
+
+    %link{rel: 'shortcut icon', type: 'image/x-icon', href: 'https://www.starpeace.io/assets/favicon.ico'}
+    %link{rel: 'icon', type: 'image/x-icon', href: 'https://www.starpeace.io/assets/favicon.ico'}
+
+    %link{rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round|Open+Sans+Condensed:300'}
+    %link{rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css'}
+    %link{rel: 'stylesheet', type: 'text/css', href: '/assets/assets-main.min.css'}
+
+    %script{type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'}
+    %script{type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'}
+    %script{type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js'}
+    %script{type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js'}
+
+    %script{crossorigin: 'anonymous', defer, src: 'https://use.fontawesome.com/releases/v5.0.10/js/solid.js'}
+    %script{crossorigin: 'anonymous', defer, src: 'https://use.fontawesome.com/releases/v5.0.10/js/regular.js'}
+    %script{crossorigin: 'anonymous', defer, src: 'https://use.fontawesome.com/releases/v5.0.10/js/fontawesome.js'}
+
+    %script{type: 'text/javascript', src: '/assets/assets-main.min.js'}
+
+  %body
+    #common-header.clearfix
+      .common-logo
+        %a.logo{href: '/'}
+          %h1 STAR
+          %img{src: 'https://www.starpeace.io/assets/logo.png'}
+          %h1 PEACE
+
+      .welcome
+        %span.message Welcome, Visitor!
+        %a.login-header{href: 'https://client.starpeace.io/login.html'} Sign In
+
+      .development
+        %a.documentation{href: 'https://docs.starpeace.io'} Documentation
+        %a.community{href: 'https://starpeace.ovh/'} Development Community
+        %a.github{href: 'https://github.com/ronappleton/starpeace-website'}
+          %img{src: 'https://www.starpeace.io/assets/github.png'}
+
+    #land-container.container-fluid
+      .row
+        .col
+          %h2 Land Manifest
+
+          %h3 Earth
+          %table.table.land-table{data-id: 'earth'}
+            %thead
+              %tr
+                %th{rowspan:2} ID
+                %th{rowspan:2} Map Color
+                %th{rowspan:2} Zone
+                %th{rowspan:2} Type
+                %th{rowspan:2} Variant
+                %th{colspan: 4} Winter
+                %th{colspan: 4} Spring
+                %th{colspan: 4} Summer
+                %th{colspan: 4} Fall
+              %tr
+                %th 0&deg;
+                %th 90&deg;
+                %th 180&deg;
+                %th 270&deg;
+                %th 0&deg;
+                %th 90&deg;
+                %th 180&deg;
+                %th 270&deg;
+                %th 0&deg;
+                %th 90&deg;
+                %th 180&deg;
+                %th 270&deg;
+                %th 0&deg;
+                %th 90&deg;
+                %th 180&deg;
+                %th 270&deg;
+            %tbody
+
+    #footer-container.container-fluid
+      .row
+        .col
+          %a{href: 'https://docs.starpeace.io'} Documentation
+        .col
+          %a{href: 'https://www.starpeace.io/privacy.html'} Privacy
+        .col
+          %a{href: 'https://github.com/ronappleton/starpeace-website'} GitHub
+
+      .row.copyright
+        .col
+          Copyright &copy; 2018
