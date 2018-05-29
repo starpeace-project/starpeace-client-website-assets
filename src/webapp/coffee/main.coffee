@@ -14,7 +14,7 @@ $ ->
 
     html = []
     for tile in land_manifest
-      html[html.length] = "<tr><td>#{tile.id}</td><td>##{new Number(tile.map_color).toString(16).toUpperCase()}</td><td>#{tile.zone}</td><td>#{tile.type}</td><td>#{tile.variant}</td>"
+      html[html.length] = "<tr><td>#{tile.id}</td><td>##{new Number(tile.map_color).toString(16).padStart(6, '0').toUpperCase()}</td><td>#{tile.zone}</td><td>#{tile.type}</td><td>#{tile.variant}</td>"
 
       for season in ['winter', 'spring', 'summer', 'fall']
         for orientation in ['0deg', '90deg', '180deg', '270deg']

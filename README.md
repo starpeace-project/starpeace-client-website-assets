@@ -1,7 +1,7 @@
 
 # starpeace-website-client-assets
 
-[![Build Status](https://travis-ci.org/ronappleton/starpeace-website-client.svg)](https://travis-ci.org/ronappleton/starpeace-website-client)
+[![Build Status](https://travis-ci.org/ronappleton/starpeace-website-client-assets.svg)](https://travis-ci.org/ronappleton/starpeace-website-client-assets)
 
 Assets for [Starpeace](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
 
@@ -43,6 +43,7 @@ Repository contains server scripts and a server to browse raw assets. Different 
 ```
 $ grunt audit
 $ grunt cleanup
+$ grunt combine
 ```
 
 Raw assets can be compiled to game-ready with default or ```build``` grunt target:
@@ -71,6 +72,10 @@ audit-textures.js is executed with grunt ```audit``` target and provides a read-
 
 cleanup-textures.js is executed with grunt ```cleanup``` target and provides automated logic to fix several metadata and image problems, requiring interaction and confirmation from command-line during execution
 
+### Combine
+
+combine-textures.js is executed with grunt ```combined``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
+
 ## Legacy Assets
 
 Changes to legacy assets, including removal from gameplay (moved to ```/legacy/``` folder), explained below:
@@ -82,27 +87,27 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 * border.bmp - refactor - renamed to land.255.border0.bmp
 * border1.bmp - refactor - renamed to land.255.border1.bmp
 * special images - removed for now - unused by any maps and MapColor collisions with each other
- * special.052.Grass.ini
- * special.053.Grass.ini
- * special.054.Grass.ini
- * special.055.Grass.ini
- * special.056.Grass.ini
- * special.057.Grass.ini
- * special.058.Grass.ini
- * special.059.Grass.ini
- * special.060.Grass.ini
- * special.062.Grass.ini
- * special.116.MidGrass.ini
- * special.117.MidGrass.ini
- * special.118.MidGrass.ini
- * special.119.MidGrass.ini
- * special.120.MidGrass.ini
- * special.180.DryGround.ini
- * special.181.DryGround.ini
- * special.182.DryGround.ini
- * special.183.DryGround.ini
- * special.184.DryGround.ini
- * special.185.DryGround.ini
+    * special.052.Grass.ini
+    * special.053.Grass.ini
+    * special.054.Grass.ini
+    * special.055.Grass.ini
+    * special.056.Grass.ini
+    * special.057.Grass.ini
+    * special.058.Grass.ini
+    * special.059.Grass.ini
+    * special.060.Grass.ini
+    * special.062.Grass.ini
+    * special.116.MidGrass.ini
+    * special.117.MidGrass.ini
+    * special.118.MidGrass.ini
+    * special.119.MidGrass.ini
+    * special.120.MidGrass.ini
+    * special.180.DryGround.ini
+    * special.181.DryGround.ini
+    * special.182.DryGround.ini
+    * special.183.DryGround.ini
+    * special.184.DryGround.ini
+    * special.185.DryGround.ini
 
 ### Maps
 * Fraternite - renamed - renamed assets to remove special character (é)

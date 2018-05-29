@@ -102,11 +102,8 @@ console.log "\n=================================================================
 
 root = process.cwd()
 source_dir = path.join(root, process.argv[2])
-target_dir = path.join(root, process.argv[3])
 
 console.log "input directory: #{source_dir}"
-console.log "output directory: #{target_dir}"
-
 console.log "\n-------------------------------------------------------------------------------\n"
 
 land_dir = path.join(source_dir, 'land')

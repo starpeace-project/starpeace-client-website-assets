@@ -18,6 +18,18 @@ class LandImage
   valid: () ->
     @key.valid() && @key.safe_image_key() == path.basename(@file_path)
 
+  planet: () ->
+    return 'earth' if @file_path.toLowerCase().indexOf('earth') >= 0
+    'unknown'
+
+  season: () ->
+    safe_path = @file_path.toLowerCase()
+    return 'winter' if safe_path?.indexOf('winter') >= 0
+    return 'spring' if safe_path?.indexOf('spring') >= 0
+    return 'summer' if safe_path?.indexOf('summer') >= 0
+    return 'fall' if safe_path?.indexOf('fall') >= 0
+    'unknown'
+
   @image_hash: (image) ->
     return 0 unless image
     data = ''

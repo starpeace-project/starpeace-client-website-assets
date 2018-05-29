@@ -71,10 +71,13 @@ module.exports = function(grunt) {
         failOnError: true
       },
       audit_textures: {
-        exec: 'node build/audit-textures.js src/images build/public'
+        exec: 'node build/audit-textures.js src/images'
       },
       cleanup_textures: {
         exec: 'node build/cleanup-textures.js src/images legacy'
+      },
+      combine_textures: {
+        exec: 'node build/combine-textures.js src/images build/public'
       },
       server: {
         exec: 'node build/server.js'
@@ -87,7 +90,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('cleanup', ['build', 'run:cleanup_textures']);
+  grunt.registerTask('combine', ['build', 'run:combine_textures']);
   
-  grunt.registerTask('default', ['build', 'audit']);
+  grunt.registerTask('default', ['build', 'combine']);
   grunt.registerTask('server', ['build_server', 'coffee:compile', 'run:server']);
 }
