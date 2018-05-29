@@ -91,7 +91,7 @@ module.exports = function(grunt) {
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('cleanup', ['build', 'run:cleanup_textures']);
   grunt.registerTask('combine', ['build', 'run:combine_textures']);
-  
+
   grunt.registerTask('default', ['build', 'combine']);
   grunt.registerTask('server', ['build_server', 'coffee:compile', 'run:server']);
 }

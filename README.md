@@ -43,14 +43,13 @@ Repository contains server scripts and a server to browse raw assets. Different 
 ```
 $ grunt audit
 $ grunt cleanup
-$ grunt combine
 ```
 
-Raw assets can be compiled to game-ready with default or ```build``` grunt target:
+Raw assets can be compiled to game-ready with default or ```combine``` grunt target:
 
 ```
 $ grunt
-$ grunt build
+$ grunt combine
 ```
 
 A simple server is also provided to browse raw assets, accessible at [127.0.0.1:11015](http://127.0.0.1:11015) using ```server``` grunt target:
@@ -61,7 +60,7 @@ $ grunt server
 
 ## Build and Deployment
 
-After building repository, game-ready assets are compiled and placed within the ```/build/public/``` folder. These resources should be served as static assets from web application and can be cached if desired.
+After building repository with grunt ```combine```, game-ready assets are compiled and placed within the ```/build/public/``` folder. These resources should be served as static assets from web application and can be cached if desired.
 
 ## Asset Tools
 ### Audit

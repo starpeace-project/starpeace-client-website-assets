@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - grunt build
+      - grunt combine
   post_build:
     commands:
       - echo Entered the post_build phase...
