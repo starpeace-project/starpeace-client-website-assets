@@ -73,7 +73,7 @@ cleanup-textures.js is executed with grunt ```cleanup``` target and provides aut
 
 ### Combine
 
-combine-textures.js is executed with grunt ```combined``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
+combine-textures.js is executed with grunt ```combine``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
 
 ## Legacy Assets
 
