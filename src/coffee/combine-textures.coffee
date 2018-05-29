@@ -8,6 +8,7 @@ readlineSync = require('readline-sync')
 rbp = require('rectangle-bin-pack')
 
 LandManifest = require('./land/land-manifest')
+MapImage = require('./maps/map-image')
 
 Utils = require('./utils/utils')
 
@@ -155,10 +156,49 @@ write_planet_texture_metadata = (output_dir) -> ([land_manifest, planet_tile_ima
       write_promises.push new Promise (write_done) -> fs.writeFile(metadata_file, JSON.stringify(json), (error, value) -> write_done([planet, metadata_file]))
 
     Promise.all(write_promises).then (result_paths) ->
-      console.log "land metadata for planet #{planet} saved to #{path}" for [planet, path] in result_paths
-      done([land_manifest, planet_tile_images, planet_texture_index_file])
+      console.log "land metadata for planet #{planet} saved to #{file_path}" for [planet, file_path] in result_paths
+      process.stdout.write '\n'
+      done(land_manifest)
+
+write_map_images = (output_dir) -> (map_images) ->
+  new Promise (done) ->
+    write_promises = []
+    for image in map_images
+      converted_image = new Jimp(image.image.bitmap.width, image.image.bitmap.height)
+      image.image.scan(0, 0, image.image.bitmap.width, image.image.bitmap.height, (x, y, idx) ->
+        red = this.bitmap.data[idx + 2] # red and blue are flipped?
+        green = this.bitmap.data[idx + 1]
+        blue  = this.bitmap.data[idx + 0] # red and blue are flipped?
+        alpha = this.bitmap.data[idx + 3]
+        return if red == 0 && green == 0 && blue == 255
+
+        converted_image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
+      )
+
+      texture_file = path.join(output_dir, "#{image.name.toLowerCase()}.texture.map.png")
+      console.log "map texture for planet #{image.name} saved to #{texture_file}"
+      write_promises.push converted_image.write(texture_file)
+
+    Promise.all(write_promises).then (result) ->
+      process.stdout.write '\n'
+      done([map_images])
 
 
+combine_land = (land, target_dir) ->
+  new Promise (done) ->
+    LandManifest.load(land_dir)
+      .then(aggregate_textures_by_planet)
+      .then(determine_planet_textures_packing)
+      .then(pack_planet_textures)
+      .then(write_planet_texture_images(target_dir))
+      .then(write_planet_texture_metadata(target_dir))
+      .then(done)
+
+combine_maps = (maps_dir, target_dir) -> (land_manifest) ->
+  new Promise (done) ->
+    MapImage.load(maps_dir)
+      .then(write_map_images(target_dir))
+      .then(done)
 
 
 console.log "\n===============================================================================\n"
@@ -178,14 +218,11 @@ console.log "output directory: #{target_dir}"
 console.log "\n-------------------------------------------------------------------------------\n"
 
 land_dir = path.join(source_dir, 'land')
+maps_dir = path.join(source_dir, 'maps')
 
-LandManifest.load(land_dir)
-  .then(aggregate_textures_by_planet)
-  .then(determine_planet_textures_packing)
-  .then(pack_planet_textures)
-  .then(write_planet_texture_images(target_dir))
-  .then(write_planet_texture_metadata(target_dir))
-  .then((land_manifest) ->
+combine_land(land_dir, target_dir)
+  .then(combine_maps(maps_dir, target_dir))
+  .then(() ->
     console.log "\nfinished successfully, thank you for using combine-textures.js!"
   )
   .catch((error) ->

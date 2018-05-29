@@ -11,7 +11,7 @@ FileUtils = require('../utils/file-utils')
 class MapImage
 
   constructor: (@path, @image) ->
-
+    @name = path.basename(@path).replace('.bmp', '')
 
   colors: () ->
     colors = {}
