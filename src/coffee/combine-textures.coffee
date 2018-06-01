@@ -12,6 +12,8 @@ MapImage = require('./maps/map-image')
 
 Utils = require('./utils/utils')
 
+TEXTURE_WIDTH = 2048
+TEXTURE_HEIGHT = 2048
 
 # FIXME: TODO: add other planets
 PLANETS = new Set(['earth'])
@@ -64,7 +66,7 @@ determine_planet_textures_packing = ([land_manifest, planet_tile_images, planet_
       to_pack = planet_textures_to_pack[planet]
 
       while to_pack.length
-        rbp.solveSync({w: 1024, h: 1024}, to_pack)
+        rbp.solveSync({w: TEXTURE_WIDTH, h: TEXTURE_HEIGHT}, to_pack)
         packed_until = _.findIndex(to_pack, (texture) -> !texture.x? || !texture.y?)
         packed_until = to_pack.length if packed_until < 0
         planet_texture_groups[planet].push to_pack.slice(0, packed_until)
@@ -82,7 +84,7 @@ pack_planet_textures = ([land_manifest, planet_tile_images, planet_texture_group
       planet_textures[planet] = [] unless planet_textures[planet]?
 
       for group in planet_texture_groups[planet]
-        image = new Jimp(1024, 1024)
+        image = new Jimp(TEXTURE_WIDTH, TEXTURE_HEIGHT)
 
         for tile_image in group
           tile_image.texture_index = planet_textures[planet].length
