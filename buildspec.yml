@@ -6,13 +6,12 @@ phases:
       - echo Entered the install phase...
       - npm update -g npm
       - npm install -g grunt-cli
-      - rpm -ivh yum
-      - yum install -y Xvfb
+      - apt-get install -y Xvfb
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev
       - npm install
+      - apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev
   build:
     commands:
       - echo Entered the build phase...
