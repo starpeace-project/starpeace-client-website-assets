@@ -79,19 +79,23 @@ module.exports = function(grunt) {
       combine_textures: {
         exec: 'node build/combine-textures.js src/images build/public'
       },
+      animate_planets: {
+        exec: 'node build/generate-planet-animations.js src/images build/public'
+      },
       server: {
         exec: 'node build/server.js'
       }
     }
   });
 
-  grunt.registerTask('build', ['clean', 'coffee:compile']);
+  grunt.registerTask('build', ['coffee:compile']);
   grunt.registerTask('build_server', ['clean', 'sass', 'cssmin', 'coffee:asset_compile', 'uglify', 'haml']);
 
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('cleanup', ['build', 'run:cleanup_textures']);
   grunt.registerTask('combine', ['build', 'run:combine_textures']);
+  grunt.registerTask('animate_planets', ['build', 'run:animate_planets']);
 
-  grunt.registerTask('default', ['build', 'combine']);
+  grunt.registerTask('default', ['clean', 'build', 'combine', 'animate_planets']);
   grunt.registerTask('server', ['build_server', 'coffee:compile', 'run:server']);
 }

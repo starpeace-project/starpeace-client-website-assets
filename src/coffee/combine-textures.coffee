@@ -4,7 +4,7 @@ fs = require('fs-extra')
 
 _ = require('lodash')
 Jimp = require('jimp')
-readlineSync = require('readline-sync')
+sharp = require('sharp')
 rbp = require('rectangle-bin-pack')
 
 LandManifest = require('./land/land-manifest')
@@ -88,7 +88,6 @@ pack_planet_textures = ([land_manifest, planet_tile_images, planet_texture_group
 
         for tile_image in group
           tile_image.texture_index = planet_textures[planet].length
-
           tile_image.image.image.scan(0, 0, tile_image.image.image.bitmap.width, tile_image.image.image.bitmap.height, (x, y, idx) ->
             red = this.bitmap.data[idx + 2] # red and blue are flipped?
             green = this.bitmap.data[idx + 1]
@@ -110,7 +109,7 @@ write_planet_texture_images = (output_dir) -> ([land_manifest, planet_tile_image
     for planet,textures of planet_textures
       planet_texture_index_file[planet] = {} unless planet_texture_index_file[planet]?
       for texture,index in textures
-        planet_texture_index_file[planet][index] = "#{planet}.texture.land.#{index}.png"
+        planet_texture_index_file[planet][index] = "land.#{planet}.texture.#{index}.png"
         texture_file = path.join(output_dir, planet_texture_index_file[planet][index])
 
         console.log "land texture for planet #{planet} saved to #{texture_file}"
@@ -154,7 +153,7 @@ write_planet_texture_metadata = (output_dir) -> ([land_manifest, planet_tile_ima
               texture_land_image: planet_texture_index_file[planet][tile_data.texture_index]
             }
 
-      metadata_file = path.join(output_dir, "#{planet}.metadata.land.json")
+      metadata_file = path.join(output_dir, "land.#{planet}.metadata.json")
       write_promises.push new Promise (write_done) -> fs.writeFile(metadata_file, JSON.stringify(json), (error, value) -> write_done([planet, metadata_file]))
 
     Promise.all(write_promises).then (result_paths) ->
@@ -166,24 +165,39 @@ write_map_images = (output_dir) -> (map_images) ->
   new Promise (done) ->
     write_promises = []
     for image in map_images
-      converted_image = new Jimp(image.image.bitmap.width, image.image.bitmap.height)
-      image.image.scan(0, 0, image.image.bitmap.width, image.image.bitmap.height, (x, y, idx) ->
-        red = this.bitmap.data[idx + 2] # red and blue are flipped?
-        green = this.bitmap.data[idx + 1]
-        blue  = this.bitmap.data[idx + 0] # red and blue are flipped?
-        alpha = this.bitmap.data[idx + 3]
-        return if red == 0 && green == 0 && blue == 255
-
-        converted_image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
-      )
-
-      texture_file = path.join(output_dir, "#{image.name.toLowerCase()}.texture.map.png")
-      console.log "map texture for planet #{image.name} saved to #{texture_file}"
-      write_promises.push converted_image.write(texture_file)
+      write_promises.push new Promise (write_done, write_error) ->
+        do (image) ->
+          sharp(Buffer.from(image.image.bitmap.data), {
+            raw: {
+              width: image.image.bitmap.width
+              height: image.image.bitmap.height
+              channels: 4
+            }
+          })
+          .resize(1024, 1024)
+          .toBuffer()
+          .then (buffer) ->
+            for index in [0...(buffer.length / 4)]
+              b = buffer[index * 4 + 0]
+              buffer[index * 4 + 0] = buffer[index * 4 + 2]
+              buffer[index * 4 + 2] = b
+              true
+    
+            output_file_path = path.join(output_dir, "map.#{image.name.toLowerCase()}.texture.png")
+            sharp(buffer, {
+              raw: {
+                width: 1024
+                height: 1024
+                channels: 4
+              }
+            })
+            .toFile(output_file_path, (err, info) ->
+              console.log "map saved to #{output_file_path}"
+              write_done(info)
+            )
 
     Promise.all(write_promises).then (result) ->
-      process.stdout.write '\n'
-      done([map_images])
+      done([result])
 
 
 combine_land = (land, target_dir) ->
