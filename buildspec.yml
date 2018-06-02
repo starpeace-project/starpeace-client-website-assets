@@ -4,9 +4,10 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
-      - yum install -y Xvfb
       - npm update -g npm
       - npm install -g grunt-cli
+      - rpm -ivh yum
+      - yum install -y Xvfb
   pre_build:
     commands:
       - echo Entered the pre_build phase...
