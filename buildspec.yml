@@ -7,7 +7,7 @@ phases:
       - npm update -g npm
       - npm install -g grunt-cli
       - apt-get update
-      - apt-get install xvfb
+      - apt-get install -y xvfb
   pre_build:
     commands:
       - echo Entered the pre_build phase...
