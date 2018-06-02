@@ -5,112 +5,95 @@ fs = require('fs-extra')
 _ = require('lodash')
 readlineSync = require('readline-sync')
 
-LandManifest = require('./land/land-manifest')
+LandMetadataManifest = require('./land/metadata/land-metadata-manifest')
+LandTextureManifest = require('./land/texture/land-texture-manifest')
+LandManifestValidation = require('./land/land-manifest-validation')
+
 MapImage = require('./maps/map-image')
 MapAudit = require('./maps/map-audit')
 
 Utils = require('./utils/utils')
 
 
-reformat_metadata_manifest = (land_manifest) ->
-  new Promise (done) ->
-    console.log "\n-------------------------------------------------------------------------------\n"
+load_land_manifest = (land_dir) ->
+  new Promise (done, error) ->
+    Promise.all([LandMetadataManifest.load(land_dir), LandTextureManifest.load(land_dir)])
+      .then ([metadata_manifest, texture_manifest]) ->
+        done([metadata_manifest, texture_manifest, new LandManifestValidation(metadata_manifest, texture_manifest)])
+      .catch error
 
-    console.log "\n#{if land_manifest.warnings.metadata.rename_key.warning_count then '' else 'all '}#{land_manifest.warnings.metadata.rename_key.safe_count} tile metadata entries have well-formatted keys"
-    if land_manifest.warnings.metadata.rename_key.warning_count
-      console.log "#{land_manifest.warnings.metadata.rename_key.warning_count} tile metadata entries have poor formatted keys\n"
-      if readlineSync.keyInYN('would you like to try reformatting metadata keys?')
+fix_land_manifest_missing_texture_keys = ([metadata_manifest, texture_manifest, validation]) ->
+  new Promise (done) ->
+    console.log "\n#{if validation.warnings.metadata.missing_texture_keys.warning_count then '' else 'all '}#{validation.warnings.metadata.missing_texture_keys.safe_count} tile metadata entries have well-formatted texture keys for all orientations"
+    if validation.warnings.metadata.missing_texture_keys.warning_count
+      console.log "#{validation.warnings.metadata.missing_texture_keys.warning_count} tile metadata entries are missing texture orientations keys\n"
+      if readlineSync.keyInYN('would you like to try populating texture orientation keys?')
         process.stdout.write '\n'
 
-        old_key_new_keys = _.omit(land_manifest.warnings.metadata.rename_key, ['safe_count', 'warning_count'])
-        for tile in land_manifest.metadata_tiles
-          tile.path = old_key_new_keys[tile.path] if old_key_new_keys[tile.path]
+        for tile in metadata_manifest.all_tiles
+          tile.populate_texture_keys() if tile.missing_texture_keys().length
 
-        data = JSON.stringify(_.map(land_manifest.metadata_tiles, (tile) -> tile.to_json()), null, 2)
+        data = JSON.stringify(_.map(metadata_manifest.all_tiles, (tile) -> tile.to_json()), null, 2)
         fs.writeFile(path.join(land_dir, 'manifest.json'), data, 'utf8', (err, write_done) ->
           throw err if err
           console.log "\nfinished writing updated metadata file"
-          done(land_manifest)
+          done([metadata_manifest, texture_manifest, validation])
         )
       else
         process.stdout.write '\n'
-        done(land_manifest)
+        done([metadata_manifest, texture_manifest, validation])
     else
-      done(land_manifest)
+      done([metadata_manifest, texture_manifest, validation])
 
-fix_land_manifest_missing_image_keys = (land_manifest) ->
+rename_texture_filenames = ([metadata_manifest, texture_manifest, validation]) ->
   new Promise (done) ->
-    console.log "\n#{if land_manifest.warnings.metadata.missing_image_keys.warning_count then '' else 'all '}#{land_manifest.warnings.metadata.missing_image_keys.safe_count} tile metadata entries have well-formatted image keys for all orientations"
-    if land_manifest.warnings.metadata.missing_image_keys.warning_count
-      console.log "#{land_manifest.warnings.metadata.missing_image_keys.warning_count} tile metadata entries are missing image orientations keys\n"
-      if readlineSync.keyInYN('would you like to try populating image orientation keys?')
+    console.log "\n#{if validation.warnings.texture.rename_key.warning_count then '' else 'all '}#{validation.warnings.texture.rename_key.safe_count} texture entries have well-formatted keys"
+    if validation.warnings.texture.rename_key.warning_count
+      console.log "#{validation.warnings.texture.rename_key.warning_count} texture entries have poor formatted keys (filenames)"
+      if readlineSync.keyInYN('would you like to try renaming texture file names?')
         process.stdout.write '\n'
 
-        for tile in land_manifest.metadata_tiles
-          tile.populate_image_keys() if tile.missing_image_keys().length
-
-        data = JSON.stringify(_.map(land_manifest.metadata_tiles, (tile) -> tile.to_json()), null, 2)
-        fs.writeFile(path.join(land_dir, 'manifest.json'), data, 'utf8', (err, write_done) ->
-          throw err if err
-          console.log "\nfinished writing updated metadata file"
-          done(land_manifest)
-        )
-      else
-        process.stdout.write '\n'
-        done(land_manifest)
-    else
-      done(land_manifest)
-
-rename_image_filenames = (land_manifest) ->
-  new Promise (done) ->
-    console.log "\n#{if land_manifest.warnings.image.rename_key.warning_count then '' else 'all '}#{land_manifest.warnings.image.rename_key.safe_count} image entries have well-formatted keys"
-    if land_manifest.warnings.image.rename_key.warning_count
-      console.log "#{land_manifest.warnings.image.rename_key.warning_count} image entries have poor formatted keys (filenames)"
-      if readlineSync.keyInYN('would you like to try renaming image file names?')
-        process.stdout.write '\n'
-
-        for image in land_manifest.land_images
-          safe_key = image.key.safe_image_key()
-          if image.key.valid() && safe_key != path.basename(image.file_path)
-            source_file = path.join(image.directory, image.file_path)
-            target_file = path.join(image.directory, path.dirname(image.file_path), safe_key)
+        for texture in land_manifest.land_images
+          safe_key = texture.key.safe_image_key()
+          if texture.key.valid() && safe_key != path.basename(texture.file_path)
+            source_file = path.join(texture.directory, texture.file_path)
+            target_file = path.join(texture.directory, path.dirname(texture.file_path), safe_key)
             fs.renameSync(source_file, target_file)
             console.log "renamed #{source_file} to #{target_file}"
 
-        done(land_manifest)
+        done([metadata_manifest, texture_manifest, validation])
       else
         process.stdout.write '\n'
-        done(land_manifest)
+        done([metadata_manifest, texture_manifest, validation])
     else
-      done(land_manifest)
+      done([metadata_manifest, texture_manifest, validation])
 
-move_unbound_images = (legacy_dir) ->
-  (land_manifest) ->
+move_unbound_textures = (legacy_dir) ->
+  ([metadata_manifest, texture_manifest, validation]) ->
     new Promise (done) ->
-      
-      if land_manifest.warnings.image.unbound_land_images.length
-        console.log "#{land_manifest.warnings.image.unbound_land_images.length} land images are missing tile metadata\n"
-        if readlineSync.keyInYN('would you like to try moving images to legacy directory?')
+      if validation.warnings.texture.unbound_land_textures.length
+        console.log "#{validation.warnings.texture.unbound_land_textures.length} land textures are missing tile metadata\n"
+        if readlineSync.keyInYN('would you like to try moving textures to legacy directory?')
           process.stdout.write '\n\n'
 
-          for image_key in land_manifest.warnings.image.unbound_land_images.sort()
-            for image in land_manifest.image_key_images[image_key]
-              source_file = path.join(image.directory, image.file_path)
-              target_file = path.join(legacy_dir, path.dirname(image.file_path), image_key)
+          for texture_key in validation.warnings.texture.unbound_land_textures.sort()
+            for texture in land_manifest.texture_key_textures[texture_key]
+              source_file = path.join(texture.directory, texture.file_path)
+              target_file = path.join(legacy_dir, path.dirname(texture.file_path), texture_key)
               if fs.existsSync(target_file)
-                console.log "cannot move image, file already at target #{target_file}"
+                console.log "cannot move texture, file already at target #{target_file}"
               else
                 fs.mkdirsSync(path.dirname(target_file))
                 fs.renameSync(source_file, target_file)
                 console.log "moved #{source_file} to #{target_file}"
 
-          done(land_manifest)
+          done([metadata_manifest, texture_manifest, validation])
         else
           process.stdout.write '\n'
-          done(land_manifest)
+          done([metadata_manifest, texture_manifest, validation])
       else
-        console.log "all land images have tile metadata"
-        done(land_manifest)
+        console.log "all land textures have tile metadata"
+        done([metadata_manifest, texture_manifest, validation])
 
 
 console.log "\n===============================================================================\n"
@@ -132,12 +115,11 @@ console.log "\n-----------------------------------------------------------------
 
 land_dir = path.join(source_dir, 'land')
 
-LandManifest.load(land_dir)
-  .then(reformat_metadata_manifest)
-  .then(fix_land_manifest_missing_image_keys)
-  .then(rename_image_filenames)
-  .then(move_unbound_images(legacy_dir))
-  .then((land_manifest) ->
+load_land_manifest(land_dir)
+  .then(fix_land_manifest_missing_texture_keys)
+  .then(rename_texture_filenames)
+  .then(move_unbound_textures(legacy_dir))
+  .then(([metadata_manifest, texture_manifest, validation]) ->
     console.log "\nfinished successfully, thank you for using cleanup-textures.js!"
   )
   .catch((error) ->

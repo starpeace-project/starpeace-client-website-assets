@@ -5,12 +5,16 @@ fs = require('fs-extra')
 _ = require('lodash')
 Jimp = require('jimp')
 sharp = require('sharp')
-rbp = require('rectangle-bin-pack')
 
-LandManifest = require('./land/land-manifest')
+LandMetadataManifest = require('./land/metadata/land-metadata-manifest')
+LandTextureManifest = require('./land/texture/land-texture-manifest')
+LandSpritesheet = require('./land/texture/land-spritesheet')
+
 MapImage = require('./maps/map-image')
 
 Utils = require('./utils/utils')
+
+DEBUG_MODE = false
 
 TEXTURE_WIDTH = 2048
 TEXTURE_HEIGHT = 2048
@@ -21,145 +25,88 @@ PLANETS = new Set(['earth'])
 ORIENTATIONS = new Set(['0deg'])
 
 
-aggregate_textures_by_planet = (land_manifest) ->
+aggregate_by_planet = ([metadata_manifest, texture_manifest]) ->
+  new Promise (done, error) ->
+    metadata_by_planet = {}
+    textures_by_planet = {}
+
+    for tile in metadata_manifest.all_tiles
+      metadata_by_planet[tile.planet_type] ||= []
+      metadata_by_planet[tile.planet_type].push tile
+
+    for texture in texture_manifest.all_textures
+      textures_by_planet[texture.planet_type] ||= []
+      textures_by_planet[texture.planet_type].push texture
+
+    metadata_planet_keys = Object.keys(metadata_by_planet)
+    texture_planet_keys = Object.keys(textures_by_planet)
+    error("metadata and textures planets different: #{metadata_planet_keys} vs #{texture_planet_keys}") unless _.intersection(metadata_planet_keys, texture_planet_keys).length == metadata_planet_keys.length
+
+    console.log "found #{Object.keys(metadata_by_planet).length} planets: #{metadata_planet_keys}\n"
+    done([metadata_by_planet, textures_by_planet])
+
+pack_planet_textures = ([metadata_by_planet, textures_by_planet]) ->
   new Promise (done) ->
-    planet_tile_images = {}
-    planet_textures_to_pack = {}
+    compiled_metadata_by_planet = {}
+    spritesheets_by_planet = {}
+    for planet_type,textures of textures_by_planet
+      compiled_metadata_by_planet[planet_type] = {}
+      texture_key_seasons = {}
+      for texture in textures
+        texture_key = texture.key()
+        texture_key_seasons[texture_key] ||= {}
+        texture_key_seasons[texture_key][texture.season] = texture
 
-    for tile in land_manifest.metadata_tiles
-      for orientation in Object.keys(tile.image_keys)
-        continue unless ORIENTATIONS.has(orientation)
-        image_key = tile.image_keys[orientation]
-        for image in (land_manifest.image_key_images[image_key.safe_image_key()] || [])
-          planet = image.planet()
-          continue unless PLANETS.has(planet)
-          season = image.season()
+      metadata_texture_keys = new Set()
+      for tile in metadata_by_planet[planet_type]
+        for orientation,type_texture_key of tile.textures_by_orientation_type
+          continue unless ORIENTATIONS.has(orientation)
+          compiled_metadata = compiled_metadata_by_planet[planet_type][tile.key()] = tile.to_compiled_json()
 
-          data_to_pack = {
-            id: tile.id
-            tile: tile
-            image: image
-            w: image.image.bitmap.width
-            h: image.image.bitmap.height
-          }
+          for season in Object.keys(texture_key_seasons[type_texture_key.key] || {})
+            if tile.seasons.has(season)
+              spritesheet_key = texture_key_seasons[type_texture_key.key][season].key_for_spritesheet()
+              compiled_metadata.textures ||= {}
+              compiled_metadata.textures[orientation] ||= {}
+              compiled_metadata.textures[orientation][season] ||= {}
+              compiled_metadata.textures[orientation][season][type_texture_key.type] = spritesheet_key
+              metadata_texture_keys.add spritesheet_key
 
-          planet_tile_images[planet] = {} unless planet_tile_images[planet]?
-          planet_tile_images[planet][orientation] = {} unless planet_tile_images[planet][orientation]?
-          planet_tile_images[planet][orientation][season] = {} unless planet_tile_images[planet][orientation][season]?
-          planet_tile_images[planet][orientation][season][tile.id] = data_to_pack
+      spritesheets_by_planet[planet_type] = LandSpritesheet.pack_textures(planet_type, textures, metadata_texture_keys)
 
-          planet_textures_to_pack[planet] = [] unless planet_textures_to_pack[planet]?
-          planet_textures_to_pack[planet].push data_to_pack
+    done([compiled_metadata_by_planet, spritesheets_by_planet])
 
-    console.log "found and aggregated #{Object.keys(planet_textures_to_pack).length} planets"
-    for planet,textures of planet_textures_to_pack
-      console.log "found and aggregated #{textures.length} land images for planet #{planet}"
-
-    process.stdout.write '\n'
-    done([land_manifest, planet_tile_images, planet_textures_to_pack])
-
-determine_planet_textures_packing = ([land_manifest, planet_tile_images, planet_textures_to_pack]) ->
-  new Promise (done) ->
-    planet_texture_groups = {}
-    for planet in Object.keys(planet_textures_to_pack)
-      planet_texture_groups[planet] = [] unless planet_texture_groups[planet]?
-      to_pack = planet_textures_to_pack[planet]
-
-      while to_pack.length
-        rbp.solveSync({w: TEXTURE_WIDTH, h: TEXTURE_HEIGHT}, to_pack)
-        packed_until = _.findIndex(to_pack, (texture) -> !texture.x? || !texture.y?)
-        packed_until = to_pack.length if packed_until < 0
-        planet_texture_groups[planet].push to_pack.slice(0, packed_until)
-        to_pack = to_pack.slice(packed_until)
-
-      console.log "land images for planet #{planet} can be combined into #{planet_texture_groups[planet].length} textures"
-
-    process.stdout.write '\n'
-    done([land_manifest, planet_tile_images, planet_texture_groups])
-
-pack_planet_textures = ([land_manifest, planet_tile_images, planet_texture_groups]) ->
-  new Promise (done) ->
-    planet_textures = {}
-    for planet in Object.keys(planet_texture_groups)
-      planet_textures[planet] = [] unless planet_textures[planet]?
-
-      for group in planet_texture_groups[planet]
-        image = new Jimp(TEXTURE_WIDTH, TEXTURE_HEIGHT)
-
-        for tile_image in group
-          tile_image.texture_index = planet_textures[planet].length
-          tile_image.image.image.scan(0, 0, tile_image.image.image.bitmap.width, tile_image.image.image.bitmap.height, (x, y, idx) ->
-            red = this.bitmap.data[idx + 2] # red and blue are flipped?
-            green = this.bitmap.data[idx + 1]
-            blue  = this.bitmap.data[idx + 0] # red and blue are flipped?
-            alpha = this.bitmap.data[idx + 3]
-            return if red == 0 && green == 0 && blue == 255
-
-            image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x + tile_image.x, y + tile_image.y)
-          )
-
-        planet_textures[planet].push image
-
-    done([land_manifest, planet_tile_images, planet_textures])
-
-write_planet_texture_images = (output_dir) -> ([land_manifest, planet_tile_images, planet_textures]) ->
+write_planet_assets = (output_dir) -> ([compiled_metadata_by_planet, spritesheets_by_planet]) ->
   new Promise (done) ->
     write_promises = []
-    planet_texture_index_file = {}
-    for planet,textures of planet_textures
-      planet_texture_index_file[planet] = {} unless planet_texture_index_file[planet]?
-      for texture,index in textures
-        planet_texture_index_file[planet][index] = "land.#{planet}.texture.#{index}.png"
-        texture_file = path.join(output_dir, planet_texture_index_file[planet][index])
 
-        console.log "land texture for planet #{planet} saved to #{texture_file}"
-        write_promises.push texture.write(texture_file)
+    for planet_type,compiled_metadata of compiled_metadata_by_planet
+      metadata_file = path.join(output_dir, "land.#{planet_type}.metadata.json")
+      fs.mkdirsSync(path.dirname(metadata_file))
+      fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(compiled_metadata, null, 2) else JSON.stringify(compiled_metadata))
+      console.log "land metadata for planet #{planet_type} saved to #{metadata_file}"
+
+    texture_file_names = []
+    for planet_type,spritesheets of spritesheets_by_planet
+      json = {}
+      for spritesheet in spritesheets
+        texture_name = spritesheet.texture_file_name()
+        texture_file_names.push texture_name
+        texture_file = path.join(output_dir, texture_name)
+        fs.mkdirsSync(path.dirname(texture_file))
+        console.log "land texture for planet #{planet_type} saved to #{texture_file}"
+        write_promises.push spritesheet.render_to_texture().write(texture_file)
+        json["./#{texture_name}"] = spritesheet.data_json()
+
+      spritesheet_atlas = path.join(output_dir, "land.#{planet_type}.atlas.json")
+      fs.mkdirsSync(path.dirname(spritesheet_atlas))
+      fs.writeFileSync(spritesheet_atlas, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
+      console.log "land spritesheet atlas for planet #{planet_type} saved to #{spritesheet_atlas}"
 
     Promise.all(write_promises).then (result) ->
       process.stdout.write '\n'
-      done([land_manifest, planet_tile_images, planet_texture_index_file])
+      done([compiled_metadata_by_planet, texture_file_names])
 
-write_planet_texture_metadata = (output_dir) -> ([land_manifest, planet_tile_images, planet_texture_index_file]) ->
-  new Promise (done) ->
-    write_promises = []
-    for planet,images of planet_tile_images
-      json = {
-        planet: planet
-        texture_land_images: _.values(planet_texture_index_file[planet])
-        definitions: {}
-        orientations: {}
-      }
-
-      for tile in land_manifest.metadata_tiles
-        json.definitions[tile.id] = {
-          id: tile.id
-          map_color: tile.map_color
-          zone: tile.key.zone
-          variant: tile.key.variant
-        }
-
-      for orientation,tiles of planet_tile_images[planet]
-        json.orientations[orientation] = {}
-        for season,season_tiles of tiles
-          json.orientations[orientation][season] = {} unless json.orientations[orientation][season]?
-          for tile_id,tile_data of season_tiles
-            json.orientations[orientation][season][tile_data.id] = {
-              id: tile_id
-              type: tile_data.tile.key.type
-              w: tile_data.w
-              h: tile_data.h
-              x: tile_data.x
-              y: tile_data.y
-              texture_land_image: planet_texture_index_file[planet][tile_data.texture_index]
-            }
-
-      metadata_file = path.join(output_dir, "land.#{planet}.metadata.json")
-      write_promises.push new Promise (write_done) -> fs.writeFile(metadata_file, JSON.stringify(json), (error, value) -> write_done([planet, metadata_file]))
-
-    Promise.all(write_promises).then (result_paths) ->
-      console.log "land metadata for planet #{planet} saved to #{file_path}" for [planet, file_path] in result_paths
-      process.stdout.write '\n'
-      done(land_manifest)
 
 write_map_images = (output_dir) -> (map_images) ->
   new Promise (done) ->
@@ -200,15 +147,19 @@ write_map_images = (output_dir) -> (map_images) ->
       done([result])
 
 
-combine_land = (land, target_dir) ->
-  new Promise (done) ->
-    LandManifest.load(land_dir)
-      .then(aggregate_textures_by_planet)
-      .then(determine_planet_textures_packing)
+load_land_manifest = (land_dir) ->
+  new Promise (done, error) ->
+    Promise.all([LandMetadataManifest.load(land_dir), LandTextureManifest.load(land_dir)])
+      .then done
+      .catch error
+
+combine_land = (target_dir) -> ([metadata_manifest, texture_manifest]) ->
+  new Promise (done, error) ->
+    aggregate_by_planet([metadata_manifest, texture_manifest])
       .then(pack_planet_textures)
-      .then(write_planet_texture_images(target_dir))
-      .then(write_planet_texture_metadata(target_dir))
+      .then(write_planet_assets(target_dir))
       .then(done)
+      .catch error
 
 combine_maps = (maps_dir, target_dir) -> (land_manifest) ->
   new Promise (done) ->
@@ -236,7 +187,8 @@ console.log "\n-----------------------------------------------------------------
 land_dir = path.join(source_dir, 'land')
 maps_dir = path.join(source_dir, 'maps')
 
-combine_land(land_dir, target_dir)
+load_land_manifest(land_dir)
+  .then(combine_land(target_dir))
   .then(combine_maps(maps_dir, target_dir))
   .then(() ->
     console.log "\nfinished successfully, thank you for using combine-textures.js!"

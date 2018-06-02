@@ -9,10 +9,10 @@ ConsoleProgressUpdater = require('../utils/console-progress-updater')
 FileUtils = require('../utils/file-utils')
 
 class MapAudit
-  constructor: (@land_manifest, @maps) ->
+  constructor: (@metadata_manifest, @maps) ->
 
     @tile_counts_by_color = {}
-    @tile_counts_by_color[tile.map_color] = 0 for tile in @land_manifest.metadata_tiles
+    @tile_counts_by_color[tile.map_color] = 0 for tile in @metadata_manifest.all_tiles
     @missing_colors = {}
 
     progress = new ConsoleProgressUpdater(@maps.length)
@@ -31,10 +31,10 @@ class MapAudit
   unused_tile_colors: () ->
     _.map(_.filter(_.map(@tile_counts_by_color, (count,color) -> [color, count]), (pair) -> pair[1] == 0), '0')
 
-  @audit: (land_manifest, maps) ->
+  @audit: (metadata_manifest, maps) ->
     new Promise((done) ->
       console.log "starting analysis and audit of maps\n"
-      done(new MapAudit(land_manifest, maps))
+      done(new MapAudit(metadata_manifest, maps))
     )
 
 module.exports = MapAudit

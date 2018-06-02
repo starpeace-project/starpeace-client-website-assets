@@ -4,67 +4,79 @@ fs = require('fs')
 
 _ = require('lodash')
 
-LandManifest = require('./land/land-manifest')
+LandMetadataManifest = require('./land/metadata/land-metadata-manifest')
+LandTextureManifest = require('./land/texture/land-texture-manifest')
+LandManifestValidation = require('./land/land-manifest-validation')
+
 MapImage = require('./maps/map-image')
 MapAudit = require('./maps/map-audit')
 
 Utils = require('./utils/utils')
 
-audit_land = ([land_manifest, maps]) ->
+
+load_land_manifest = (land_dir) ->
+  new Promise (done, error) ->
+    Promise.all([LandMetadataManifest.load(land_dir), LandTextureManifest.load(land_dir)])
+      .then done
+      .catch error
+
+audit_land_manifest = ([metadata_manifest, texture_manifest]) ->
   new Promise (done) ->
     console.log "\n-------------------------------------------------------------------------------\n"
 
-    console.log "#{if land_manifest.warnings.metadata.valid_key.warning_count then '' else 'all '}#{land_manifest.warnings.metadata.valid_key.safe_count} tile metadata entries have valid information"
-    if land_manifest.warnings.metadata.valid_key.warning_count
-      console.log "#{land_manifest.warnings.metadata.valid_key.warning_count} tile metadata entries are incomplete"
+    validation = new LandManifestValidation(metadata_manifest, texture_manifest)
+
+    console.log "#{if validation.warnings.metadata.valid_attributes.warning_count then '' else 'all '}#{validation.warnings.metadata.valid_attributes.safe_count} land metadata have valid attributes"
+    if validation.warnings.metadata.valid_attributes.warning_count
+      console.log "#{validation.warnings.metadata.valid_attributes.warning_count} land metadata have incomplete attributes"
       console.log "[WARN] will need to manually adjust 'path' values to correct"
 
-    console.log "\n#{if land_manifest.warnings.metadata.rename_key.warning_count then '' else 'all '}#{land_manifest.warnings.metadata.rename_key.safe_count} tile metadata entries have well-formatted keys"
-    if land_manifest.warnings.metadata.rename_key.warning_count
-      console.log "#{land_manifest.warnings.metadata.rename_key.warning_count} tile metadata entries have poor formatted keys"
+    console.log "\n#{if validation.warnings.metadata.missing_texture_keys.warning_count then '' else 'all '}#{validation.warnings.metadata.missing_texture_keys.safe_count} land metadata have well-formatted texture keys for all orientations"
+    if validation.warnings.metadata.missing_texture_keys.warning_count
+      console.log "#{validation.warnings.metadata.missing_texture_keys.warning_count} land metadata are missing texture orientations keys"
       console.log "[WARN] execute 'grunt cleanup' to attempt to correct"
 
-    console.log "\n#{if land_manifest.warnings.metadata.missing_image_keys.warning_count then '' else 'all '}#{land_manifest.warnings.metadata.missing_image_keys.safe_count} tile metadata entries have well-formatted image keys for all orientations"
-    if land_manifest.warnings.metadata.missing_image_keys.warning_count
-      console.log "#{land_manifest.warnings.metadata.missing_image_keys.warning_count} tile metadata entries are missing image orientations keys"
-      console.log "[WARN] execute 'grunt cleanup' to attempt to correct"
-
-    console.log "\n#{if land_manifest.warnings.image.valid_key.warning_count then '' else 'all '}#{land_manifest.warnings.image.valid_key.safe_count} land images have all information"
-    if land_manifest.warnings.image.valid_key.warning_count
-      console.log "#{land_manifest.warnings.image.valid_key.warning_count} land images are incomplete"
-      console.log "[WARN] will need to manually adjust image file names to correct:"
-      for key,safe_key of _.omit(land_manifest.warnings.image.valid_key, ['safe_count', 'warning_count'])
+    console.log "\n#{if validation.warnings.texture.valid_attributes.warning_count then '' else 'all '}#{validation.warnings.texture.valid_attributes.safe_count} land textures have all attributes"
+    if validation.warnings.texture.valid_attributes.warning_count
+      console.log "#{validation.warnings.texture.valid_attributes.warning_count} land textures have incomplete attributes"
+      console.log "[WARN] will need to manually adjust texture file names to correct:"
+      for key,safe_key of _.omit(validation.warnings.texture.valid_attributes, ['safe_count', 'warning_count'])
         console.log "  #{key} => #{safe_key}"
 
-    console.log "\n#{if land_manifest.warnings.image.rename_key.warning_count then '' else 'all '}#{land_manifest.warnings.image.rename_key.safe_count} land images have well-formatted keys"
-    if land_manifest.warnings.image.rename_key.warning_count
-      console.log "#{land_manifest.warnings.image.rename_key.warning_count} land images have poorly formatted keys"
+    console.log "\n#{if validation.warnings.texture.rename_key.warning_count then '' else 'all '}#{validation.warnings.texture.rename_key.safe_count} land textures have well-formatted keys"
+    if validation.warnings.texture.rename_key.warning_count
+      console.log "#{validation.warnings.texture.rename_key.warning_count} land textures have poorly formatted keys"
       console.log "[WARN] execute 'grunt cleanup' to attempt to correct"
 
-    console.log "\n#{land_manifest.warnings.image.matching_land_images.length} land images have well-formatted tile metadata"
-    if land_manifest.warnings.image.unbound_land_images.length
-      console.log "#{land_manifest.warnings.image.unbound_land_images.length} land images don't have tile metadata, should backfill or remove"
-      for image_key in land_manifest.warnings.image.unbound_land_images.sort()
-        console.log "   #{image_key}"
+    if validation.warnings.texture.unbound_land_textures.length
+      console.log "\n#{validation.warnings.texture.unbound_land_textures.length} land textures don't have tile metadata, should backfill or remove"
+      for texture_key in validation.warnings.texture.unbound_land_textures.sort()
+        console.log "   #{texture_key}"
     else
-      console.log "all land images have tile metadata"
-    console.log "#{land_manifest.warnings.image.missing_land_images.length} tile metadata are missing images, should backfill or remove keys"
-    for image_key in land_manifest.warnings.image.missing_land_images.sort()
-      console.log "   #{image_key}"
+      console.log "\nall land textures have tile metadata"
+    console.log "#{validation.warnings.texture.matching_land_textures.length} land textures are used by tile metadata"
 
-    console.log "\n#{if land_manifest.warnings.image.duplicate_hash.warning_count then '' else 'all '}#{land_manifest.warnings.image.duplicate_hash.safe_count} land images have unique hashes"
-    if land_manifest.warnings.image.duplicate_hash.warning_count
-      console.log "#{land_manifest.warnings.image.duplicate_hash.warning_count} land images duplicate hashes, should remove duplicate content"
-      for hash,keys of _.without(land_manifest.warnings.image.duplicate_hash, ['safe_count', 'warning_count'])
+    console.log "\n#{validation.warnings.texture.missing_land_textures.length} tile metadata are missing textures, should backfill or remove keys"
+    for texture_key in validation.warnings.texture.missing_land_textures.sort()
+      console.log "   #{texture_key}"
+
+    console.log "\n#{if validation.warnings.texture.duplicate_hash.warning_count then '' else 'all '}#{validation.warnings.texture.duplicate_hash.safe_count} land textures have unique hashes"
+    if validation.warnings.texture.duplicate_hash.warning_count
+      console.log "#{validation.warnings.texture.duplicate_hash.warning_count} land textures duplicate hashes, should remove duplicate content"
+      for hash,keys of _.without(validation.warnings.texture.duplicate_hash, ['safe_count', 'warning_count'])
         console.log "   #{hash} => #{keys}"
 
     console.log "\n-------------------------------------------------------------------------------\n"
-    done([land_manifest, maps])
+    done([metadata_manifest, texture_manifest])
 
-
-audit_map = ([land_manifest, maps]) ->
+load_maps = (maps_dir) -> ([metadata_manifest, texture_manifest]) ->
   new Promise (done) ->
-    MapAudit.audit(land_manifest, maps).then((audit) ->
+    MapImage.load(maps_dir).then (maps) ->
+      done([metadata_manifest, texture_manifest, maps])
+
+audit_map = ([metadata_manifest, texture_manifest, maps]) ->
+  new Promise (done) ->
+    MapAudit.audit(metadata_manifest, maps).then((audit) ->
       missing_colors = audit.sorted_missing_colors()
       if missing_colors.length
         console.log "\nmaps include #{missing_colors.length} colors without metadata:"
@@ -77,7 +89,7 @@ audit_map = ([land_manifest, maps]) ->
       if unused_tile_colors.length
         console.log "\n#{unused_tile_colors.length} metadata are not used in any maps, may be superfluous:"
         sorted_tuples = _.map(unused_tile_colors, (color) ->
-          tile = land_manifest.tiles_from_metadata.by_color[color]
+          tile = tiles_from_metadata.tiles_from_metadata.by_color[color]
           [color, tile.path, tile.safe_image_key()]
         ).sort((lhs, rhs) -> lhs[2].localeCompare(rhs[2]))
 
@@ -88,7 +100,7 @@ audit_map = ([land_manifest, maps]) ->
         console.log "\nall tile metadata currently in-use (nothing unused)"
 
       console.log "\n-------------------------------------------------------------------------------\n"
-      done([land_manifest, maps])
+      done([metadata_manifest, texture_manifest, maps])
     )
 
 
@@ -109,10 +121,10 @@ console.log "\n-----------------------------------------------------------------
 land_dir = path.join(source_dir, 'land')
 map_dir = path.join(source_dir, 'maps')
 
-Promise.all([LandManifest.load(land_dir), MapImage.load(map_dir)])
-  .then(audit_land)
+load_land_manifest(land_dir)
+  .then(audit_land_manifest)
+  .then(load_maps(map_dir))
   .then(audit_map)
-
   .then(([land_manifest, maps]) ->
     console.log "\nfinished successfully, thank you for using audit-textures.js!"
   )
