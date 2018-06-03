@@ -14,7 +14,7 @@ MapImage = require('./maps/map-image')
 
 Utils = require('./utils/utils')
 
-DEBUG_MODE = true
+DEBUG_MODE = false
 
 TEXTURE_WIDTH = 2048
 TEXTURE_HEIGHT = 2048
