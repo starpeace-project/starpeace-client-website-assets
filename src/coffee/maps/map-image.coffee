@@ -10,7 +10,7 @@ FileUtils = require('../utils/file-utils')
 
 class MapImage
 
-  constructor: (@path, @image) ->
+  constructor: (@full_path, @path, @image) ->
     @name = path.basename(@path).replace('.bmp', '')
 
   colors: () ->
@@ -31,7 +31,7 @@ class MapImage
         progress = new ConsoleProgressUpdater(images.length)
         maps = _.map(_.zip(image_file_paths, images), (pair) ->
           progress.next()
-          new MapImage(pair[0].substring(map_dir.length + 1), pair[1])
+          new MapImage(pair[0], pair[0].substring(map_dir.length + 1), pair[1])
         )
         console.log "found and loaded #{maps.length} maps\n"
         done(maps)

@@ -123,8 +123,14 @@ write_planet_assets = (output_dir) -> ([compiled_metadata_by_planet, spritesheet
 
 write_map_images = (output_dir) -> (map_images) ->
   new Promise (done) ->
+    fs.mkdirsSync(output_dir)
+
     write_promises = []
     for image in map_images
+      bmp_map_file = path.join(output_dir, "map.#{image.name.toLowerCase()}.texture.bmp")
+      fs.copySync(image.full_path, bmp_map_file)
+      console.log "map #{image.full_path} copied to #{bmp_map_file}"
+
       write_promises.push new Promise (write_done, write_error) ->
         do (image) ->
           sharp(Buffer.from(image.image.bitmap.data), {
@@ -151,6 +157,7 @@ write_map_images = (output_dir) -> (map_images) ->
                 channels: 4
               }
             })
+            .png()
             .toFile(output_file_path, (err, info) ->
               console.log "map saved to #{output_file_path}"
               write_done(info)
