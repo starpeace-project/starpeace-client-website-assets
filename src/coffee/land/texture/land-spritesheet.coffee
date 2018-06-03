@@ -13,6 +13,7 @@ class LandSpritesheet
     console.log "#{@data_to_pack.length} tiles packed into #{@planet_type}.#{@variant}"
 
   texture_file_name: () -> "land.#{@planet_type}.texture.#{@variant}.png"
+  atlas_file_name: () -> "land.#{@planet_type}.atlas.#{@variant}.json"
 
   render_to_texture: () ->
     image = new Jimp(TEXTURE_WIDTH, TEXTURE_HEIGHT)
@@ -31,19 +32,17 @@ class LandSpritesheet
     image
 
   data_json: () ->
-    _.map(@data_to_pack, (data) ->
-      {
-        name: data.key
-        position: {
+    json = {}
+    for data in @data_to_pack
+      json[data.key] = {
+        frame: {
           x: data.x
           y: data.y
-        }
-        dimension: {
           w: data.w
           h: data.h
         }
       }
-    )
+    json
 
   @pack_textures: (planet_type, textures, texture_keys_used) ->
     data_to_pack = []

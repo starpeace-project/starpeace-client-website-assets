@@ -14,7 +14,7 @@ MapImage = require('./maps/map-image')
 
 Utils = require('./utils/utils')
 
-DEBUG_MODE = false
+DEBUG_MODE = true
 
 TEXTURE_WIDTH = 2048
 TEXTURE_HEIGHT = 2048
@@ -80,32 +80,45 @@ write_planet_assets = (output_dir) -> ([compiled_metadata_by_planet, spritesheet
   new Promise (done) ->
     write_promises = []
 
-    for planet_type,compiled_metadata of compiled_metadata_by_planet
-      metadata_file = path.join(output_dir, "land.#{planet_type}.metadata.json")
-      fs.mkdirsSync(path.dirname(metadata_file))
-      fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(compiled_metadata, null, 2) else JSON.stringify(compiled_metadata))
-      console.log "land metadata for planet #{planet_type} saved to #{metadata_file}"
-
-    texture_file_names = []
+    planet_atlas_names = {}
     for planet_type,spritesheets of spritesheets_by_planet
-      json = {}
+      planet_atlas_names[planet_type] = []
       for spritesheet in spritesheets
         texture_name = spritesheet.texture_file_name()
-        texture_file_names.push texture_name
         texture_file = path.join(output_dir, texture_name)
         fs.mkdirsSync(path.dirname(texture_file))
         console.log "land texture for planet #{planet_type} saved to #{texture_file}"
         write_promises.push spritesheet.render_to_texture().write(texture_file)
-        json["./#{texture_name}"] = spritesheet.data_json()
 
-      spritesheet_atlas = path.join(output_dir, "land.#{planet_type}.atlas.json")
-      fs.mkdirsSync(path.dirname(spritesheet_atlas))
-      fs.writeFileSync(spritesheet_atlas, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-      console.log "land spritesheet atlas for planet #{planet_type} saved to #{spritesheet_atlas}"
+        json = {
+          meta: {
+            image: "./#{texture_name}"
+          }
+          frames: spritesheet.data_json()
+        }
+
+        atlas_name = spritesheet.atlas_file_name()
+        planet_atlas_names[planet_type].push "./#{atlas_name}"
+        spritesheet_atlas = path.join(output_dir, atlas_name)
+        fs.mkdirsSync(path.dirname(spritesheet_atlas))
+        fs.writeFileSync(spritesheet_atlas, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
+        console.log "land spritesheet atlas for planet #{planet_type} saved to #{spritesheet_atlas}"
+
+    for planet_type,compiled_metadata of compiled_metadata_by_planet
+      json = {
+        planet_type: planet_type
+        atlas: planet_atlas_names[planet_type]
+        metadata: compiled_metadata
+      }
+
+      metadata_file = path.join(output_dir, "land.#{planet_type}.metadata.json")
+      fs.mkdirsSync(path.dirname(metadata_file))
+      fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
+      console.log "land metadata for planet #{planet_type} saved to #{metadata_file}"
 
     Promise.all(write_promises).then (result) ->
       process.stdout.write '\n'
-      done([compiled_metadata_by_planet, texture_file_names])
+      done([compiled_metadata_by_planet, planet_atlas_names])
 
 
 write_map_images = (output_dir) -> (map_images) ->
