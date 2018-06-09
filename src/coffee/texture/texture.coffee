@@ -1,11 +1,4 @@
 
-path = require('path')
-rbp = require('rectangle-bin-pack')
-
-_ = require('lodash')
-Jimp = require('jimp')
-
-
 class Texture
   constructor: (@image) ->
 
@@ -14,6 +7,4 @@ class Texture
 
   key_for_spritesheet: () -> null
 
-
 module.exports = Texture
-
