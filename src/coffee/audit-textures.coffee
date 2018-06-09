@@ -4,27 +4,28 @@ fs = require('fs')
 
 _ = require('lodash')
 
-LandMetadataManifest = require('./land/metadata/land-metadata-manifest')
-LandTextureManifest = require('./land/texture/land-texture-manifest')
+GroundDefinitionManifest = require('./land/ground/ground-definition-manifest')
+GroundTextureManifest = require('./land/ground/ground-texture-manifest')
+
 LandManifestValidation = require('./land/land-manifest-validation')
 
-MapImage = require('./maps/map-image')
-MapAudit = require('./maps/map-audit')
+MapImage = require('./map/map-image')
+MapAudit = require('./map/map-audit')
 
 Utils = require('./utils/utils')
 
 
 load_land_manifest = (land_dir) ->
   new Promise (done, error) ->
-    Promise.all([LandMetadataManifest.load(land_dir), LandTextureManifest.load(land_dir)])
+    Promise.all([GroundDefinitionManifest.load(land_dir), GroundTextureManifest.load(land_dir)])
       .then done
       .catch error
 
-audit_land_manifest = ([metadata_manifest, texture_manifest]) ->
+audit_land_manifest = ([definition_manifest, texture_manifest]) ->
   new Promise (done) ->
     console.log "\n-------------------------------------------------------------------------------\n"
 
-    validation = new LandManifestValidation(metadata_manifest, texture_manifest)
+    validation = new LandManifestValidation(definition_manifest, texture_manifest)
 
     console.log "#{if validation.warnings.metadata.valid_attributes.warning_count then '' else 'all '}#{validation.warnings.metadata.valid_attributes.safe_count} land metadata have valid attributes"
     if validation.warnings.metadata.valid_attributes.warning_count
@@ -67,16 +68,16 @@ audit_land_manifest = ([metadata_manifest, texture_manifest]) ->
         console.log "   #{hash} => #{keys}"
 
     console.log "\n-------------------------------------------------------------------------------\n"
-    done([metadata_manifest, texture_manifest])
+    done([definition_manifest, texture_manifest])
 
-load_maps = (maps_dir) -> ([metadata_manifest, texture_manifest]) ->
+load_maps = (maps_dir) -> ([definition_manifest, texture_manifest]) ->
   new Promise (done) ->
     MapImage.load(maps_dir).then (maps) ->
-      done([metadata_manifest, texture_manifest, maps])
+      done([definition_manifest, texture_manifest, maps])
 
-audit_map = ([metadata_manifest, texture_manifest, maps]) ->
+audit_map = ([definition_manifest, texture_manifest, maps]) ->
   new Promise (done) ->
-    MapAudit.audit(metadata_manifest, maps).then((audit) ->
+    MapAudit.audit(definition_manifest, maps).then((audit) ->
       missing_colors = audit.sorted_missing_colors()
       if missing_colors.length
         console.log "\nmaps include #{missing_colors.length} colors without metadata:"
@@ -100,7 +101,7 @@ audit_map = ([metadata_manifest, texture_manifest, maps]) ->
         console.log "\nall tile metadata currently in-use (nothing unused)"
 
       console.log "\n-------------------------------------------------------------------------------\n"
-      done([metadata_manifest, texture_manifest, maps])
+      done([definition_manifest, texture_manifest, maps])
     )
 
 

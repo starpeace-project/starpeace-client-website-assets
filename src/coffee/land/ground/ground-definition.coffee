@@ -5,13 +5,10 @@ crypto = require('crypto')
 _ = require('lodash')
 Jimp = require('jimp')
 
-LandTileKey = require('./land-tile-key')
 LandAttributes = require('../land-attributes')
 
-#
-# simple representation of land tile metadata; originally from /LandClasses/*.ini
-#
-class LandTile
+
+class GroundDefinition
 
   constructor: () ->
     @id = Number.NaN
@@ -23,7 +20,7 @@ class LandTile
     @textures_by_orientation_type = {}
 
   key: () ->
-    "land.#{@id.toString().padStart(3, '0')}.#{@zone}"
+    "ground.#{@id.toString().padStart(3, '0')}.#{@zone}"
 
   texture_keys: () ->
    _.map(_.values(@textures_by_orientation_type), (texture) -> texture.key)
@@ -60,7 +57,7 @@ class LandTile
     }
 
   @from_json: (json) ->
-    tile = new LandTile()
+    tile = new GroundDefinition()
     tile.id = json.id
     tile.map_color = json.map_color
     tile.seasons = new Set(json.seasons || [LandAttributes.SEASONS.winter, LandAttributes.SEASONS.spring, LandAttributes.SEASONS.summer, LandAttributes.SEASONS.fall])
@@ -70,5 +67,5 @@ class LandTile
 
     tile
 
-module.exports = LandTile
+module.exports = GroundDefinition
 

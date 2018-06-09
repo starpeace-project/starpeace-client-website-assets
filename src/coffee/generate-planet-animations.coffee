@@ -6,7 +6,7 @@ _ = require('lodash')
 GifEncoder = require('gif-encoder')
 sharp = require('sharp')
 
-PlanetAnimationRenderer = require('./planets/planet-animation-renderer')
+PlanetAnimationRenderer = require('./planet/planet-animation-renderer')
 
 ANIMATION_WIDTH = 128
 ANIMATION_HEIGHT = 128

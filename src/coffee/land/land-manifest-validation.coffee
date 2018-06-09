@@ -64,7 +64,7 @@ class LandManifestValidation
     found_texture_keys = new Set()
     hash_tile = {}
     for texture in texture_manifest.all_textures
-      key = texture.key()
+      key = texture.ideal_file_name()
       found_texture_keys.add key
 
       if texture.has_valid_attributes()
@@ -79,7 +79,7 @@ class LandManifestValidation
         @warnings.texture.valid_attributes.tiles.push texture
 
       existing_texture = hash_tile[texture.hash]
-      existing_texture_key = existing_texture?.key()
+      existing_texture_key = existing_texture?.ideal_file_name()
       if existing_texture && existing_texture_key != key
         diff = Jimp.distance(existing_texture.image, texture.image)
         if diff == 0

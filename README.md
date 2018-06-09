@@ -73,7 +73,7 @@ cleanup-textures.js is executed with grunt ```cleanup``` target and provides aut
 
 ### Combine
 
-combine-textures.js is executed with grunt ```combine``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
+combine-manifest.js is executed with grunt ```combine``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
 
 ## Legacy Assets
 
@@ -85,28 +85,7 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 * land.0.ini - bug fix - flipped MapColor endian value (4358782 or #42827E to 8290882 or #7E8242)
 * border.bmp - refactor - renamed to land.255.border0.bmp
 * border1.bmp - refactor - renamed to land.255.border1.bmp
-* special images - removed for now - unused by any maps and MapColor collisions with each other
-    * special.052.Grass.ini
-    * special.053.Grass.ini
-    * special.054.Grass.ini
-    * special.055.Grass.ini
-    * special.056.Grass.ini
-    * special.057.Grass.ini
-    * special.058.Grass.ini
-    * special.059.Grass.ini
-    * special.060.Grass.ini
-    * special.062.Grass.ini
-    * special.116.MidGrass.ini
-    * special.117.MidGrass.ini
-    * special.118.MidGrass.ini
-    * special.119.MidGrass.ini
-    * special.120.MidGrass.ini
-    * special.180.DryGround.ini
-    * special.181.DryGround.ini
-    * special.182.DryGround.ini
-    * special.183.DryGround.ini
-    * special.184.DryGround.ini
-    * special.185.DryGround.ini
+* special images - refactor - renamed to tree.<zone>.<variant>.bmp
 
 ### Maps
 * Fraternite - renamed - renamed assets to remove special character (é)

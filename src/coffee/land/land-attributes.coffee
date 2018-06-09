@@ -9,6 +9,8 @@ class LandAttributes
     n:'n', e:'e', s:'s', w:'w'
   }
 
+  @VALID_SEASONS: [ LandAttributes.SEASONS.winter, LandAttributes.SEASONS.spring, LandAttributes.SEASONS.summer, LandAttributes.SEASONS.fall ]
+
   @ORIENTATION_ROTATIONS = { '0deg':0, '90deg':1, '180deg':2, '270deg':3 }
   @TYPE_SINGLE_ROTATION = {
     other:'other', special:'special', center:'center',
@@ -54,7 +56,7 @@ class LandAttributes
 
 
   @parse: (value) ->
-    safe_key_match = /land\.(\S+)\.(\S+)\.(\S+)\.(\S+)\.bmp/.exec(value)
+    safe_key_match = /ground\.(\S+)\.(\S+)\.(\S+)\.(\S+)\.bmp/.exec(value)
 
     attributes = {}
     if safe_key_match
@@ -69,9 +71,9 @@ class LandAttributes
       main_content = if parts.length > 2 then parts[2] else parts[0]
 
       attributes.zone = LandAttributes.zone_from_value(main_content)
-      main_content = main_content.replace(new RegExp(key.zone, 'gi'), '')
+      main_content = main_content.replace(new RegExp(attributes.zone, 'gi'), '')
       attributes.type = LandAttributes.type_from_value(main_content)
-      main_content = main_content.replace(new RegExp(key.type, 'gi'), '')
+      main_content = main_content.replace(new RegExp(attributes.type, 'gi'), '')
       attributes.variant = LandAttributes.variant_from_value(main_content)
 
     attributes
