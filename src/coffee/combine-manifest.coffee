@@ -8,7 +8,7 @@ sharp = require('sharp')
 
 CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
-
+CombineStaticNews = require('./combine/combine-static-news')
 
 console.log "\n===============================================================================\n"
 console.log " combine-manifest.js - https://www.starpeace.io\n"
@@ -26,12 +26,15 @@ console.log "output directory: #{target_dir}"
 
 console.log "\n-------------------------------------------------------------------------------\n"
 
-land_dir = path.join(source_dir, 'land')
-maps_dir = path.join(source_dir, 'maps')
+image_dir = path.join(source_dir, 'images')
+land_dir = path.join(image_dir, 'land')
+maps_dir = path.join(image_dir, 'maps')
+news_dir = path.join(source_dir, 'news')
 
 Promise.all([
   CombineLandManifest.combine(land_dir, target_dir),
-  CombineMapManifest.combine(maps_dir, target_dir)
+  CombineMapManifest.combine(maps_dir, target_dir),
+  CombineStaticNews.combine(news_dir, target_dir)
 ])
   .then(() ->
     console.log "\nfinished successfully, thank you for using combine-manifest.js!"

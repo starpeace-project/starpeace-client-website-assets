@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         exec: 'node build/cleanup-textures.js src/images legacy'
       },
       combine_textures: {
-        exec: 'node build/combine-manifest.js src/images build/public'
+        exec: 'node build/combine-manifest.js src build/public'
       },
       animate_planets: {
         exec: 'node build/generate-planet-animations.js src/images build/public'
