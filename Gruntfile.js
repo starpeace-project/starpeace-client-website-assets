@@ -66,6 +66,14 @@ module.exports = function(grunt) {
       }
     },
 
+    copy: {
+      misc_images: {
+        files: [
+          {expand: true, flatten: true, src: ['src/images/misc/*'], dest: 'build/public', filter: 'isFile'}
+        ]
+      }
+    },
+
     run: {
       options: {
         failOnError: true
@@ -88,8 +96,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build', ['coffee:compile']);
-  grunt.registerTask('build_server', ['clean', 'sass', 'cssmin', 'coffee:asset_compile', 'uglify', 'haml']);
+  grunt.registerTask('build', ['coffee:compile', 'copy:misc_images']);
+  grunt.registerTask('build_server', ['clean', 'sass', 'cssmin', 'coffee:asset_compile', 'uglify', 'haml', 'copy:misc_images']);
 
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('cleanup', ['build', 'run:cleanup_textures']);
