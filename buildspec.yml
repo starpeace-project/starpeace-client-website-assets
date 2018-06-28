@@ -7,12 +7,12 @@ phases:
       - npm update -g npm
       - npm install -g grunt-cli
       - apt-get update
-      - apt-get install -y xvfb
+      - apt-get install -y xvfb xi
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - npm install
       - apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev
+      - npm install
   build:
     commands:
       - echo Entered the build phase...
@@ -28,4 +28,3 @@ phases:
 artifacts:
   files:
     - build/public/**/*
-
