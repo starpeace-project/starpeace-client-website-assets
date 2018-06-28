@@ -9,6 +9,12 @@ sharp = require('sharp')
 CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
 CombineStaticNews = require('./combine/combine-static-news')
+CombineBuildingManifest = require('./combine/combine-building-manifest')
+
+SKIP_LAND = false
+SKIP_MAPS = false
+SKIP_NEWS = false
+SKIP_BUILDINGS = false
 
 console.log "\n===============================================================================\n"
 console.log " combine-manifest.js - https://www.starpeace.io\n"
@@ -30,12 +36,15 @@ image_dir = path.join(source_dir, 'images')
 land_dir = path.join(image_dir, 'land')
 maps_dir = path.join(image_dir, 'maps')
 news_dir = path.join(source_dir, 'news')
+buildings_dir = path.join(image_dir, 'buildings')
 
-Promise.all([
-  CombineLandManifest.combine(land_dir, target_dir),
-  CombineMapManifest.combine(maps_dir, target_dir),
-  CombineStaticNews.combine(news_dir, target_dir)
-])
+jobs = []
+jobs.push(CombineLandManifest.combine(land_dir, target_dir)) unless SKIP_LAND
+jobs.push(CombineMapManifest.combine(maps_dir, target_dir)) unless SKIP_MAPS
+jobs.push(CombineStaticNews.combine(news_dir, target_dir)) unless SKIP_NEWS
+jobs.push(CombineBuildingManifest.combine(buildings_dir, target_dir)) unless SKIP_BUILDINGS
+
+Promise.all(jobs)
   .then(() ->
     console.log "\nfinished successfully, thank you for using combine-manifest.js!"
   )
@@ -43,4 +52,3 @@ Promise.all([
     console.log "there was an error during execution:"
     console.log error
   )
-

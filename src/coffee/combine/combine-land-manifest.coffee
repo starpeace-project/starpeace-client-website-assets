@@ -12,7 +12,7 @@ LandManifest = require('../land/land-manifest')
 
 PLANET_TYPES = ['earth']
 
-DEBUG_MODE = true
+DEBUG_MODE = false
 
 
 # FIXME: TODO: add other planets
@@ -40,20 +40,20 @@ write_assets = (output_dir) -> (land_manifests) ->
     for manifest in land_manifests
       atlas_names = []
 
-      for spritesheet,variant in manifest.ground_spritesheets
-        texture_name = "ground.#{manifest.planet_type}.texture.#{variant}.png"
+      for spritesheet in manifest.ground_spritesheets
+        texture_name = "ground.#{manifest.planet_type}.texture.#{spritesheet.index}.png"
         write_promises.push spritesheet.save_texture(output_dir, texture_name, true, false, true)
 
-        atlas_name = "ground.#{manifest.planet_type}.atlas.#{variant}.json"
+        atlas_name = "ground.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
         atlas_names.push "./#{atlas_name}"
 
         spritesheet.save_atlas(output_dir, texture_name, atlas_name)
 
-      for spritesheet,variant in manifest.tree_spritesheets
-        texture_name = "tree.#{manifest.planet_type}.texture.#{variant}.png"
+      for spritesheet in manifest.tree_spritesheets
+        texture_name = "tree.#{manifest.planet_type}.texture.#{spritesheet.index}.png"
         write_promises.push spritesheet.save_texture(output_dir, texture_name, true, true, true)
 
-        atlas_name = "tree.#{manifest.planet_type}.atlas.#{variant}.json"
+        atlas_name = "tree.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
         atlas_names.push "./#{atlas_name}"
 
         spritesheet.save_atlas(output_dir, texture_name, atlas_name)
@@ -89,5 +89,3 @@ class CombineLandManifest
         .catch error
 
 module.exports = CombineLandManifest
-
-

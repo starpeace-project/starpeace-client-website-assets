@@ -35,6 +35,7 @@ class GroundTexture extends Texture
   key_for_spritesheet: () ->
     "#{@season}.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}"
 
+  filter_mode: () -> { blue: true, white: false, grey: true, green: false }
 
   has_valid_attributes: () ->
     @planet_type != LandAttributes.PLANET_TYPES.other && @season != LandAttributes.SEASONS.other &&
@@ -72,7 +73,7 @@ class GroundTexture extends Texture
         g += bitmap_data[index + 1]
         b += bitmap_data[index + 0]
         count += 1
-    ((r / count) << 16) | ((g / count) << 8) | ((b / count) << 0) 
+    ((r / count) << 16) | ((g / count) << 8) | ((b / count) << 0)
 
   @load: (land_dir) ->
     new Promise (fulfill, reject) ->
@@ -91,4 +92,3 @@ class GroundTexture extends Texture
       .catch(reject)
 
 module.exports = GroundTexture
-

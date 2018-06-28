@@ -33,6 +33,8 @@ class TreeTexture extends Texture
   key_for_spritesheet: () ->
     "#{@season}.#{@zone}.#{@variant.toString().padStart(2, '0')}"
 
+  filter_mode: () -> { blue: true, white: true, grey: true, green: false }
+
   @load: (land_dir) ->
     new Promise (fulfill, reject) ->
       console.log "loading tree textures from #{land_dir}\n"
@@ -50,4 +52,3 @@ class TreeTexture extends Texture
       .catch(reject)
 
 module.exports = TreeTexture
-

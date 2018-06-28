@@ -1,0 +1,20 @@
+[
+  {
+    "id": "generic.portal.in",
+    "image": "generic.portal.in.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "generic.portal.out",
+    "image": "generic.portal.out.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.townhall",
+    "image": "pgi.townhall.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  }
+]
