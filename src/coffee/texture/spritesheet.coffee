@@ -44,7 +44,7 @@ class Spritesheet
       }
     json
 
-  save_atlas: (output_dir, texture_name, atlas_name) ->
+  save_atlas: (output_dir, texture_name, atlas_name, debug_mode) ->
     json = {
       meta: {
         image: "./#{texture_name}"
@@ -54,7 +54,7 @@ class Spritesheet
 
     spritesheet_atlas = path.join(output_dir, atlas_name)
     fs.mkdirsSync(path.dirname(spritesheet_atlas))
-    fs.writeFileSync(spritesheet_atlas, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
+    fs.writeFileSync(spritesheet_atlas, if debug_mode then JSON.stringify(json, null, 2) else JSON.stringify(json))
     console.log "spritesheet atlas saved to #{spritesheet_atlas}"
 
   @data_from_texture: (texture, texture_keys_used, swap_rb) ->

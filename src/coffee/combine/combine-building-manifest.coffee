@@ -47,7 +47,7 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
       atlas_name = "building.atlas.#{spritesheet.index}.json"
       atlas_names.push "./#{atlas_name}"
 
-      spritesheet.save_atlas(output_dir, texture_name, atlas_name)
+      spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)
 
       for data in spritesheet.packed_texture_data
         frame_atlas[data.key] = atlas_name

@@ -47,7 +47,7 @@ write_assets = (output_dir) -> (land_manifests) ->
         atlas_name = "ground.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
         atlas_names.push "./#{atlas_name}"
 
-        spritesheet.save_atlas(output_dir, texture_name, atlas_name)
+        spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)
 
       for spritesheet in manifest.tree_spritesheets
         texture_name = "tree.#{manifest.planet_type}.texture.#{spritesheet.index}.png"
@@ -56,7 +56,7 @@ write_assets = (output_dir) -> (land_manifests) ->
         atlas_name = "tree.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
         atlas_names.push "./#{atlas_name}"
 
-        spritesheet.save_atlas(output_dir, texture_name, atlas_name)
+        spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)
 
       json = {
         planet_type: manifest.planet_type
