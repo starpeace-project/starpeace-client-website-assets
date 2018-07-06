@@ -2,19 +2,607 @@
   {
     "id": "generic.portal.in",
     "image": "generic.portal.in.gif",
-    "tile_width": 2,
-    "tile_height": 2
+    "tile_width": 4,
+    "tile_height": 4
   },
   {
     "id": "generic.portal.out",
     "image": "generic.portal.out.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.bar",
+    "image": "pgi.bar.gif",
+    "tile_width": 1,
+    "tile_height": 1
+  },
+  {
+    "id": "pgi.bm.industry",
+    "image": "pgi.bm.industry.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.car.industry",
+    "image": "pgi.car.industry.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.car.store",
+    "image": "pgi.car.store.gif",
     "tile_width": 2,
     "tile_height": 2
   },
   {
-    "id": "pgi.townhall",
-    "image": "pgi.townhall.gif",
+    "id": "pgi.chem.industry",
+    "image": "pgi.chem.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.chemical.small",
+    "image": "pgi.chemical.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.clothes.industry",
+    "image": "pgi.clothes.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.clothing.small",
+    "image": "pgi.clothing.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.computing",
+    "image": "pgi.computing.gif",
     "tile_width": 2,
     "tile_height": 2
+  },
+  {
+    "id": "pgi.const.industry",
+    "image": "pgi.const.industry.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.drug.store",
+    "image": "pgi.drug.store.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.elect.comp",
+    "image": "pgi.elect.comp.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.elect.comp.small",
+    "image": "pgi.elect.comp.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.farm",
+    "image": "pgi.farm.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.farm.small",
+    "image": "pgi.farm.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.fire",
+    "image": "pgi.fire.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.food.proc",
+    "image": "pgi.food.proc.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.food.proc.small",
+    "image": "pgi.food.proc.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.food.store",
+    "image": "pgi.food.store.gif",
+    "tile_width": 1,
+    "tile_height": 1
+  },
+  {
+    "id": "pgi.heavy.industry",
+    "image": "pgi.heavy.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.hha.industry",
+    "image": "pgi.hha.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.hha.industry.small",
+    "image": "pgi.hha.industry.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.hi.res.a.empty",
+    "image": "pgi.hi.res.a.empty.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.hi.res.a",
+    "image": "pgi.hi.res.a.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.hi.res.b.empty",
+    "image": "pgi.hi.res.b.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.by",
+    "image": "pgi.hi.res.b.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.c.empty",
+    "image": "pgi.hi.res.c.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.c",
+    "image": "pgi.hi.res.c.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.d.empty",
+    "image": "pgi.hi.res.d.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.d",
+    "image": "pgi.hi.res.d.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.e.empty",
+    "image": "pgi.hi.res.e.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.e",
+    "image": "pgi.hi.res.e.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.f.empty",
+    "image": "pgi.hi.res.f.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.f",
+    "image": "pgi.hi.res.f.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.g.empty",
+    "image": "pgi.hi.res.g.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.g",
+    "image": "pgi.hi.res.g.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.h.empty",
+    "image": "pgi.hi.res.h.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.h",
+    "image": "pgi.hi.res.h.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.i.empty",
+    "image": "pgi.hi.res.i.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.i",
+    "image": "pgi.hi.res.i.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.j.empty",
+    "image": "pgi.hi.res.j.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hi.res.j",
+    "image": "pgi.hi.res.j.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hospital",
+    "image": "pgi.hospital.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hq.1",
+    "image": "pgi.hq.1.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hq.2",
+    "image": "pgi.hq.2.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hq.3",
+    "image": "pgi.hq.3.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hq.4",
+    "image": "pgi.hq.4.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.hq.5",
+    "image": "pgi.hq.5.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.legal.serv",
+    "image": "pgi.legal.serv.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.a.empty",
+    "image": "pgi.lo.res.a.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.a",
+    "image": "pgi.lo.res.a.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.b.empty",
+    "image": "pgi.lo.res.b.empty.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.lo.res.b",
+    "image": "pgi.lo.res.b.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.lo.res.c.empty",
+    "image": "pgi.lo.res.c.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.c",
+    "image": "pgi.lo.res.c.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.d.empty",
+    "image": "pgi.lo.res.d.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.d",
+    "image": "pgi.lo.res.d.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.e.empty",
+    "image": "pgi.lo.res.e.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.e",
+    "image": "pgi.lo.res.e.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.f.empty",
+    "image": "pgi.lo.res.f.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.lo.res.f",
+    "image": "pgi.lo.res.f.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.market.a",
+    "image": "pgi.market.a.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.market.b",
+    "image": "pgi.market.b.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.market.c",
+    "image": "pgi.market.c.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.metal.industry",
+    "image": "pgi.metal.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.metal.industry.small",
+    "image": "pgi.metal.industry.small.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.mi.res.a.empty",
+    "image": "pgi.mi.res.a.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.a",
+    "image": "pgi.mi.res.a.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.b.empty",
+    "image": "pgi.mi.res.b.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.b",
+    "image": "pgi.mi.res.b.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.c.empty",
+    "image": "pgi.mi.res.c.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.c",
+    "image": "pgi.mi.res.c.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.d.empty",
+    "image": "pgi.mi.res.d.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.d",
+    "image": "pgi.mi.res.d.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.e.empty",
+    "image": "pgi.mi.res.e.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mi.res.e",
+    "image": "pgi.mi.res.e.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.mine",
+    "image": "pgi.mine.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.mine.small",
+    "image": "pgi.mine.small.gif",
+    "tile_width": 3,
+    "tile_height": 3
+  },
+  {
+    "id": "pgi.movie.a",
+    "image": "pgi.movie.a.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.movie.b",
+    "image": "pgi.movie.b.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.a.empty",
+    "image": "pgi.office.a.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.a",
+    "image": "pgi.office.a.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.b.empty",
+    "image": "pgi.office.b.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.b",
+    "image": "pgi.office.b.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.c.empty",
+    "image": "pgi.office.c.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.c",
+    "image": "pgi.office.c.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.d.empty",
+    "image": "pgi.office.d.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.office.d",
+    "image": "pgi.office.d.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.paper.industry",
+    "image": "pgi.paper.industry.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.pharma.industry",
+    "image": "pgi.pharma.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.police",
+    "image": "pgi.police.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.printing.plant",
+    "image": "pgi.printing.plant.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.restaurant",
+    "image": "pgi.restaurant.gif",
+    "tile_width": 1,
+    "tile_height": 1
+  },
+  {
+    "id": "pgi.school",
+    "image": "pgi.school.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.textile.industry",
+    "image": "pgi.textile.industry.gif",
+    "tile_width": 5,
+    "tile_height": 5
+  },
+  {
+    "id": "pgi.textile.industry.small",
+    "image": "pgi.textile.industry.small.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.townhall",
+    "image": "pgi.townhall.gif",
+    "tile_width": 4,
+    "tile_height": 4
+  },
+  {
+    "id": "pgi.tradecenter",
+    "image": "pgi.tradecenter.gif",
+    "tile_width": 2,
+    "tile_height": 2
+  },
+  {
+    "id": "pgi.tv",
+    "image": "pgi.tv.gif",
+    "tile_width": 3,
+    "tile_height": 3
   }
 ]

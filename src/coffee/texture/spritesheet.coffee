@@ -57,11 +57,11 @@ class Spritesheet
     fs.writeFileSync(spritesheet_atlas, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
     console.log "spritesheet atlas saved to #{spritesheet_atlas}"
 
-  @data_from_texture: (texture, texture_keys_used) ->
+  @data_from_texture: (texture, texture_keys_used, swap_rb) ->
     spritesheet_key = texture.key_for_spritesheet()
     return null unless spritesheet_key?.length && (!texture_keys_used.size || texture_keys_used.has(spritesheet_key))
 
-    image_for_sheet = Utils.clone_image(texture.image.bitmap, true, texture.filter_mode())
+    image_for_sheet = Utils.clone_image(texture.image.bitmap, swap_rb, texture.filter_mode())
     image_for_sheet.resize(texture.target_width, Jimp.AUTO) if texture.target_width? && texture.width() != texture.target_width
 
     {
@@ -93,17 +93,20 @@ class Spritesheet
       solo.y = bin.y
     bin?
 
-  @pack_textures: (textures, texture_keys_used, width, height) ->
+  @pack_textures: (textures, texture_keys_used, swap_rb, width, height) ->
     groups_to_pack = []
     solo_to_pack = []
     for texture in textures
       is_array = Array.isArray(texture)
 
       if is_array && texture.length > 1
-        groups_to_pack.push(_.compact(_.map(texture, (t) -> Spritesheet.data_from_texture(t, texture_keys_used))))
+        groups_to_pack.push(_.compact(_.map(texture, (t) -> Spritesheet.data_from_texture(t, texture_keys_used, swap_rb))))
       else
-        data = Spritesheet.data_from_texture((if is_array then texture[0] else texture), texture_keys_used)
+        data = Spritesheet.data_from_texture((if is_array then texture[0] else texture), texture_keys_used, swap_rb)
         solo_to_pack.push(data) if data?
+
+    groups_to_pack.sort((lhs, rhs) -> rhs[0].h - lhs[0].h)
+    solo_to_pack.sort((lhs, rhs) -> rhs.h - lhs.h)
 
     spritesheets = []
     current_data = []
