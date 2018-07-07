@@ -26,6 +26,7 @@ class Utils
         continue if filter_mode.blue && red == 0 && green == 0 && blue == 255
         continue if filter_mode.white && red == 255 && green == 255 && blue == 255
         continue if filter_mode.grey && red == 247 && green == 247 && blue == 247
+        continue if filter_mode.grey160 && red == 160 && green == 160 && blue == 160
 
         image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
 

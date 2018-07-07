@@ -31,7 +31,11 @@ class BuildingTexture
     _.map(@frames, (frame_pair) -> new BuildingFrameTexture("#{root_id}.#{frame_pair[0]}", frame_pair[1], width))
 
   @load_frame_images: (image_file_paths) ->
-    Promise.all(_.map(image_file_paths, (file_path) -> gifFrames({ url: file_path, frames: 'all', outputType: 'png' })))
+    Promise.all(_.map(image_file_paths, (file_path) -> new Promise (done) ->
+      gifFrames({ url: file_path, frames: 'all', outputType: 'png' })
+        .then (data) -> done(data)
+        .catch (error) -> console.log "failed to load #{file_path}"
+    ))
 
   @group_frame_images: (frame_groups) ->
     new Promise (done) ->
@@ -51,7 +55,7 @@ class BuildingTexture
     new Promise (fulfill, reject) ->
       console.log "loading building textures from #{building_dir}\n"
 
-      image_file_paths = _.filter(FileUtils.read_all_files_sync(building_dir), (file_path) -> file_path.indexOf('tbd') < 0 && file_path.endsWith('.gif'))
+      image_file_paths = _.filter(FileUtils.read_all_files_sync(building_dir), (file_path) -> file_path.indexOf('legacy') < 0 && file_path.endsWith('.gif'))
       BuildingTexture.load_frame_images(image_file_paths)
         .then BuildingTexture.group_frame_images
         .then (frame_groups) ->

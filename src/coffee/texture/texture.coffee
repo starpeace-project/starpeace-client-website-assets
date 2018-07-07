@@ -7,6 +7,6 @@ class Texture
 
   key_for_spritesheet: () -> null
 
-  filter_mode: () -> { blue: false, white: false, grey: false, green: false }
+  filter_mode: () -> { blue: false, white: false, grey: false, green: false, grey160:false }
 
 module.exports = Texture

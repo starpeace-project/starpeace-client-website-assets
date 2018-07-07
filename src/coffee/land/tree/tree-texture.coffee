@@ -33,7 +33,7 @@ class TreeTexture extends Texture
   key_for_spritesheet: () ->
     "#{@season}.#{@zone}.#{@variant.toString().padStart(2, '0')}"
 
-  filter_mode: () -> { blue: true, white: true, grey: true, green: false }
+  filter_mode: () -> { blue: true, white: true, grey: true, green: false, grey160:false }
 
   @load: (land_dir) ->
     new Promise (fulfill, reject) ->
