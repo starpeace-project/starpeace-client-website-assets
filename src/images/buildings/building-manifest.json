@@ -53,12 +53,11 @@
     "tile_width": 4,
     "tile_height": 4
   },
-
   {
     "id": "generic.capitol",
     "image": "generic.capitol.gif",
-    "tile_width": 2,
-    "tile_height": 2
+    "tile_width": 7,
+    "tile_height": 7
   },
   {
     "id": "generic.college",
