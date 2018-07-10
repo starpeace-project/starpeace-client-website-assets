@@ -16,6 +16,6 @@ class BuildingFrameTexture extends Texture
 
   key_for_spritesheet: () -> @id
 
-  filter_mode: () -> { black: true, blue: true, white: true, grey: true, green: true, grey160: true }
+  filter_mode: () -> { black: true, blue: true, white: false, grey: true, green: true, grey160: true }
 
 module.exports = BuildingFrameTexture

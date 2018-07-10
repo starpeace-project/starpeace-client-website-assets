@@ -1,9 +1,17 @@
-
+crypto = require('crypto')
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
+
 Jimp = require('jimp')
+streamToArray = require('stream-to-array')
+gifFrames = require('gif-frames')
 
 class Utils
+  @random_md5: () ->
+    data = (Math.random() * new Date().getTime()) + "asdf" + (Math.random() * 1000000) + "fdsa" +(Math.random() * 1000000)
+    crypto.createHash('md5').update(data).digest('hex')
+
   @format_color: (color) ->
     "#{color.toString().padStart(10)} (##{Number(color).toString(16).padStart(6, '0')}"
 
@@ -31,5 +39,23 @@ class Utils
         image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
 
     image
+
+  @load_and_group_animation: (image_file_paths) ->
+    Promise.all(_.map(image_file_paths, (file_path) -> new Promise (done) ->
+      gifFrames({ url: file_path, frames: 'all', outputType: 'png' })
+        .then (data) -> done(data)
+        .catch (error) -> console.log "failed to load #{file_path}"
+    ))
+    .then (frame_groups) -> new Promise (done) ->
+      Promise.all(_.map(frame_groups, (group) -> Utils.group_to_buffer(group))).then(done)
+
+  @group_to_buffer: (frame_group) ->
+    new Promise (done) ->
+      Promise.all(_.map(frame_group, (frame) -> new Promise (inner_done) ->
+        streamToArray(frame.getImage()).then (parts) ->
+          Jimp.read(Buffer.concat(_.map(parts, (part) -> Buffer.from(part)))).then (image) ->
+            inner_done([frame.frameIndex, image])
+      )).then(done)
+
 
 module.exports = Utils

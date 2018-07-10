@@ -7,8 +7,8 @@ GroundDefinitionManifest = require('../land/ground/ground-definition-manifest')
 GroundTextureManifest = require('../land/ground/ground-texture-manifest')
 TreeDefinitionManifest = require('../land/tree/tree-definition-manifest')
 TreeTextureManifest = require('../land/tree/tree-texture-manifest')
-
 LandManifest = require('../land/land-manifest')
+Utils = require('../utils/utils')
 
 PLANET_TYPES = ['earth']
 
@@ -35,25 +35,26 @@ aggregate_by_planet = ([ground_definition_manifest, ground_texture_manifest, tre
 
 write_assets = (output_dir) -> (land_manifests) ->
   new Promise (done) ->
+    unique_hash = Utils.random_md5()
     write_promises = []
 
     for manifest in land_manifests
       atlas_names = []
 
       for spritesheet in manifest.ground_spritesheets
-        texture_name = "ground.#{manifest.planet_type}.texture.#{spritesheet.index}.png"
+        texture_name = "ground.#{manifest.planet_type}.texture.#{spritesheet.index}.#{unique_hash}.png"
         write_promises.push spritesheet.save_texture(output_dir, texture_name, true, false, true)
 
-        atlas_name = "ground.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
+        atlas_name = "ground.#{manifest.planet_type}.atlas.#{spritesheet.index}.#{unique_hash}.json"
         atlas_names.push "./#{atlas_name}"
 
         spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)
 
       for spritesheet in manifest.tree_spritesheets
-        texture_name = "tree.#{manifest.planet_type}.texture.#{spritesheet.index}.png"
+        texture_name = "tree.#{manifest.planet_type}.texture.#{spritesheet.index}.#{unique_hash}.png"
         write_promises.push spritesheet.save_texture(output_dir, texture_name, true, true, true)
 
-        atlas_name = "tree.#{manifest.planet_type}.atlas.#{spritesheet.index}.json"
+        atlas_name = "tree.#{manifest.planet_type}.atlas.#{spritesheet.index}.#{unique_hash}.json"
         atlas_names.push "./#{atlas_name}"
 
         spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)

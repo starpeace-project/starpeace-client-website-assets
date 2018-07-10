@@ -1,6 +1,5 @@
 
 path = require('path')
-crypto = require('crypto')
 _ = require('lodash')
 
 BuildingTexture = require('./building-texture')

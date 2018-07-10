@@ -6,6 +6,7 @@ _ = require('lodash')
 BuildingDefinitionManifest = require('../building/building-definition-manifest')
 BuildingTextureManifest = require('../building/building-texture-manifest')
 Spritesheet = require('../texture/spritesheet')
+Utils = require('../utils/utils')
 
 DEBUG_MODE = false
 
@@ -36,15 +37,16 @@ aggregate = ([building_definition_manifest, building_texture_manifest]) ->
 
 write_assets = (output_dir) -> ([building_definition_manifest, building_spritesheets]) ->
   new Promise (done) ->
+    unique_hash = Utils.random_md5()
     write_promises = []
 
     frame_atlas = {}
     atlas_names = []
     for spritesheet in building_spritesheets
-      texture_name = "building.texture.#{spritesheet.index}.png"
+      texture_name = "building.texture.#{spritesheet.index}.#{unique_hash}.png"
       write_promises.push spritesheet.save_texture(output_dir, texture_name)
 
-      atlas_name = "building.atlas.#{spritesheet.index}.json"
+      atlas_name = "building.atlas.#{spritesheet.index}.#{unique_hash}.json"
       atlas_names.push "./#{atlas_name}"
 
       spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)

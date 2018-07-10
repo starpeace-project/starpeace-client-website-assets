@@ -11,6 +11,7 @@ BuildingFrameTexture = require('./building-frame-texture')
 Texture = require('../texture/texture')
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
 FileUtils = require('../utils/file-utils')
+Utils = require('../utils/utils')
 
 
 class BuildingTexture
@@ -30,34 +31,12 @@ class BuildingTexture
   get_frame_textures: (root_id, width) ->
     _.map(@frames, (frame_pair) -> new BuildingFrameTexture("#{root_id}.#{frame_pair[0]}", frame_pair[1], width))
 
-  @load_frame_images: (image_file_paths) ->
-    Promise.all(_.map(image_file_paths, (file_path) -> new Promise (done) ->
-      gifFrames({ url: file_path, frames: 'all', outputType: 'png' })
-        .then (data) -> done(data)
-        .catch (error) -> console.log "failed to load #{file_path}"
-    ))
-
-  @group_frame_images: (frame_groups) ->
-    new Promise (done) ->
-      Promise.all(_.map(frame_groups, (group) -> BuildingTexture.group_to_buffer(group))).then(done)
-
-  @group_to_buffer: (frame_group) ->
-    new Promise (done) ->
-      Promise.all(_.map(frame_group, (frame) -> BuildingTexture.frame_to_image(frame))).then(done)
-
-  @frame_to_image: (frame) ->
-    new Promise (done) ->
-      streamToArray(frame.getImage()).then (parts) ->
-        Jimp.read(Buffer.concat(_.map(parts, (part) -> Buffer.from(part)))).then (image) ->
-          done([frame.frameIndex, image])
-
   @load: (building_dir) ->
     new Promise (fulfill, reject) ->
       console.log "loading building textures from #{building_dir}\n"
 
       image_file_paths = _.filter(FileUtils.read_all_files_sync(building_dir), (file_path) -> file_path.indexOf('legacy') < 0 && file_path.endsWith('.gif'))
-      BuildingTexture.load_frame_images(image_file_paths)
-        .then BuildingTexture.group_frame_images
+      Utils.load_and_group_animation(image_file_paths)
         .then (frame_groups) ->
           progress = new ConsoleProgressUpdater(frame_groups.length)
           _.map(_.zip(image_file_paths, frame_groups), (pair) ->

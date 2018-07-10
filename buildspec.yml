@@ -23,6 +23,7 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - aws s3 sync --delete build/public "s3://cdn.starpeace.io/"
+      - aws cloudfront create-invalidation --distribution-id E3TDRTQ2K0SWQ --paths /building.metadata.json /land.earth.metadata.json /news.static.en.json
       - echo Build completed on `date`
 
 artifacts:
