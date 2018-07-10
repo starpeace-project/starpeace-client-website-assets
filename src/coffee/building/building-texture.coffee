@@ -3,18 +3,13 @@ path = require('path')
 crypto = require('crypto')
 
 _ = require('lodash')
-streamToArray = require('stream-to-array')
-Jimp = require('jimp')
-gifFrames = require('gif-frames')
 
 BuildingFrameTexture = require('./building-frame-texture')
-Texture = require('../texture/texture')
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
 FileUtils = require('../utils/file-utils')
 Utils = require('../utils/utils')
 
-
-class BuildingTexture
+module.exports = class BuildingTexture
   constructor: (@directory, @file_path, @frames) ->
     throw "building texture must have at least one frame" unless @frames.length > 0
 
@@ -46,5 +41,3 @@ class BuildingTexture
           )
         .then fulfill
         .catch reject
-
-module.exports = BuildingTexture

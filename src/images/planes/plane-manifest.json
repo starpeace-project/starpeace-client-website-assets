@@ -1,0 +1,74 @@
+[
+  {
+    "id": "plane.adchopper",
+    "image": "plane.adchopper.gif",
+    "height": 36,
+    "width": 49
+  },
+  {
+    "id": "plane.balloon.1",
+    "image": "plane.balloon.1.gif",
+    "height": 79,
+    "width": 103
+  },
+  {
+    "id": "plane.balloon.2",
+    "image": "plane.balloon.2.gif",
+    "height": 80,
+    "width": 103
+  },
+  {
+    "id": "plane.saucer",
+    "image": "plane.saucer.gif",
+    "height": 75,
+    "width": 128
+  },
+  {
+    "id": "plane.zeppelin.e",
+    "image": "plane.zeppelin.e.gif",
+    "height": 70,
+    "width": 87
+  },
+  {
+    "id": "plane.zeppelin.n",
+    "image": "plane.zeppelin.n.gif",
+    "height": 69,
+    "width": 85
+  },
+  {
+    "id": "plane.zeppelin.ne",
+    "image": "plane.zeppelin.ne.gif",
+    "height": 72,
+    "width": 64
+  },
+  {
+    "id": "plane.zeppelin.nw",
+    "image": "plane.zeppelin.nw.gif",
+    "height": 62,
+    "width": 115
+  },
+  {
+    "id": "plane.zeppelin.s",
+    "image": "plane.zeppelin.s.gif",
+    "height": 73,
+    "width": 86
+  },
+  {
+    "id": "plane.zeppelin.se",
+    "image": "plane.zeppelin.se.gif",
+    "height": 63,
+    "width": 116
+  },
+  {
+    "id": "plane.zeppelin.sw",
+    "image": "plane.zeppelin.sw.gif",
+    "height": 78,
+    "width": 62
+  },
+  {
+    "id": "plane.zeppelin.w",
+    "image": "plane.zeppelin.w.gif",
+    "height": 73,
+    "width": 87
+  }
+]

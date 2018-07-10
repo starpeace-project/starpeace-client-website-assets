@@ -59,7 +59,7 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
       frame_ids = definition.frame_ids
       definitions[definition.id] = {
         w: definition.tile_width
-        h: definition.tile_width
+        h: definition.tile_height
         atlas: frame_atlas[frame_ids[0]]
         frames: frame_ids
       }
