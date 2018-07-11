@@ -15,4 +15,4 @@ module.exports = class PlaneFrameTexture extends Texture
 
   key_for_spritesheet: () -> @id
 
-  filter_mode: () -> { black: false, blue: false, white: true, grey: false, green: false, grey160: false }
+  filter_mode: () -> { black: false, blue: false, white: false, grey: false, green: false, grey160: false }
