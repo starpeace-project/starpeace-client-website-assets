@@ -40,5 +40,17 @@
     "image": "overlay.7.png",
     "tile_height": 7,
     "tile_width": 7
+  },
+  {
+    "id": "overlay.8",
+    "image": "overlay.8.png",
+    "tile_height": 8,
+    "tile_width": 8
+  },
+  {
+    "id": "overlay.9",
+    "image": "overlay.9.png",
+    "tile_height": 9,
+    "tile_width": 9
   }
 ]
