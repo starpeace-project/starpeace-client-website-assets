@@ -4,7 +4,7 @@ path = require('path')
 _ = require('lodash')
 
 class BuildingDefinition
-  constructor: (@id, @image, @tile_width, @tile_height) ->
+  constructor: (@id, @image, @zone, @tile_width, @tile_height, @effects) ->
 
   to_compiled_json: () ->
     {
@@ -15,6 +15,6 @@ class BuildingDefinition
     }
 
   @from_json: (json) ->
-    new BuildingDefinition(json.id, json.image, json.tile_width, json.tile_height)
+    new BuildingDefinition(json.id, json.image, json.zone, json.tile_width, json.tile_height, json.effects)
 
 module.exports = BuildingDefinition

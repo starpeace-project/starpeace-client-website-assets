@@ -54,6 +54,8 @@ write_assets = (output_dir) -> ([effect_definition_manifest, effect_spritesheets
     definitions[definition.id] = {
       w: definition.width
       h: definition.height
+      s_x: definition.source_x
+      s_y: definition.source_y
       atlas: frame_atlas[definition.frame_ids[0]]
       frames: definition.frame_ids
     } for definition in effect_definition_manifest.all_definitions

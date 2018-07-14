@@ -2,2502 +2,2987 @@
   {
     "id": "generic.construction.1",
     "image": "generic.construction.1.gif",
+    "zone": "NONE",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "generic.construction.2",
     "image": "generic.construction.2.gif",
+    "zone": "NONE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "generic.construction.3",
     "image": "generic.construction.3.gif",
+    "zone": "NONE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.construction.4",
     "image": "generic.construction.4.gif",
+    "zone": "NONE",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.construction.5",
     "image": "generic.construction.5.gif",
+    "zone": "NONE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.construction.6",
     "image": "generic.construction.6.gif",
+    "zone": "NONE",
     "tile_width": 6,
     "tile_height": 6
   },
   {
     "id": "generic.construction.7",
     "image": "generic.construction.7.gif",
+    "zone": "NONE",
     "tile_width": 7,
     "tile_height": 7
   },
   {
     "id": "generic.portal.in",
     "image": "generic.portal.in.gif",
+    "zone": "RESERVED",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.portal.out",
     "image": "generic.portal.out.gif",
+    "zone": "RESERVED",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.capitol",
     "image": "generic.capitol.gif",
+    "zone": "CIVICS",
     "tile_width": 7,
     "tile_height": 7
   },
   {
     "id": "generic.college",
     "image": "generic.college.gif",
+    "zone": "CIVICS",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "generic.dump",
     "image": "generic.dump.gif",
+    "zone": "CIVICS",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.jail",
     "image": "generic.jail.gif",
+    "zone": "CIVICS",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.mausoleum.construction",
     "image": "generic.mausoleum.construction.gif",
+    "zone": "MAUSOLEUM",
     "tile_width": 9,
     "tile_height": 9
   },
   {
     "id": "generic.mausoleum.legend",
     "image": "generic.mausoleum.legend.gif",
+    "zone": "MAUSOLEUM",
     "tile_width": 9,
     "tile_height": 9
   },
   {
     "id": "generic.mausoleum.paradigm",
     "image": "generic.mausoleum.paradigm.gif",
+    "zone": "MAUSOLEUM",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.museum",
     "image": "generic.museum.gif",
+    "zone": "CIVICS",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.park.alien.a",
     "image": "generic.park.alien.a.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.park.alien.b",
     "image": "generic.park.alien.b.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.park.alien.c",
     "image": "generic.park.alien.c.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.park.alien.d",
     "image": "generic.park.alien.d.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.park.central",
     "image": "generic.park.central.gif",
+    "zone": "CIVICS",
     "tile_width": 7,
     "tile_height": 7
   },
   {
     "id": "generic.park.medium",
     "image": "generic.park.medium.gif",
+    "zone": "CIVICS",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.park.small",
     "image": "generic.park.small.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.statue",
     "image": "generic.statue.gif",
+    "zone": "CIVICS",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.tennis",
     "image": "generic.tennis.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "generic.tower",
     "image": "generic.tower.gif",
+    "zone": "CIVICS",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.warehouse.chemical",
     "image": "generic.warehouse.chemical.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.warehouse.cold",
     "image": "generic.warehouse.cold.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.warehouse.cold.super",
     "image": "generic.warehouse.cold.super.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.warehouse.export",
     "image": "generic.warehouse.export.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.warehouse.fabric",
     "image": "generic.warehouse.fabric.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.warehouse.import",
     "image": "generic.warehouse.import.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "generic.warehouse.ore",
     "image": "generic.warehouse.ore.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "generic.warehouse.univeral",
     "image": "generic.warehouse.univeral.gif",
+    "zone": "WAREHOUSE",
     "tile_width": 6,
     "tile_height": 6
   },
   {
     "id": "dis.bank",
     "image": "dis.bank.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.bar",
     "image": "dis.bar.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.bm.industry",
     "image": "dis.bm.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.book.store",
     "image": "dis.book.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.car.industry",
     "image": "dis.car.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.car.store",
     "image": "dis.car.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.chemical.industry",
     "image": "dis.chemical.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "dis.chemical.industry.small",
     "image": "dis.chemical.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "dis.clothes.industry",
     "image": "dis.clothes.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.clothes.industry.small",
     "image": "dis.clothes.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.clothes.store",
     "image": "dis.clothes.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.computing",
     "image": "dis.computing.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.construction.industry",
     "image": "dis.construction.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.elect.comp.industry",
     "image": "dis.elect.comp.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
-    "tile_height": 4
+    "tile_height": 4,
+    "effects": [
+      {
+        "x": 0.515625,
+        "y": 0.0326
+      },
+      {
+        "x": 0.78125,
+        "y": 0.21739
+      }
+    ]
   },
   {
     "id": "dis.elect.comp.industry.small",
     "image": "dis.elect.comp.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.farm",
     "image": "dis.farm.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "dis.farm.small",
     "image": "dis.farm.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.food.proc",
     "image": "dis.food.proc.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.food.proc.small",
     "image": "dis.food.proc.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.food.store",
     "image": "dis.food.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.funeral",
     "image": "dis.funeral.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.furniture.industry",
     "image": "dis.furniture.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.furniture.store",
     "image": "dis.furniture.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.heavy.industry",
     "image": "dis.heavy.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.hha.industry",
     "image": "dis.hha.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.hha.industry.small",
     "image": "dis.hha.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.hha.store",
     "image": "dis.hha.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.hi.res.a.empty",
     "image": "dis.hi.res.a.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.a",
     "image": "dis.hi.res.a.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.b.empty",
     "image": "dis.hi.res.b.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.b",
     "image": "dis.hi.res.b.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.c.empty",
     "image": "dis.hi.res.c.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.c",
     "image": "dis.hi.res.c.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.d.empty",
     "image": "dis.hi.res.d.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hi.res.d",
     "image": "dis.hi.res.d.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.hospital",
     "image": "dis.hospital.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.hq.1",
     "image": "dis.hq.1.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.hq.2",
     "image": "dis.hq.2.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.hq.3",
     "image": "dis.hq.3.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.hq.4",
     "image": "dis.hq.4.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.hq.5",
     "image": "dis.hq.5.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.legal.services",
     "image": "dis.legal.services.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.liquor.industry",
     "image": "dis.liquor.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.lo.cost.hi.res",
     "image": "dis.lo.cost.hi.res.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.cost.lo.res",
     "image": "dis.lo.cost.lo.res.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.cost.mi.res",
     "image": "dis.lo.cost.mi.res.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.a.empty",
     "image": "dis.lo.res.a.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.a",
     "image": "dis.lo.res.a.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.b.empty",
     "image": "dis.lo.res.b.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.b",
     "image": "dis.lo.res.b.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.c.empty",
     "image": "dis.lo.res.c.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.c",
     "image": "dis.lo.res.c.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.d.empty",
     "image": "dis.lo.res.d.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lo.res.d",
     "image": "dis.lo.res.d.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.lumber.0",
     "image": "dis.lumber.0.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.1",
     "image": "dis.lumber.1.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.2",
     "image": "dis.lumber.2.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.3",
     "image": "dis.lumber.3.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.4",
     "image": "dis.lumber.4.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.5",
     "image": "dis.lumber.5.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.6",
     "image": "dis.lumber.6.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.lumber.7",
     "image": "dis.lumber.7.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "dis.market.a",
     "image": "dis.market.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.market.b",
     "image": "dis.market.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.metal.industry",
     "image": "dis.metal.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.metal.industry.small",
     "image": "dis.metal.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.mi.res.a.empty",
     "image": "dis.mi.res.a.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.a",
     "image": "dis.mi.res.a.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.b.empty",
     "image": "dis.mi.res.b.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.b",
     "image": "dis.mi.res.b.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.c.empty",
     "image": "dis.mi.res.c.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.mi.res.c",
     "image": "dis.mi.res.c.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.mi.res.d.empty",
     "image": "dis.mi.res.d.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.d",
     "image": "dis.mi.res.d.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.e.empty",
     "image": "dis.mi.res.e.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.mi.res.e",
     "image": "dis.mi.res.e.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.mi.res.f.empty",
     "image": "dis.mi.res.f.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mi.res.f",
     "image": "dis.mi.res.f.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.mine",
     "image": "dis.mine.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "dis.mine.small",
     "image": "dis.mine.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "dis.movie",
     "image": "dis.movie.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.a.empty",
     "image": "dis.office.a.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.a",
     "image": "dis.office.a.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.b.empty",
     "image": "dis.office.b.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.b",
     "image": "dis.office.b.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.c.empty",
     "image": "dis.office.c.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.office.c",
     "image": "dis.office.c.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.park.small",
     "image": "dis.park.small.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.police",
     "image": "dis.police.gif",
+    "zone": "CIVICS",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.restaurant.a",
     "image": "dis.restaurant.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.restaurant.b",
     "image": "dis.restaurant.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.school",
     "image": "dis.school.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.textile.industry",
     "image": "dis.textile.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.textile.industry.small",
     "image": "dis.textile.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "dis.townhall",
     "image": "dis.townhall.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.toy.industry",
     "image": "dis.toy.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "dis.toy.store",
     "image": "dis.toy.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "dis.tradecenter",
     "image": "dis.tradecenter.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.tv.antenna",
     "image": "dis.tv.antenna.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "dis.tv.station",
     "image": "dis.tv.station.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.cloud.city.empty",
     "image": "magna.cloud.city.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.cloud.city",
     "image": "magna.cloud.city.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.construction",
     "image": "magna.construction.gif",
+    "zone": "NONE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.heaven.empty",
     "image": "magna.heaven.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.heaven",
     "image": "magna.heaven.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.hive.empty",
     "image": "magna.hive.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.hive",
     "image": "magna.hive.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.ivory.tower.empty",
     "image": "magna.ivory.tower.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.ivory.tower",
     "image": "magna.ivory.tower.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.mayflower.empty",
     "image": "magna.mayflower.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.mayflower",
     "image": "magna.mayflower.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.movie.studios",
     "image": "magna.movie.studios.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "magna.movie.studios.construction",
     "image": "magna.movie.studios.construction.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 8,
     "tile_height": 8
   },
   {
     "id": "magna.octopus.empty",
     "image": "magna.octopus.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.octopus",
     "image": "magna.octopus.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.research.a",
     "image": "magna.research.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.research.b",
     "image": "magna.research.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.sky.dome.empty",
     "image": "magna.sky.dome.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.sky.dome",
     "image": "magna.sky.dome.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.solarium.empty",
     "image": "magna.solarium.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.solarium",
     "image": "magna.solarium.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.supermarket.a",
     "image": "magna.supermarket.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "magna.supermarket.b",
     "image": "magna.supermarket.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "magna.the.spring.empty",
     "image": "magna.the.spring.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.the.spring",
     "image": "magna.the.spring.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.tulip.empty",
     "image": "magna.tulip.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.tulip",
     "image": "magna.tulip.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.whirlpool.empty",
     "image": "magna.whirlpool.empty.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "magna.whirlpool",
     "image": "magna.whirlpool.gif",
+    "zone": "RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.bm.industry",
     "image": "mko.bm.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.car.industry",
     "image": "mko.car.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.car.store",
     "image": "mko.car.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.cd.industry",
     "image": "mko.cd.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.cd.store",
     "image": "mko.cd.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.chemical.industry",
     "image": "mko.chemical.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.chemical.industry.small",
     "image": "mko.chemical.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.clothes.industry",
     "image": "mko.clothes.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.clothes.industry.small",
     "image": "mko.clothes.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.clothes.store",
     "image": "mko.clothes.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.computer.store",
     "image": "mko.computer.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.construction.industry",
     "image": "mko.construction.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.elect.comp.industry",
     "image": "mko.elect.comp.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.elect.comp.industry.small",
     "image": "mko.elect.comp.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.farm",
     "image": "mko.farm.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.farm.small",
     "image": "mko.farm.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.food.proc",
     "image": "mko.food.proc.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.food.proc.small",
     "image": "mko.food.proc.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.food.store",
     "image": "mko.food.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.heavy.industry",
     "image": "mko.heavy.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.hha.industry",
     "image": "mko.hha.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.444089,
+        "y": 0.2469879
+      }
+    ]
   },
   {
     "id": "mko.hha.industry.small",
     "image": "mko.hha.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.444089,
+        "y": 0.2469879
+      }
+    ]
   },
   {
     "id": "mko.hha.store",
     "image": "mko.hha.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.hi.res.a.empty",
     "image": "mko.hi.res.a.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hi.res.a",
     "image": "mko.hi.res.a.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hi.res.b.empty",
     "image": "mko.hi.res.b.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hi.res.b",
     "image": "mko.hi.res.b.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hi.res.c.empty",
     "image": "mko.hi.res.c.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hi.res.c",
     "image": "mko.hi.res.c.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hospital",
     "image": "mko.hospital.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.hq.1",
     "image": "mko.hq.1.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.hq.2",
     "image": "mko.hq.2.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.hq.3",
     "image": "mko.hq.3.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.hq.4",
     "image": "mko.hq.4.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.hq.5",
     "image": "mko.hq.5.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.lo.res.a.empty",
     "image": "mko.lo.res.a.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.lo.res.a",
     "image": "mko.lo.res.a.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.lo.res.b.empty",
     "image": "mko.lo.res.b.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.lo.res.b",
     "image": "mko.lo.res.b.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.lo.res.c.empty",
     "image": "mko.lo.res.c.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.lo.res.c",
     "image": "mko.lo.res.c.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.lo.res.d.empty",
     "image": "mko.lo.res.d.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.lo.res.d",
     "image": "mko.lo.res.d.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.lo.res.e.empty",
     "image": "mko.lo.res.e.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.lo.res.e",
     "image": "mko.lo.res.e.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.market.a",
     "image": "mko.market.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "mko.market.b",
     "image": "mko.market.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.market.c",
     "image": "mko.market.c.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.metal.industry",
     "image": "mko.metal.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.metal.industry.small",
     "image": "mko.metal.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.mi.res.a.empty",
     "image": "mko.mi.res.a.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.a",
     "image": "mko.mi.res.a.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.b.empty",
     "image": "mko.mi.res.b.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.b",
     "image": "mko.mi.res.b.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.c.empty",
     "image": "mko.mi.res.c.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.c",
     "image": "mko.mi.res.c.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.d.empty",
     "image": "mko.mi.res.d.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.d",
     "image": "mko.mi.res.d.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.e.empty",
     "image": "mko.mi.res.e.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.e",
     "image": "mko.mi.res.e.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.f.empty",
     "image": "mko.mi.res.f.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.f",
     "image": "mko.mi.res.f.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.g.empty",
     "image": "mko.mi.res.g.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mi.res.g",
     "image": "mko.mi.res.g.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.mine",
     "image": "mko.mine.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.mine.small",
     "image": "mko.mine.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.office.a.empty",
     "image": "mko.office.a.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.office.a",
     "image": "mko.office.a.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.office.b.empty",
     "image": "mko.office.b.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.office.b",
     "image": "mko.office.b.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.office.c.empty",
     "image": "mko.office.c.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.office.c",
     "image": "mko.office.c.gif",
+    "zone": "OFFICES",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.office.d.empty",
     "image": "mko.office.d.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.office.d",
     "image": "mko.office.d.gif",
+    "zone": "OFFICES",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "mko.office.e.empty",
     "image": "mko.office.e.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.office.e",
     "image": "mko.office.e.gif",
+    "zone": "OFFICES",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.office.f.empty",
     "image": "mko.office.f.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.office.f",
     "image": "mko.office.f.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.plastic.industry",
     "image": "mko.plastic.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.police",
     "image": "mko.police.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.school",
     "image": "mko.school.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.textile.industry",
     "image": "mko.textile.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.textile.industry.small",
     "image": "mko.textile.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "mko.townhall",
     "image": "mko.townhall.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.tradecenter",
     "image": "mko.tradecenter.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "mko.tv.station",
     "image": "mko.tv.station.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "mko.warehouse",
     "image": "mko.warehouse.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.bar",
     "image": "moab.bar.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "moab.bm.industry",
     "image": "moab.bm.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.car.industry",
     "image": "moab.car.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 6,
     "tile_height": 6
   },
   {
     "id": "moab.car.store",
     "image": "moab.car.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.cathedral",
     "image": "moab.cathedral.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.chemical.industry",
     "image": "moab.chemical.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.clothes.industry",
     "image": "moab.clothes.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.clothes.store",
     "image": "moab.clothes.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "moab.computing",
     "image": "moab.computing.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.construction.industry",
     "image": "moab.construction.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.correctional",
     "image": "moab.correctional.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.correctional.tower",
     "image": "moab.correctional.tower.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.elect.comp.industry",
     "image": "moab.elect.comp.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.farm",
     "image": "moab.farm.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.food.proc",
     "image": "moab.food.proc.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.food.store",
     "image": "moab.food.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "moab.funeral",
     "image": "moab.funeral.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.gas.station",
     "image": "moab.gas.station.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.heavy.industry",
     "image": "moab.heavy.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.hha.industry",
     "image": "moab.hha.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 6,
     "tile_height": 6
   },
   {
     "id": "moab.hha.store",
     "image": "moab.hha.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "moab.hi.res.a.empty",
     "image": "moab.hi.res.a.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hi.res.a",
     "image": "moab.hi.res.a.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hi.res.b.empty",
     "image": "moab.hi.res.b.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hi.res.b",
     "image": "moab.hi.res.b.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hi.res.c.empty",
     "image": "moab.hi.res.c.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.hi.res.c",
     "image": "moab.hi.res.c.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.hi.res.d.empty",
     "image": "moab.hi.res.d.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hi.res.d",
     "image": "moab.hi.res.d.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hq.1",
     "image": "moab.hq.1.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hq.2",
     "image": "moab.hq.2.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hq.3",
     "image": "moab.hq.3.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hq.4",
     "image": "moab.hq.4.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.hq.5",
     "image": "moab.hq.5.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.industry.tower",
     "image": "moab.industry.tower.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.legal.services",
     "image": "moab.legal.services.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.lo.cost.mid.res",
     "image": "moab.lo.cost.mid.res.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.lo.res.a.empty",
     "image": "moab.lo.res.a.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.lo.res.a",
     "image": "moab.lo.res.a.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.lo.res.b.empty",
     "image": "moab.lo.res.b.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.lo.res.b",
     "image": "moab.lo.res.b.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.lo.res.c.empty",
     "image": "moab.lo.res.c.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.lo.res.c",
     "image": "moab.lo.res.c.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.lo.res.d.empty",
     "image": "moab.lo.res.d.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.lo.res.d",
     "image": "moab.lo.res.d.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.market",
     "image": "moab.market.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.market.tower",
     "image": "moab.market.tower.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.metal.industry",
     "image": "moab.metal.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.48734,
+        "y": 0.02027
+      }
+    ]
   },
   {
     "id": "moab.mi.res.a.empty",
     "image": "moab.mi.res.a.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.mi.res.a",
     "image": "moab.mi.res.a.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.mi.res.b.empty",
     "image": "moab.mi.res.b.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.mi.res.b",
     "image": "moab.mi.res.b.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "moab.mi.res.c.empty",
     "image": "moab.mi.res.c.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.mi.res.c",
     "image": "moab.mi.res.c.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.mine",
     "image": "moab.mine.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 6,
     "tile_height": 6
   },
   {
     "id": "moab.movie",
     "image": "moab.movie.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.office.a.empty",
     "image": "moab.office.a.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.office.a",
     "image": "moab.office.a.gif",
+    "zone": "OFFICES",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.office.b.empty",
     "image": "moab.office.b.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.office.b",
     "image": "moab.office.b.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.oil.rig",
     "image": "moab.oil.rig.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
-    "tile_height": 4
+    "tile_height": 4,
+    "effects": [
+      {
+        "x": 0.4862745,
+        "y": 0.005181
+      }
+    ]
   },
   {
     "id": "moab.refinery",
     "image": "moab.refinery.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.29375,
+        "y": 0
+      },
+      {
+        "x": 0.325,
+        "y": 0.014778
+      },
+      {
+        "x": 0.36875,
+        "y": 0.064039
+      },
+      {
+        "x": 0.403125,
+        "y": 0.07881
+      },
+      {
+        "x": 0.446875,
+        "y": 0.1280788
+      },
+      {
+        "x": 0.48125,
+        "y": 0.13793
+      },
+      {
+        "x": 0.528125,
+        "y": 0.187192
+      },
+      {
+        "x": 0.5625,
+        "y": 0.20197
+      }
+    ]
   },
   {
     "id": "moab.residential.tower",
     "image": "moab.residential.tower.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "moab.textile.industry",
     "image": "moab.textile.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "moab.townhall",
     "image": "moab.townhall.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.tradecenter",
     "image": "moab.tradecenter.gif",
+    "zone": "CIVICS",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "moab.tv.station",
     "image": "moab.tv.station.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.bar",
     "image": "pgi.bar.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "pgi.bm.industry",
     "image": "pgi.bm.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.car.industry",
     "image": "pgi.car.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.car.store",
     "image": "pgi.car.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.chemical.industry",
     "image": "pgi.chemical.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.chemical.industry.small",
     "image": "pgi.chemical.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.clothes.industry",
     "image": "pgi.clothes.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.clothes.industry.small",
     "image": "pgi.clothes.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.computing",
     "image": "pgi.computing.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.const.industry",
     "image": "pgi.const.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.drug.store",
     "image": "pgi.drug.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.elect.comp.industry",
     "image": "pgi.elect.comp.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.elect.comp.industry.small",
     "image": "pgi.elect.comp.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.farm",
     "image": "pgi.farm.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.farm.small",
     "image": "pgi.farm.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.fire",
     "image": "pgi.fire.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.food.proc",
     "image": "pgi.food.proc.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.food.proc.small",
     "image": "pgi.food.proc.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.food.store",
     "image": "pgi.food.store.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "pgi.heavy.industry",
     "image": "pgi.heavy.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.hha.industry",
     "image": "pgi.hha.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.hha.industry.small",
     "image": "pgi.hha.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.hi.res.a.empty",
     "image": "pgi.hi.res.a.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.hi.res.a",
     "image": "pgi.hi.res.a.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.hi.res.b.empty",
     "image": "pgi.hi.res.b.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.by",
     "image": "pgi.hi.res.b.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.c.empty",
     "image": "pgi.hi.res.c.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.c",
     "image": "pgi.hi.res.c.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.d.empty",
     "image": "pgi.hi.res.d.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.d",
     "image": "pgi.hi.res.d.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.e.empty",
     "image": "pgi.hi.res.e.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.e",
     "image": "pgi.hi.res.e.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.f.empty",
     "image": "pgi.hi.res.f.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.f",
     "image": "pgi.hi.res.f.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.g.empty",
     "image": "pgi.hi.res.g.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.g",
     "image": "pgi.hi.res.g.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.h.empty",
     "image": "pgi.hi.res.h.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.h",
     "image": "pgi.hi.res.h.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.i.empty",
     "image": "pgi.hi.res.i.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.i",
     "image": "pgi.hi.res.i.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.j.empty",
     "image": "pgi.hi.res.j.empty.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hi.res.j",
     "image": "pgi.hi.res.j.gif",
+    "zone": "HC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hospital",
     "image": "pgi.hospital.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.hq.1",
     "image": "pgi.hq.1.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.hq.2",
     "image": "pgi.hq.2.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.hq.3",
     "image": "pgi.hq.3.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.hq.4",
     "image": "pgi.hq.4.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.hq.5",
     "image": "pgi.hq.5.gif",
+    "zone": "SERVICE",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.legal.services",
     "image": "pgi.legal.services.gif",
+    "zone": "SERVICE",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.a.empty",
     "image": "pgi.lo.res.a.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.a",
     "image": "pgi.lo.res.a.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.b.empty",
     "image": "pgi.lo.res.b.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.lo.res.b",
     "image": "pgi.lo.res.b.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.lo.res.c.empty",
     "image": "pgi.lo.res.c.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.c",
     "image": "pgi.lo.res.c.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.d.empty",
     "image": "pgi.lo.res.d.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.d",
     "image": "pgi.lo.res.d.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.e.empty",
     "image": "pgi.lo.res.e.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.e",
     "image": "pgi.lo.res.e.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.f.empty",
     "image": "pgi.lo.res.f.empty.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.lo.res.f",
     "image": "pgi.lo.res.f.gif",
+    "zone": "LC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.market.a",
     "image": "pgi.market.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.market.b",
     "image": "pgi.market.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.market.c",
     "image": "pgi.market.c.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.metal.industry",
     "image": "pgi.metal.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.metal.industry.small",
     "image": "pgi.metal.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.mi.res.a.empty",
     "image": "pgi.mi.res.a.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.a",
     "image": "pgi.mi.res.a.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.b.empty",
     "image": "pgi.mi.res.b.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.b",
     "image": "pgi.mi.res.b.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.c.empty",
     "image": "pgi.mi.res.c.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.c",
     "image": "pgi.mi.res.c.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.d.empty",
     "image": "pgi.mi.res.d.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.d",
     "image": "pgi.mi.res.d.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.e.empty",
     "image": "pgi.mi.res.e.empty.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mi.res.e",
     "image": "pgi.mi.res.e.gif",
+    "zone": "MC_RESIDENTIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.mine",
     "image": "pgi.mine.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.mine.small",
     "image": "pgi.mine.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 3,
     "tile_height": 3
   },
   {
     "id": "pgi.movie.a",
     "image": "pgi.movie.a.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.movie.b",
     "image": "pgi.movie.b.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.a.empty",
     "image": "pgi.office.a.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.a",
     "image": "pgi.office.a.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.b.empty",
     "image": "pgi.office.b.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.b",
     "image": "pgi.office.b.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.c.empty",
     "image": "pgi.office.c.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.c",
     "image": "pgi.office.c.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.d.empty",
     "image": "pgi.office.d.empty.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.office.d",
     "image": "pgi.office.d.gif",
+    "zone": "OFFICES",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.paper.industry",
     "image": "pgi.paper.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.pharma.industry",
     "image": "pgi.pharma.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.police",
     "image": "pgi.police.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.printing.plant",
     "image": "pgi.printing.plant.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.restaurant",
     "image": "pgi.restaurant.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 1,
     "tile_height": 1
   },
   {
     "id": "pgi.school",
     "image": "pgi.school.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.textile.industry",
     "image": "pgi.textile.industry.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 5,
     "tile_height": 5
   },
   {
     "id": "pgi.textile.industry.small",
     "image": "pgi.textile.industry.small.gif",
+    "zone": "INDUSTRIAL",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.townhall",
     "image": "pgi.townhall.gif",
+    "zone": "CIVICS",
     "tile_width": 4,
     "tile_height": 4
   },
   {
     "id": "pgi.tradecenter",
     "image": "pgi.tradecenter.gif",
+    "zone": "CIVICS",
     "tile_width": 2,
     "tile_height": 2
   },
   {
     "id": "pgi.tv.station",
     "image": "pgi.tv.station.gif",
+    "zone": "COMMERCIAL",
     "tile_width": 3,
     "tile_height": 3
   }

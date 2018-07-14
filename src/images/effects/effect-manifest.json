@@ -3,24 +3,32 @@
     "id": "explosion",
     "image": "explosion.gif",
     "width": 62,
-    "height": 53
+    "height": 53,
+    "source_x": 31,
+    "source_y": 26
   },
   {
     "id": "fire.small",
     "image": "fire.small.gif",
     "width": 30,
-    "height": 30
+    "height": 30,
+    "source_x": 15,
+    "source_y": 30
   },
   {
     "id": "smoke.dark",
     "image": "smoke.dark.gif",
     "width": 30,
-    "height": 39
+    "height": 39,
+    "source_x": 0,
+    "source_y": 39
   },
   {
     "id": "steam.light",
     "image": "steam.light.gif",
     "width": 31,
-    "height": 94
+    "height": 94,
+    "source_x": 8,
+    "source_y": 94
   }
 ]

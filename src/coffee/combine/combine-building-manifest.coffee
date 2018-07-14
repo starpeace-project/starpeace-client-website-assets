@@ -51,18 +51,18 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
 
       spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)
 
-      for data in spritesheet.packed_texture_data
-        frame_atlas[data.key] = atlas_name
+      frame_atlas[data.key] = atlas_name for data in spritesheet.packed_texture_data
 
     definitions = {}
     for definition in building_definition_manifest.all_definitions
-      frame_ids = definition.frame_ids
       definitions[definition.id] = {
         w: definition.tile_width
         h: definition.tile_height
-        atlas: frame_atlas[frame_ids[0]]
-        frames: frame_ids
+        zone: definition.zone
+        atlas: frame_atlas[definition.frame_ids[0]]
+        frames: definition.frame_ids
       }
+      definitions[definition.id].effects = definition.effects if definition.effects?.length
 
     json = {
       atlas: atlas_names
