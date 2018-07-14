@@ -13,7 +13,7 @@ module.exports = class OverlayTexture
     @id = @file_path.replace('.png', '')
 
   get_frame_textures: (root_id, width, height) ->
-    [new OverlayFrameTexture("#{root_id}.#{@id}", @image, width, height)]
+    [new OverlayFrameTexture(root_id, @image, width, height)]
 
   @load: (overlay_dir) ->
     new Promise (fulfill, reject) ->
