@@ -79,11 +79,12 @@ resize_frames = (map_animation_mask) -> (frames) ->
               channels: 4
             }
           })
+          .background({r:0, g:255, b:255, alpha:0})
           .overlayWith(map_animation_mask, { cutout: true })
-          .blur(0.5)
+          # .blur(0.5)
           .toBuffer()
           .then((masked_buffer) ->
-            # gif doesn't respect alpha, shift to expected color
+            # improves gif transparency at border of planet
             for index in [0...(masked_buffer.length / 4)]
               if masked_buffer[index * 4 + 3] == 0
                 masked_buffer[index * 4 + 0] = 0
@@ -100,7 +101,8 @@ resize_frames = (map_animation_mask) -> (frames) ->
                 channels: 4
               }
             })
-            .blur(0.6)
+            .background({r:0, g:255, b:255, alpha:0})
+            # .blur(0.6)
             .toBuffer()
             .then(frame_done)
           )
@@ -119,22 +121,22 @@ generate_planet_animation = (map_image_file, map_animation_mask, map_animation_f
       gif = new GifEncoder(ANIMATION_WIDTH, ANIMATION_HEIGHT, {
         highWaterMark: 50 * 1024 * 1024
       })
-  
+
       gif.setTransparent(0x00ffff)
       gif.setRepeat(0)
       gif.setFrameRate(FPS)
-  
+
       file = fs.createWriteStream(map_animation_file)
       gif.pipe(file)
-  
+
       gif.writeHeader()
-  
+
       for frame,index in frames
         gif.addFrame(frame)
         gif.read(1024 * 1024)
-  
+
       console.log "added #{frames.length} frames"
-  
+
       gif.finish()
       done(gif)
 

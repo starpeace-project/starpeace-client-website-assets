@@ -1,0 +1,26 @@
+[
+  {
+    "id": "explosion",
+    "image": "explosion.gif",
+    "width": 62,
+    "height": 53
+  },
+  {
+    "id": "fire.small",
+    "image": "fire.small.gif",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "id": "smoke.dark",
+    "image": "smoke.dark.gif",
+    "width": 30,
+    "height": 39
+  },
+  {
+    "id": "steam.light",
+    "image": "steam.light.gif",
+    "width": 31,
+    "height": 94
+  }
+]
