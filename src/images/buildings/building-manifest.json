@@ -345,12 +345,12 @@
       {
         "x": 0.515625,
         "y": 0.0326,
-        "type": "steam.light"
+        "type": "smoke.dark"
       },
       {
         "x": 0.78125,
         "y": 0.21739,
-        "type": "steam.light"
+        "type": "smoke.dark"
       }
     ]
   },
@@ -709,14 +709,68 @@
     "image": "dis.metal.industry.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 4,
-    "tile_height": 4
+    "tile_height": 4,
+    "effects": [
+      {
+        "x": 0.41015625,
+        "y": 0.033557,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.41015625,
+        "y": 0.1543624,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.55859375,
+        "y": 0.033557,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.55859375,
+        "y": 0.1543624,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.48828125,
+        "y": 0.09395973,
+        "type": "fire.small"
+      }
+    ]
   },
   {
     "id": "dis.metal.industry.small",
     "image": "dis.metal.industry.small.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 4,
-    "tile_height": 4
+    "tile_height": 4,
+    "effects": [
+      {
+        "x": 0.41015625,
+        "y": 0.033557,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.41015625,
+        "y": 0.1543624,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.55859375,
+        "y": 0.033557,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.55859375,
+        "y": 0.1543624,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.48828125,
+        "y": 0.09395973,
+        "type": "fire.small"
+      }
+    ]
   },
   {
     "id": "dis.mi.res.a.empty",
