@@ -7,6 +7,7 @@ Jimp = require('jimp')
 sharp = require('sharp')
 
 CombineBuildingManifest = require('./combine/combine-building-manifest')
+CombineConcreteManifest = require('./combine/combine-concrete-manifest')
 CombineEffectManifest = require('./combine/combine-effect-manifest')
 CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
@@ -15,6 +16,7 @@ CombinePlaneManifest = require('./combine/combine-plane-manifest')
 CombineStaticNews = require('./combine/combine-static-news')
 
 SKIP_BUILDINGS = false
+SKIP_CONCRETE = false
 SKIP_EFFECTS = false
 SKIP_LAND = false
 SKIP_MAPS = false
@@ -40,6 +42,7 @@ console.log "\n-----------------------------------------------------------------
 
 image_dir = path.join(source_dir, 'images')
 buildings_dir = path.join(image_dir, 'buildings')
+concrete_dir = path.join(image_dir, 'concrete')
 effects_dir = path.join(image_dir, 'effects')
 land_dir = path.join(image_dir, 'land')
 maps_dir = path.join(image_dir, 'maps')
@@ -49,6 +52,7 @@ planes_dir = path.join(image_dir, 'planes')
 
 jobs = []
 jobs.push(CombineBuildingManifest.combine(buildings_dir, target_dir)) unless SKIP_BUILDINGS
+jobs.push(CombineConcreteManifest.combine(concrete_dir, target_dir)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_dir)) unless SKIP_EFFECTS
 jobs.push(CombineLandManifest.combine(land_dir, target_dir)) unless SKIP_LAND
 jobs.push(CombineMapManifest.combine(maps_dir, target_dir)) unless SKIP_MAPS

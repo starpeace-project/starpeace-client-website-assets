@@ -1,0 +1,94 @@
+[
+  {
+    "id": "concrete.c.plant",
+    "image": "concrete.c.plant.png"
+  },
+  {
+    "id": "concrete.c.solid",
+    "image": "concrete.c.solid.png"
+  },
+  {
+    "id": "concrete.e",
+    "image": "concrete.e.png"
+  },
+  {
+    "id": "concrete.n",
+    "image": "concrete.n.png"
+  },
+  {
+    "id": "concrete.ne.inner",
+    "image": "concrete.ne.inner.png"
+  },
+  {
+    "id": "concrete.ne.outer",
+    "image": "concrete.ne.outer.png"
+  },
+  {
+    "id": "concrete.nw.inner",
+    "image": "concrete.nw.inner.png"
+  },
+  {
+    "id": "concrete.nw.outer",
+    "image": "concrete.nw.outer.png"
+  },
+  {
+    "id": "concrete.s",
+    "image": "concrete.s.png"
+  },
+  {
+    "id": "concrete.se.inner",
+    "image": "concrete.se.inner.png"
+  },
+  {
+    "id": "concrete.se.outer",
+    "image": "concrete.se.outer.png"
+  },
+  {
+    "id": "concrete.sw.inner",
+    "image": "concrete.sw.inner.png"
+  },
+  {
+    "id": "concrete.sw.outer",
+    "image": "concrete.sw.outer.png"
+  },
+  {
+    "id": "concrete.w",
+    "image": "concrete.w.png"
+  },
+  {
+    "id": "platform.c",
+    "image": "platform.c.png"
+  },
+  {
+    "id": "platform.e",
+    "image": "platform.e.png"
+  },
+  {
+    "id": "platform.n",
+    "image": "platform.n.png"
+  },
+  {
+    "id": "platform.ne",
+    "image": "platform.ne.png"
+  },
+  {
+    "id": "platform.nw",
+    "image": "platform.nw.png"
+  },
+  {
+    "id": "platform.s",
+    "image": "platform.s.png"
+  },
+  {
+    "id": "platform.se",
+    "image": "platform.se.png"
+  },
+  {
+    "id": "platform.sw",
+    "image": "platform.sw.png"
+  },
+  {
+    "id": "platform.w",
+    "image": "platform.w.png"
+  }
+]
