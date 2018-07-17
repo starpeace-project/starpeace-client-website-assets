@@ -81,7 +81,19 @@
     "image": "generic.dump.gif",
     "zone": "CIVICS",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.48253968,
+        "y": 0.005,
+        "type": "smoke.dark"
+      },
+      {
+        "x": 0.5079365,
+        "y": 0.08,
+        "type": "smoke.dark"
+      }
+    ]
   },
   {
     "id": "generic.jail",
@@ -172,7 +184,14 @@
     "image": "generic.statue.gif",
     "zone": "CIVICS",
     "tile_width": 4,
-    "tile_height": 4
+    "tile_height": 4,
+    "effects": [
+      {
+        "x": 0.4015748,
+        "y": 0.0342857,
+        "type": "fire.small"
+      }
+    ]
   },
   {
     "id": "generic.tennis",
@@ -2468,14 +2487,48 @@
     "image": "pgi.food.proc.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 5,
-    "tile_height": 5
+    "tile_height": 5,
+    "effects": [
+      {
+        "x": 0.55625,
+        "y": 0.11330049,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.590625,
+        "y": 0.142857,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.628125,
+        "y": 0.1674876,
+        "type": "steam.light"
+      }
+    ]
   },
   {
     "id": "pgi.food.proc.small",
     "image": "pgi.food.proc.small.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 3,
-    "tile_height": 3
+    "tile_height": 3,
+    "effects": [
+      {
+        "x": 0.05729,
+        "y": 0.140625,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.625,
+        "y": 0.1796875,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.661458,
+        "y": 0.2109375,
+        "type": "steam.light"
+      }
+    ]
   },
   {
     "id": "pgi.food.store",
@@ -2888,14 +2941,48 @@
     "image": "pgi.mine.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 3,
-    "tile_height": 3
+    "tile_height": 3,
+    "effects": [
+      {
+        "x": 0.6073298,
+        "y": 0.5470085,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.70157,
+        "y": 0.461538,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.7958115,
+        "y": 0.393162,
+        "type": "steam.light"
+      }
+    ]
   },
   {
     "id": "pgi.mine.small",
     "image": "pgi.mine.small.gif",
     "zone": "INDUSTRIAL",
     "tile_width": 3,
-    "tile_height": 3
+    "tile_height": 3,
+    "effects": [
+      {
+        "x": 0.6073298,
+        "y": 0.5470085,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.70157,
+        "y": 0.461538,
+        "type": "steam.light"
+      },
+      {
+        "x": 0.7958115,
+        "y": 0.393162,
+        "type": "steam.light"
+      }
+    ]
   },
   {
     "id": "pgi.movie.a",
