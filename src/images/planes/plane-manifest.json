@@ -70,5 +70,11 @@
     "image": "plane.zeppelin.w.gif",
     "height": 73,
     "width": 87
+  },
+  {
+    "id": "plane.ufo",
+    "image": "plane.ufo.gif",
+    "height": 38,
+    "width": 64
   }
 ]
