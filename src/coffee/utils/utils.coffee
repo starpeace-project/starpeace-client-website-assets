@@ -35,6 +35,7 @@ class Utils
         continue if filter_mode.white && red == 255 && green == 255 && blue == 255
         continue if filter_mode.grey && red == 247 && green == 247 && blue == 247
         continue if filter_mode.grey160 && red == 160 && green == 160 && blue == 160
+        continue if filter_mode.road_colors && (red == 39 && green == 84 && blue == 99 || red == 255 && green == 255 && blue == 255)
 
         image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
 

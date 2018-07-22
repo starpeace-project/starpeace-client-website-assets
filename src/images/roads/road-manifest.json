@@ -1,0 +1,182 @@
+[
+  {
+    "id": "bridge.ew",
+    "image": "bridge.ew.bmp"
+  },
+  {
+    "id": "bridge.ns",
+    "image": "bridge.ns.bmp"
+  },
+  {
+    "id": "bridge.ramp.e",
+    "image": "bridge.ramp.e.bmp"
+  },
+  {
+    "id": "bridge.ramp.n",
+    "image": "bridge.ramp.n.bmp"
+  },
+  {
+    "id": "bridge.ramp.s",
+    "image": "bridge.ramp.s.bmp"
+  },
+  {
+    "id": "bridge.ramp.w",
+    "image": "bridge.ramp.w.bmp"
+  },
+  {
+    "id": "road.city.corner.ne",
+    "image": "road.city.corner.ne.bmp"
+  },
+  {
+    "id": "road.city.corner.nw",
+    "image": "road.city.corner.nw.bmp"
+  },
+  {
+    "id": "road.city.corner.se",
+    "image": "road.city.corner.se.bmp"
+  },
+  {
+    "id": "road.city.corner.sw",
+    "image": "road.city.corner.sw.bmp"
+  },
+  {
+    "id": "road.city.cross",
+    "image": "road.city.cross.bmp"
+  },
+  {
+    "id": "road.city.ew",
+    "image": "road.city.ew.bmp"
+  },
+  {
+    "id": "road.city.ew.e",
+    "image": "road.city.ew.e.bmp"
+  },
+  {
+    "id": "road.city.ew.w",
+    "image": "road.city.ew.w.bmp"
+  },
+  {
+    "id": "road.city.lights",
+    "image": "road.city.lights.bmp"
+  },
+  {
+    "id": "road.city.nesw.nw",
+    "image": "road.city.nesw.nw.bmp"
+  },
+  {
+    "id": "road.city.nesw.se",
+    "image": "road.city.nesw.se.bmp"
+  },
+  {
+    "id": "road.city.ns",
+    "image": "road.city.ns.bmp"
+  },
+  {
+    "id": "road.city.ns.n",
+    "image": "road.city.ns.n.bmp"
+  },
+  {
+    "id": "road.city.ns.s",
+    "image": "road.city.ns.s.bmp"
+  },
+  {
+    "id": "road.city.nwse.ne",
+    "image": "road.city.nwse.ne.bmp"
+  },
+  {
+    "id": "road.city.nwse.sw",
+    "image": "road.city.nwse.sw.bmp"
+  },
+  {
+    "id": "road.city.t.ew.n",
+    "image": "road.city.t.ew.n.bmp"
+  },
+  {
+    "id": "road.city.t.ew.s",
+    "image": "road.city.t.ew.s.bmp"
+  },
+  {
+    "id": "road.city.t.ns.e",
+    "image": "road.city.t.ns.e.bmp"
+  },
+  {
+    "id": "road.city.t.ns.w",
+    "image": "road.city.t.ns.w.bmp"
+  },
+  {
+    "id": "road.country.corner.ne",
+    "image": "road.country.corner.ne.bmp"
+  },
+  {
+    "id": "road.country.corner.nw",
+    "image": "road.country.corner.nw.bmp"
+  },
+  {
+    "id": "road.country.corner.se",
+    "image": "road.country.corner.se.bmp"
+  },
+  {
+    "id": "road.country.corner.sw",
+    "image": "road.country.corner.sw.bmp"
+  },
+  {
+    "id": "road.country.cross",
+    "image": "road.country.cross.bmp"
+  },
+  {
+    "id": "road.country.ew",
+    "image": "road.country.ew.bmp"
+  },
+  {
+    "id": "road.country.ew.e",
+    "image": "road.country.ew.e.bmp"
+  },
+  {
+    "id": "road.country.ew.w",
+    "image": "road.country.ew.w.bmp"
+  },
+  {
+    "id": "road.country.nesw.nw",
+    "image": "road.country.nesw.nw.bmp"
+  },
+  {
+    "id": "road.country.nesw.se",
+    "image": "road.country.nesw.se.bmp"
+  },
+  {
+    "id": "road.country.ns",
+    "image": "road.country.ns.bmp"
+  },
+  {
+    "id": "road.country.ns.n",
+    "image": "road.country.ns.n.bmp"
+  },
+  {
+    "id": "road.country.ns.s",
+    "image": "road.country.ns.s.bmp"
+  },
+  {
+    "id": "road.country.nwse.ne",
+    "image": "road.country.nwse.ne.bmp"
+  },
+  {
+    "id": "road.country.nwse.sw",
+    "image": "road.country.nwse.sw.bmp"
+  },
+  {
+    "id": "road.country.t.ew.n",
+    "image": "road.country.t.ew.n.bmp"
+  },
+  {
+    "id": "road.country.t.ew.s",
+    "image": "road.country.t.ew.s.bmp"
+  },
+  {
+    "id": "road.country.t.ns.e",
+    "image": "road.country.t.ns.e.bmp"
+  },
+  {
+    "id": "road.country.t.ns.w",
+    "image": "road.country.t.ns.w.bmp"
+  }
+]

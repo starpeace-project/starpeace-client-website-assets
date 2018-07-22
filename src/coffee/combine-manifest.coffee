@@ -13,6 +13,7 @@ CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
 CombineOverlayManifest = require('./combine/combine-overlay-manifest')
 CombinePlaneManifest = require('./combine/combine-plane-manifest')
+CombineRoadManifest = require('./combine/combine-road-manifest')
 CombineStaticNews = require('./combine/combine-static-news')
 
 SKIP_BUILDINGS = false
@@ -23,6 +24,7 @@ SKIP_MAPS = false
 SKIP_NEWS = false
 SKIP_OVERLAYS = false
 SKIP_PLANES = false
+SKIP_ROADS = false
 
 console.log "\n===============================================================================\n"
 console.log " combine-manifest.js - https://www.starpeace.io\n"
@@ -49,6 +51,7 @@ maps_dir = path.join(image_dir, 'maps')
 news_dir = path.join(source_dir, 'news')
 overlays_dir = path.join(image_dir, 'overlays')
 planes_dir = path.join(image_dir, 'planes')
+roads_dir = path.join(image_dir, 'roads')
 
 jobs = []
 jobs.push(CombineBuildingManifest.combine(buildings_dir, target_dir)) unless SKIP_BUILDINGS
@@ -58,6 +61,7 @@ jobs.push(CombineLandManifest.combine(land_dir, target_dir)) unless SKIP_LAND
 jobs.push(CombineMapManifest.combine(maps_dir, target_dir)) unless SKIP_MAPS
 jobs.push(CombineOverlayManifest.combine(overlays_dir, target_dir)) unless SKIP_OVERLAYS
 jobs.push(CombinePlaneManifest.combine(planes_dir, target_dir)) unless SKIP_PLANES
+jobs.push(CombineRoadManifest.combine(roads_dir, target_dir)) unless SKIP_ROADS
 jobs.push(CombineStaticNews.combine(news_dir, target_dir)) unless SKIP_NEWS
 
 Promise.all(jobs)
