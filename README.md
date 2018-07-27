@@ -3,19 +3,19 @@
 
 [![Build Status](https://travis-ci.org/ronappleton/starpeace-website-client-assets.svg)](https://travis-ci.org/ronappleton/starpeace-website-client-assets)
 
-Assets for [Starpeace](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
+Assets for [STARPEACE](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
 
 ## Official Documentation
 
-Documentation for client gameplay can be found on the [Starpeace website](https://docs.starpeace.io).
+Documentation for client gameplay can be found on the [STARPEACE website](https://docs.starpeace.io).
 
 ## Roadmap
 
-Development and gameplay roadmap can be found on the [Starpeace Community Development website](https://www.starpeace.ovh/).
+Development and gameplay roadmap can be found on the [STARPEACE website](https://www.starpeace.io/release).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Starpeace website, please send an e-mail to admin@starpeace.ovh or open a [GitHub issue](https://github.com/ronappleton/starpeace-website-client/issues). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within STARPEACE website, please send an e-mail to security@starpeace.io or open a [GitHub issue](https://github.com/ronappleton/starpeace-website-client/issues). All security vulnerabilities will be promptly addressed.
 
 ## Development
 
@@ -27,11 +27,11 @@ Local development can be accomplished in a few commands. The following build-tim
 Retrieve copy of repository and navigate to root:
 
 ```
-$ git clone https://github.com/ronappleton/starpeace-website-client.git
-$ cd starpeace-website-client
+$ git clone https://github.com/ronappleton/starpeace-website-client-assets.git
+$ cd starpeace-website-client-assets
 ```
 
-Install starpeace-website-client dependencies:
+Install starpeace-website-client-assets dependencies:
 
 ```
 $ npm install
@@ -52,6 +52,7 @@ $ grunt
 $ grunt combine
 ```
 
+``Note: server was used in past for land auditing and may no longer work''
 A simple server is also provided to browse raw assets, accessible at [127.0.0.1:11015](http://127.0.0.1:11015) using ```server``` grunt target:
 
 ```
@@ -88,7 +89,7 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 * special images - refactor - renamed to tree.<zone>.<variant>.bmp
 
 ### Maps
-* Fraternite - renamed - renamed assets to remove special character (é)
+* Fraternite - renamed - renamed assets to remove special character (ï¿½)
 * Liberte - removed - duplicate of Zyrane assets (same problems)
 * StarpeaceU - removed - duplicate of Zyrane assets (same problems)
 * Zyrane - removed - missing almost all matching land tiles (117/130)
@@ -96,4 +97,4 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 
 ## License
 
-Starpeace website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+STARPEACE website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
