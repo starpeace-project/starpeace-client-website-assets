@@ -52,7 +52,7 @@ $ grunt
 $ grunt combine
 ```
 
-``Note: server was used in past for land auditing and may no longer work''
+*Note: server was used in past for land auditing and may no longer work*
 A simple server is also provided to browse raw assets, accessible at [127.0.0.1:11015](http://127.0.0.1:11015) using ```server``` grunt target:
 
 ```
