@@ -11,7 +11,7 @@ Documentation for client gameplay can be found on the [STARPEACE website](https:
 
 ## Roadmap
 
-Development and gameplay roadmap can be found on the [STARPEACE website](https://www.starpeace.io/release).
+Development and gameplay roadmap can be found on the [STARPEACE website](https://client.starpeace.io/release).
 
 ## Security Vulnerabilities
 
