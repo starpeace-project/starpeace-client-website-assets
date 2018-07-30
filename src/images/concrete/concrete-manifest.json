@@ -12,8 +12,16 @@
     "image": "concrete.e.png"
   },
   {
+    "id": "concrete.e.flat",
+    "image": "concrete.e.flat.png"
+  },
+  {
     "id": "concrete.n",
     "image": "concrete.n.png"
+  },
+  {
+    "id": "concrete.n.flat",
+    "image": "concrete.n.flat.png"
   },
   {
     "id": "concrete.ne.inner",
@@ -24,6 +32,14 @@
     "image": "concrete.ne.outer.png"
   },
   {
+    "id": "concrete.ne.outer.n",
+    "image": "concrete.ne.outer.n.png"
+  },
+  {
+    "id": "concrete.ne.outer.w",
+    "image": "concrete.ne.outer.w.png"
+  },
+  {
     "id": "concrete.nw.inner",
     "image": "concrete.nw.inner.png"
   },
@@ -32,8 +48,20 @@
     "image": "concrete.nw.outer.png"
   },
   {
+    "id": "concrete.nw.outer.s",
+    "image": "concrete.nw.outer.s.png"
+  },
+  {
+    "id": "concrete.nw.outer.w",
+    "image": "concrete.nw.outer.w.png"
+  },
+  {
     "id": "concrete.s",
     "image": "concrete.s.png"
+  },
+  {
+    "id": "concrete.s.flat",
+    "image": "concrete.s.flat.png"
   },
   {
     "id": "concrete.se.inner",
@@ -44,6 +72,14 @@
     "image": "concrete.se.outer.png"
   },
   {
+    "id": "concrete.se.outer.e",
+    "image": "concrete.se.outer.e.png"
+  },
+  {
+    "id": "concrete.se.outer.n",
+    "image": "concrete.se.outer.n.png"
+  },
+  {
     "id": "concrete.sw.inner",
     "image": "concrete.sw.inner.png"
   },
@@ -52,8 +88,20 @@
     "image": "concrete.sw.outer.png"
   },
   {
+    "id": "concrete.sw.outer.e",
+    "image": "concrete.sw.outer.e.png"
+  },
+  {
+    "id": "concrete.sw.outer.s",
+    "image": "concrete.sw.outer.s.png"
+  },
+  {
     "id": "concrete.w",
     "image": "concrete.w.png"
+  },
+  {
+    "id": "concrete.w.flat",
+    "image": "concrete.w.flat.png"
   },
   {
     "id": "platform.c",
