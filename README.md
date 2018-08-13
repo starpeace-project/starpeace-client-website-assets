@@ -1,7 +1,7 @@
 
 # starpeace-website-client-assets
 
-[![Build Status](https://travis-ci.org/ronappleton/starpeace-website-client-assets.svg)](https://travis-ci.org/ronappleton/starpeace-website-client-assets)
+[![Build Status](https://travis-ci.org/starpeace-project/starpeace-website-client-assets.svg)](https://travis-ci.org/starpeace-project/starpeace-website-client-assets)
 
 Assets for [STARPEACE](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
 
@@ -15,7 +15,7 @@ Development and gameplay roadmap can be found on the [STARPEACE website](https:/
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within STARPEACE website, please send an e-mail to security@starpeace.io or open a [GitHub issue](https://github.com/ronappleton/starpeace-website-client/issues). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within STARPEACE website, please send an e-mail to security@starpeace.io or open a [GitHub issue](https://github.com/starpeace-project/starpeace-website-client/issues). All security vulnerabilities will be promptly addressed.
 
 ## Development
 
@@ -27,7 +27,7 @@ Local development can be accomplished in a few commands. The following build-tim
 Retrieve copy of repository and navigate to root:
 
 ```
-$ git clone https://github.com/ronappleton/starpeace-website-client-assets.git
+$ git clone https://github.com/starpeace-project/starpeace-website-client-assets.git
 $ cd starpeace-website-client-assets
 ```
 

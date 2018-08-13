@@ -1,9 +1,9 @@
 {
-  "name": "starpeace-website-client-assets",
+  "name": "@starpeace/starpeace-website-client-assets",
   "version": "0.1.0",
   "description": "Assets and gameplay resources for starpeace-website-client application",
   "keywords": [],
-  "author": "ronappleton",
+  "author": "starpeace-project",
   "license": "MIT",
   "private": true,
   "devDependencies": {
