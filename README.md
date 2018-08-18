@@ -103,4 +103,4 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 
 ## License
 
-All content of starpeace-website-client-assets is licensed under the [Creative Commons Attribution NonCommercial ShareAlike 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0), and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). No commercial use of any images, sounds, or metadata within or derived from starpeace-website-client-assets is permitted.
+All content of starpeace-website-client-assets is [commercially licensed](./LICENSE-STARPEACE) and all unauthorized or unapproved use is not permitted, and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). Please contact info@starpeace-project.com for licensing information.
