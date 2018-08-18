@@ -2,6 +2,8 @@
 # starpeace-website-client-assets
 
 [![Build Status](https://travis-ci.org/starpeace-project/starpeace-website-client-assets.svg)](https://travis-ci.org/starpeace-project/starpeace-website-client-assets)
+[(https://img.shields.io/badge/license-Commercial-yellowgreen.svg)](./LICENSE-STARPEACE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Assets for [STARPEACE](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
 
@@ -63,6 +65,10 @@ $ grunt server
 
 After building repository with grunt ```combine```, game-ready assets are compiled and placed within the ```/build/public/``` folder. These resources should be served as static assets from web application and can be cached if desired.
 
+### cdn.starpeace.io
+
+Repository is currently deployed to and hosted with AWS S3. Changes pushed to repository will activate webhook to AWS CodePipeline, triggering automatic rebuild and deployment of website resources.
+
 ## Asset Tools
 ### Audit
 
@@ -97,4 +103,4 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 
 ## License
 
-STARPEACE website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+All content of starpeace-website-client-assets is licensed under the [Creative Commons Attribution NonCommercial ShareAlike 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0), and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). No commercial use of any images, sounds, or metadata within or derived from starpeace-website-client-assets is permitted.

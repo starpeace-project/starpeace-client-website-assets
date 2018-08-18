@@ -4,7 +4,7 @@
   "description": "Assets and gameplay resources for starpeace-website-client application",
   "keywords": [],
   "author": "starpeace-project",
-  "license": "MIT",
+  "license": "COMMERCIAL",
   "private": true,
   "devDependencies": {
     "grunt": "^1.0.1",
