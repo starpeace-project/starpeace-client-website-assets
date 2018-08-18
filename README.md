@@ -2,7 +2,7 @@
 # starpeace-website-client-assets
 
 [![Build Status](https://travis-ci.org/starpeace-project/starpeace-website-client-assets.svg)](https://travis-ci.org/starpeace-project/starpeace-website-client-assets)
-[(https://img.shields.io/badge/license-Commercial-yellowgreen.svg)](./LICENSE-STARPEACE)
+[![License: Commercial](https://img.shields.io/badge/license-Commercial-yellowgreen.svg)](./LICENSE-STARPEACE)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Assets for [STARPEACE](https://www.starpeace.io), including gameplay images, sounds, and compilation tools for client integration.
