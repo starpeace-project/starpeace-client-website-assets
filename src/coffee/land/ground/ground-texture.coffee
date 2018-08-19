@@ -36,6 +36,7 @@ class GroundTexture extends Texture
     "#{@season}.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}"
 
   filter_mode: () -> { blue: true, white: false, grey: true, green: false, grey160:false }
+  swap_rb_of_rgb: () -> true
 
   has_valid_attributes: () ->
     @planet_type != LandAttributes.PLANET_TYPES.other && @season != LandAttributes.SEASONS.other &&

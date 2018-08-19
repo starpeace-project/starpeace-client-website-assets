@@ -12,10 +12,7 @@ Spritesheet = require('../texture/spritesheet')
 ORIENTATIONS = new Set(['0deg'])
 
 class LandManifest
-
   constructor: (@planet_type, @ground_metadata, @ground_spritesheets, @tree_metadata, @tree_spritesheets) ->
-
-
 
   @merge: (planet_type, ground_definitions, ground_textures, tree_definitions, tree_textures) ->
     ground_texture_key_seasons = {}
@@ -47,7 +44,7 @@ class LandManifest
             ground_metadata.textures[orientation][season][type_texture_key.type] = spritesheet_key
             ground_texture_keys.add spritesheet_key
 
-    ground_spritesheets = Spritesheet.pack_textures(ground_textures, ground_texture_keys, true, 2048, 2048)
+    ground_spritesheets = Spritesheet.pack_textures(ground_textures, ground_texture_keys, 2048, 2048)
 
 
     tree_metadata_by_key = {}
@@ -62,7 +59,7 @@ class LandManifest
           tree_metadata.textures[season] = spritesheet_key
           tree_texture_keys.add spritesheet_key
 
-    tree_spritesheets = Spritesheet.pack_textures(tree_textures, tree_texture_keys, true, 768, 768)
+    tree_spritesheets = Spritesheet.pack_textures(tree_textures, tree_texture_keys, 768, 768)
 
     new LandManifest(planet_type, ground_metadata_by_key, ground_spritesheets, tree_metadata_by_key, tree_spritesheets)
 

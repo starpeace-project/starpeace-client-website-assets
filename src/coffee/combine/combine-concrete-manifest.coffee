@@ -27,7 +27,7 @@ aggregate = ([concrete_definition_manifest, concrete_texture_manifest]) ->
       definition.frame_ids = [texture.id]
       frame_texture_groups.push [texture]
 
-    done([concrete_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), false, OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
+    done([concrete_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
 
 write_assets = (output_dir) -> ([concrete_definition_manifest, concrete_spritesheets]) ->

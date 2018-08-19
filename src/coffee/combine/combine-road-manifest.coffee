@@ -27,7 +27,7 @@ aggregate = ([road_definition_manifest, road_texture_manifest]) ->
       definition.frame_ids = [texture.id]
       frame_texture_groups.push [texture]
 
-    done([road_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), true, OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
+    done([road_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
 
 write_assets = (output_dir) -> ([road_definition_manifest, road_spritesheets]) ->

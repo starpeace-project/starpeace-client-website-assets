@@ -34,6 +34,7 @@ class TreeTexture extends Texture
     "#{@season}.#{@zone}.#{@variant.toString().padStart(2, '0')}"
 
   filter_mode: () -> { blue: true, white: true, grey: true, green: false, grey160:false }
+  swap_rb_of_rgb: () -> true
 
   @load: (land_dir) ->
     new Promise (fulfill, reject) ->

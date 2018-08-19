@@ -29,7 +29,7 @@ aggregate = ([plane_definition_manifest, plane_texture_manifest]) ->
       frame_texture_groups.push frame_textures
       console.log "#{definition.id} has #{frame_textures.length} frames"
 
-    done([plane_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), false, OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
+    done([plane_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
 
 write_assets = (output_dir) -> ([plane_definition_manifest, plane_spritesheets]) ->

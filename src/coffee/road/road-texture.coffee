@@ -12,7 +12,8 @@ module.exports = class RoadTexture extends Texture
   constructor: (@file_path, image, @target_width) ->
     super(image)
 
-    @id = @file_path.replace('.png', '')
+    @_swap_rb_of_rgb = @file_path.indexOf('.bmp') > 0
+    @id = @file_path.replace('.bmp', '').replace('.png', '')
     @target_height = image.height * (image.width / @target_width)
 
   toString: () -> "#{@id} => #{@width()}x#{@height()}"
@@ -22,13 +23,13 @@ module.exports = class RoadTexture extends Texture
   key_for_spritesheet: () -> @id
 
   filter_mode: () -> { road_colors: true }
-
+  swap_rb_of_rgb: () -> @_swap_rb_of_rgb
 
   @load: (road_dir) ->
     new Promise (fulfill, reject) ->
       console.log "loading road textures from #{road_dir}\n"
 
-      image_file_paths = _.filter(FileUtils.read_all_files_sync(road_dir), (file_path) -> file_path.indexOf('legacy') < 0 && file_path.endsWith('.bmp'))
+      image_file_paths = _.filter(FileUtils.read_all_files_sync(road_dir), (file_path) -> file_path.indexOf('legacy') < 0 && (file_path.endsWith('.bmp') || file_path.endsWith('.png')))
       Promise.all(_.map(image_file_paths, (file_path) -> Jimp.read(file_path)))
         .then (images) ->
           progress = new ConsoleProgressUpdater(images.length)

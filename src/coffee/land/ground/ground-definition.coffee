@@ -16,6 +16,7 @@ class GroundDefinition
     @seasons = new Set()
     @planet_type = LandAttributes.PLANET_TYPES.other
     @zone = LandAttributes.ZONES.other
+    @type = LandAttributes.TYPES.other
 
     @textures_by_orientation_type = {}
 
@@ -27,6 +28,8 @@ class GroundDefinition
 
   valid: () ->
     !isNaN(@id)  && !isNaN(@map_color) && !@missing_texture_keys().length
+
+  is_center: () -> _.some(_.values(@textures_by_orientation_type), (texture) -> texture.type == 'center')
 
   missing_texture_keys: () ->
     _.difference(['0deg', '90deg', '180deg', '270deg'], Object.keys(@textures_by_orientation_type))
@@ -54,6 +57,7 @@ class GroundDefinition
       @id
       @map_color
       @zone
+      is_coast: @zone == LandAttributes.ZONES.water && !@is_center()
     }
 
   @from_json: (json) ->
@@ -63,9 +67,9 @@ class GroundDefinition
     tile.seasons = new Set(json.seasons || [LandAttributes.SEASONS.winter, LandAttributes.SEASONS.spring, LandAttributes.SEASONS.summer, LandAttributes.SEASONS.fall])
     tile.planet_type = json.planet_type || LandAttributes.PLANET_TYPES.earth # FIXME: TODO: stop this default
     tile.zone = json.zone || LandAttributes.ZONES.other
+    tile.type = json.type || LandAttributes.TYPES.other
     tile.textures_by_orientation_type = json.textures || {}
 
     tile
 
 module.exports = GroundDefinition
-
