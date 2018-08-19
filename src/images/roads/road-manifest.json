@@ -104,6 +104,22 @@
     "image": "road.city.t.ns.w.bmp"
   },
   {
+    "id": "road.city.n.country.s",
+    "image": "road.city.n.country.s.bmp"
+  },
+  {
+    "id": "road.city.s.country.n",
+    "image": "road.city.s.country.n.bmp"
+  },
+  {
+    "id": "road.city.e.country.w",
+    "image": "road.city.e.country.w.bmp"
+  },
+  {
+    "id": "road.city.w.country.e",
+    "image": "road.city.w.country.e.bmp"
+  },
+  {
     "id": "road.country.corner.ne",
     "image": "road.country.corner.ne.bmp"
   },
