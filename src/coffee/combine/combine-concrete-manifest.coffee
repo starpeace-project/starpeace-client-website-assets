@@ -32,16 +32,15 @@ aggregate = ([concrete_definition_manifest, concrete_texture_manifest]) ->
 
 write_assets = (output_dir) -> ([concrete_definition_manifest, concrete_spritesheets]) ->
   new Promise (done) ->
-    unique_hash = Utils.random_md5()
     write_promises = []
 
     frame_atlas = {}
     atlas_names = []
     for spritesheet in concrete_spritesheets
-      texture_name = "concrete.texture.#{spritesheet.index}.#{unique_hash}.png"
+      texture_name = "concrete.texture.#{spritesheet.index}.png"
       write_promises.push spritesheet.save_texture(output_dir, texture_name)
 
-      atlas_name = "concrete.atlas.#{spritesheet.index}.#{unique_hash}.json"
+      atlas_name = "concrete.atlas.#{spritesheet.index}.json"
       atlas_names.push "./#{atlas_name}"
 
       spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)

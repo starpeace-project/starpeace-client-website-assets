@@ -152,6 +152,7 @@ console.log "\n=================================================================
 root = process.cwd()
 source_dir = path.join(root, process.argv[2])
 target_dir = path.join(root, process.argv[3])
+target_dir = path.join(target_dir, 'animations')
 
 fs.mkdirsSync(target_dir)
 

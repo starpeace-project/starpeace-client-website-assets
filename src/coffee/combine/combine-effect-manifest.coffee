@@ -34,16 +34,15 @@ aggregate = ([effect_definition_manifest, effect_texture_manifest]) ->
 
 write_assets = (output_dir) -> ([effect_definition_manifest, effect_spritesheets]) ->
   new Promise (done) ->
-    unique_hash = Utils.random_md5()
     write_promises = []
 
     frame_atlas = {}
     atlas_names = []
     for spritesheet in effect_spritesheets
-      texture_name = "effect.texture.#{spritesheet.index}.#{unique_hash}.png"
+      texture_name = "effect.texture.#{spritesheet.index}.png"
       write_promises.push spritesheet.save_texture(output_dir, texture_name)
 
-      atlas_name = "effect.atlas.#{spritesheet.index}.#{unique_hash}.json"
+      atlas_name = "effect.atlas.#{spritesheet.index}.json"
       atlas_names.push "./#{atlas_name}"
 
       spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)

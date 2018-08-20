@@ -34,16 +34,15 @@ aggregate = ([plane_definition_manifest, plane_texture_manifest]) ->
 
 write_assets = (output_dir) -> ([plane_definition_manifest, plane_spritesheets]) ->
   new Promise (done) ->
-    unique_hash = Utils.random_md5()
     write_promises = []
 
     frame_atlas = {}
     atlas_names = []
     for spritesheet in plane_spritesheets
-      texture_name = "plane.texture.#{spritesheet.index}.#{unique_hash}.png"
+      texture_name = "plane.texture.#{spritesheet.index}.png"
       write_promises.push spritesheet.save_texture(output_dir, texture_name)
 
-      atlas_name = "plane.atlas.#{spritesheet.index}.#{unique_hash}.json"
+      atlas_name = "plane.atlas.#{spritesheet.index}.json"
       atlas_names.push "./#{atlas_name}"
 
       spritesheet.save_atlas(output_dir, texture_name, atlas_name, DEBUG_MODE)

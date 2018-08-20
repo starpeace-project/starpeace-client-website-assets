@@ -71,11 +71,6 @@ module.exports = function(grunt) {
         files: [
           {expand: true, flatten: true, src: ['src/images/misc/*'], dest: 'build/public', filter: 'isFile'}
         ]
-      },
-      sounds: {
-        files: [
-          {expand: true, flatten: true, src: ['src/sounds/music/*'], dest: 'build/public', filter: 'isFile', rename: function (dest, src) { return dest + '/music.' + src }}
-        ]
       }
     },
 
@@ -101,8 +96,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build', ['coffee:compile','copy:misc_images', 'copy:sounds']);
-  grunt.registerTask('build_server', ['clean', 'sass', 'cssmin', 'coffee:asset_compile', 'uglify', 'haml', 'copy:misc_images', 'copy:sounds']);
+  grunt.registerTask('build', ['coffee:compile','copy:misc_images']);
+  grunt.registerTask('build_server', ['clean', 'sass', 'cssmin', 'coffee:asset_compile', 'uglify', 'haml', 'copy:misc_images']);
 
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('cleanup', ['build', 'run:cleanup_textures']);
