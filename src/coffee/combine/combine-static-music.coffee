@@ -12,7 +12,7 @@ module.exports = class CombineStaticMusic
 
       for file in files
         source_file = path.join(music_dir, file)
-        target_file = path.join(target_dir, file)
+        target_file = path.join(target_dir, "music.#{file}")
         fs.copySync(source_file, target_file)
         console.log "static music #{source_file} copied to #{target_file}"
 
