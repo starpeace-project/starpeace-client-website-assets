@@ -4,7 +4,6 @@ fs = require('fs-extra')
 _ = require('lodash')
 
 BuildingDefinitionManifest = require('../building/building-definition-manifest')
-BuildingTextureManifest = require('../building/building-texture-manifest')
 Spritesheet = require('../texture/spritesheet')
 
 DEBUG_MODE = false
@@ -15,14 +14,14 @@ TILE_HEIGHT = 32
 OUTPUT_TEXTURE_WIDTH = 2048
 OUTPUT_TEXTURE_HEIGHT = 2048
 
-aggregate = ([building_definition_manifest, building_texture_manifest]) ->
+aggregate = ([building_definition_manifest]) ->
   new Promise (done, error) ->
 
     frame_texture_groups = []
     for definition in building_definition_manifest.all_definitions
-      texture = building_texture_manifest.by_file_path[definition.image]
+      texture = definition.image
       unless texture?
-        console.log "unable to find building image #{definition.image}"
+        console.log "unable to find building image #{definition.image_path}"
         continue
 
       frame_textures = texture.get_frame_textures(definition.id, definition.tile_width * TILE_WIDTH, definition.tile_height * TILE_HEIGHT)
@@ -82,7 +81,7 @@ class CombineBuildingManifest
   @combine: (building_dir, target_dir) ->
     new Promise (done, error) ->
       Promise.all [
-          BuildingDefinitionManifest.load(building_dir), BuildingTextureManifest.load(building_dir)
+          BuildingDefinitionManifest.load(building_dir)
         ]
         .then aggregate
         .then write_assets(target_dir)

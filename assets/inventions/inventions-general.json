@@ -1,0 +1,162 @@
+{
+  "BasicCommerce": {
+    "id": "BasicCommerce",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Commerce Facilities",
+      "ES": "Commerce Facilities",
+      "FR": "Bâtiments de commerce",
+      "DE": "Handelseinrichtungen",
+      "IT": "Esercizio commerciale"
+    },
+    "description": {
+      "EN": "Paperwork necessary for commerce facilities management.",
+      "ES": "Paperwork for commerce facilities management.",
+      "FR": "Travail administratif pour la gestion des bâtiments de commerce.",
+      "DE": "Papiere für das Management von Handelseinrichtungen.",
+      "IT": "Tutti i documenti necessari alla gestione di un esercizio commerciale."
+    },
+    "properties": {
+      "price": 200000,
+      "level": "apprentice"
+    },
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "CivicFac": {
+    "id": "CivicFac",
+    "category": "CIVICS",
+    "name": {
+      "EN": "Public Facilities",
+      "ES": "Public Facilities",
+      "FR": "Services publics",
+      "DE": "Öffentliche Einrichtungen",
+      "IT": "Servizi pubblici"
+    },
+    "description": {
+      "EN": "Paperwork necessary for managing public facilities such as schools, hospitals and police stations.",
+      "ES": "Paperwork for managing public facilities such as schools, hospitals and police stations.",
+      "FR": "Travail administratif pour la gestion des services publics, tels que les écoles, hôpitaux et postes de police.",
+      "DE": "Papiere für das Management von öffentlichen Einrichtungen wie Schulen, Krankenhäuser und Polizeireviere.",
+      "IT": "I documenti necessari per la gestione di servizi pubblici come scuole, ospedali e stazioni di polizia."
+    },
+    "properties": {
+      "price": 200000,
+      "prestige": 5,
+      "level": "apprentice"
+    }
+  },
+  "DistributedDirection": {
+    "id": "DistributedDirection",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Distributed Direction",
+      "ES": "Distributed Direction",
+      "FR": "Direction répartie",
+      "DE": "Managementanweisungen",
+      "IT": "Gestione distribuita"
+    },
+    "description": {
+      "EN": "The usual paperwork necessary for establishing and organizing a company.",
+      "ES": "The usual paperwork for organizing any company.",
+      "FR": "Quantité de travail administratif habituelle nécessaire à l'organisation de toute société.",
+      "DE": "Die üblichen Papiere zur Organisation eines Unternehmens.",
+      "IT": "I soliti documenti per l'organizzazione aziendale."
+    },
+    "properties": {
+      "price": 1000000,
+      "level": "apprentice"
+    }
+  },
+  "Industries": {
+    "id": "Industries",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Industrial Facilities",
+      "ES": "Industrial Facilities",
+      "FR": "Bâtiments industriels",
+      "DE": "Industrieeinrichtungen",
+      "IT": "Impianti industriali"
+    },
+    "description": {
+      "EN": "Paperwork necessary for the management of industries.",
+      "ES": "Paperwork for industries management.",
+      "FR": "Travail administratif nécessaire à la gestion industrielle.",
+      "DE": "Papiere für das Management von Industrien.",
+      "IT": "I documenti necessari per la gestione di un'industria."
+    },
+    "properties": {
+      "price": 500000,
+      "level": "apprentice"
+    }
+  },
+  "MinistryAdministration": {
+    "id": "MinistryAdministration",
+    "category": "CIVICS",
+    "name": {
+      "EN": "Ministry Administration",
+      "ES": "Ministry Administration"
+    },
+    "description": {
+      "EN": "",
+      "ES": ""
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "apprentice"
+    }
+  },
+  "Monuments": {
+    "id": "Monuments",
+    "category": "CIVICS",
+    "name": {
+      "EN": "Monument Reproduction",
+      "ES": "Monuments Reproduction",
+      "FR": "Reproduction de monuments",
+      "DE": "Reproduktion von Denkmälern",
+      "IT": "Riproduzione di monumenti"
+    },
+    "description": {
+      "EN": "Acquire the skills to reproduce monuments.",
+      "ES": "Acquire the skills to reproduce monuments.",
+      "FR": "Apprenez à reproduire les monuments.",
+      "DE": "Eignen Sie sich die Kenntnis über die Reproduktion von Denkmälern an.",
+      "IT": "Apprendi i procedimenti per la riproduzione di monumenti."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 50,
+      "level": "entrepreneur"
+    }
+  },
+  "WaterQuest": {
+    "id": "WaterQuest",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Water Quest Licenses",
+      "ES": "Water Quest Licenses",
+      "FR": "Water Quest Licenses",
+      "DE": "Water Quest Licenses",
+      "IT": "Conquista dell'acqua"
+    },
+    "description": {
+      "EN": "Build urban structures on water. Since it will allow you to build residentials, commerce and offices over the water this research will require 3 IFEL Licenses.",
+      "ES": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
+      "FR": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
+      "DE": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
+      "IT": "Costruisci edifici sull'acqua. Dal momento che ti consentirà di costruire edifici commerciali e residenziali sull'acqua, questa ricerca costa 3 licenze IFEL."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 50,
+      "level": "apprentice"
+    },
+    "depends_on": [
+      "DistributedDirection",
+      "CivicFac",
+      "Industries",
+      "BasicCommerce"
+    ]
+  }
+}

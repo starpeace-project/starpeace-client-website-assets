@@ -1,0 +1,602 @@
+{
+  "AwardShows": {
+    "id": "AwardShows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Award Shows",
+      "ES": "Award Shows",
+      "FR": "Émission DAward",
+      "DE": "Award Shows",
+      "IT": "Spettacoli Celebrativi"
+    },
+    "description": {
+      "EN": "Create many awards show so that audiences can watch their favorite celebrities all dressed up and smiling. Nobody actually cares about the award itself; it's the pomp and pageantry they love.",
+      "ES": "Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.",
+      "FR": "Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.",
+      "DE": "Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.",
+      "IT": "Produci spettacoli che diano premi a varie celebrità, in modo che gli spettatori possano vedere il più possibile i loro idoli. A nessuno interessa la reale validità dei premi."
+    },
+    "properties": {
+      "price": 700000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "BasicTelevision": {
+    "id": "BasicTelevision",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Television",
+      "ES": "Television",
+      "FR": "Télévision",
+      "DE": "Fernsehen",
+      "IT": "Televisione"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge about the television industry.",
+      "ES": "Assimilate the television business.",
+      "FR": "Découvrez le métier de la télévision.",
+      "DE": "Erlernen Sie das TV-Geschäft.",
+      "IT": "Impara i segreti del mondo della televisione."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 10,
+      "level": "tycoon"
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "Cartoons": {
+    "id": "Cartoons",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Cartoons",
+      "ES": "Cartoons",
+      "FR": "Animation",
+      "DE": "Cartoons",
+      "IT": "Cartoni Animati"
+    },
+    "description": {
+      "EN": "Produce animated shows for children and older audiences. From 'Spider Man vs. The Pathran Man-Eater' to the 'The Simpsons and Fritz the Cat conquer Planitia' every viewer will find something to enjoy.",
+      "ES": "Produce animated series for children and adults. From 'Spider Man vs The Pathran Man Eater' to the 'The Simpsons and Fritz the Cat conquer Planitia' everyone will find something.",
+      "FR": "Vous produisez des séries animée pour les enfants et adultes. De « L'homme Araignée contre le Mangeur d'Homme de Pathran » au « Simpsons et Fritz le chat conquièrent Planitia » tout le monde trouvera quelque chose.",
+      "DE": "Produce animated series for children and adults. From 'Spider Man vs The Pathran Man Eater' to the 'The Simpsons and Fritz the Cat conquer Planitia' everyone will find something.",
+      "IT": "Produci serie animate per bambini e adulti. Da 'L'Uomo Ragno contro il mangiatore di uomini di Pathran' a 'I Simpsons conquistano Planitia' c'è n'è per tutti i gusti ."
+    },
+    "properties": {
+      "price": 600000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "CommentatorsForTheBlind": {
+    "id": "CommentatorsForTheBlind",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Commentators For the Blind",
+      "ES": "Commentators For The Blind",
+      "FR": "Commentateurs Pour les Aveugles",
+      "DE": "Commentators For The Blind",
+      "IT": "Commenti per i cechi"
+    },
+    "description": {
+      "EN": "For the blind, you have a commentator who describes the scenes on TV during the dialog pauses. For the first time those who can't see are not limited to radio.",
+      "ES": "For blind people you have a commentator who describes the scenes on the TV in the dialog pauses. For the first time those who can't see are not limited to radio.",
+      "FR": "For blind people you have a commentator who describes the scenes on the TV in the dialog pauses. For the first time those who can't see are not limited to radio.",
+      "DE": "For blind people you have a commentator who describes the scenes on the TV in the dialog pauses. For the first time those who can't see are not limited to radio.",
+      "IT": "Provvedi un commento nelle pause dei dialoghi dei tuoi programmi che descriva la scena per spettatori ciechi. Per la prima volta, i non vedenti non sono limitati alla radio."
+    },
+    "properties": {
+      "price": 700000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "DetctiveSeries": {
+    "id": "DetctiveSeries",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Detective Series",
+      "ES": "Detective Series",
+      "FR": "Séries de Détective",
+      "DE": "Detective Series",
+      "IT": "Telefilm Polizieschi"
+    },
+    "description": {
+      "EN": "Criminal vs. police stories have always constituted a big part of television programming. Create a new series that deals with the struggle for justice, on earth and on the new worlds.",
+      "ES": "Criminal vs Police stories have always been a big part of television programming. Create new series that deals with the struggle for justice, on Earth and on the new worlds.",
+      "FR": "Criminal vs Police stories have always been a big part of television programming. Create new series that deals with the struggle for justice, on Earth and on the new worlds.",
+      "DE": "Criminal vs Police stories have always been a big part of television programming. Create new series that deals with the struggle for justice, on Earth and on the new worlds.",
+      "IT": "Storie su criminali e poliziotti hanno sempre fatto parte della programmazione televisiva. Crea serie che raccontano la lotta per la giustizia anche nei nuovi mondi."
+    },
+    "properties": {
+      "price": 1000000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 7
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "DigitalPlatform": {
+    "id": "DigitalPlatform",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Digital Platforms",
+      "ES": "Digital Platforms",
+      "FR": "Plateformes Digitales",
+      "DE": "Digital Platforms",
+      "IT": "Televisione Digitale"
+    },
+    "description": {
+      "EN": "Thanks to digital signals, you can literally offer thousands of new channels. People love to surf TV; channels like 'The Laundry Tips Station' or 'The Prostate Surgery Network' keep them satisfied.",
+      "ES": "Thanks to the digital signal, you can offer thousands of channels. Provide channels like 'The Laundry Tips Station' or 'The Prostate Surgery Network' to keep surfers busy.",
+      "FR": "Thanks to the digital signal, you can offer thousands of channels. Provide channels like 'The Laundry Tips Station' or 'The Prostate Surgery Network' to keep surfers busy.",
+      "DE": "Thanks to the digital signal, you can offer thousands of channels. Provide channels like 'The Laundry Tips Station' or 'The Prostate Surgery Network' to keep surfers busy.",
+      "IT": "Con la trasmissione digitale, puoi offrire migliaia di canali. Offri canali come: 'Il canale del bucato perfetto' o 'La Rete della Chirurgia Invasiva' per i maniaci del telecomando."
+    },
+    "properties": {
+      "price": 1200000000,
+      "level": "tycoon",
+      "efficiency": -15,
+      "quality": 10
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "Infomercials": {
+    "id": "Infomercials",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Infomercials",
+      "ES": "Infomercials",
+      "FR": "Publi-informations",
+      "DE": "Infomercials",
+      "IT": "Televenditori"
+    },
+    "description": {
+      "EN": "A quick way to make money is to sell unpopular broadcasting hours to vendors of useless gadgets like 'The Amazing Carrot and Sausage Peeler' or 'Sulphuric Acid Acne Remover'.",
+      "ES": "A quick way to reduce your expenses is to give unpopular hours to vendors of useless gadgets like 'The Amazing Carrot and Sausage Peeler' or 'Sulphuric Acid Acne Remover'",
+      "FR": "A quick way to reduce your expenses is to give unpopular hours to vendors of useless gadgets like 'The Amazing Carrot and Sausage Peeler' or 'Sulphuric Acid Acne Remover'",
+      "DE": "A quick way to reduce your expenses is to give unpopular hours to vendors of useless gadgets like 'The Amazing Carrot and Sausage Peeler' or 'Sulphuric Acid Acne Remover'",
+      "IT": "Per ridurre le tue spese, affitta le ore notturne a venditori di gadget come 'Il meraviglioso pelatore di carote e salsicce' o 'Eliminatore di Brufoli all'Acido Solforico'"
+    },
+    "properties": {
+      "price": 500000000,
+      "prestige": -5,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "InvestigativeJournalism": {
+    "id": "InvestigativeJournalism",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Investigative Journalism",
+      "ES": "Investigative Journalism",
+      "FR": "Journalisme Investigateur",
+      "DE": "Investigative Journalism",
+      "IT": "Giornalismo Investigativo"
+    },
+    "description": {
+      "EN": "Programs like '60 Minutes' or '20/20' made TV history and were vehicles for social justice and political accountability. Imitate them and unveil hidden government scandals in the new worlds.",
+      "ES": "Programs like '60 Minutes' made the history of television as vehicles for social justice. Imitate them and unveil hidden government scandals in the new worlds.",
+      "FR": "Programs like '60 Minutes' made the history of television as vehicles for social justice. Imitate them and unveil hidden government scandals in the new worlds.",
+      "DE": "Programs like '60 Minutes' made the history of television as vehicles for social justice. Imitate them and unveil hidden government scandals in the new worlds.",
+      "IT": "Programmi come 'Mi manda Rai Tre' sono stati veicoli per giustizia sociale. Svela scandali politici anche nei nuovi mondi con programmi simili."
+    },
+    "properties": {
+      "price": 900000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "LateNightShows": {
+    "id": "LateNightShows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Late Night Shows",
+      "ES": "Late Night Shows",
+      "FR": "Emissions Tards",
+      "DE": "Late Night Shows",
+      "IT": "Spettacoli Notturni"
+    },
+    "description": {
+      "EN": "Hire comedians to host late night talk show offering variations of the same jokes all over again. Your late night audiences will be half asleep anyway.",
+      "ES": "Hire comedians to host late night talk show offering variations of the same jokes all over again. Late at night your audience will be half asleep and won't complain.",
+      "FR": "Hire comedians to host late night talk show offering variations of the same jokes all over again. Late at night your audience will be half asleep and won't complain.",
+      "DE": "Hire comedians to host late night talk show offering variations of the same jokes all over again. Late at night your audience will be half asleep and won't complain.",
+      "IT": "Assumi comici mediocri per spettacoli notturni che offrono sempre lo stesso tipo di umorismo. Così tardi la sera la gente è troppo stanca per lamentarsi."
+    },
+    "properties": {
+      "price": 800000000,
+      "level": "tycoon",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "LaughTracksBan": {
+    "id": "LaughTracksBan",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Laugh Track Ban",
+      "ES": "Laugh Tracks Ban",
+      "FR": "Interdiction des Ris Enregistrer",
+      "DE": "Laugh Tracks Ban",
+      "IT": "Eliminazione delle risate finte"
+    },
+    "description": {
+      "EN": "Instead of using laugh tracks, hire live audiences to laugh at the jokes in your sitcoms. A little more expensive, but sounds natural and you create more jobs.",
+      "ES": "Instead of recorded laugh tracks, hire live audiences to laugh at the jokes in your sit coms. A little more expensive, but sounds natural and you create more jobs.",
+      "FR": "Instead of recorded laugh tracks, hire live audiences to laugh at the jokes in your sit coms. A little more expensive, but sounds natural and you create more jobs.",
+      "DE": "Instead of recorded laugh tracks, hire live audiences to laugh at the jokes in your sit coms. A little more expensive, but sounds natural and you create more jobs.",
+      "IT": "Sostituisci le risate registrate nelle serie comiche con spettatori dal vivo. Suona più naturale e crei posti di lavoro."
+    },
+    "properties": {
+      "price": 500000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 3
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "SitComInvasion"
+    ]
+  },
+  "LocalNews": {
+    "id": "LocalNews",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Local News",
+      "ES": "Local News",
+      "FR": "Nouvelles Locales",
+      "DE": "Local News",
+      "IT": "Telegiornale locale"
+    },
+    "description": {
+      "EN": "People love to watch news about their town, even if the most poignant piece of news is about a hot dog eating contest. This program is cheap and carries a steady audience.",
+      "ES": "People loves to watch about their town, even when the most poignant piece of news is about the Contest for the Fastest Hot Dogs eater. Cheap and with a steady audience.",
+      "FR": "People loves to watch about their town, even when the most poignant piece of news is about the Contest for the Fastest Hot Dogs eater. Cheap and with a steady audience.",
+      "DE": "People loves to watch about their town, even when the most poignant piece of news is about the Contest for the Fastest Hot Dogs eater. Cheap and with a steady audience.",
+      "IT": "La gente ama vedere la propria città in TV, anche quando la notizia più importante è 'Il concorso per il mangiatore più veloce di panini'."
+    },
+    "properties": {
+      "price": 500000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "NewTalents": {
+    "id": "NewTalents",
+    "category": "GENERAL",
+    "name": {
+      "EN": "New Talent Scouts",
+      "ES": "New Talents",
+      "FR": "Noveaux Talents",
+      "DE": "New Talents",
+      "IT": "Nuovi Talenti"
+    },
+    "description": {
+      "EN": "Hire talent scouts to hunt down local unknown actors and actress to employ in your production. They come cheap and are keen to work.",
+      "ES": "Hire scouts to hunt down local unknown actors and actress to employ in your production. They come cheap and eager to make it.",
+      "FR": "Hire scouts to hunt down local unknown actors and actress to employ in your production. They come cheap and eager to make it.",
+      "DE": "Hire scouts to hunt down local unknown actors and actress to employ in your production. They come cheap and eager to make it.",
+      "IT": "Assumi scopritori di talenti alla ricerca di attori e attrici locali per le tue produzioni. Costano meno e sono più entusiasti."
+    },
+    "properties": {
+      "price": 400000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -3
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "PayPerView": {
+    "id": "PayPerView",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Pay-Per-View",
+      "ES": "Pay Per View",
+      "FR": "Service à la Demande",
+      "DE": "Pay Per View",
+      "IT": "TV a pagamento"
+    },
+    "description": {
+      "EN": "With the excuse that customers have to pay a special fee for them, you broadcast anything: adult movies and violent sports are just the tip of the iceberg.",
+      "ES": "With the excuse that customers have to pay for them, you broadcast anything without bothering with moral standards. Adult movies and violent sports are just the tip of the iceberg.",
+      "FR": "Avec l'excuse que les clients doivent payer pour le service, vous emittez n'importe quoi sans tracasser avec les normes morales. Les films d'adulte et les sports violents sont seulement le débout .",
+      "DE": "With the excuse that customers have to pay for them, you broadcast anything without bothering with moral standards. Adult movies and violent sports are just the tip of the iceberg.",
+      "IT": "Con la scusa che tanto si deve pagare extra, puoi mostrare quello che vuoi senza preoccuparti della censura. Film per adulti e sport violenti sono solo l'inizio."
+    },
+    "properties": {
+      "price": 900000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "QuizShows": {
+    "id": "QuizShows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Quiz Shows",
+      "ES": "Quiz Shows",
+      "FR": "Jeu-questionnaire",
+      "DE": "Quiz Shows",
+      "IT": "Spettacoli a Quiz"
+    },
+    "description": {
+      "EN": "Quiz shows are always popular and are cheap to make. People enjoy rooting for contestants and like to dream about what they would do if they won a lot of money.",
+      "ES": "People identify in those who wins millions on TV dreaming about what they could do with that kind of money. For this reason, quiz shows are always popular and cheap to make.",
+      "FR": "People identify in those who wins millions on TV dreaming about what they could do with that kind of money. For this reason, quiz shows are always popular and cheap to make.",
+      "DE": "People identify in those who wins millions on TV dreaming about what they could do with that kind of money. For this reason, quiz shows are always popular and cheap to make.",
+      "IT": "La gente si identifica nei vincitori di grosse somme e sogna come spendere tutti quei soldi. Gli spettacoli a quiz sono sempre popolari e economici da realizzare."
+    },
+    "properties": {
+      "price": 1000000000,
+      "level": "tycoon",
+      "efficiency": 2,
+      "quality": 5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "RealityShows": {
+    "id": "RealityShows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Reality Shows",
+      "ES": "Reality Shows",
+      "FR": "Émission vérité",
+      "DE": "Reality Shows",
+      "IT": "Show basati sulla Realtà"
+    },
+    "description": {
+      "EN": "Programs like 'Survivors XXXII: The Venusian Landscapes' or 'Temptation Asteroid' are expensives and considered trash by the critics, but the public can't get enough of them.",
+      "ES": "Programs like 'Survivors XXXII: The Venusian Landscapes' or 'Temptations Asteroid' are expensives and considered trash by the critics, but people can't get enough of them.",
+      "FR": "Programs like 'Survivors XXXII: The Venusian Landscapes' or 'Temptations Asteroid' are expensives and considered trash by the critics, but people can't get enough of them.",
+      "DE": "Programs like 'Survivors XXXII: The Venusian Landscapes' or 'Temptations Asteroid' are expensives and considered trash by the critics, but people can't get enough of them.",
+      "IT": "Programmi come 'Sopravvissuti XXXII: I Piani di Venere' o 'L'Asteroide delle Tentazioni' sono disprezzati dai critici, ma la gente continua a seguirli."
+    },
+    "properties": {
+      "price": 1000000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "SexyVarietyShows": {
+    "id": "SexyVarietyShows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Sexy Variety Shows",
+      "ES": "Sexy Variety Shows",
+      "FR": "Emission Sexy De Variété",
+      "DE": "Sexy Variety Shows",
+      "IT": "Programmi di varietà Sexy"
+    },
+    "description": {
+      "EN": "Produce old style variety shows with a predominant T&A element. 'The Wet T-Shirt Contest' or 'Bikini Mud Wrestling' are common examples.",
+      "ES": "Produce old style variety shows with tits and asses as common denominator. 'The Wet Shirt Contest' or 'Bikini Mud Fighting' are common features of them.",
+      "FR": "Produce old style variety shows with tits and asses as common denominator. 'The Wet Shirt Contest' or 'Bikini Mud Fighting' are common features of them.",
+      "DE": "Produce old style variety shows with tits and asses as common denominator. 'The Wet Shirt Contest' or 'Bikini Mud Fighting' are common features of them.",
+      "IT": "Produci varietà vecchio stile basati su donne poco vestite. 'La gara della maglietta bagnata' o 'Combattimenti nel fango in Bikini' ne fanno parte."
+    },
+    "properties": {
+      "price": 700000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "SingleSportChannels": {
+    "id": "SingleSportChannels",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Single Sport Channels",
+      "ES": "Single Sport Channels",
+      "FR": "Canaux De Sport Simples",
+      "DE": "Single Sport Channels",
+      "IT": "Canali Sportivi Specializzati"
+    },
+    "description": {
+      "EN": "Add single sports channels. Broadcast channels with traditional sports, like soccer or tennis, but add new and unknown disciplines like 'Rope Jumping Over Lava' or 'Zero Gravity Parachuting\".",
+      "ES": "Add channels specialized in broadcasting only events of a single sport. Throw in new and unknown disciplines like 'Rope Jumping Over Lava' or 'Zero Gravity Parachuting'.",
+      "FR": "Add channels specialized in broadcasting only events of a single sport. Throw in new and unknown disciplines like 'Rope Jumping Over Lava' or 'Zero Gravity Parachuting'.",
+      "DE": "Add channels specialized in broadcasting only events of a single sport. Throw in new and unknown disciplines like 'Rope Jumping Over Lava' or 'Zero Gravity Parachuting'.",
+      "IT": "Canali che trasmettono eventi di un solo sport. Inserisci anche discipline sconosciute come 'Il Salto della Corda sulla Lava' o 'Paracadutismo a Gravità Zero'."
+    },
+    "properties": {
+      "price": 900000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "DigitalPlatform"
+    ]
+  },
+  "SitComInvasion": {
+    "id": "SitComInvasion",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Sitcom Invasion",
+      "ES": "Sit Com Invasions",
+      "FR": "Invasion de Comédies",
+      "DE": "Sit Com Invasions",
+      "IT": "Invasione di commedie"
+    },
+    "description": {
+      "EN": "Take successful situation comedies like 'Friends Grandchildren' or 'Frasier Resurrected' and create spin-offs and crossovers to bank on characters people already love.",
+      "ES": "Take successfull situation comedies like 'Grandchildren of Friends' or 'Frasier Resurrected' and create spin-offs and cross-overs to bank on characters people already love.",
+      "FR": "Les comédies réussis comme des des 'Les petits-enfants de Friends', ou 'Frasier ressuscités'  créent des avantages et  encaisses sur des personnages que le publique déjà adore.",
+      "DE": "Take successfull situation comedies like 'Grandchildren of Friends' or 'Frasier Resurrected' and create spin-offs and cross-overs to bank on characters people already love.",
+      "IT": "Da commedie cha la gente ama come 'I Nipoti di Friends' o 'Arnold Resuscitato' creane di nuove con gli stessi personaggi sfruttando la loro popolarità."
+    },
+    "properties": {
+      "price": 800000000,
+      "prestige": -5,
+      "level": "tycoon",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "SoapOperasExcellency": {
+    "id": "SoapOperasExcellency",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Soap Opera Excellence",
+      "ES": "Soap Operas Excellency",
+      "FR": "Excellence de Soap Operas",
+      "DE": "Soap Operas Excellency",
+      "IT": "Soap Opera di Alta qualità"
+    },
+    "description": {
+      "EN": "Study the origins and the most successful examples of this popular genre in order to produce a high quality series. South Americans were the masters and their legacy is what you try to live up to.",
+      "ES": "Study the origins and the most successfull examples of this popular genre to produce high quality series. Tap in the Latin American legacy to achieve excellency.",
+      "FR": "Étudiez les origines et les exemples les plus réussis de ce genre populaire pour produire une série de haute qualité. Branchez sur lhéritage latino-américain pour réaliser l'excellence.",
+      "DE": "Study the origins and the most successfull examples of this popular genre to produce high quality series. Tap in the Latin American legacy to achieve excellency.",
+      "IT": "Studia le origini delle Soap Opera per produrne di nuove di superiore qualità."
+    },
+    "properties": {
+      "price": 800000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "Subtitles": {
+    "id": "Subtitles",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Subtitles",
+      "ES": "Subtitles",
+      "FR": "Sous-titres",
+      "DE": "Subtitles",
+      "IT": "Sottotitoli"
+    },
+    "description": {
+      "EN": "For hearing impaired viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for those in your viewing audience that are illiterate.",
+      "ES": "For hearing impared viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for the illiterates.",
+      "FR": "For hearing impared viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for the illiterates.",
+      "DE": "For hearing impared viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for the illiterates.",
+      "IT": "Per i sordi, tutti i tuoi programmi hanno i sottotitoli, nella lingua originale o altre. C'è anche un sistema ad icone per gli analfabeti."
+    },
+    "properties": {
+      "price": 600000000,
+      "prestige": 30,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": 1
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  },
+  "TrashyTalkshows": {
+    "id": "TrashyTalkshows",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Trashy Talkshows",
+      "ES": "Trashy Talkshows",
+      "FR": "Emissions de Chat Sottises",
+      "DE": "Trashy Talkshows",
+      "IT": "Talkshow Spazzatura"
+    },
+    "description": {
+      "EN": "Produce shows that would make Jerry Springer fans turn red in embarrassment. The man who chooses a limping goat over his 450 pounds transsexual lover is just one example of the average guest.",
+      "ES": "Shows that makes Jerry Springer descendants blush. The man who chose a limping goat over his 450 pounds transexual lover is just an example of the average guest.",
+      "FR": "Shows that makes Jerry Springer descendants blush. The man who chose a limping goat over his 450 pounds transexual lover is just an example of the average guest.",
+      "DE": "Shows that makes Jerry Springer descendants blush. The man who chose a limping goat over his 450 pounds transexual lover is just an example of the average guest.",
+      "IT": "Produci Show che fanno arrossire i più scafati. L'uomo che ha abbandonato il suo amante transessuale da 300 kg per una capra zoppa è un esempio dell'ospite tipo."
+    },
+    "properties": {
+      "price": 800000000,
+      "prestige": -20,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": 2
+    },
+    "industry_type": "TELEVISION",
+    "depends_on": [
+      "BasicTelevision"
+    ]
+  }
+}

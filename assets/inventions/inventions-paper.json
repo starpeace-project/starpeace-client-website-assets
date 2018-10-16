@@ -1,0 +1,450 @@
+{
+  "AlternativeSources": {
+    "id": "AlternativeSources",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alternative Sources",
+      "ES": "Alternative Sources",
+      "FR": "Sources alternatives",
+      "DE": "Alternative Sources",
+      "IT": "Alternative Sources"
+    },
+    "description": {
+      "EN": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve efficiency.",
+      "ES": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.",
+      "FR": "Employez des matières premières alternatives comme le chanvre et le kénaf pour produire le papier. Économiser quelques arbres et améliorez l'efficacité.",
+      "DE": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.",
+      "IT": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 50,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -2
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "ColorChangingPaper": {
+    "id": "ColorChangingPaper",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Chameleon Paper",
+      "ES": "Color Changing Paper",
+      "FR": "Papier caméléon",
+      "DE": "Color Changing Paper",
+      "IT": "Color Changing Paper"
+    },
+    "description": {
+      "EN": "Based on the principle of litmus paper, produce special sheets of paper that can change color when immersed in different liquid solutions: your customers love the whimsy of it.",
+      "ES": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.",
+      "FR": "Basé selon le principe du papier tournesol, produisez des feuilles spéciales de papier qui peuvent changer de couleur quand elles sont immergées dans différentes solutions liquides: vos clients adorent cela.",
+      "DE": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.",
+      "IT": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "ExtraterrestrialFibers": {
+    "id": "ExtraterrestrialFibers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Fibers",
+      "ES": "Extraterrestrial Fibers",
+      "FR": "Fibres extraterrestres",
+      "DE": "Extraterrestrial Fibers",
+      "IT": "Extraterrestrial Fibers"
+    },
+    "description": {
+      "EN": "Extraterrestrial wood can be slightly different from Earth's wood. Study those differences to improve the paper production.",
+      "ES": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.",
+      "FR": "Le bois extraterrestre peut être légèrement différent du bois de la terre.  Étudiez ces différences pour améliorer la production de papier.",
+      "DE": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.",
+      "IT": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 7
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "FoodContainers": {
+    "id": "FoodContainers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Food Containers",
+      "ES": "Food Containers",
+      "FR": "Contenants alimentaires",
+      "DE": "Food Containers",
+      "IT": "Food Containers"
+    },
+    "description": {
+      "EN": "Produce specially designed hygienic containers for food storage: it appeals to the safety-conscious consumer.",
+      "ES": "Produce special hygienic containers to store food. Safety is a major concern.",
+      "FR": "Produisez des récipients hygiéniques spécifiquement conçus pour lentreposage de nourriture: cela répond au souci de sécurité des consommateurs.",
+      "DE": "Produce special hygienic containers to store food. Safety is a major concern.",
+      "IT": "Produce special hygienic containers to store food. Safety is a major concern."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "HandMadePaper": {
+    "id": "HandMadePaper",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Handmade Paper",
+      "ES": "Hand Made Paper",
+      "FR": "Papier fait à la main",
+      "DE": "Hand Made Paper",
+      "IT": "Hand Made Paper"
+    },
+    "description": {
+      "EN": "Hire artisans able to create beautiful handmade paper: for the most demanding customer. This paper is not cheap, but the quality of this product is dramatically enhanced.",
+      "ES": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.",
+      "FR": "Engagez des artisans qui soient capables de créer du beau papier á la main: ceci pour les clients les plus exigeants.  Cet article n'est pas bon marché, mais la qualité du produit est nettement augmentée.",
+      "DE": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.",
+      "IT": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 5
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "MakeYourOwnPaperKit": {
+    "id": "MakeYourOwnPaperKit",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Do-It-Yourself Paper Kit",
+      "ES": "Make Your Own Paper Kit",
+      "FR": "Nécessaire à papier pour le bricoleur",
+      "DE": "Make Your Own Paper Kit",
+      "IT": "Make Your Own Paper Kit"
+    },
+    "description": {
+      "EN": "Have your artisans prepare a special kit, to be sold in stores, for people who want to create their own paper: a new line of business.",
+      "ES": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.",
+      "FR": "Demandez à vos artisans de préparer un nécessaire à papier spécial qui pourra être vendu dans les magasins aux personnes qui veulent créer leur propre papier: une nouvelle branche d'activité.",
+      "DE": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.",
+      "IT": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "tycoon",
+      "efficiency": 3,
+      "quality": 1
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "HandMadePaper"
+    ]
+  },
+  "MintContract": {
+    "id": "MintContract",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Banknote Contract",
+      "ES": "Mint Contract",
+      "FR": "Contrat pour billets de banque",
+      "DE": "Mint Contract",
+      "IT": "Mint Contract"
+    },
+    "description": {
+      "EN": "Provide high quality paper to the mint to print banknotes: a very high profile contract.",
+      "ES": "Provide high quality paper to the mint to print banknotes. Very high profile contract.",
+      "FR": "Fournissez du papier de haute qualité à lHôtel de la Monnaie pour l'impression des billets de banque: un contrat très prestigieux.",
+      "DE": "Provide high quality paper to the mint to print banknotes. Very high profile contract.",
+      "IT": "Provide high quality paper to the mint to print banknotes. Very high profile contract."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 2
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "PackagingMaterials": {
+    "id": "PackagingMaterials",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Packaging",
+      "ES": "Packaging Materials",
+      "FR": "Emballage",
+      "DE": "Packaging Materials",
+      "IT": "Packaging Materials"
+    },
+    "description": {
+      "EN": "Produce cardboard boxes and other paper-based packaging: very in demand.",
+      "ES": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.",
+      "FR": "Produisez des boîtes de carton et tout autre empaquetage en papier : des produits très demandés.",
+      "DE": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.",
+      "IT": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products."
+    },
+    "properties": {
+      "price": 150000000,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -2
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "PaperBagCampaign": {
+    "id": "PaperBagCampaign",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Paper Bag Campaign",
+      "ES": "Paper Bag Campaign",
+      "FR": "Campagne de sac de papier",
+      "DE": "Paper Bag Campaign",
+      "IT": "Paper Bag Campaign"
+    },
+    "description": {
+      "EN": "Launch a massive campaign to promote the use of paper bags instead of plastic ones in stores. Increase the demand for your products, while coming across as environmentally friendly.",
+      "ES": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.",
+      "FR": "Lancez une campagne massive pour favoriser l'utilisation des sacs en papier au lieu de ceux en plastique dans les magasins.  Augmentez ainsi la demande pour vos produits  tout en ayant lair de protéger  lenvironnement.",
+      "DE": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.",
+      "IT": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 3
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "PaperClothes": {
+    "id": "PaperClothes",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Paper Clothes",
+      "ES": "Paper Clothes",
+      "FR": "Vêtements de papier",
+      "DE": "Paper Clothes",
+      "IT": "Paper Clothes"
+    },
+    "description": {
+      "EN": "Produce cheap but attractive attire, completely made out of high quality paper.",
+      "ES": "Produce cheap but still good looking attires completely made out of high quality paper.",
+      "FR": "Produisez des vêtements attrayants à un prix abordable, entièrement faits de papier de première qualité.",
+      "DE": "Produce cheap but still good looking attires completely made out of high quality paper.",
+      "IT": "Produce cheap but still good looking attires completely made out of high quality paper."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "PaperHistory": {
+    "id": "PaperHistory",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Paper History",
+      "ES": "Paper History",
+      "FR": "Histoire du papier",
+      "DE": "Paper History",
+      "IT": "Paper History"
+    },
+    "description": {
+      "EN": "Study how paper was made on early Earth; it will provide you with insights on how to improve the quality of your paper.",
+      "ES": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.",
+      "FR": "Étudiez comment au commencement des temps le papier a été fabriqué sur la terre; cela vous donnera des idées sur comment améliorer la qualité de votre papier.",
+      "DE": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.",
+      "IT": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "tycoon",
+      "quality": 4
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "PaperInd": {
+    "id": "PaperInd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Paper Industry Basics",
+      "ES": "Paper Industry Basics",
+      "FR": "Fondement de lindustrie papetière",
+      "DE": "Paper Industry Basics",
+      "IT": "Paper Industry Basics"
+    },
+    "description": {
+      "EN": "Basic skills to manage paper manufacturing.",
+      "ES": "Basic skills to manage Paper factories.",
+      "FR": "Techniques de base pour gérer les usines à papier.",
+      "DE": "Basic skills to manage Paper factories.",
+      "IT": "Basic skills to manage Paper factories."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "tycoon"
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "PaperKnives": {
+    "id": "PaperKnives",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Paper Knives",
+      "ES": "Paper Knives",
+      "FR": "Coupe-papiers",
+      "DE": "Paper Knives",
+      "IT": "Paper Knives"
+    },
+    "description": {
+      "EN": "Everybody knows how nasty a paper cut be: create a line of knives with paper blades, ideal for cutting soft materials.",
+      "ES": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.",
+      "FR": "Tout le monde sait combien mauvaise peut être une coupure faite avec du papier: créez une ligne de couteaux avec lames en papier, idéale pour couper les matériaux mous.",
+      "DE": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.",
+      "IT": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "tycoon",
+      "efficiency": 3
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "Parchment": {
+    "id": "Parchment",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Parchment",
+      "ES": "Parchment",
+      "FR": "Parchemin",
+      "DE": "Parchment",
+      "IT": "Parchment"
+    },
+    "description": {
+      "EN": "Produce ancient style paper with modern equipment. Very nice to look at and perfect for diplomas or certificates.",
+      "ES": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.",
+      "FR": "Produisez du papier style antique avec l'équipement moderne. Très beau à regarder et parfait pour des diplômes ou des certificats.",
+      "DE": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.",
+      "IT": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "RecyclingFacility": {
+    "id": "RecyclingFacility",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Recycling Facility",
+      "ES": "Recycling Facility",
+      "FR": "Installations de recyclage",
+      "DE": "Recycling Facility",
+      "IT": "Recycling Facility"
+    },
+    "description": {
+      "EN": "Build a recycling facility inside your plants so that you to use old paper towards making your new products: very cost-effective and environmentally friendly.",
+      "ES": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.",
+      "FR": "Établissez un service de recyclage à l'intérieur de vos usines de sorte que vous employez le vieux papier dans la fabrication de vos nouveaux produits:  très rentable et écologique.",
+      "DE": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.",
+      "IT": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly."
+    },
+    "properties": {
+      "price": 400000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": 15,
+      "quality": -2
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  },
+  "TissueProduction": {
+    "id": "TissueProduction",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Tissue Production",
+      "ES": "Tissue Production",
+      "FR": "Fabrication de papier-tissu",
+      "DE": "Tissue Production",
+      "IT": "Tissue Production"
+    },
+    "description": {
+      "EN": "Add a cleaning line to your product offering: paper towels and other paper-based cleaning products make for a very lucrative business.",
+      "ES": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.",
+      "FR": "Ajoutez à vos produits une ligne de produits en papier pour nettoyage: les serviettes de papier et autres produits de nettoyage en papier génèrent des affaires très lucratives.",
+      "DE": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.",
+      "IT": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business."
+    },
+    "properties": {
+      "price": 150000000,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": 5
+    },
+    "industry_type": "PAPER",
+    "depends_on": [
+      "PaperInd"
+    ]
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "EtTimber": {
+    "id": "EtTimber",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Timber",
+      "ES": "Extraterrestrial Timber",
+      "FR": "Bois de construction Extraterrestre",
+      "DE": "Extraterrestrial Timber",
+      "IT": "Legname extraterrestre"
+    },
+    "description": {
+      "EN": "The slightly different chemical and physical properties in the new worlds enable you to develop new wood types that can't be produced on Earth.",
+      "ES": "The slightly different chemistry and physics of the new worlds allows you to develop new types of wood that can't be produced on Earth.",
+      "FR": "La chimie et la physique légèrement différentes des nouveaux mondes vous permet à développer des nouveaux types de bois qui ne peuvent pas être produits sur terre.",
+      "DE": "The slightly different chemistry and physics of the new worlds allows you to develop new types of wood that can't be produced on Earth.",
+      "IT": "Le lievi differenze chimiche e fisiche dei nuovi mondi ti permettono di sviluppare nuovi tipi di legname sconosciuti sulla Terra."
+    },
+    "properties": {
+      "price": 280000000,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbAlienBactCtrl": {
+    "id": "TimbAlienBactCtrl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mad Tree Disease Control",
+      "ES": "Mad Tree Disease control",
+      "FR": "Contrôle de la maladie darbre folle",
+      "DE": "Mad Tree Disease control",
+      "IT": "Lotta alla \"pianta pazza\""
+    },
+    "description": {
+      "EN": "Make sure your trees aren't affected by the Mad Tree bacteria found in the colonies.",
+      "ES": "Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.",
+      "FR": "Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.",
+      "DE": "Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.",
+      "IT": "Ti adoperi affinché i tuoi alberi non vengano colpiti dai batteri che causano l'encefalite arborea (la cosiddetta \"pianta pazza\") e che sono diffusi nelle colonie."
+    },
+    "properties": {
+      "price": 280000000,
+      "prestige": 30,
+      "level": "tycoon",
+      "efficiency": 5
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "EtTimber"
+    ]
+  },
+  "TimbAromaticWood": {
+    "id": "TimbAromaticWood",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Aromatic Wood",
+      "ES": "Aromatic Wood",
+      "FR": "Bois Aromatique",
+      "DE": "Aromatic Wood",
+      "IT": "Legno aromatico"
+    },
+    "description": {
+      "EN": "Wood with built-in aromatic properties.",
+      "ES": "Wood will have built-in aromatic properties.",
+      "FR": "Wood will have built-in aromatic properties.",
+      "DE": "Wood will have built-in aromatic properties.",
+      "IT": "Un legno dalle proprietà aromatiche."
+    },
+    "properties": {
+      "price": 180000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 8
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbASMSheets": {
+    "id": "TimbASMSheets",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Atom Size Wood Sheets",
+      "ES": "Atomic Size Metal Sheets",
+      "FR": "Atomic Size Metal Sheets",
+      "DE": "Atomic Size Metal Sheets",
+      "IT": "Lastre metalliche ultra-sottili"
+    },
+    "description": {
+      "EN": "The use of zero gravity shaping permits you to create sheet of woods very few atoms in width: extremely useful in industrial applications.",
+      "ES": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
+      "FR": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
+      "DE": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
+      "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbCatRepel": {
+    "id": "TimbCatRepel",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Cat Repellent",
+      "ES": "Cat Repelent",
+      "FR": "Cat Repelent",
+      "DE": "Cat Repelent",
+      "IT": "Alberi a prova di gatto"
+    },
+    "description": {
+      "EN": "Your trees will repel cats. Without this technology, trees are at the mercy of these vicious felines and the fireman that invariably come in their rescue.",
+      "ES": "Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.",
+      "FR": "Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.",
+      "DE": "Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.",
+      "IT": "Grazie a questo ritrovato i gatti (e i pompieri a cui toccherebbe poi soccorrerli) si terranno alla larga dai tuoi alberi."
+    },
+    "properties": {
+      "price": 85000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbColoredTrees": {
+    "id": "TimbColoredTrees",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Colored Trees",
+      "ES": "Colored Trees",
+      "FR": "Arbres Colorés",
+      "DE": "Colored Trees",
+      "IT": "Alberi colorati"
+    },
+    "description": {
+      "EN": "Trees will grow in different colors. Furniture shops love this.",
+      "ES": "Trees will come in color. Furniture shops love this.",
+      "FR": "Trees will come in color. Furniture shops love this.",
+      "DE": "Trees will come in color. Furniture shops love this.",
+      "IT": "Gli alberi crescono già dipinti, per la gioia dei negozi di mobili."
+    },
+    "properties": {
+      "price": 325000000,
+      "level": "tycoon",
+      "efficiency": -8,
+      "quality": 10
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "Timber": {
+    "id": "Timber",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Timber Production",
+      "ES": "Timber Production",
+      "FR": "Production de Bois de Construction",
+      "DE": "Timber Production",
+      "IT": "Produzione di legname"
+    },
+    "description": {
+      "EN": "Knowledge for basic timber production.",
+      "ES": "Basic Timber production.",
+      "FR": "Basic Timber production.",
+      "DE": "Basic Timber production.",
+      "IT": "I fondamenti della produzione del legname."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "tycoon"
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "TimbGreenMusic": {
+    "id": "TimbGreenMusic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Green Music",
+      "ES": "Green Music",
+      "FR": "Musique Verte",
+      "DE": "Green Music",
+      "IT": "Musica per gli alberi"
+    },
+    "description": {
+      "EN": "Grow trees using New Age Tree Music. Trees grow bigger, faster, but the wood they produce is a bit moody.",
+      "ES": "Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.",
+      "FR": "Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.",
+      "DE": "Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.",
+      "IT": "Aiuta gli alberi a crescere con la musica new age. Essi assumono effettivamente dimensioni superiori, ma si rivelano un po' lunatici."
+    },
+    "properties": {
+      "price": 160000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 5
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbHiDensity": {
+    "id": "TimbHiDensity",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "High Density Wood",
+      "ES": "Hi Density Wood",
+      "FR": "Hi Density Wood",
+      "DE": "Hi Density Wood",
+      "IT": "Legname ad alta densità"
+    },
+    "description": {
+      "EN": "Produce high density wood. It's more resistant and durable.",
+      "ES": "Produce high density wood. More resistant and durable.",
+      "FR": "Produce high density wood. More resistant and durable.",
+      "DE": "Produce high density wood. More resistant and durable.",
+      "IT": "Produci un legname molto denso, e che si rivela più resistente e durevole."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -8,
+      "quality": 3
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbInternalBusSystem": {
+    "id": "TimbInternalBusSystem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Internal Bus System",
+      "ES": "Internal Bus System",
+      "FR": "Système D'Autobus Interne",
+      "DE": "Internal Bus System",
+      "IT": "Servizio interno di autobus"
+    },
+    "description": {
+      "EN": "The living quarters and the working environment in a wood plant have to be far apart due to the high temperature environment. In large plants, an internal bus system makes travel efficient.",
+      "ES": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
+      "FR": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
+      "DE": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
+      "IT": "Nelle segherie gli alloggi degli operai devono essere distanti dagli impianti a causa delle schegge vaganti. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": 2,
+      "level": "tycoon",
+      "efficiency": 7
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbMuseum": {
+    "id": "TimbMuseum",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Timber Museum",
+      "ES": "Timber Museum",
+      "FR": "Musée De Bois de construction",
+      "DE": "Timber Museum",
+      "IT": "Museo del legname"
+    },
+    "description": {
+      "EN": "You create a Timber Museum at your industry headquarter. Knowing the history of timber motivates your employees.",
+      "ES": "You create a Timber museum in your Cuarteles de Industria. Watching the history of timber working motivates your employees.",
+      "FR": "You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.",
+      "DE": "You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.",
+      "IT": "Crei un museo del legname nel tuo quartier generale per l'industria. La possibilità di conoscere la storia di questa attività funge da motivazione per i tuoi dipendenti."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 3
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbNanoDev": {
+    "id": "TimbNanoDev",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Nanotechnology Developments",
+      "ES": "Nanotechnology Developments",
+      "FR": "Développements De Nanotechnologie",
+      "DE": "Nanotechnology Developments",
+      "IT": "Applicazioni per nanotecnologia"
+    },
+    "description": {
+      "EN": "You produce micro timber parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "ES": "You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "FR": "You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "DE": "You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "IT": "Produci parti microscopiche in legno per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 10
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbSpecFert": {
+    "id": "TimbSpecFert",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Sensible Fertilizing",
+      "ES": "Sensible Fertilizing",
+      "FR": "Fertilisation Pratique",
+      "DE": "Sensible Fertilizing",
+      "IT": "Fertilizzanti"
+    },
+    "description": {
+      "EN": "Use special fertilizers that will increase the quality of your timber.",
+      "ES": "Apply special fertilizers that will increase the quality of your timber.",
+      "FR": "Apply special fertilizers that will increase the quality of your timber.",
+      "DE": "Apply special fertilizers that will increase the quality of your timber.",
+      "IT": "Applichi fertilizzanti speciali che aumentano la qualità del legno."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 6
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbSupercondProd": {
+    "id": "TimbSupercondProd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Superconductor Production",
+      "ES": "Superconductors Production",
+      "FR": "Superconductors Production",
+      "DE": "Superconductors Production",
+      "IT": "Produzione di superconduttori"
+    },
+    "description": {
+      "EN": "By using the high end technology needed to produce superconductors, you improve your products quality.",
+      "ES": "By using the high end technology needed to produce superconductors, you improves your products quality.",
+      "FR": "By using the high end technology needed to produce superconductors, you improves your products quality.",
+      "DE": "By using the high end technology needed to produce superconductors, you improves your products quality.",
+      "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbTwinTrees": {
+    "id": "TimbTwinTrees",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Siamese Trees",
+      "ES": "Siamese Trees",
+      "FR": "Arbres Siamois",
+      "DE": "Siamese Trees",
+      "IT": "Alberi siamesi"
+    },
+    "description": {
+      "EN": "Produce mutant trees that will feature two full grown tress for every set of roots.",
+      "ES": "Produce mutant trees that will feature two full grown tress for a single set of roots.",
+      "FR": "Produce mutant trees that will feature two full grown tress for a single set of roots.",
+      "DE": "Produce mutant trees that will feature two full grown tress for a single set of roots.",
+      "IT": "Produci alberi mutanti che sviluppano due fusti a parte da una sola radice."
+    },
+    "properties": {
+      "price": 165000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  },
+  "TimbWoodBubbles": {
+    "id": "TimbWoodBubbles",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Wood Bubbles",
+      "ES": "Wood Bubbles",
+      "FR": "Bulles En bois",
+      "DE": "Wood Bubbles",
+      "IT": "Bolle nel legno"
+    },
+    "description": {
+      "EN": "Trees will generate large mutant cells filled with air, increasing wood production.",
+      "ES": "Trees will generate large mutant cells filled with air. Wood production is increased.",
+      "FR": "Trees will generate large mutant cells filled with air. Wood production is increased.",
+      "DE": "Trees will generate large mutant cells filled with air. Wood production is increased.",
+      "IT": "Gli alberi producono cellule mutanti piene d'aria, aumentando così il volume del legname prodotto."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -3
+    },
+    "industry_type": "TIMBER",
+    "depends_on": [
+      "Timber"
+    ]
+  }
+}

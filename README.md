@@ -44,7 +44,6 @@ Repository contains server scripts and a server to browse raw assets. Different 
 
 ```
 $ grunt audit
-$ grunt cleanup
 ```
 
 Raw assets can be compiled to game-ready with default or ```combine``` grunt target:
@@ -52,13 +51,6 @@ Raw assets can be compiled to game-ready with default or ```combine``` grunt tar
 ```
 $ grunt
 $ grunt combine
-```
-
-*Note: server was used in past for land auditing and may no longer work*
-A simple server is also provided to browse raw assets, accessible at [127.0.0.1:11015](http://127.0.0.1:11015) using ```server``` grunt target:
-
-```
-$ grunt server
 ```
 
 ## Build and Deployment
@@ -73,10 +65,6 @@ Repository is currently deployed to and hosted with AWS S3. Changes pushed to re
 ### Audit
 
 audit-textures.js is executed with grunt ```audit``` target and provides a read-only analysis of game image assets, including checking for various land metadata and images consistency problems
-
-### Cleanup
-
-cleanup-textures.js is executed with grunt ```cleanup``` target and provides automated logic to fix several metadata and image problems, requiring interaction and confirmation from command-line during execution
 
 ### Combine
 
@@ -103,4 +91,4 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 
 ## License
 
-All content of starpeace-website-client-assets is [commercially licensed](./LICENSE-STARPEACE) and all unauthorized or unapproved use is not permitted, and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). Please contact info@starpeace-project.com for licensing information.
+All content of starpeace-website-client-assets is [commercially licensed](./LICENSE-STARPEACE) and all unauthorized or unapproved use is not permitted, and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). Please contact info@starpeace.io for licensing information.

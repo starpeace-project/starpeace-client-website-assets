@@ -1,0 +1,450 @@
+{
+  "24HoursProduction": {
+    "id": "24HoursProduction",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "24 Hour Production",
+      "ES": "Producción continua",
+      "FR": "Production 24 heures sur 24",
+      "DE": "24-Stunden-Produktion",
+      "IT": "Produzione 24 ore su 24"
+    },
+    "description": {
+      "EN": "Your rigs never stop working. More efficient but some concern is expressed by unions about the long shifts.",
+      "ES": "La extracción en los pozos nunca se detiene. Más eficiente, pero los sindicatos protestan por las largas jornadas de trabajo.",
+      "FR": "Vos puits ne s'arrêtent jamais. Plus d'efficacité, mais les syndicats s'inquiètent de la durée des périodes de travail.",
+      "DE": "Ihre Ölfördertürme stehen nie still. Mehr Effizienz, aber Sorgen seitens der Gewerkschaften wegen der langen Schichten.",
+      "IT": "Le tue piattaforme non si fermano mai. Ciò ne aumenta l'efficienza, ma i sindacati esprimono preoccupazione per i lunghi turni."
+    },
+    "properties": {
+      "price": 190000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 25,
+      "quality": -3
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "CentralizedQualityControl": {
+    "id": "CentralizedQualityControl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Centralized Quality Control",
+      "ES": "Centralized Quality Control",
+      "FR": "Contrôle qualité centralisé",
+      "DE": "Zentralisierte Qualitätskontrolle",
+      "IT": "Controllo centralizzato della qualità"
+    },
+    "description": {
+      "EN": "Your industrial headquarter has a quality control center that analyzes the crude oil extracted from your rigs and varies the production quota accordingly. Your oil is always sold at the same quality.",
+      "ES": "You have a quality control center in your industrial headquarter that analyzes the crude oil extracted on your rigs and varies the production quota depending on it. Your oil is always sold at the same quality.",
+      "FR": "Votre siège social industriel est équipé d'un centre de contrôle qualité qui analyse le pétrole brut extrait de vos puits et fait varier les quotas de production en fonction de ces données. Le pétrole que vous vendez est toujours de la même qualité.",
+      "DE": "Sie haben ein Qualitätskontrollzentrum in Ihre Industriezentrale, welches das Rohöl analysiert, das von Ihren Bohrtürmen gefördert wird und die Produktionsrate entsprechend reguliert. Ihr Öl hat immer die gleiche Qualität.",
+      "IT": "Il tuo quartier generale è dotato di un centro di verifica della qualità che analizza il greggio estratto e varia la quota di produzione in modo che le sue caratteristiche si mantengano costanti."
+    },
+    "properties": {
+      "price": 150000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 12
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "DrillsExtraterrestrialCustomization": {
+    "id": "DrillsExtraterrestrialCustomization",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Drill Customization",
+      "ES": "Drills Extraterrestrial Customization",
+      "FR": "Personnalisation des forages ailleurs que sur la Terre",
+      "DE": "Bohreranpassung",
+      "IT": "Modifica delle trivelle"
+    },
+    "description": {
+      "EN": "The drills on your rigs are customized according to the soil's consistency, which is slightly different from Earth.",
+      "ES": "The drills in your rigs are customized accordingly to the soil consistency, slightly different from the Earth one.",
+      "FR": "Le forage de vos puits est adapté aux caractéristiques du sol, légèrement différent de celui de la Terre.",
+      "DE": "Die Bohrer in Ihren Ölfördertürmen werden der Bodenbeschaffenheit angepasst, die etwas anders ist, als die der Erde.",
+      "IT": "Le trivelle delle tue piattaforme sono progettate in base alla consistenza del suolo, leggermente diversa da quella terrestre."
+    },
+    "properties": {
+      "price": 65000000,
+      "level": "apprentice",
+      "efficiency": 5
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "EarthquakeAnalyzing": {
+    "id": "EarthquakeAnalyzing",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Earthquake Analyses",
+      "ES": "Earthquake Analyzing",
+      "FR": "Analyse des tremblements de terre",
+      "DE": "Erdbebenanalyse",
+      "IT": "Analisi dei terremoti"
+    },
+    "description": {
+      "EN": "By analyzing the extraterrestrial worlds' small seismic movements, you are able to find the best drilling pattern for reaching the oil deposits.",
+      "ES": "By the analysis of the little sismic movement of the extraterrestrial worlds, you are able to find the best drilling pattern to reach the oil deposits.",
+      "FR": "Grâce à l'analyse des petits mouvements sismiques des mondes extraterrestres, vous pouvez proposer le moyen de forage le mieux adapté à la recherche de gisements pétrolifères.",
+      "DE": "Durch die Analyse der kleinen seismischen Bewegungen der neuen Welten sind Sie in der Lage, das beste Bohrmuster für das Erreichen der Ölvorkommen zu finden.",
+      "IT": "Analizzando i lievi movimenti sismici registrati sui mondi extraterrestri, sei in grado di individuare il piano di trivellazione più adatto a raggiungere i depositi di greggio."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": 4
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "EchologicalDisasterPreventionChart": {
+    "id": "EchologicalDisasterPreventionChart",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ecological Disaster Prevention Strategy",
+      "ES": "Echological Disaster Prevention Chart",
+      "FR": "Charte de prévention des désastres écologiques",
+      "DE": "Charta zur Vermeidung von Ölkatastrophen",
+      "IT": "Accordo per la prevenzione dei disastri ecologici"
+    },
+    "description": {
+      "EN": "All third parties that transport your oil have to subscribe to general rules of transport in order to prevent the dispersion of oil in the environment.",
+      "ES": "All the third parties that transports your oil have to subscribe a chart that gives some general rule to prevent oil dispersion in the environment.",
+      "FR": "Grâce à une charte, tous les tiers transportant votre pétrole s'engagent à éviter tout rejet de pétrole dans l'environnement.",
+      "DE": "Alle dritten Parteien, die Ihr Öl transportieren, müssen eine Charta unterschreiben, in der allgemeine Regeln aufgestellt werden, die eine Verschmutzung der Umwelt durch das Öl verhindern sollen.",
+      "IT": "Le aziende interessate a trasportare il tuo petrolio devono sottoscrivere un documento che stabilisce regole per ridurre i rischi di fuoriuscite nell'ambiente."
+    },
+    "properties": {
+      "price": 75000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 6
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "EmergencyValves": {
+    "id": "EmergencyValves",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Emergency Valves",
+      "ES": "Emergency Valves",
+      "FR": "Vannes de sécurité",
+      "DE": "Notventile",
+      "IT": "Valvole di emergenza"
+    },
+    "description": {
+      "EN": "For security reasons, all your rigs have valves that automatically shut off in the event of an accident.",
+      "ES": "For security reasons all your rigs have valves that automatically shut down the rig in case of accidents.",
+      "FR": "Pour des raisons de sécurité, tous vos puits sont équipés de vannes qui ferment automatiquement le puits en cas d'accident.",
+      "DE": "Aus Sicherheitsgründen haben Ihre Bohrtürme Notventile, die den Turm abstellen, wenn ein Unfall passiert.",
+      "IT": "Per ragioni di sicurezza, le tue piattaforme sono dotate di valvole che bloccano l'attività estrattiva in caso di incidenti."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -1
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "HighQualityDrillingMud": {
+    "id": "HighQualityDrillingMud",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "High Quality Drilling Mud",
+      "ES": "High Quality Drilling Mud",
+      "FR": "Boue de forage de grande qualité",
+      "DE": "Hochwertiger Bohrschlamm",
+      "IT": "Fanghiglia per trivellazioni"
+    },
+    "description": {
+      "EN": "A special combination of chemicals and clay is used as a lubricant for your drills.",
+      "ES": "A special combination of chemicals and clay is used as lubricant for your drills.",
+      "FR": "Une association spéciale de produits chimiques et d'argile est utilisée comme lubrifiant pour les forages.",
+      "DE": "Eine Spezialkombination aus Chemikalien und Lehm wird zur Befeuchtung Ihrer Bohrer verwendet.",
+      "IT": "Una speciale combinazione di agenti chimici ed argilla viene usata come lubrificante per le tue trivelle."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 6
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "ImpurityEatingBacteria": {
+    "id": "ImpurityEatingBacteria",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Impurity Eating Bacteria",
+      "ES": "Impurity Eating Bacteria",
+      "FR": "Bactérie mangeuse d'impuretés",
+      "DE": "Unreinheiten essende Bakterien",
+      "IT": "Batteri contro le impurità"
+    },
+    "description": {
+      "EN": "In order to purify the crude oil, a special colony of bacteria is introduced in your silos.",
+      "ES": "To purify the crude oil, a special colony of bacteria is inserted in your silos.",
+      "FR": "Pour purifier le pétrole brut, des bactéries spéciales sont injectées dans vos silos.",
+      "DE": "Um das Rohöl zu reinigen werden spezielle Bakterienkolonien in die Silos eingebracht.",
+      "IT": "Per rimuovere le impurità dal greggio vengono introdotte speciali colonie di batteri nei tuoi silos."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "IntelligentPigs": {
+    "id": "IntelligentPigs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Intelligent Pigs",
+      "ES": "Intelligent Pigs",
+      "FR": "Cochons intelligents",
+      "DE": "Intelligente Schweine",
+      "IT": "\"Maiali intelligenti\""
+    },
+    "description": {
+      "EN": "Your rigs use devices with sensors, called \"intelligent pigs\", to examine pipelines for corrosion and defects. They are periodically sent down the pipes to perform small repairs.",
+      "ES": "Your rigs use devices with sensors, called \"intelligent pigs\", to examine the pipelines and identify corrotions and defects. They are periodically sent down the pipes and perform little repairs.",
+      "FR": "Vos puis utilisent des appareils équipés de détecteurs appelés des « cochons intelligents », qui examinent les oléoducs et rendent compte de la corrosion et des défauts. Ils sont régulièrement envoyés dans les conduites pour effectuer des réparations.",
+      "DE": "Ihre Fördertürme benutzen Geräte mit Sensoren, die intelligente Schweine genannt werden. Sie prüfen die Pipelines und stellen Korrosionen und Defekte fest. Sie werden regelmäßig hinab geschickt und führen kleinere Reparaturen durch.",
+      "IT": "Le tue piattaforme utilizzano dispositivi dotati di sensori, denominati \"maiali intelligenti\", per ispezionare le tubazioni, individuare corrosioni e difetti, ed effettuare piccole riparazioni."
+    },
+    "properties": {
+      "price": 85000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 8
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "MassiveOilStorage": {
+    "id": "MassiveOilStorage",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Massive Oil Storage",
+      "ES": "Massive Oil Storage",
+      "FR": "Stockage massif de pétrole",
+      "DE": "Massive Öllagerung",
+      "IT": "Grandi scorte di petrolio"
+    },
+    "description": {
+      "EN": "To optimize deliveries, you store oil, en masse, at the extraction site. This is more cost-efficient, but somewhat dangerous.",
+      "ES": "To optimize the deliveries, you massively store the oil at the extraction site. More efficient but somewhat dangerous.",
+      "FR": "Pour optimiser les livraisons, vous stockez le pétrole en masse sur le site d'extraction. C'est plus efficace, mais quelque peu dangereux.",
+      "DE": "Um die Lieferungen zu optimieren, lagern Sie große Ölmengen an den Förderstellen. Effizient, aber gefährlich.",
+      "IT": "Per ottimizzare le forniture accumuli grandi scorte di petrolio presso il sito estrattivo. Ciò aumenta l'efficienza ma anche i rischi."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 12,
+      "quality": -4
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "OilRigs": {
+    "id": "OilRigs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Oil Production",
+      "ES": "Oil Production",
+      "FR": "Production pétrolière",
+      "DE": "Ölproduktion",
+      "IT": "Produzione di petrolio"
+    },
+    "description": {
+      "EN": "Learn how to create and exploit oil rigs.",
+      "ES": "Learn how to create and exploit oil rigs.",
+      "FR": "Apprenez à créer des puits de pétrole et à les exploiter.",
+      "DE": "Lernen Sie, wie man Ölfördertürme baut und betreibt.",
+      "IT": "Impara come impiantare e gestire piattaforme petrolifere."
+    },
+    "properties": {
+      "price": 8000000,
+      "level": "apprentice"
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "RocksSqueezingProcess": {
+    "id": "RocksSqueezingProcess",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Rock Squeezing Process",
+      "ES": "Rocks Squeezing Process",
+      "FR": "Processus de pressage de la roche",
+      "DE": "Steinpressverfahren",
+      "IT": "Frantumazione delle rocce"
+    },
+    "description": {
+      "EN": "In your rigs, the rocks around the oil deposits are extracted and crashed in order to obtain the embedded oil sediments.",
+      "ES": "In your rigs, the rocks around the oil deposit are extracted and crashed to obtain the oil sedimented there.",
+      "FR": "Dans vos puits, les rochers qui entourent les gisements pétrolifères sont extrait et concassés afin d'extraire le pétrole sédimentaire qui s'y trouve.",
+      "DE": "In Ihren Ölfeldern werden die Felsen um die Ölquelle ausgeschachtet und gepresst, um das darin vorhandene Öl zu gewinnen.",
+      "IT": "Nelle tue piattaforme le rocce intorno ai depositi di greggio vengono portate in superficie e frantumate in modo da poter estrarre il petrolio sedimentato al loro interno."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": 8,
+      "quality": -3
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "RoutinePartCleaningProcedure": {
+    "id": "RoutinePartCleaningProcedure",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Parts Routine Cleaning Procedure",
+      "ES": "Routine Part Cleaning Procedure",
+      "FR": "Procédure de nettoyage des composants",
+      "DE": "Routinemäßige Reinigung der Teile",
+      "IT": "Procedura periodica di pulizia della piattaforma"
+    },
+    "description": {
+      "EN": "The routine general cleaning of the rig and all its parts.",
+      "ES": "Periodic general cleaning of the rig and all its parts.",
+      "FR": "Nettoyage général régulier du puits et de tous ses composants.",
+      "DE": "Periodische Reinigung des Förderturms und all seiner Teile.",
+      "IT": "Una pulizia periodica e complessiva della piattaforma e di ogni sua componente."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "ShockWaveDepositQuantification": {
+    "id": "ShockWaveDepositQuantification",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Shock Wave Deposit Quantification",
+      "ES": "Shock Wave Deposit Quantification",
+      "FR": "Onde de choc pour la quantification des gisements",
+      "DE": "Depotmessung durch Schockwellen",
+      "IT": "Analisi dei depositi tramite onde d'urto"
+    },
+    "description": {
+      "EN": "Periodic explosions are carried out on the boundaries of oil deposits, through microphones that receive the shock waves and analyze them, you can determine the deposits shape and size.",
+      "ES": "Periodic explosions are made on the boundaries of the deposit to monitor its shape and size through microphones that receive the shock waves and analyze them.",
+      "FR": "Des explosions régulières sont réalisées sur les bords des gisements pour en contrôler la forme et la taille grâce à des microphones qui reçoivent des ondes de choc et les analysent.",
+      "DE": "Periodische Explosionen werden an den Grenzen der Depots ausgelöst, um dessen Größe und Form über Mikrofone, die die Schockwellen auffangen und analysieren, zu bestimmen.",
+      "IT": "Cariche esplosive vengono fatte esplodere periodicamente ai margini dei depositi di greggio, in modo da poterne analizzare forma e dimensioni tramite microfoni in grado di captare le onde d'urto."
+    },
+    "properties": {
+      "price": 110000000,
+      "level": "apprentice",
+      "efficiency": 8,
+      "quality": 2
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "SolidOilStorage": {
+    "id": "SolidOilStorage",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Solid Oil Storage",
+      "ES": "Solid Oil Storage",
+      "FR": "Stockage de pétrole solide",
+      "DE": "Festöllagerung",
+      "IT": "Stoccaggio del petrolio allo stato solido"
+    },
+    "description": {
+      "EN": "The extracted oil is stored below its \"Pour Point\": the temperature at which it is solid. Less dangerous and much less storage space is needed.",
+      "ES": "The extracted oil is stored below its Pour Point, that is the temperature at which it is solid. Less dangerous and much less space needed.",
+      "FR": "Le pétrole extrait est stocké en dessous de son point de versement, c'est à la température à laquelle il est solide. Moins dangereux et moins d'espace nécessaire pour le stockage.",
+      "DE": "Das geförderte Öl wird unter seinen Fließpunkt abgekühlt und gelagert, es ist dann fest. Nicht so gefährlich und platzsparend.",
+      "IT": "Il petrolio estratto viene raffreddato al di sotto del suo punto di fusione, causandone la solidificazione. Ciò riduce i rischi e lo spazio necessario al suo stoccaggio."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -3
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  },
+  "VolatileGas": {
+    "id": "VolatileGas",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Volatile Gas",
+      "ES": "Volatile Gas",
+      "FR": "Gaz volatile",
+      "DE": "Flüchtiges Gas",
+      "IT": "Riciclaggio delle emissioni"
+    },
+    "description": {
+      "EN": "You collect the gas produced by crude oil. By compressing, you are able to increase your production. Ecologists praise the reduced volatile emissions.",
+      "ES": "You collect the gas liberated in air produced by the crude oil. By compressing it again, you are able to increase your production. Echologist praise the reduced volatile emissions.",
+      "FR": "Vous recueillez le gaz produit par le pétrole brut. En le compressant à nouveau, vous augmentez votre production. Les écologistes sont heureux des émissions de gaz volatile réduites.",
+      "DE": "Sie können das Gas, das vom Rohöl produziert wird in der Luft abfangen. Sie komprimieren es wieder und können so Ihre Produktion steigern. Ökologen freuen sich über die verringerten Emissionen.",
+      "IT": "Raccogli i gas emessi dal greggio durante la raffinazione e, comprimendoli di nuovo, sei in grado di aumentare la produzione. Gli ecologisti ti lodano per la riduzione di emissioni nell'atmosfera."
+    },
+    "properties": {
+      "price": 165000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 15
+    },
+    "industry_type": "CRUDE_OIL",
+    "depends_on": [
+      "OilRigs"
+    ]
+  }
+}

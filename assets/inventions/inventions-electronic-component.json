@@ -1,0 +1,479 @@
+{
+  "AntiPaperCampaign": {
+    "id": "AntiPaperCampaign",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Anti-Paper Campaign",
+      "ES": "Anti Paper Campaign",
+      "FR": "Campagne zéro papier",
+      "DE": "Anti-Papier Kampagne",
+      "IT": "Campagna contro la carta"
+    },
+    "description": {
+      "EN": "To promote Electronic Ink, you launch a anti-paper media campaign with an ecological slant.",
+      "ES": "To promote the electronik ink, you launch an echological anti paper campaign on the media.",
+      "FR": "Pour promouvoir l'encre électronique, vous lancez dans les médias une campagne écologique anti papier.",
+      "DE": "Um die elektronische Tinte zu unterstützen, lancieren Sie eine ökologische Anti-Papier Kampagne in den Medien.",
+      "IT": "Per promuovere la stampa elettronica lanci una campagna ecologica di informazione contro l'eccessivo uso di carta."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": 3
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElectronicInk"
+    ]
+  },
+  "AutoDestructingComponents": {
+    "id": "AutoDestructingComponents",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Self-Destructing Components",
+      "ES": "Auto Destructing Components",
+      "FR": "Composants à destruction automatique",
+      "DE": "Selbstzerstörende Teile",
+      "IT": "Componenti in grado di autodistruggersi"
+    },
+    "description": {
+      "EN": "To avoid the theft of your technology, your components are destroyed by acid if opened after they've been sealed.",
+      "ES": "To avoid technology stealing, your components are destroyed by acid if reopened after been sealed.",
+      "FR": "Pour éviter les vols technologiques, les composants que vous utilisez sont détruits par de l'acide s'il sont ouverts après avoir été scellés.",
+      "DE": "Um Technologiediebstahl zu verhindern, zerstören sich Ihre Teile durch Säure, wenn sie nach dem Versiegeln geöffnet werden.",
+      "IT": "Per limitare il rischio di spionaggio industriale, i tuoi componenti vengono distrutti da un acido se riaperti dopo essere stati sigillati."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 6
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "CPUPowerTheorem": {
+    "id": "CPUPowerTheorem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "CPU Power Theorem",
+      "ES": "CPU Power Theorem",
+      "FR": "Théorème de la puissance des processeurs",
+      "DE": "CPU-Power-Theorem",
+      "IT": "Teorema sulla potenza dei chip"
+    },
+    "description": {
+      "EN": "Following the theory that the power of a PC's CPU doubles every three years, your factories accordingly implement a long term production plan.",
+      "ES": "Following the theory that the potence of PC CPUs double every three years, your factories implement a long term production plan.",
+      "FR": "Suivant la théorie selon laquelle la puissance des processeurs double tous les trois ans, vos usines mettent en place un plan de production à long terme.",
+      "DE": "Auf der Basis der Theorie, dass sich die Leistung der CPUs von PCs alle drei Jahre verdoppelt, wird in Ihren Fabriken ein langfristiger Produktionsplan eingesetzt.",
+      "IT": "Confidando nel teorema secondo cui la potenza dei chip dei personal computer raddoppia ogni tre anni, le tue fabbriche implementano un piano di produzione a lungo termine."
+    },
+    "properties": {
+      "price": 85000000,
+      "level": "tycoon",
+      "efficiency": 8,
+      "quality": -2
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "ElecLic": {
+    "id": "ElecLic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Electronics Production",
+      "ES": "Electronics Production",
+      "FR": "Production dans le domaine de l'électronique",
+      "DE": "Elektronikproduktion",
+      "IT": "Fabbricazione di dispositivi elettronici"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to manage the production of electronics.",
+      "ES": "Assimilate the knowledge to manage Electronics production.",
+      "FR": "Assimilez les principes de la gestion de la production dans le domaine de l'électronique.",
+      "DE": "Eignen Sie sich das Wissen über das Management der Elektronikproduktion an.",
+      "IT": "Apprendi le conoscenze necessarie a gestire la produzione di dispositivi elettronici."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "tycoon"
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "ElectronicInk": {
+    "id": "ElectronicInk",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Electronic Ink",
+      "ES": "Electronic Ink",
+      "FR": "Entre électronique",
+      "DE": "Elektronische Tinte",
+      "IT": "Inchiostro elettronico"
+    },
+    "description": {
+      "EN": "Produce electronic ink: micro magnetic particles that once subjected to a particular magnetic field arrange themselves into letters and words. The end of the era of paper notebooks.",
+      "ES": "Produce electronic ink, micro magnetic particle that subjected to a particular magnetic field arrange themselves in letters and words. The end of the paper books era.",
+      "FR": "Produisez de l'encre électronique formée de particules microscopiques qui, en fonction d'un champ magnétique distinct, forment des lettres et des mots. Cela sonne le glas des livres papier.",
+      "DE": "Produzieren Sie elektronische Tinte, mikromagnetische Teilchen, die sich, wenn sie einem speziellen magnetischen Feld ausgesetzt werden, zu Buchstaben und Zahlen zusammenfügen. Das Ende der gedruckten Bücher.",
+      "IT": "Produci un inchiostro elettronico costituito da microparticelle che sotto l'influsso di campi magnetici si organizzano in lettere e parole. È la fine dell'era del libro cartaceo."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": 15,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 8
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "FaradayHouses": {
+    "id": "FaradayHouses",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Faraday Houses",
+      "ES": "Faraday Houses",
+      "FR": "Cages de Faraday",
+      "DE": "Faraday-Häuser",
+      "IT": "Case protette da gabbie di Faraday"
+    },
+    "description": {
+      "EN": "Build a Faraday Cage around houses to protect customers from lighting, this also kills static. Perceived as a security measure.",
+      "ES": "Build a Faraday cage around houses of paying customers to protect them from lightinings and kill the static. Perceived as a security measure.",
+      "FR": "Construisez une cage de Faraday autour de maisons des clients qui vous payent pour les protéger de la foudre et supprimer l'électricité statique. Cette action est perçue comme une mesure de sécurité.",
+      "DE": "Bauen Sie eine Faraday'schen Käfig um die Häuser zahlungskräftiger Kunden, um Sie vor Blitzen zu schützen und statische Aufladung zu vermeiden. Wird als Sicherheitsmaßnahme gewertet.",
+      "IT": "Costruisci gabbie di Faraday intorno alle case dei clienti che richiedono questa misura di sicurezza. Le gabbie proteggono dai fulmini ed eliminano l'elettricità statica."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "GlobalWiringPlan": {
+    "id": "GlobalWiringPlan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Global Wiring Plan",
+      "ES": "Global Wiring Plan",
+      "FR": "Programme de câblage global",
+      "DE": "Globale Verkabelung",
+      "IT": "Piano di cablaggio globale"
+    },
+    "description": {
+      "EN": "Implement a strategy to build an Internet Network on the extraterrestrial worlds.",
+      "ES": "Implement a strategy to build an Internet on the extraterrestrial worlds.",
+      "FR": "Mettez en place une stratégie de construction d'un réseau global dans les mondes extraterrestres.",
+      "DE": "Erarbeiten Sie eine Strategie, um Internet auf den außerirdischen Welten einzurichten.",
+      "IT": "Adotta una strategia per costruire una rete Internet sui mondi extraterrestri."
+    },
+    "properties": {
+      "price": 120000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 15
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "LSEPrd": {
+    "id": "LSEPrd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Scale Electronics Production",
+      "ES": "Large Scale Electronics Production",
+      "FR": "Production d'appareils électroniques à grande échelle",
+      "DE": "Große Elektronikindustrien",
+      "IT": "Produzione di apparecchi elettronici su vasta scala"
+    },
+    "description": {
+      "EN": "Manage large scale electronics production.",
+      "ES": "Manage large scale electronics production.",
+      "FR": "Gérez la production d'appareils électroniques à grande échelle.",
+      "DE": "Leiten Sie große Elektronikindustrien.",
+      "IT": "Gestisci la produzione su vasta scala di apparecchi elettronici."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "tycoon"
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "MetalDetector": {
+    "id": "MetalDetector",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Metal Detector",
+      "ES": "Metal Detector",
+      "FR": "Détecteur de métaux",
+      "DE": "Metalldetektor",
+      "IT": "Metal Detector"
+    },
+    "description": {
+      "EN": "To prevent workers from stealing costly parts, your plants have metal detectors at the entrances.",
+      "ES": "To avoid the stealing of costly parts from your workers, your plants have metal detectors at the entrances.",
+      "FR": "Pour éviter que vos employés ne volent des pièces coûteuses, vos usines sont équipées de détecteurs de métaux à l'entrée.",
+      "DE": "Damit Ihre Arbeiter nicht mit wertvollen Teilen verschwinden, haben Sie an allen Eingängen Metalldetektoren aufgestellt.",
+      "IT": "Per evitare il rischio di furti da parte dei tuoi operai di componenti costosi, gli ingressi degli impianti sono dotati di metal detector."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": -5,
+      "level": "tycoon",
+      "efficiency": 5
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "NanoCircuits": {
+    "id": "NanoCircuits",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Nano-circuits",
+      "ES": "Nano Circuits",
+      "FR": "Nanocircuits",
+      "DE": "Nanokreise",
+      "IT": "Nanocircuiti"
+    },
+    "description": {
+      "EN": "Build the smallest electronic circuits possible; they are extremely precise and reliable, but they have to be assembled in a total vacuum environment.",
+      "ES": "Build the smallest electronic circuit possible. Extremely precise and reliable. They have to be assembled in total vacuum.",
+      "FR": "Construisez les circuits électroniques les plus petits qui soient. Extrêmement précis et fiable. Ils doivent être assemblés dans le vide absolu.",
+      "DE": "Bauen Sie die kleinstmöglichen Elektronikkreise. Sehr präzise und zuverlässig. Müssen im luftleeren Raum hergestellt werden.",
+      "IT": "Costruisci i più piccoli circuiti elettronici realizzabili. Molto precisi e affidabili, essi possono essere assemblati solo in condizioni di vuoto assoluto."
+    },
+    "properties": {
+      "price": 105000000,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": 5
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "VacuumAssembling"
+    ]
+  },
+  "PCPartsAutoReplacement": {
+    "id": "PCPartsAutoReplacement",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "PC Parts Auto Replacement",
+      "ES": "PC Parts Auto Replacement",
+      "FR": "Remplacement automatique de pièces d'ordinateurs",
+      "DE": "Automatischer Teileersatz",
+      "IT": "Upgrade automatico dei componenti dei PC"
+    },
+    "description": {
+      "EN": "A service that automatically ships customer's the latest components for their personal computers as soon as it's produced. This ensures they always have the most up-to-date pc.",
+      "ES": "Service that automatic mail to the clients a new component of their personal computers, as soon as it's produced, so that they always have the best machine avalaible.",
+      "FR": "Service charger d'envoyer par courrier un nouveau composant pour l'ordinateur aux clients dès qu'il est produit afin que leur machine soit toujours à la pointe du progrès.",
+      "DE": "Ein Service, der den Kunden automatisch das gerade erschienene Teil für ihren Computer zusendet. Sie haben dadurch immer einen Computer auf dem neuesten Stand.",
+      "IT": "Un servizio che invia automaticamente ai clienti i nuovi componenti dei personal computer man mano che vengono introdotti sul mercato, in modo che le macchine non siano mai obsolete."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 8
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "PersonalIdChips": {
+    "id": "PersonalIdChips",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Personal Id Chips",
+      "ES": "Personal Id Chips",
+      "FR": "Puces d'identification personnelles",
+      "DE": "Persönliche ID-Chips",
+      "IT": "Circuiti identificativi personali"
+    },
+    "description": {
+      "EN": "You produce a new circuit to be inserted under human skin that serve as Id once scanned by an external device. The public opinion fears \"Big Brother\" scenarios.",
+      "ES": "You produce a new circuit to be inserted under human skin that serve as Id once scanned by an external device. The public opinion fears \"Big Brother\" scenarios.",
+      "FR": "Vous produisez un nouveau circuit destiné à être inséré sous la peau qui servira de carte d'identité une fois analysée par un périphérique externe. L'opinion publique a peur d'un scénario à la « Big Brother »",
+      "DE": "Sie produzieren neue Chips, die unter der Haut angebracht werden und als Ausweis gelten, wenn sie von einem externen Gerät gescannt werden. In der Öffentlichkeit befürchtet man Big Brother Szenarien.",
+      "IT": "Produci un nuovo microchip da inserire sottopelle che permette di identificare chi lo porta grazie ad un apposito scanner. L'opinione pubblica teme possibili sviluppi alla Grande Fratello."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 8
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "TheLittleElectrician": {
+    "id": "TheLittleElectrician",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "The Beginner Electrician",
+      "ES": "The Little Electrician",
+      "FR": "Le petit électricien",
+      "DE": "Der kleine Elektriker",
+      "IT": "Il piccolo elettricista"
+    },
+    "description": {
+      "EN": "A crafty way to get rid of the surplus of electronic components: sell a selection of them in a box for amateur electricians.",
+      "ES": "Elegant way to get rid of the electronic components surplus. Sell a selection of them in a box for amateur electricians.",
+      "FR": "Manière élégante de se débarrasser du surplus de composants électroniques. Vendez-en une partie dans une boîte pour électriciens amateurs.",
+      "DE": "Eleganter Weg, um einen Überschuss an elektronischen Komponenten loszuwerden. Verkaufen Sie sie als Paket an Hobbyelektriker.",
+      "IT": "Un modo elegante di disfarsi del surplus di componenti elettronici. Ne vendi una parte in kit per elettricisti dilettanti."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "tycoon",
+      "efficiency": 4
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "UniversalComponent": {
+    "id": "UniversalComponent",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Universal Component",
+      "ES": "Universal Component",
+      "FR": "Composant universel",
+      "DE": "Universalkomponente",
+      "IT": "Componente universale"
+    },
+    "description": {
+      "EN": "All your electronic components evolve from a basic universal component: cost effective, but the quality of the derivates suffers.",
+      "ES": "All your electronic components are evolved from a basic universal one. Cost effective, but the quality of the derivates suffers.",
+      "FR": "Tous vos composants électroniques sont issus d'un composant universel principal. Efficace, mais la qualité des produits dérivés en souffre.",
+      "DE": "All Ihre elektronischen Komponenten sind von einer Basiskomponente abgeleitet. Kosteneffizient, aber die Qualität der Derivate leidet.",
+      "IT": "Tutti i tuoi componenti elettronici sono prodotti a partire da un unico modello. Il sistema ti permette di risparmiare sui costi, ma la qualità dei singoli componenti ne risente."
+    },
+    "properties": {
+      "price": 225000000,
+      "level": "tycoon",
+      "efficiency": 30,
+      "quality": -10
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "VacuumAssembling": {
+    "id": "VacuumAssembling",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vacuum Assembling",
+      "ES": "Vacuum Assembling",
+      "FR": "Assemblage en l'absence d'air",
+      "DE": "Vakuumzusammenbau",
+      "IT": "Assemblaggio sotto vuoto"
+    },
+    "description": {
+      "EN": "Your electronic parts are assembled in vacuum tight environments. The absence of air prevents any impurities.",
+      "ES": "Your electronic parts are assembled in absence of air. To avoid any impurity.",
+      "FR": "Les pièces électroniques sont assemblées en l'absence d'air afin d'éviter toute impureté.",
+      "DE": "Ihre elektronischen Teile werden im luftleeren Raum zusammengebaut, um Unreinheiten zu vermeiden.",
+      "IT": "Le tue parti elettroniche sono assemblate in assenza d'aria, in modo da prevenire qualsiasi impurità."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "WafersRecyclingProgram": {
+    "id": "WafersRecyclingProgram",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Wafers Recycling Program",
+      "ES": "Wafers Recycling Program",
+      "FR": "Programme de recyclage des circuits intégrés",
+      "DE": "Wafer-Recycling",
+      "IT": "Programma di riciclaggio delle piastre"
+    },
+    "description": {
+      "EN": "Your factories collect old circuit boards wafers to recycle them for new circuits.",
+      "ES": "Your factories collect old circuit boards, wafers, to recycle them for new circuits.",
+      "FR": "Vos usines récupèrent les anciens circuits intégrés pour les transformer en nouveaux circuits.",
+      "DE": "Ihre Fabriken sammeln alte Chipkarten und Wafer und recyclen Sie zu neuen Karten.",
+      "IT": "Le tue fabbriche raccolgono vecchi circuiti stampati allo scopo di riciclarli per la produzione di nuove piastre."
+    },
+    "properties": {
+      "price": 55000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  },
+  "WiresMagneticMonitorage": {
+    "id": "WiresMagneticMonitorage",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Magnetic Monitoring",
+      "ES": "Wires Magnetic Monitorage",
+      "FR": "Surveillance du magnétisme des câbles électriques",
+      "DE": "Magnetfeldüberprüfung",
+      "IT": "Monitoraggio magnetico dei cavi"
+    },
+    "description": {
+      "EN": "Every time a suspended wire is installed, a test to see if the magnetic field disturbs the inhabitants of the surrounding area is performed.",
+      "ES": "Every time a suspended wire is installed, a test to see if the magnetic field disturbs the inhabitants of the surrounding area is performed.",
+      "FR": "Chaque fois qu'un câble électrique est installé, un test est effectué pour savoir si les champs magnétiques crée des interférences chez les habitants du secteur.",
+      "DE": "Jedes Mal wenn ein Kabel gespannt wird, ermittelt ein Test, ob das Magnetfeld die Einwohner in den umliegenden Vierteln beeinträchtigt..",
+      "IT": "Ogni volta che viene installato un cavo sospeso, si effettua un test per verificare che il suo campo magnetico non disturbi gli abitanti della zona."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "depends_on": [
+      "ElecLic"
+    ]
+  }
+}

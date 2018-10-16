@@ -1,0 +1,605 @@
+{
+  "AntiNoiseWallsAndDoors": {
+    "id": "AntiNoiseWallsAndDoors",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Soundproof Walls and Doors",
+      "ES": "Anti Noise Walls and Doors",
+      "FR": "Murs et portes anti bruit",
+      "DE": "Schalldichte Wände und Türen",
+      "IT": "Muri e porte antiacustici"
+    },
+    "description": {
+      "EN": "Completely soundproof walls and doors. More privacy, but nobody can't hear what's going on.",
+      "ES": "Completely sound blocking walls and doors. More privacy, but nobody can't hear what's going on.",
+      "FR": "Murs et portes permettant d'arrêter complètement le bruit. Plus d'intimité, mais personne ne peut entendre ce qui se passe.",
+      "DE": "Wände und Türen, die Geräusche hermetisch isolieren. Mehr Privatsphäre, aber niemand kann hören, was so passiert.",
+      "IT": "Muri e porte completamente antiacustici. La privacy se ne giova, ma non si sente più niente."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "privacy": 8,
+      "security": -3
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "AutoCleaningConducts": {
+    "id": "AutoCleaningConducts",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Self-Cleaning Air Shafts",
+      "ES": "Auto Cleaning Conducts",
+      "FR": "Conduits à nettoyage automatique",
+      "DE": "Selbstreinigende Rohre",
+      "IT": "Condotte auto-pulenti"
+    },
+    "description": {
+      "EN": "The building's air shafts are cleaned daily by a special robot.",
+      "ES": "The conducts of the air condition system are cleaned every day by a special robot.",
+      "FR": "Les conduits du système de climatisation sont nettoyées tous les jours par un robot spécialisé.",
+      "DE": "Die Rohre Ihrer Klimaanlage werden jeden Tag von einem Spezialroboter gesäubert.",
+      "IT": "Le condotte dell'impianto di condizionamento dell'aria vengono pulite ogni giorno da un apposito robot."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "tycoon",
+      "maintenance": 3,
+      "security": 3,
+      "environment": 10
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "CommonBathrooms": {
+    "id": "CommonBathrooms",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Unisex Bathrooms",
+      "ES": "Common Bathrooms",
+      "FR": "WC communs",
+      "DE": "Gemeinsame Toiletten",
+      "IT": "Bagni in comune"
+    },
+    "description": {
+      "EN": "Each floor only has one bathroom to be shared by all employees on it.",
+      "ES": "Only one bathroom for every floor, to be shared by all the offices on it.",
+      "FR": "Un seul WC par étage que doivent se partager les services de l'étage.",
+      "DE": "Nur eine Toilette pro Etage, die von allen dort gelegenen Büros genutzt wird.",
+      "IT": "Solo un bagno per piano, da condividere tra i vari uffici."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "maintenance": 10,
+      "privacy": -3,
+      "security": -2
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "DarkeningWindows": {
+    "id": "DarkeningWindows",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Self-Shading Windows",
+      "ES": "Darkening Windows",
+      "FR": "Fenêtres obscurcissantes",
+      "DE": "Verdunkelnde Fenster",
+      "IT": "Vetri autoscurenti"
+    },
+    "description": {
+      "EN": "Windows made of special glass that automatically darken when exposed to intense light: reduces glare.",
+      "ES": "Windows made of special glass that darkens if exposed to intense light.",
+      "FR": "Fenêtres fabriquées dans un verre spécial qui s'assombrit lorsque la lumière est intense.",
+      "DE": "Fenster aus Spezialglas, das sich verdunkelt, wenn es intensiver Lichteinstrahlung ausgesetzt ist.",
+      "IT": "Finestre realizzate in un vetro speciale che diventa più scuro se esposto a una luce intensa."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "privacy": 5
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "DayCare": {
+    "id": "DayCare",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Day Care",
+      "ES": "Day Care",
+      "FR": "Garderie",
+      "DE": "Tagesstätte",
+      "IT": "Nursery"
+    },
+    "description": {
+      "EN": "Every office building has a day care facility for parents that work there.",
+      "ES": "Every office building has a day care facility for parents that work there.",
+      "FR": "Tous les bâtiments abritent une garderie pour les parents qui travaillent dans les bureaux.",
+      "DE": "Jedes Bürogebäude verfügt über eine Tagesstätte für die dort arbeitenden Eltern.",
+      "IT": "Ogni palazzo di uffici è dotato di una nursery per gli impiegati con figli piccoli."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "maintenance": -5,
+      "security": 5
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "GuardsStand": {
+    "id": "GuardsStand",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Guard Stand",
+      "ES": "Guards Stand",
+      "FR": "Pièce des gardes",
+      "DE": "Wachposten",
+      "IT": "Postazione delle guardie"
+    },
+    "description": {
+      "EN": "For security reasons, at the entrance of the office building, there are armed guards.",
+      "ES": "For security reasons, at the entrance of the office building there is a bench with armed guards.",
+      "FR": "Pour des raisons de sécurité, l'entrée du bureau est protégée par des gardes armés.",
+      "DE": "Aus Sicherheitsgründen wird jeder Eingang zum Bürogebäude von bewaffneten Wachen gesichert.",
+      "IT": "Per ragioni di sicurezza all'entrata della sede è posto un bancone con guardie armate."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "tycoon",
+      "beauty": -1,
+      "maintenance": -3,
+      "privacy": -2,
+      "security": 15
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "HallLiveMusic": {
+    "id": "HallLiveMusic",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Live Music",
+      "ES": "Hall Live Music",
+      "FR": "Orchestre de musique classique",
+      "DE": "Livekonzert",
+      "IT": "Musica dal vivo"
+    },
+    "description": {
+      "EN": "A small musical ensemble plays classical music in the building's main entrance: a very welcoming scene for whoever enters the building.",
+      "ES": "A small ensemble of musicians plays classical music in the main entrance of the building. A very nice welcome for whoever enters.",
+      "FR": "Un petit groupe de musiciens joue de la musique classique dans l'entrée des bâtiments. Un très bel accueil.",
+      "DE": "Ein kleines Orchester spielt in der Haupteingangshalle klassische Musik. Ein angenehmes Willkommen für alle, die hereinkommen.",
+      "IT": "Un piccolo ensemble di musicisti suona musica classica nell'entrata principale dell'edificio. Un piacevolissimo benvenuto per chi entra."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "beauty": 3,
+      "maintenance": -2,
+      "security": 1
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "HandicappedUniversalAccess": {
+    "id": "HandicappedUniversalAccess",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Universal Access",
+      "ES": "Handicapped Universal Access",
+      "FR": "Accès pour les handicapés",
+      "DE": "Universeller Zugang für Behinderte",
+      "IT": "Accesso universale per gli handicappati"
+    },
+    "description": {
+      "EN": "Your buildings don't have a single corner that isn't accessible by wheel chair.",
+      "ES": "In your buildings, there is not a single corner that can't be accessed on a wheel chair.",
+      "FR": "Dans vos bâtiments, tous les endroits sont accessibles aux personnes en chaise roulante.",
+      "DE": "In Ihren Gebäuden findet sich nicht eine Ecke, die nicht mit einem Rollstuhl erreicht werden kann.",
+      "IT": "Non vi è angolo dei tuoi edifici in cui non sia possibile far passare una carrozzella."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 40,
+      "level": "tycoon"
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "IndoorGardens": {
+    "id": "IndoorGardens",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Indoor Gardens",
+      "ES": "Indoor Gardens",
+      "FR": "Jardins d'intérieur",
+      "DE": "Innengärten",
+      "IT": "Giardini al coperto"
+    },
+    "description": {
+      "EN": "Many green areas are scattered throughout the common areas of your buildings: beautiful plants and clean air.",
+      "ES": "Many green areas are scattered in the common areas of your buildings. Beautiful plants and clean air.",
+      "FR": "Des zones de verdure sont installées dans les parties communes de vos bâtiments. De belles plantes et de l'air sain.",
+      "DE": "In den Gemeinschaftsanlagen Ihrer Wohngebäude gibt es zahlreiche Grünzonen. Schöne Pflanzen und saubere Luft.",
+      "IT": "Nelle aree comuni dei tuoi edifici vengono allestite numerose aree verdi. Le piante sono bellissime e mantengono pulita l'aria."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "tycoon",
+      "beauty": 10,
+      "maintenance": -5,
+      "environment": 2
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "LightsAlwaysOn": {
+    "id": "LightsAlwaysOn",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Lights-On Policy",
+      "ES": "Lights Always On",
+      "FR": "Lumière allumée en permanence",
+      "DE": "Konstantes Licht",
+      "IT": "Luci sempre accese"
+    },
+    "description": {
+      "EN": "The lights are always on, even at night. More secure and no one can tell who is in and who is out.",
+      "ES": "The lights are always on, even at night. More secure and nobody can tell who is in and who is out.",
+      "FR": "La lumière est toujours allumée, même la nuit. C'est plus sécurisant et personne ne peut savoir si vous êtes chez vous ou non.",
+      "DE": "Das Licht ist immer an, ob Tag oder Nacht. Es ist sicherer und niemand kann sagen, wer da ist und wer nicht.",
+      "IT": "Le luci sono sempre accese, anche di notte. Ciò aumenta la sicurezza e fa sì che non si possa capire chi è in casa e chi non lo è."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "beauty": 2,
+      "maintenance": -3,
+      "privacy": 3,
+      "security": 5
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "LightTherapyRooms": {
+    "id": "LightTherapyRooms",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Light Therapy Rooms",
+      "ES": "Light Therapy Rooms",
+      "FR": "Salles de thérapie par la lumière",
+      "DE": "Lichttherapieräume",
+      "IT": "Stanze per la terapia luminosa"
+    },
+    "description": {
+      "EN": "Another effective way to relieve stress is to expose your body to a mild uniform light. All of your buildings have a room specially designed for this purpose.",
+      "ES": "Another effective way to relieve stress is to expose your body to a mild uniform light. All of your buildings have a room specially designed for that.",
+      "FR": "Une manière efficace de réduire le stress consiste à exposer votre corps à une lumière uniforme légère. Tous vos bâtiments disposent d'une salle spécialement conçue à cet effet.",
+      "DE": "Ein anderes effizientes Mittel zur Stressbehandlung ist die Einwirkung von gleichbleibendem Licht. Alle Ihre Gebäude verfügen über einen speziell dafür eingerichteten Raum.",
+      "IT": "Un metodo efficace di riduzione dello stress consiste nel sottoporre il corpo ad una tenue luce uniforme. Tutti i tuoi edifici sono dotati di una stanza che consente di adottare questa terapia."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "maintenance": -1,
+      "security": 3
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "MetalDetectors": {
+    "id": "MetalDetectors",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Metal Detectors",
+      "ES": "Metal Detectors",
+      "FR": "Détecteur de métaux",
+      "DE": "Metalldetektoren",
+      "IT": "Metal Detector"
+    },
+    "description": {
+      "EN": "To avoid the presence of any weapons, metal detectors are attached to the guard stand.",
+      "ES": "To avoid the entrance of any weapon, metal detectors are installed attached to the guards stand.",
+      "FR": "Pour éviter l'entrée d'armes, des détecteurs de métaux sont installés au poste de garde.",
+      "DE": "Um zu verhindern, das Waffen ins Gebäude gelangen, befinden sich neben den Wachposten Metalldetektoren.",
+      "IT": "Per impedire l'ingresso di armi, installi metal detector presso le postazioni delle guardie."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "beauty": -2,
+      "privacy": -3,
+      "security": 10
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "GuardsStand"
+    ]
+  },
+  "NoSmokingPolicy": {
+    "id": "NoSmokingPolicy",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "No Smoking Policy",
+      "ES": "No Smoking Policy",
+      "FR": "Politique d'interdiction de fumer",
+      "DE": "Nichtraucherpolitik",
+      "IT": "Vietato fumare negli uffici"
+    },
+    "description": {
+      "EN": "Office buildings are completely smoke free.",
+      "ES": "Office buildings completely smoke free.",
+      "FR": "Il est complètement interdit de fumer dans les bâtiments abritant des bureaux.",
+      "DE": "In Bürogebäuden darf nicht geraucht werden.",
+      "IT": "Divieto di fumare nei palazzi di uffici."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "tycoon",
+      "beauty": 2,
+      "maintenance": 3,
+      "environment": 5
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "Offices": {
+    "id": "Offices",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Office Rental Basics",
+      "ES": "Office Rental Basics",
+      "FR": "Principes de location de bureaux",
+      "DE": "Grundlagen der Bürovermietung",
+      "IT": "Fondamenti sulla costruzione e la gestione di uffici"
+    },
+    "description": {
+      "EN": "Paperwork to build and rent offices.",
+      "ES": "Paperwork to build and rent offices.",
+      "FR": "Travail administratif permettant de construire des bureaux et de les mettre en location.",
+      "DE": "Papiere für den Bau und die Vermietung von Büroräumen.",
+      "IT": "I documenti necessari alla costruzione e alla cessione in affitto di locali per ufficio."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon"
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "OpenSpaces": {
+    "id": "OpenSpaces",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Open Spaces",
+      "ES": "Open Spaces",
+      "FR": "Espaces ouverts",
+      "DE": "Offene Räume",
+      "IT": "Ambienti open-space"
+    },
+    "description": {
+      "EN": "Entire floors with no dividing walls: you are able to accommodate more people in the same space.",
+      "ES": "Full floors without dividing walls to accomodate a lot of people working in the same area.",
+      "FR": "Etages sans mur de séparation pour contenir un grand nombre de personnes qui travaillent dans le même service.",
+      "DE": "Ganze Stockwerke ohne Zwischenwände, um eine Menge Leute, die auf dem gleichen Sektor arbeiten, unterzubringen.",
+      "IT": "Interi piani senza pareti divisorie che permettono di accomodare un gran numero di persone nella stessa area."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "tycoon",
+      "maintenance": -3,
+      "security": 2
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "PoliceAlarm": {
+    "id": "PoliceAlarm",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Police Alarm",
+      "ES": "Police Alarm",
+      "FR": "Alarme reliée au commissariat de police",
+      "DE": "Polizeialarm",
+      "IT": "Allarme collegato alla polizia"
+    },
+    "description": {
+      "EN": "An alarm is directly connected to the police station, ideal for an emergency.",
+      "ES": "An alarm is connected directly to the police station, for any kind of emergencies.",
+      "FR": "Une alarme est reliée directement au commissariat de police pour tout type d'urgence.",
+      "DE": "Ein Alarm ist direkt mit dem Polizeirevier verbunden, für jede Art von Notfall.",
+      "IT": "Un allarme collegato direttamente alla più vicina stazione di polizia e che entra in funzione in caso di emergenza."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "tycoon",
+      "maintenance": -1,
+      "security": 10
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "PollutionMeasuringDevice": {
+    "id": "PollutionMeasuringDevice",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Pollution Measuring Device",
+      "ES": "Pollution Measuring Device",
+      "FR": "Dispositif de mesure de la pollution",
+      "DE": "Schadstoffmeßgerät",
+      "IT": "Dispositivo per la misurazione dell'inquinamento"
+    },
+    "description": {
+      "EN": "Every entrance of your building has a device that measures the pollution level immediately outside the building. People can wait for a low reading before going out.",
+      "ES": "Every entrance of your building has a device that measure the pollution level just outside the door. People can wait for a low reading to go out.",
+      "FR": "Toutes les entrées de votre bâtiment sont équipées d'un dispositif de mesure du niveau de pollution à l'extérieur. Si le niveau est bas, le personnel est autorisé à sortir.",
+      "DE": "An jedem Eingang zu Ihren Gebäuden befindet sich ein Gerät, das die Schadstoffwerte direkt vor der Tür misst. Die Leute können auf niedrige Werte warten, bevor sie das Haus verlassen.",
+      "IT": "Ogni ingresso dell'edificio è dotato di un dispositivo che misura l'inquinamento esterno. In questo modo le persone possono attendere che il livello si sia abbassato prima di uscire."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon",
+      "maintenance": -1,
+      "environment": 5
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "PuppiesRoom": {
+    "id": "PuppiesRoom",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Puppy and Kitten Room",
+      "ES": "Puppies Room",
+      "FR": "Salle avec bébés animaux",
+      "DE": "Welpenraum",
+      "IT": "Stanza dei cuccioli"
+    },
+    "description": {
+      "EN": "It has been proven that playing with puppies and kittens relieves stress. Your office buildings have a puppy and kitten room where workers can go when they need to calm down.",
+      "ES": "It has been proven that playing with puppies relieves any kind of stress. Your office buildings have a room full of dog puppies where the workers can go when they need to calm down.",
+      "FR": "Il est prouvé que de s'amuser avec des bébés animaux réduit le stress. Les bâtiments qui abritent vos bureaux disposent d'une salle remplie de bébés chiens dans laquelle vos employés peuvent se rendre lorsqu'ils ont besoin de se calmer.",
+      "DE": "Es ist bewiesen, dass das Spielen mit Welpen alle Arten von Stress abbaut. In Ihren Bürogebäuden gibt es einen Raum voller Welpen, in den sich die Arbeiter zurückziehen können, wenn Sie sich beruhigen wollen.",
+      "IT": "È dimostrato che giocare coi cuccioli aiuta ad alleviare lo stress. Le tue sedi contengono una stanza piena di cuccioli di cane in cui gli impiegati possono recarsi quando hanno bisogno di rilassarsi."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "beauty": 4,
+      "maintenance": -5,
+      "security": 2,
+      "environment": -1
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "RoboticFlyingCameras": {
+    "id": "RoboticFlyingCameras",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Robotic Flying Cameras",
+      "ES": "Robotic Flying Cameras",
+      "FR": "Caméras volantes robotisées",
+      "DE": "Fliegende Roboterkameras",
+      "IT": "Telecamere robot volanti"
+    },
+    "description": {
+      "EN": "The security rounds are performed by small flying robots with cameras connected to the guard room.",
+      "ES": "The control laps in the building are performed by flying small robots with cameras connected to the guards room.",
+      "FR": "Les rondes de contrôle des bâtiments sont effectuées par de petits robots volants équipés de caméras reliées à la salle des gardes.",
+      "DE": "Die Kontrollrunden im Gebäude werden von kleinen fliegenden Kameras durchgeführt, die mit dem Wachraum verbunden sind.",
+      "IT": "Le ronde di sorveglianza nel tuo edificio sono effettuare da piccoli robot volanti dotati di telecamere collegate alla postazione delle guardie."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "tycoon",
+      "maintenance": 3,
+      "privacy": -5,
+      "security": 10
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "SoftCarpets": {
+    "id": "SoftCarpets",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Soft Carpets",
+      "ES": "Soft Carpets",
+      "FR": "Moquette douce",
+      "DE": "Weiche Teppiche",
+      "IT": "Moquette soffici"
+    },
+    "description": {
+      "EN": "Very soft carpets cover the floors and corridors: very nice to walk on.",
+      "ES": "Very soft carpets cover the hall and the corridors. Very nice to walk on them.",
+      "FR": "De la moquette très douce recouvre le sol du hall et des couloirs. Sensation très agréable lorsque vous marchez.",
+      "DE": "Sehr weiche Teppiche in der Halle und in den Korridoren, Angenehm, darauf zu laufen.",
+      "IT": "Le hall e i corridoi sono ricoperti di moquette molto soffici sulle quali è piacevole camminare."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "tycoon",
+      "beauty": 3,
+      "maintenance": -1,
+      "security": -1
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  },
+  "Usher": {
+    "id": "Usher",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Official Greeter",
+      "ES": "Usher",
+      "FR": "Portier",
+      "DE": "Türsteher",
+      "IT": "Portiere"
+    },
+    "description": {
+      "EN": "An official greeter in uniform stands outside the main entrance and greets and directs visitors; this also ensures weirdoes and other undesirables are kept out.",
+      "ES": "An usher in uniform stand outside the main door and greets the persons that enter, keeping away weirdos and other undesired visitors.",
+      "FR": "Un portier en uniforme se tient devant la porte d'entrée afin d'accueillir les personnes qui entrent et tenir les personnes étranges et autres visiteurs indésirables à l'écart.",
+      "DE": "Ein Türsteher in Uniform steht außerhalb des Haupteingangs. Er begrüßt die hereinkommenden Personen, und verweigert Spinnern und sonstigen unerwünschten Typen den Zutritt.",
+      "IT": "Un portiere in uniforme staziona fuori dall'ingresso e dà il benvenuto ai visitatori, tenendo alla larga i tipi sospetti e gli individui indesiderabili in genere."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "tycoon",
+      "maintenance": -2,
+      "privacy": 3,
+      "security": 2
+    },
+    "industry_type": "OFFICE",
+    "depends_on": [
+      "Offices"
+    ]
+  }
+}

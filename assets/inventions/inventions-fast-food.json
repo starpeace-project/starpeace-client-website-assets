@@ -1,0 +1,381 @@
+{
+  "DailyFarmDeliveries": {
+    "id": "DailyFarmDeliveries",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Daily Farm Deliveries",
+      "ES": "Daily Farm Deliveries",
+      "FR": "Livraisons quotidiennes de produits de la ferme",
+      "DE": "Tägliche frisch vom Bauernhof",
+      "IT": "Consegne giornaliere dalle fattorie"
+    },
+    "description": {
+      "EN": "Daily deliveries of fresh vegetables and fruit directly from farms; the way best to ensure freshness.",
+      "ES": "Deliveries of fresh vegetables and fruits every day directly from farms. The best to insure freshness.",
+      "FR": "Livraison quotidienne de légumes et de fruits frais, directement depuis la ferme. La fraîcheur est garantie.",
+      "DE": "Tägliche Lieferungen von frischem Obst und Gemüse direkt vom Bauernhof. Frische garantiert.",
+      "IT": "Consegne di frutta e verdura fresche ogni giorno direttamente dalle fattorie. Il modo migliore per garantire la freschezza."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 3
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "DeliCounter": {
+    "id": "DeliCounter",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Deli Counter",
+      "ES": "Deli Counter",
+      "FR": "Traiteur",
+      "DE": "Delikatessentisch",
+      "IT": "Banco gastronomia"
+    },
+    "description": {
+      "EN": "Add cooked food to the deli selection of your stores.",
+      "ES": "Add cooked food to the selection of your stores.",
+      "FR": "Ajoutez des plats cuisinés à la sélection proposée dans vos magasins.",
+      "DE": "Fügen Sie der Auswahl Ihrer Geschäfte gekochtes Essen hinzu.",
+      "IT": "Aggiungi un reparto gastronomia ai tuoi supermercati."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "ExpiringDatesAlteration": {
+    "id": "ExpiringDatesAlteration",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Expiry Date Altering",
+      "ES": "Expiring Dates Alteration",
+      "FR": "Modification des dates d'expiration",
+      "DE": "Änderung der Haltbarkeitsdaten",
+      "IT": "Cambiamento delle date di scadenza"
+    },
+    "description": {
+      "EN": "Everybody knows that food can be eaten even after its expiry date. Change the date on the packages that are about to expire.",
+      "ES": "Everybody knows that food can be eaten even after its expiring date. Change the date on the packages that are about to expire.",
+      "FR": "Chacun sait que les aliments peuvent être consommés après leur date de péremption. Changez la date figurant sur les emballages pour les produits arrivant près de cette date.",
+      "DE": "Jeder weiß, dass man Lebensmittel auch nach dem Haltbarkeitsdatum essen kann. Ändern Sie das Datum auf den Verpackungen, die jetzt ablaufen.",
+      "IT": "Tutti sanno che i cibi possono essere consumati anche dopo la loro data di scadenza. Decidi perciò di cambiare tale data sulle confezioni che stanno per scadere."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": -2
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "ExtraterrestrialVegetables": {
+    "id": "ExtraterrestrialVegetables",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Extraterrestrial Vegetables",
+      "ES": "Extraterrestrial Vegetables",
+      "FR": "Légumes extraterrestres",
+      "DE": "Außerirdisches Gemüse",
+      "IT": "Verdure extraterrestri"
+    },
+    "description": {
+      "EN": "Selling of the few edible vegetables discovered on the new worlds.",
+      "ES": "Selling of the few edible vegetables discovered on the new worlds.",
+      "FR": "Vente des quelques légumes comestibles découverts dans les nouveaux mondes.",
+      "DE": "Verkauf der wenigen essbaren Gemüsesorten, die auf den neuen Welten entdeckt wurden.",
+      "IT": "La vendita dei pochi vegetali commestibili trovati sui nuovi mondi."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "Flowers": {
+    "id": "Flowers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Flowers",
+      "ES": "Flowers",
+      "FR": "Fleurs",
+      "DE": "Blumen",
+      "IT": "Fiori"
+    },
+    "description": {
+      "EN": "The daily deliveries from farms include cultivated flowers. Another line of business for your stores.",
+      "ES": "The daily deliveries from farms include cultivated flowers. Another line of business for your stores.",
+      "FR": "Les exploitations agricoles livrent chaque jour les fleurs qu'elles cultivent. Autre activité proposée par vos magasins.",
+      "DE": "Die täglichen Lieferungen von den Bauernhöfen schließen auch Schnittblumen ein. Eine andere Idee für Ihre Geschäfte.",
+      "IT": "Aggiungi i fiori all'elenco dei prodotti consegnati ogni giorno dalle fattorie. Un'altra linea per i tuoi supermercati."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD",
+    "depends_on": [
+      "DailyFarmDeliveries"
+    ]
+  },
+  "FoodIntegrityDailyControls": {
+    "id": "FoodIntegrityDailyControls",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Food Integrity Daily Controls",
+      "ES": "Food Integrity Daily Controls",
+      "FR": "Contrôles quotidiens de la qualité des aliments",
+      "DE": "Tägliche Verpackungskontrollen",
+      "IT": "Controlli quotidiani delle condizioni del cibo"
+    },
+    "description": {
+      "EN": "Every day your products are checked, rotten produce and damaged packaged goods are thrown away.",
+      "ES": "Every day your products are controlled to throw away the rotten ones and the ones whose package has been damaged in any way.",
+      "FR": "Chaque jour, vos produits sont contrôlés de manière à jeter les produits avariés et ceux dont l'emballage est endommagé.",
+      "DE": "Ihre Produkte werden jeden Tag kontrolliert. Die abgelaufenen Produkte oder die, deren Verpackung beschädigt ist, werden entsorgt.",
+      "IT": "I tuoi prodotti sono controllati giornalmente. I cibi guasti e quelli le cui confezioni risultano anche minimamente danneggiate vengono subito gettati via."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 3
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "HygieneChecks": {
+    "id": "HygieneChecks",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Hygiene Checks",
+      "ES": "Hygiene Checks",
+      "FR": "Hygiène",
+      "DE": "Hygieneüberprüfungen",
+      "IT": "Verifiche dell'igiene"
+    },
+    "description": {
+      "EN": "Frequent hygienic checks to ensure a clean environment for the display and storage of food.",
+      "ES": "Frequent hygienic controls to ensure a clean environment for the display and storage of the food.",
+      "FR": "Des contrôles fréquents de l'hygiène permettent conserver un environnement sain pour l'étalage et le stockage de la nourriture.",
+      "DE": "Häufige Hygieneüberprüfungen zur Sicherung einer sauberen Umgebung für die Ausstellung und die Lagerung von Lebensmitteln.",
+      "IT": "Frequenti verifiche dell'igiene allo scopo di assicurare un ambiente ideale per l'esposizione e la conservazione dei cibi."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 2
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "MonthlyPaymentOption": {
+    "id": "MonthlyPaymentOption",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Monthly Payment Option",
+      "ES": "Monthly Payment Option",
+      "FR": "Option de paiement mensualisé",
+      "DE": "Monatliche Zahlungen",
+      "IT": "Possibilità di pagamento alla fine del mese"
+    },
+    "description": {
+      "EN": "You offer your regular customers the possibility of opening an account at your store and only having to pay at the end of the month.",
+      "ES": "You offer to your usual clients the possibility of open an account at your store and pay for the everyday groceries at the end of the month.",
+      "FR": "Vous offrez à vos clients fidèles la possibilité d'ouvrir un compte dans votre magasin afin de payer leurs achats en fin de mois.",
+      "DE": "Sie bieten Ihren Stammkunden an, in Ihrem Geschäft ein Konto zu eröffnen und für ihre Einkäufe am Monatsende zu bezahlen.",
+      "IT": "Offri ai clienti abituali la possibilità di aprire un conto e di saldare gli acquisti alla fine di ogni mese."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "NoBrandFood": {
+    "id": "NoBrandFood",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "No-Brand Food",
+      "ES": "No Brand Food",
+      "FR": "Nourriture sans marque",
+      "DE": "Billiglebensmittel",
+      "IT": "Cibi senza marca"
+    },
+    "description": {
+      "EN": "Low quality food of unknown brands. Cheaper but not as good.",
+      "ES": "Low quality food of unknown brands. Cheaper but not as good.",
+      "FR": "Nourriture de marque inconnue de mauvaise qualité. C'est moins cher, mais pas aussi bon.",
+      "DE": "Lebensmittel niedriger Qualität von unbekannte Marken. Billiger aber nicht so gut.",
+      "IT": "Cibi senza marca di bassa qualità. Più economici ma non altrettanto buoni."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": -1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "Oven": {
+    "id": "Oven",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Oven",
+      "ES": "Oven",
+      "FR": "Four",
+      "DE": "Ofen",
+      "IT": "Panetteria"
+    },
+    "description": {
+      "EN": "Fresh baked breads and pizzas in your stores. Baked every hour, there's nothing like bread that's still warm from the oven.",
+      "ES": "Fresh bread and pizza are baked in your stores every hour. There's nothing like bread still warm from the oven.",
+      "FR": "Du pain frais et des pizzas sont cuits toutes les heures dans vos magasins. Rien n'est meilleur que du pain chaud juste sorti du four.",
+      "DE": "Brot und Pizza werden jede Stunde frisch in Ihren Geschäften gebacken. Es gibt nichts besseres als ofenwarmes Brot.",
+      "IT": "Pane fresco e pizza vengono infornati nei tuoi supermercati ogni ora. Non c'è niente di meglio del pane ancora caldo di forno."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "PartyOrders": {
+    "id": "PartyOrders",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Party Orders",
+      "ES": "Party Orders",
+      "FR": "Commandes pour fêtes",
+      "DE": "Partyaufträge",
+      "IT": "Catering per le feste"
+    },
+    "description": {
+      "EN": "Large food orders for parties: everything is needed, from chips to desserts.",
+      "ES": "Big requests of food for parties. Everything is needed, from chips to cakes.",
+      "FR": "Nombreuses demandes de nourriture pour des fêtes. Vous fournissez tout, des amuse-gueules au dessert.",
+      "DE": "Großaufträge für Partyessen. Alles wird gebraucht, von Chips bis zu Kuchen.",
+      "IT": "Ingenti ordinativi di cibo per le feste. Serve di tutto, dalle patatine alle torte."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "SelfServeVegetablesPicking": {
+    "id": "SelfServeVegetablesPicking",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Self-Serve Vegetable Picking",
+      "ES": "Self Serve Vegetables Picking",
+      "FR": "Légumes en libre service",
+      "DE": "Selbstbedienung bei Obst und Gemüse",
+      "IT": "Reparto ortofrutticolo self-service"
+    },
+    "description": {
+      "EN": "Customers choose and pick fruits and vegetables they want to purchase directly from the shelves.",
+      "ES": "The customers have to choose and pick the fruits and vegetables they want to buy directly from the shelves.",
+      "FR": "Les clients doivent choisir les fruits et légumes qu'ils souhaitent acheter et se servir directement sur les étalages.",
+      "DE": "Die Kunden müssen das Obst und Gemüse, das sie kaufen wollen selbst aus den Auslagen nehmen.",
+      "IT": "Anziché confezionare frutta e verdura, lasci che i clienti si servano direttamente dagli scaffali."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": -1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "SeniorCitizenFreeHomeDelivery": {
+    "id": "SeniorCitizenFreeHomeDelivery",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Senior Citizen Free Home Delivery",
+      "ES": "Senior Citizen Free Home Delivery",
+      "FR": "Livraison à domicile pour les personnes âgées",
+      "DE": "Kostenlose Lieferung für Senioren",
+      "IT": "Consegne gratuite agli anziani"
+    },
+    "description": {
+      "EN": "Courtesy service for retired customers. Very much appreciated.",
+      "ES": "Courtesy service for retired people. Very appreciated.",
+      "FR": "Service gratuit pour les retraités. Très apprécié.",
+      "DE": "Ein Kundenservice für Rentner. Sehr beliebt.",
+      "IT": "Un servizio gratuito e molto apprezzato per i clienti in pensione."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "SpecializedStores": {
+    "id": "SpecializedStores",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Specialized Stores",
+      "ES": "Specialized Stores",
+      "FR": "Magasins spécialisés",
+      "DE": "Fachgeschäfte",
+      "IT": "Negozi specializzati"
+    },
+    "description": {
+      "EN": "Instead of having every store selling all types of food, you have specialized stores like bakeries, meat shops, fish shops etc.",
+      "ES": "Instead of having every store selling all type of food, you have specialized stores like bakeries, meat shops, fisheries, etc.",
+      "FR": "Au lieu d'avoir un magasin vendant tout type d'aliment, vous disposez de magasins spécialisés, tels que des boulangeries, des boucheries, des poissonneries, etc.",
+      "DE": "Anstatt alle Lebensmittel in einem Geschäft zu verkaufen, verfügen sie über Fachgeschäfte wie Bäckereien, Metzgereien, Fischläden etc..",
+      "IT": "Invece di concentrare l'intera gamma della tua offerta in ogni supermercato, apri negozi specializzati come panetterie, macellerie, pescherie, ecc."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  },
+  "WorkersLunch": {
+    "id": "WorkersLunch",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Worker's Quick Lunch",
+      "ES": "Workers Lunch",
+      "FR": "Pause déjeuner",
+      "DE": "Arbeiteressen",
+      "IT": "Pausa pranzo"
+    },
+    "description": {
+      "EN": "Your stores prepare sandwiches and small meal plates that can be eaten while standing. For nearby office and factory workers this alternative is faster and cheaper than going to restaurants and bars.",
+      "ES": "Your stores prepare sandwhiches and small plates to be consumed standing. For the workers of nearby offices and factories. Faster and cheaper than restaurants and bars.",
+      "FR": "Vos magasins préparent des sandwiches et des petites assiettes pour les repas pris debout. Destinés aux personnes travaillant des les bureaux et les usines. Plus rapide et moins cher que les restaurants et les bars.",
+      "DE": "Ihre Geschäfte stellen Sandwiches und kleine Mahlzeiten her, die man im Stehen essen kann. Für die Arbeiter in den umliegenden Fabriken und Büros. Schneller und billiger als Restaurants uns Bars.",
+      "IT": "I tuoi supermercati preparano panini e piatti pronti da consumare in piedi per gli impiegati di fabbriche e uffici dei dintorni. Un'alternativa pratica ed economica a ristoranti e bar."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "FAST_FOOD"
+  }
+}

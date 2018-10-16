@@ -1,0 +1,568 @@
+{
+  "3Dlooms": {
+    "id": "3Dlooms",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "3D Looms",
+      "ES": "3D Looms",
+      "FR": "Métiers à tisser 3D",
+      "DE": "3D-Webstühle",
+      "IT": "Telai tridimensionali"
+    },
+    "description": {
+      "EN": "Several college studies have lead to the conclusion that 3D Looms are superior to looms that are only 2D. 4D still remains nonsensical.",
+      "ES": "Several college studies have lead to the conclusion that 3D Looms are superior to looms that are only 2D. 4D still remain nonsensical.",
+      "FR": "Plusieurs études universitaires ont montré que les métiers à tisser 3D étaient supérieurs aux métiers à tisser 2D. La 4D reste toutefois absurde.",
+      "DE": "Mehrere Studien haben ergeben, dass 3D-Webstühle besser sind als 2D-Webstühle. 4D-Webstühle bleiben immer noch unsinnig.",
+      "IT": "Diversi studi hanno portato alla conclusione che i telai tridimensionali siano da preferire ai vecchi modelli bidimensionali. L'idea di un telaio a 4 dimensioni continua a non avere alcun senso."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": 5
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "AdvancedFashions": {
+    "id": "AdvancedFashions",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Fashion Knowledge",
+      "ES": "Advanced Fashions",
+      "FR": "Mode avancée",
+      "DE": "Mode für Fortgeschrittene",
+      "IT": "Nozioni avanzate di design di moda"
+    },
+    "description": {
+      "EN": "Learn what makes a design good and how to meet the needs of each social class, in terms of clothing and footwear.",
+      "ES": "Learn what makes a design good and how to meet each social class demands in terms of clothing and footwear.",
+      "FR": "Apprenez ce qui fait un bon design et comment répondre aux demandes de toutes les classes sociales en terme de vêtements et de chaussures.",
+      "DE": "Lernen Sie, was ein gutes Design ausmacht und wie Sie die Erwartungen der verschiedenen Gesellschaftsklassen hinsichtlich Kleidung und Schuhe befriedigen können.",
+      "IT": "Scopri il segreto del successo nel design di moda e come fare a soddisfare le esigenze di ciascun gruppo sociale in termini di abbigliamento e calzature."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "BasicFashions"
+    ]
+  },
+  "Anticamouflage": {
+    "id": "Anticamouflage",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mutating Fabric",
+      "ES": "Realtime anti-camouflage",
+      "FR": "Anti-camouflage en temps réel",
+      "DE": "Camouflage in Echtzeit",
+      "IT": "Tessuti camaleontici"
+    },
+    "description": {
+      "EN": "Produce fabrics that will mutate color according to the environment, so your outfit will never again be the same as someone else's.",
+      "ES": "Produce fabrics that will mutate color according to the environment, so your wife's dress won't look the same than someone else's wife dress.",
+      "FR": "Produisez des tissus qui changent de couleur en fonction de l'environnement. Votre femme ne portera plus jamais la même robe que les femmes des autres.",
+      "DE": "Stellen Sie einen Stoff her, dessen Farbe sich mit seiner Umgebung verändert. So hat Ihre Frau ein Kleid, das keinem anderen Kleid ähnelt.",
+      "IT": "Produci un tessuto che cambia colore a seconda dell'ambiente. Così il vestito di tua moglie non sarà più uguale a quello di nessun'altra..."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 10
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "BasicFashions": {
+    "id": "BasicFashions",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Basic Fashion Knowledge",
+      "ES": "Basic Fashions",
+      "FR": "Principes de la mode",
+      "DE": "Modegrundlagen",
+      "IT": "Fondamenti del design di moda"
+    },
+    "description": {
+      "EN": "Your designers really need understand that clothing, other than keeps people from going around naked, must also look good. Research provides them with that basic knowledge.",
+      "ES": "Your designers really need how to know that clothing, aside from preventing people to go around naked, must also look good. Research this to give them that basic knowledge.",
+      "FR": "Vous créatifs doivent vraiment apprendre que les vêtements, en plus de permettre aux gens de ne pas se promener tout nu, doivent être beaux. Effectuez cette recherche pour leur inculquer les principes de base.",
+      "DE": "Ihre Designer sollten wirklich wissen, dass Kleidung nicht nur dazu da ist, nackte Haut zu verstecken, sondern auch gut aussehen soll. Entwicklung vornehmen, damit sie dieses Basiswissen erhalten.",
+      "IT": "I tuoi stilisti devono innanzitutto comprendere che i vestiti, oltre a far sì che la gente non vada in giro nuda, devono avere anche un aspetto piacevole. Questa ricerca glielo farà capire."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "BioFabrics": {
+    "id": "BioFabrics",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Biodegradable fabrics",
+      "ES": "Biodegradable fabrics",
+      "FR": "Tissus biodégradables",
+      "DE": "Bioabbaubare Stoffe",
+      "IT": "Tessuti biodegradabili"
+    },
+    "description": {
+      "EN": "Develop fabrics that are easily assimilated by nature once discarded.",
+      "ES": "Develop facbrics that are easily assimilated by nature when they become waste.",
+      "FR": "Développez des tissus facilement assimilables par la nature une fois qu'ils sont usagés.",
+      "DE": "Entwickeln Sie Stoffe, die sich nach Gebrauch natürlich zersetzen.",
+      "IT": "Sviluppi tessuti facilmente assimilabili dalla natura dopo il loro smaltimento."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": 100,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": -10
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "BlindPoint": {
+    "id": "BlindPoint",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Blind Point Designs",
+      "ES": "Blind Point Designs",
+      "FR": "Design des zones aveugles",
+      "DE": "Toter-Punkt Design",
+      "IT": "Design che sfrutta i \"punti ciechi\""
+    },
+    "description": {
+      "EN": "Allows for fabric patterns that use less die on certain areas of the garment, where the blind point of the eye is more likely to be focused.",
+      "ES": "Allow fabric patterns that use less colorant at spots where the blind point of the eye is more likely to be looking at.",
+      "FR": "Cela permet aux fabricants de tissus dutiliser moins de colorants aux endroits les moins visibles dun vêtement.",
+      "DE": "Gestalten Sie Stoffe, die an wenig sichtbaren Stellen weniger Farbstoffe benötigen.",
+      "IT": "Permette ai disegni dei tessuti di utilizzare meno tintura nelle zone su cui è più probabile che si diriga il punto cieco dell'occhio."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": -7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "CoulombFab": {
+    "id": "CoulombFab",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Coulomb Fabrics",
+      "ES": "Coulomb Fabrics",
+      "FR": "Tissus coulomb",
+      "DE": "Coulomb-Stoffe",
+      "IT": "Tessuti di Coulomb"
+    },
+    "description": {
+      "EN": "These threads are kept very near each other by using a static electric field.",
+      "ES": "Threads are ketp very near one of the other by using a static electric field.",
+      "FR": "Les fils sont gardés très proches les uns des autres grâce à un champ d'électricité statique.",
+      "DE": "Die Fäden werden durch ein elektrostatisches Feld sehr eng zusammengehalten.",
+      "IT": "I fili sono mantenuti a strettissimo contatto grazie ad un campo di elettricità statica."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": -7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "FabricEnlargement": {
+    "id": "FabricEnlargement",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Fabric Stretching",
+      "ES": "Fabric Enlargement",
+      "FR": "Agrandissement de tissu",
+      "DE": "Stoffvergrößerung",
+      "IT": "Estensione dei tessuti"
+    },
+    "description": {
+      "EN": "Develop a procedure that stretches fabrics once they have been completed.",
+      "ES": "Develop a procedure to enlarge fabrics once they have been completed.",
+      "FR": "Développez une procédure pour agrandir les tissus une fois qu'ils ont été terminés.",
+      "DE": "Entwickeln Sie ein Verfahren, das es ermöglicht, Stoffe zu vergrößern, wenn sie fertiggestellt sind.",
+      "IT": "Sviluppa una procedura per aumentare le dimensioni dei tessuti una volta che essi sono stati ultimati."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -2,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "InvKnit": {
+    "id": "InvKnit",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Inverted Knitting",
+      "ES": "Inverse knitting",
+      "FR": "Tricotage inversé",
+      "DE": "Umgekehrtes Stricken",
+      "IT": "Filatura a rovescio"
+    },
+    "description": {
+      "EN": "Introduce looms with inverted sliding. While it leaves small irregular holes in the fabric, it's usually imperceptible to the average eye.",
+      "ES": "Introduce looms with inverse sliding. It leaves irregular holes on the fabric, usually imperceptible for the average eye.",
+      "FR": "Mettez en place des métiers à tisser avec des glissières inversées. Cela laisse quelques trous dans le tissus, mais ils sont généralement imperceptibles pour des non professionnels.",
+      "DE": "Führen Sie Webstühle mit umgekehrten Schlitten ein. Es hinterlässt unregelmäßige Löcher im Stoff, die von ungeschulten Augen nicht erkannt werden können.",
+      "IT": "Introduci telai a scorrimento inverso che praticano nei tessuti fori irregolari invisibili ai non addetti ai lavori."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 4,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -10
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "Livingfabrics": {
+    "id": "Livingfabrics",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Living Fabrics",
+      "ES": "Living Fabrics",
+      "FR": "Tissus vivants",
+      "DE": "Lebende Stoffe",
+      "IT": "Tessuti vivi"
+    },
+    "description": {
+      "EN": "Develop fabrics of organic semi-alive organisms. Garments made of these fabrics tend to be highly adaptive to environmental conditions and very appealing to the human eye.",
+      "ES": "Develop fabrics composed by organic semialive organisms. Garment made of these fabrics tend to be highly adaptative to environmental conditions and very appealing to the human eye.",
+      "FR": "Développez des tissus composés d'organismes organiques semi-vivants. Les vêtements fabriqués à partir de ces tissus s'adaptent à l'environnement et l'il humain y est très sensible.",
+      "DE": "Entwickeln Sie Stoffe, die aus organischen, halblebenden Organismen bestehen. Sie passen sich den Umweltbedingungen sehr gut an und sehen sehr gut aus.",
+      "IT": "Sviluppa tessuti composti da organismi semi-viventi. Gli indumenti realizzati in questi tessuti si adattano meglio alle condizioni ambientali e risultano molto piacevoli all'occhio."
+    },
+    "properties": {
+      "price": 500000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 50
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "LSTextile": {
+    "id": "LSTextile",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Scale Textile Plants",
+      "ES": "Large Scale Textile",
+      "FR": "Industrie textile à grande échelle",
+      "DE": "Große Textilindustrien",
+      "IT": "Attività tessili su vasta scala"
+    },
+    "description": {
+      "EN": "Knowledge to create and manage large textile plants.",
+      "ES": "Knowledge to create and manage large textile plants.",
+      "FR": "Principes de création et de gestion d'usines textiles importantes.",
+      "DE": "Grundwissen für das Management von großen Textilindustrien.",
+      "IT": "Le competenze necessarie per impiantare e gestire grandi industrie tessili."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "entrepreneur"
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "MutCatep": {
+    "id": "MutCatep",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mutant Caterpillars",
+      "ES": "Mutant Caterpillars",
+      "FR": "Chenilles mutantes",
+      "DE": "Mutierte Raupen",
+      "IT": "Bachi mutanti"
+    },
+    "description": {
+      "EN": "This species enables you to obtain some very fine raw materials for the production of threads and fabrics.",
+      "ES": "Allow to obtain some very fine raw materials for the production of threads and fabrics.",
+      "FR": "Permet d'obtenir des matières premières très fines pour la production de fils et de tissus.",
+      "DE": "Ermöglichen den Gewinn von sehr feinen Rohstoffen für die Produktion von Garnen und Stoffen.",
+      "IT": "Permettono di ottenere materie prime finissime per la produzione di fili e tessuti."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 10
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "NATOpolyester": {
+    "id": "NATOpolyester",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "NATO Polyester",
+      "ES": "NATO polyester",
+      "FR": "Polyester OTAN",
+      "DE": "NATO Polyester",
+      "IT": "Poliestere NATO"
+    },
+    "description": {
+      "EN": "Assimilate NATO's designs for highly durable fabric.",
+      "ES": "Assimilate NATO's designs for highly durable fabric.",
+      "FR": "Assimilez les principes de l'OTAN pou obtenir des tissus inusables.",
+      "DE": "Integrieren Sie das Design der NATO für dauerhafte Stoffe.",
+      "IT": "Assimila i design NATO per tessuti di lunghissima durata."
+    },
+    "properties": {
+      "price": 95000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 9
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "Quicktint": {
+    "id": "Quicktint",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Quick Die",
+      "ES": "Quick Tint",
+      "FR": "Teinture rapide",
+      "DE": "Schnellfärber",
+      "IT": "Tintura rapida"
+    },
+    "description": {
+      "EN": "An easy way to die fabrics by applying watercolor, using dry turbines.",
+      "ES": "A easy way to tint fabrics by applying watercolor using dry turbines.",
+      "FR": "Procédé de teinture des tissus en appliquant de l'aquarelle à l'aide de turbines de séchage.",
+      "DE": "Ein schneller Weg zum Färben von Stoffen mit Wasserfarbe in Trockenturbinen.",
+      "IT": "Un semplice metodo di tintura dei tessuti che utilizza colori ad acqua e turbine a secco."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": -7
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "RealFashion": {
+    "id": "RealFashion",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mutating Fashions",
+      "ES": "Realtime Fashions",
+      "FR": "Mode en temps réel",
+      "DE": "Mode in Echtzeit",
+      "IT": "Indumenti sempre alla moda"
+    },
+    "description": {
+      "EN": "Sometimes just being different is not enough. Fabrics need to mutate color and patterns according to what fashion stipulates.",
+      "ES": "Sometimes just being different is not enough. Fabrics need to mutate color and patterns according to what fashion stipulates.",
+      "FR": "Parfois, le simple fait d'être différent ne suffit pas. Les tissus doivent changer de couleur et de motif selon les exigences de la mode.",
+      "DE": "Manchmal ist es nicht genug, einfach anders zu sein. Stoffe müssen ihre Farben und ihre Muster automatisch entsprechend der aktuellen Mode ändern.",
+      "IT": "Qualche volta distinguersi non basta. I tessuti devono poter cambiare colore e disegno a seconda dei dettami della moda del momento."
+    },
+    "properties": {
+      "price": 110000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 12
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TopFashions"
+    ]
+  },
+  "Silencers": {
+    "id": "Silencers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Silencers",
+      "ES": "Silencers",
+      "FR": "Silencieux",
+      "DE": "Webstuhl-Schalldämpfer",
+      "IT": "Silenziatori"
+    },
+    "description": {
+      "EN": "Install huge noise-eaters near looms.",
+      "ES": "Install huge noise-eaters near looms.",
+      "FR": "Installez de grands dispositifs antibruit près des métiers à tisser.",
+      "DE": "Installieren Sie riesige Schalldämpfer in der Nähe der Webstühle.",
+      "IT": "Installa enormi apparecchi per l'assorbimento del suono nei pressi dei telai."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 1
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "SyntThreads": {
+    "id": "SyntThreads",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Synthetic Threads",
+      "ES": "Synthetic Threads",
+      "FR": "Fils synthétiques",
+      "DE": "Synthetische Garne",
+      "IT": "Fili sintetici"
+    },
+    "description": {
+      "EN": "Replace a lot of organic materials with synthetic components.",
+      "ES": "Replace a lot of organic materials by synthetic components.",
+      "FR": "Remplacez une grande quantité de matériaux organiques par des composants synthétiques.",
+      "DE": "Ersetzen Sie zahlreiche organische Materialien durch synthetische Komponenten.",
+      "IT": "Sostituisci molti materiali organici con componenti sintetici."
+    },
+    "properties": {
+      "price": 120000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 5,
+      "quality": 5
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  },
+  "TextileLic": {
+    "id": "TextileLic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Textile Production",
+      "ES": "Textile Production",
+      "FR": "Production textile",
+      "DE": "Textilproduktion",
+      "IT": "Produzione tessile"
+    },
+    "description": {
+      "EN": "Textile production basic skills.",
+      "ES": "Textile production basic skills.",
+      "FR": "Principes de production textile.",
+      "DE": "Grundwissen der Textilproduktion.",
+      "IT": "Le competenze di base per la produzione tessile."
+    },
+    "properties": {
+      "price": 2000000,
+      "level": "apprentice"
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "TopFashions": {
+    "id": "TopFashions",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Top Fashions",
+      "ES": "Top Fashions",
+      "FR": "Mode haute couture",
+      "DE": "Topmode",
+      "IT": "Alta moda"
+    },
+    "description": {
+      "EN": "Want to produce the best fabrics and clothing on your world? Make people believe they like what you design: possess their minds to become a driving force in fashion.",
+      "ES": "Want to produce the best fabrics and clothing of the world? Make people believe they like what you design. Possess their minds to become a driving force in fashion.",
+      "FR": "Vous souhaitez produire les meilleurs tissus et vêtements du monde ? Faites croire aux gens qu'ils aiment ce que vous concevez. Prenez possession de leur esprit pour devenir une pierre angulaire de la mode.",
+      "DE": "Sie wollen die besten Stoffe und die schönsten Kleider der Welt herstellen? Überreden Sie die Leute, dass sie toll finden, was Sie da machen. Ergreifen Sie von ihren Gehirnen Besitz und werden sie ein Modezar.",
+      "IT": "Vuoi produrre i migliori tessuti ed indumenti del mondo? Convinci la gente che le tue creazioni sono il top della moda e diventa una figura di riferimento nel mondo degli stilisti."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 10
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "BasicFashions"
+    ]
+  },
+  "VertLooms": {
+    "id": "VertLooms",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vertical Looms",
+      "ES": "Vertical Looms",
+      "FR": "Métiers à tisser verticaux",
+      "DE": "Vertikale Webstühle",
+      "IT": "Telai verticali"
+    },
+    "description": {
+      "EN": "Develop stacking looms, which saves you a lot of space.",
+      "ES": "Develop stacks of vertical looms which save you a lot of space.",
+      "FR": "Développez des piles de métiers à tisser verticaux qui vous permettent de gagner de la place.",
+      "DE": "Entwickeln Sie vertikale Webstühle, mit denen Sie eine Menge Platz sparen können.",
+      "IT": "Sviluppi pile verticali di telai, risparmiando moltissimo spazio."
+    },
+    "properties": {
+      "price": 140000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -4
+    },
+    "industry_type": "FABRIC",
+    "depends_on": [
+      "TextileLic"
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "BringYourOwnIngredients": {
+    "id": "BringYourOwnIngredients",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Bring-Your-Own Ingredients",
+      "ES": "Bring Your Own Ingredients",
+      "FR": "Apportez vos propres ingrédients",
+      "DE": "Bringen Sie Ihre eigenen Zutaten",
+      "IT": "Porta i tuoi ingredienti"
+    },
+    "description": {
+      "EN": "Your clients can bring along some ingredients and have them cooked by your chefs, this is very much appreciated by customers with many allergies and sensitive stomachs.",
+      "ES": "If your clients desire so, they can bring along some ingredients and have them cooked by your chefs. Very appreciated by persons allergic to specific foods and with sensible stomachs.",
+      "FR": "Si vos clients le souhaitent, ils peuvent apporter des ingrédients afin que vos chefs les cuisinent. Très apprécié des personnes allergiques à certains aliments et aux estomacs sensibles.",
+      "DE": "Wenn Ihre Kunden das wünschen, können Sie Ihre eigenen Zutaten mitbringen und sie von Ihren Köchen zubereiten lassen. Von Allergikern und Personen mit empfindlichem Magen sehr geschätzt.",
+      "IT": "Se i clienti lo desiderano, possono portare i propri ingredienti e farli preparare allo chef. Molto apprezzato da coloro che sono allergici a certi cibi o hanno lo stomaco delicato."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "CompulsoryReservations": {
+    "id": "CompulsoryReservations",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Compulsory Reservations",
+      "ES": "Compulsory Reservations",
+      "FR": "Réservations obligatoires",
+      "DE": "Reservierungspflicht",
+      "IT": "Prenotazioni obbligatorie"
+    },
+    "description": {
+      "EN": "To give an elite aura to your restaurants, you make reservations obligatory. It's efficient, but you lose out on impulsive customers.",
+      "ES": "To give an elite aura, you make reservations obligatories on your restaurants. It's efficient, but you lose the impulsive clients.",
+      "FR": "Pour donner une impression de succès, vous rendez les réservations obligatoires dans vos restaurants. C'est efficace, mais vous perdez les clients qui viennent à l'improviste.",
+      "DE": "Um Ihren Restaurants ein elitäres Image zu geben, machen Sie das Reservieren zur Pflicht. Effizient, aber sie verlieren die Spontankunden.",
+      "IT": "Per dare al tuo ristorante un aura d'elite, rendi obbligatorie le prenotazioni. Il metodo è efficiente, ma perdi i clienti occasionali."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": -1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "EthnicRestaurants": {
+    "id": "EthnicRestaurants",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Ethnic Restaurants",
+      "ES": "Ethnic Restaurants",
+      "FR": "Restaurants exotiques",
+      "DE": "Ethno-Restaurants",
+      "IT": "Ristoranti etnici"
+    },
+    "description": {
+      "EN": "Nationally specialized restaurants: from Greek taverns to Chinese pagodas to Italian pizzerias. Every restaurant has their own authentic chef.",
+      "ES": "National specialized restaurant, from Greek taverns to Chinese pagodas to Italian pizzerie. Every restaurants with his own original chef.",
+      "FR": "Restaurants de spécialités de pays du monde, des tavernes grecques aux pagodes chinoises, en passant par les pizzerias italiennes. Chaque restaurant dispose de son propre chef.",
+      "DE": "Nationale Spezialitätenrestaurants von der griechischen Taverne über chinesische Pagoden bis zu italienischen Pizzerien. Jedes Restaurant hat den passenden einheimischen Koch.",
+      "IT": "Ristoranti specializzati in cucine nazionali, dalle taverne greche alle pizzerie italiane, con cuochi provenienti dai Paesi in questione."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "desirability": 4
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "ExtraterrestrialRecipes": {
+    "id": "ExtraterrestrialRecipes",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Extraterrestrial Recipes",
+      "ES": "Extraterrestrial Recipes",
+      "FR": "Recettes extraterrestres",
+      "DE": "Außerirdische Rezepte",
+      "IT": "Ricette extraterrestri"
+    },
+    "description": {
+      "EN": "Recipes made using plants found on the new extraterrestrial worlds.",
+      "ES": "Recipe made using the plants found on the new extraterrestrial worlds.",
+      "FR": "Recette réalisée en utilisant les plantes trouvées sur les nouveaux mondes extraterrestres.",
+      "DE": "Eine Mischung aus den Pflanzen, die auf den neuen Welten wachsen.",
+      "IT": "Ricette che utilizzano le piante indigene dei mondi extraterrestri."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "KidsPlates": {
+    "id": "KidsPlates",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Kid's Meals",
+      "ES": "Kids Plates",
+      "FR": "Assiettes pour enfants",
+      "DE": "Kinderteller",
+      "IT": "Piatti per bambini"
+    },
+    "description": {
+      "EN": "A special menu made specifically for children makes your restaurant a favorite for families.",
+      "ES": "A special menu studied for children. It makes your restaurant a favourite place for families.",
+      "FR": "Menu spécial étudié pour les enfants. Votre restaurant devient l'endroit préféré des familles.",
+      "DE": "Ein Spezialmenü extra für die Kleinen. Macht Ihr Restaurant zu einem Lieblingsplatz für Familien.",
+      "IT": "Uno speciale menu per bambini che rende il tuo ristorante molto popolare tra le famiglie."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "NonOriginalChefs": {
+    "id": "NonOriginalChefs",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Non-Authentic Chefs",
+      "ES": "Non Original Chefs",
+      "FR": "Chefs non exotiques",
+      "DE": "Keine Originalköche",
+      "IT": "Cuochi non indigeni"
+    },
+    "description": {
+      "EN": "Soon you realize your ethnic restaurants don't necessarily need an authentic chef (of the same nationality). Any local guy can learn to cook the dishes and they cost much less.",
+      "ES": "Soon you realize that to have an ethnic restaurants you don't necessary need a chef of the same nationality. Any local guy can learn to cook the dishes and the cost is much less.",
+      "FR": "Vous réalisez bientôt que d'avoir un restaurant exotique n'implique pas forcément d'avoir un chef de la même nationalité. Tout autochtone peut apprendre à cuisiner les plats et le coût est inférieur.",
+      "DE": "Es ist Ihnen schnell klar geworden, dass Sie für Ihr Ethno-Restaurant nicht unbedingt einen Koch der selben Nation benötigen. Jeder Einheimische kann lernen, wie das Essen gekocht wird und ist viel billiger.",
+      "IT": "Ti rendi presto conto che un ristorante etnico non abbisogna di cuochi della stessa nazionalità del cibo offerto. I cuochi locali possono imparare le stesse ricette e costano meno."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": -1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "EthnicRestaurants"
+    ]
+  },
+  "ProfessionalWaiters": {
+    "id": "ProfessionalWaiters",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Professional Waiters",
+      "ES": "Professional Waiters",
+      "FR": "Serveurs professionnels",
+      "DE": "Profikellner",
+      "IT": "Camerieri professionisti"
+    },
+    "description": {
+      "EN": "Hire professional waiters and waitresses instead of students looking for some quick cash. They cost more but the service is much better.",
+      "ES": "Hire professional waiters and waitresses instead of students looking for some quick cash. They cost more but the service is much better.",
+      "FR": "Embauchez des serveurs professionnels au lieu d'étudiants cherchant à se faire un peu d'argent. Ils coûtent plus cher, mais le service est de meilleure qualité.",
+      "DE": "Stellen Sie anstatt der Studenten professionelle Kellner und Kellnerinnen ein. Sie kosten mehr, aber der Service ist besser.",
+      "IT": "Assumi camerieri professionisti invece di studenti alla ricerca di qualche soldo extra. Ti costano di più ma la qualità del servizio ne guadagna."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": 1,
+      "desirability": 2
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "RefrigeratedIngredients": {
+    "id": "RefrigeratedIngredients",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Refrigerated Ingredients",
+      "ES": "Refrigerated Ingredients",
+      "FR": "Ingrédients réfrigérés",
+      "DE": "Tiefgefrorene Zutaten",
+      "IT": "Ingredienti refrigerati"
+    },
+    "description": {
+      "EN": "Much cheaper than buying fresh ones every day, they don't taste as good though.",
+      "ES": "Much cheaper than buying fresh ones every day. The taste is not as good, though.",
+      "FR": "Meilleur marché que l'achat quotidien de produits frais. Pourtant le goût n'est pas aussi bon.",
+      "DE": "Viel billiger, als sie jeden Tag frisch zu kaufen. Schmecken allerdings auch nicht so gut.",
+      "IT": "Un sistema molto più economico dell'acquisto quotidiano di prodotti freschi. Il sapore tuttavia non è altrettanto buono."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": 10,
+      "desirability": -4
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "Restaurants": {
+    "id": "Restaurants",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Restaurant Basics",
+      "ES": "Restaurants Basics",
+      "FR": "Principes de restauration",
+      "DE": "Grundlagen der Restauration",
+      "IT": "Fondamenti della ristorazione"
+    },
+    "description": {
+      "EN": "Paperwork for managing restaurants.",
+      "ES": "Paperwork for managing restaurants.",
+      "FR": "Travail administratif pour la gestion de restaurants.",
+      "DE": "Unterlagen für das Management von Restaurants.",
+      "IT": "I documenti necessari alla gestione di un ristorante."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice"
+    },
+    "industry_type": "RESTAURANT"
+  },
+  "RomanticLounge": {
+    "id": "RomanticLounge",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Romantic Lounge",
+      "ES": "Romantic Lounge",
+      "FR": "Salon romantique",
+      "DE": "Romantik-Lounge",
+      "IT": "Saletta romantica"
+    },
+    "description": {
+      "EN": "For couples who enjoy romantic music and candlelight.",
+      "ES": "For couples who enjoy romantic music and candle lights.",
+      "FR": "Pour les couples qui apprécient la musique romantique et la lumière des bougies.",
+      "DE": "Für Paare, die romantische Musik und Kerzenlicht lieben.",
+      "IT": "Per le coppie che amano la musica romantica al lume di candela."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "Sommelier": {
+    "id": "Sommelier",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Sommelier",
+      "ES": "Sommelier",
+      "FR": "Sommelier",
+      "DE": "Sommelier",
+      "IT": "Sommelier"
+    },
+    "description": {
+      "EN": "Expert advisor to ensure for the perfect combining of food and wine, he also takes care of the cellar.",
+      "ES": "Expert advisor for a perfect combination of food and wine, he also take care of the cellar.",
+      "FR": "Expert sachant associer la nourriture et le vin. Il est également en charge du cellier.",
+      "DE": "Experte bei der Beratung einer perfekten Zusammenstellung von Gerichten und Weinen, kümmert sich auch um den Weinkeller.",
+      "IT": "Un consulente esperto in grado di indicare quali vini si accompagnino meglio alle varie pietanze, e capace di prendersi cura della cantina."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "WineCellar"
+    ]
+  },
+  "TableTransmittors": {
+    "id": "TableTransmittors",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Table Microphones",
+      "ES": "Table Transmittors",
+      "FR": "Transmetteurs de table",
+      "DE": "Tischbestellung",
+      "IT": "Ordinazioni a distanza"
+    },
+    "description": {
+      "EN": "Order your food from small microphones on the table: fast and fun.",
+      "ES": "Order your food from small microphones coming out from the table. Fast and amusing.",
+      "FR": "Passez votre commande dans des petits microphones qui sortent de la table. Rapide et amusant.",
+      "DE": "Bestellen Sie Ihr Essen über kleine Mikrofone, die im Tisch eingebaut sind. Schnell und amüsant.",
+      "IT": "Dai la possibilità ai tuoi clienti di fare le loro ordinazioni tramite piccoli microfoni installati nel tavolo. Un metodo rapido e divertente."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": 1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "TakeOut": {
+    "id": "TakeOut",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Take-Out",
+      "ES": "Take Out",
+      "FR": "Vente à emporter",
+      "DE": "Gourmetservice",
+      "IT": "Pasti da portar via"
+    },
+    "description": {
+      "EN": "Take-out meals for busy people with good taste.",
+      "ES": "Take away meals for busy people with good taste.",
+      "FR": "Repas à emporter pour les gens occupés mais ayant bon goût.",
+      "DE": "Essen zum Mitnehmen für beschäftigte Leute mit Geschmack.",
+      "IT": "Pietanze da portar via per persone molto impegnate che tuttavia non vogliono rinunciare alla buona tavola."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 1,
+      "desirability": 1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "ViolinPlayers": {
+    "id": "ViolinPlayers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Violin Player",
+      "ES": "Violin Players",
+      "FR": "Violonistes",
+      "DE": "Geigenspieler",
+      "IT": "Suonatori di violino"
+    },
+    "description": {
+      "EN": "There's nothing more romantic than a tzigane violin player to accompany your dinner.",
+      "ES": "There's nothing more romantic than a tzigan violin player to accompany your dinner.",
+      "FR": "Rien n'est plus romantique qu'un violoniste tzigane pour accompagner votre repas.",
+      "DE": "Es gibt nichts romantischeres als einen Zigeuner, der zu Ihrem Dinner aufspielt.",
+      "IT": "Non c'è niente di più romantico di un violinista tzigano per accompagnare un pasto."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "RomanticLounge"
+    ]
+  },
+  "WineCellar": {
+    "id": "WineCellar",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Wine Cellar",
+      "ES": "Wine Cellar",
+      "FR": "Cave à vin",
+      "DE": "Weinkeller",
+      "IT": "Cantina di vini"
+    },
+    "description": {
+      "EN": "Your choice of wines is greatly improved. You are also able to offer vintage bottles.",
+      "ES": "Your choice of wines is greatly improved. You are also able to offer vintage bottles.",
+      "FR": "Votre choix en vins s'est grandement amélioré. Vous proposez également des grands crus.",
+      "DE": "Ihre Auswahl an Weinen hat sich deutlich verbessert. Sie haben auch Weine großer Jahrgänge im Angebot.",
+      "IT": "il tuo assortimento di vini migliora in maniera considerevole, fino a comprendere vini d'annata."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 4
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  },
+  "YearlySubscription": {
+    "id": "YearlySubscription",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Restaurant Subscription",
+      "ES": "Yearly Subscription",
+      "FR": "Abonnement annuel",
+      "DE": "Jahresabo",
+      "IT": "Abbonamento annuale"
+    },
+    "description": {
+      "EN": "For people who like to regularly go to the same restaurants: reduced prices for loyal customers.",
+      "ES": "For people who like to go to the same restaurants regularly. Reduced prices for the loyal customers.",
+      "FR": "Destiné aux personnes qui vont régulièrement dans les mêmes restaurants. Prix réduits pour les clients fidèles.",
+      "DE": "Für Leute die gerne immer in das gleiche Restaurant gehen. Sonderpreise für treue Kunden.",
+      "IT": "Per le persone a cui piace recarsi regolarmente allo stesso ristorante. Prezzi ridotti per la clientela più affezionata."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 1
+    },
+    "industry_type": "RESTAURANT",
+    "depends_on": [
+      "Restaurants"
+    ]
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "cdAlternativeCases": {
+    "id": "cdAlternativeCases",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alternative CD Cases",
+      "ES": "Alternative Cases",
+      "FR": "Boîtes de CD alternatives",
+      "DE": "Alternative Cases",
+      "IT": "Alternative Cases"
+    },
+    "description": {
+      "EN": "Create luxury cases for your CDs, so that they will look attractive on bookshelves or racks.",
+      "ES": "Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.",
+      "FR": "Créez des coffrets de luxe pour vos CDs pour quils soient attrayants sur les étagères ou dans les rayons.",
+      "DE": "Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.",
+      "IT": "Create luxury cases for your CDs, so that they will look nice on bookshelves or racks."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdAntyCopyingSystem": {
+    "id": "cdAntyCopyingSystem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Anti-Copying System",
+      "ES": "Anti Copying System",
+      "FR": "Système anti-copiant",
+      "DE": "Anti Copying System",
+      "IT": "Anti Copying System"
+    },
+    "description": {
+      "EN": "If someone tries to copy your CD, the CD will melt in the CD-burner, hopelessly ruining it.",
+      "ES": "If someone try to duplicate your CDs, they destroy themselves melting in the burner, hopelessly ruining it.",
+      "FR": "Si quelqu'un essaie de copier votre CD, le CD fondra dans le graveur de CD, le détruisant pour sûr.",
+      "DE": "If someone try to duplicate your CDs, they destroy themselves melting in the burner, hopelessly ruining it.",
+      "IT": "If someone try to duplicate your CDs, they destroy themselves melting in the burner, hopelessly ruining it."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdArtistSubscription": {
+    "id": "cdArtistSubscription",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Artist Subscription Service",
+      "ES": "Artist Subscription",
+      "FR": "Service d'abonnement d'artiste",
+      "DE": "Artist Subscription",
+      "IT": "Artist Subscription"
+    },
+    "description": {
+      "EN": "Your customers can subscribe to a service that automatically ships them their favorite artist's new CD as soon as it's released.",
+      "ES": "Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released.",
+      "FR": "Vos clients peuvent sabonner à un service qui leur expédie automatiquement le nouveau CD de leur artiste préféré dès sa mise en marché.",
+      "DE": "Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released.",
+      "IT": "Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "apprentice",
+      "efficiency": 4
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdAudioBooks": {
+    "id": "cdAudioBooks",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Audio Books",
+      "ES": "Audio Books",
+      "FR": "Livres sonores",
+      "DE": "Audio Books",
+      "IT": "Audio Books"
+    },
+    "description": {
+      "EN": "Produce audio versions of famous books for the blind and commuters.",
+      "ES": "Produce audio versions of famous books for blind people and long distance drivers.",
+      "FR": "Produisez des versions sonores des livres célèbres pour les aveugles et les banlieusards.",
+      "DE": "Produce audio versions of famous books for blind people and long distance drivers.",
+      "IT": "Produce audio versions of famous books for blind people and long distance drivers."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdBackNoise": {
+    "id": "cdBackNoise",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Old fashioned Background Noise",
+      "ES": "Old-fashioned Background Noise",
+      "FR": "Bruit de fond rétro",
+      "DE": "Old-fashioned Background Noise",
+      "IT": "Old-fashioned Background Noise"
+    },
+    "description": {
+      "EN": "Add the option of playing CD tracks with a faint scratchy background noise; ideal for people nostalgic of the vinyl era.",
+      "ES": "Add the option to play the tracks on your CDs with a faint scratchy background noise for people nostalgic of the vinyl era.",
+      "FR": "Ajoutez l'option de faire tourner les CD avec un léger bruit de fond de friture;  idéal pour les personnes qui sont nostalgiques de l'ère du vinyle.",
+      "DE": "Add the option to play the tracks on your CDs with a faint scratchy background noise for people nostalgic of the vinyl era.",
+      "IT": "Add the option to play the tracks on your CDs with a faint scratchy background noise for people nostalgic of the vinyl era."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdBiodegradableCDs": {
+    "id": "cdBiodegradableCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Biodegradable CDs",
+      "ES": "Biodegradable CDs",
+      "FR": "CDs biodégradables",
+      "DE": "Biodegradable CDs",
+      "IT": "Biodegradable CDs"
+    },
+    "description": {
+      "EN": "To avoid that discarded CDs increase waste, use a special plastic-like material derived from corn that is biodegradable.",
+      "ES": "To avoid that lost CD will stay in the environment forever, use a special plastic like material derived from corn.",
+      "FR": "Pour éviter une augmentation des déchets reliée aux Cds rejetés, employez un matériau spécial similaire au plastique dérivé du maïs qui, lui, est biodégradable.",
+      "DE": "To avoid that lost CD will stay in the environment forever, use a special plastic like material derived from corn.",
+      "IT": "To avoid that lost CD will stay in the environment forever, use a special plastic like material derived from corn."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 30,
+      "level": "apprentice",
+      "efficiency": -2
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdCDPlayersCleaner": {
+    "id": "cdCDPlayersCleaner",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "CD Player Cleaner",
+      "ES": "CD Players Cleaner",
+      "FR": "Nettoyeur de lecteur de disques compacts",
+      "DE": "CD Players Cleaner",
+      "IT": "CD Players Cleaner"
+    },
+    "description": {
+      "EN": "The non-playable side of your CD is specially designed to clean CD players. To clean, simply insert the CD upside down and press play.",
+      "ES": "The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it.",
+      "FR": "Le côté non gravé de votre CD est conçu pour nettoyer les lecteurs de disques compacts.  Pour nettoyer, insérez simplement le CD à l'envers et appuyer sur la touche play.",
+      "DE": "The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it.",
+      "IT": "The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdCDSigning": {
+    "id": "cdCDSigning",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "CD Signing",
+      "ES": "CD Signing",
+      "FR": "Signature de CDs",
+      "DE": "CD Signing",
+      "IT": "CD Signing"
+    },
+    "description": {
+      "EN": "Just like with books, have musicians come to your stores to meet the public and autograph their CD.",
+      "ES": "Just like with books, have musicians come to your stores to meet the public and autograph the CD they buy.",
+      "FR": "Tout comme avec des livres, faites venir les musiciens à vos magasins pour rencontrer le public et pour dédicacer leur CDs.",
+      "DE": "Just like with books, have musicians come to your stores to meet the public and autograph the CD they buy.",
+      "IT": "Just like with books, have musicians come to your stores to meet the public and autograph the CD they buy."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdDancingDemonstrations": {
+    "id": "cdDancingDemonstrations",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Dancing Demonstration",
+      "ES": "Dancing Demonstration",
+      "FR": "Démonstration de danse",
+      "DE": "Dancing Demonstration",
+      "IT": "Dancing Demonstration"
+    },
+    "description": {
+      "EN": "When a new dance song becomes a hit, everybody won't know how to dance to it; hire professional dancers to perform an in-store demonstration.",
+      "ES": "When a new Disco song becomes a hit, not everybody knows how to dance to it. Hire professional dancers to perform an in-store demonstration.",
+      "FR": "Quand une nouvelle chanson de danse devient un grand succès, le public ne saura pas comment danser; engagez des danseurs professionnels pour exécuter une démonstration sur les lieux.",
+      "DE": "When a new Disco song becomes a hit, not everybody knows how to dance to it. Hire professional dancers to perform an in-store demonstration.",
+      "IT": "When a new Disco song becomes a hit, not everybody knows how to dance to it. Hire professional dancers to perform an in-store demonstration."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdEdibleCDs": {
+    "id": "cdEdibleCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Edible CDs",
+      "ES": "Edible CDs",
+      "FR": "CDs comestibles",
+      "DE": "Edible CDs",
+      "IT": "Edible CDs"
+    },
+    "description": {
+      "EN": "Why stop at biodegradable? Add taste to these special plastics so that poor people can dine on unused CDs. Strangely enough, banana flavored ones produce better sound quality.",
+      "ES": "Why stop at biodegrability? Add taste to the special plastic so that poor people can dine on unusued CDs. Strangely enough, banana flavoured ones deliver a better sound quality.",
+      "FR": "Pourquoi se limiter dans le biodégradable?  Ajoutez des saveurs à ces plastiques spéciaux de sorte que que les personnes pauvres puissent diner des CDs inutilisés. Assez bizarrement, les CDs au goût de banane ont une meilleure qualité de son.",
+      "DE": "Why stop at biodegrability? Add taste to the special plastic so that poor people can dine on unusued CDs. Strangely enough, banana flavoured ones deliver a better sound quality.",
+      "IT": "Why stop at biodegrability? Add taste to the special plastic so that poor people can dine on unusued CDs. Strangely enough, banana flavoured ones deliver a better sound quality."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 15,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 1
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "cdBiodegradableCDs"
+    ]
+  },
+  "cdEnvFriendlyLasers": {
+    "id": "cdEnvFriendlyLasers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ecological Lasers",
+      "ES": "Echologic Lasers",
+      "FR": "Lasers écologiques",
+      "DE": "Echologic Lasers",
+      "IT": "Echologic Lasers"
+    },
+    "description": {
+      "EN": "Use environmentally friendly lasers that won't produce any waste when discarded at the end of their lifecycle.",
+      "ES": "Use enviromentally friendly lasers that don't produce any waste when trashed at the end of their lifecycle.",
+      "FR": "Utilisez des lasers écologiques qui ne produiront aucun déchet quand rejetés en fin de cycle.",
+      "DE": "Use enviromentally friendly lasers that don't produce any waste when trashed at the end of their lifecycle.",
+      "IT": "Use enviromentally friendly lasers that don't produce any waste when trashed at the end of their lifecycle."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": 1,
+      "quality": -1
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdFidelityCard": {
+    "id": "cdFidelityCard",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Loyalty Card",
+      "ES": "Fidelity Card",
+      "FR": "Carte de fidélité",
+      "DE": "Fidelity Card",
+      "IT": "Fidelity Card"
+    },
+    "description": {
+      "EN": "As a promotional offer, your clients get a free CD for every ten they buy.",
+      "ES": "As a promotional offer, your clients get a free CD every ten they buy.",
+      "FR": "Comme offre promotionnelle, vos clients obtiennent un CD gratuit pour chaque dix qu'ils achètent.",
+      "DE": "As a promotional offer, your clients get a free CD every ten they buy.",
+      "IT": "As a promotional offer, your clients get a free CD every ten they buy."
+    },
+    "properties": {
+      "price": 4000000,
+      "level": "apprentice",
+      "desirability": 2
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdFlexibleCDs": {
+    "id": "cdFlexibleCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Flexible CDs",
+      "ES": "Flexible CDs",
+      "FR": "CDs flexibles",
+      "DE": "Flexible CDs",
+      "IT": "Flexible CDs"
+    },
+    "description": {
+      "EN": "Since your CDs are scratch-resistant, you may as well use a lighter and cheaper plastic that bends.",
+      "ES": "Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends.",
+      "FR": "Puisque vos CDs sont résistant aux égratignures, vous pouvez aussi employer un plastique plus économique et léger qui se plie.",
+      "DE": "Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends.",
+      "IT": "Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "quality": -1
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "cdUnscratchableSurface"
+    ]
+  },
+  "cdFreeForBlind": {
+    "id": "cdFreeForBlind",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Free CD for the Blind",
+      "ES": "Free for Blind",
+      "FR": "CD gratuit pour les aveugles",
+      "DE": "Free for Blind",
+      "IT": "Free for Blind"
+    },
+    "description": {
+      "EN": "The Blind can get a free CD from your strore every month.",
+      "ES": "Blind people can get a free CD every month in your store.",
+      "FR": "Chaque mois, les non-voyants peuvent obtenir un CD gratuit de votre magasin.",
+      "DE": "Blind people can get a free CD every month in your store.",
+      "IT": "Blind people can get a free CD every month in your store."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "desirability": 2
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdFullBodySecurity": {
+    "id": "cdFullBodySecurity",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Full-Body Protection",
+      "ES": "Full Body Security",
+      "FR": "Protection complete du corps",
+      "DE": "Full Body Security",
+      "IT": "Full Body Security"
+    },
+    "description": {
+      "EN": "Your workers wear full-body protection to avoid even minimal contact with laser beams.",
+      "ES": "Your workers wear a full body protection to avoid any minimal contact with laser beams.",
+      "FR": "Vos ouvriers portent une protection complète du corps pour éviter le moindre contact avec des rayons laser.",
+      "DE": "Your workers wear a full body protection to avoid any minimal contact with laser beams.",
+      "IT": "Your workers wear a full body protection to avoid any minimal contact with laser beams."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "CDInd": {
+    "id": "CDInd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "CD Industry Basics",
+      "ES": "CD Industry Basics",
+      "FR": "Fondement de lindustrie du CD",
+      "DE": "CD Industry Basics",
+      "IT": "CD Industry Basics"
+    },
+    "description": {
+      "EN": "Basic skills to manage CD Plants.",
+      "ES": "Basic skills to manage CD Plants.",
+      "FR": "Techniques de base pour gérer les usines à CD.",
+      "DE": "Basic skills to manage CD Plants.",
+      "IT": "Basic skills to manage CD Plants."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice"
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "cdInfomercialCDs": {
+    "id": "cdInfomercialCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Infomercial CD Sales",
+      "ES": "Infomercial CDs",
+      "FR": "Vente des CDs par infopublicité",
+      "DE": "Infomercial CDs",
+      "IT": "Infomercial CDs"
+    },
+    "description": {
+      "EN": "Recycle old songs by creating compilation CDs, specifically for sale on TV. Large viewing audiences generate very favorable returns.",
+      "ES": "Recycle old songs in compilations specifically for TV selling. Big audiences grant a good return.",
+      "FR": "Réutilisez les vieilles chansons en créant des CDs de compilation, spécifiquement pour vente à la TV. Les larges audiences produisent des retours très favorables.",
+      "DE": "Recycle old songs in compilations specifically for TV selling. Big audiences grant a good return.",
+      "IT": "Recycle old songs in compilations specifically for TV selling. Big audiences grant a good return."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": 5,
+      "quality": -3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdKaraokeReady": {
+    "id": "cdKaraokeReady",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Karaoke Ready",
+      "ES": "Karaoke Ready",
+      "FR": "Karaoke Prêt",
+      "DE": "Karaoke Ready",
+      "IT": "Karaoke Ready"
+    },
+    "description": {
+      "EN": "When you play CDs, the CD player display will the song's lyrics so people to sing along.",
+      "ES": "When you play the CDs, the display of the CD player, instead of the track number or length, shows the lirics of the song being played for people to sing along.",
+      "FR": "Quand vous écoutez les CDs, l'affichage du lecteur de CD montrera les paroles de la chanson de sorte que les gens pourront chanter en chur.",
+      "DE": "When you play the CDs, the display of the CD player, instead of the track number or length, shows the lirics of the song being played for people to sing along.",
+      "IT": "When you play the CDs, the display of the CD player, instead of the track number or length, shows the lirics of the song being played for people to sing along."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdListeningStations": {
+    "id": "cdListeningStations",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Listening Stations",
+      "ES": "Listening Stations",
+      "FR": "Stations découte",
+      "DE": "Listening Stations",
+      "IT": "Listening Stations"
+    },
+    "description": {
+      "EN": "Put several CD players in your stores so that customers can listen to a CD before buying it.",
+      "ES": "Put several CD players in your stores so that customers can listen to a CD before buying it.",
+      "FR": "Mettez plusieurs lecteurs de CD dans vos magasins de sorte que les clients puissent écouter un CD avant de l'acheter.",
+      "DE": "Put several CD players in your stores so that customers can listen to a CD before buying it.",
+      "IT": "Put several CD players in your stores so that customers can listen to a CD before buying it."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 4
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdLivePerformances": {
+    "id": "cdLivePerformances",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Live Performances",
+      "ES": "Live Performances",
+      "FR": "Interprétation en direct",
+      "DE": "Live Performances",
+      "IT": "Live Performances"
+    },
+    "description": {
+      "EN": "Instead of just signing, musicians perform songs from their CD, live in your store.",
+      "ES": "Instead of just signing, the musicians perform pieces of their CDs live in your store.",
+      "FR": "Au lieu de juste signer leurs CDs, les musiciens exécutent des chansons de leurs CDs, en direct dans votre magasin.",
+      "DE": "Instead of just signing, the musicians perform pieces of their CDs live in your store.",
+      "IT": "Instead of just signing, the musicians perform pieces of their CDs live in your store."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 5
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "cdCDSigning"
+    ]
+  },
+  "cdMiniCDs": {
+    "id": "cdMiniCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mini CDs",
+      "ES": "Mini CDs",
+      "FR": "CD Mini",
+      "DE": "Mini CDs",
+      "IT": "Mini CDs"
+    },
+    "description": {
+      "EN": "Put entire albums on mini CDs, by compressing the tracks. The sound quality suffers slightly, but you save a lot in plastic.",
+      "ES": "Put entire albums on mini CDs, compressing the tracks. The sound quality suffers a bit, but you save a lot in plastic.",
+      "FR": "Mettez les albums entiers sur mini CDs, en comprimant les pistes d'enregistrement. La qualité de son en souffre légèrement, mais vous économiser beaucoup de plastique.",
+      "DE": "Put entire albums on mini CDs, compressing the tracks. The sound quality suffers a bit, but you save a lot in plastic.",
+      "IT": "Put entire albums on mini CDs, compressing the tracks. The sound quality suffers a bit, but you save a lot in plastic."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "efficiency": 6,
+      "quality": -3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdMusicConsultant": {
+    "id": "cdMusicConsultant",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Music Consultant",
+      "ES": "Music Consultant",
+      "FR": "Conseil en musique",
+      "DE": "Music Consultant",
+      "IT": "Music Consultant"
+    },
+    "description": {
+      "EN": "One of your employees is a music expert who provides your customers with music advice based on their personal tastes.",
+      "ES": "One of your employee is a music expert who gives advice to your clients based on their personal taste.",
+      "FR": "Un de vos employés est un expert en matière de musique et fournit à vos clients des conseils avisés dans le domaine basés sur leurs goûts personnels.",
+      "DE": "One of your employee is a music expert who gives advice to your clients based on their personal taste.",
+      "IT": "One of your employee is a music expert who gives advice to your clients based on their personal taste."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdMusicSnobs": {
+    "id": "cdMusicSnobs",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Music Snobs",
+      "ES": "Music Snobs",
+      "FR": "Prétentieux de musique",
+      "DE": "Music Snobs",
+      "IT": "Music Snobs"
+    },
+    "description": {
+      "EN": "When you want sell a CD you've overstocked, hire someone that poses as a customer and talks loudly about the respective CD praising the musician as the next Beethoven.",
+      "ES": "When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven.",
+      "FR": "Quand vous voulez vendre un CD que vous avez surstocké, engagez quelqu'un qui joue au client et parle haut et fort du CD en question faisant léloge du musicien comme sil était le prochain Beethoven.",
+      "DE": "When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven.",
+      "IT": "When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "apprentice",
+      "efficiency": 7,
+      "desirability": -3
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdRepairingStation": {
+    "id": "cdRepairingStation",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "CD Repair Station",
+      "ES": "Repairing Station",
+      "FR": "Salle de réparation de CDs",
+      "DE": "Repairing Station",
+      "IT": "Repairing Station"
+    },
+    "description": {
+      "EN": "Your clients can use this machine to automatically fix scratched CDs.",
+      "ES": "Your clients can use this automatic machine to fix their scratched CDs.",
+      "FR": "Vos clients peuvent utiliser cette machine pour automatiquement réparer leurs CDs rayés.",
+      "DE": "Your clients can use this automatic machine to fix their scratched CDs.",
+      "IT": "Your clients can use this automatic machine to fix their scratched CDs."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": 1
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdRewritableCDs": {
+    "id": "cdRewritableCDs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Rewritable CDs",
+      "ES": "Rewritable CDs",
+      "FR": "Disque compact réinscriptible",
+      "DE": "Rewritable CDs",
+      "IT": "Rewritable CDs"
+    },
+    "description": {
+      "EN": "In the event a CD buyer gets tired of the CD, he or she can always reuse it to burn new stuff on it.",
+      "ES": "In case the buyer of the CD get tired of it, he can always reuse it to burn his own stuff.",
+      "FR": "Dans le cas où un client se fatiguerait du CD, il ou elle pourrait toujours le réutiliser pour graver des chansons nouvelles.",
+      "DE": "In case the buyer of the CD get tired of it, he can always reuse it to burn his own stuff.",
+      "IT": "In case the buyer of the CD get tired of it, he can always reuse it to burn his own stuff."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdSingingStations": {
+    "id": "cdSingingStations",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Singing Stations",
+      "ES": "Singing Stations",
+      "FR": "Postes de chant",
+      "DE": "Singing Stations",
+      "IT": "Singing Stations"
+    },
+    "description": {
+      "EN": "Transform your listening stations into a soundproof cabin, where karaoke lovers can sing along to their favorite tunes.",
+      "ES": "Trasform your listening station in soundproof cabin in which karaoke lovers can sing along their favourite songs.",
+      "FR": "Transformez vos stations d'écoute en cabine insonorisée, où les mordus du  karaoke pourront chanter en chur leurs chansons préférées.",
+      "DE": "Trasform your listening station in soundproof cabin in which karaoke lovers can sing along their favourite songs.",
+      "IT": "Trasform your listening station in soundproof cabin in which karaoke lovers can sing along their favourite songs."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "cdListeningStations"
+    ]
+  },
+  "cdSongsUniversalDatabase": {
+    "id": "cdSongsUniversalDatabase",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Universal Song Database",
+      "ES": "Song Universal Database",
+      "FR": "Base de données universelle de chansons",
+      "DE": "Song Universal Database",
+      "IT": "Song Universal Database"
+    },
+    "description": {
+      "EN": "Create a universal song database in which all the songs, ever recorded on Earth and on the New Worlds, are registered. Very useful in satisfying your customers requests.",
+      "ES": "Create a universal database in which all the songs ever recorded on Earth and on the New Worlds are registered. Very useful in satisfying your customers requests.",
+      "FR": "Créez une base de données universelle de chansons dans laquelle toutes les chansons, enregistrées sur terre et ailleurs dans les nouveaux mondes, soient enregistrées.  Très utile pour satisfaire les demandes de vos clients.",
+      "DE": "Create a universal database in which all the songs ever recorded on Earth and on the New Worlds are registered. Very useful in satisfying your customers requests.",
+      "IT": "Create a universal database in which all the songs ever recorded on Earth and on the New Worlds are registered. Very useful in satisfying your customers requests."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "apprentice",
+      "efficiency": 4
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdTunesExpert": {
+    "id": "cdTunesExpert",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Tune Expert",
+      "ES": "Tunes Expert",
+      "FR": "Expert en matière de chansons",
+      "DE": "Tunes Expert",
+      "IT": "Tunes Expert"
+    },
+    "description": {
+      "EN": "To help customers who remember a song but not its title, they can whistle it to your tune expert who will recognize it immediately.",
+      "ES": "To help customers who remember a song but not its title. They can whistle it to your expert who will recognize it immediately.",
+      "FR": "Pour aider les clients qui se rappellent une chanson mais pas de son titre, ils peuvent la siffler à votre expert en matière de chansons qui l'identifiera immédiatement.",
+      "DE": "To help customers who remember a song but not its title. They can whistle it to your expert who will recognize it immediately.",
+      "IT": "To help customers who remember a song but not its title. They can whistle it to your expert who will recognize it immediately."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 3
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdUnscratchableSurface": {
+    "id": "cdUnscratchableSurface",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Scratch Resistant CDs",
+      "ES": "Unscratchable Surface",
+      "FR": "CDs résistants aux égratignures",
+      "DE": "Unscratchable Surface",
+      "IT": "Unscratchable Surface"
+    },
+    "description": {
+      "EN": "It's impossible to scratch your CDs, no matter how hard you try.",
+      "ES": "It's impossible to scratch your CDs, no matter how hard you try.",
+      "FR": "Il est impossible de rayer votre CD, qu'importe comment vous essayez de le faire.",
+      "DE": "It's impossible to scratch your CDs, no matter how hard you try.",
+      "IT": "It's impossible to scratch your CDs, no matter how hard you try."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "COMPACT_DISC",
+    "depends_on": [
+      "CDInd"
+    ]
+  },
+  "cdUnwantedBins": {
+    "id": "cdUnwantedBins",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Specially Priced CD Bins",
+      "ES": "Unwanted Bins",
+      "FR": "Caisse de Cds à prix spéciaux",
+      "DE": "Unwanted Bins",
+      "IT": "Unwanted Bins"
+    },
+    "description": {
+      "EN": "Instead of returning unsold CDs, stick them in a special price bin. Someone will buy them eventually, even if it's only because they are so cheap.",
+      "ES": "Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them.",
+      "FR": "Au lieu de renvoyer les CDs invendus, mettez-les en spécial.  Quelqu'un les achètera sans doute, même si cest seulement pour leur bas prix.",
+      "DE": "Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them.",
+      "IT": "Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": -2
+    },
+    "industry_type": "COMPACT_DISC"
+  },
+  "cdUsedSection": {
+    "id": "cdUsedSection",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Used CD Section",
+      "ES": "Used Section",
+      "FR": "Section de CDs usagées",
+      "DE": "Used Section",
+      "IT": "Used Section"
+    },
+    "description": {
+      "EN": "People can buy or sell used CDs in a special section of your store.",
+      "ES": "People can buy or sell used CD in a special section of your store.",
+      "FR": "Les gens peuvent acheter ou vendre leur CDs usagés dans une section spéciale de votre magasin.",
+      "DE": "People can buy or sell used CD in a special section of your store.",
+      "IT": "People can buy or sell used CD in a special section of your store."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": -1
+    },
+    "industry_type": "COMPACT_DISC"
+  }
+}

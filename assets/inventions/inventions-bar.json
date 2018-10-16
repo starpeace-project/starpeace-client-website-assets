@@ -1,0 +1,452 @@
+{
+  "AdultEntertainment": {
+    "id": "AdultEntertainment",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Adult Enterteinment",
+      "ES": "Adult Enterteinment",
+      "FR": "Divertissement pour adultes",
+      "DE": "Unterhaltung für Erwachsene",
+      "IT": "Spettacoli per adulti"
+    },
+    "description": {
+      "EN": "Some of your bars feature stripers and lap-dancing; sex always sells.",
+      "ES": "Some of your bars feature strip-tease and lap-dancing. Sex always sells.",
+      "FR": "Quelques-uns de vos bars proposent des strip-tease et des shows de danse érotique. Le sexe a incontestablement sa clientèle.",
+      "DE": "In einigen Ihrer Bars wird Striptease und Bauchtanz angeboten. Sex verkauft sich immer",
+      "IT": "In alcuni dei tuoi bar i clienti possono godersi spogliarelli e lap-dancing. Il sesso vende sempre."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": -30,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 5
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "Bars": {
+    "id": "Bars",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Bars",
+      "ES": "Bars",
+      "FR": "Bars",
+      "DE": "Bars",
+      "IT": "Bar"
+    },
+    "description": {
+      "EN": "Paperwork for bar management, it includes the license to sell booze.",
+      "ES": "Paperwork for bar management. It includes License to sell booze.",
+      "FR": "Travail administratif pour la gestion d'un bar. Incluse une licence de vente de boissons alcoolisées.",
+      "DE": "Unterlagen über das Management einer Bar. Inklusive Ausschanklizenz für Alkohol.",
+      "IT": "Tutti i documenti necessari alla gestione di un bar, compresa la licenza per la vendita di alcolici."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice"
+    },
+    "industry_type": "BAR"
+  },
+  "Bouncers": {
+    "id": "Bouncers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Bouncers",
+      "ES": "Bouncers",
+      "FR": "Videurs",
+      "DE": "Rausschmeißer",
+      "IT": "Buttafuori"
+    },
+    "description": {
+      "EN": "Tall muscular men to handle drunk and unruly customers. They also useful in preventing and breaking up bar fights.",
+      "ES": "Big muscolar men to handle drunk costumers and prevent fights in the bar.",
+      "FR": "Grands hommes musclés qui se chargent des clients saouls et évitent les bagarres dans les bars.",
+      "DE": "Große muskulöse Männer kümmern sich um betrunkene Kunden und verhindern Streit in der Bar.",
+      "IT": "Nerboruti figuri incaricati di occuparsi dei clienti ubriachi e di prevenire le risse nel bar."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": -1
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "CheapFoodOffer": {
+    "id": "CheapFoodOffer",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Cheap Food Offer",
+      "ES": "Cheap Food Offer",
+      "FR": "Nourriture à bas prix",
+      "DE": "Billigessenangebot",
+      "IT": "Ingredienti a basso costo"
+    },
+    "description": {
+      "EN": "Since you serve the food on plates, your customers can't see the brands you purchase. To save money you choose the lowest quality.",
+      "ES": "Since you serve the food on plates, your customers can't see the brands you purchase. To save you choose the lowest quality.",
+      "FR": "Etant donné que vous servez la nourriture dans des assiettes, les clients ne voient pas les marques que vous utilisez. Pour faire des économies, vous prenez la qualité la plus faible.",
+      "DE": "Da Sie das Essen auf Tellern servieren, können die Kunden nicht sehen, welche Marken Sie kaufen. Um Geld zu sparen, kaufen Sie die billigste Qualität.",
+      "IT": "Dal momento che servi i tuoi cibi sul piatto, i clienti non possono verificare le marche dei singoli ingredienti. Per risparmiare ti butti su prodotti di bassa qualità."
+    },
+    "properties": {
+      "price": 5000000,
+      "prestige": -3,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -3
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "DanceFloor": {
+    "id": "DanceFloor",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Dance Floor",
+      "ES": "Dance Floor",
+      "FR": "Salle de danse",
+      "DE": "Dance Floor",
+      "IT": "Piste da ballo"
+    },
+    "description": {
+      "EN": "Transform your bars into a disco to target a younger crowd.",
+      "ES": "Transform your bars in discos. To target young audiences.",
+      "FR": "Transformez vos bars en discothèques. Ciblez sur un public jeune.",
+      "DE": "Verwandeln Sie Ihre Bars in Diskotheken. Zielgruppe: junge Leute.",
+      "IT": "Trasforma i tuoi bar in discoteche per attirare il pubblico giovane."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "EthnicCocktails": {
+    "id": "EthnicCocktails",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Ethnic Cocktails",
+      "ES": "Ethnic Cocktails",
+      "FR": "Cocktails exotiques",
+      "DE": "Ethnische Cocktails",
+      "IT": "Cocktail multietnici"
+    },
+    "description": {
+      "EN": "Selections of ethnic drinks for all tastes: Cuba Libre, Daiquiri, Screwdriver, Margarita and many other popular drinks are prepared by your skilled barmen.",
+      "ES": "Selections of ethnic drinks to meet all expectations. Cuba Libre, Daiquiri, Screwdriver, Margarita and all other famous drinks are skilled prepared by your barmen.",
+      "FR": "Sélections de boissons exotiques permettant de répondre à toutes les attentes. Cuba Libre, Daiquiri, Screwdriver, Margarita et autres breuvages réputés sont parfaitement préparés par vos barmen.",
+      "DE": "Auswahl an Ethno-Drinks für jeden Geschmack. Cuba Libre, Daiquiri, Screwdriver, Margarita und alle anderen Drinks werden gekonnt von Ihren Barkeepern zubereitet.",
+      "IT": "Una selezione di bevande multietniche per soddisfare tutti i gusti. I tuoi baristi sono in grado di preparare Cuba Libre, Daiquiri, Screwdriver, Margarita ed ogni altro tipo di cocktail."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "FreeFood": {
+    "id": "FreeFood",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Free Food",
+      "ES": "Free Food",
+      "FR": "Nourriture gratuite",
+      "DE": "Gratisessen",
+      "IT": "Buffet gratis"
+    },
+    "description": {
+      "EN": "Complementary food with the purchase of drinks. Your customers love it and it increases their liquor tolerance so they buy more drinks.",
+      "ES": "Complementary food with purchase of drinks. Your customers love it and it raises their liquor tolerance.",
+      "FR": "Nourriture donnée gratuitement lors de l'achat de boissons. Vos clients adorent ça et cette nourriture leur permet de tenir l'alcool plus longtemps.",
+      "DE": "Kostenloses Essen, wenn ein Getränk bestellt wird. Die Kunden lieben es und es erhöht die Toleranz für den Alkohol.",
+      "IT": "L'acquisto di bevande dà diritto ai tuoi clienti a gustare piatti gratis. L'iniziativa è molto apprezzata e aumenta i livelli di tolleranza dell'alcool da parte degli avventori."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "HappyHour": {
+    "id": "HappyHour",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Happy Hour",
+      "ES": "Happy Hour",
+      "FR": "Cinq à sept",
+      "DE": "Happy Hour",
+      "IT": "Happy Hour"
+    },
+    "description": {
+      "EN": "For an hour in the early evening, the price of alcoholic drinks is halved.",
+      "ES": "For an hour in the early evening, the price of alcoholic drinks is halved.",
+      "FR": "Pendant une heure en début de soirée, le prix des consommations alcoolisées est divisé par deux.",
+      "DE": "Während einer Stunde am frühen Abend werden die Preise für alkoholische Getränke halbiert.",
+      "IT": "Per un'ora, nella prima serata, il prezzo delle bevande alcoliche viene dimezzato."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "HomeMadeWine": {
+    "id": "HomeMadeWine",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Homemade Wine",
+      "ES": "Home Made Wine",
+      "FR": "Vin maison",
+      "DE": "Hausgemachter Wein",
+      "IT": "Vino in polvere"
+    },
+    "description": {
+      "EN": "After a sufficient amount of drinks, your customers can't discern the quality of the wine anymore, so you serve them a cheap version made from powder.",
+      "ES": "After a sufficient amount of drinks, your customers can't taste the quality of the wine anymore, so you serve them this cheap version made from powders.",
+      "FR": "Après avoir ingurgité une bonne quantité d'alcool, vos clients ne sentent plus la qualité du vin. C'est pourquoi vous leur servez cette version bon marché élaborée à partir de poudres.",
+      "DE": "Nach einer ausreichenden Anzahl von Drinks können die Kunden die Qualität des Weins nicht mehr beurteilen und Sie servieren Ihnen diese billige, aus Puder hergestellte Version.",
+      "IT": "Dopo un certo numero di bicchie-ri i tuoi clienti non sono più in grado di distinguere la qualità del vino. Ne approfitti per servire loro questo economico succedaneo, realizzato tramite polverine."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 10,
+      "desirability": -3
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "HugeDraftSelection": {
+    "id": "HugeDraftSelection",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Huge Draft Selection",
+      "ES": "Huge Draft Selection",
+      "FR": "Grand choix de bière pression",
+      "DE": "Große Fassbierauswahl",
+      "IT": "Grande assortimento di birre alla spina"
+    },
+    "description": {
+      "EN": "A choice of at least 20 different draft beers so that you can attract beer connoisseurs.",
+      "ES": "Choice of at least 20 different draft beers. For beer connoisseurs.",
+      "FR": "Choix de plus de 20 bières pression différentes. Pour les amateurs de bière.",
+      "DE": "Wählen Sie wenigstens 20 verschiedene Fassbiersorten. Für Bierkenner.",
+      "IT": "Una scelta di almeno 20 diverse birre alla spina, per i veri intenditori."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "LiveMusicShows": {
+    "id": "LiveMusicShows",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Live Music Shows",
+      "ES": "Live Music Shows",
+      "FR": "Concerts",
+      "DE": "Livemusik-Shows",
+      "IT": "Spettacoli musicali dal vivo"
+    },
+    "description": {
+      "EN": "Amateur bands perform in your bars to attract live music lovers.",
+      "ES": "Amateurish bands perform in your bars to attract music lovers.",
+      "FR": "Des groupes amateurs jouent dans vos bars pour attirer les amoureux de musique.",
+      "DE": "Amateurbands spielen in Ihren Bars um Musikliebhaber anzulocken.",
+      "IT": "Gruppi di musicisti dilettanti suonano nei tuoi bar per attirare gli amanti della musica."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 4
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "NoSmoking": {
+    "id": "NoSmoking",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "No Smoking",
+      "ES": "No Smoking",
+      "FR": "Interdiction de fumer",
+      "DE": "No Smoking",
+      "IT": "Divieto di fumare"
+    },
+    "description": {
+      "EN": "Your bars are smoke free, a healthy alternative that will attract health conscious patrons, but you lose some valued customers.",
+      "ES": "Your bars are smoke free. Healthy but you lose some clients.",
+      "FR": "Il est interdit de fumer dans vos bars. C'est plus sain, mais vous perdez des clients.",
+      "DE": "In Ihren Bars darf nicht geraucht werden. Gesund, aber einige Kunden kommen nicht wieder.",
+      "IT": "Nei tuoi bar è vietato fumare. Ciò protegge la salute ma ti fa perdere qualche cliente."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": 30,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": -3
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "P.R.Customers": {
+    "id": "P.R.Customers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "P.R. People",
+      "ES": "P.R. Customers",
+      "FR": "Clients RP",
+      "DE": "PR-Kunden",
+      "IT": "Pubblicità tramite i clienti"
+    },
+    "description": {
+      "EN": "Hire some of your best clients as P.R. people to promote your bars. This is a very cheap and efficient way to expand your customer base.",
+      "ES": "Hire some of your clients as P.R. persons to promote your bars. Very cheap and efficient way to enlarge your customers base.",
+      "FR": "Embauchez certains de vos clients comme relations publiques pour promouvoir vos bars. Très bon marché et efficace pour augmenter votre nombre de clients.",
+      "DE": "Stellen Sie einige Ihrer Kunden als PR-Leute ein, um Reklame für Ihre Bars zu machen. Sehr preiswert und ein effizienter Weg Ihren Kundenstamm zu vergrößern.",
+      "IT": "Assumi alcuni dei tuoi avventori perché facciano pubblicità ai tuoi bar. Un modo molto economico ed efficace di accrescere il bacino di clienti."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -1
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "PoolTablesAndDarts": {
+    "id": "PoolTablesAndDarts",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Pool Tables and Darts",
+      "ES": "Pool Tables and Darts",
+      "FR": "Billards et fléchettes",
+      "DE": "Billardtische und Darts",
+      "IT": "Biliardi e freccette"
+    },
+    "description": {
+      "EN": "Your customers challenge each other at these precision games.",
+      "ES": "Your customers challenge each other on these precision games.",
+      "FR": "Vos clients s'affrontent dans ces jeux de précision.",
+      "DE": "Ihre Kunden veranstalten Wettkämpfe in diesen Präzisionsspielen.",
+      "IT": "I tuoi clienti si sfidano l'un l'altro a questi giochi di abilità."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "StrictIDCheck": {
+    "id": "StrictIDCheck",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Strict ID Check",
+      "ES": "Strict ID Check",
+      "FR": "Vérification stricte de l'identité",
+      "DE": "Strenge ID-Kontrollen",
+      "IT": "Verifica rigorosa dell'età"
+    },
+    "description": {
+      "EN": "The barman asks everybody for ID to be sure they are of legal drinking age.",
+      "ES": "The barman asks everybody for ID to be sure they are above the legal drinking age.",
+      "FR": "Le barman demande à tout consommateur une pièce d'identité afin de s'assurer qu'ils sont majeurs et sont autorisés à boire.",
+      "DE": "Der Barmann verlangt grundsätzlich einen Ausweis zu sehen, um sicherzustellen, dass die Kunden alt genug sind..",
+      "IT": "Il barista chiede a tutti i clienti di mostrargli la carta d'identità per assicurarsi che abbiano superato l'età minima per il consumo di alcolici."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": -1
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  },
+  "ThemeBars": {
+    "id": "ThemeBars",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Theme Bars",
+      "ES": "Theme Bars",
+      "FR": "Bars à thème",
+      "DE": "Themenbars",
+      "IT": "Locali a tema"
+    },
+    "description": {
+      "EN": "Your bars are decorated in a particular style to target specific groups of people. Examples are Country Western saloons, Gothic basements and Gay lounges.",
+      "ES": "Your bars are furnished in particular styles to target specific groups of people. Examples are Country Western saloons, Gothic basements and Gay Lesbians lounges.",
+      "FR": "Vos bars sont décorés dans un certain style pour plaire à certains groupes de personnes. Par exemples : saloon de l'ouest américain, caves gothiques et salons gay et lesbiens.",
+      "DE": "Ihre Bars werden spezifisch für bestimmte Kundengruppen eingerichtet. Zum Beispiel Country and Western Saloons, gothische Krypten und Homotreffs.",
+      "IT": "I tuoi bar sono arredati in modo da attirare clientele ben definite. Tra i temi vi sono saloon in stile western, segrete medievali e locali per gay e lesbiche."
+    },
+    "properties": {
+      "price": 65000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 4
+    },
+    "industry_type": "BAR",
+    "depends_on": [
+      "Bars"
+    ]
+  }
+}

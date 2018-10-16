@@ -1,0 +1,453 @@
+{
+  "AlienArtifactsAwarenessPlan": {
+    "id": "AlienArtifactsAwarenessPlan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alien Artifacts Awareness Plan",
+      "ES": "Alien Artifacts Awareness Plan",
+      "FR": "Plan de sensibilisation aux objets extraterrestres",
+      "DE": "Ausgrabungsplan für außerirdische Gegenstände",
+      "IT": "Dipartimento manufatti alieni"
+    },
+    "description": {
+      "EN": "Digging foundations on the new planet lead you to uncover some alien artifacts. You create a department to monitor excavations for these artifacts.",
+      "ES": "Digging foundations could lead to find some alien artifacts left on the new planets. You create a department in charge of checking any excavating place in case something comes up.",
+      "FR": "Creuser des fondations peut vous amener à trouver des objets extraterrestres laissés sur les planètes visitées. Vous créez un service chargé de vérifier les lieux de fouille au cas où quelque chose serait trouvé.",
+      "DE": "Bei der Ausschachtung der Fundamente könnten Gegenstände auftauchen, die von den Außerirdischen auf den neuen Planeten hinterlassen wurden. Richten Sie eine Abteilung zur Überprüfung der Grabungen ein.",
+      "IT": "Lo scavo delle fondamenta può portare alla luce manufatti alieni abbandonati sui nuovi pianeti. Crei un dipartimento incaricato di sovrintendere agli scavi in caso di ritrovamenti."
+    },
+    "properties": {
+      "price": 85000000,
+      "prestige": 10,
+      "level": "paradigm",
+      "efficiency": -2
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "AntiseismicStructures": {
+    "id": "AntiseismicStructures",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Seismic-proof Structures",
+      "ES": "Antiseismic Structures",
+      "FR": "Structures antisismiques",
+      "DE": "Erdbebensichere Strukturen",
+      "IT": "Strutture antisismiche"
+    },
+    "description": {
+      "EN": "Even if there haven't yet been any large scale earthquakes in the new worlds, to be on the safe side, your buildings are completely seismic-proof.",
+      "ES": "Even if in the new worlds no high scale earthquakes have been registrered, to be on the safe side your buidings are completely antiseismic.",
+      "FR": "Même si des tremblements de terre de forte amplitude n'ont pas été enregistrés dans les nouveaux mondes, vos bâtiments sont construits selon les normes antisismiques.",
+      "DE": "Auch wenn in den neuen Welten noch keine schweren Erbeben gemessen wurden, sind Ihre Gebäude sicherheitshalber erdbebensicher gebaut.",
+      "IT": "Sebbene nei nuovi mondi non siano ancora stati registrati forti terremoti, per sicurezza i tuoi edifici sono completamente antisismici."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "paradigm",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "AutomatizedConstructionSite": {
+    "id": "AutomatizedConstructionSite",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Automated Construction Site",
+      "ES": "Automatized Construction Site",
+      "FR": "Site de construction automatisée",
+      "DE": "Automatische Baustelle",
+      "IT": "Cantiere automatizzato"
+    },
+    "description": {
+      "EN": "All the construction machinery is operated by an on-site centralized computer. While this is very efficient, complaints are raised by unions.",
+      "ES": "All the construction machines are operated by a centralized computer on the site. Very efficient but arises some complains by the unions.",
+      "FR": "Toutes les machines de construction sont commandées par un ordinateur central sur le chantier. Très efficace, mais les syndicats se plaignent.",
+      "DE": "Alle Baumaschinen werden von einem Zentralcomputer auf der Baustelle geleitet. Sehr effizient, aber einiger Protest von den Gewerkschaften.",
+      "IT": "Tutti i macchinari edili sono guidati da un computer che presiede al cantiere. Il sistema è molto efficiente ma suscita le proteste dei sindacati."
+    },
+    "properties": {
+      "price": 280000000,
+      "prestige": -5,
+      "level": "paradigm",
+      "efficiency": 30,
+      "quality": -5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "CaveauFoundations": {
+    "id": "CaveauFoundations",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vault Foundation",
+      "ES": "Caveau Foundations",
+      "FR": "Fondations d'un coffre-fort",
+      "DE": "Fundamentnische",
+      "IT": "Caveau negli scantinati"
+    },
+    "description": {
+      "EN": "Upon the request of clients, your buildings include a security vault in the foundation: clients can safely store valuables of any kind.",
+      "ES": "In your foundations you can build a security caveau, on client request, to store valuables of any kind.",
+      "FR": "Dans les fondations, vous pouvez construire un coffre-fort, à la demande du client, afin de conserver des marchandises de valeur.",
+      "DE": "Auf Kundenwunsch können Sie in den Fundamenten eine Sicherheitsnische zur Lagerung von Wertsachen einbauen.",
+      "IT": "Offri ai clienti la possibilità di costruire sotto l'edificio un caveau in cui custodire valori di ogni tipo."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "paradigm",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "ConstInd": {
+    "id": "ConstInd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Construction Basics",
+      "ES": "Construction Basics",
+      "FR": "Principes du BTP",
+      "DE": "Basiswissen Bauwesen",
+      "IT": "Fondamenti dell'edilizia"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to deal with Construction industries.",
+      "ES": "Assimilate the knowledge to deal with Construction industries.",
+      "FR": "Assimilez les principes de fonctionnement des industries du BTP.",
+      "DE": "Erlernen Sie das Wissen über den Umgang mit der Bauindustrie.",
+      "IT": "Apprendi le conoscenze di base per la gestione di attività edili."
+    },
+    "properties": {
+      "price": 2000000,
+      "level": "paradigm"
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "CorporateAtrii": {
+    "id": "CorporateAtrii",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Corporate Atriums",
+      "ES": "Corporate Atrii",
+      "FR": "Atrium de l'entreprise",
+      "DE": "Unternehmensatrien",
+      "IT": "Hall di rappresentanza"
+    },
+    "description": {
+      "EN": "Your company has a line of extremely luxurious entrances for corporations that want to make a sophisticated statement to visiting clients. You provide everything from precious materials to art pieces.",
+      "ES": "Your company has a line of extremely luxourious entrances for corporations that want to show off for visiting clients. You provide everything, from precious materials to art pieces.",
+      "FR": "Votre société propose des halls d'entrée très luxueux aux entreprises qui veulent faire impression sur leurs visiteurs. Vous fournissez tout, des matériaux précieux aux objets d'art.",
+      "DE": "Ihre Firma bietet eine Reihe sehr luxuriöser Eingangshallen für Unternehmen an, die den Kunden imponieren wollen. Sie stellen alles zur Verfügung, von den edlen Materialien bis zu den Kunstwerken.",
+      "IT": "La tua azienda offre alle società la possibilità di decorare i propri ingressi in modo da impressionare i clienti. Tu fornisci tutto, dai tessuti di lusso alle opere d'arte."
+    },
+    "properties": {
+      "price": 85000000,
+      "prestige": 15,
+      "level": "paradigm",
+      "efficiency": -2,
+      "quality": 8
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "MarbleRefinishing"
+    ]
+  },
+  "DemolitionStrategy": {
+    "id": "DemolitionStrategy",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Demolition Strategy",
+      "ES": "Demolition Strategy",
+      "FR": "Stratégie de démolition",
+      "DE": "Abriss-Strategie",
+      "IT": "Edifici di facile demolizione"
+    },
+    "description": {
+      "EN": "Your buildings are built in such a way that enables easy demolishion, if needed. A very handy feature in the ever-changing and growing new world economy.",
+      "ES": "Your buildings are built in such a way that it is very easy to demolish them, if needed. A very handy feature in the fast growing new worlds economy.",
+      "FR": "Vos bâtiments sont construits de telle manière qu'il est très facile de les démolir lorsque le besoin s'en fait sentir. Caractéristique très fonctionnelle dans l'économie florissante des nouveaux mondes.",
+      "DE": "Ihre Gebäude sind so konstruiert, dass sie im Notfall leicht abgerissen werden können. Eine sehr praktische Eigenschaft in der schnellwachsenden Wirtschaft der neuen Welten.",
+      "IT": "I tuoi edifici sono costruiti in modo tale da risultare facili da demolire, se necessario. Una caratteristica molto pratica nell'economia in rapida espansione dei nuovi mondi."
+    },
+    "properties": {
+      "price": 65000000,
+      "level": "paradigm",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "DrawYourOwnHouse": {
+    "id": "DrawYourOwnHouse",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Draw Your Own House",
+      "ES": "Draw Your Own House",
+      "FR": "Dessinez vous-même votre maison",
+      "DE": "Zeichnen Sie Ihr eigenes Haus",
+      "IT": "Progetta la tua casa"
+    },
+    "description": {
+      "EN": "Who needs architects? Bring a sketch of the house of your dreams and we will build it for you.",
+      "ES": "Who needs architects? Bring a sketch of the house of your dreams and we will build it for you.",
+      "FR": "Qui a besoin d'un architecte ? Amenez-nous une ébauche de la maison de vos rêves et nous la construirons pour vous.",
+      "DE": "Wer braucht einen Architekten? Bringen Sie uns eine Skizze von Ihrem Traumhaus und wir bauen es für Sie.",
+      "IT": "Chi ha bisogno di un architetto? Portaci un disegno della casa dei tuoi sogni e la costruiremo per te."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "paradigm",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "ExtraterrestrialGravityStudy": {
+    "id": "ExtraterrestrialGravityStudy",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Gravity Study",
+      "ES": "Extraterrestrial Gravity Study",
+      "FR": "Etude sur la gravité extraterrestre",
+      "DE": "Studie der außerirdischen Schwerkraft",
+      "IT": "Studio della gravità extraterrestre"
+    },
+    "description": {
+      "EN": "By studying how the new world's slightly different gravity impacts construction materials, you are able to create better and more durable buildings.",
+      "ES": "Studying how the slightly different gravity of the new worlds impacts on the construction materials, you create better and more durable buildings.",
+      "FR": "Tout en étudiant la manière dont la gravité légèrement différente dans les nouveaux mondes influence les matériaux de construction, vous créer de meilleurs édifices qui durent plus longtemps.",
+      "DE": "Die Untersuchung, wie die etwas andere Schwerkraft auf den neuen Welten sich auf die Baumaterialien auswirkt, hilft Ihnen beim Bau besserer und dauerhafterer Gebäude.",
+      "IT": "Lo studio delle piccole differenze gravitazionali dei nuovi mondi ti permette di migliorare i processi di costruzione dei materiali e di costruire edifici migliori e più durevoli."
+    },
+    "properties": {
+      "price": 125000000,
+      "prestige": 5,
+      "level": "paradigm",
+      "efficiency": 5,
+      "quality": 5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "LandscapingElements": {
+    "id": "LandscapingElements",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Landscaping Elements",
+      "ES": "Landscaping Elements",
+      "FR": "Eléments paysagistes",
+      "DE": "Landschaftselemente",
+      "IT": "Elementi architettonici da giardino"
+    },
+    "description": {
+      "EN": "You give your client's buildings a special design touch, with fountains, sculptures and other external architectural elements.",
+      "ES": "Give your client buildings a special touch, with fountains, sculptures and other external architectural elements.",
+      "FR": "Donnez aux bâtiments de vos clients une touche particulière avec des fontaines, des sculptures et autres éléments architecturaux extérieurs.",
+      "DE": "Geben Sie den Gebäuden Ihrer Kunden das gewisse Etwas, mit Springbrunnen, Skulpturen und anderen Architekturelementen.",
+      "IT": "Dona agli edifici dei tuoi clienti un tocco speciale grazie a fontane, statue ed altri elementi architettonici esterni."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 5,
+      "level": "paradigm",
+      "efficiency": -3,
+      "quality": 8
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "MarbleRefinishing": {
+    "id": "MarbleRefinishing",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Marble Refinishing",
+      "ES": "Marble Refinishing",
+      "FR": "Décoration en marbre",
+      "DE": "Marmordekor",
+      "IT": "Rifiniture in marmo"
+    },
+    "description": {
+      "EN": "The ornamental details of your buildings include marble, a nice colorful touch.",
+      "ES": "The ornamental details of your buildings include marble. A nice colourful touch.",
+      "FR": "La décoration de vos bâtiments comporte des objets en marbre et crée une jolie touche de couleur.",
+      "DE": "Das Dekor Ihrer Gebäude enthält Marmor. Ein schöner farbiger Touch.",
+      "IT": "I dettagli ornamentali dei tuoi edifici comprendono l'uso del marmo. Un tocco di eleganza."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 4,
+      "level": "paradigm",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "ModularFloors": {
+    "id": "ModularFloors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Modular Floors",
+      "ES": "Modular Floors",
+      "FR": "Planchers modulables",
+      "DE": "Modulstockwerke",
+      "IT": "Piani modulari"
+    },
+    "description": {
+      "EN": "The easiest way to build skyscrapers: your company assembles each floor on the ground and then piles them on top of the foundation.",
+      "ES": "The easiest way to build skyscrapers. Your company assembles floors on the ground and then pile them up on the foundations.",
+      "FR": "Méthode la plus simple de création de gratte-ciel. Votre société assemble des planchers sur le sol, puis les empile sur les fondations.",
+      "DE": "Der einfachste Weg, Wolkenkratzer zu bauen. Ihr Unternehmen setzt die Stockwerke am Boden zusammen und stapelt sie dann auf das Fundament.",
+      "IT": "Il modo più semplice di costruire grattacieli. La tua azienda assembla i vari piani al livello del suolo e poi li monta l'uno sull'altro a partire dalle fondamenta."
+    },
+    "properties": {
+      "price": 175000000,
+      "level": "paradigm",
+      "efficiency": 20,
+      "quality": -5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "PortalInspiredDetails": {
+    "id": "PortalInspiredDetails",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Portal Inspired Details",
+      "ES": "Portal Inspired Details",
+      "FR": "Détails inspirés de portails",
+      "DE": "Portalinspiriertes Design",
+      "IT": "Dettagli architettonici ispirati ai portali"
+    },
+    "description": {
+      "EN": "Portals are the only form of alien architecture that humanity has experienced. These portals provide a new revolutionary template for design: you incorporate it in the decor of interiors.",
+      "ES": "The portals are the only alien architecture example to ever come in contact with humanity. They provide a new revolutionary template for design. You incorporate it in your interiors decoration.",
+      "FR": "Les portails sont les seuls exemples d'architecture extraterrestre en contact avec l'humanité. Ils constituent un nouveau modèle révolutionnaire de design. Vous l'incorporez dans la décoration de vos intérieurs.",
+      "DE": "Die Portale sind die einzige Art der außerirdischen Architektur, die jemals in den Kontakt mit der Menschheit gekommen ist. Sie bilden revolutionäre Designvorbilder. Sie bauen sie in die Innenarchitektur ein.",
+      "IT": "I portali sono l'unico esempio di architettura aliena noto alla umanità, e rappresentano un mo-dello rivoluzionario per il design. Decidi di incorporarne lo stile nella decorazione dei tuoi interni."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "paradigm",
+      "efficiency": -1,
+      "quality": 5
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "SecretPassages": {
+    "id": "SecretPassages",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Secret Passageways",
+      "ES": "Secret Passages",
+      "FR": "Passages secrets",
+      "DE": "Geheimgänge",
+      "IT": "Passaggi segreti"
+    },
+    "description": {
+      "EN": "Ever dreamt of living in a medieval castle with all those secret passageways? Now you can. Regardless of the type of building, it will be filled with secret doors and hidden corridors.",
+      "ES": "Dreamt of living in a medioeval castle with all sort of passages? Now you can do it. Whatever your building looks like it will be filled with secret doors and hidden corridors.",
+      "FR": "N'avez-vous jamais rêvé de vivre dans un château médiéval avec des passages secrets en tous genres ? Votre rêve devient réalité. Quel que soit votre bâtiment, il sera rempli de portes dérobées et de couloirs secrets.",
+      "DE": "Sie haben schon immer davon geträumt, in einer mittelalterlichen Burg mit vielen Geheimgängen zu leben? Kein Problem. Wie auch immer Ihr Haus aussieht, es wird mit geheimen Türen und versteckten Gängen gefüllt.",
+      "IT": "Sogni di vivere in un castello medievale con ogni sorta di passaggio segreto? Ora puoi. Qualunque sia l'aspetto dei tuoi edifici, essi saranno disseminati di porte e corridoi nascosti."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "paradigm",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "SecurityWalls": {
+    "id": "SecurityWalls",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Security Walls",
+      "ES": "Security Walls",
+      "FR": "Murs de sécurité",
+      "DE": "Sicherheitsmauern",
+      "IT": "Pareti a prova di bomba"
+    },
+    "description": {
+      "EN": "If your buildings have particular security needs, you may want special walls that are dynamite proof.",
+      "ES": "If you have security needs for your buildings, you may want special walls that are dynamite proven.",
+      "FR": "Si vos bâtiments présentent des exigences de sécurité, il se peut que vous souhaitiez installer des murs résistant à la dynamite.",
+      "DE": "Wenn Sie Ihre Gebäude sichern wollen, können Sie spezielle Mauern bauen lassen, denen auch Dynamit nichts anhaben kann.",
+      "IT": "Se i tuoi edifici abbisognano di particolari misure di sicurezza, puoi installare in essi pareti a prova di dinamite."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "paradigm",
+      "efficiency": -4,
+      "quality": 6
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  },
+  "SuspectMounds": {
+    "id": "SuspectMounds",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Suspect Mounds",
+      "ES": "Suspect Mounds",
+      "FR": "Monticules suspects",
+      "DE": "Verdächtige Hügel",
+      "IT": "Cumuli sospetti"
+    },
+    "description": {
+      "EN": "To eliminate the large amount of waste from construction and demolishing, your workers conceal it in mounds that mysteriously appear overnight in empty areas.",
+      "ES": "To eliminate the big amount of waste that building and demolishing create, during the night your workers hide it in mounds that misteriously appear in empty areas.",
+      "FR": "Pour éliminer la grande quantité de déchets issus de la construction et de la démolition, vos employés les cachent sous des monticules qui apparaissent mystérieusement dans des zones désertes pendant la nuit.",
+      "DE": "Um die große Menge von Abfall zu entsorgen, die durch das Bauen und Abreißen entsteht, verstecken Ihre Arbeiter den Schutt in Hügeln, die nachts auf geheimnisvolle Weise in leeren Gebieten entstehen.",
+      "IT": "Incarichi i tuoi operai di nascondere i grandi quantitativi di detriti dovuti alla costruzione e alla demolizione degli edifici. Misteriosi cumuli appaiono durante la notte in zone deserte."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": -5,
+      "level": "paradigm",
+      "efficiency": 8
+    },
+    "industry_type": "CONSTRUCTION",
+    "depends_on": [
+      "ConstInd"
+    ]
+  }
+}

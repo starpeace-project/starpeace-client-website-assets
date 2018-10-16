@@ -1,0 +1,849 @@
+{
+  "AntiAlienPaperCheck": {
+    "id": "AntiAlienPaperCheck",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Alien Background Check",
+      "ES": "Anti Alien Paper Check",
+      "FR": "Vérification de papiers anti-extraterrestre",
+      "DE": "Anti-Außerirdische Papierüberprüfung",
+      "IT": "Verifica documenti anti-alieni"
+    },
+    "description": {
+      "EN": "In an effort to block disguised aliens, every person that wants to buy a car is subject to an extensive background check, tracing all the way back to when his or her ancestors first came from Earth.",
+      "ES": "Every person that wants to buy a car is subjected to an extensive check of documents all the way to when his or her ancestors came from Earth. To stop disguised aliens.",
+      "FR": "Les papiers de toute personne désireuse d'acheter une voiture doivent être vérifiés de manière approfondie afin de savoir si ses ancêtres viennent de la Terre. Permet de démasquer les extraterrestres déguisés.",
+      "DE": "Jede Person, die ein Auto kaufen will, muss seine Papiere überprüfen lassen, bis hin zu dem Zeitpunkt, als seine Vorfahren von der Erde kamen. Als Schutz vor verkleideten Außerirdischen.",
+      "IT": "Chiunque voglia acquistare un'auto viene sottoposto ad un rigoroso controllo genealogico onde verificare che provenga effettivamente dalla Terra ed intercettare eventuali alieni."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -3
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "AutoInd": {
+    "id": "AutoInd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Automobile Industry Basics",
+      "ES": "Automobile Industry Basics",
+      "FR": "Principes de l'industrie automobile",
+      "DE": "Grundlagen der Automobilindustrie",
+      "IT": "Fondamenti dell'industria automobilistica"
+    },
+    "description": {
+      "EN": "Basic skills required to manage automobile factories.",
+      "ES": "Basic skills to manage Automobile factories.",
+      "FR": "Principes élémentaires de gestion d'usines automobiles.",
+      "DE": "Basisfähigkeiten zur Leitung vom Automobilfabriken.",
+      "IT": "Le nozioni fondamentali per la gestione di fabbriche di automobili."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "tycoon"
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "AutoWashingCars": {
+    "id": "AutoWashingCars",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Auto Washing Cars",
+      "ES": "Auto Washing Cars",
+      "FR": "Voitures autonettoyantes",
+      "DE": "Selbstwaschende Autos",
+      "IT": "Automobili che si puliscono da sole"
+    },
+    "description": {
+      "EN": "A hydraulic system is built into the car's chassis, automatically washing the car with water and soap when a sensor indicates that it's dirty. Your cars always look new.",
+      "ES": "Built in in the chassis of the car there is an hydraulic system that washes it with water and soap when a sensor indicates that it's dirty. Your cars always look new.",
+      "FR": "Système hydraulique intégré dans le châssis de la voiture qui distribue de l'eau et du détergent lorsqu'un détecteur indique que la voiture est sale. Votre voiture est toujours comme neuve.",
+      "DE": "In der Karosserie ist eine Waschanlage eingebaut, die den Wagen automatisch wäscht, wenn ein Sensor anzeigt, dass es schmutzig ist. Ihre Autos sehen immer wie neu aus.",
+      "IT": "Il telaio dell'automobile è dotato di un sistema idraulico che lava la macchina con acqua e sapone non appena un apposito sensore segnala che essa è sporca. L'auto è sempre come nuova."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 15,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 7
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "BetweenWorldsTransfer": {
+    "id": "BetweenWorldsTransfer",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Interworld Car Transfer",
+      "ES": "Between Worlds Transfer",
+      "FR": "Transfert entre les mondes",
+      "DE": "Transfer zwischen den Welten",
+      "IT": "Trasferimenti interplanetari"
+    },
+    "description": {
+      "EN": "Handle the annoying bureaucracy customers' face when transferring a vehicle between worlds.",
+      "ES": "Handle for your customers the annoying bureaucracy involved when a vehicle has to change world.",
+      "FR": "Vous vous occupez pour vos clients de tous les papiers à remplir lorsqu'un véhicule doit changer de monde.",
+      "DE": "Übernehmen Sie die lästigen bürokratischen Formalitäten, die anfallen, wenn ein Auto die Welt wechselt.",
+      "IT": "Fatevi carico per conto dei vostri clienti delle noiose pratiche burocratiche necessarie quando si vuole trasferire un veicolo da un mondo all'altro."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "BlindSpotSensors": {
+    "id": "BlindSpotSensors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Blind Spot Sensors",
+      "ES": "Blind Spot Sensors",
+      "FR": "Détecteurs dangle mort",
+      "DE": "Sensoren für den toten Winkel",
+      "IT": "Sensori delle zone d'ombra"
+    },
+    "description": {
+      "EN": "Small sensors placed on the side mirrors alerts the driver of any obstacle in his or her blind spots, sharply reducing accidents.",
+      "ES": "Small sensors are placed on the side mirrors to alert the driver about any obstacle in his or her blind spots. It decreases the chance of accidents.",
+      "FR": "De petits capteurs sont placés sur les rétroviseurs latéraux pour avertir le conducteur de tout obstacle qui se trouve dans son angle mort. Les risques d'accident sont considérablement réduits.",
+      "DE": "Kleine Sensoren werden an den Seitenspiegeln angebracht und informieren den Fahrer über jedes Hindernis, das sich im toten Winkel befindet. Vermindert das Unfallrisiko.",
+      "IT": "Piccoli sensori sono collocate sugli specchietti laterali ed avvertono il guidatore di eventuali ostacoli nella sua zona d'ombra, riducendo così il rischio di incidenti."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "BodyShop": {
+    "id": "BodyShop",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Body Shop",
+      "ES": "Body Shop",
+      "FR": "Carrosserie",
+      "DE": "Body Shop",
+      "IT": "Carrozziere"
+    },
+    "description": {
+      "EN": "Your repair center also repairs damage to the car chassis.",
+      "ES": "Your repairment center also take care of the damages to the car chassis.",
+      "FR": "Votre centre de réparation s'occupe également des dommages causés au châssis de la voiture.",
+      "DE": "Ihre Reparaturwerkstatt kümmert sich auch um die Schäden am Chassis.",
+      "IT": "Il centro riparazioni si occupa anche di danni al telaio della tua auto."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "InternalRepairmentCenter"
+    ]
+  },
+  "BreathAnalyzerStarter": {
+    "id": "BreathAnalyzerStarter",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Breath Analyzer Starter",
+      "ES": "Breath Analyzer Starter",
+      "FR": "Démarreur avec Alcootest",
+      "DE": "Anlasser mit Atemkontrolle",
+      "IT": "Test alcolimetrico prima dell'accensione"
+    },
+    "description": {
+      "EN": "Before starting the car, the driver blows into a plastic straw attached to the wheel, if their blood-alcohol level is too high, the car won't start. Parents are eternally grateful.",
+      "ES": "Before starting the car, the driver blows in a plastic straw attached to the wheel. If the alcohol in blood is too high, the car won't start. Thanks from millions of parents.",
+      "FR": "Avant de démarrer la voiture, le chauffeur souffle dans une paille en plastique reliée au volant. Si le taux d'alcool contenu dans le sang est trop élevé, la voiture ne démarre pas. Des millions de parents vous remercient.",
+      "DE": "Bevor das Auto gestartet wird bläst der Fahrer in einen Plastikhalm, der am Lenkrad befestigt ist. Wenn der Alkoholspiegel zu hoch ist, startet der Wagen nicht. Ein Dankeschön von Millionen Eltern.",
+      "IT": "Prima di mettere in moto l'auto, il guidatore soffia in una cannuccia attaccata al volante. Se i livelli d'alcool nel sangue risultano troppo alti, l'auto non parte. Milioni di genitori ringraziano."
+    },
+    "properties": {
+      "price": 250000000,
+      "prestige": 150,
+      "level": "tycoon",
+      "efficiency": -7,
+      "quality": 3
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "ComplementaryTuneups": {
+    "id": "ComplementaryTuneups",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Complimentary Tune-ups",
+      "ES": "Complementary Tuneups",
+      "FR": "Révisions gratuites",
+      "DE": "Zusätzliches Tunen",
+      "IT": "Revisioni gratuite"
+    },
+    "description": {
+      "EN": "The periodic tune-up of new cars is free to your clients.",
+      "ES": "The periodic tuneups of the new cars are free for your clients.",
+      "FR": "Les révisions régulières des nouvelles voitures sont gratuites pour vos clients.",
+      "DE": "Das periodisch erforderliche Tunen der Neuwagen sind für Ihre Kunden gratis.",
+      "IT": "Offri revisioni periodiche gratuite ai clienti che acquistano auto nuove."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 3
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "InternalRepairmentCenter"
+    ]
+  },
+  "CutthroatSalesmenPolicy": {
+    "id": "CutthroatSalesmenPolicy",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Cutthroat Sales Policy",
+      "ES": "Cutthroat Salesmen Policy",
+      "FR": "Politique de vente acharnée",
+      "DE": "Halsabschneider-Politik",
+      "IT": "Rigidissimi target di vendita"
+    },
+    "description": {
+      "EN": "You set very difficult sales goals for your salespeople and fire them if they don't reach them. This is survival of the fittest and only the best survive.",
+      "ES": "Set very difficult sale goals for your salesmen and fire them if they don't reach them. Only the most efficient ones survive.",
+      "FR": "Définissez des objectifs de vente très difficiles à atteindre pour vos vendeurs. Renvoyez-les s'ils n'y parviennent pas. Seuls les plus efficaces survivent.",
+      "DE": "Setzen Sie für Ihre Verkäufer sehr schwer zu erreichende Verkaufsziele fest und feuern Sie sie, wenn sie es nicht schaffen. Nur die effizientesten Verkäufer überleben.",
+      "IT": "Imponi difficilissimi obbiettivi di vendita ai tuoi venditori e li licenzi se non li raggiungono. Solo i più efficienti sopravvivono."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": -10,
+      "level": "apprentice",
+      "efficiency": 10,
+      "desirability": -2
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "DesignOutsourcing": {
+    "id": "DesignOutsourcing",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Design Outsourcing",
+      "ES": "Design Outsourcing",
+      "FR": "Conception extérieure à l'entreprise",
+      "DE": "Design Outsourcing",
+      "IT": "Subappalto della progettazione"
+    },
+    "description": {
+      "EN": "Your car designs are outsourced to a very prestigious design firm. The cars look very slick and you save on the costs of maintaining an entire department.",
+      "ES": "The design of your cars is provided by an external and very prestigious firm. They look very slick and you save on the maintainance of an entire department.",
+      "FR": "Vos voitures sont conçues par une entreprise extérieure très prestigieuse. Cette entreprise est renommée et vous économisez sur la maintenance d'un service entier.",
+      "DE": "Das Design Ihrer Autos wird von einer sehr erlesenen externen Firma ausgeführt. Sie sehen sehr schick aus und Sie sparen die Kosten für eine ganze Abteilung.",
+      "IT": "Il design delle tue auto viene affidato ad una azienda esterna di grande prestigio. La linea dei veicoli è molto accattivante, ed inoltre risparmi sul mantenimento di un intero reparto."
+    },
+    "properties": {
+      "price": 450000000,
+      "prestige": 15,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": 15
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "DirectionalBuiltInComputer": {
+    "id": "DirectionalBuiltInComputer",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Directional Computer",
+      "ES": "Directional Built In Computer",
+      "FR": "Module d'orientation intégré",
+      "DE": "Bordcomputer",
+      "IT": "Computer direzionale di bordo"
+    },
+    "description": {
+      "EN": "Your cars come with a built-in computer that instantly tells the driver the best route between the starting and arriving point.",
+      "ES": "Your cars come with a built in computer that instantly tells the driver the best route between the starting and arriving point.",
+      "FR": "Vos voitures sont équipées d'un ordinateur intégré qui indique instantanément au conducteur l'itinéraire adapté entre les points de départ et d'arrivée.",
+      "DE": "Ihre Autos werden mit einem eingebauten Bordcomputer geliefert, der dem Fahrer die beste Strecke zwischen Start- und Zielpunkt angibt.",
+      "IT": "Le tue automobili sono dotate di un computer di bordo in grado di comunicare istantaneamente al guidatore il tragitto migliore per raggiungere una data destinazione."
+    },
+    "properties": {
+      "price": 95000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 12
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "ElectricGasEngine": {
+    "id": "ElectricGasEngine",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Electric and Gas Engine",
+      "ES": "Electric and Gas Engine",
+      "FR": "Moteur électrique/essence",
+      "DE": "Elektro- und Benzinmotor",
+      "IT": "Motori elettrici e a benzina"
+    },
+    "description": {
+      "EN": "Your cars have an electric engine for short trips, and a gas engine for longer journeys that also recharges the batteries; reduces fuel consumption and pollution.",
+      "ES": "Your cars have an electric , for short trips, and a gas engine, for longer journeys and to recharge the batteries. Reduce fuel consume and therefore pollution.",
+      "FR": "Vos voitures sont équipées d'un moteur électrique pour les petits trajets. Un moteur à essence est prévu pour les trajets plus longs et recharger les batteries. Vous réduisez la consommation de carburants ainsi que la pollution.",
+      "DE": "Ihre Autos haben für Kurzstrecken einen Elektromotor und einen Benzinmotor für längere Strecken und um die Batterien wieder aufzuladen. Weniger Benzinverbrauch und daher umweltschonend.",
+      "IT": "Le tuo auto sono dotate di un motore elettrico per i tragitti brevi e di un altro a benzina per quelli più lunghi e per la ricarica delle batterie. Si riducono il consumo di carburante e l'inquinamento."
+    },
+    "properties": {
+      "price": 240000000,
+      "prestige": 50,
+      "level": "tycoon",
+      "efficiency": -15,
+      "quality": 30
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "ErgonomicInteriors": {
+    "id": "ErgonomicInteriors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ergonomic Interiors",
+      "ES": "Ergonomic Interiors",
+      "FR": "Intérieurs ergonomiques",
+      "DE": "Ergonomische Einrichtung",
+      "IT": "Interni ergonomici"
+    },
+    "description": {
+      "EN": "Your cars' interiors are designed to ensure that the driving experience is as comfortable as possible.",
+      "ES": "The abitacle of your cars is designed to make the driving experience as comfortable as possible.",
+      "FR": "L'habitacle de vos voitures est conçu pour rendre la conduite aussi confortable que possible.",
+      "DE": "Die Fahrgastzelle Ihrer Autos ist so konzipiert, dass das Fahren zum Vergnügen wird.",
+      "IT": "L'abitacolo delle tue auto è progettato per garantire al guidatore e ai passeggeri il massimo comfort."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -10,
+      "quality": 10
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "ExtensiveTestDrive": {
+    "id": "ExtensiveTestDrive",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Extensive Test Drive",
+      "ES": "Extensive Test Drive",
+      "FR": "Test de conduite étendu",
+      "DE": "Ausgedehnte Testfahrt",
+      "IT": "Lungo periodo di prova"
+    },
+    "description": {
+      "EN": "Your customers can try your cars, for as long as a week, before deciding to purchase it.",
+      "ES": "Your customers can try your cars for as long as a week, before deciding to purchase it.",
+      "FR": "Vos clients peuvent essayer les voitures pendant une semaine avant de prendre une décision.",
+      "DE": "Ihre Kunden können das Auto bis zu einer Woche testfahren, bevor sie sich zum Kauf entschließen.",
+      "IT": "I tuoi clienti possono tenere in prova le auto fino a una settimana prima deciderne l'acquisto."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "desirability": 3
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "FamilyMarketingStrategy": {
+    "id": "FamilyMarketingStrategy",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Family Marketing Strategy",
+      "ES": "Family Marketing Strategy",
+      "FR": "Stratégie de marketing familial",
+      "DE": "Familienmarketing-Strategie",
+      "IT": "Strategia di marketing mirata alle famiglie"
+    },
+    "description": {
+      "EN": "Once one family member buys one of your cars, your marketing team targets all the other family members, trying to convince them to buy another car.",
+      "ES": "Once a member of a family buys one of your cars, your marketing experts target all the other members to convince them to buy another one.",
+      "FR": "Une fois qu'un membre de la famille achète une de nos voitures, vos experts en marketing ciblent tous les autres membres pour les décider à en acheter une autre.",
+      "DE": "Wenn ein Mitglied einer Familie bei Ihnen ein Auto gekauft hat, dann visieren die Marketingexperten alle anderen Familienmitglieder an, um ihnen ein anderes Auto zu verkaufen.",
+      "IT": "Quando un cliente acquista una vostra auto, i responsabili del marketing si rivolgono ai suoi famigliari cercando di convincerli a fare altrettanto."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 7,
+      "desirability": -2
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "FreeGas": {
+    "id": "FreeGas",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Free Gas",
+      "ES": "Free Gas",
+      "FR": "Carburant gratuit",
+      "DE": "Gratisbenzin",
+      "IT": "Benzina gratis"
+    },
+    "description": {
+      "EN": "You offer six months of free gas to anyone who buys one of your cars.",
+      "ES": "Free gas for six months to anybody who buys one of your cars.",
+      "FR": "Carburant gratuit pendant six mois pour toute personne qui achète une de vos voitures.",
+      "DE": "6 Monate kostenloses Benzin für jeden, der ein Auto von Ihnen kauft.",
+      "IT": "Benzina gratis per sei mesi per chi acquista una delle tue auto."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 2
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "GlueOnTires": {
+    "id": "GlueOnTires",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Glue Tires",
+      "ES": "Glue On Tires",
+      "FR": "Colle sur les pneus",
+      "DE": "Klebstoff auf Reifen",
+      "IT": "Colla per pneumatici"
+    },
+    "description": {
+      "EN": "Micro holes and a dispenser enable special glue to cover car tires, making the vehicle more stable. The glue left on the road evaporates; ecologists complain.",
+      "ES": "A special glue covers the car tires, thanks to microholes and a dispenser, making it more stable. The glue left on the road evaporates. Echologists complain.",
+      "FR": "Une colle spéciale enduit les pneus des voitures grâce à des trous microscopiques et un distributeur, ce qui les rend plus stables. La colle restée sur la route s'évapore. Les écologistes se plaignent.",
+      "DE": "Ein Spezialklebstoff wird mit Hilfe von Mikrolöchern und Lösemittel auf die Autoreifen aufgetragen, und macht diese stabiler. Der auf der Straße verbleibende Klebstoff verdunstet. Die Grünen protestieren.",
+      "IT": "Grazie a microscopici fori e ad un erogatore, i pneumatici vengono ricoperti da una speciale colla che li rende più stabili. I residui della colla evaporano, e ciò provoca le proteste degli ecologisti."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": -3,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "HardSeats": {
+    "id": "HardSeats",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Hard Seats",
+      "ES": "Hard Seats",
+      "FR": "Sièges durs",
+      "DE": "Harte Sitze",
+      "IT": "Sedili duri"
+    },
+    "description": {
+      "EN": "To save money, you install cheaper hard seats in your cars. The drivers can only notice the difference in their backs after long trips.",
+      "ES": "To save money, you install cheap and hard seats on your cars. The drivers can feel the difference on their backs on long trips.",
+      "FR": "Pour économiser de l'argent, vous installez des sièges bon marché et durs dans vos voitures. Les conducteurs se rendent compte de la différence sur leur dos lors de longs trajets.",
+      "DE": "Um Geld zu sparen, installieren Sie billige, harte Sitze in Ihren Autos. Die Fahrer merken den Unterschied nach langen Fahrten an ihren Rücken.",
+      "IT": "Per risparmiare denaro installi sedili duri e di basso costo nelle tue auto. I guidatori notano la differenza nei lunghi viaggi, a spese della propria schiena."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -5,
+      "level": "tycoon",
+      "efficiency": 6,
+      "quality": -4
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "InternalRepairmentCenter": {
+    "id": "InternalRepairmentCenter",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Internal Repair Center",
+      "ES": "Internal Repairment Center",
+      "FR": "Centre de réparation interne",
+      "DE": "Interne Reparaturwerkstatt",
+      "IT": "Officina interna per le riparazioni"
+    },
+    "description": {
+      "EN": "Your car stores have a car repair center for your clients' car repairs and maintenance needs during their cars life.",
+      "ES": "In your shops there is a car repairment center that assist your clients car during its life.",
+      "FR": "Vos magasins disposent d'un garage automobile qui permet à vos clients de faire réparer leur voiture.",
+      "DE": "In Ihren Geschäften gibt es eine Reparaturwerkstatt, die sich bis zum Schluss um die Autos Ihrer Kunden kümmert.",
+      "IT": "Le tue rivendite sono dotate di officine per le riparazioni delle auto dei tuoi clienti."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -5,
+      "desirability": 5
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "LeasingAndFinancing": {
+    "id": "LeasingAndFinancing",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Leasing and Financing",
+      "ES": "Leasing and Financing",
+      "FR": "Crédit-bail et financement",
+      "DE": "Leasing und Financing",
+      "IT": "Prestiti e leasing"
+    },
+    "description": {
+      "EN": "You provide your clients more payment options.",
+      "ES": "Give to your clients more payment options.",
+      "FR": "Proposez de plus nombreuses options de paiement à vos clients.",
+      "DE": "Bieten Sie Ihren Kunden unterschiedliche Zahlungsmöglichkeiten.",
+      "IT": "Concedi ai tuoi clienti ulteriori possibilità di pagamento."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 3
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "LimitedModelsSelection": {
+    "id": "LimitedModelsSelection",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Limited Model Selection",
+      "ES": "Limited Models Selection",
+      "FR": "Choix de modèles limité",
+      "DE": "Geringe Modellauswahl",
+      "IT": "Gamma limitata di modelli"
+    },
+    "description": {
+      "EN": "Your stores only carry a limited number of models. This is very cost-efficient but you can't satisfy every potential customer.",
+      "ES": "Your stores carry only a limited number of models. Very efficient but you can't satisfy every potential customer.",
+      "FR": "Vos magasins proposent un nombre limité de modèles. Très efficace, mais il est impossible de satisfaire tous les clients potentiels.",
+      "DE": "In Ihren Geschäfte gibt es nur eine geringe Auswahl von Modellen. Sehr effizient, aber Sie können nicht jeden potenziellen Kunden zufriedenstellen.",
+      "IT": "I tuoi negozi dispongono di un numero limitato di modelli. Questa politica aumenta l'efficienza ma non permette di soddisfare tutti i potenziali clienti."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": -3,
+      "level": "apprentice",
+      "efficiency": 20,
+      "desirability": -5
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "LowQualityCoating": {
+    "id": "LowQualityCoating",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Low Quality Paint",
+      "ES": "Low Quality Coating",
+      "FR": "Revêtement de mauvaise qualité",
+      "DE": "Billigbeschichtung",
+      "IT": "Vernici di bassa qualità"
+    },
+    "description": {
+      "EN": "Your factories use cheap paint on its car, as a. result cars rust more easily.",
+      "ES": "Your factories use cheap paints on the cars. They result more subjected to rust.",
+      "FR": "Vos usines emploient de la peinture bon marché sur les voitures. Les risques de rouilles sont donc plus grands.",
+      "DE": "Ihre Fabriken benutzen Billiglack für die Autos. Aus diesem Grund rosten sie schneller.",
+      "IT": "Le tue fabbriche rivestono le carrozzerie con vernici di bassa qualità. Di conseguenza le auto risultano più sensibili alla ruggine."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "LuxuriousOffice": {
+    "id": "LuxuriousOffice",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Luxurious Office",
+      "ES": "Luxurious Office",
+      "FR": "Bureau luxueux",
+      "DE": "Luxusbüro",
+      "IT": "Ufficio di lusso"
+    },
+    "description": {
+      "EN": "Delight your customers with a very luxurious office; they feel like they are being treated like royalty.",
+      "ES": "Delight your customers with a very luxurious office. Give them the impression that they are treated like kings.",
+      "FR": "Enchantez vos clients avec un bureau luxueux. Donnez-leur l'impression qu'ils sont traités comme des rois.",
+      "DE": "Erfreuen Sie Ihre Kunden mit einem sehr luxuriösen Büro. Geben Sie ihnen das Gefühl, wie Könige behandelt zu werden.",
+      "IT": "Accogli i tuoi clienti in un ufficio di grande sfarzo, dando loro l'impressione di essere trattati come Re."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 2
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "MassiveFeaturesStandardization": {
+    "id": "MassiveFeaturesStandardization",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Massive Feature Standardization",
+      "ES": "Massive Features Standardization",
+      "FR": "Standardisation massive des caractéristiques",
+      "DE": "Massive Standardisierung",
+      "IT": "Standardizzazione dei modelli"
+    },
+    "description": {
+      "EN": "Your factories undergo a massive standardization of all the different models' features. It's very cost-efficient but now your cars all look very similar.",
+      "ES": "Your factories undergo a massive standardization of the features of the differents models. It's very efficient but now all your cars look very similar.",
+      "FR": "Vos usines standardisent massivement les caractéristiques de différents modèles. C'est très efficace, mais toutes vos voitures se ressemblent.",
+      "DE": "Ihre Fabriken nehmen einen Massive Standardisierung der Aspekte der verschiedenen Modelle vor. Das ist sehr effizient, aber Ihre Autos sehen irgendwie alle gleich aus.",
+      "IT": "Le tue fabbriche operano una massiccia standardizzazione delle caratteristiche dei vari modelli. Ciò aumenta l'efficienza ma rende la auto molto simili l'una all'altra."
+    },
+    "properties": {
+      "price": 285000000,
+      "level": "tycoon",
+      "efficiency": 30,
+      "quality": -5
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "NewCarSmellSpray": {
+    "id": "NewCarSmellSpray",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "New Car Smell Spray",
+      "ES": "New Car Smell Spray",
+      "FR": "Vaporisateur de parfum de voiture neuve",
+      "DE": "Neuwagenduft",
+      "IT": "Odore d'auto nuova in bomboletta spray"
+    },
+    "description": {
+      "EN": "Bottle the characteristic smell of a new car and spray it in your used ones. Your clients will buy wrecks thinking they aren't in such bad shape.",
+      "ES": "Bottle the characteristic smell of the inside of your new cars and spray it in your used ones. Your clients will buy wrecks thinking they are not so old.",
+      "FR": "Mettez en bouteille l'odeur caractéristique de vos nouvelles voitures et vaporisez-la dans les voitures anciennes. Les clients achèteront des épaves en pensant qu'elle ne sont pas trop vieilles.",
+      "DE": "Füllen Sie den charakteristischen Geruch neuer Autos in Spraydosen und sprühen Sie es in Ihre alten Wagen. Die Kunden werden Wracks kaufen und denken, sie wären gar nicht so alt.",
+      "IT": "Racchiudi l'odore caratteristico delle auto nuove in uno spray da spruzzare su quelle usate. I tuoi clienti acquisteranno veri e propri rottami credendoli molto meno vecchi di quello che sono."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "UsedCarDepartments"
+    ]
+  },
+  "RubberRecycling": {
+    "id": "RubberRecycling",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Rubber Recycling",
+      "ES": "Rubber Recycling",
+      "FR": "Recyclage de la gomme",
+      "DE": "Gummi-Recycling",
+      "IT": "Riciclaggio della gomma"
+    },
+    "description": {
+      "EN": "Your factories recycle rubber from old tires to create new ones. The tire quality is only slightly affected and the public perceives you as being ecologically conscious.",
+      "ES": "Your factories recycle the rubber from old tires to mold new ones. The quality of the tires is only remotly affected and the public opinion see you as echologically aware.",
+      "FR": "Vos usines recyclent la gomme des anciens pneus pour en fabriquer de nouveaux. La qualité des pneus est légèrement affectée et l'opinion publique vous voit comme soucieux de l'environnement.",
+      "DE": "Ihre Fabriken recyclen den Gummi alter Reifen und formen neue. Die Qualität der Reifen wird nur gering beeinträchtigt und die Öffentlichkeit schätzt Sie als umweltbewusst ein.",
+      "IT": "Le tue fabbriche riciclano la gomma dei vecchi pneumatici per realizzare quelli nuovi. La qualità del prodotto finale ne risente in misura molto piccola, e la tua immagine di ecologista ne guadagna."
+    },
+    "properties": {
+      "price": 175000000,
+      "prestige": 15,
+      "level": "tycoon",
+      "efficiency": 8,
+      "quality": -1
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "SalesmenTrainingCourse": {
+    "id": "SalesmenTrainingCourse",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Salespeople Training Course",
+      "ES": "Salesmen Training Course",
+      "FR": "Formation des vendeurs",
+      "DE": "Schulung für Verkäufer",
+      "IT": "Corso di addestramento dei venditori"
+    },
+    "description": {
+      "EN": "Improves selling efficiency by properly training your salespeople.",
+      "ES": "Improve the efficiency by instructing properly your salesmen.",
+      "FR": "Améliorez l'efficacité en formant correctement vos vendeurs.",
+      "DE": "Verbessern Sie die Effizienz Ihrer Verkäufer durch gute Schulung.",
+      "IT": "Aumenta l'efficacia dei tuoi venditori sottoponendoli a corsi di addestramento."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 3
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "UltimateAirBag": {
+    "id": "UltimateAirBag",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ultimate Air Bag",
+      "ES": "Ultimate Air Bag",
+      "FR": "Airbag absolu",
+      "DE": "Ultimativer Airbag",
+      "IT": "Air bag a protezione totale"
+    },
+    "description": {
+      "EN": "A massive air-bag, made with an extremely extensible fabric that effectively surrounds and protects everything inside the vehicle in the event of an accident, greatly improving safety.",
+      "ES": "A massive air-bag, made with a very extensible fabric, surrounds and protects everything inside the abitacle in an accident. The security is greatly improved.",
+      "FR": "Un airbag massif fabriqué dans un tissu extensible entoure et protège tout ce qui se trouve à l'intérieure de l'habitacle en cas d'accident. La sécurité est grandement améliorée.",
+      "DE": "Ein riesiger Airbag aus einem sehr dehnbaren Stoff umgibt und schützt bei einem Unfall alles innerhalb der Fahrgastzelle eines Autos. Stark verbesserte Sicherheit.",
+      "IT": "Un enorme air-bag realizzato in un tessuto molto elastico che circonda e protegge tutto ciò che si trova all'interno della macchina in caso di incidente. Una grande innovazione in fatto di sicurezza."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": -5,
+      "quality": 7
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "UsedCarDepartments": {
+    "id": "UsedCarDepartments",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Used Car Department",
+      "ES": "Used Car Departments",
+      "FR": "Services de voitures d'occasion",
+      "DE": "Gebrauchtwagenabteilung",
+      "IT": "Vendita di auto usate"
+    },
+    "description": {
+      "EN": "A large percentage of your potential clients can't afford to buy a new car, so your stores also have a selection of used ones.",
+      "ES": "A big part of your potential clients can't afford to buy a new car, so your stores have a selections of used ones.",
+      "FR": "Une grande partie de vos clients potentiels ne peut pas se permettre d'acheter une nouvelle voiture. C'est pourquoi vos magasins disposent d'une sélection de voitures d'occasion.",
+      "DE": "Ein großer Teil Ihrer Kunden kann sich keinen Neuwagen leisten. In Ihren Geschäften finden sie eine Auswahl an Gebrauchtwagen.",
+      "IT": "Una porzione considerevole della tua clientela potenziale non è in grado di permettersi auto nuove. Pertanto le tue rivendite offrono anche alcuni veicoli di seconda mano."
+    },
+    "properties": {
+      "price": 110000000,
+      "prestige": -3,
+      "level": "apprentice",
+      "efficiency": -5,
+      "desirability": 8
+    },
+    "industry_type": "AUTOMOBILE"
+  },
+  "WarrantyPolicy": {
+    "id": "WarrantyPolicy",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Warranty Policy",
+      "ES": "Warranty Policy",
+      "FR": "Politique de garantie",
+      "DE": "Garantiepolitik",
+      "IT": "Garanzia"
+    },
+    "description": {
+      "EN": "Your cars come with a three year, 100,000 KM warranty.",
+      "ES": "Yuor cars come with a three years, 100.000 km warranty.",
+      "FR": "Vos voitures disposent d'une garantie de trois ans ou de 100 000 km.",
+      "DE": "Ihre Autos haben eine Garantie von 3 Jahren und 100.000km.",
+      "IT": "Le tue auto sono garantite per tre anni o 100.000 chilometri."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 5,
+      "level": "tycoon",
+      "efficiency": -4,
+      "quality": 8
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  },
+  "WrecksRecycling": {
+    "id": "WrecksRecycling",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Wreck Recycling",
+      "ES": "Wrecks Recycling",
+      "FR": "Recyclage des épaves",
+      "DE": "Wrack-Recycling",
+      "IT": "Riciclaggio dei rottami"
+    },
+    "description": {
+      "EN": "Your factories collect used cars to recycle useable parts for new models. You save money, but overall quality suffers.",
+      "ES": "Your factories collect used cars to recycle parts still in good shape for the new models. It's cheaper but the quality suffers.",
+      "FR": "Vos usines récupèrent les véhicules usagés afin de recycler les pièces en état et les utiliser dans les nouveaux modèles. C'est meilleur marché, mais la qualité s'en ressent.",
+      "DE": "Ihre Fabriken sammeln alte Autos und recyclen noch brauchbare Teile in den Neuwagen. Billiger, aber die Qualität leidet.",
+      "IT": "Le tue fabbriche raccolgono le auto usate per poter riutilizzare le parti ancora integre nella costruzione di nuovi modelli. Il sistema ti permette di risparmiare, ma la qualità ne risente."
+    },
+    "properties": {
+      "price": 160000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": 40,
+      "quality": -20
+    },
+    "industry_type": "AUTOMOBILE",
+    "depends_on": [
+      "AutoInd"
+    ]
+  }
+}

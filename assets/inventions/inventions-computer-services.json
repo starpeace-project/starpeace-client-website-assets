@@ -1,0 +1,454 @@
+{
+  "CDMeltingSecurity": {
+    "id": "CDMeltingSecurity",
+    "category": "GENERAL",
+    "name": {
+      "EN": "CD Melting Security",
+      "ES": "CD Melting Security",
+      "FR": "Sécurité par fonte de CD",
+      "DE": "CD-Sicherung durch Schmelzen",
+      "IT": "Sistema fondi-CD"
+    },
+    "description": {
+      "EN": "To avoid piracy, the CDs you produce melt if someone tries to copy them, hopelessly ruining the CD burner in the process.",
+      "ES": "To avoid piracy, the CDs you produce melt if someone try to duplicate them. The CD burner is hoplessly ruined.",
+      "FR": "Afin d'éviter le piratage, les CD que vous produisez fondent si quelqu'un tente de les copier. Le graveur de CD est irrémédiablement cassé.",
+      "DE": "Um Piraterei vorzubeugen schmelzen die von Ihnen produzierten CDs, wenn jemand versucht, sie zu kopieren.",
+      "IT": "Per prevenire la pirateria, i tuoi CD fondono se qualcuno cerca di duplicarli, rendendo tra l'altro inservibile il masterizzatore."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "CellPhonesTechnology": {
+    "id": "CellPhonesTechnology",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Cell Phone Technology",
+      "ES": "Cell Phones Technology",
+      "FR": "Technologie pour téléphones portables",
+      "DE": "Handytechnologie",
+      "IT": "Servizi per la telefonia mobile"
+    },
+    "description": {
+      "EN": "The production of applications to be used on the small screens of cellular phones: from emails to word processing to instant messaging.",
+      "ES": "Production of applications to be used with the small screens of cellular phones. From emails to word processing, to instant messages.",
+      "FR": "Production d'applications à utiliser sur les petits écrans des téléphones portables. Depuis les e-mails jusqu'au traitement de texte et messages instantanés.",
+      "DE": "Produktion von Anwendungen, die auf den kleinen Handybildschirmen benutzt werden können. Emails, Textverarbeitung, Schnellmitteilungen...",
+      "IT": "Produzione di applicazioni studiate per i piccoli display dei telefoni cellulari. Tra i servizi vi sono posta elettronica, word processing e messaggi SMS."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": -1,
+      "quality": 4
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "CheapHardware": {
+    "id": "CheapHardware",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Cheap Hardware",
+      "ES": "Cheap Hardware",
+      "FR": "Matériel à bas prix",
+      "DE": "Billige Hardware",
+      "IT": "Risparmio sull'hardware"
+    },
+    "description": {
+      "EN": "Hardware development is so fast that it makes no sense to spend a lot of money buying something that will last a long time.",
+      "ES": "The hardware development is so fast that it make no sense to spend a lot of money to buy some that last a long time.",
+      "FR": "Le développement du matériel est si rapide qu'il n'est pas judicieux de dépenser beaucoup d'argent pour l'achat de matériel construit pour durer.",
+      "DE": "Die Hardware-Entwicklung geht so rasant schnell vorwärts, dass es sich nicht lohnt, etwas zu kaufen, was lange hält.",
+      "IT": "Lo sviluppo dell'hardware è talmente rapido che non ha senso spendere un mucchio di soldi per acquistare macchine realizzate per durare a lungo."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "master",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "ConvolutedCode": {
+    "id": "ConvolutedCode",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Convoluted Code",
+      "ES": "Convoluted Code",
+      "FR": "Code compliqué",
+      "DE": "Verwickelter Code",
+      "IT": "Codice contorto"
+    },
+    "description": {
+      "EN": "To avoid technology stealing through reverse engineering, the code your firms produce is very convoluted and almost impossible to understand by external developers.",
+      "ES": "To avoid technology stealing through reverse engineering, the code your firms produce is very convoluted and almost impossible to understand from external people.",
+      "FR": "Pour éviter le vol technologique par le biais de l'ingénierie à rebours, le code produit par vos entreprises est très compliqué et presque impossible à comprendre de la part d'une personne extérieure.",
+      "DE": "Um den Diebstahl von Technologie durch Umkehrverfahren zu verhindern, ist der Code, der von Ihrer Firma produziert wird sehr verwickelt und von Außenstehenden kaum zu verstehen.",
+      "IT": "Per evitare che i tuoi prodotti vengano ricostruiti tramite processi a ritroso, il codice prodotto dalla tua azienda è molto contorto e pressoché impossibile da comprendere dall'esterno."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 3
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "DigitalMovies": {
+    "id": "DigitalMovies",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Digital Movies",
+      "ES": "Digital Movies",
+      "FR": "Films numériques",
+      "DE": "Digitale Filme",
+      "IT": "Film digitali"
+    },
+    "description": {
+      "EN": "The production of entirely computer generated movies for promotional and artistic purposes.",
+      "ES": "Production of movies entirely computer generated for promotional and artistic purposes.",
+      "FR": "Production cinématographique entièrement générée par ordinateur dans un but promotionnel et artistique.",
+      "DE": "Produktion von Kunst- und Werbefilmen, die vollständig am Computer hergestellt werden.",
+      "IT": "Produzione di film interamente digitali a fini sia promozionali che artistici."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "HackersRecruiting": {
+    "id": "HackersRecruiting",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Hacker Recruiting",
+      "ES": "Hackers Recruiting",
+      "FR": "Recrutement de pirates informatique",
+      "DE": "Hackersuche",
+      "IT": "Assunzione di hacker"
+    },
+    "description": {
+      "EN": "The best programmers on the Internet are the hackers. You find them and offer them a well paid job.",
+      "ES": "The best programmers on the Internet are the hackers. You find them and offer them a well paid job.",
+      "FR": "Les meilleurs programmeurs sur Internet sont les pirates informatique. Vous les trouvez et leur proposez un travail bien rémunéré.",
+      "DE": "Die besten Programmierer im Internet sind die Hacker. Finden Sie sie und bieten Sie ihnen einen gut bezahlten Job.",
+      "IT": "I migliori programmatori su Internet sono gli hacker. Li rintracci ed offri loro posti di lavoro ben retribuiti."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": -5,
+      "level": "master",
+      "efficiency": 2,
+      "quality": 3
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "HologramGraphic": {
+    "id": "HologramGraphic",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Hologram Graphics",
+      "ES": "Hologram Graphic",
+      "FR": "Hologramme",
+      "DE": "Hologramm-Grafik",
+      "IT": "Grafica ad ologrammi"
+    },
+    "description": {
+      "EN": "Graphic development for a new and truly 3D experience.",
+      "ES": "Graphic development for this new truly 3D experience.",
+      "FR": "Développement graphique pour cette toute nouvelle expérience en 3D réelle.",
+      "DE": "Grafikentwicklung für diese aufregend neue 3D-Erfahrung.",
+      "IT": "Sviluppo grafico per questa nuova autentica esperienza 3D."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "IntraworldsECommerce": {
+    "id": "IntraworldsECommerce",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Intraworld E-Commerce",
+      "ES": "Intraworlds E Commerce",
+      "FR": "Commerce électronique entre les mondes",
+      "DE": "Zwischenweltlicher E-Commerce",
+      "IT": "Commercio elettronico interplanetario"
+    },
+    "description": {
+      "EN": "Using the data transfer technology you can build sites for e-commerce between the different worlds.",
+      "ES": "Using the data transfer technology, you can build sites for e commerce between the different worlds.",
+      "FR": "Grâce à la technologie de transfert de données, vous pouvez construire des sites de commerce électronique entre différents mondes.",
+      "DE": "Mit der Datenübertragungstechnologie können Sie Sites für e-commerce zwischen den Welten aufbauen.",
+      "IT": "Utilizzando la tecnologia per il trasferimento dei dati, allestisci siti per il commercio elettronico tra i vari mondi."
+    },
+    "properties": {
+      "price": 140000000,
+      "prestige": 30,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "ThroughPortalsDataTransfer"
+    ]
+  },
+  "LaptopsAndDockingStations": {
+    "id": "LaptopsAndDockingStations",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Laptops and Docking Stations",
+      "ES": "Laptops And Docking Stations",
+      "FR": "Ordinateurs portables et stations d'accueil",
+      "DE": "Laptops und Andockstationen",
+      "IT": "Laptop e postazioni per portatili"
+    },
+    "description": {
+      "EN": "Instead of normal desktop computers, your employees use a laptop that is connected to a docking station in the office: practical but not as reliable.",
+      "ES": "Instead of a normal computer, your employees use a laptop that is connected to a docking station in the office. Practical but not as reliable.",
+      "FR": "Au lieu des ordinateurs habituels, vos employés utilisent des ordinateurs portables connectés à une station d'accueil dans le bureau. Pratique, mais pas très fiable.",
+      "DE": "An Stelle von normalen Computern benutzen Ihre Angestellten einen Laptop, der an die Docking Station im Büro angeschlossen ist. Praktisch aber nicht so verlässlich.",
+      "IT": "Anziché normali computer, acquisti per i tuoi dipendenti laptop da collegare a postazioni nei loro uffici. Essi risultano pratici ma non altrettanto affidabili."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "OceanusHistory": {
+    "id": "OceanusHistory",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Oceanus History",
+      "ES": "Oceanus History",
+      "FR": "Histoire d'Oceanus",
+      "DE": "Die Geschichte von Oceanus",
+      "IT": "Storia di Oceanus"
+    },
+    "description": {
+      "EN": "A historical study of best ever videogame design company on Earth: Oceanus Communications. A very useful way to inspire your developers.",
+      "ES": "A study of the history of the best ever videogame design company on Earth, Oceanus Communications. Very useful to inspire your developers.",
+      "FR": "Etude historique de la meilleure société de conception de jeux vidéo jamais créée sur Terre, Oceanus Communications. Très utile pour inspirer vos développeurs.",
+      "DE": "Eine Studie der Geschichte der besten aller Videospieleentwickler der Erde, Oceanus Communications. Sehr nützliche Anregung für Ihre Entwickler.",
+      "IT": "Uno studio della storia della miglior azienda di videogiochi mai esistita sulla Terra, Oceanus Communications. Un'ottima fonte di ispirazione per i tuoi sviluppatori."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 3,
+      "level": "master",
+      "efficiency": -3,
+      "quality": 7
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "VideogamesDevelopment"
+    ]
+  },
+  "RelaxedWorkEnvironment": {
+    "id": "RelaxedWorkEnvironment",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Relaxed Work Environment",
+      "ES": "Relaxed Work Environment",
+      "FR": "Environnement de travail décontracté",
+      "DE": "Entspannte Arbeitsatmosphäre",
+      "IT": "Ambiente di lavoro flessibile"
+    },
+    "description": {
+      "EN": "To encourage the creative process, there is no dress code or fixed hours for your employees.",
+      "ES": "To help the creative process, there is no dress code or fixed hours for your employees.",
+      "FR": "Pour favoriser le processus créatif, aucun code vestimentaire ou horaire de travail fixe pour vos employés.",
+      "DE": "Um die Kreativität nicht einzuschränken gibt es weder eine Kleiderordnung noch feste Bürostunden für Ihre Angestellten.",
+      "IT": "Per aiutare il processo creativo, non imponi ai tuoi dipendenti orari fissi né un codice di abbigliamento."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "SoftwareFirms": {
+    "id": "SoftwareFirms",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Software Firm Basics",
+      "ES": "Software Firms Basics",
+      "FR": "Principes de production de logiciels",
+      "DE": "Grundlagen für Softwarefirmen",
+      "IT": "Fondamenti della progettazione del software"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to manage software development facilities.",
+      "ES": "Assimilate the knowledge to manage Software Development facilities.",
+      "FR": "Assimilez les principes de gestion des bâtiments de développement de logiciels.",
+      "DE": "Eignen Sie sich die Kenntnisse für die Leitung von Softwareentwicklungsfirmen an.",
+      "IT": "Apprendi le conoscenze fondamentali per gestire una ditta di sviluppo del software."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "master"
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "ThroughPortalsDataTransfer": {
+    "id": "ThroughPortalsDataTransfer",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Portal Data Transfer",
+      "ES": "Trough Portals Data Transfer",
+      "FR": "Transfert de données à travers des portails",
+      "DE": "Datenübertragung durch Portale",
+      "IT": "Trasferimento dei dati attraverso i portali"
+    },
+    "description": {
+      "EN": "Digital information between worlds is transmitted by cables that are physically connected when the portal is opened. Special code is written to ensure the fast and precise transmission of information.",
+      "ES": "Digital information between worlds are transmitted through cables connected physically when the portal is opened. To ensure a fast and precise transmission, special code has to be written.",
+      "FR": "Les informations numériques entre les mondes sont transmises par des câbles connectés physiquement lorsque le portail est ouvert. Pour assurer une transmission rapide et précise, un code spécial doit être écrit.",
+      "DE": "Numerische Informationen zwischen den Welten werden durch Kabel übertragen, wenn sich das Portal öffnet. Zur Sicherung einer schnellen und präzisen Übertragung muss ein Spezialcode ausgearbeitet werden.",
+      "IT": "Lo scambio di informazioni digitali tra i vari mondi avviene tramite cavi la cui connessione fisica avviene all'apertura di un portale. Il sistema sfrutta uno speciale codice da te sviluppato."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 20,
+      "level": "master",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "VideogamesDevelopment": {
+    "id": "VideogamesDevelopment",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Videogame Development",
+      "ES": "Videogames Development",
+      "FR": "Développement de jeux vidéo",
+      "DE": "Entwicklung von Videospielen",
+      "IT": "Sviluppo di videogiochi"
+    },
+    "description": {
+      "EN": "Some of your firms specialize in the development of videogames: a very noble and rewarding profession.",
+      "ES": "Some of your firms specialize in the development of videogames. A very noble and rewarding profession.",
+      "FR": "Certaines de vos entreprises sont spécialisées dans le développement de jeux vidéo. Une profession très noble et rentable.",
+      "DE": "Einige Ihrer Firmen spezialisieren sich auf die Entwicklung von Videospielen. Ein edler und ertragreicher Beruf.",
+      "IT": "Alcune delle tue società si specializzano nello sviluppo di videogiochi. Una professione molto nobile e ricca di soddisfazioni."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "master",
+      "efficiency": 2,
+      "quality": 5
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "VirusAntivirusBusiness": {
+    "id": "VirusAntivirusBusiness",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Virus and Antivirus Business",
+      "ES": "Virus Antivirus Business",
+      "FR": "Activité virus/antivirus",
+      "DE": "Antivirusgeschäft",
+      "IT": "Spaccio di virus e antivirus"
+    },
+    "description": {
+      "EN": "You have a department that secretly creates new deadly computer viruses; your company officially creates the corresponding antivirus. Unleash the virus and sell the antivirus.",
+      "ES": "You have a department that secretly create new deadly viruses and the corrispondent antiviruses. Unleash the first ones on the Internet and sell the second ones to the infected clients.",
+      "FR": "Un de vos départements crée secrètement des virus mortels et les antivirus correspondants. Lâchez les premiers sur Internet, puis vendez les seconds aux clients infectés.",
+      "DE": "Sie verfügen über eine Abteilung, die heimlich neue tödliche Viren und ihre Antiviren herstellt. Lassen sie die ersten im Internet frei und verkaufen Sie die anderen an die betroffenen Kunden.",
+      "IT": "Mantieni un dipartimento incaricato di creare in segreto pericolosissimi virus e i relativi antivirus. Prima scateni i virus tramite Internet, poi vendi gli antivirus agli utenti infettati."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  },
+  "WorkingFromHome": {
+    "id": "WorkingFromHome",
+    "category": "GENERAL",
+    "name": {
+      "EN": "Telework",
+      "ES": "Working from Home",
+      "FR": "Travail à domicile",
+      "DE": "Heimarbeit",
+      "IT": "Lavoro a domicilio"
+    },
+    "description": {
+      "EN": "Set up a cable connection at all your employees' homes and have them work mainly from home. Improves their overall performance.",
+      "ES": "Set up a cable connection in your employees' houses and have them work mainly from home. Improve their overall performance.",
+      "FR": "Installez une liaison par câble chez vos employés de manière à ce qu'ils puissent travailler depuis leur domicile. Amélioration des performances générales.",
+      "DE": "Richten Sie eine Kabelverbindung zu den Wohnungen Ihrer Angestellten ein und lassen Sie diese hauptsächlich von Zuhause arbeiten. Verbessert Ihre Effizienz.",
+      "IT": "Installi una connessione via cavo nelle case dei tuoi impiegati, in modo che possano lavorare prevalentemente a domicilio. Ciò migliora il loro rendimento complessivo."
+    },
+    "properties": {
+      "price": 95000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": 2
+    },
+    "industry_type": "COMPUTER_SERVICES",
+    "depends_on": [
+      "SoftwareFirms"
+    ]
+  }
+}

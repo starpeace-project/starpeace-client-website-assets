@@ -1,0 +1,487 @@
+{
+  "AdvFoodRef": {
+    "id": "AdvFoodRef",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Food Refinement",
+      "ES": "Advanced Food Refinement",
+      "FR": "Perfectionnement alimentaire avancé",
+      "DE": "Lebensmittelverbesserung für Fortgeschrittene",
+      "IT": "Nozioni avanzate di trattamento dei cibi"
+    },
+    "description": {
+      "EN": "Provides extra advanced processing in order to increase food quality.",
+      "ES": "Provides extra advanced processing in order to increase food quality.",
+      "FR": "Utilisez des processus avancés supplémentaires qui permettent d'accroître la qualité de la nourriture.",
+      "DE": "Lebensmittelherstellung für Fortgeschrittene, um die Qualität der Lebensmittel zu verbessern.",
+      "IT": "Apprendi le procedure più avanzate di trattamento per il miglioramento della qualità dei generi alimentari."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 2,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "BsFoodRef"
+    ]
+  },
+  "BrumeSynCorr": {
+    "id": "BrumeSynCorr",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Brume Syndrome Correction",
+      "ES": "Brume Syndrome Correction",
+      "FR": "Correction du syndrome de Brume",
+      "DE": "Korrektur des Brume-Syndroms",
+      "IT": "Prevenzione della sindrome di Brume"
+    },
+    "description": {
+      "EN": "Detects food capable of developing Brume's Syndrome.",
+      "ES": "Detects food capable of developing Brume's Syndrome.",
+      "FR": "Détecte les aliments susceptibles de déclencher le syndrome de Brume.",
+      "DE": "Erkennt Essen, das das Brume-Syndrom auslösen kann.",
+      "IT": "Individua i cibi in grado di causare la sindrome di Brume."
+    },
+    "properties": {
+      "price": 75000000,
+      "prestige": 7,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "BsFoodRef": {
+    "id": "BsFoodRef",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Basic Food Refinement",
+      "ES": "Basic Food Refinement",
+      "FR": "Principes de perfectionnement alimentaire",
+      "DE": "Basis für Lebensmittelverbesserung",
+      "IT": "Fondamenti di trattamento dei cibi"
+    },
+    "description": {
+      "EN": "Provides extra processing in order to increase food quality.",
+      "ES": "Provides extra processing in order to increase food quality.",
+      "FR": "Processus supplémentaires visant à améliorer la qualité de la nourriture.",
+      "DE": "Ermöglicht zusätzliche Konservierung zur Verbesserung der Qualität der Lebensmittel.",
+      "IT": "Nozioni di base sui trattamenti in grado di migliorare la qualità dei generi alimentari."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 2,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 5
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "EthnicCookedMeals": {
+    "id": "EthnicCookedMeals",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ethnic Meals",
+      "ES": "Ethnic Cooked Meals",
+      "FR": "Repas exotiques",
+      "DE": "Ethno-Food",
+      "IT": "Piatti multietnici pronti"
+    },
+    "description": {
+      "EN": "You hire chefs of different nationalities to prepare frozen ethnic meals.",
+      "ES": "You hire chefs of different nationalities to prepare frozen ethnic meals.",
+      "FR": "Vous embauchez des chefs de différentes nationalités pour préparer des menus exotiques surgelés.",
+      "DE": "Sie stellen Köche verschiedener Nationalitäten ein, die tiefgefrorene Ethno-Mahlzeiten zubereiten.",
+      "IT": "Assumi cuochi di diverse nazionalità per preparare pietanze multietniche surgelate."
+    },
+    "properties": {
+      "price": 75000000,
+      "prestige": 15,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "FoodPrcLic": {
+    "id": "FoodPrcLic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Food Processing",
+      "ES": "Food Processing",
+      "FR": "Industrie agro-alimentaire",
+      "DE": "Lebensmittelherstellung",
+      "IT": "Trattamento dei cibi"
+    },
+    "description": {
+      "EN": "License to process food.",
+      "ES": "License to process food.",
+      "FR": "Autorisation permettant de produire de la nourriture.",
+      "DE": "Lizenz zur Herstellung von Lebensmitteln.",
+      "IT": "La licenza per la produzione di generi alimentari."
+    },
+    "properties": {
+      "price": 1000000,
+      "level": "apprentice"
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "FQltCtrl": {
+    "id": "FQltCtrl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Food Quality Control",
+      "ES": "Food Quality Control",
+      "FR": "Contrôle de la qualité des aliments",
+      "DE": "Qualitätskontrolle für Nahrungsmittel",
+      "IT": "Controllo della qualità degli alimenti"
+    },
+    "description": {
+      "EN": "Helps spot food in state of decomposition.",
+      "ES": "Helps to spot food in state of decomposition.",
+      "FR": "Permet d'identifier la nourriture en décomposition.",
+      "DE": "Hilft bei der Entdeckung von verdorbenen Lebensmitteln.",
+      "IT": "Aiuta ad individuare gli alimenti in decomposizione."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": 7,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "LowFatLine": {
+    "id": "LowFatLine",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Low Fat Line",
+      "ES": "Low Fat Line",
+      "FR": "Ligne de produits à basses calories",
+      "DE": "Du darfst",
+      "IT": "Linea ipocalorica"
+    },
+    "description": {
+      "EN": "Special low fat products for overweight people.",
+      "ES": "Special products for overweight people.",
+      "FR": "Produits spéciaux pour personnes souffrant d'embonpoint.",
+      "DE": "Spezialprodukte für Übergewichtige.",
+      "IT": "Prodotti speciali per persone sovrappeso."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "LSFoodPrc": {
+    "id": "LSFoodPrc",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Scale Food Processing",
+      "ES": "Large Scale Food Processing",
+      "FR": "Industrie agro-alimentaire à grande échelle",
+      "DE": "Große Lebensmittelindustrien",
+      "IT": "Produzione di alimentari su vasta scala"
+    },
+    "description": {
+      "EN": "Learn the basic skills to create and manage large food processing plants.",
+      "ES": "Learn the basic skills to create and manage large processing plants.",
+      "FR": "Apprenez les principes élémentaires pour créer et gérer des usines agro-alimentaires importantes.",
+      "DE": "Erlernen Sie das Grundwissen für die Gründung und das Management von großen Lebensmittelindustrien.",
+      "IT": "Apprendi le conoscenze di base per la produzione su vasta scala di generi alimentari."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "entrepreneur"
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "OrgChem": {
+    "id": "OrgChem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Organic Chemicals",
+      "ES": "Organic Chemicals",
+      "FR": "Produits chimiques organiques",
+      "DE": "Organische Chemikalien",
+      "IT": "Prodotti chimici organici"
+    },
+    "description": {
+      "EN": "Substitute some non-organic chemicals by processed subproducts.",
+      "ES": "Substitute some non-organic chemicals by processed subproducts.",
+      "FR": "Remplacez des produits chimiques non organiques par des sous-produits transformés.",
+      "DE": "Tauschen Sie einige anorganische Chemikalien durch verarbeitete ländliche 'Abfallprodukte' aus.",
+      "IT": "Sostituisci alcuni prodotti chimici inorganici con sottoprodotti di trattamento."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": 6,
+      "quality": -3
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "RadioEnlrg": {
+    "id": "RadioEnlrg",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Radioactive Enlargements",
+      "ES": "Radioactive Enlargements",
+      "FR": "Croissance par radioactivité",
+      "DE": "Radioaktive Vergrößerungen",
+      "IT": "Derrate gonfiate con la radioattività"
+    },
+    "description": {
+      "EN": "Enlarge vegetables and meat by exposing it to healthy doses of radioactivity.",
+      "ES": "Enlarge vegetables and meat by exposing it to healthy doses of radioactivity.",
+      "FR": "Faites grossir les légumes et la viande en les exposant à des doses saines de radioactivité.",
+      "DE": "Vergrößern Sie Fleisch und Gemüse, indem sie es einer gesunden Dosis Radioaktivität aussetzen.",
+      "IT": "Aumenta il volume di carni e verdure sottoponendole a sane dosi di radiazioni."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -10,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -20
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "RecFoodPrc": {
+    "id": "RecFoodPrc",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Recurrent Food Production",
+      "ES": "Recurrent Food Production",
+      "FR": "Production de nourriture récurrente",
+      "DE": "Recycling-Lebensmittelproduktion",
+      "IT": "Produzione di alimenti riciclati"
+    },
+    "description": {
+      "EN": "Use sub-products as raw materials for food processing.",
+      "ES": "Use subproducts as raw materials for food processing.",
+      "FR": "Utilisez des sous-produits comme matière première dans l'industrie agro-alimentaire.",
+      "DE": "Benutzen Sie ländliche 'Abfallprodukte' als Rohstoffe für die Lebensmittelherstellung.",
+      "IT": "Utilizza sottoprodotti come materie prime per la produzione di alimenti."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -7,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "RecipeOnTheBox": {
+    "id": "RecipeOnTheBox",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Recipe on the Box",
+      "ES": "Recipe on the Box",
+      "FR": "Recette sur l'emballage",
+      "DE": "Rezept auf den Verpackung",
+      "IT": "Ricette sulla confezione"
+    },
+    "description": {
+      "EN": "All your products have a recipe printed on the box. A cooking suggestion for your customers.",
+      "ES": "All your products have a recipe printed on the box. A cooking suggestion for your customers.",
+      "FR": "Des recettes sont imprimées sur l'emballage de tous vos produits. Il s'agit d'une suggestion de préparation à l'usage de vos clients.",
+      "DE": "Auf allen Verpackungen befindet sich ein Rezept. Ein Kochvorschlag für Ihre Kunden.",
+      "IT": "Tutti i tuoi prodotti recano una ricetta sulla confezione ad uso della clientela."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "ROOGCorr": {
+    "id": "ROOGCorr",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "ROOG Correction",
+      "ES": "ROOG Correction",
+      "FR": "Correction ROOG",
+      "DE": "ROOG Korrektur",
+      "IT": "Prevenzione del ROOG"
+    },
+    "description": {
+      "EN": "Detects food with tendency to become ROOG.",
+      "ES": "Detects food with tendency to become ROOG.",
+      "FR": "Détecte la nourriture susceptible de devenir ROOG",
+      "DE": "Erkennt Lebensmittel, die eine Tendenz zu ROOG haben.",
+      "IT": "Individua gli alimenti con la tendenza a diventare ROOG."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -7,
+      "quality": 10
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "SiliconApp": {
+    "id": "SiliconApp",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Silicon Applications",
+      "ES": "Silicon Applications",
+      "FR": "Utilisation du silicone",
+      "DE": "Silikonanwendungen",
+      "IT": "Iniezioni di silicone"
+    },
+    "description": {
+      "EN": "Increase meat production. (No further explanation needed.)",
+      "ES": "Increase meat production. (No further explanation needed.)",
+      "FR": "Augmentez la production de viande (aucune autre explication n'est nécessaire).",
+      "DE": "Steigern Sie die Fleischproduktion. (Keine weitere Erklärung notwendig.)",
+      "IT": "Aumenta la produzione di carne. (Non servono altre spiegazioni.)"
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 20,
+      "quality": -20
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "SolRefr": {
+    "id": "SolRefr",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Solar Refrigeration",
+      "ES": "Solar Refrigeration",
+      "FR": "Réfrigération solaire",
+      "DE": "Solarenergie-Kühlung",
+      "IT": "Raffreddamento tramite energia solare"
+    },
+    "description": {
+      "EN": "Uses non-polluting solar energy to cool meat.",
+      "ES": "Uses non-polluting solar energy to cool meat.",
+      "FR": "Utilise l'énergie solaire non polluante pour refroidir la viande.",
+      "DE": "Benutzt umweltfreundliche Solarenergie zur Fleischkühlung.",
+      "IT": "Utilizza l'energia pulita del sole per il raffreddamento della carne."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": 2,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "ETClimate"
+    ]
+  },
+  "SubstutiveProducts": {
+    "id": "SubstutiveProducts",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Substitutive Products",
+      "ES": "Substutive Products",
+      "FR": "Produits de substitution",
+      "DE": "Ersatzprodukte",
+      "IT": "Prodotti sostitutivi"
+    },
+    "description": {
+      "EN": "Alternative products like corn bread, tofu and vegetable based dairy: for customers with allergies and digestive problems.",
+      "ES": "Alternative products like corn bread, tofu and vegetable based dairy. For customers with allergies and digestive problems.",
+      "FR": "Des produits alternatifs, tels que le pain de maïs, le tofu et les laitages à base de végétaux. Destinés aux clients souffrant d'allergies et de problèmes digestifs.",
+      "DE": "Alternative Produkte wie Vollkornbrot, Tofu und pflanzliche Ersatzprodukte für Milchwaren. Für Kunden mit Allergien und Verdauungsschwierigkeiten",
+      "IT": "Prodotti alternativi come pane di granturco, tofu e latte vegetale. Per i clienti che soffrono di allergie alimentari o problemi digestivi."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  },
+  "WaterApps": {
+    "id": "WaterApps",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Water Applications",
+      "ES": "Water Applications",
+      "FR": "Utilisation de l'eau",
+      "DE": "Wassernutzung",
+      "IT": "Gonfiaggio tramite acqua"
+    },
+    "description": {
+      "EN": "Water can be very useful in enlarging chicken breasts and extending dairy products.",
+      "ES": "Water can be very useful to enlarge chicken breasts and dairy.",
+      "FR": "L'eau peut être très utile pour accroître la quantité de blanc de poulet et de produits laitiers.",
+      "DE": "Wasser kann sehr gut zur Vergrößerung von Hühnchenbrüsten und zum Verwässern von Milchprodukten verwendet werden.",
+      "IT": "Iniezioni di acqua ti permettono di aumentare il volume di petti di pollo e latticini."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": -2,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": -7
+    },
+    "industry_type": "PROCESSED_FOOD",
+    "depends_on": [
+      "FoodPrcLic"
+    ]
+  }
+}

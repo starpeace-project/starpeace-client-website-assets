@@ -1,0 +1,1038 @@
+{
+  "ActorsResort": {
+    "id": "ActorsResort",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Actor Resort",
+      "ES": "Actors' Resort",
+      "FR": "Lieu de vacances d'Acteurs",
+      "DE": "Actors' Resort",
+      "IT": "Villaggio per gli attori"
+    },
+    "description": {
+      "EN": "To attract the best actors and actresses, build a luxurious resort inside your studios where they can live and be pampered while shooting your movies.",
+      "ES": "Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.",
+      "FR": "Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.",
+      "DE": "Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.",
+      "IT": "Per attirare i migliori attori e attrici i tuoi studi sono attrezzati con un lussuoso hotel. Gli attori vi risiedono durante la lavorazione del film."
+    },
+    "properties": {
+      "price": 150000000,
+      "level": "master",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "AdultMoviesWing": {
+    "id": "AdultMoviesWing",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Adult Movie Section",
+      "ES": "Adult Movies Wing",
+      "FR": "Films d'Adulte",
+      "DE": "Adult Movies Wing",
+      "IT": "Sezione Film Per Adulti"
+    },
+    "description": {
+      "EN": "Dedicate a part of your studio to adult movies: very cheap industry that guarantees a steady return.",
+      "ES": "Dedicate a part of your studio to adult movies. Very cheap industry that guarantees a steady return.",
+      "FR": "Consacrez une partie de votre studio aux films d'adulte. Cet une industrie de très bon marché qui garantit un retour régulier.",
+      "DE": "Dedicate a part of your studio to adult movies. Very cheap industry that guarantees a steady return.",
+      "IT": "Una parte dei tuoi studi produce film per adulti. Genere molto economico che garantisce un ritorno costante."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": -10,
+      "level": "master",
+      "efficiency": 3,
+      "quality": -5
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "AnimalsTrainingGround": {
+    "id": "AnimalsTrainingGround",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "AnimalTraining Grounds",
+      "ES": "Animals Training Grounds",
+      "FR": "Formation des Animaux",
+      "DE": "Animals Training Grounds",
+      "IT": "Stalle e Gabbie per Animali"
+    },
+    "description": {
+      "EN": "Build stables and cages on your studio lots to train and use animals in your movies. You make a point of treating them in the best possible way for public relations reasons.",
+      "ES": "Build stables and cages in your studios to train and use animals in your movies. You make a point of treating them in the best possible way for public relations reasons.",
+      "FR": "Construisez les écuries et les camps dans vos studios pour former et employer des animaux dans vos films. Vous faites  sûr de les traiter le mieux possible pour des raisons de relations publiques.",
+      "DE": "Build stables and cages in your studios to train and use animals in your movies. You make a point of treating them in the best possible way for public relations reasons.",
+      "IT": "Costruisci stalle e gabbie dove addestrare e tenere gli animali che usi nei tuoi film. Per motivi di pubbliche relazioni, li tratti nel miglior modo possibile."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "ArcadeGames": {
+    "id": "ArcadeGames",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Arcade Games",
+      "ES": "Arcade Games",
+      "FR": "Jeux d'arcade",
+      "DE": "Arkadenspiele",
+      "IT": "Sala giochi"
+    },
+    "description": {
+      "EN": "Your theaters are filled with videogames and pinball machines.",
+      "ES": "Your halls are filled with videogames and pinball machines.",
+      "FR": "Vos halls sont remplis de jeux vidéo et de flippers.",
+      "DE": "Ihre Hallen sind voller Videospiele und Flipper.",
+      "IT": "Le hall dei tuoi edifici sono dotate di videogiochi e flipper."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "AudiencePreScreening": {
+    "id": "AudiencePreScreening",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Audience Prescreening",
+      "ES": "Audience Pre Screening",
+      "FR": "Audience Avant-Première",
+      "DE": "Audience Pre Screening",
+      "IT": "Anteprime Selezionate"
+    },
+    "description": {
+      "EN": "Before shipping your movies to theaters you have in-house screenings to see if the audience is going to like it. It avoids flops and maintains the quality of your films at an acceptable standard.",
+      "ES": "Before shipping your movies to the theaters you have in house screening to see if the audience is going to like it. It avoids flops and maintains the quality to an acceptable standard.",
+      "FR": "Avant de bateler vos films aux théâtres vous avez un avant-première internes pour voir si l'audience laime. Il évite des navets et maintient la qualité à un niveau acceptable.",
+      "DE": "Before shipping your movies to the theaters you have in house screening to see if the audience is going to like it. It avoids flops and maintains the quality to an acceptable standard.",
+      "IT": "Prima di mandare i film nei cinema, organizzi delle visioni con un pubblico selezionato. In base alla loro reazione puoi evitare dei flop al botteghino e mantenere una qualità minima."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "master",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "AutomaticProjectorMachines": {
+    "id": "AutomaticProjectorMachines",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Automatic Projector Machines",
+      "ES": "Automatic Projector Machines",
+      "FR": "Cabine de projection automatique",
+      "DE": "Automatische Projektionsmaschinen",
+      "IT": "Proiettori automatici"
+    },
+    "description": {
+      "EN": "No need for projector operators. Unions complains.",
+      "ES": "No more need for machine operators. Unions complains.",
+      "FR": "Plus besoin d'un opérateur pour faire fonctionner la machine. Les syndicats se plaignent.",
+      "DE": "Kein Bedarf mehr für Bedienpersonal. Gewerkschaften protestieren.",
+      "IT": "Proiettori che non abbisognano di operatore. I sindacati protestano."
+    },
+    "properties": {
+      "price": 145000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 15
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "AwardsLobbyingStrategy": {
+    "id": "AwardsLobbyingStrategy",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Award Lobbying Strategy",
+      "ES": "Awards Lobbying Strategy",
+      "FR": "Stratégie de Pression pour Prime",
+      "DE": "Awards Lobbying Strategy",
+      "IT": "Pressione per Vincere Premi"
+    },
+    "description": {
+      "EN": "Lobby the organizers of famous award shows like the \"Intraworld Oscar\" to have your movies nominated in all categories.",
+      "ES": "Lobby with the organizers of famous prize shows like the Intraworld Oscars to have your movies nominate in all the categories.",
+      "FR": "Lobby with the organizers of famous prize shows like the Intraworld Oscars to have your movies nominate in all the categories.",
+      "DE": "Lobby with the organizers of famous prize shows like the Intraworld Oscars to have your movies nominate in all the categories.",
+      "IT": "Esercita una pressione sugli organizzatori di premi cinematografici, come gli Oscar Intramondo, per avere i tuoi film nominati."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": -10,
+      "level": "master",
+      "efficiency": 5
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "BigStarsOnly": {
+    "id": "BigStarsOnly",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Big Stars Only",
+      "ES": "Big Stars Only",
+      "FR": "Seulement Personnes Fameuses",
+      "DE": "Big Stars Only",
+      "IT": "Grosse Star Solamente."
+    },
+    "description": {
+      "EN": "Your movies only have the biggest stars in the principle roles. This is what filmgoers want.",
+      "ES": "Your movies have only the biggest stars in the main roles. They are what people want to watch on the screen.",
+      "FR": "Your movies have only the biggest stars in the main roles. They are what people want to watch on the screen.",
+      "DE": "Your movies have only the biggest stars in the main roles. They are what people want to watch on the screen.",
+      "IT": "I tuoi film hanno solo grosse star come protagonisti. Sono loro che il grande pubblico vuole vedere."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": -1,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "ActorsResort"
+    ]
+  },
+  "BlockbustersOnlyPolicy": {
+    "id": "BlockbustersOnlyPolicy",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Blockbuster-Only Policy",
+      "ES": "Blockbuster Only Policy",
+      "FR": "Politique de films à gros succès",
+      "DE": "Blockbuster-Politik",
+      "IT": "Solo film di cartello"
+    },
+    "description": {
+      "EN": "No artsy-fartsy cultural movies at your theaters. Check your brain at the entrance.",
+      "ES": "No artsy fartsy cultural movies. Check your brain at the entrance.",
+      "FR": "Pas de films culturels prétentieux. Faites vérifier votre cerveau à l'entrée.",
+      "DE": "Kein hochfliegenden Kulturfilme. Gehirnmasse an Eingang überprüfen.",
+      "IT": "Adotti una politica di scelta delle pellicole che non prevede film con pretese artistiche o culturali. Si prega di lasciare il cervello all'ingresso."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": -3,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": -1
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "CGIDevelopers": {
+    "id": "CGIDevelopers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "CGI Developers",
+      "ES": "CGI Developers",
+      "FR": "Programmeur de CGI",
+      "DE": "CGI Developers",
+      "IT": "Sviluppatori di CGI"
+    },
+    "description": {
+      "EN": "Your special effects department has a battery of computer artists. Produce artificial images for your movies that seem real to the audience.",
+      "ES": "Your Special Effects department has a battery of computer artists. Produce artificial images for your movies that seems real to the audience.",
+      "FR": "Your Special Effects department has a battery of computer artists. Produce artificial images for your movies that seems real to the audience.",
+      "DE": "Your Special Effects department has a battery of computer artists. Produce artificial images for your movies that seems real to the audience.",
+      "IT": "Il tuo dipartimento di effetti speciali ha stabilmente un gruppo di programmatori. I tuoi film hanno le migliore sequenze di Computer Graphic."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "SpecialEffectDepartment"
+    ]
+  },
+  "CultureOrientedMovies": {
+    "id": "CultureOrientedMovies",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Culturally Oriented Movies",
+      "ES": "Culture Oriented Movies",
+      "FR": "Films pour Cultures Particulières",
+      "DE": "Culture Oriented Movies",
+      "IT": "Film di Preciso Background Culturale"
+    },
+    "description": {
+      "EN": "Spaghetti westerns, Hong Kong style action, Japanese Monsters etc. Produce movies that appeal to particular cultures.",
+      "ES": "Spaghetti westerns, Hong Kong style action, Japanese Monsters etc. Produce movies that appeal to particular cultures.",
+      "FR": "Western Spaghetti, film daction de modèle Hong Kong, monstres Japonais etc... Films qui plait aux cultures particulières.",
+      "DE": "Spaghetti westerns, Hong Kong style action, Japanese Monsters etc. Produce movies that appeal to particular cultures.",
+      "IT": "Spaghetti western, film d'azione stile Hong Kong, mostri giapponesi ecc. Produci film che si rivolgono a specifici gruppi culturali."
+    },
+    "properties": {
+      "price": 200000000,
+      "level": "master",
+      "efficiency": 10
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "DiscountDay": {
+    "id": "DiscountDay",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Discount Day",
+      "ES": "Discount Day",
+      "FR": "Jour de remise",
+      "DE": "Sonderpreise",
+      "IT": "Giorno di riduzioni"
+    },
+    "description": {
+      "EN": "Once a week, on a fixed day, the price of tickets is halved.",
+      "ES": "Once a week, on a fixed day, the price of the tickets is halved.",
+      "FR": "Une fois par semaine, un jour donné, le prix des billets est réduit de moitié.",
+      "DE": "An einem bestimmten Tag der Woche werden die Eintrittskarten zum halben Preis verkauft.",
+      "IT": "Una volta alla settimana, sempre lo stesso giorno, il prezzo dei biglietti viene ridotto del 50%."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "desirability": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "DubbyingDepartment": {
+    "id": "DubbyingDepartment",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Dubbing Department",
+      "ES": "Dubbing Department",
+      "FR": "Département De Doublage",
+      "DE": "Dubbing Department",
+      "IT": "Dipartimento del Doppiaggio"
+    },
+    "description": {
+      "EN": "Dub your movies in order to reach a broader audience. Some people are too lazy to read subtitles.",
+      "ES": "Dub your movies to reach a broader audience. Some people don't like subtitles.",
+      "FR": "Doublez vos films pour atteindre plus de spectateurs. Certains specateurs n'aiment pas des sous-titres.",
+      "DE": "Dub your movies to reach a broader audience. Some people don't like subtitles.",
+      "IT": "Doppia i tuoi film per aumentare il pubblico potenziale. Ad alcune persone non piacciono i sottotitoli."
+    },
+    "properties": {
+      "price": 120000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "DVDFeatures": {
+    "id": "DVDFeatures",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "DVD Features",
+      "ES": "DVD Features",
+      "FR": "Caractéristiques de DVD",
+      "DE": "DVD Features",
+      "IT": "Materiale Bonus per i DVD"
+    },
+    "description": {
+      "EN": "While your movie is being shot, produce various extra features for the DVD. Film buffs love the interview with the director and similar behind-the-scenes footage.",
+      "ES": "While your movie is shot, produce various extra features to be put in the DVD disc. Film buffs love interviews with the director and similar things.",
+      "FR": "Tandis que votre film est tourné, les vedettes supplémentaires sont produites pour le DVD. Les mordus de film aiment beaucoup voir des entrevues avec le directeur et des choses semblables.",
+      "DE": "While your movie is shot, produce various extra features to be put in the DVD disc. Film buffs love interviews with the director and similar things.",
+      "IT": "Mentre stai girando il tuo film, produci materiale bonus da mettere nel disco DVD. Gli appassionati di film amano questo genere di cose."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "master",
+      "efficiency": 2,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "EditingDictatrship": {
+    "id": "EditingDictatrship",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Editing Dictatorship",
+      "ES": "Editing Dictatorship",
+      "FR": "Dictature de Rédation",
+      "DE": "Editing Dictatorship",
+      "IT": "Montaggio Dirigenziale"
+    },
+    "description": {
+      "EN": "Screw the director, as the producer you have the final say on how the movie is edited-the final cut.",
+      "ES": "Screw the director, as the producer you have the final say on the editing of the movie.",
+      "FR": "Baisez le directeur, comme le producteur vous avez lautorité définitive sur la version finale du film.",
+      "DE": "Screw the director, as the producer you have the final say on the editing of the movie.",
+      "IT": "Fregatene del regista, essendo tu il produttore é tua la decisione finale sul montaggio del film."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": -5,
+      "level": "master",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "ExperimentalFilmmaking": {
+    "id": "ExperimentalFilmmaking",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Experimental Filmmaking",
+      "ES": "Experimental Filmmaking",
+      "FR": "Filmmaking Expérimental",
+      "DE": "Experimental Filmmaking",
+      "IT": "Film Sperimentali"
+    },
+    "description": {
+      "EN": "Hire unknown directors with revolutionary ideas. The art is more important than the box office, sometimes.",
+      "ES": "Hire unknown directors with revolutionary ideas. The art is sometimes more important than the box office.",
+      "FR": "Engagez des directeurs inconnus avec des idées révolutionnaires. L'art est parfois plus important que la caisse.",
+      "DE": "Hire unknown directors with revolutionary ideas. The art is sometimes more important than the box office.",
+      "IT": "Assumi registi sconosciuti con idee rivoluzionarie. L'arte é più importante del botteghino a volte."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 15,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 5
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "ExtrasExploitation": {
+    "id": "ExtrasExploitation",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extras Exploitation",
+      "ES": "Extras Exploitation",
+      "FR": "Exploitation des Extras",
+      "DE": "Extras Exploitation",
+      "IT": "Sfruttamento delle comparse"
+    },
+    "description": {
+      "EN": "Underpay the extras in your movies. After all they just want to be close to their favorite stars.",
+      "ES": "Underpay the extras in your movies. After all they want just to be close the their favorite stars.",
+      "FR": "Sous-payez les extras dans vos films. Après tous, ils veulent être près de leurs vedettes préférées.",
+      "DE": "Underpay the extras in your movies. After all they want just to be close the their favorite stars.",
+      "IT": "Sottopaga le comparse dei tuoi film. Dopotutto lo fanno solo per stare vicino alle loro star preferite."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": -10,
+      "level": "master",
+      "efficiency": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "FeatureMagazine": {
+    "id": "FeatureMagazine",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Feature Magazine",
+      "ES": "Feature Magazine",
+      "FR": "Magazine Cinéma",
+      "DE": "Filmvorschau",
+      "IT": "Rivista sulle novità cinematografiche"
+    },
+    "description": {
+      "EN": "A monthly magazine that promotes upcoming feature movies in your theaters.",
+      "ES": "A monthly magazine that gives insights and anticipations about the upcoming feature movies in your theaters.",
+      "FR": "Mensuel fournissant un aperçu et des avis sur les films qui vont être à l'affiche dans vos cinémas.",
+      "DE": "Eine Monatszeitschrift, die Informationen und Vorschauen auf die bald in Ihren Kinos anlaufenden Filme gibt.",
+      "IT": "Un mensile che fornisce informazioni ed anticipazioni sui film di prossima uscita nelle tue sale."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "GoreExploitation": {
+    "id": "GoreExploitation",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Gore Exploitation",
+      "ES": "Gore Exploitation",
+      "FR": "Exploitation Sanglant",
+      "DE": "Gore Exploitation",
+      "IT": "Passione per il Gore"
+    },
+    "description": {
+      "EN": "Make low budget gory movies for a guaranteed core audience. This audience doesn't care about quality: good returns are a certainty.",
+      "ES": "Make low budget splatter movies for a core audience that guarantees a sure return. The quality is not important for them.",
+      "FR": "Faites des films sanglats de bas budget, des films avec un noyau qui garantit un retour. La qualité n'est pas importante pour eux.",
+      "DE": "Make low budget splatter movies for a core audience that guarantees a sure return. The quality is not important for them.",
+      "IT": "Produci film splatter a basso costo per un pubblico di appassionati a cui non interessa la qualità del film."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": -3,
+      "level": "master",
+      "efficiency": 2,
+      "quality": -3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "SpecialEffectDepartment"
+    ]
+  },
+  "ImperialChairs": {
+    "id": "ImperialChairs",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Imperial Chairs",
+      "ES": "Imperial Chairs",
+      "FR": "Fauteuils impériaux",
+      "DE": "Imperial-Sessel",
+      "IT": "Poltrone imperiali"
+    },
+    "description": {
+      "EN": "Your customers will love these extremely large and comfortable armchairs.",
+      "ES": "Your customers will love these extremely large and comfortable armchairs.",
+      "FR": "Vos clients adoreront ces fauteuils très spacieux et confortables.",
+      "DE": "Ihre Kunden werden von diesen sehr breiten und bequemen Sesseln begeistert sein.",
+      "IT": "I tuoi clienti non sapranno dire di no a queste ampie e comodissime poltrone."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "InHouseWriters": {
+    "id": "InHouseWriters",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "In-House Writers",
+      "ES": "In House Writers",
+      "FR": "Auteurs dans le Studio",
+      "DE": "In House Writers",
+      "IT": "Scrittori sotto Contratto"
+    },
+    "description": {
+      "EN": "Often scripts need last minute changes. You have a group of experienced writers in the studio ready to do the job.",
+      "ES": "Often scripts need last minute changes. You have a group of experienced writers in the studio ready to perform them.",
+      "FR": "Il ya souvent des changements aux manuscrits de derniers minute. Vous avez un groupe d'auteurs dexpérience dans le studio prêt à les exécuter.",
+      "DE": "Often scripts need last minute changes. You have a group of experienced writers in the studio ready to perform them.",
+      "IT": "Spesso le sceneggiature richiedono cambi dell'ultimo minuto. Per questo assumi un gruppo di scrittori esperti pronti ad intervenire."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "master",
+      "efficiency": -1,
+      "quality": 4
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "MovieStudios": {
+    "id": "MovieStudios",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Movie Studios",
+      "ES": "Movie Studios",
+      "FR": "Studios De Film",
+      "DE": "Movie Studios",
+      "IT": "Studi Cinematografici"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to get the License to manage Movie Studios.",
+      "ES": "Assimilate the knowledge to get the License to manage Movie Studios.",
+      "FR": "Assimilate the knowledge to get the License to manage Movie Studios.",
+      "DE": "Assimilate the knowledge to get the License to manage Movie Studios.",
+      "IT": "Conoscenza di base per gestire con successo Studi Cinematografici."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "master",
+      "nobility": 200
+    },
+    "industry_type": "MOVIE"
+  },
+  "MovieTheater": {
+    "id": "MovieTheater",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Movie Theater Basics",
+      "ES": "Movie Theaters Basics",
+      "FR": "Principes d'exploitation de salles de cinéma",
+      "DE": "Grundlagen Kinogeschäft",
+      "IT": "Fondamenti della gestione di sale cinematografiche"
+    },
+    "description": {
+      "EN": "Paperwork for managing movie theaters.",
+      "ES": "Paperwork for managing Movie Theaters.",
+      "FR": "Travail administratif de gestion de salles de cinéma.",
+      "DE": "Papiere für das Management von Kinosälen.",
+      "IT": "I documenti necessari a gestire sale cinematografiche."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice"
+    },
+    "industry_type": "MOVIE"
+  },
+  "Odorama": {
+    "id": "Odorama",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Odorama",
+      "ES": "Odorama",
+      "FR": "Odorama",
+      "DE": "Odorama",
+      "IT": "Odorama"
+    },
+    "description": {
+      "EN": "Along with images and sound, your theaters have special machines that emanate scents and smells according to the movie's happenings, truly placing customers \"in the scene\".",
+      "ES": "Along with the images and the sound, in your theaters special machines emanate perfumes and smells accordingly to the proceeding of the movies.",
+      "FR": "Dans vos cinémas, en plus de l'image et du son, des machines dispensent des parfums et des odeurs en fonction de ce qui se passe dans le film.",
+      "DE": "Zusammen mit den Bildern und den Geräuschen werden in Ihren Kinos auch Gerüche passend zum Film von Spezialmaschinen produziert.",
+      "IT": "Oltre alle immagini e ai suoni, le tue sale dispongono di apparecchi che diffondono particolari odori a seconda di ciò che accade nei vari momenti di un film."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "desirability": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "QuadrophonicSound": {
+    "id": "QuadrophonicSound",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Quadraphonic Sound",
+      "ES": "Quadrophonic Sound",
+      "FR": "Son en quadriphonie",
+      "DE": "Quadrofonie-Sound",
+      "IT": "Suono quadrofonico"
+    },
+    "description": {
+      "EN": "The best hi-fi sound system available: makes for a truly amazing listening experience.",
+      "ES": "The best hi-fi sounds available for a truly amazing listening experience.",
+      "FR": "Le meilleur son hi-fi possible pour une écoute véritablement extraordinaire.",
+      "DE": "Der beste verfügbare HiFi-Sound, für ein wahrhaft unvergessliches Klangerlebnis.",
+      "IT": "La migliore alta fedeltà possibile, per un'esperienza di ascolto davvero straordinaria."
+    },
+    "properties": {
+      "price": 65000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 4
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "SensoryOverload": {
+    "id": "SensoryOverload",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Sensory Overload",
+      "ES": "Sensory Overload",
+      "FR": "Surcharge sensorielle",
+      "DE": "Überfütterung der Sinne",
+      "IT": "Sovreccitazione sensoriale"
+    },
+    "description": {
+      "EN": "In theater cinemas, customers are exposed to excessive light and sound stimulation, masked as advertisements. They slip in a numb state and are more prone to spend.",
+      "ES": "In th hall of the theaters, the costumers' brains are exposed to excessive ligths and sounds stimulations, masked as advertisement. They slip in a numb state and are more prone to spend.",
+      "FR": "Dans le hall des cinémas, le cerveau des clients est soumis à des stimulations lumineuses et sonores excessives qui sont en fait des publicités. Ils passent dans un état d'engourdissement qui les poussent à la consommation.",
+      "DE": "In den Kinohallen werden die Kunde mit grellem Licht und  starker Geräuschkulisse empfangen, die als Werbung getarnt werden. Sie werden benommen und geben leichter Geld aus.",
+      "IT": "Nelle hall dei cinema i clienti vengono sottoposti a forti stimolazioni visive e uditive sotto forma di pubblicità. Ciò li intontisce e li rende maggiormente disposti a spendere denaro."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": -1
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "SequelsAndRemakes": {
+    "id": "SequelsAndRemakes",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Sequels and Remakes",
+      "ES": "Sequels And Remakes",
+      "FR": "Suites et Refait",
+      "DE": "Sequels And Remakes",
+      "IT": "Seguiti e Rifacimenti"
+    },
+    "description": {
+      "EN": "Sequels and remakes of successful movies are a guaranteed revenue-maker. A conservative approach to filmmaking, but it pays off at the box office.",
+      "ES": "Sequels and remakes of successful movies guarantees a sure revenue. Conservative attitude that pays at the box office.",
+      "FR": "Les suites et refait de films garanties un revenu sûr. Attitude conservatrice qui paye au loin à la caisse.",
+      "DE": "Sequels and remakes of successful movies guarantees a sure revenue. Conservative attitude that pays at the box office.",
+      "IT": "I seguiti e rifacimenti di film di successo garantiscono un sicuro ritorno. Non molto originale ma lucrativo."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "SpecialEffectDepartment": {
+    "id": "SpecialEffectDepartment",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Special Effects Department",
+      "ES": "Special Effect Department",
+      "FR": "Département D'Effet Spéciale",
+      "DE": "Special Effect Department",
+      "IT": "Dipartimento Effetti Speciali"
+    },
+    "description": {
+      "EN": "Hire a group of artists especially dedicated to special effects: ideal for science fiction and horror movies.",
+      "ES": "Hire a group of artists fully dedicated to special effect crafting. Ideal for Science Fiction and Horror movies.",
+      "FR": "Hire a group of artists fully dedicated to special effect crafting. Ideal for Science Fiction and Horror movies.",
+      "DE": "Hire a group of artists fully dedicated to special effect crafting. Ideal for Science Fiction and Horror movies.",
+      "IT": "Assumi un gruppo di artisti con il compito di creare Effetti Speciali. Fondamentale per film di Fantascenza e Horror."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "master",
+      "efficiency": -1,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "StraightToVideoPolicy": {
+    "id": "StraightToVideoPolicy",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Straight-to-Video Policy",
+      "ES": "Straight to Video Policy",
+      "FR": "Directement à Vidéo",
+      "DE": "Straight to Video Policy",
+      "IT": "Direttamente su Video"
+    },
+    "description": {
+      "EN": "If your movie bombs during the prescreening, you send it straight to video. No point in ruining the reputation of your studio with what is certain to be a flop.",
+      "ES": "If your movie bombs during the prescreening, you send it straight to video. No point of ruining the reputation of your studio with a sure flop.",
+      "FR": "Si ton film bombe pendant votre projection privé , vous l'envoient directement à vidéo. Aucun point à ruiner la réputation de votre studio avec un effondrement sûr.",
+      "DE": "If your movie bombs during the prescreening, you send it straight to video. No point of ruining the reputation of your studio with a sure flop.",
+      "IT": "Se il tuo film non entusiasma durante le anteprime, lo mandi direttamente nelle videoteche. Eviti così sicuri flop."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "AudiencePreScreening"
+    ]
+  },
+  "StudioTour": {
+    "id": "StudioTour",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Studio Tour",
+      "ES": "Studio's Tour",
+      "FR": "Excursion de Studio",
+      "DE": "Studio's Tour",
+      "IT": "Tour degli Studi"
+    },
+    "description": {
+      "EN": "Offer a studio tour to paying visitors. Another source of revenue and people are happy to take a peek at their favorite stars.",
+      "ES": "Offer a tour of the studio to paying visitors. Another source of income and people are happy to take a peek at their favorite stars.",
+      "FR": "Offer a tour of the studio to paying visitors. Another source of income and people are happy to take a peek at their favorite stars.",
+      "DE": "Offer a tour of the studio to paying visitors. Another source of income and people are happy to take a peek at their favorite stars.",
+      "IT": "Offri un giro turistico degli Studi a persone paganti. Un altra fonte di guadagno e la gente adora scorgere anche da lontano le loro star favorite."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 2,
+      "level": "master",
+      "efficiency": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "SubliminalMessages": {
+    "id": "SubliminalMessages",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Subliminal Messages",
+      "ES": "Subliminal Messages",
+      "FR": "Messages subliminaux",
+      "DE": "Unterbewusstseinswerbung",
+      "IT": "Messaggi subliminali"
+    },
+    "description": {
+      "EN": "Influence your customers to buy more food or come back again with hidden messages embedded in the movie.",
+      "ES": "Influence your customers to buy more food or come back again with hidden messages inserted between the photograms of the movie.",
+      "FR": "Influencez vos clients afin qu'ils achètent plus de nourriture ou reviennent chez vous grâce à des messages cachés insérés entre les images d'un film.",
+      "DE": "Regen Sie Ihre Kunden dazu an mehr Lebensmittel zu kaufen oder wiederzukommen, indem Sie versteckte Nachrichten in die Filme einschleusen.",
+      "IT": "Influenza i tuoi clienti perché tornino presto nel tuo cinema o acquistino più snack utilizzando messaggi nascosti tra i fotogrammi del film."
+    },
+    "properties": {
+      "price": 5000000,
+      "prestige": -15,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "TakeAwayTrailers": {
+    "id": "TakeAwayTrailers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Take-Out Trailers",
+      "ES": "Take Away Trailers",
+      "FR": "Bandes-annonces à emporter",
+      "DE": "Auszüge zum Mitnehmen",
+      "IT": "Trailer da portar via"
+    },
+    "description": {
+      "EN": "Distribution of free videos of upcoming movie trailers, for customer's home viewing.",
+      "ES": "Distribution of free cassettes to the customers with the trailers of upcoming movies. They can vision them at home.",
+      "FR": "Distribution gratuite de cassettes aux clients avec les bandes-annonces des films bientôt à l'affiche. Ils peuvent les visionner chez eux.",
+      "DE": "Austeilung von Gratiskassetten mit Auszügen aus den bald erscheinenden Filmen. Zu Anschauen für Zuhause.",
+      "IT": "Distribuzione ai clienti di cassette gratuite da visionare a casa con i trailer dei film di prossima uscita."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "TemperatureVarations": {
+    "id": "TemperatureVarations",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Temperature Variations",
+      "ES": "Temperature Varations",
+      "FR": "Ecarts de température",
+      "DE": "Temperaturschwankungen",
+      "IT": "Variazioni della temperatura"
+    },
+    "description": {
+      "EN": "The heat and air conditioning units vary the theater's temperature according to the locations shown in the movie: makes for a more intense and realistic experience.",
+      "ES": "The heat and air condition units variate the temperature in the theater according to the locations shown in the movie. For a more intense and realistic experience.",
+      "FR": "Les unités de chauffage et d'air conditionné font varier la température dans le cinéma selon le lieu de l'action du film. Pour une expérience plus intense et réaliste.",
+      "DE": "Die Heiz- und Klimaeinrichtungen der Kinos verändern die Atmosphäre in den Sälen je nach Filmkontext. Für ein intensiveres und realistisches Erlebnis.",
+      "IT": "Gli impianti di riscaldamento ed aria condizionata della sala fanno salire e scendere la temperatura a seconda dell'ambientazione delle scene del film. Per una esperienza di maggiore realismo."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "TightShootingSchedule": {
+    "id": "TightShootingSchedule",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Tight Shooting Schedules",
+      "ES": "Tight Shooting Schedule",
+      "FR": "Programme de Tourner Serré",
+      "DE": "Tight Shooting Schedule",
+      "IT": "Stretta Tabella di Marcia"
+    },
+    "description": {
+      "EN": "It's imperative that your crews stay on deadline. You don't want the movie budget to explode.",
+      "ES": "It's imperative that your crew stays in the deadline for the shooting of the movie. You don't want the budget to explode.",
+      "FR": "It's imperative that your crew stays in the deadline for the shooting of the movie. You don't want the budget to explode.",
+      "DE": "It's imperative that your crew stays in the deadline for the shooting of the movie. You don't want the budget to explode.",
+      "IT": "Per evitare che il budget esploda, le tue troupes devono rispettare una rigorosa tabella di marcia."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": -2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieStudios"
+    ]
+  },
+  "TouchStimulation": {
+    "id": "TouchStimulation",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Touch Stimulation",
+      "ES": "Touch Stimulation",
+      "FR": "Stimulation du toucher",
+      "DE": "Berührungsstimulierung",
+      "IT": "Stimolazione tattile"
+    },
+    "description": {
+      "EN": "Devices on armrests apply pressure on fingers and palms to stimulate the same emotions and stresses in the film.",
+      "ES": "On the arms of your chairs devices are placed on which the viewer put his or her hands. Pressure is applied on the fingers and the palms to cause emotions and stresses according to the story shown.",
+      "FR": "Des dispositifs sont placés sur les accoudoirs de vos fauteuils sur lesquels les spectateurs peuvent poser leurs mains. Des pressions sont exercées sur les doigts et sur la paume des mains pour créer des émotions et des tensions en fonction de l'histoire.",
+      "DE": "In den Lehnen Ihrer Sessel werden Geräte installiert, auf die der Zuschauer seine Hände legt. Durch einen Druck auf die Finger und Handflächen werden Emotionen ausgelöst, die zum Film passen.",
+      "IT": "Gli spettatori poggiano le mani su speciali dispositivi contenuti nei braccioli che stimolano palme e dita, trasmettendo tensioni ed emozioni in accordo con il contenuto delle varie scene."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "XRatedMovies": {
+    "id": "XRatedMovies",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "X-Rated Movies",
+      "ES": "X Rated Movies",
+      "FR": "Films X",
+      "DE": "X-Filme",
+      "IT": "Film vietati ai minori"
+    },
+    "description": {
+      "EN": "Some of your theaters feature adult only films.",
+      "ES": "Some of your theaters feature adult only programmation.",
+      "FR": "Certains de vos cinémas projettent uniquement des films pour adultes.",
+      "DE": "Einige Ihrer Kinos haben nur Filme für Erwachsene im Programm.",
+      "IT": "Alcune delle tue sale proiettano film vietati ai minori."
+    },
+    "properties": {
+      "price": 5000000,
+      "prestige": -50,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": 3
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  },
+  "YearlyFestival": {
+    "id": "YearlyFestival",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Yearly Festival",
+      "ES": "Yearly Festival",
+      "FR": "Festival annuel",
+      "DE": "Jährliches Festival",
+      "IT": "Festival annuale"
+    },
+    "description": {
+      "EN": "Every year your theaters feature a theme movie festival.",
+      "ES": "Every year your theaters feature a theme movie festival.",
+      "FR": "Chaque année, vos cinémas organisent un festival du film autour d'un thème.",
+      "DE": "Jedes Jahr findet in Ihren Kinos ein Filmfestival über ein bestimmtes Thema statt.",
+      "IT": "Ogni anno le tue sale ospitano un festival del cinema."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "MOVIE",
+    "depends_on": [
+      "MovieTheater"
+    ]
+  }
+}

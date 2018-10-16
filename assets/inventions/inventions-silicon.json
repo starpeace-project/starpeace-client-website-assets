@@ -1,0 +1,477 @@
+{
+  "SiliconAdvGeology": {
+    "id": "SiliconAdvGeology",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Geology",
+      "ES": "Advanced Geology",
+      "FR": "Géologie avancée",
+      "DE": "Advanced Geology",
+      "IT": "Geologia avanzata"
+    },
+    "description": {
+      "EN": "Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.",
+      "ES": "Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.",
+      "FR": "Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.",
+      "DE": "Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.",
+      "IT": "Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": 10,
+      "level": "tycoon"
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconAdvMinSec": {
+    "id": "SiliconAdvMinSec",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Mine Security",
+      "ES": "Advanced Mines Security",
+      "FR": "Sécurité minière avancée",
+      "DE": "Advanced Mines Security",
+      "IT": "Nozioni avanzate di sicurezza delle miniere"
+    },
+    "description": {
+      "EN": "Protect your workers from the toxic emissions, native to the planet.",
+      "ES": "Protect your workers from the native toxic emissions.",
+      "FR": "Protégez vos ouvriers contre les émissions naturelles toxiques.",
+      "DE": "Protect your workers from the native toxic emissions.",
+      "IT": "Proteggi i tuoi operai dalle emissioni tossiche."
+    },
+    "properties": {
+      "price": 210000000,
+      "prestige": 100,
+      "level": "tycoon",
+      "efficiency": -1,
+      "quality": -1
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconAdvGeology"
+    ]
+  },
+  "SiliconAdvOreSensors": {
+    "id": "SiliconAdvOreSensors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Silicon Sensors",
+      "ES": "Advanced Ore Sensors",
+      "FR": "Détecteurs de minerais avancés",
+      "DE": "Advanced Ore Sensors",
+      "IT": "Sensori minerari avanzati"
+    },
+    "description": {
+      "EN": "Develop more efficient methods to detect impurities in silicon.",
+      "ES": "Develop more efficent methods to detect impurities in ore.",
+      "FR": "Développez des méthodes plus efficaces de détection des impuretés dans les minerais.",
+      "DE": "Develop more efficent methods to detect impurities in ore.",
+      "IT": "Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 10
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconAirConducts": {
+    "id": "SiliconAirConducts",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extra Air Shafts",
+      "ES": "Extra Air Conducts",
+      "FR": "Conduits d'aération supplémentaires",
+      "DE": "Extra Air Conducts",
+      "IT": "Condotte supplementari per l'aria"
+    },
+    "description": {
+      "EN": "Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.",
+      "ES": "Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.",
+      "FR": "Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.",
+      "DE": "Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.",
+      "IT": "Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -10
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconExoscheletons": {
+    "id": "SiliconExoscheletons",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Exoskeletons",
+      "ES": "Exoscheletons",
+      "FR": "Exosquelettes",
+      "DE": "Exoscheletons",
+      "IT": "Esoscheletri"
+    },
+    "description": {
+      "EN": "The miners use hydraulic exoskeletons to extract the ore, this method is very fast but not as precise.",
+      "ES": "The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.",
+      "FR": "Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.",
+      "DE": "The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.",
+      "IT": "I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso."
+    },
+    "properties": {
+      "price": 325000000,
+      "level": "tycoon",
+      "efficiency": 40,
+      "quality": -10
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconExtMining": {
+    "id": "SiliconExtMining",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Mining",
+      "ES": "Extraterrestrial Mining",
+      "FR": "Exploitation minière du sol extraterrestre",
+      "DE": "Extraterrestrial Mining",
+      "IT": "Tecniche minerarie extraterrestri"
+    },
+    "description": {
+      "EN": "Stop mining the same way you did on earth; take advantage of specific planet conditions.",
+      "ES": "Stop mining like you were on Earth. Take advantage of the specific planet conditions.",
+      "FR": "Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.",
+      "DE": "Stop mining like you were on Earth. Take advantage of the specific planet conditions.",
+      "IT": "Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconAdvGeology"
+    ]
+  },
+  "SiliconLSMining": {
+    "id": "SiliconLSMining",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Scale Mining",
+      "ES": "Large Scale Minning",
+      "FR": "Exploitation minière à grande échelle",
+      "DE": "Large Scale Minning",
+      "IT": "Attività minerarie su vasta scala"
+    },
+    "description": {
+      "EN": "Learn the basic skills to manage large mines.",
+      "ES": "Learn the basic skills to manage big mines.",
+      "FR": "Apprenez les principes élémentaires de gestion de mines de grande envergure.",
+      "DE": "Learn the basic skills to manage big mines.",
+      "IT": "Apprendi le competenze di base per la gestione di grandi miniere."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "master"
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconMagneticElev": {
+    "id": "SiliconMagneticElev",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Magnetic Elevators",
+      "ES": "Magnetic Elevators",
+      "FR": "Ascenseurs magnétiques",
+      "DE": "Magnetic Elevators",
+      "IT": "Ascensori magnetici"
+    },
+    "description": {
+      "EN": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
+      "ES": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
+      "FR": "Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.",
+      "DE": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
+      "IT": "Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "tycoon",
+      "efficiency": 2
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconMicroExplosions": {
+    "id": "SiliconMicroExplosions",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Microexplosions",
+      "ES": "MicroExplosions",
+      "FR": "Micro-explosions",
+      "DE": "MicroExplosions",
+      "IT": "Microesplosioni"
+    },
+    "description": {
+      "EN": "Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore deposits.",
+      "ES": "Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.",
+      "FR": "Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.",
+      "DE": "Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.",
+      "IT": "Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche."
+    },
+    "properties": {
+      "price": 145000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": -15,
+      "quality": 25
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconMinersLocators": {
+    "id": "SiliconMinersLocators",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Miner Locators",
+      "ES": "Miners Locators",
+      "FR": "Système de repérage des mineurs",
+      "DE": "Miners Locators",
+      "IT": "Trasmettitori per minatori"
+    },
+    "description": {
+      "EN": "Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.",
+      "ES": "Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.",
+      "FR": "Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.",
+      "DE": "Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.",
+      "IT": "Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 20,
+      "level": "tycoon",
+      "efficiency": -3
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconMining": {
+    "id": "SiliconMining",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mining Basics",
+      "ES": "Mining Basics",
+      "FR": "Principes d'exploitation minière",
+      "DE": "Mining Basics",
+      "IT": "Fondamenti dell'industria mineraria"
+    },
+    "description": {
+      "EN": "Learn the basic skills to deal with mining.",
+      "ES": "Learn the basic skills to deal with minery.",
+      "FR": "Apprenez les principes vous permettant de vous occuper d'exploitation minière.",
+      "DE": "Learn the basic skills to deal with minery.",
+      "IT": "Apprendi le nozioni fondamentali per la gestione di attività minerarie."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "tycoon"
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "SiliconMiningBacteria": {
+    "id": "SiliconMiningBacteria",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mining Bacteria",
+      "ES": "Mining Bacteria",
+      "FR": "Bactéries utilisées dans l'exploitation minière",
+      "DE": "Mining Bacteria",
+      "IT": "Batteri per gli scavi minerari"
+    },
+    "description": {
+      "EN": "Create large populations of rock eating bacteria to facilitate access to silicon. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.",
+      "ES": "Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.",
+      "FR": "Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.",
+      "DE": "Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.",
+      "IT": "Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici."
+    },
+    "properties": {
+      "price": 365000000,
+      "prestige": -10,
+      "level": "tycoon",
+      "efficiency": -2,
+      "quality": 40
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconAdvGeology"
+    ]
+  },
+  "SiliconMiningDroids": {
+    "id": "SiliconMiningDroids",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mining Droids",
+      "ES": "Mining Droids",
+      "FR": "Droïdes de minage",
+      "DE": "Mining Droids",
+      "IT": "Minatori droidi"
+    },
+    "description": {
+      "EN": "Replace humans with droids to work on the most dangerous tasks.",
+      "ES": "Replace humans by droids on the most dangerous tasks.",
+      "FR": "Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.",
+      "DE": "Replace humans by droids on the most dangerous tasks.",
+      "IT": "Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose."
+    },
+    "properties": {
+      "price": 220000000,
+      "level": "tycoon",
+      "efficiency": 5,
+      "quality": -3
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconOreAdulteration": {
+    "id": "SiliconOreAdulteration",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Silicon Adulteration",
+      "ES": "Ore Adulteration",
+      "FR": "Adultération du minerai",
+      "DE": "Ore Adulteration",
+      "IT": "Adulterazione dei minerali"
+    },
+    "description": {
+      "EN": "Learn how to introduce doses of common rock in order to increase production.",
+      "ES": "Learn how to introduce dosages of common rocks in order to increase production.",
+      "FR": "Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.",
+      "DE": "Learn how to introduce dosages of common rocks in order to increase production.",
+      "IT": "Impara come fare ad introdurre minerali comuni nei prodotti estrattivi onde accrescerne il volume."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -150,
+      "level": "tycoon",
+      "efficiency": 30,
+      "quality": -35
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconRemoteControlledCarts": {
+    "id": "SiliconRemoteControlledCarts",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Remote Control Carts",
+      "ES": "Remote Controlled Carts",
+      "FR": "Chariots télécommandés",
+      "DE": "Remote Controlled Carts",
+      "IT": "Carrelli telecomandati"
+    },
+    "description": {
+      "EN": "The mining carts are controlled remotely from a centralized office.",
+      "ES": "The mining carts are controlled from a centralized office.",
+      "FR": "Les chariots des mineurs sont contrôlés à partir d'un bureau central.",
+      "DE": "The mining carts are controlled from a centralized office.",
+      "IT": "I carrelli delle miniere sono controllati da un ufficio centralizzato."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "tycoon",
+      "efficiency": 5
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconMining"
+    ]
+  },
+  "SiliconSteamDrills": {
+    "id": "SiliconSteamDrills",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Steam Drills",
+      "ES": "Steam Drills",
+      "FR": "Forage à la vapeur",
+      "DE": "Steam Drills",
+      "IT": "Trivelle a vapore"
+    },
+    "description": {
+      "EN": "Use highly dense steam-beams to melt rock and uncover ore.",
+      "ES": "Use higly dense steam-beams to melt rocks and uncover ore.",
+      "FR": "Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.",
+      "DE": "Use higly dense steam-beams to melt rocks and uncover ore.",
+      "IT": "Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "tycoon",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconAirConducts"
+    ]
+  },
+  "SiliconUndergroundCharting": {
+    "id": "SiliconUndergroundCharting",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Underground Charting",
+      "ES": "Underground Charting",
+      "FR": "Etablissement de cartes souterraines",
+      "DE": "Underground Charting",
+      "IT": "Mappatura del sottosuolo"
+    },
+    "description": {
+      "EN": "Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.",
+      "ES": "Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.",
+      "FR": "Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.",
+      "DE": "Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.",
+      "IT": "Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza."
+    },
+    "properties": {
+      "price": 165000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": 7,
+      "quality": 5
+    },
+    "industry_type": "SILICON",
+    "depends_on": [
+      "SiliconAdvGeology"
+    ]
+  }
+}

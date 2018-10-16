@@ -4,7 +4,7 @@ path = require('path')
 _ = require('lodash')
 
 class BuildingDefinition
-  constructor: (@id, @image, @zone, @hit_area, @tile_width, @tile_height, @effects) ->
+  constructor: (@id, @image_path, @zone, @hit_area, @tile_width, @tile_height, @effects) ->
 
   to_compiled_json: () ->
     {

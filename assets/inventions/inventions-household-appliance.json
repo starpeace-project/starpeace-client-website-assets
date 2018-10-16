@@ -1,0 +1,862 @@
+{
+  "24HoursTechnicalService": {
+    "id": "24HoursTechnicalService",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "24 Hour Technical Service",
+      "ES": "24 Hours Technical Service",
+      "FR": "Service technique 24 heures sur 24",
+      "DE": "24-Stunden-Technikservice",
+      "IT": "Servizio di assistenza tecnica 24 ore su 24"
+    },
+    "description": {
+      "EN": "Your TV breaks at the start of a football game. Your air conditioner blows up in the middle of the hottest day of the year. Call our technicians and in half an hour someone will be at your house!!",
+      "ES": "Your TV breaks at the start of a football game? Your air condition blows up in the middle of the hottest day of the year? Call our technicians and in half an hour someone will be at your house!!",
+      "FR": "Votre TV tombe en panne au début d'un match de foot ? Votre climatiseur explose le jour le plus chaud de l'année ? Appelez nos techniciens et quelqu'un sera chez vous une demi-heure plus tard !",
+      "DE": "Ihr Fernseher gibt zu Beginn des Fußballspiels den Geist auf? Ihre Klimaanlage fällt am heißesten Tag des Jahres aus? Rufen Sie unsere Techniker an, in einer halben Stunde sind sie bei Ihnen.",
+      "IT": "La tua TV si rompe all'inizio di una partita? Il tuo condizionatore va in corto nella giornata più calda dell'anno? Basta una telefonata ed i nostri tecnici accorreranno nel giro di mezz'ora!"
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "AlienAlarm": {
+    "id": "AlienAlarm",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alien Alarm",
+      "ES": "Alien Alarm",
+      "FR": "Alerte extraterrestre",
+      "DE": "Außerirdische-Alarm",
+      "IT": "Allarme alieni"
+    },
+    "description": {
+      "EN": "You create an alarm that measures the temperature and chemical emissions of whoever enters the house. If it's not human, the alarm automatically alerts police.",
+      "ES": "You create an alarm that examine the temperature and chemical emissions of whoever enters the house. If it's not on human standards, it alerts the police.",
+      "FR": "Vous créez une alarme qui examine la température et les émissions chimiques des personnes qui entrent dans la maison. S'il s'agit d'éléments non humains, la police est alertée.",
+      "DE": "Sie stellen ein Alarmsystem her, das die Temperatur und die chemischen Emissionen aller Personen analysiert, die das Haus betreten. Sind diese nicht menschlich, wird die Polizei gerufen.",
+      "IT": "Crei un allarme che rileva la temperatura e le emissioni chimiche di chi entra in casa. Se gli standard non sono di tipo umano, viene automaticamente contattata la polizia."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 20,
+      "level": "apprentice"
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "ArtificialPets": {
+    "id": "ArtificialPets",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Artificial Pets",
+      "ES": "Artificial Pets",
+      "FR": "Animaux de compagnie artificiels",
+      "DE": "Künstliche Haustiere",
+      "IT": "Animali domestici artificiali"
+    },
+    "description": {
+      "EN": "Small robots that resemble cats, dog or birds, benefit from only experiencing the positive part of having a pet: perceived as unnatural and sick by some.",
+      "ES": "Small robots that resemble cats, dog or cage birds. Only the nice part of having a pet. Perceived as unnatural and sick by some.",
+      "FR": "Petits robots ressemblant à des chats, des chiens ou des oiseaux en cage. Pour navoir que les avantages des animaux, sans les inconvénients. Certaines personnes voient cela comme peu naturel et pervers.",
+      "DE": "Kleine Roboter, die wie Katzen, Hunde oder Vögel aussehen. Nur das Gute am Haustier. Von einigen als unnatürlich und krankhaft angesehen.",
+      "IT": "Piccoli robot dall'aspetto di gatti, cani o uccellini, e che non richiedono particolari cure. C'è chi pensa che si tratti di un'idea morbosa e ripugnante."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": -4,
+      "quality": 10
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "CoinsSlot": {
+    "id": "CoinsSlot",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Coin Slots",
+      "ES": "Coins Slot",
+      "FR": "Fente pour pièces de monnaie",
+      "DE": "Münzschlitz",
+      "IT": "Elettrodomestici a gettone"
+    },
+    "description": {
+      "EN": "Appliances that only work by inserting money, the customer gets the key to collect the money. Useful for big families to save money; appliances are used less and last longer.",
+      "ES": "Appliances that work only paying. The buyer has the key to collect money. To be used by big families to save money. The machines are used less and last longer.",
+      "FR": "Appareils utilisés uniquement pour le paiement. L'acheteur dispose d'une clé pour collecter l'argent. A utiliser dans les familles nombreuses pour économiser l'argent. Les machines sont moins utilisées et durent plus longtemps.",
+      "DE": "Geräte, die nur bei Bezahlung funktionieren. Der Käufer hat den Schlüssel, um das Geld einzusammeln. Für Großfamilien zur Geldersparnis. Die Maschinen werden seltener gebraucht und halten länger.",
+      "IT": "Elettrodomestici che funzionano a moneta, per permettere alle famiglie numerose di risparmiare (in quanto si usano di meno). L'acquirente riceve una chiave per raccogliere il denaro."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "DisintegratingBins": {
+    "id": "DisintegratingBins",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Disintegrating Bins",
+      "ES": "Disintegrating Bins",
+      "FR": "Poubelles à désintégration",
+      "DE": "Abfallzerstörender Mülleimer",
+      "IT": "Bidoni che disintegrano l'immondizia"
+    },
+    "description": {
+      "EN": "Tired of putting the garbage out? These bins vaporize garbage into the atmosphere.",
+      "ES": "Tired of bringing the garbage out? These bins vaporize the garbage in the atmosphere.",
+      "FR": "Fatigué de sortir les ordures ? Ces poubelles vaporisent les déchets dans l'atmosphère.",
+      "DE": "Keine Lust mehr, den Müll wegzubringen? Diese Mülleimer zerstäubt den Abfall in der Atmosphäre.",
+      "IT": "Stanchi di portar fuori la spazzatura? Questi bidoni la vaporizzano nell'atmosfera."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -2,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "FakeFireplaces": {
+    "id": "FakeFireplaces",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Fake Fireplace",
+      "ES": "Fake Fireplaces",
+      "FR": "Fausses cheminées",
+      "DE": "Falsche Kamine",
+      "IT": "Finti caminetti"
+    },
+    "description": {
+      "EN": "The fireplace is shown on a video however, it's connected to the house's heating system so that when the customer turns it on, the temperature in the house automatically increases.",
+      "ES": "Fireplaces shown on a video. It is connected to the heating system of the house, so that, when the customer turn it on, the temperature in the house automatically goes up.",
+      "FR": "Cheminée vidéo. Elle est connectée au système de chauffage de la maison. Ainsi, lorsque le client l'allume, la température de la maison s'élève.",
+      "DE": "Kamine werden auf einem Video gezeigt. Sie sind mit dem Heizungssystem des Hauses verbunden, so dass sie Temperatur im Haus steigt, wenn das Video läuft.",
+      "IT": "Caminetti riprodotti su videocassetta. Essi sono collegati al riscaldamento della casa, in modo che alla loro accensione si accompagni l'aumento della temperatura."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "FinalEntertainmentSystem": {
+    "id": "FinalEntertainmentSystem",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Comprehensive Entertainment System",
+      "ES": "Final Entertainment System",
+      "FR": "Système de divertissement",
+      "DE": "Ultimatives Unterhaltungssystem",
+      "IT": "Postazione multimediale"
+    },
+    "description": {
+      "EN": "The ultimate multimedia machine, everything is connected to a computer that acts as a central station: TV, stereo, Internet, videogames all together.",
+      "ES": "The final multimedia machine, everything is connected to a computer that acts as a central station. TV, stereo, Internet, videogames all togheter.",
+      "FR": "Le nec plus ultra de la machine multimédia, tout est connecté à un ordinateur qui joue le rôle de poste central. TV, chaîne Hi-fi, Internet, jeux vidéo, tout ensemble.",
+      "DE": "Die ultimative Multimediamaschine. Alles ist an einen Computer angeschlossen, der als Zentrale funktioniert: Fernseher, Stereoanlage, Internet, Videospiele.",
+      "IT": "Il non-plus-ultra in fatto di multimedialità, questa postazione coordina televisione, stereo, Internet, e console per videogiochi."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": 1,
+      "desirability": 2
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "FullHouseSpecial": {
+    "id": "FullHouseSpecial",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "House Special",
+      "ES": "Full House Special",
+      "FR": "Vente exceptionnelle",
+      "DE": "Sonderangebot Kompletteinrichtung",
+      "IT": "Elettrodomestici per tutta la casa"
+    },
+    "description": {
+      "EN": "A special discount to customers that buy all their appliances from your store. Given the high number of purchases, you are able to sneak in some lower quality pieces.",
+      "ES": "Special discount to the clients that accept to buy all the appliances from your store. Given the high number of purchases, you are able to slid in some low quality pieces.",
+      "FR": "Une remise exceptionnelle est accordée aux clients qui acceptent d'acheter tous les appareils proposés dans votre magasin. L'achat étant important, vous pouvez vous débarrasser d'articles de mauvaise qualité.",
+      "DE": "Ein Sonderangebot für Kunden, die alle Ihre Geräte in Ihrem Geschäft kaufen. Durch die große Anzahl von Käufen gelingt es Ihnen, einige Billigprodukte loszuwerden.",
+      "IT": "Uno sconto speciale per i clienti che decidono di acquistare tutti i loro elettrodomestici presso il tuo negozio. Dato l'altro numero di articoli, riesci a sbolognare anche apparecchi di bassa qualità."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "GeneralRemote": {
+    "id": "GeneralRemote",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "General Remote",
+      "ES": "General Remote",
+      "FR": "Télécommande générale",
+      "DE": "Universal-Fernbedienung",
+      "IT": "Telecomando universale"
+    },
+    "description": {
+      "EN": "All the appliances in the customer's house are operated by one remote control.",
+      "ES": "All the appliances in the customers' houses are operated with only one remote control.",
+      "FR": "Tous les appareils des maisons des clients fonctionnent à l'aide d'une seule télécommande.",
+      "DE": "Alle Geräte im Haus des Kunden werden von einer einzigen Fernbedienung gesteuert.",
+      "IT": "Tutti gli elettrodomestici di casa possono essere controllati da un unico telecomando."
+    },
+    "properties": {
+      "price": 110000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 12
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "HHALic": {
+    "id": "HHALic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Appliances Production",
+      "ES": "Appliances Production",
+      "FR": "Production d'appareils",
+      "DE": "Haushaltsgeräteproduktion",
+      "IT": "Produzione di elettrodomestici"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to get the License to manage Household Appliances factories.",
+      "ES": "Assimilate the knowledge to get the License to manage Household Appliances factories.",
+      "FR": "Assimilez les principes afin d'obtenir l'autorisation de gérer des usines d'électroménager.",
+      "DE": "Eignen Sie sich das Wissen an, das Sie benötigen, um eine Fabrik für Haushaltsgeräte zu managen.",
+      "IT": "Apprendi le conoscenze di base per ottenere la licenza per la gestione di fabbriche di elettrodomestici."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice"
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "HiddenMachines": {
+    "id": "HiddenMachines",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Hidden Appliances",
+      "ES": "Hidden Machines",
+      "FR": "Appareils cachés",
+      "DE": "Versteckte Maschinen",
+      "IT": "Macchine nascoste"
+    },
+    "description": {
+      "EN": "For people who doesn't want to see appliances in their house, moveable panels and fake walls hide them.",
+      "ES": "For people who doesn't want to see in their house the appliances, you hide them behind movable panels and fake walls.",
+      "FR": "Certaines personnes ne supportent pas la vue d'appareils électroménagers dans leur maison. C'est pour eux que vous les cachez derrière des panneaux mobiles et de faux murs.",
+      "DE": "Für Personen, die die Maschinen in ihren Häusern nicht sehen wollen, verstecken Sie diese hinter Holzpaneelen und falschen Wänden.",
+      "IT": "Nascondi gli elettrodomestici dietro pannelli scorrevoli e finte pareti, per coloro che non vogliono vederli in giro per casa."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "HiFiDirectionalSpeakers": {
+    "id": "HiFiDirectionalSpeakers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Hi-Fi Directional Speakers",
+      "ES": "Hi Fi Directional Speakers",
+      "FR": "Haut-parleurs hi-fi directionnels",
+      "DE": "HiFi Direktlautsprecher",
+      "IT": "Casse direzionali per hi-fi"
+    },
+    "description": {
+      "EN": "Special ventriloquist-like speakers that project music directly into the listener's ears.",
+      "ES": "Special ventriloquist-like speakers. They project the music directly in the listeners ears.",
+      "FR": "Haut-parleurs ventriloques. Ils envoient la musique directement dans les oreilles de ceux qui l'écoutent.",
+      "DE": "Lautsprecher, die wie Bauchredner funktionieren; sie leiten die Musik direkt in die Ohren des Zuhörers.",
+      "IT": "Speciali altoparlanti che proiettano la musica direttamente nelle orecchie di chi ascolta."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -4,
+      "quality": 8
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "HiFiRoom": {
+    "id": "HiFiRoom",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Hi-Fi Room",
+      "ES": "Hi Fi Room",
+      "FR": "Pièce hi-fi",
+      "DE": "HiFi Raum",
+      "IT": "Stanza per l'alta fedeltà"
+    },
+    "description": {
+      "EN": "There is a room in the store with the best listening environment possible, specifically for trying out all the different stereo systems.",
+      "ES": "In the store, a room is prepared for trying all the different stereo system in the best listening environment.",
+      "FR": "Dans le magasin, une pièce à été aménagée pour essayer les différentes chaînes hi-fi dans l'environnement qui convient le mieux.",
+      "DE": "Im Geschäft wird ein Raum eingerichtet, der das Testen der verschiedenen Stereosysteme unter den besten akustischen Voraussetzungen ermöglicht.",
+      "IT": "Nel negozio è stata approntata una stanza che permette di provare i diversi sistemi stereo in condizioni acustiche ideali."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "HolographicTV": {
+    "id": "HolographicTV",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Holographic TV",
+      "ES": "Holographic TV",
+      "FR": "TV holographique",
+      "DE": "Holografisches Fernsehen",
+      "IT": "TV olografica"
+    },
+    "description": {
+      "EN": "Revolutionary 3D TV. With this holographic technology TV viewers don't need to wear annoying 3D glasses.",
+      "ES": "Revolutionary 3D TV. The holographic technology avoid the viewer to wear annoying special glasses.",
+      "FR": "TV en trois dimensions révolutionnaire. La technologie des hologrammes évite aux spectateurs de porter des lunettes spéciales qui les gênent.",
+      "DE": "Revolutionäres 3D-Fernsehen. Die holografische Technologie erspart dem Zuschauer das Tragen von Spezialbrillen.",
+      "IT": "Una rivoluzionaria televisione tridimensionale. La tecnologia olografica fa sì che gli spettatori non debbano indossare scomodi occhiali."
+    },
+    "properties": {
+      "price": 45000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "HomeTheatres": {
+    "id": "HomeTheatres",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Home Theater",
+      "ES": "Home Theatres",
+      "FR": "Cinéma de salon",
+      "DE": "Heimkino",
+      "IT": "Home Theatre"
+    },
+    "description": {
+      "EN": "Build the perfect room for listening to music and watching TV in the client's house. Provide everything that's needed: from quadraphonic sound to ergonomic chairs.",
+      "ES": "Build in the client's house the perfect room to listen to music and watch TV. All it's needed, from quadrophonic sound to ergonomic chairs.",
+      "FR": "Construisez, chez votre client, une pièce parfaite pour écouter de la musique et regarder la télévision. Tout y est : du son en quadriphonie aux fauteuils ergonomiques.",
+      "DE": "Bauen Sie in die Häuser Ihrer Kunden den perfekten Raum, um Musik zu hören und fern zu sehen. Alles was dazu nötig ist, von ergonomischen Sesseln bis zu Quadrofonie-Sound.",
+      "IT": "Realizzi a casa dei tuoi clienti stanze dalle caratteristiche ideali per ascoltare la musica e guardare la televisione. Con tutto ciò che serve, dal suono quadrofonico alle poltrone ergonomiche."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "LifeWarranties": {
+    "id": "LifeWarranties",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Lifetime Warranty",
+      "ES": "Life Warranties",
+      "FR": "Garanties à vie",
+      "DE": "Lebenslange Garantien",
+      "IT": "Garanzie a vita"
+    },
+    "description": {
+      "EN": "People tend to forget how long their warranty is for and tend to assume that it has expired. As a result, providing a lifetime warranty is not much more costly than providing a three year warranty.",
+      "ES": "After some time passes, people tend to forget how long is the warranty for a machine and assume that is expired. As a result, giving life warranties it's not very different than giving three years but looks better.",
+      "FR": "Après un certain temps, les gens ont tendance à oublier la durée de garantie d'un appareil et pensent qu'elle a expiré. Par conséquent, le fait de proposer une garantie à vie n'est pas très différent de proposer une garantie de trois ans, mais cela fait un meilleur effet.",
+      "DE": "Nachdem einige Zeit vergangen ist, vergessen die Leute, welche Garantie auf den Geräten war, und nehmen an, das sie abgelaufen ist. Daraus erfolgt, dass es keinen großen Unterschied macht, ob Sie drei Jahre geben oder lebenslang. Es sieht nur besser aus.",
+      "IT": "Dopo un certo periodo le persone dimenticano la durata di una garanzia e presumono sia scaduta. Le garanzie a vita non sono perciò tanto diverse da quelle di 3 anni, ma sono lo stesso più apprezzate."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "LSAppProd": {
+    "id": "LSAppProd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Scale Appliance Production",
+      "ES": "Large Scale Appliances Production",
+      "FR": "Production d'appareils en masse",
+      "DE": "Große Haushaltsgeräteindustrien",
+      "IT": "Produzione di elettrodomestici su vasta scala"
+    },
+    "description": {
+      "EN": "Learn the basic skills to manage the production of large scale household appliances.",
+      "ES": "Learn the basic skills to manage Large Scale Household Appliances Production.",
+      "FR": "Apprenez les principes élémentaires de gestion de production d'appareils domestiques en masse.",
+      "DE": "Erlernen Sie das Grundwissen für das Management von großen Haushaltsgeräteindustrien.",
+      "IT": "Apprendi le conoscenze di base per la produzione su vasta scala di elettrodomestici per la casa."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "entrepreneur"
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "MachinesRenting": {
+    "id": "MachinesRenting",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Machine Rental",
+      "ES": "Machines Renting",
+      "FR": "Location d'appareils",
+      "DE": "Geräteverleih",
+      "IT": "Affitto di elettrodomestici"
+    },
+    "description": {
+      "EN": "For people who move a lot, you rent every appliance: from toasters to 50 inch TVs.",
+      "ES": "For people who move a lot, you rent every appliance, from toasters to 50 inches TVs.",
+      "FR": "Destiné aux personnes qui se déplacent beaucoup, vous louez tout type d'appareils, du grille-pain aux écrans géants.",
+      "DE": "Für Leute die häufig umziehen verleihen Sie alles, vom Toaster bis zum Großbildfernseher.",
+      "IT": "Offri a coloro che traslocano con frequenza la possibilità di noleggiare elettrodomestici di ogni tipo, dai tostapane alle TV a 50 pollici."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "MorphingPet": {
+    "id": "MorphingPet",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Morphing Pet",
+      "ES": "Morphing Pet",
+      "FR": "Changement de forme d'un animal",
+      "DE": "Verwandelbares Haustier",
+      "IT": "Mille animali domestici in uno"
+    },
+    "description": {
+      "EN": "Choose the domestic animal you want daily with this special shape-changing robot: from a guard dog to a hairy cat, it will transform itself on request.",
+      "ES": "Choose what domestic animal you want every day with this special shape changing robot. From a guard dog to a hairy cat, it will transform itself on request.",
+      "FR": "Choisissez l'animal de compagnie que vous souhaitez avoir chaque jour grâce à ce robot spécial qui change de forme. Du chien de garde au chat angora, il se transforme sur demande.",
+      "DE": "Mit diesem Roboter können Sie sich jeden Tag aussuchen, was für ein Haustier sie wollen. Vom Wachhund zur Rassekatze, er ändert seine Form auf Befehl.",
+      "IT": "Un robot in grado di mutare forma ti permette di scegliere ogni giorno l'animale domestico che preferisci, sia esso un cane da guardia o un gatto dal pelo lungo."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 8
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "ArtificialPets"
+    ]
+  },
+  "OneDayExplanatoryCourse": {
+    "id": "OneDayExplanatoryCourse",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "One Day Technology Course",
+      "ES": "One Day Explanatory Course",
+      "FR": "Formation d'une journée",
+      "DE": "Eintageskurs",
+      "IT": "Corsi di avviamento all'uso degli elettrodomestici"
+    },
+    "description": {
+      "EN": "Do your kids make fun of you because you don't know how to operate a VCR or a CD player? A one day in-store course reveals the mystery of technology to the more traditional customer.",
+      "ES": "Your kids make fan of you because you don't know how to operate a VCR or a CD player? A one day course in the store to explain the mistery of technology to the old fashioned.",
+      "FR": "Vos enfants se moquent de vous parce que vous ne savez pas vous servir du magnétoscope ou du lecteur de CD ? Une formation d'une journée est organisée au magasin pour vous expliquer les mystères de la technologies pour ceux qui n'y connaissent rien.",
+      "DE": "Ihre Kinder machen sich über Sie lustig, weil Sie nicht wissen, wie man einen Videorekorder oder einen CD-Player bedient? In einem Eintageskurs werden Sie in die Geheimnisse der Technik eingeweiht.",
+      "IT": "I tuoi figli ti prendono in giro perché non sai far funzionare videoregistratore o CD? Un corso di un giorno presso il negozio permette anche ai più riluttanti di imparare l'essenziale."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "RepairmentDepartment": {
+    "id": "RepairmentDepartment",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Repair Department",
+      "ES": "Repairment Department",
+      "FR": "Service de réparation",
+      "DE": "Reparaturabteilung",
+      "IT": "Servizio riparazioni"
+    },
+    "description": {
+      "EN": "In-store repair center for your customers.",
+      "ES": "In store repairment center for your clients.",
+      "FR": "Centre de réparation dans les magasins à l'usage de vos clients.",
+      "DE": "Reparaturabteilung vor Ort für Ihre Kunden.",
+      "IT": "Ciascuno dei tuoi negozi è dotato di un servizio riparazioni ad uso della clientela."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "desirability": 4
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "SalesPeopleAsCustomer": {
+    "id": "SalesPeopleAsCustomer",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Salespeople-As-Customer",
+      "ES": "Sales People As Customer",
+      "FR": "Vendeurs comme clients",
+      "DE": "Verkäufer sind Kunden",
+      "IT": "Venditori che diventano clienti"
+    },
+    "description": {
+      "EN": "When they are hired, your salespeople agree to only buy their appliances from your store.",
+      "ES": "When they are hired, your salesmen agree to buy the appliances for their houses only at your store.",
+      "FR": "Lorsque vous les embauchez, vos vendeurs s'engagent à acheter leurs appareils domestiques uniquement dans vos magasins.",
+      "DE": "Bei ihrer Einstellung erklären sich die Verkäufer bereit, Haushaltsgeräte nur in Ihrem Geschäft zu kaufen.",
+      "IT": "Al momento dell'assunzione il tuo personale di vendita si impegna ad acquistare i propri elettrodomestici presso i tuoi negozi."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": -1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "UltrasoundsWashingMachines": {
+    "id": "UltrasoundsWashingMachines",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ultrasound Washing Machine",
+      "ES": "Ultrasounds Washing Machines",
+      "FR": "Lave-linge à ultrasons",
+      "DE": "Ultraschall-Waschmaschinen",
+      "IT": "Lavatrici ad ultrasuoni"
+    },
+    "description": {
+      "EN": "No detergent is needed, thanks to the ultrasound waves. Ecologically sound and practical.",
+      "ES": "No detergent is needed, thanks to the ultrasound waves. Echological and practical.",
+      "FR": "Grâce aux ultrasons, aucun détergent n'est nécessaire. Ecologique et pratique.",
+      "DE": "Keine Waschmittel mehr dank der Ultraschallwellen. Ökologisch und praktisch.",
+      "IT": "Onde ultrasoniche permettono di fare a meno dei tradizionali detersivi. Un ritrovato ecologico e pratico."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "UltraThinTv": {
+    "id": "UltraThinTv",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ultra Thin TV",
+      "ES": "Ultra Thin Tv",
+      "FR": "Téléviseur extra plat",
+      "DE": "Ultra-Flachbildfernseher",
+      "IT": "Televisione ultra-sottile"
+    },
+    "description": {
+      "EN": "Produce TVs thin as paintings. Picture quality is excellent.",
+      "ES": "Produce TVs thin as paintings. The quality of the picture is excellent.",
+      "FR": "Produisez des téléviseurs aussi plat que des peintures. La qualité de l'image est excellente.",
+      "DE": "Herstellung von Fernsehern, die so flach sind wie Bilder. Die Bildqualität ist hervorragend.",
+      "IT": "Realizzi apparecchi televisivi dello spessore di un dipinto. La qualità delle immagini rimane eccellente."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "UnexperiencedTechnicians": {
+    "id": "UnexperiencedTechnicians",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Inexperienced Technicians",
+      "ES": "Unexperienced Technicians",
+      "FR": "Techniciens sans expérience",
+      "DE": "Unerfahrene Techniker",
+      "IT": "Tecnici inesperti"
+    },
+    "description": {
+      "EN": "To save money, your repair center only employs very young technicians.",
+      "ES": "To save money, your repairment center employs only very young technicians.",
+      "FR": "Pour économiser de l'argent, vos centres de réparation emploient uniquement de très jeunes techniciens.",
+      "DE": "Um Geld zu sparen, stellen Sie für Ihre Reparaturzentren nur sehr junge Techniker ein.",
+      "IT": "Per risparmiare soldi i tuoi centri assistenza impiegano solo tecnici molto giovani."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -2
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "UniversalMachine": {
+    "id": "UniversalMachine",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Universal Machine",
+      "ES": "Universal Machine",
+      "FR": "Machine universelle",
+      "DE": "Universalmaschine",
+      "IT": "Elettrodomestico universale"
+    },
+    "description": {
+      "EN": "Unify all the most common kitchen appliances into a single machine. It's not quite as good as the single pieces separately, but your factories are much more efficient.",
+      "ES": "Unification in a single machine of all the most common kitchen appliances. It's not as good as the single pieces, but your factories are much more efficient.",
+      "FR": "Tous les appareils de la cuisine sont réunis en une seule machine. Elle n'est pas aussi efficace que les appareils individuels, mais vos usines sont beaucoup plus rentables.",
+      "DE": "Alle gängigen Küchengeräte sind in einer Maschine zusammengefasst. Sie funktioniert nicht so gut wie separate Maschinen, aber Ihre Fabriken arbeiten wesentlich effizienter.",
+      "IT": "L'unificazione in una solo macchina di tutti i più comuni elettrodomestici per la cucina. La qualità non è pari a quella dei singoli apparecchi, ma le tue fabbriche risultano molto più efficienti."
+    },
+    "properties": {
+      "price": 350000000,
+      "level": "apprentice",
+      "efficiency": 40,
+      "quality": -8
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "UnscreenedComponents": {
+    "id": "UnscreenedComponents",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Unscreened Components",
+      "ES": "Unscreened Components",
+      "FR": "Composants non protégés",
+      "DE": "Ungeschützte Komponenten",
+      "IT": "Componenti non schermati"
+    },
+    "description": {
+      "EN": "To save money, your products are not properly screened for external electromagnetic interference.",
+      "ES": "To save money, your products are not properly screened by external electromagnetic interferences.",
+      "FR": "Pour économiser de l'argent, vos produits ne sont soumis à la vérification de la charge électromagnétique.",
+      "DE": "Um Geld zu sparen, werden Ihre Komponenten nicht auf externe magnetischen Ladungen untersucht.",
+      "IT": "Per risparmiare denaro, i tuoi prodotti non sono adeguatamente schermati contro le interferenze elettromagnetiche esterne."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "UsedMachineMarket": {
+    "id": "UsedMachineMarket",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Used Machine Market",
+      "ES": "Used Machine Market",
+      "FR": "Marché des machines usagées",
+      "DE": "Gebrauchtmaschinenmarkt",
+      "IT": "Mercato degli elettrodomestici usati"
+    },
+    "description": {
+      "EN": "A weekly market, outside your store, of used appliances. Enables you to recycle old machines.",
+      "ES": "Weekly market outside your store of used appliances. To recycle old machines.",
+      "FR": "Marché hebdomadaire d'appareils d'occasion en dehors de votre établissement. Pour recycler les vieilles machines.",
+      "DE": "Wöchentlicher Markt außerhalb Ihres Geschäfts für gebrauchte Geräte. Um alte Geräte zu recyclen",
+      "IT": "Un mercato settimanale fuori dai tuoi negozi per la vendita di elettrodomestici usati. L'iniziativa ti permette di riciclare i vecchi apparecchi."
+    },
+    "properties": {
+      "price": 55000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "desirability": 1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "UsedUnitsRetirement": {
+    "id": "UsedUnitsRetirement",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Used Unit Recycling",
+      "ES": "Used Units Retirements",
+      "FR": "Mise au rebut des unité usagées",
+      "DE": "Zurückgabe von gebrauchten Teilen",
+      "IT": "Permuta dei vecchi apparecchi"
+    },
+    "description": {
+      "EN": "You give customers a discount to purchase new products when they give you back the used ones. You can recycle parts still in good shape.",
+      "ES": "You give a discount to new products if the customer gives you back the used ones. You can recycle the parts still in good shape.",
+      "FR": "Vous proposez une remise sur les nouveaux produits si les clients vous redonnent les usagés. Vous pouvez recycler les pièces en bon état.",
+      "DE": "Sie geben einen Rabatt auf neue Produkte, wenn der Kunde Ihnen die alten zurückgibt. Sie können die Teile recyclen, die noch in gutem Zustand sind.",
+      "IT": "Pratichi uno sconto ai tuoi clienti sull'acquisto di prodotti nuovi se te ne riportano di usati. Ciò ti permette di riciclare le parti ancora utilizzabili."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -4
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "VerticalStorage": {
+    "id": "VerticalStorage",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Vertical Storage",
+      "ES": "Vertical Storage",
+      "FR": "Stockage vertical",
+      "DE": "Vertikale Lagerung",
+      "IT": "Stoccaggio verticale"
+    },
+    "description": {
+      "EN": "All the appliances you sell are in rectangular boxes. By storing them on top of each other you save a lot of space, but sometimes stuff gets a little scratched.",
+      "ES": "All the appliances you sell are in rectangular boxes. By storing them one above the other you save a lot of space, but sometimes they are a little scratched.",
+      "FR": "Tous les appareils que vous vendez se trouvent dans des boîtes rectangulaires. En les empilant les unes sur les autre, vous économisez de l'espace, mais les appareils sont parfois abîmés.",
+      "DE": "Alle Geräte die Sie verkaufen, befinden sich in rechteckigen Kästen. Indem Sie sie übereinanderstapeln gewinnen Sie eine Menge Platz, aber manchmal haben sie ein paar Kratzer.",
+      "IT": "Tutti i tuoi elettrodomestici sono venduti in confezioni rettangolari. Impilando le scatole l'una sull'altra risparmi moltissimo spazio, a costo di qualche scalfitura."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": 4,
+      "desirability": -1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE"
+  },
+  "VoiceActivator": {
+    "id": "VoiceActivator",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Voice Activator",
+      "ES": "Voice Activator",
+      "FR": "Activateur vocal",
+      "DE": "Stimmaktivierung",
+      "IT": "Attivazione vocale"
+    },
+    "description": {
+      "EN": "All your appliances can be operated by vocal commands.",
+      "ES": "All your appliances can be operated by vocal commands.",
+      "FR": "Tous vos appareils fonctionnent grâce à des commandes vocales.",
+      "DE": "Alle Ihre Geräte können durch gesprochene Anweisungen betrieben werden.",
+      "IT": "Tutti i tuoi elettrodomestici possono essere azionati tramite comandi vocali."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": -7,
+      "quality": 10
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "HHALic"
+    ]
+  },
+  "YearlyInspectionAndTuneUp": {
+    "id": "YearlyInspectionAndTuneUp",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Annual Inspection and Tune Up",
+      "ES": "Yearly Inspection and Tune Up",
+      "FR": "Inspection annuelle et révision",
+      "DE": "Jährliche Inspektion und Tuning",
+      "IT": "Ispezione e taratura annuale"
+    },
+    "description": {
+      "EN": "Equipment purchased by your customers is eligible for an annual check up at the in-store repair center.",
+      "ES": "Every year the machines purchased by your client are taken to the repairment center to perform a complete check up.",
+      "FR": "Tous les ans, les machines achetées par vos clients sont emmenées au centre de réparation pour subir une vérification complète.",
+      "DE": "Jedes Jahr werden die von Ihren Kunden gekauften Maschinen in ein Reparaturzentrum gebracht und durchgecheckt.",
+      "IT": "Le macchine acquistate dai tuoi clienti vengono sottoposte ogni anno ad un check up completo."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 1
+    },
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "depends_on": [
+      "RepairmentDepartment"
+    ]
+  }
+}

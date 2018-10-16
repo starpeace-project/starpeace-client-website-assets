@@ -38,7 +38,7 @@ console.log "\n=================================================================
 
 
 root = process.cwd()
-source_dir = path.join(root, process.argv[2])
+assets_dir = path.join(root, process.argv[2])
 target_dir = path.join(root, process.argv[3])
 
 unique_hash = Utils.random_md5()
@@ -46,24 +46,24 @@ target_with_version = path.join(target_dir, unique_hash)
 
 fs.mkdirsSync(target_with_version)
 
-console.log "input directory: #{source_dir}"
+console.log "input directory: #{assets_dir}"
 console.log "output directory: #{target_dir}"
 
 console.log "\n-------------------------------------------------------------------------------\n"
 
-image_dir = path.join(source_dir, 'images')
-sound_dir = path.join(source_dir, 'sounds')
+sound_dir = path.join(assets_dir, 'sounds')
 
-buildings_dir = path.join(image_dir, 'buildings')
-concrete_dir = path.join(image_dir, 'concrete')
-effects_dir = path.join(image_dir, 'effects')
-land_dir = path.join(image_dir, 'land')
-maps_dir = path.join(image_dir, 'maps')
+buildings_dir = path.join(assets_dir, 'buildings')
+concrete_dir = path.join(assets_dir, 'concrete')
+effects_dir = path.join(assets_dir, 'effects')
+inventions_dir = path.join(assets_dir, 'inventions')
+land_dir = path.join(assets_dir, 'land')
+maps_dir = path.join(assets_dir, 'maps')
 music_dir = path.join(sound_dir, 'music')
-news_dir = path.join(source_dir, 'news')
-overlays_dir = path.join(image_dir, 'overlays')
-planes_dir = path.join(image_dir, 'planes')
-roads_dir = path.join(image_dir, 'roads')
+news_dir = path.join(assets_dir, 'news')
+overlays_dir = path.join(assets_dir, 'overlays')
+planes_dir = path.join(assets_dir, 'planes')
+roads_dir = path.join(assets_dir, 'roads')
 
 jobs = []
 jobs.push(CombineBuildingManifest.combine(buildings_dir, target_with_version)) unless SKIP_BUILDINGS

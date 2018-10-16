@@ -1,0 +1,839 @@
+{
+  "AllergyDatabase": {
+    "id": "AllergyDatabase",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Allergy Database",
+      "ES": "Allergy Database",
+      "FR": "Base de données des allergies",
+      "DE": "Allergie-Datenbank",
+      "IT": "Archivio allergie"
+    },
+    "description": {
+      "EN": "A massive database with remedies for any kind of drug allergy reaction. Very useful in emergencies.",
+      "ES": "Massive database with remedies for any kind of drug allergy reaction. Very useful in emergencies.",
+      "FR": "Vaste base de données contenant les remèdes contre des allergies à tout type de drogue. Très utile en cas d'urgence.",
+      "DE": "Große Datenbank mit allen Mitteln gegen Medikamentenallergien. Im Notfall sehr nützlich.",
+      "IT": "Un enorme archivio contenente i rimedi per ogni tipo di reazione allergica. Molto utile nelle emergenze."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "AntiAllergyCompulsoryTesting": {
+    "id": "AntiAllergyCompulsoryTesting",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Compulsory Allergy Testing",
+      "ES": "Anti Allergy Compulsory Testing",
+      "FR": "Test de dépistage anti-allergique obligatoire",
+      "DE": "Anti-Allergie Test",
+      "IT": "Test allergologici obbligatori"
+    },
+    "description": {
+      "EN": "Before buying any of your drugs, your customers are tested to see if they are allergic to it. This test avoids dangerous anaphylactic reactions.",
+      "ES": "Before buying any of your drugs, your customers are tested to see if they are allergic to it. This to avoid dangerous anaphylattic reactions.",
+      "FR": "Avant d'acheter des médicaments, vos clients subissent des tests afin de savoir s'ils y sont allergiques. Ceci permet d'éviter des réactions anaphylactiques dangereuses.",
+      "DE": "Bevor sie Ihre Medikamente kaufen, werden die Kunden auf eventuelle Allergien getestet. Zur Vorbeugung vor anaphylaktischen Reaktionen.",
+      "IT": "Prima di acquistare i tuoi farmaci, i clienti vengono esaminati per verificare che non siano allergici ad essi e prevenire pericolose reazioni anafilattiche."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": 8,
+      "level": "apprentice",
+      "efficiency": 5
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "BottlesWithPagingDevices": {
+    "id": "BottlesWithPagingDevices",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Smart Drugs",
+      "ES": "Bottles With Paging Devices",
+      "FR": "Flacons avec dispositifs d'appel sur messager de poche",
+      "DE": "Flaschen mit Pagerfunktion",
+      "IT": "Flaconi con cercapersone"
+    },
+    "description": {
+      "EN": "Your drug bottles have a small built-in transmitter that calls the customer's pager or cell phone when it's time to take their medicine.",
+      "ES": "Your drug bottles have a little built in transmitter that calls the customer pager or cell phone when it's time to take the medicine.",
+      "FR": "Vos médicaments sont équipés d'un transmetteur incorporé qui appelle le messager de poche du client ou son téléphone portable lorsqu'il est l'heure de prendre son médicament.",
+      "DE": "Ihre Medikamentenflaschen haben kleine eingebaute Sender, die den Pager oder das Handy anrufen, wenn es Zeit ist das Medikament zu nehmen.",
+      "IT": "I flaconi dei tuoi medicinali sono dotati di un trasmettitore che si mette in contatto con il cercapersone o il cellulare del cliente quando è ora di assumerne una dose."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 8,
+      "level": "apprentice",
+      "efficiency": -7,
+      "quality": 10
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "CigaretteIDPolicy": {
+    "id": "CigaretteIDPolicy",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Cigarette ID Policy",
+      "ES": "Cigarette ID Policy",
+      "FR": "Politique des cigarettes sur pièce d'identité",
+      "DE": "Zigaretten gegen Ausweis Politik",
+      "IT": "Verifica dell'età per l'acquisto di sigarette"
+    },
+    "description": {
+      "EN": "Cigarettes are only sold upon the presentation of valid ID.",
+      "ES": "Cigarette packs are only given on presentation of a valid ID card.",
+      "FR": "Les paquets de cigarettes ne seront donnés que sur présentation d'une carte d'identité valide.",
+      "DE": "Zigaretten werden nur bei Vorzeigen eines gültigen Personalausweises herausgegeben.",
+      "IT": "I pacchetti di sigarette sono venduti solo dietro presentazione di una carta di identità valida."
+    },
+    "properties": {
+      "price": 5000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "desirability": -2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "CommonDrugsSpecialOffers": {
+    "id": "CommonDrugsSpecialOffers",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Common Drugs Special Offer",
+      "ES": "Common Drugs Special Offers",
+      "FR": "Offres spéciales de médicaments courants",
+      "DE": "Sonderangebot für Basismedikamente",
+      "IT": "Offerte speciali di medicinali comuni"
+    },
+    "description": {
+      "EN": "Widely used drugs like Aspirin are periodically offered at a special price.",
+      "ES": "Drugs like Aspirine, widely used, are periodically offered at a special price.",
+      "FR": "Les médicaments, tels que l'aspirine, sont très utilisés et sont régulièrement proposés à des prix spéciaux.",
+      "DE": "Weit verbreitete Medikamente wie Aspirin, werden periodisch zu Sonderpreisen angeboten.",
+      "IT": "I medicinali più comuni, come l'Aspirina, vengono venduti periodicamente a prezzi speciali."
+    },
+    "properties": {
+      "price": 75000000,
+      "level": "apprentice",
+      "efficiency": 1,
+      "desirability": 3
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "CourtesyChairs": {
+    "id": "CourtesyChairs",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Courtesy Chairs",
+      "ES": "Courtesy Chairs",
+      "FR": "Sièges gratuits",
+      "DE": "Kundensitze",
+      "IT": "Sedie per l'attesa"
+    },
+    "description": {
+      "EN": "Filling prescriptions can take some time, your customers appreciate a comfortable waiting area where they can sit and relax.",
+      "ES": "Prescription can take some time to be processed by the pharmacists. Your customers appreciate a place where to sit while they are waiting.",
+      "FR": "Il arrive parfois que les pharmaciens mettent du temps à préparer une ordonnance. Vos clients apprécient d'avoir un endroit où s'asseoir lorsqu'ils attendent.",
+      "DE": "Die Rezepte müssen von den Apothekern bearbeitet werden. Die Kunden freuen sich über die Sitzgelegenheit, während sie warten.",
+      "IT": "Dal momento che il farmacista a volte impiega un po' di tempo ad espletare le ricette, offri ai tuoi clienti un posto dove sedersi."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "DoctorsWritingDecryptors": {
+    "id": "DoctorsWritingDecryptors",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Doctor Writing Decipherer",
+      "ES": "Doctors Writing Decriptors",
+      "FR": "Dispositifs de décryptage de l'écriture des médecins",
+      "DE": "Dechiffriergeräte für Arztanweisungen",
+      "IT": "Decifratore della scrittura dei dottori"
+    },
+    "description": {
+      "EN": "Devices designed to correctly decipher the notoriously non-comprehensible writing of doctors: prevents dangerous errors.",
+      "ES": "Devices designed to correctly decrypt the notoriously uncomprensible writing of doctors. Avoid dangerous errors.",
+      "FR": "Appareils conçus pour décrypter l'écriture des médecins qui, comme chacun le sait, est indéchiffrable. Evite de fâcheuses erreurs.",
+      "DE": "Geräte, die dazu dienen, die bekannt katastrophale Handschrift der Ärzte zu entziffern. Vermeidet gefährliche Fehler.",
+      "IT": "Un apparecchio progettato per decifrare correttamente la scrittura dei dottori, notoriamente incomprensibile. Utile per evitare pericolosi errori."
+    },
+    "properties": {
+      "price": 80000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 3
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "DoItYourselfKit": {
+    "id": "DoItYourselfKit",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Do-It-Yourself Kit",
+      "ES": "Do It Yourself Kit",
+      "FR": "Kit de préparation à domicile",
+      "DE": "Do It Yourself Kit",
+      "IT": "Kit fai-da-te"
+    },
+    "description": {
+      "EN": "Some drugs can be prepared by a very simple natural distillation process. Your company provides do-it-yourself kits for New Age customers or aspiring pharmacists.",
+      "ES": "A few drugs can be prepared with very simple natural distillation process. Your company provides kits to do it for new age customers.",
+      "FR": "Quelques médicaments peuvent être préparés grâce à de simples procédés de distillation naturels. Votre société propose des kits aux clients New Age.",
+      "DE": "Einige wenige Medikamente können mit einem sehr einfachen natürlichen Destillierprozeß zubereitet werden. Ihr Unternehmen stellt die Kits für die New Age-Kunden her.",
+      "IT": "Alcuni farmaci possono essere preparati ricorrendo ad un processo molto semplice di distillazione naturale. La tua azienda fornisce dei kit con tutto l'occorrente."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 4,
+      "quality": -3
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "EmergencyHotLine": {
+    "id": "EmergencyHotLine",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Emergency Hot Line",
+      "ES": "Emergency Hot Line",
+      "FR": "Ligne d'urgence",
+      "DE": "Notruftelefon",
+      "IT": "Servizio di assistenza telefonica per le emergenze"
+    },
+    "description": {
+      "EN": "A 24 hour call center to help treat allergic reactions or overdoses.",
+      "ES": "A 24 hours call center for allergies or overdose medical emergencies.",
+      "FR": "Centre d'appel fonctionnant 24 heures sur 24. Vous pouvez l'appeler en cas d'allergie ou de surconsommation de médicaments.",
+      "DE": "Eine Telefonzentrale für Notfälle bei Allergien oder Überdosierungen von Medikamenten.",
+      "IT": "Un servizio di assistenza telefonica attivo 24 ore al giorno per chi viene colpito da un'allergia da farmaco o da un overdose."
+    },
+    "properties": {
+      "price": 35000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": -1
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "AllergyDatabase"
+    ]
+  },
+  "ExtraterrestrialVitamins": {
+    "id": "ExtraterrestrialVitamins",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Vitamins",
+      "ES": "Extraterrestrial Vitamins",
+      "FR": "Vitamines extraterrestres",
+      "DE": "Außerirdische Vitamine",
+      "IT": "Vitamine extraterrestri"
+    },
+    "description": {
+      "EN": "The new worlds offer a wide variety of new vitamins that when properly prepared are very beneficial to humans. You also save on the more costly production of earth vitamins.",
+      "ES": "The new worlds offer a wide variety of new vitamins that if dosed properly can really help your customers bodies. Not to mention what you save on the Earth ones.",
+      "FR": "Les nouveaux mondes offrent toute une panoplie de nouvelles vitamines qui, si elles sont correctement dosées, peuvent réellement aider le corps de vos clients. Sans parler de ce que vous économisez sur l'importation de vitamines terrestres.",
+      "DE": "Die neuen Welten bieten eine große Auswahl von neuen Vitaminen, die in der richtigen Dosierung Ihren Kunden sehr nützlich sein können. Von der Einsparung der von der Erde stammenden Vitamine ganz zu schweigen.",
+      "IT": "I nuovi mondi offrono un'ampia gamma di nuove vitamine che, nei giusti dosaggi, possono recare grandi benefici ai tuoi clienti. Per non parlare del risparmio sul costo delle vitamine terrestri."
+    },
+    "properties": {
+      "price": 300000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": 12
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "FamilyPlan": {
+    "id": "FamilyPlan",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Family Plan",
+      "ES": "Family Plan",
+      "FR": "Programme familial",
+      "DE": "Familienplan",
+      "IT": "Sconti per famiglie"
+    },
+    "description": {
+      "EN": "Discounts for families whose members buy medicine only at your stores.",
+      "ES": "Discounts for families whose members buy medicine only at your stores.",
+      "FR": "Remises pour les familles dont les membres achètent des médicaments uniquement dans vos magasins.",
+      "DE": "Rabatte für Familien, die Ihre Medikamente nur in Ihrem Geschäft kaufen.",
+      "IT": "Sconti per le famiglie i cui membri acquistano medicinali presso le tue farmacie."
+    },
+    "properties": {
+      "price": 65000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "desirability": 2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "FilmDevelopingCenter": {
+    "id": "FilmDevelopingCenter",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Film Processing Center",
+      "ES": "Film Developing Center",
+      "FR": "Centre de développement photo",
+      "DE": "Fotolabor",
+      "IT": "Servizio di sviluppo e stampa"
+    },
+    "description": {
+      "EN": "A quick way for your clients to develop their pictures at your drugstores.",
+      "ES": "A quick way for your clients to develop their pictures inside your drugstores.",
+      "FR": "Développement rapide des photos de vos clients dans vos pharmacies.",
+      "DE": "Gibt Ihren Kunden die Möglichkeit, Ihre Fotos schnell in Ihren Apotheken entwickeln zu lassen.",
+      "IT": "Dai la possibilità ai tuoi clienti di sviluppare rapidamente le proprie foto all'interno delle tue farmacie."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 1
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "FluorescentCapsules": {
+    "id": "FluorescentCapsules",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Fluorescent Capsules",
+      "ES": "Fluorescent Capsules",
+      "FR": "Capsules fluorescentes",
+      "DE": "Fluoreszierende Kapseln",
+      "IT": "Capsule fosforescenti"
+    },
+    "description": {
+      "EN": "Having problem finding your pills on your night table? This is the perfect solution!!",
+      "ES": "Having problem finding your pills on your nighttable? This is the perfect solution!!",
+      "FR": "Vous avez des problèmes pour trouver vos cachets sur votre table de nuit ? Voilà la solution parfaite !",
+      "DE": "Sie können Ihre Pillen auf dem Nachtisch nicht finden? Das ist die Lösung!!",
+      "IT": "Hai problemi a trovare le pillole sul tuo comodino la notte. Ecco la soluzione!!"
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 3
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "HibernationCenter": {
+    "id": "HibernationCenter",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Hibernation Center",
+      "ES": "Hibernation Center",
+      "FR": "Centre d'hibernation",
+      "DE": "Hibernationszentrum",
+      "IT": "Centro per l'ibernazione"
+    },
+    "description": {
+      "EN": "Create a hibernation center, under the industry headquarter, to cryogenically store terminally ill persons that can't be cured by your medicine.",
+      "ES": "Create an hibernation center under the Cuarteles de Industria to cryogenically store the terminally ill persons that can't be cured by your medicine.",
+      "FR": "Créez un centre d'hibernation au siège de votre industrie pour garder, dans le froid absolu, les personnes sur le point de mourir, car vous n'avez pas pu les soigner.",
+      "DE": "Richten sie unter der Industriezentrale ein Hibernationszentrum zur kryogenen Lagerung von Patienten im Endstadium ein, die von Ihrer Medizin nicht geheilt werden können.",
+      "IT": "Crea un centro per l'ibernazione all'interno del quartier Generale per l'industria dove mantenere in stato di animazione sospesa i malati terminali che non possono essere curati dai tuoi farmaci."
+    },
+    "properties": {
+      "price": 270000000,
+      "prestige": 80,
+      "level": "apprentice",
+      "efficiency": 5
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "HomeopathicDrugs": {
+    "id": "HomeopathicDrugs",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Homeopathic Drugs",
+      "ES": "Homeopathic Drugs",
+      "FR": "Médicaments homéopathiques",
+      "DE": "Homöopathische Medikamente",
+      "IT": "Rimedi omeopatici"
+    },
+    "description": {
+      "EN": "For users of homeopathic medicines.",
+      "ES": "For users of homeopathic medicines.",
+      "FR": "Pour les utilisateurs de médicaments homéopathiques.",
+      "DE": "Für die Benutzer von homöopathischen Medikamenten.",
+      "IT": "Per coloro che prediligono la medicina omeopatica."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "MagazinesAndBooks": {
+    "id": "MagazinesAndBooks",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Magazines and Books",
+      "ES": "Magazines and Books",
+      "FR": "Magazines et livres",
+      "DE": "Zeitschriften und Bücher",
+      "IT": "Riviste e libri"
+    },
+    "description": {
+      "EN": "Your customers can buy magazines and paperback books at your drugstores.",
+      "ES": "Your customers can buy magazines and paperback books at your drugstores.",
+      "FR": "Vos clients peuvent acheter des magazines et des livres au format poche dans vos pharmacies.",
+      "DE": "In Ihren Apotheken werden auch Zeitschriften und Taschenbücher verkauft.",
+      "IT": "I tuoi clienti possono acquistare riviste e libri tascabili nelle tue farmacie."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "MaleBirthControlAndViagraPill": {
+    "id": "MaleBirthControlAndViagraPill",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Male Birth Control and Viagra Pill",
+      "ES": "Male Birth Control And Viagra Pill",
+      "FR": "Pilule contraceptive masculine et cachets de viagra",
+      "DE": "Antibabypille für Männer und Viagra",
+      "IT": "Pillola maschile mista a Viagra"
+    },
+    "description": {
+      "EN": "The male birth control pill is already widely used, but one of your marketing geniuses had the idea of combining it with Viagra, the sexual booster. The product's success is massive and instantaneous.",
+      "ES": "The male birth control pill is already widely used, but one of your marketing genius had the idea of mixing to it the sexual booster. The success is istantaneous.",
+      "FR": "La pilule contraceptive masculine est déjà très utilisée, mais l'un de vos génies du marketing a eu l'idée de la mélanger aux aphrodisiaques. Le succès est instantané.",
+      "DE": "Die Antibabypille für Männer ist schon weit verbreitet. Aber eines Ihrer Marketinggenies hatte die Idee, sie mit dem Potenzmittel Viagra zu mischen. Ein absoluter Renner.",
+      "IT": "La pillola anticoncezionale maschile è già molto usata, ma un genio del tuo ufficio marketing ha avuto l'idea di unirla al Viagra. Il successo è istantaneo."
+    },
+    "properties": {
+      "price": 200000000,
+      "prestige": 20,
+      "level": "apprentice",
+      "efficiency": 5,
+      "quality": 10
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "MedicineCocktail": {
+    "id": "MedicineCocktail",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Medicinal Cocktail",
+      "ES": "Medicine Cocktail",
+      "FR": "Cocktail médical",
+      "DE": "Medizinischer Cocktail",
+      "IT": "Cocktail di medicinali"
+    },
+    "description": {
+      "EN": "Some people have to take many different drugs every day. On request, your factories can prepare a single pill containing all of a customer's daily medicinal needs in the perfect single dosage.",
+      "ES": "Some people have to assume many different drugs every day. On request your factories prepare a single pill containing all the needed medicines in the perfect dosage.",
+      "FR": "Certaines personnes sont contraintes de prendre plusieurs médicaments tous les jours. A la demande de vos usines, vous préparez un cachet unique contenant tous les médicaments dans un dosage approprié.",
+      "DE": "Manche Menschen müssen jeden Tag eine große Anzahl verschiedener Pillen nehmen. Ihre Firma stellt eine Tablette her, in der all diese Medikamente in einer perfekten Dosierung enthalten sind.",
+      "IT": "Vi sono persone costrette ad assu-mere diversi farmaci ogni giorno. I tuoi laboratori sono in grado di confezionare su richiesta pillole contenenti un cocktail di tali farmaci, tutti nel giusto dosaggio."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "NaturalRemediesAdvisor": {
+    "id": "NaturalRemediesAdvisor",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Natural Remedy Advisor",
+      "ES": "Natural Remedy Advisor",
+      "FR": "Conseiller en médecine naturelle",
+      "DE": "Naturheilverfahren",
+      "IT": "Consulente di medicina naturale"
+    },
+    "description": {
+      "EN": "Free advice for customers with annoying aches and pains that don't warrant the use of a medicine.",
+      "ES": "Free advices for little pains not big enough to require the use of a medicine.",
+      "FR": "Conseil gratuit pour les petits bobos qui ne nécessitent pas l'usage de médicaments.",
+      "DE": "Kostenlose Beratung bei kleinen Schmerzen, die nicht schlimm genug sind, um ein Medikament zu erfordern.",
+      "IT": "Consigli gratuiti per i piccoli dolori che non sono abbastanza seri da richiedere veri e propri farmaci."
+    },
+    "properties": {
+      "price": 35000000,
+      "level": "apprentice",
+      "efficiency": -1,
+      "desirability": 2
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "OldDrugRecycling": {
+    "id": "OldDrugRecycling",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Drug Recycling",
+      "ES": "Old Drug Recycling",
+      "FR": "Recyclage des médicaments périmés",
+      "DE": "Medikamentensammlung",
+      "IT": "Riciclaggio di farmaci scaduti"
+    },
+    "description": {
+      "EN": "Your company implements a drug recycling policy.",
+      "ES": "Your company implements a drug recycling policy.",
+      "FR": "Votre société met en place une politique de recyclage des médicaments périmés.",
+      "DE": "Ihre Firma engagiert sich im Recycling von Medikamenten.",
+      "IT": "La tua azienda adotta una politica di riciclaggio dei farmaci."
+    },
+    "properties": {
+      "price": 110000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "OveruseAntidote": {
+    "id": "OveruseAntidote",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Antidote Add-On",
+      "ES": "Overuse Antidote",
+      "FR": "Antidote contre le surdosage",
+      "DE": "Überdosis-Gegenmittel",
+      "IT": "Antidoto contro le dosi eccessive"
+    },
+    "description": {
+      "EN": "Every drug product you sell comes with a small bottle of antidote, in the event the customer has an overdose.",
+      "ES": "Every drug you sell come with a little bottle on the side containing an antidote in case the customer abused it.",
+      "FR": "Tous les médicaments que vous vendez sont fournis avec une fiole contenant une antidote en cas de surdosage.",
+      "DE": "Jedes von Ihnen verkaufte Medikament wird mit einer kleinen Flasche an der Seite geliefert. Sie enthält ein Gegenmittel im Fall einer Überdosis.",
+      "IT": "Ognuno dei tuoi farmaci viene venduto insieme a un flaconcino contenente l'antidoto in caso il cliente ne assuma una dose eccessiva."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 15,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "PerfumesSection": {
+    "id": "PerfumesSection",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Perfume Section",
+      "ES": "Perfumes Section",
+      "FR": "Section des parfums",
+      "DE": "Parfümabteilung",
+      "IT": "Sezione profumeria"
+    },
+    "description": {
+      "EN": "Your drugstores sell toiletries and high-end perfumes.",
+      "ES": "Your drugstores sell toiletries and high end perfumes.",
+      "FR": "Vos pharmacies vendent des articles de toilette et de grands parfums.",
+      "DE": "In Ihren Apotheken verkaufen Sie auch Toilettenartikel und teure Parfums.",
+      "IT": "Le tue farmacie vendono i cosmetici e i profumi più prestigiosi."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 3
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "PharmaIndustry": {
+    "id": "PharmaIndustry",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Pharmaceutical Production",
+      "ES": "Pharmaceutics Production",
+      "FR": "Production pharmaceutique",
+      "DE": "Arzneimittelherstellung",
+      "IT": "Produzione di farmaci"
+    },
+    "description": {
+      "EN": "Learn how to produce pharmaceuticals.",
+      "ES": "Learn how to produce pharmaceutics.",
+      "FR": "Apprenez à produire des médicaments.",
+      "DE": "Lernen Sie, wie man Medikamente herstellt.",
+      "IT": "Apprendi le conoscenze necessarie alla realizzazione di prodotti farmaceutici."
+    },
+    "properties": {
+      "price": 7000000,
+      "level": "apprentice"
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "PrescriptionsRelaTimeCheck": {
+    "id": "PrescriptionsRelaTimeCheck",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Prescription Real-time Check",
+      "ES": "Prescription Real Time Check",
+      "FR": "Vérification d'ordonnance en temps réel",
+      "DE": "Rezeptkontrolle in Echtzeit",
+      "IT": "Verifica in tempo reale delle ricette"
+    },
+    "description": {
+      "EN": "Before giving customers any medicine, pharmacists call doctors to check that the prescription is authentic.",
+      "ES": "Before giving the medicines, the pharmacist call the doctors to check if the prescription is authentic.",
+      "FR": "Avant de vous délivrer des médicaments, le pharmacien appelle les médecins afin de vérifier si l'ordonnance est authentique.",
+      "DE": "Bevor der Apotheker das Medikament herausgibt, ruft er den Doktor an und stellt sicher, dass das Rezept authentisch ist.",
+      "IT": "Prima di consegnare un farmaco, il farmacista verifica l'autenticità della ricetta contattando il medico che l'ha redatta."
+    },
+    "properties": {
+      "price": 5000000,
+      "prestige": 15,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": -1
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "PressureMeasurementMachines": {
+    "id": "PressureMeasurementMachines",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Pressure Measurement Machines",
+      "ES": "Pressure Measurement Machines",
+      "FR": "Dispositifs de mesure de la pression sanguine",
+      "DE": "Blutdruckmeßgeräte",
+      "IT": "Apparecchi per la misurazione della pressione"
+    },
+    "description": {
+      "EN": "Free do-it-yourself blood pressure measurement machines for your customers use.",
+      "ES": "Free do it yourself blood pressure measurement for your customers.",
+      "FR": "Mesure de la pression sanguine à faire soi-même. Pour vos clients.",
+      "DE": "Kostenlose Blutdruckmessung für Ihre Kunden.",
+      "IT": "Danno la possibilità ai tuoi clienti di provarsi gratuitamente la pressione."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": -2,
+      "desirability": 1
+    },
+    "industry_type": "PHARMACEUTICAL"
+  },
+  "SafeSexCampaign": {
+    "id": "SafeSexCampaign",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Safe Sex Campaign",
+      "ES": "Safe Sex Campaign",
+      "FR": "Campagne de sexe sans risque",
+      "DE": "Kampagne für Safer Sex",
+      "IT": "Campagna per il sesso sicuro"
+    },
+    "description": {
+      "EN": "Periodically, you stock up in birth control and then launch a massive Safe Sex Campaign. This proves to be a very successful marketing strategy and you seem socially conscious.",
+      "ES": "Periodically, you stock up in birth control device and than launch a massive Safe Sex Campaign on the media. A very successful strategy.",
+      "FR": "Régulièrement, vous stockez des moyens de contraception, puis vous lancez une grande campagne de sexe sans risque dans les médias. Cette stratégie s'avère être un succès.",
+      "DE": "In regelmäßigen Abständen lagern Sie Verhütungsmittel und starten anschließend eine Kampagne für sicheren Sex. Klappt prima.",
+      "IT": "Periodicamente fai ingenti scorte di anticoncezionali e lanci una massiccia campagna in favore del sesso sicuro. La strategia si rivela molto efficace."
+    },
+    "properties": {
+      "price": 190000000,
+      "prestige": 30,
+      "level": "apprentice",
+      "efficiency": 12
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "SecurityCapForChildren": {
+    "id": "SecurityCapForChildren",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Childrenproof Cap",
+      "ES": "Security Cap For Children",
+      "FR": "Casquette de sécurité pour enfants",
+      "DE": "Sicherheitskappe für Kinder",
+      "IT": "Tappo di sicurezza per bambini"
+    },
+    "description": {
+      "EN": "The caps on your products can't be opened by children.",
+      "ES": "Self explanatory.",
+      "FR": "Pas besoin d'explication.",
+      "DE": "Bedarf keiner Erklärung.",
+      "IT": "Si spiega da sé."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -1
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "SuppositoryBan": {
+    "id": "SuppositoryBan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Suppository Ban",
+      "ES": "Suppository Ban",
+      "FR": "Interdiction des suppositoires",
+      "DE": "Zäpfchenstopp",
+      "IT": "Niente più supposte"
+    },
+    "description": {
+      "EN": "Nobody likes to use this uncomfortable way of taking medicine. Your factories successfully replace it with a more pleasant oral form, which is just as quick-acting.",
+      "ES": "Nobody likes to use this uncomfortable way to assume medicines. Your factories successfully replace it with the more pleasant oral assumptiom.",
+      "FR": "Personne n'apprécie d'utiliser cette méthode inconfortable dadministration des médicaments. Vos usines le remplacent par un médicament à administration orale plus appréciée.",
+      "DE": "Niemand nimmt auf dieses Weise gerne Medikamente zu sich. Ihren Fabriken gelingt es die Zäpfchen durch angenehmere oral aufnehmbare Medikamente zu ersetzen.",
+      "IT": "Nessuno gradisce questo scomodo modo di assunzione dei farmaci. Le tue fabbriche sostituiscono le vecchie supposte con capsule e pastiglie da assumere per via orale."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 6,
+      "quality": -3
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "TestingOnHumans": {
+    "id": "TestingOnHumans",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Human Testing",
+      "ES": "Testing On Humans",
+      "FR": "Test sur des êtres humains",
+      "DE": "Menschentests",
+      "IT": "Test sugli esseri umani"
+    },
+    "description": {
+      "EN": "You launch a drug testing project using paid volunteers. While very helpful to your research, the public opinion sees this as an aberration.",
+      "ES": "You launch a project of drug testing on paid willing volounteers. It's very helpful for your researches, but the public opinion sees it as an aberration.",
+      "FR": "Vous lancez un projet de test de médicaments sur des cobayes humains rétribués. Ceci aide vos recherches, mais l'opinion publique perçoit cela comme une aberration.",
+      "DE": "Sie starten ein Projekt zum Versuch von Medikamenten an bezahlten Freiwilligen. Sehr nützlich für Ihre Forschungen, die öffentliche Meinung ist weniger begeistert.",
+      "IT": "Lanci un piano di test dei farmaci su volontari stipendiati. L'idea è di grande aiuto per le tue ricerche, ma l'opinione pubblica la ritiene un'aberrazione."
+    },
+    "properties": {
+      "price": 400000000,
+      "prestige": -100,
+      "level": "apprentice",
+      "efficiency": 40,
+      "quality": 20
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "VivisectionBan": {
+    "id": "VivisectionBan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vivisection Ban",
+      "ES": "Vivisection Ban",
+      "FR": "Interdiction de la vivisection",
+      "DE": "Stopp den Tierversuchen",
+      "IT": "Messa al bando della vivisezione"
+    },
+    "description": {
+      "EN": "Experiments are no longer carried out on animals.",
+      "ES": "No experiments on animal for the production of your drugs.",
+      "FR": "La production de vos médicaments n'a nécessité aucune expérimentation sur des animaux.",
+      "DE": "Keine Tierversuche bei der Herstellung Ihrer Medikamente.",
+      "IT": "Metti al bando gli esperimenti sugli animali nella produzione dei tuoi farmaci."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 40,
+      "level": "apprentice",
+      "efficiency": -10,
+      "quality": 5
+    },
+    "industry_type": "PHARMACEUTICAL",
+    "depends_on": [
+      "PharmaIndustry"
+    ]
+  },
+  "YoungPharmacists": {
+    "id": "YoungPharmacists",
+    "category": "COMMERCE",
+    "name": {
+      "EN": "Young Pharmacists",
+      "ES": "Young Pharmacists",
+      "FR": "Jeunes pharmaciens",
+      "DE": "Junge Apotheker",
+      "IT": "Farmacisti alle prime armi"
+    },
+    "description": {
+      "EN": "Only hire young and relatively inexperienced pharmacists to save money on their salaries.",
+      "ES": "Hire only young and relatively unexperienced pharmacists, to save on their salary.",
+      "FR": "Embauchez uniquement des pharmaciens jeunes et sans beaucoup d'expérience afin de faire des économies sur les salaires.",
+      "DE": "Stellen Sie nur junge und relativ unerfahrene Apotheker ein, um am Gehalt zu sparen.",
+      "IT": "Assumi solo farmacisti giovani e relativamente inesperti, in modo da risparmiare sui salari."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "efficiency": 5,
+      "desirability": -4
+    },
+    "industry_type": "PHARMACEUTICAL"
+  }
+}

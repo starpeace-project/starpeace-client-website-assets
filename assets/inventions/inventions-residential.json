@@ -1,0 +1,1191 @@
+{
+  "AdoptAFloorCampaign": {
+    "id": "AdoptAFloorCampaign",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Adopt-A-Floor Campaign",
+      "ES": "Adopt A Floor Campaign",
+      "FR": "Adopter un Étage",
+      "DE": "Adopt A Floor Campaign",
+      "IT": "Campagna \"adotta un piano\""
+    },
+    "description": {
+      "EN": "Your residents can adopt a floor and participate in its maintenance. Their name will be on a plaque on their respective floor.",
+      "ES": "Your residents can adopt a floor and participate to his maintenance. Their name will be put on a plaque on the wall of the floor.",
+      "FR": "Vos résidants peuvent adopter un étage et participer à son entretien. Leur nom sera mis sur une plaque sur le mur de létage.",
+      "DE": "Your residents can adopt a floor and participate to his maintenance. Their name will be put on a plaque on the wall of the floor.",
+      "IT": "I tuoi inquilini possono adottare un piano dell'edificio e partecipare alla sua manutenzione. Il loro nome sarà esposto su un'apposita targa sulle pareti del piano in questione."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "beauty": 3,
+      "maintenance": 3,
+      "privacy": -1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AdvAroma": {
+    "id": "AdvAroma",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Advanced Aromatherapy",
+      "ES": "Advanced Aromatherapy",
+      "FR": "Aromathérapie avancée",
+      "DE": "Aromatherapie für Fortgeschrittene",
+      "IT": "Aromaterapia avanzata"
+    },
+    "description": {
+      "EN": "Use scents to make your rooms and halls more pleasant.",
+      "ES": "Use perfumes to make your rooms and halls more inhabitable.",
+      "FR": "Utilisez les parfums pour rendre vos salles et vos halls plus conviviaux.",
+      "DE": "Benutzen Sie Parfums, um Ihre Räume und Säle wohnlicher zu gestalten.",
+      "IT": "Utilizza i profumi per rendere gli ambienti più abitabili."
+    },
+    "properties": {
+      "price": 25000000,
+      "level": "apprentice",
+      "beauty": 4,
+      "environment": 1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AdvDec": {
+    "id": "AdvDec",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Advanced Decor",
+      "ES": "Advanced Decoration",
+      "FR": "Décoration avancée",
+      "DE": "Dekoration für Fortgeschrittene",
+      "IT": "Nozioni avanzate di decorazione di interni"
+    },
+    "description": {
+      "EN": "Learn advanced decor techniques.",
+      "ES": "Learn advanced decoration techniques.",
+      "FR": "Apprenez les techniques avancées de décoration.",
+      "DE": "Lernen Sie für Dekorationstechniken für Fortgeschrittene.",
+      "IT": "Impara le tecniche avanzate di decorazione."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "apprentice",
+      "beauty": 5
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AIManager": {
+    "id": "AIManager",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "AI Manager",
+      "ES": "AI Manager",
+      "FR": "Contrôle IA",
+      "DE": "AI Manager",
+      "IT": "Gestione tramite computer intelligenti"
+    },
+    "description": {
+      "EN": "The building is completely run by a computer.",
+      "ES": "The building is run completely by a computer.",
+      "FR": "Le bâtiment est complètement couru par un ordinateur.",
+      "DE": "The building is run completely by a computer.",
+      "IT": "L'edificio è interamente controllato da un computer."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "apprentice",
+      "maintenance": 6
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AirBorneDeliveries": {
+    "id": "AirBorneDeliveries",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Air Deliveries",
+      "ES": "Air Borne Deliveries",
+      "FR": "Air Soutenu Livraisons",
+      "DE": "Air Borne Deliveries",
+      "IT": "Consegne per via area"
+    },
+    "description": {
+      "EN": "Home deliveries are performed by special mini-helicopters that come to apartment's windows: much quicker than the traditional delivery method.",
+      "ES": "Home deliveries are performed by special minielicopters that come to the windows of the apartments. Much quicker than the traditional way.",
+      "FR": "Des livraisons à domicile sont exécutées par des mini-hélicoptères spéciaux qui livrent directement aux fenêtres des appartements. Beaucoup plus vite que la manière traditionnelle.",
+      "DE": "Home deliveries are performed by special minielicopters that come to the windows of the apartments. Much quicker than the traditional way.",
+      "IT": "Le consegne a domicilio sono effettuate da mini-elicotteri che si fermano fuori dalle finestre degli appartamenti. Un metodo molto più rapido di quelli tradizionali."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "maintenance": -2,
+      "privacy": 4,
+      "security": 3,
+      "environment": -2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AntiPollPaint": {
+    "id": "AntiPollPaint",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Anti-Pollution Paint",
+      "ES": "Anti-pollution paint",
+      "FR": "Peinture antipollution",
+      "DE": "Anti-Schadstoff-Farbe",
+      "IT": "Vernice anti-inquinamento"
+    },
+    "description": {
+      "EN": "Develop a special kind of paint that can absorb pollution.",
+      "ES": "Develop a special kind of paint that can absorb pollution.",
+      "FR": "Développez un type de peinture spéciale qui absorbe la pollution.",
+      "DE": "Entwickeln Sie ein Farbe, die Schadstoffe aufnehmen kann.",
+      "IT": "Sviluppa una vernice speciale in grado di assorbire gli agenti inquinanti."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "beauty": -7,
+      "environment": 25
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AntiRadGlass": {
+    "id": "AntiRadGlass",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Anti-Radiation Windows",
+      "ES": "Anti-radiation glasses",
+      "FR": "Verre anti-radiation",
+      "DE": "Anti-Strahlungs-Glas",
+      "IT": "Vetri anti-radiazioni"
+    },
+    "description": {
+      "EN": "Install windows that will stop harmful radiation from industrial facilities.",
+      "ES": "Install windows that will stop harmfull radiations comming from industries.",
+      "FR": "Installez des fenêtres qui arrêtent les radiations nuisibles provenant des usines.",
+      "DE": "Installieren Sie Fenster, die schädliche Strahlungen aus der Industrie abfangen.",
+      "IT": "Installa finestre in grado di filtrare le radiazioni nocive sprigionate dalle industrie."
+    },
+    "properties": {
+      "price": 27000000,
+      "level": "apprentice",
+      "beauty": -3,
+      "privacy": 2,
+      "environment": 10
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "AntiRadWall": {
+    "id": "AntiRadWall",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Anti-Radiation Walls",
+      "ES": "Anti-radiation walls",
+      "FR": "Murs anti-radiation",
+      "DE": "Anti-Strahlungs-Wände",
+      "IT": "Pareti anti-radiazioni"
+    },
+    "description": {
+      "EN": "Develop walls that will stop harmful radiation from industrial facilities.",
+      "ES": "Develop walls that will stop harmfull radiations comming from industries.",
+      "FR": "Développez des murs qui arrêtent les radiations nuisibles provenant des usines.",
+      "DE": "Entwickeln Sie Wände, die schädliche Strahlungen aus der Industrie abfangen.",
+      "IT": "Sviluppa pareti in grado di bloccare le radiazioni nocive sprigionate dalle industrie."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "apprentice",
+      "beauty": -1,
+      "environment": 10
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "BanjeeJumping": {
+    "id": "BanjeeJumping",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Bungee Jumping",
+      "ES": "Banjee Jumping",
+      "FR": "Sauter De Banjee",
+      "DE": "Banjee Jumping",
+      "IT": "Bungy jumping"
+    },
+    "description": {
+      "EN": "People that want to try this form of extreme entertainment can do so from the top of your buildings.",
+      "ES": "People that want to try this form of extreme entertainment can do so from the top of your buildings.",
+      "FR": "Personnes qui veulent essayer cette forme de divertissement extrême peuvent le faire à partir du toit de leurs bâtiments.",
+      "DE": "People that want to try this form of extreme entertainment can do so from the top of your buildings.",
+      "IT": "Coloro che desiderano provare questo sport estremo possono lanciarsi dal tetto dei tuoi edifici."
+    },
+    "properties": {
+      "price": 120000000,
+      "level": "apprentice",
+      "beauty": 3,
+      "maintenance": 4,
+      "privacy": -2,
+      "security": -1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "CleaningMonitoringSystem": {
+    "id": "CleaningMonitoringSystem",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Cleaning Monitoring System",
+      "ES": "Cleaning Monitoring System",
+      "FR": "Surveillance du Système de Nettoyage",
+      "DE": "Cleaning Monitoring System",
+      "IT": "Sistema di monitoraggio per le pulizie"
+    },
+    "description": {
+      "EN": "A camera system monitors the common areas of your building and sends cleaners only when necessary.",
+      "ES": "A cameras system monitors the common areas of your building and send cleaners only if strictly necessary.",
+      "FR": "A cameras system monitors the common areas of your building and send cleaners only if strictly necessary.",
+      "DE": "A cameras system monitors the common areas of your building and send cleaners only if strictly necessary.",
+      "IT": "Un sistema di telecamere tiene sotto controllo le aree comuni degli edifici e ne ordina la pulizia solo quando è strettamente necessario."
+    },
+    "properties": {
+      "price": 180000000,
+      "level": "apprentice",
+      "beauty": -2,
+      "maintenance": 10,
+      "privacy": 2,
+      "environment": -3
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ClosedCircuits": {
+    "id": "ClosedCircuits",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Surveillance",
+      "ES": "Closed Circuits",
+      "FR": "Circuits fermés",
+      "DE": "Innerbetriebliche Fernsehanlage",
+      "IT": "Sistemi a circuito chiuso"
+    },
+    "description": {
+      "EN": "Install a close-circuit TV for surveillance.",
+      "ES": "Install a TV closed circuit for surveillance.",
+      "FR": "Installez un circuit fermé de surveillance TV.",
+      "DE": "Installieren Sie eine innerbetriebliche Fernsehanlage zur Überwachung.",
+      "IT": "Installa un sistema di monitor a circuito chiuso per la sorveglianza."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "privacy": -4,
+      "security": 9
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "Colossus": {
+    "id": "Colossus",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Colossus",
+      "ES": "Colossus",
+      "FR": "Colossus",
+      "DE": "Colossus",
+      "IT": "Colosso"
+    },
+    "description": {
+      "EN": "A giant statue in the main entrance enhances the beauty of your building: beautiful but strangers come to see it.",
+      "ES": "A giant statue is positioned in the main entrance of your building. Beautiful but strangers come in to see it.",
+      "FR": "Une statue géante est placée dans l'entrée principale de votre bâtiment. Beau mais des étrangers viennent pour la voir.",
+      "DE": "A giant statue is positioned in the main entrance of your building. Beautiful but strangers come in to see it.",
+      "IT": "Una gigantesca statua posta nell'ingresso principale del tuo edificio. È molto bella ma attira i passanti incuriositi."
+    },
+    "properties": {
+      "price": 120000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "beauty": 5,
+      "maintenance": -1,
+      "privacy": -1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "Communities": {
+    "id": "Communities",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Communities",
+      "ES": "Communities",
+      "FR": "Communautés",
+      "DE": "Communities",
+      "IT": "Comunità"
+    },
+    "description": {
+      "EN": "Some floors of your building are rented only to people sharing a similar lifestyle, like gays, punks, ravers, etc.",
+      "ES": "Some floors of your building are rented only to people sharing a similar lifestyle, like gays, punks, ravers, etc.",
+      "FR": "Quelques étages de votre bâtiment sont loués seulement pour des personnes qui partagent un style de vie semblable, comme des gays, des punks, des ravers, etc...",
+      "DE": "Some floors of your building are rented only to people sharing a similar lifestyle, like gays, punks, ravers, etc.",
+      "IT": "Alcuni piani dei tuoi edifici sono riservati a persone con determinati stili di vita, come ad esempio omosessuali, punk, patiti del rave, ecc."
+    },
+    "properties": {
+      "price": 180000000,
+      "level": "apprentice",
+      "privacy": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ComplementaryCars": {
+    "id": "ComplementaryCars",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Complimentary Cars",
+      "ES": "Complementary Cars",
+      "FR": "Voitures Complémentaires",
+      "DE": "Complementary Cars",
+      "IT": "Auto gratuite"
+    },
+    "description": {
+      "EN": "Instead of having their own cars, your residents use cars offered by the administration.",
+      "ES": "Instead of having their own cars, your residents use a lot of cars offered by the administration.",
+      "FR": "Au lieu d'avoir leurs propres voitures, vos résidants utilisent des voitures offertes par l'administration.",
+      "DE": "Instead of having their own cars, your residents use a lot of cars offered by the administration.",
+      "IT": "Invece di acquistare auto proprie, i tuoi inquilini usano quelle messe a loro disposizione dall'amministrazione."
+    },
+    "properties": {
+      "price": 140000000,
+      "level": "apprentice",
+      "maintenance": 3,
+      "privacy": -1,
+      "security": 1,
+      "environment": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ControlledRiots": {
+    "id": "ControlledRiots",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Controlled Riots",
+      "ES": "Controlled Riots",
+      "FR": "Émeutes Commandées",
+      "DE": "Controlled Riots",
+      "IT": "Rivolte controllate"
+    },
+    "description": {
+      "EN": "To ease the social pressure on the most crowded floors, your staff organize controlled riots in areas of the building with little that can get trashed.",
+      "ES": "To ease the social pressure in the most crowded floors, your staff organize controlled riots in areas of the building with little to trash.",
+      "FR": "Pour détendre la tension sociale sur les étages les plus serrés, votre personnel organisent des émeutes commandées dans les secteurs du bâtiment avec peu à détruire.",
+      "DE": "To ease the social pressure in the most crowded floors, your staff organize controlled riots in areas of the building with little to trash.",
+      "IT": "Per allentare la pressione sociale sui piani più affollati, il tuo personale organizza rivolte controllate in determinate aree dell'edificio in cui non c'è molto da rompere."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "maintenance": -2,
+      "privacy": -1,
+      "security": 6
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "DailyCleaners": {
+    "id": "DailyCleaners",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Daily Cleaners",
+      "ES": "Daily Cleaners",
+      "FR": "Agents de nettoyage quotidien",
+      "DE": "Tägliche Putzkolonne",
+      "IT": "Pulizie quotidiane"
+    },
+    "description": {
+      "EN": "Have a professional firm clean your buildings' common areas, entrances and corridors everyday.",
+      "ES": "Have a professional firm clean your buildings common areas every day.",
+      "FR": "Faites chaque jour appel à une entreprise pour nettoyer les parties communes de vos bâtiments.",
+      "DE": "Setzen Sie ein professionelle Firma ein, die Gemeinschaftsräume Ihrer Gebäude täglich säubert.",
+      "IT": "Incarica una azienda specializzata di occuparsi quotidianamente della pulizia delle aree comuni dei tuoi edifici."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "beauty": 2,
+      "maintenance": -2,
+      "privacy": -1,
+      "security": 1,
+      "environment": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "DigitalPaintings": {
+    "id": "DigitalPaintings",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Digital Paintings",
+      "ES": "Digital Paintings",
+      "FR": "Peintures Digitals",
+      "DE": "Digital Paintings",
+      "IT": "Dipinti digitali"
+    },
+    "description": {
+      "EN": "Instead of real paintings, your hallways have ultra-flat screens with images of famous paintings in heavy rotation.",
+      "ES": "Instead of real paintings, your hallways have ultra-flat screens with images of famous paintings in heavy rotation.",
+      "FR": "Au lieu de vraies peintures, vos couloirs auront des écrans ultra-plats avec des images des peintures célèbres à tour de rôle.",
+      "DE": "Instead of real paintings, your hallways have ultra-flat screens with images of famous paintings in heavy rotation.",
+      "IT": "Invece di esporre dipinti veri, appendi alle pareti dei tue corridoi schermi ultrapiatti che riproducono famosi capolavori."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "apprentice",
+      "beauty": 3,
+      "maintenance": 1,
+      "security": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ElecFenc": {
+    "id": "ElecFenc",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Electric Fences",
+      "ES": "Electric Fences",
+      "FR": "Clôtures électriques",
+      "DE": "Elektrische Zäune",
+      "IT": "Recinzioni elettrificate"
+    },
+    "description": {
+      "EN": "Install electrical fences to electrocute intruders and unwary animals.",
+      "ES": "Install electrical fences to electrocute intruders and unwary animals.",
+      "FR": "Installez des clôtures électriques pour électrocuter les intrus et les animaux imprudents.",
+      "DE": "Installieren Sie elektrische Zäune, um Eindringlingen und unvorsichtigen Tieren einen Stromschlag zu verpassen.",
+      "IT": "Installa recinzioni elettrificate a prova di intrusi e di animali."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "apprentice",
+      "beauty": -5,
+      "maintenance": -3,
+      "privacy": 4,
+      "security": 20
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "EmergencyParachuting": {
+    "id": "EmergencyParachuting",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Emergency Parachuting",
+      "ES": "Emergency Parachuting",
+      "FR": "Parachutage De Secours",
+      "DE": "Emergency Parachuting",
+      "IT": "Paracadute di emergenza"
+    },
+    "description": {
+      "EN": "In such massive building, using the stairs in an emergency is ineffective. Every tenant has a parachute so that they can launch themselves when needed.",
+      "ES": "In such massive building, reaching the ground with stairs in an emergency it's ineffective. Every tenant has a parachute to launch himself if it's needed.",
+      "FR": "Dans des bâtiments massifs, prender les escaliers en cas d'urgence est inefficace. Chaque locataire a un parachute pour une urgence.",
+      "DE": "In such massive building, reaching the ground with stairs in an emergency it's ineffective. Every tenant has a parachute to launch himself if it's needed.",
+      "IT": "In edifici di dimensioni così enormi, non ha senso tentare di usare le scale come via di fuga nelle emergenze. Ogni inquilino viene fornito di un paracadute con cui lanciarsi dal proprio piano."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "apprentice",
+      "maintenance": 2,
+      "security": 2,
+      "environment": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "EnvMusic": {
+    "id": "EnvMusic",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Background Music",
+      "ES": "Environmental Music",
+      "FR": "Musique d'ambiance",
+      "DE": "Hintergrundmusik",
+      "IT": "Musica ambientale"
+    },
+    "description": {
+      "EN": "Add background music your building's common areas to make them more pleasant.",
+      "ES": "Add background music to make your spaces nicer.",
+      "FR": "Ajoutez des musiques d'ambiance pour rendre vos locaux plus agréables.",
+      "DE": "Mit Hintergrundmusik wirken Ihre Räume angenehmer.",
+      "IT": "Aggiungi un sottofondo musicale per rendere gli ambienti più piacevoli."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "beauty": 4
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "EscortService": {
+    "id": "EscortService",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Escort Service",
+      "ES": "Escort Service",
+      "FR": "Service D'Escorte",
+      "DE": "Escort Service",
+      "IT": "Servizio di scorta"
+    },
+    "description": {
+      "EN": "To avoid muggings in the hallways, your tenants, by request, are escorted by guards to and from their apartment to the building entrance.",
+      "ES": "To avoid muggings in the hallways, upon request your tenants are escorted by guards from the entrance of the building to their apartment door.",
+      "FR": "Pour éviter des agressions dans les couloirs, sur demande, vos locataires peuvent être escortés par des gardes de l'entrée du bâtiment jusquà leur appartement.",
+      "DE": "To avoid muggings in the hallways, upon request your tenants are escorted by guards from the entrance of the building to their apartment door.",
+      "IT": "Per evitare aggressioni nei corridoi, i tuoi inquilini possono - se lo desiderano - essere scortati da una guardia che li accompagna dall'ingresso dell'edificio alla porta dell'appartamento."
+    },
+    "properties": {
+      "price": 140000000,
+      "level": "apprentice",
+      "security": 5
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "FengShui": {
+    "id": "FengShui",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Feng Shui",
+      "ES": "Feng Shui",
+      "FR": "Feng Shui",
+      "DE": "Feng Shui",
+      "IT": "Feng Shui"
+    },
+    "description": {
+      "EN": "The common areas of the building are decorated according this oriental discipline.",
+      "ES": "The common areas of the building are decorated according this Oriental discipline.",
+      "FR": "Les secteurs communs du bâtiment sont décorés accordant cette discipline orientale.",
+      "DE": "The common areas of the building are decorated according this Oriental discipline.",
+      "IT": "Le aree comuni dell'edificio sono decorate secondo i dettami di questa disciplina orientale."
+    },
+    "properties": {
+      "price": 180000000,
+      "level": "apprentice",
+      "beauty": 7
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "FishBowls": {
+    "id": "FishBowls",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Fish Tanks",
+      "ES": "Fish Bowls",
+      "FR": "Aquariums",
+      "DE": "Aquarien",
+      "IT": "Vasche per i pesci"
+    },
+    "description": {
+      "EN": "Install fish tanks in lobbies and halls to calm nervous tenants.",
+      "ES": "Install fish bowls in lobbies and halls to placate nervous tenants.",
+      "FR": "Installez des aquariums dans les foyers et dans les halls pour calmer les locataires nerveux.",
+      "DE": "Stellen Sie in Wartesälen und Vorräumen Aquarien auf, das beruhigt die nervösen Insassen.",
+      "IT": "Installi acquari nei corridoi e negli atri per placare gli inquilini nervosi."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "beauty": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "Gardener": {
+    "id": "Gardener",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Gardener",
+      "ES": "Gardener",
+      "FR": "Jardinier",
+      "DE": "Gärtner",
+      "IT": "Giardiniere"
+    },
+    "description": {
+      "EN": "Hire a professional gardener to take care of the green spaces around and inside your buildings.",
+      "ES": "Hire a professional gardener that takes care of the green spaces around and inside your residentials.",
+      "FR": "Embauchez un jardinier professionnel pour s'occuper des espaces verts à l'extérieur et à l'intérieur des résidences.",
+      "DE": "Stellen Sie einen Profigärtner ein, der sich um die Grünanlagen um und in Ihren Wohngebäuden kümmert.",
+      "IT": "Assumi un giardiniere professionista che si occupi degli spazi verdi all'interno delle tue aree residenziali."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "beauty": 3,
+      "maintenance": -2,
+      "security": 2,
+      "environment": 1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "GatedFloors": {
+    "id": "GatedFloors",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "High Security Floors",
+      "ES": "Gated Floors",
+      "FR": "Ètages Fermés",
+      "DE": "Gated Floors",
+      "IT": "Piani sbarrati"
+    },
+    "description": {
+      "EN": "Some floors are closed and patrolled by guards: the best way to ensure the maximum level of security for residents.",
+      "ES": "Some floors are closed and patrolled by guards. The best to insure the security of the residents.",
+      "FR": "Quelques étages sont fermés et patrouillés par des gardes. La meilleure manière d'assurer la sécurité des résidants.",
+      "DE": "Some floors are closed and patrolled by guards. The best to insure the security of the residents.",
+      "IT": "Alcuni piani sono recintati e protetti da guardie per la sicurezza degli inquilini."
+    },
+    "properties": {
+      "price": 180000000,
+      "level": "apprentice",
+      "beauty": -2,
+      "maintenance": -2,
+      "privacy": 5,
+      "security": 6
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "GlassCleaningRobots": {
+    "id": "GlassCleaningRobots",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Window Cleaning Robots",
+      "ES": "Glass Cleaning Robots",
+      "FR": "Robots Grimpent",
+      "DE": "Glass Cleaning Robots",
+      "IT": "Robot lavavetri"
+    },
+    "description": {
+      "EN": "Small Robots climb up and down your building to ensure windows are always clean.",
+      "ES": "Small Robots climb up and down your building to keep the windows always clean.",
+      "FR": "Des petits robots grimpent le long de votre bâtiment pour maintenir les fenêtres toujours propres.",
+      "DE": "Small Robots climb up and down your building to keep the windows always clean.",
+      "IT": "Piccoli robot che salgono e scendono le pareti esterne dell'edificio, assicurandosi che le finestre siano sempre pulite."
+    },
+    "properties": {
+      "price": 200000000,
+      "level": "apprentice",
+      "beauty": 2,
+      "maintenance": 2,
+      "privacy": -1,
+      "security": 1,
+      "environment": 4
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "GlobFilters": {
+    "id": "GlobFilters",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Global Filters",
+      "ES": "Global Filters",
+      "FR": "Filtres globaux",
+      "DE": "Universalfilter",
+      "IT": "Filtri per l'aria"
+    },
+    "description": {
+      "EN": "Seal the whole building and install enormous air filters. A very effective way to fight pollution, but security is a concern, since high-tech criminals can send special probes through the air shafts.",
+      "ES": "Seal the whole building and install huge air filters. This is a very effective way to fight pollution. Security is a concern, however since high-tech criminal can send special probes through these new air conducts.",
+      "FR": "Etanchéifiez l'ensemble de l'édifice et installez d'énormes filtres à air. Méthode efficace de lutte contre la pollution. La sécurité est tout de même un souci, car les criminels high-tech peuvent envoyer des sondes par les nouvelles canalisations d'air.",
+      "DE": "Siegeln Sie das gesamte Gebäude ab und bauen Sie riesige Luftfilter. Das ist eine sehr effiziente Methode gegen die Luftverschmutzung. Die Sicherheit ist allerdings ein Problem, denn Profiverbrecher können Spezialproben durch die neuen Luftröhren schicken.",
+      "IT": "Sigilla l'edificio ed installa enormi filtri per l'aria. Ciò riduce l'inquinamento ma pone problemi di sicurezza, in quanto i criminali più avanzati possono introdurre speciali sonde in queste condotte."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "maintenance": -10,
+      "security": -4,
+      "environment": 10
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "GunCompart": {
+    "id": "GunCompart",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Gun Compartments",
+      "ES": "Gun Compartments",
+      "FR": "Compartiment à revolver",
+      "DE": "Waffendepots",
+      "IT": "Armadietti per armi"
+    },
+    "description": {
+      "EN": "Install voice-activated compartments in the building's hallways that release a gun when activated by a password.",
+      "ES": "Install voice activated compartments in the building's halls that release a gun when activated by a password.",
+      "FR": "Installez des compartiments activés à la voix dans les halls des bâtiments afin qu'un revolver vous soit donné si vous fournissez un mot de passe.",
+      "DE": "Richten Sie stimmgesteuerte Waffendepots in den Eingangshallen der Gebäude ein, die nach Aktivierung durch ein Passwort ein Gewehr freigeben.",
+      "IT": "Installi armadietti ad apertura vocale nei corridoi dell'edificio. Essi contengono armi da fuoco e possono essere aperti solo con un'apposita parola d'ordine."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "beauty": -3,
+      "security": 7
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "HallMirrors": {
+    "id": "HallMirrors",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Convex Hall Mirrors",
+      "ES": "Hall Mirrors",
+      "FR": "Miroirs dans les halls",
+      "DE": "Wandspiegel",
+      "IT": "Specchi nei corridoi"
+    },
+    "description": {
+      "EN": "Install convex mirrors to enable tenants to easily detect danger in the corridors.",
+      "ES": "Install convex mirrors to easily detetect danger in the corridors.",
+      "FR": "Installez des miroirs convexes pour détecter facilement tout danger dans les couloirs.",
+      "DE": "Installieren sie konvexe Spiegel, die vor Gefahren in den Korridoren warnen.",
+      "IT": "Installa specchi convessi nei corridoi onde permettere di individuare con facilità eventuali pericoli."
+    },
+    "properties": {
+      "price": 1000000,
+      "level": "apprentice",
+      "beauty": -2,
+      "privacy": -1,
+      "security": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "HallwayTrees": {
+    "id": "HallwayTrees",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Hallway Trees",
+      "ES": "Hallway Trees",
+      "FR": "Arbres De Vestibule",
+      "DE": "Hallway Trees",
+      "IT": "Alberi nei corridoi"
+    },
+    "description": {
+      "EN": "The building's larger hallways are lined with trees. They look nice and purify the air, but could provide criminals with a hiding place.",
+      "ES": "The larger hallways of the building are lined with trees. They look nice and purify the air.",
+      "FR": "The larger hallways of the building are lined with trees. They look nice and purify the air.",
+      "DE": "The larger hallways of the building are lined with trees. They look nice and purify the air.",
+      "IT": "I corridoi principali dell'edificio sono abbelliti con alberi che permettono tra l'altro di purificare l'aria."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "beauty": 4,
+      "security": -2,
+      "environment": 3
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "HighSpeedElevators": {
+    "id": "HighSpeedElevators",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "High Speed Elevators",
+      "ES": "High Speed Elevators",
+      "FR": "Ascenseurs À Grande Vitesse",
+      "DE": "High Speed Elevators",
+      "IT": "Ascensori ad alta velocità"
+    },
+    "description": {
+      "EN": "The user enters a ball that completely envelops them and adheres to their body and is then propelled up or down by a high pressure shot of air: efficient and fun.",
+      "ES": "The user enter a ball that completely wrap him and adhere to his body and is shot up by a high pressured blow of air.",
+      "FR": "L'utilisateur entre dans une boule qui les enveloppe complètement et adhère à leur corps. Il est levé  rapidement par un éclat élevé d'air pressurisé.",
+      "DE": "The user enter a ball that completely wrap him and adhere to his body and is shot up by a high pressured blow of air.",
+      "IT": "L'utente penetra in una sfera che lo avvolge completamente aderendo al suo corpo, e viene sparato verso l'alto in una bolla d'aria pressurizzata."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "privacy": 2,
+      "environment": 3
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "HoboEnrolling": {
+    "id": "HoboEnrolling",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Hobo Recruiting",
+      "ES": "Hobo Enrolling",
+      "FR": "Inscription de Pariahs",
+      "DE": "Hobo Enrolling",
+      "IT": "Reclutamento di barboni"
+    },
+    "description": {
+      "EN": "Several communities of pariahs spring up in the hidden recesses of these huge buildings. You decide to hire them to perform janitorial duties.",
+      "ES": "Several communities of pariahs naturally spring in the hidden corners of such huge buildings. You decide to hire them to perform janitor jobs.",
+      "FR": "Plusieurs communautés de pariahs jaillissent naturellement dans les coins cachés des bâtiments énormes. Vous décidez de les employer pour exécuter les travaux de concierge.",
+      "DE": "Several communities of pariahs naturally spring in the hidden corners of such huge buildings. You decide to hire them to perform janitor jobs.",
+      "IT": "Nei recessi degli edifici di questi dimensioni sorgono sempre comunità di persone senza fissa dimora. Decidi di reclutare i barboni come tuttofare."
+    },
+    "properties": {
+      "price": 140000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "beauty": -4,
+      "maintenance": 2,
+      "privacy": -1,
+      "security": 2,
+      "environment": 5
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "HolidayCenters": {
+    "id": "HolidayCenters",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Holiday Centers",
+      "ES": "Holiday Centers",
+      "FR": "Centres De Vacances",
+      "DE": "Holiday Centers",
+      "IT": "Località di villeggiatura"
+    },
+    "description": {
+      "EN": "Special built-in resorts, available exclusively to your residents. Some people never leave the building.",
+      "ES": "Special built-in resorts exclusively available to your residents. Some people start to never leave the building.",
+      "FR": "Special built-in resorts exclusively available to your residents. Some people start to never leave the building.",
+      "DE": "Special built-in resorts exclusively available to your residents. Some people start to never leave the building.",
+      "IT": "Speciali località di villeggiatura aperte agli inquilini. Alcuni pensano seriamente di non uscire mai più dall'edificio."
+    },
+    "properties": {
+      "price": 140000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "beauty": 3,
+      "maintenance": -3,
+      "privacy": 6,
+      "environment": -1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "InternalZoo": {
+    "id": "InternalZoo",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Internal Zoo",
+      "ES": "Internal Zoo",
+      "FR": "Zoo Interne",
+      "DE": "Internal Zoo",
+      "IT": "Zoo"
+    },
+    "description": {
+      "EN": "For the children, your building has an internal zoo,",
+      "ES": "For the joy of the children, your building has an internal zoo,",
+      "FR": "For the joy of the children, your building has an internal zoo,",
+      "DE": "For the joy of the children, your building has an internal zoo,",
+      "IT": "Per la gioia dei bambini, il tuo edificio vanta uno zoo interno."
+    },
+    "properties": {
+      "price": 100000000,
+      "level": "apprentice",
+      "beauty": 6,
+      "maintenance": -2,
+      "environment": -1
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "IntExt": {
+    "id": "IntExt",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Interior Expansion",
+      "ES": "Interior Expansion",
+      "FR": "Expansion de l'intérieur",
+      "DE": "Innenraumvergrößerung",
+      "IT": "Espansione degli interni"
+    },
+    "description": {
+      "EN": "Easily enlarge room interiors by making walls thinner.",
+      "ES": "Enlage room interiors by making walls thinner.",
+      "FR": "Agrandissez l'intérieur des pièces en faisant des murs plus minces.",
+      "DE": "Vergrößern Sie die Räume, indem Sie die Wände dünner machen.",
+      "IT": "Espandi i vani degli edifici diminuendo lo spessore delle pareti."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "beauty": 3,
+      "privacy": -2,
+      "security": -3,
+      "environment": -2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "MobileApartments": {
+    "id": "MobileApartments",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Mobile Apartments",
+      "ES": "Mobile Apartments",
+      "FR": "Appartements Mobiles",
+      "DE": "Mobile Apartments",
+      "IT": "Appartamenti mobili"
+    },
+    "description": {
+      "EN": "The apartments are built on enormous rails which move every few days. Residents have a ever-changing view and get a chance to often change their neighborhood.",
+      "ES": "The apartment are built on enormous rails on which they move every few days. The residents have different panoramas from the windows and change their neighborhoods often.",
+      "FR": "The apartments are built on enormous rails which move every few days. Residents have a ever-changing view and get a chance to often change their neighborhood.",
+      "DE": "The apartment are built on enormous rails on which they move every few days. The residents have different panoramas from the windows and change their neighborhoods often.",
+      "IT": "Gli appartamenti sono costruiti su enormi rotaie in modo da potersi spostare periodicamente. Gli inquilini possono così variare il panorama e cambiare vicinato con frequenza."
+    },
+    "properties": {
+      "price": 200000000,
+      "level": "apprentice",
+      "beauty": 5,
+      "maintenance": -5,
+      "privacy": 5,
+      "security": 3
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "OxygenMasks": {
+    "id": "OxygenMasks",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Oxygen Masks",
+      "ES": "Oxygen Masks",
+      "FR": "Masques à oxygène",
+      "DE": "Sauerstoffmasken",
+      "IT": "Maschere per l'ossigeno"
+    },
+    "description": {
+      "EN": "Install disposable oxygen masks in all your buildings' corridors and lobbies.",
+      "ES": "Install disposable oxygen masks in buildings' corridors and lobbies.",
+      "FR": "Installez des masques à oxygène jetables dans les couloirs et les vestibules des bâtiments.",
+      "DE": "Stellen sie in den Gängen und Hallen der Gebäude Sauerstoffmasken zur Verfügung.",
+      "IT": "Installa maschere per l'ossigeno usa-e-getta nei corridoi e negli androni dei tuoi edifici."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "beauty": -1,
+      "environment": 4
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "Painting": {
+    "id": "Painting",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Paintings",
+      "ES": "Paintings",
+      "FR": "Peintures",
+      "DE": "Bilder",
+      "IT": "Dipinti"
+    },
+    "description": {
+      "EN": "Create a system to purchase and install paintings in the common rooms, lobbies and corridors of your buildings.",
+      "ES": "Create a system to purchase and install paintings in the rooms, lobbies and corridors of your buildings.",
+      "FR": "Créez un système permettant d'acheter et d'installer des peintures dans les salles, vestibules et couloirs de vos bâtiments.",
+      "DE": "Richte Sie ein System für Einkauf und die Installation von Bildern in den Räumen, Eingängen und Fluren Ihres Gebäudes ein.",
+      "IT": "Crei un ufficio incaricato di acquistare ed esporre dipinti nelle stanze, nei corridoi e negli atri dei tuoi edifici."
+    },
+    "properties": {
+      "price": 5000000,
+      "level": "apprentice",
+      "beauty": 4,
+      "security": -2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "PatBldgs": {
+    "id": "PatBldgs",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Patrolled Buildings",
+      "ES": "Patrolled Buildings",
+      "FR": "Patrouille dans les bâtiments",
+      "DE": "Patrouillensystem",
+      "IT": "Edifici sotto sorveglianza"
+    },
+    "description": {
+      "EN": "Establish a patrol system to prevent suspicious individuals from entering the building's perimeter.",
+      "ES": "Create a patrol system to prevent suspicious individuals from enterering the perimeter of a building.",
+      "FR": "Créez un système de patrouille chargé d'empêcher tout individu suspect d'entrer dans le périmètre du bâtiment.",
+      "DE": "Richten Sie ein Patrouillensystem ein, das verdächtige Individuen nicht in die Nähe der Gebäude lässt .",
+      "IT": "Crei un sistema di pattugliamento che previene l'intrusione di individui sospetti nel perimetro degli edifici."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "maintenance": -4,
+      "privacy": -3,
+      "security": 10
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "RealEstate": {
+    "id": "RealEstate",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "House Rental Basics",
+      "ES": "House Rental Basics",
+      "FR": "Principes de location de maison",
+      "DE": "Grundlagen zur Hausvermietung",
+      "IT": "Fondamenti dell'edilizia residenziale"
+    },
+    "description": {
+      "EN": "Learn how to build housing units.",
+      "ES": "Learn how to build housing.",
+      "FR": "Apprenez à construire des logements",
+      "DE": "Lernen Sie, wie man Mietshäuser baut.",
+      "IT": "Apprendi i metodi di costruzione degli edifici residenziali."
+    },
+    "properties": {
+      "price": 500000,
+      "level": "apprentice"
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ScentDiffusers": {
+    "id": "ScentDiffusers",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Scent Diffusers",
+      "ES": "Scent Diffusers",
+      "FR": "Diffuseurs De Parfum",
+      "DE": "Scent Diffusers",
+      "IT": "Diffusori di aromi"
+    },
+    "description": {
+      "EN": "Special dispensers diffuse perfume-free chemical scents in the air to please and soothe your tenants.",
+      "ES": "Special dispensers free perfumed chemicals in the air to please and soothe your tenants.",
+      "FR": "Special dispensers free perfumed chemicals in the air to please and soothe your tenants.",
+      "DE": "Special dispensers free perfumed chemicals in the air to please and soothe your tenants.",
+      "IT": "Speciali diffusori emettono nell'aria profumi piacevoli e rilassanti ad uso degli inquilini."
+    },
+    "properties": {
+      "price": 160000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "beauty": 1,
+      "security": -2,
+      "environment": 6
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "Sculpt": {
+    "id": "Sculpt",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Sculptures",
+      "ES": "Sculptures",
+      "FR": "Sculptures",
+      "DE": "Skulpturen",
+      "IT": "Sculture"
+    },
+    "description": {
+      "EN": "Create a system to purchase and install sculptures on the patios, in the lobbies and corridors of your buildings.",
+      "ES": "Create a system to purchase and install sculptures in the patios, lobbies and corridors of your buildings.",
+      "FR": "Créez un système permettant d'acheter des sculptures et de les installer dans les patios, les foyers et les couloirs de vos bâtiments.",
+      "DE": "Richten Sie ein System für den Kauf und die Installation von Skulpturen in den Patios, Hallen und Korridoren Ihrer Gebäude ein.",
+      "IT": "Crei un ufficio incaricato di acquistare ed esporre sculture nei cortili, nei corridoi e negli atri dei tuoi edifici."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice",
+      "beauty": 4,
+      "security": -3
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "SealedEnvironment": {
+    "id": "SealedEnvironment",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Sealed Environment",
+      "ES": "Sealed Environment",
+      "FR": "Environnement Scellé",
+      "DE": "Sealed Environment",
+      "IT": "Ambiente sigillato"
+    },
+    "description": {
+      "EN": "The building is pressure-sealed from the outside, drastically reducing pollution.",
+      "ES": "The building is pressure sealed from the outside to drastically reduce pollution.",
+      "FR": "The building is pressure sealed from the outside to drastically reduce pollution.",
+      "DE": "The building is pressure sealed from the outside to drastically reduce pollution.",
+      "IT": "L'edificio è sigillato a pressione dall'esterno, in modo da ridurre drasticamente l'inquinamento."
+    },
+    "properties": {
+      "price": 200000000,
+      "level": "apprentice",
+      "environment": 8
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "SelfDef": {
+    "id": "SelfDef",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Self-Defense Training Courses",
+      "ES": "Self-Defense training courses",
+      "FR": "Cours d'autodéfense",
+      "DE": "Selbstverteidigungskurse",
+      "IT": "Corsi di difesa personale"
+    },
+    "description": {
+      "EN": "Teach your tenants how to defend themselves from criminal attacks.",
+      "ES": "Tech your tenants how to defend themselves from criminal attacks.",
+      "FR": "Apprenez vos locataires à se défendre contre des attaques.",
+      "DE": "Bringen Sie Ihren Mietern bei, wie man sich selbst verteidigt.",
+      "IT": "Insegna ai tuoi inquilini come difendersi dalle aggressioni."
+    },
+    "properties": {
+      "price": 15000000,
+      "level": "apprentice",
+      "security": 7
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "SuicideTerrace": {
+    "id": "SuicideTerrace",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Suicide Terrace",
+      "ES": "Suicide Terrace",
+      "FR": "Terrasse De Suicide",
+      "DE": "Suicide Terrace",
+      "IT": "Terrazza per aspiranti suicidi"
+    },
+    "description": {
+      "EN": "On top of the building, a special terrace provides a quiet place for those who want to die. They fall on a dedicated area on the grounds, without causing any harm to others.",
+      "ES": "On top of the building, a special terrace provides a quiet place for those who want to die. They fall on a dedicated area on the ground without causing any harm to others.",
+      "FR": "On top of the building, a special terrace provides a quiet place for those who want to die. They fall on a dedicated area on the ground without causing any harm to others.",
+      "DE": "On top of the building, a special terrace provides a quiet place for those who want to die. They fall on a dedicated area on the ground without causing any harm to others.",
+      "IT": "Una terrazza in cima all'edificio fornisce agli aspiranti suicidi un luogo tranquillo da cui lanciarsi nel vuoto. I corpi vanno a spiaccicarsi in un'area in cui non rischiano di ferire nessuno."
+    },
+    "properties": {
+      "price": 160000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "beauty": 2,
+      "privacy": 2,
+      "security": 2
+    },
+    "industry_type": "RESIDENTIAL"
+  },
+  "ZeroToleranceRent": {
+    "id": "ZeroToleranceRent",
+    "category": "REAL_ESTATE",
+    "name": {
+      "EN": "Zero Tolerance Rent",
+      "ES": "Zero Tolerance Rent",
+      "FR": "Loyer Zero Tolerance",
+      "DE": "Zero Tolerance Rent",
+      "IT": "Tolleranza-zero per i ritardi dell'affitto"
+    },
+    "description": {
+      "EN": "Your tenants are immediately evicted if they don't pay rent.",
+      "ES": "Your tenants are immediately evicted if they don't pay the rent.",
+      "FR": "Your tenants are immediately evicted if they don't pay the rent.",
+      "DE": "Your tenants are immediately evicted if they don't pay the rent.",
+      "IT": "I tuoi inquilini vengono immediatamente sfrattati se non pagano l'affitto."
+    },
+    "properties": {
+      "price": 180000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "maintenance": 2,
+      "privacy": 2,
+      "security": 3
+    },
+    "industry_type": "RESIDENTIAL"
+  }
+}

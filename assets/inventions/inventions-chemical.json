@@ -1,0 +1,481 @@
+{
+  "AntiEspionageSystem": {
+    "id": "AntiEspionageSystem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Anti-Spy System",
+      "ES": "Anti Espionage System",
+      "FR": "Système anti-espionnage",
+      "DE": "Anti-Spionage-System",
+      "IT": "Sistema antispionaggio"
+    },
+    "description": {
+      "EN": "To avoid the theft of intellectual property, factories have a very tight security system in place. As a result you can improve processes without worrying about the competition stealing the ideas.",
+      "ES": "To avoid any intelletual theft, your factories have a very tight security apparatus. You can implement better processes without worrying about the competition stealing them.",
+      "FR": "Pour éviter tout vol de propriété intellectuelle, vos usines sont dotées d'un système de sécurité très strict. Vous pouvez mettre en place de nouvelles technologies sans vous soucier que la concurrence vous les vole.",
+      "DE": "Um intellektuellen Diebstahl zu vermeiden, bauen Sie in Ihren Fabriken ein gutes Sicherheitsnetz auf. Sie können so bessere Verfahren einsetzen, ohne Angst, dass die Konkurrenz sie stiehlt.",
+      "IT": "I tuoi stabilimenti sono protetti da sistemi molto sofisticati contro lo spionaggio industriale. In questo modo puoi introdurre migliorie dei processi senza temere che la concorrenza se ne appropri."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "entrepreneur",
+      "efficiency": -3,
+      "quality": 7
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "ChemLic": {
+    "id": "ChemLic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Chemistry Basics",
+      "ES": "Chemistry Basics",
+      "FR": "Principes de chimie",
+      "DE": "Chemische Grundlagen",
+      "IT": "Fondamenti della realizzazione di prodotti chimici"
+    },
+    "description": {
+      "EN": "License to produce chemicals.",
+      "ES": "License to produce chemicals.",
+      "FR": "Licence de production de produits chimiques.",
+      "DE": "Lizenz zur Chemieproduktion",
+      "IT": "Licenza per la realizzazione di prodotti chimici."
+    },
+    "properties": {
+      "price": 20000000,
+      "level": "entrepreneur"
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "CrisisMonitoringCenter": {
+    "id": "CrisisMonitoringCenter",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Crisis Monitoring Center",
+      "ES": "Crisis Monitoring Center",
+      "FR": "Centre de surveillance des conflits",
+      "DE": "Krisencenter",
+      "IT": "Centro per il monitoraggio delle emergenze"
+    },
+    "description": {
+      "EN": "You establish a task force in your industry headquarter that monitors all your plants and alerts authorities in the event of a crisis. This centralized procedure permits you to save money on security",
+      "ES": "You create in your Cuarteles de Industria a task force that monitors all your plants and alerts the authorities in case of crisis. The centralization permits you to save money on security measure.",
+      "FR": "Au siège de votre secteur industriel, vous créez une commission qui surveille toutes vos usines et alerte les autorités en cas de conflit. La centralisation vous permet d'économiser de l'argent sur les mesures de sécurité.",
+      "DE": "Sie richten in Ihrer Handelszentrale eine Arbeitsgruppe ein, die alle Ihre Fabriken überwacht und die Behörden im Fall einer Krise benachrichtigt. Die Zentralisierung ermöglicht die Geldersparnis bei Sicherheitsmaßnahmen.",
+      "IT": "Crei nel tuo quartier generale per l'industria una task force che controlla gli stabilimenti e avverte le autorità in caso di emergenza. Ciò ti permette di risparmiare denaro sulle misure di sicurezza."
+    },
+    "properties": {
+      "price": 105000000,
+      "prestige": 25,
+      "level": "entrepreneur",
+      "efficiency": 5
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "DepuratorUpgrading": {
+    "id": "DepuratorUpgrading",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Purifier Upgrading",
+      "ES": "Depurator Upgrading",
+      "FR": "Mise à niveau des épurateurs",
+      "DE": "Upgrading der Filtermaschinen",
+      "IT": "Upgrade dei depuratori"
+    },
+    "description": {
+      "EN": "You use the best purifiers available, constantly updgrading. While this is somewhat costly, it's good for public opinion that is strongly in favor of it.",
+      "ES": "Your depurators are always the best in the market. Somewhat costly but the public opinion appreciates it a lot.",
+      "FR": "Vos épurateurs sont toujours ce qui se fait de mieux sur le marché. C'est un peu coûteux, mais l'opinion publique apprécie énormément cet élément.",
+      "DE": "Ihre Filtermaschinen sind immer die Besten auf dem Markt. Eine teure Angelegenheit, aber die öffentliche Meinung weiß es zu schätzen",
+      "IT": "I tuoi depuratori sono sempre i migliori sul mercato. Una politica costosa, ma molto apprezzata dall'opinione pubblica."
+    },
+    "properties": {
+      "price": 120000000,
+      "prestige": 80,
+      "level": "entrepreneur",
+      "efficiency": -5
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "DioxinEmissionControl": {
+    "id": "DioxinEmissionControl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Dioxin Emission Control",
+      "ES": "Dioxin Emission Control",
+      "FR": "Contrôle des émissions de Dioxine",
+      "DE": "Kontrolle der Dioxinemission",
+      "IT": "Controllo delle emissioni di diossina"
+    },
+    "description": {
+      "EN": "You have a special procedure that restricts the emission of the substance that has caused the largest chemical disasters in human history.",
+      "ES": "You have a special procedure to avoid the emission of the substance cause of the biggest chemical disasters in human history.",
+      "FR": "Vous utilisez une technique particulière pour éviter l'émission de la substance qui est la cause des plus grands désastres chimiques de l'Humanité.",
+      "DE": "Sie verfügen über ein spezielles Verfahren, dass sie Emission dieser Substanz, die zu den größten chemischen Katastrophen in der Geschichte der Menschheit geführt hat, verhindert.",
+      "IT": "Lanci una procedura in grado di prevenire l'emissione della diossina, la sostanza che ha causato i più gravi disastri chimici nella storia dell'umanità."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": 30,
+      "level": "entrepreneur",
+      "efficiency": -3,
+      "quality": -3
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "EvacuationPlan": {
+    "id": "EvacuationPlan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Evacuation Plan",
+      "ES": "Evacuation Plan",
+      "FR": "Plan d'évacuation",
+      "DE": "Evakuierungsplan",
+      "IT": "Piano di evacuazione"
+    },
+    "description": {
+      "EN": "Every plant has a detailed evacuation plan for the area immediately surrounding it, in the event of an emergency. This plan results in the neighborhood being a little more welcoming of the factory.",
+      "ES": "Every plant coordinates an evacuation plan of the area immediately sourrounding it with the autorities in case of emergencies. The neighborhood welcomes a little better the factory.",
+      "FR": "Chaque usine coordonne, avec les autorités, un plan d'évacuation de la zone qui l'entoure en cas d'urgence. Le voisinage accueille ainsi un peu mieux l'usine.",
+      "DE": "Jede Fabrik spricht mit den Behörden einen Plan zur Evakuierung der Umgebung für den Notfall ab. In der Nachbarschaft wird die Fabrik etwas beliebter.",
+      "IT": "Ciascuno stabilimento coordina con le autorità un piano di evacuazione dell'area circostante nelle emergenze. Ciò fa sì che i cittadini della zona vedano la fabbrica più favorevolmente."
+    },
+    "properties": {
+      "price": 6500000,
+      "prestige": 10,
+      "level": "entrepreneur",
+      "efficiency": 2
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "ExtraterrestrialChemistry": {
+    "id": "ExtraterrestrialChemistry",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Chemistry",
+      "ES": "Extraterrestrial Chemistry",
+      "FR": "Chimie extraterrestre",
+      "DE": "Außerirdische Chemie",
+      "IT": "Chimica extraterrestre"
+    },
+    "description": {
+      "EN": "Earth and the other worlds have slightly different chemistry laws. By studying them you improve the quality of your products and the efficiency of your plants.",
+      "ES": "Earth and the other worlds have slightly different chemistry laws. Studying them you improve the quality of your products and the efficiency of your plants.",
+      "FR": "Les lois de la chimie diffèrent quelque peu sur Terre et dans les nouveaux mondes. Etudiez-les pour améliorer la qualité de vos produits et l'efficacité de vos usines.",
+      "DE": "Die Erde und die anderen Welten haben etwas unterschiedliche chemische Gesetze. Ihr Studium wird es Ihnen ermöglichen, die Qualität Ihrer Produkten und die Effizienz Ihrer Fabriken zu verbessern.",
+      "IT": "Le leggi chimiche della Terra differiscono leggermente da quelle degli altri mondi. Il loro studio ti permette di migliorare la qualità dei tuoi prodotti e l'efficienza dei tuoi impianti."
+    },
+    "properties": {
+      "price": 220000000,
+      "prestige": 5,
+      "level": "entrepreneur",
+      "efficiency": 12,
+      "quality": 8
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "ExtraVacuumPumps": {
+    "id": "ExtraVacuumPumps",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extra Strong Vacuum Pumps",
+      "ES": "Extra Vacuum Pumps",
+      "FR": "Pompes à vide",
+      "DE": "Extra Vakuumpumpen",
+      "IT": "Pompe da vuoto ultrapotenti"
+    },
+    "description": {
+      "EN": "Plants are equipped with extra strong vacuum pumps to ensure a better environment for the chemical reactions.",
+      "ES": "The plants are equipped with extra strong vacuum pumps to ensure a better environment for the reactions.",
+      "FR": "Les usines sont équipées de pompes à vide ultra puissantes qui permettent d'obtenir un meilleur environnement pour les réactions.",
+      "DE": "Die Fabriken sind mit besonders starken Vakuumpumpen ausgerüstet, damit ein besseres Umfeld für die Reaktionen geschaffen werden kann.",
+      "IT": "Gli impianti sono dotati di pompe da vuoto di grande potenza che assicurano un ambiente migliore per le reazioni."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "entrepreneur",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "FullBodySecurity": {
+    "id": "FullBodySecurity",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Full-Body Protection",
+      "ES": "Full Body Security",
+      "FR": "Sécurité corporelle",
+      "DE": "Voller Körperschutz",
+      "IT": "Tuta protettiva integrale"
+    },
+    "description": {
+      "EN": "Every plant employee must wear a full-body protective suit for security reasons.",
+      "ES": "Every employee of the plant must wear a full body suite for security reasons.",
+      "FR": "Tous les employés de l'usine doivent porter un costume qui les protège des pieds à la tête pour des raisons de sécurité.",
+      "DE": "Jeder Mitarbeiter der Fabrik muss aus Sicherheitsgründen einen Schutzanzug tragen.",
+      "IT": "Per ragioni di sicurezza, ogni dipendente dello stabilimento deve indossare una tuta protettiva integrale."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 10,
+      "level": "entrepreneur",
+      "efficiency": -3,
+      "quality": 4
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "InHouseWasteDisposal": {
+    "id": "InHouseWasteDisposal",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "In-House Waste Disposal",
+      "ES": "In House Waste Disposal",
+      "FR": "Evacuation des ordures dans la maison",
+      "DE": "Hausinterne Müllbeseitigung",
+      "IT": "Smaltimento interno delle scorie chimiche"
+    },
+    "description": {
+      "EN": "Waste from chemical processes never officially leaves the plant. However, disposal methods are unclear and environmentalists express concern.",
+      "ES": "The waste from the chemical processes never officially leaves the plant. Non clear methods are used to dispose of it. The enviromentalist associations express some concern.",
+      "FR": "Les déchets provenant des processus chimiques ne quittent jamais officiellement l'usine. Des méthodes frauduleuses sont utilisées pour s'en débarrasser. Les associations environnementales expriment leur inquiétude.",
+      "DE": "Die Abfälle aus den chemischen Verfahren verlassen die Fabrik nie offiziell. Unklare Methoden werden benutzt, um die Abfälle zu entsorgen. Die Umweltorganisationen machen sich Sorgen.",
+      "IT": "Le scorie dei processi chimici non abbandonano mai ufficialmente lo stabilimento. Per il loro smaltimento vengono adottati metodi poco chiari, che preoccupano gli ecologisti."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": -30,
+      "level": "tycoon",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "LargeChem"
+    ]
+  },
+  "InternalHospitalAndFireStation": {
+    "id": "InternalHospitalAndFireStation",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Internal Hospital And Fire Station",
+      "ES": "Internal Hospital And Fire Station",
+      "FR": "Hôpital et caserne de pompiers internes",
+      "DE": "Interne Krankenstation und Feuerwehr",
+      "IT": "Ospedale e caserma dei pompieri"
+    },
+    "description": {
+      "EN": "Every large plant has a small internal hospital and a fire station. This instills your employees with confidence, making them work better. You seem like you really care.",
+      "ES": "Every large plant has a small internal hospital and a fire station. This give confidence to your employees, making them work better. You look like someone that is very concerned about them.",
+      "FR": "Toute grande usine est équipée d'un petit hôpital interne et d'une caserne de pompiers. Vos employés sont en confiance et ils travaillent mieux. Vous semblez beaucoup vous préoccuper de vos employés.",
+      "DE": "Jedes große Unternehmen hat ein kleines internes Krankenhaus und eine Feuerwehr. Das gibt Ihren Angestellten ein Gefühl der Sicherheit und sie arbeiten besser. Sie sehen wie jemand aus, der sich Sorgen um sie macht.",
+      "IT": "Ogni grande fabbrica è dotata di un ospedale e di una caserma dei pompieri. Ciò rassicura gli operai e li fa lavorare meglio. Tu passi per imprenditore che si preoccupa della salute dei suoi dipendenti."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 10,
+      "level": "tycoon",
+      "efficiency": -3,
+      "quality": 4
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "LargeChem"
+    ]
+  },
+  "LargeChem": {
+    "id": "LargeChem",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Chemical Factories",
+      "ES": "Large Chemical Factories",
+      "FR": "Grandes usines chimiques",
+      "DE": "Große Chemiefabriken",
+      "IT": "Grandi impianti chimici"
+    },
+    "description": {
+      "EN": "Learn the basic skills to create and manage large chemical plants.",
+      "ES": "Learn the basic skills to create and manage large chemical plants.",
+      "FR": "Apprenez les principes de création et de gestion de grandes usines chimiques.",
+      "DE": "Eignen Sie sich das Basiswissen für die Gründung und das Management von großen Chemiefabriken an.",
+      "IT": "Apprendi le conoscenze di base per costruire e gestire grandi impianti chimici."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "tycoon"
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "MassiveChemicalStorage": {
+    "id": "MassiveChemicalStorage",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Massive Chemical Storage",
+      "ES": "Massive Chemical Storage",
+      "FR": "Stockage massif de produits chimiques",
+      "DE": "Massive Chemikalienlagerung",
+      "IT": "Grandi scorte di agenti chimici"
+    },
+    "description": {
+      "EN": "Notwithstanding the fact this process can be perceived as dangerous, your factories buy chemicals in bulk and keep a large amount in stock; reducing costs and avoiding any potential shortages.",
+      "ES": "Notwithstanding the fact that can be perceived as dangerous, your factories stock up massively with chemicals to save on the purchase and to avoid any shortage.",
+      "FR": "Malgré le fait que cela puisse être perçu comme dangereux, vos usines stockent des grandes quantités de produits chimiques pour économiser sur les achats et éviter toute pénurie.",
+      "DE": "Trotz der Tatsache, dass es als gefährlich gilt, lagern Ihre Fabriken große Mengen Chemikalien um die Einkaufspreise zu drücken und einen Mangel auszuschließen.",
+      "IT": "Nonostante i rischi connessi, le tue aziende ordinano grandi quantità di agenti chimici, in modo da risparmiare sui costi e non esaurire mai le scorte."
+    },
+    "properties": {
+      "price": 120000000,
+      "prestige": -15,
+      "level": "tycoon",
+      "efficiency": 20,
+      "quality": -5
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "LargeChem"
+    ]
+  },
+  "PeriodicInstrumentsReplacement": {
+    "id": "PeriodicInstrumentsReplacement",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Frequent Instrument Replacement",
+      "ES": "Periodic Instruments Replacement",
+      "FR": "Remplacement régulier des instruments",
+      "DE": "Periodischer Instrumentenwechsel",
+      "IT": "Sostituzione periodica degli strumenti"
+    },
+    "description": {
+      "EN": "Your factories implement a policy calling for the compulsory and frequent replacement of small disposable instruments like Bunsen burners and glass test tubes.",
+      "ES": "Your factories implement a policy of compulsory and frequent replacement of small disposable instruments like Bundsen beaks and glass vials.",
+      "FR": "Vos usines mettent en uvre une politique de remplacements obligatoires et fréquents des petits instruments jetables, tels que les becs Bunsen et fioles en verre.",
+      "DE": "Ihre Firmen betreiben eine Politik des obligatorischen und regelmäßigen Austauschs von kleinen Wegwerfgeräten wie Röhrchen und Reagenzgläsern.",
+      "IT": "I tuoi impianti adottano una politica di sostituzione frequente e obbligatoria di piccoli strumenti come becchi di Bunsen e fialette di vetro."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "entrepreneur",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "RawMaterialControl": {
+    "id": "RawMaterialControl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Raw Material Control",
+      "ES": "Raw Material Control",
+      "FR": "Contrôle des matières premières",
+      "DE": "Rohstoffkontrolle",
+      "IT": "Verifica delle materie prime"
+    },
+    "description": {
+      "EN": "Before any purchased raw material is used for your factories processes', it undergoes an internal check.",
+      "ES": "Before any purchased raw material goes in one of the processes of your factories, it undergoes an ulterior internal check.",
+      "FR": "Avant que des matières premières n'entrent dans l'un des processus de fabrication de vos usines, il subit une dernière vérification interne.",
+      "DE": "Bevor ein gekauftes Rohmaterial in einem Produktionsverfahren Ihrer Firma verwendet wird, wird es ein letztes Mal überprüft.",
+      "IT": "Prima che una qualsiasi materia prima acquistata venga utilizzata nei processi delle tue fabbriche, essa deve superare un ulteriore controllo interno."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "entrepreneur",
+      "efficiency": -10,
+      "quality": 15
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "RecyclingChemicalWaste": {
+    "id": "RecyclingChemicalWaste",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Recycling Chemical Waste",
+      "ES": "Recycling Chemical Waste",
+      "FR": "Recyclage des déchets chimiques",
+      "DE": "Recycling von Chemieabfällen",
+      "IT": "Riciclaggio delle scorie chimiche"
+    },
+    "description": {
+      "EN": "When possible, all chemical waste produced is used for other chemical processes. The quality is lowered, but it demonstrates an environmentally friendly attitude.",
+      "ES": "All the waste from the chemical reactions are used, if possible, in other processes. The quality is lower but it denotes an enviromentally friendly attitude.",
+      "FR": "Tous les déchets issus de réactions chimiques sont utilisés, lorsque cela est possible, dans d'autres processus. La qualité est inférieure, mais vous faites preuve d'une attitude respectueuse de l'environnement.",
+      "DE": "Der gesamte Abfall aus den chemischen Reaktionen wird wenn möglich in anderen Verfahren genutzt. Die Qualität ist niedriger, aber es zeugt von einer umweltfreundlichen Einstellung.",
+      "IT": "Le scorie delle reazioni chimiche vengono utilizzate, ove possibile, per altri processi. La qualità ne risente, ma la politica denota attenzione ai problemi ambientali."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 10,
+      "level": "entrepreneur",
+      "efficiency": 20,
+      "quality": -15
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  },
+  "TotalPlantAutomation": {
+    "id": "TotalPlantAutomation",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Total Plant Automation",
+      "ES": "Total Plant Automation",
+      "FR": "Automatisation totale des usines",
+      "DE": "Völlige Produktionsautomatisierung",
+      "IT": "Automazione totale degli impianti"
+    },
+    "description": {
+      "EN": "Your plants are completely automated improving security, quality and efficiency. Humans remain due to union pressure and act as controllers.",
+      "ES": "Your plants are completely automated. The security, quality and efficiency are improved. Humans remain as controllers and because of unions pressures.",
+      "FR": "Vos usines sont entièrement automatisées. La sécurité, la qualité et l'efficacité sont améliorées. Des humains sont employés comme contrôleurs grâce à la pression des syndicats.",
+      "DE": "Ihre Fabriken sind voll automatisiert. Sicherheit, Qualität und Effizienz sind verbessert. Menschen bleiben zur Kontrolle und weil die Gewerkschaften Druck machen.",
+      "IT": "I tuoi impianti sono interamente automatizzati. Sicurezza, qualità ed efficienza aumentano, ma gli esseri umani restano in posizioni di controllo a causa delle pressioni dei sindacati."
+    },
+    "properties": {
+      "price": 600000000,
+      "level": "entrepreneur",
+      "efficiency": 35,
+      "quality": 20
+    },
+    "industry_type": "CHEMICAL",
+    "depends_on": [
+      "ChemLic"
+    ]
+  }
+}

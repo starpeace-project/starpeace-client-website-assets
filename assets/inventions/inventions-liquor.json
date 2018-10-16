@@ -1,0 +1,454 @@
+{
+  "AnhalcolicProducts": {
+    "id": "AnhalcolicProducts",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alcohol Free Products",
+      "ES": "Anhalcolic Products",
+      "FR": "Produits non alcoolisés",
+      "DE": "Produkte ohne Alkohol",
+      "IT": "Prodotti analcolici"
+    },
+    "description": {
+      "EN": "Create virgin alternatives for your clients by producing alcohol free: Tequila, Whisky, Rum etc. This forces you to improve quality to make sure that these virgin liquors actually taste good.",
+      "ES": "Create anhalcolic alternatives to your clients. Producing alcohol free Tequila, Whisky, Rum and similar stuff forces you to improve quality to make sure that they actually taste of something.",
+      "FR": "Créez des produits non-alcoolisés pour vos clients. Produire de la tequila, du whisky, du rhum, et autres boissons de ce type, sans alcool vous force à en améliorer la qualité pour vous garantir qu'ils ont du goût.",
+      "DE": "Schaffen Sie Alternativen ohne Alkohol für Ihre Kunden. Die Produktion von alkoholfreiem Tequila, Whisky, Rhum o.Ä. zwingt Sie zur Qualitätsverbesserung, damit es auch nach etwas schmeckt.",
+      "IT": "Crea prodotti analcolici alternativi per i tuoi clienti. L'eliminazione dell'alcool da bevande come tequila e whisky fa sì che si debba migliorarne il sapore e richiede pertanto processi più sofisticati."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": 30,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "AntiBreakingGlassBottle": {
+    "id": "AntiBreakingGlassBottle",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Unbreakable Glass Bottle",
+      "ES": "Anti Breaking Glass Bottle",
+      "FR": "Bouteille en verre feuilleté",
+      "DE": "Scherbenschutzflasche",
+      "IT": "Bottiglia di vetro infrangibile"
+    },
+    "description": {
+      "EN": "Your glass bottles have a special external coating that hold glass pieces together when the bottle is smashed. No more loose pieces of glass that drunken customers can cut each other with.",
+      "ES": "Your glass bottle have a special coating on the outside that hold the piece of glass togheter when they are broken. No more pieces of glasses around and drunken customers that cut each other.",
+      "FR": "Votre bouteille en verre est équipée d'un revêtement spécial qui permet que le verre ne s'éparpille pas lorsque la bouteille est cassée. Plus de morceaux de verre partout et de clients saouls qui se coupent.",
+      "DE": "Ihre Glasflaschen haben eine Ummantellung, die das Glas beim Zerbrechen zusammenhält. Keine Scherben mehr oder Kunden, die sich damit in Stücke schneiden.",
+      "IT": "Una bottiglia ricoperta da uno speciale rivestimento che tiene insieme il vetro quando essa si rompe. Niente più schegge di vetro in giro né clienti ubriachi che si sfregiano a vicenda."
+    },
+    "properties": {
+      "price": 75000000,
+      "prestige": 50,
+      "level": "apprentice",
+      "efficiency": -5
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "BreathControlSeal": {
+    "id": "BreathControlSeal",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Breathalyzer Seal",
+      "ES": "Breath Control Seal",
+      "FR": "Scellé Alcootest",
+      "DE": "Atemkontrollsiegel",
+      "IT": "Sigillo alcolimetrico"
+    },
+    "description": {
+      "EN": "To open the bottle, the customer has to lick a seal on the top. If the saliva shows a blood alcohol level that is too high, a sour powder drops into the bottle, making the liquor undrinkable.",
+      "ES": "To open the bottle, the costumer has to lick a seal situated on top of the cork. If the saliva reveals too much alcohol in blood, a sour powder drops in the bottle, making the liquor undrinkable.",
+      "FR": "Pour ouvrir la bouteille, le client doit lécher un scellé apposé sur le bouchon. Si la salive révèle un taux d'alcool trop élevé dans le sang, une poudre amère tombe dans la bouteille et rend la boisson imbuvable.",
+      "DE": "Um die Flasche zu öffnen, muss der Verbraucher an einem Siegel lecken, das sich oben am Korken befindet. Wenn der Speichel zu viel Blutalkohol aufweist, fällt ein saures Pulver in die Flasche und macht den Inhalt ungenießbar.",
+      "IT": "Prima di poter aprire una bottiglia il cliente deve leccare il sigillo sul tappo. Se la saliva rivela eccessivi livelli di alcool, una polvere amarognola scende nella bottiglia rendendo il liquore imbevibile."
+    },
+    "properties": {
+      "price": 140000000,
+      "prestige": 70,
+      "level": "apprentice"
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "CheapStrongLiquors": {
+    "id": "CheapStrongLiquors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Cheap and Strong Liquor",
+      "ES": "Cheap Strong Liquors",
+      "FR": "Boissons fortes à bas prix",
+      "DE": "Billiger hochprozentiger Alkohol",
+      "IT": "Superalcolici a basso costo"
+    },
+    "description": {
+      "EN": "Your factories produce very cheap and strong liquors for the alcoholic that doesn't care about quality, but just wants a robust dose of alcohol. Public opinion is not overly favorable.",
+      "ES": "Your factories produce a very cheap and strong liquor for the terminal alcoholists that doesn't care for the quality but want just a robust dose of alcohol. The public opinion is not overly impressed.",
+      "FR": "Vos usines fabriquent des boissons fortement alcoolisées bas de gamme pour les alcooliques qui ne se préoccupent pas de la qualité, mais ont besoin d'une bonne dose d'alcool. L'opinion publique est loin d'être impressionnée.",
+      "DE": "Ihre Fabriken stellen einen billigen und hochprozentigen Fusel her, der für die Alkoholiker im Endstadium gedacht ist, die sich eher für die kräftige Alkoholdosis als für die Qualität interessieren. Die öffentliche Meinung ist negativ.",
+      "IT": "I tuoi stabilimenti producono liquori molto forti e a bassissimo costo per gli alcolizzati terminali, cui non interessa la qualità ma solo la gradazione alcolica. L'opinione pubblica ti biasima."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": -10,
+      "level": "apprentice",
+      "efficiency": 15,
+      "quality": -5
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "Cocktails": {
+    "id": "Cocktails",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Cocktails",
+      "ES": "Cocktails",
+      "FR": "Cocktail",
+      "DE": "Cocktails",
+      "IT": "Cocktail"
+    },
+    "description": {
+      "EN": "You launch a line of cocktail products. The ingredients are separated in special compartmental bottles, but are mixed when the bottle is vigorously shaken.",
+      "ES": "You launch a line of cocktails products. The ingredients comes separated in special compartmental bottles and are mixed when the bottle is vigorously shaken.",
+      "FR": "Vous lancez une gamme de cocktails. Les ingrédients sont fournis dans différentes bouteilles compartimentées et sont mélangés lorsque vous secouez vigoureusement la bouteille.",
+      "DE": "Sie lancieren eine Reihe von Cocktailprodukten. Die Zutaten befinden sich in den getrennten Abteilungen einer Flasche und werden durch energisches Schütteln gemischt.",
+      "IT": "Lanci una linea di prodotti per cocktail. Gli ingredienti vengono venduti in bottiglie divise in scomparti che si mescolano tra loro scuotendo vigorosamente le bottiglie stesse."
+    },
+    "properties": {
+      "price": 85000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 10
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "EthnicDrinksSelection": {
+    "id": "EthnicDrinksSelection",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Ethnic Drink Selection",
+      "ES": "Ethnic Drinks Selection",
+      "FR": "Sélection de boissons exotiques",
+      "DE": "Auswahl von Ethno-Drinks",
+      "IT": "Assortimento multietnico di alcolici"
+    },
+    "description": {
+      "EN": "Since the extraterrestrial worlds' immigrants come from all of earth, it's important to provide a wide selection of their native spirits: from Greek Ouzo to Italian Grappa to Cuban Rum.",
+      "ES": "Since the emigrants to the extraterrestrial worlds come from all the differents races, it's important to provide a wide selections, from greek Ouzo to italian Grappa to cuban Rum.",
+      "FR": "Etant donné que les émigrants vers les mondes extraterrestres sont issus de différentes races, il est important de proposer un vaste choix, de l'Ouzo grec à la Grappa italienne, en passant par le rhum de cuba.",
+      "DE": "Da die Emigranten auf den außerirdischen Welten aus allen Nationen der Erde stammen, muss ein breites Angebot vorhanden sein, vom griechischen Ouzo über italienischen Grappa bis zu kubanischem Rhum.",
+      "IT": "Dal momento che i coloni dei mondi extraterrestri sono di svariate nazionalità, è importante poter offrire loro ogni tipo di bevanda, dall'uzo greco al rum cubano."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "EvaporatedAlcoholRecycling": {
+    "id": "EvaporatedAlcoholRecycling",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Alcohol Recycling",
+      "ES": "Evaporated Alcohol Recycling",
+      "FR": "Recyclage de l'alcool évaporé",
+      "DE": "Recycling von Alkoholdünsten",
+      "IT": "Riciclaggio dell'alcool evaporato"
+    },
+    "description": {
+      "EN": "Install a machine vent over your distillers that collects all the alcohol that evaporates, storing it for future reuse.",
+      "ES": "Implement a machine on top of your distillators that collects all the alcohol in the air and store it for future reutilisations.",
+      "FR": "Installez sur vos appareils de distillation une machine qui recueille tout l'alcool contenu dans l'air et le stocke pour utilisation ultérieure.",
+      "DE": "Verwenden Sie eine Maschine, die oben an Ihren Destilliergeräten angebracht wird, den Alkohol in der Luft auffängt und ihn für spätere Nutzung lagert.",
+      "IT": "Implementi una macchina posta in cima ai tuoi distillatori che raccoglie l'alcool disperso nell'aria e lo immagazzina onde possa essere riutilizzato."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "apprentice",
+      "efficiency": 8
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "ExtraStrongVolatileLiquor": {
+    "id": "ExtraStrongVolatileLiquor",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extra Strong Volatile Liquor",
+      "ES": "Extra Strong Volatile Liquor",
+      "FR": "Alcool volatile extra forte",
+      "DE": "Extrastarker flüchtiger Schnaps",
+      "IT": "Alcool volatile ad altissima gradazione"
+    },
+    "description": {
+      "EN": "An over 90 proof liquor to be enjoyed by sniffing its evaporating fumes or diluted in water. One drop of the stuff is enough to get someone sufficiently drunk.",
+      "ES": "An over 90 deegres liquor to be enjoyed by sniffing its evaporating fumes or diluited in water. One drop its enough to get drunk or burn your own stomach.",
+      "FR": "Alcool titrant plus de 90 degrés apprécié en humant ses vapeurs ou dilué dans de l'eau. Une seule goutte suffit à vous saouler ou à brûler votre estomac.",
+      "DE": "Ein Schnaps mit über 90°, der inhaliert oder in Wasser aufgelöst wird. Ein Tropfen genügt, um betrunken zu werden oder ein Loch in Ihren Bauch zu brennen.",
+      "IT": "Un distillato di oltre 90 gradi di gradazione alcolica che si può gustare annusandone i vapori o diluito in acqua. Una goccia è sufficiente per ubriacare o bruciare lo stomaco."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": -3,
+      "quality": 7
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "ExtraterrestrialFlavours": {
+    "id": "ExtraterrestrialFlavours",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Flavors",
+      "ES": "Extraterrestrial Flavours",
+      "FR": "Parfums extraterrestres",
+      "DE": "Außerirdische Geschmacksrichtungen",
+      "IT": "Aromi extraterrestri"
+    },
+    "description": {
+      "EN": "Use local plants to create new liquor flavors. It will be exotic and save you money on traditional Earth imports.",
+      "ES": "Use the local plants to create new flavours for your liquors. It will save you money to import the traditional ones from Earth.",
+      "FR": "Servez-vous des plantes locales pour créer de nouveaux parfums pour vos alcools. Cela vous évitera de perdre de l'argent en important les parfums traditionnels de la Terre.",
+      "DE": "Verwenden Sie die lokalen Pflanzen zur Entwicklung neuer Geschmacksrichtungen für Ihre Spirituosen. Es ist preiswerter als der Import der traditionellen Getränke von der Erde.",
+      "IT": "Usi le piante locali allo scopo di creare nuovi gusti per i tuoi liquori. Ciò ti permette di risparmiare soldi sull'importazione dalla Terra delle piante tradizionali."
+    },
+    "properties": {
+      "price": 150000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": 5,
+      "quality": 8
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "HeadacheAndStomachDrug": {
+    "id": "HeadacheAndStomachDrug",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Headache and Stomach Drug",
+      "ES": "Headache And Stomach Drug",
+      "FR": "Médicament contre les maux de tête et d'estomac",
+      "DE": "Kopfschmerz- und Magenmedikament",
+      "IT": "Farmaco per mal di testa e mal di stomaco"
+    },
+    "description": {
+      "EN": "You add medicines for stomach pain and headaches to your liquors. This helps deal with the hangover. Your liquors become the favorite of heavy party drinkers.",
+      "ES": "You add to your liquors medicines for stomach pains and headache. This helps to deal with the hangover of the day after. Your liquors become the favourite of heavy party drinkers.",
+      "FR": "Vous ajoutez des alcools contre les maux d'estomac et de tête. Ils permettent d'éviter la gueule de bois du lendemain. Vos alcools sont les préférés des personnes qui consomment beaucoup d'alcool.",
+      "DE": "Sie fügen zu Ihren Spirituosen ein Medikament gegen Kopf- und Magenschmerzen hinzu. Es hilft über den Kater am nächsten Tag hinweg. Ihre Getränke sind der Hit bei allen Partys.",
+      "IT": "Mescoli ai tuoi alcolici farmaci contro mal di testa e mal di stomaco. Ciò aiuta ad alleviare i postumi del giorno dopo e rende i tuoi liquori molto popolari tra i forti bevitori."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": -5,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "HistoryOfAlcoholicDrinks": {
+    "id": "HistoryOfAlcoholicDrinks",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "History of Liquor Production",
+      "ES": "History Of Alcoholic Drinks",
+      "FR": "Histoire des boissons alcoolisées",
+      "DE": "Geschichte der alkoholischen Getränke",
+      "IT": "Storia delle bevande alcoliche"
+    },
+    "description": {
+      "EN": "By studying the ancient traditions of producing liquors, it helps you improve the quality and efficiency of your processes.",
+      "ES": "Studying the old ways of producing liquors in ancient times helps you improve the quality and efficiency of your process.",
+      "FR": "L'étude de la production des alcools dans les temps anciens vous aide à améliorer la qualité et l'efficacité de votre processus de fabrication.",
+      "DE": "Das Studium der Art und Weise, wir früher Spirituosen hergestellt wurden hilft Ihnen bei der Verbesserung der Qualität und Effizienz Ihrer Verfahren.",
+      "IT": "Lo studio dei metodi di produzione degli alcolici adottati nei tempi antichi ti permette di migliorare la qualità e l'efficienza dei processi."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "apprentice",
+      "efficiency": 3,
+      "quality": 5
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "LightProducts": {
+    "id": "LightProducts",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Light Products",
+      "ES": "Light Products",
+      "FR": "Produits allégés",
+      "DE": "Leichte Produkte",
+      "IT": "Bevande leggere"
+    },
+    "description": {
+      "EN": "Alcohol makes you fat, but these liquors have fewer calories and less fat.",
+      "ES": "Alcohol makes you fat, but this liquors are especially created to reduce the amount of calories in them.",
+      "FR": "L'alcool a tendance à faire grossir, mais ces boissons alcoolisées sont spécialement créées pour réduire le nombre de calories qu'elles contiennent.",
+      "DE": "Alkohol macht dick. Diese Getränke werden speziell  entwickelt, um den Fettgehalt zu reduzieren.",
+      "IT": "L'alcool generalmente ingrassa, ma queste bevande sono realizzate con un occhio alle calorie."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": 5,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 2
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "Liquors": {
+    "id": "Liquors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Liquor Production",
+      "ES": "Liquor Production",
+      "FR": "Distilleries",
+      "DE": "Spirituosenproduktion",
+      "IT": "Produzione di alcolici"
+    },
+    "description": {
+      "EN": "Learn how to produce liquors.",
+      "ES": "Learn how to produce liquors.",
+      "FR": "Apprenez à produire des alcools.",
+      "DE": "Lernen Sie, wie man Spirituosen produziert.",
+      "IT": "Impara come produrre bevande alcoliche."
+    },
+    "properties": {
+      "price": 10000000,
+      "level": "apprentice"
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "PurifyWater": {
+    "id": "PurifyWater",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Purified Water",
+      "ES": "Purify Water",
+      "FR": "Eau purifiée",
+      "DE": "Wasserreinigung",
+      "IT": "Depurazione dell'acqua"
+    },
+    "description": {
+      "EN": "Make a point of only using extra-purified water for the production of your liquors.",
+      "ES": "Make a point to use only extrapurified water for the production of the liquors.",
+      "FR": "Mettez un point d'honneur à utiliser uniquement de l'eau très pure pour la production d'alcools.",
+      "DE": "Stellen Sie sicher, dass Sie nur ultrareines Wasser für Ihre Spirituosenproduktion verwenden.",
+      "IT": "Decidi di adottare per la produzione di alcolici solo acqua perfettamente depurata."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": -2,
+      "quality": 4
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "TastersBattery": {
+    "id": "TastersBattery",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Taster Team",
+      "ES": "Tasters Battery",
+      "FR": "Equipe de goûteurs",
+      "DE": "Verkosterphalanx",
+      "IT": "Squadra di assaggiatori"
+    },
+    "description": {
+      "EN": "You hire a team of expert liquor tasters to be sure your products are always top quality.",
+      "ES": "You hire a team of expert liquor tasters to be sure your products are always the top quality.",
+      "FR": "Vous embauchez une équipe de goûteurs experts en alcools pour vous assurer que vos produits sont toujours de très bonne qualité.",
+      "DE": "Sie stellen eine Gruppe von Profiverkostern ein, die sicherstellen, das die Qualität immer gleich hoch ist.",
+      "IT": "Assumi una squadra di assaggiatori di liquori per assicurare che i tuoi prodotti siano sempre della massima qualità."
+    },
+    "properties": {
+      "price": 105000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 15
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  },
+  "UniversalOrganicDistillation": {
+    "id": "UniversalOrganicDistillation",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Universal Organic Distillation",
+      "ES": "Universal Organic Distillation",
+      "FR": "Distillation organique universelle",
+      "DE": "Universalalkoholbrenner",
+      "IT": "Distillazione organica universale"
+    },
+    "description": {
+      "EN": "Any organic material can be distilled to create alcohol. Your factories use anything to produce liquors: from farm waste to rubber. The overall quality is not as good but you save a lot money.",
+      "ES": "Every organic material can be distillated to create alcohol. Your factories use anything they can buy to produce liquors, from farm waste to rubber. The quality is not as good but you save a lot.",
+      "FR": "Tout matériau organique peut être distillé pour créer un alcool. Vos usines utilisent tout ce qu'elles peuvent acheter pour produire ces alcools, des déchets agricoles au caoutchouc. La qualité n'est pas la même, mais vous faites des économies substantielles.",
+      "DE": "Jedes organische Material kann zur Herstellung von Alkohol benutzt werden. Ihre Fabriken stellen Spirituosen mit allem her, was sie finden können, von Bauernhofabfall bis zu Gummi. Die Qualität ist nicht so gut, aber Sie sparen viel.",
+      "IT": "Dal momento che qualsiasi mate-riale organico può essere distillato per creare alcool, le tue fabbriche usano di tutto, dai rifiuti agricoli alla gomma. La qualità ne risente, ma i risparmi sono notevoli."
+    },
+    "properties": {
+      "price": 365000000,
+      "prestige": -15,
+      "level": "apprentice",
+      "efficiency": 50,
+      "quality": -10
+    },
+    "industry_type": "LIQUOR",
+    "depends_on": [
+      "Liquors"
+    ]
+  }
+}

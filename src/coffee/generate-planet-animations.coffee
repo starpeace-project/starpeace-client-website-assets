@@ -23,27 +23,27 @@ FPS = SLICES / 4
 
 PLANETS = [
   {
-    id: '1'
+    id: 'planet-1'
     name: 'Mercury'
     map_id: 'aries'
   },
   {
-    id: '2'
+    id: 'planet-2'
     name: 'Venus'
     map_id: 'ancoeus'
   },
   {
-    id: '3'
+    id: 'planet-3'
     name: 'Earth'
     map_id: 'mondronia'
   },
   {
-    id: '4'
+    id: 'planet-4'
     name: 'Mars'
     map_id: 'darkadia'
   },
   {
-    id: '5'
+    id: 'planet-5'
     name: 'Jupiter'
     map_id: 'cymoril'
   }
@@ -151,12 +151,14 @@ console.log "\n=================================================================
 
 root = process.cwd()
 source_dir = path.join(root, process.argv[2])
-target_dir = path.join(root, process.argv[3])
+assets_dir = path.join(root, process.argv[3])
+target_dir = path.join(root, process.argv[4])
 target_dir = path.join(target_dir, 'animations')
 
 fs.mkdirsSync(target_dir)
 
-console.log "input directory: #{source_dir}"
+console.log "input image directory: #{source_dir}"
+console.log "input assets directory: #{assets_dir}"
 console.log "output directory: #{target_dir}\n"
 
 console.log "animation width: #{ANIMATION_WIDTH}"
@@ -165,8 +167,8 @@ console.log "animation fps: #{FPS}"
 
 console.log "\n-------------------------------------------------------------------------------\n"
 
-land_dir = path.join(source_dir, 'land')
-maps_dir = path.join(source_dir, 'maps')
+land_dir = path.join(assets_dir, 'land')
+maps_dir = path.join(assets_dir, 'maps')
 
 map_animation_mask = path.join(source_dir, 'planet-animation-mask.png')
 

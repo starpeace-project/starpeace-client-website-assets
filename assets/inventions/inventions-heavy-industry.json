@@ -1,0 +1,456 @@
+{
+  "CertifiedOperators": {
+    "id": "CertifiedOperators",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Certified Operators",
+      "ES": "Certified Operators",
+      "FR": "Opérateurs agréés",
+      "DE": "Bedienungszertifikat",
+      "IT": "Operatori qualificati"
+    },
+    "description": {
+      "EN": "When you sell a machine, you offer your client a course that teaches his or her workers how to use it. They get a Certificate stating that they are qualified to operators of the machine.",
+      "ES": "When you sell a machine, you offer to your client a course to teach his workers how to use it. They get a Certificate stating that they are qualified to operate it.",
+      "FR": "Lorsque vous vendez une machine, vous proposez à votre client une formation pour les ouvriers qui vont se servir de cette machine. Ils obtiennent un certificat prouvant qu'ils sont qualifiés pour l'utiliser.",
+      "DE": "Wenn Sie eine Maschine verkaufen, bieten Sie Ihrem Kunden einen Kurs, in dem seine Arbeiter die Bedienung erlernen können. Sie erhalten ein Zertifikat, das ihre Qualifikation bestätigt.",
+      "IT": "Quando vendi un macchinario offri ai tuoi clienti un corso di abilitazione al suo uso. Esso prevede la consegna di un diploma di qualifica degli operatori."
+    },
+    "properties": {
+      "price": 60000000,
+      "level": "master",
+      "quality": 7
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "ExcavatorSensors": {
+    "id": "ExcavatorSensors",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Excavator Sensors",
+      "ES": "Excavator Sensors",
+      "FR": "Détecteur d'excavatrices",
+      "DE": "Grabungssensoren",
+      "IT": "Sensore per scavatrici"
+    },
+    "description": {
+      "EN": "Every time your excavators dig, a sensor automatically stops them if it senses metal, this avoids the breaking of any buried pipelines.",
+      "ES": "Every time your excavators dig, a sensor stop them if it sense metal. To avoid the breaking of buried pipelines.",
+      "FR": "Chaque fois que vos excavatrices creusent, un détecteur les arrête si elles rencontrent du métal, ceci afin de ne pas occasionner de dommage aux conduites enterrées.",
+      "DE": "Jedes Mal, wenn Ihre Bagger ein Loch graben, stoppt sie ein Sensor, sobald er Metall fühlt. Dadurch werden keinen eingegrabenen Pipelines beschädigt.",
+      "IT": "Le tue scavatrici sono dotate di un sensore che blocca le pale non appena rileva la presenza di metallo. Ciò fa sì che non vengano intaccate le tubazioni sotterranee."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "ExternalDecorations": {
+    "id": "ExternalDecorations",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "External Decorations",
+      "ES": "External Decorations",
+      "FR": "Décorations extérieures",
+      "DE": "Außendekorationen",
+      "IT": "Decorazioni esterne"
+    },
+    "description": {
+      "EN": "Since heavy construction machinery is always part of a city's panorama, you decide to cover them with nice decorations. Citizens appreciate this.",
+      "ES": "Since the heavy construction machinery are always part of a city panorama, you decide to cover them with nice decorations. Citizens appreciate.",
+      "FR": "Etant donné que les engins de construction font toujours partie du paysage urbain, vous décidez de les recouvrir avec de belles décorations. Les citoyens apprécient.",
+      "DE": "Da die schweren Baugerüste immer ein Teil des Stadtbilds sind, beschließen Sie, sie nett zu dekorieren. Die Bürger finden das gut.",
+      "IT": "Dal momento che i macchinari pesanti usati nell'edilizia fanno parte pressoché stabilmente del panorama cittadino, decidi di renderne l'aspetto più piacevole. I cittadini apprezzano."
+    },
+    "properties": {
+      "price": 25000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 3
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "HouseMachine": {
+    "id": "HouseMachine",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "House Machine",
+      "ES": "House Machine",
+      "FR": "Appareil domestique",
+      "DE": "Hausmaschine",
+      "IT": "Macchina per i lavori di casa"
+    },
+    "description": {
+      "EN": "A small machine that performs all the heavy work in and around a house: from digging, to shoveling snow, to roof repairs. This is the ultimate tool for any handyman and very easy to build.",
+      "ES": "A small machine that can perform all the heavy works in and around a house, from digging in the garden to move snow, to repairments on the roof. Final tool for handymen and very easy to build.",
+      "FR": "Petite machine qui se charge de toutes les corvées à l'intérieur et à l'extérieur de la maison, des trous dans le jardin au déblaiement de la neige, en passant par la réparation de la toiture. Outil complet pour les bricoleurs et très facile d'emploi.",
+      "DE": "Eine kleine Maschine, die alle schweren Arbeiten im und ums Haus herum erledigen kann, Garten umgraben, Schnee schippen, Dach reparieren. Das ultimative Werkzeug für den praktischen Mann und leicht zu bauen.",
+      "IT": "Una piccola macchina facile da assemblare e in grado di compiere tutti i lavori pesanti dentro e fuori casa, dagli scavi in giardino alle riparazioni sul tetto. Il non-plus-ultra per gli amanti del bricolage."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": 5,
+      "level": "master",
+      "efficiency": 7,
+      "quality": -3
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "InVacuumOperatingMachines": {
+    "id": "InVacuumOperatingMachines",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vacuum Operating Machines",
+      "ES": "In Vacuum Operating Machines",
+      "FR": "Machines fonctionnant dans le vide d'air",
+      "DE": "Maschinen für den luftleeren Raum",
+      "IT": "Macchine per il funzionamento nel vuoto"
+    },
+    "description": {
+      "EN": "Essential for space construction, high quality machines that can operate in a vacuum and in zero gravity.",
+      "ES": "Essential for space construction, high quality machines that can operate in vacuum and with zero gravity.",
+      "FR": "Essentiel pour la construction dans l'espace, les machines de grande qualité doivent pouvoir fonctionner sans air et en étant d'impesanteur.",
+      "DE": "Ein absolutes Muss bei der Raumfahrtkonstruktion: Hochwertige Maschinen, die in luftleerem Raum ohne Schwerkraft funktionieren können.",
+      "IT": "Essenziali per le costruzioni nello spazio, queste macchine di primissima qualità sono in grado di operare nel vuoto e in assenza di gravità."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 20,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 4
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "MachInd": {
+    "id": "MachInd",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Machinery Industry",
+      "ES": "Machinery Industry",
+      "FR": "Equipement industriel",
+      "DE": "Maschinenindustrie",
+      "IT": "Industrie per la produzione di macchinari"
+    },
+    "description": {
+      "EN": "Assimilate the knowledge to get the License to manage machinery factories.",
+      "ES": "Assimilate the knowledge to get the License to manage machinery factories.",
+      "FR": "Assimilez les principes afin d'obtenir l'autorisation de gérer des usines d'équipement industriel.",
+      "DE": "Erwerben Sie das Wissen, das Sie benötigen, um eine Managerlizenz für Maschinenfabriken zu erhalten.",
+      "IT": "Apprendi le conoscenze di base per la gestione di aziende produttrici di macchinari."
+    },
+    "properties": {
+      "price": 70000000,
+      "level": "master"
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "MachineSilencers": {
+    "id": "MachineSilencers",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Machine Silencers",
+      "ES": "MachineSilencers",
+      "FR": "Silencieux pour machines",
+      "DE": "Schalldämpfer",
+      "IT": "Silenziatori per macchinari"
+    },
+    "description": {
+      "EN": "Your machines make much less noise than normal machines. This creates a much better working environment for the buyer's workers.",
+      "ES": "Your machines make much less noise than the unsilenced ones. Much better working environment for the buyer's workers.",
+      "FR": "Vos machines font beaucoup moins de bruit que les machines non protégées contre le bruit. Environnement de travail plus agréable pour les employés de vos clients.",
+      "DE": "Ihre Maschinen machen wesentlich weniger Lärm als die, die keine Schalldämpfer haben. Ein Plus für die Arbeiter Ihrer Kunden.",
+      "IT": "I tuoi macchinari fanno molto meno rumore di quelli privi di silenziatore. Ciò migliora sensibilmente la qualità degli ambienti di lavoro degli operai dei tuoi clienti."
+    },
+    "properties": {
+      "price": 130000000,
+      "prestige": 10,
+      "level": "master",
+      "efficiency": -3,
+      "quality": 10
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "ModularCranes": {
+    "id": "ModularCranes",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Modular Cranes",
+      "ES": "Modular Cranes",
+      "FR": "Grues modulables",
+      "DE": "Modulkräne",
+      "IT": "Gru modulari"
+    },
+    "description": {
+      "EN": "Cranes that can reach an enormous height thanks to modular components that can be added at any time.",
+      "ES": "Cranes that can reach enormous height thanks to modular components that can be added at any time.",
+      "FR": "Grues pouvant atteindre des hauteurs élevées grâce à des composants modulables pouvant être ajoutés à tout moment.",
+      "DE": "Kräne, die dank Modulbauteilen enorme Höhen erreichen können.",
+      "IT": "Gru in grado di raggiungere grandi altezze grazie a componenti modulari che possono essere aggiunti in qualsiasi momento."
+    },
+    "properties": {
+      "price": 90000000,
+      "level": "master",
+      "efficiency": 5,
+      "quality": 3
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "MonumentsSpecializedMachines": {
+    "id": "MonumentsSpecializedMachines",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Monument Specialized Machines",
+      "ES": "Monuments Specialized Machines",
+      "FR": "Machines de construction de monuments",
+      "DE": "Maschinen zum Denkmalbau",
+      "IT": "Macchinari per la costruzione di monumenti"
+    },
+    "description": {
+      "EN": "Since there are no historic buildings in the new worlds, all the monuments must be built from scratch. You produce high quality construction machinery especially designed for this purpose.",
+      "ES": "Since there are not historic buildings in the new worlds, all the monuments must be build from scratch. You produce high quality construction machines especially designed for this purpose.",
+      "FR": "Etant donné qu'aucun bâtiment historique ne se trouve dans les nouveaux mondes, tous les monuments doivent être entièrement construits. Vous produisez des machines de construction de grande qualité spécialement conçues à cet effet.",
+      "DE": "Da es in den neuen Welten keine Denkmäler gibt, müssen diese von Grund auf neu gebaut werden. Sie stellen hochwertige Baumaschinen her, die speziell für diesen Zweck konzipiert wurden.",
+      "IT": "Dal momento che non ci sono edifici storici sui nuovi mondi, tutti i monumenti devono essere costruiti ex novo. Realizzi macchine edili appositamente studiate per questa applicazione."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 10,
+      "level": "master",
+      "efficiency": -2,
+      "quality": 5
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "OnSiteAssembledMachines": {
+    "id": "OnSiteAssembledMachines",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "On-Site Assembled Machines",
+      "ES": "On Site Assembled Machines",
+      "FR": "Assemblage de machines sur site",
+      "DE": "Vor Ort zusammengesetzte Maschinen",
+      "IT": "Macchinari assemblati in loco"
+    },
+    "description": {
+      "EN": "Your machines are transported to the construction site in pieces and are assembled there.",
+      "ES": "Your machines are transported to the construction site in pieces and assembled there.",
+      "FR": "Vos machines sont transportées en pièces détachées sur le chantier où elles sont ensuite assemblées.",
+      "DE": "Ihre Maschinen werden in Einzelteilen zur Baustelle gebracht und dort zusammengesetzt.",
+      "IT": "I tuoi macchinari vengono trasportati sul cantiere ed assemblati in loco."
+    },
+    "properties": {
+      "price": 70000000,
+      "prestige": -2,
+      "level": "master",
+      "efficiency": 10,
+      "quality": -5
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "PartsService": {
+    "id": "PartsService",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Parts Service",
+      "ES": "Parts Service",
+      "FR": "Service de pièces détachées",
+      "DE": "Ersatzteilservice",
+      "IT": "Sostituzione delle parti difettose"
+    },
+    "description": {
+      "EN": "You have a very efficient parts department that changes any of your machines broken components in no time. You can save on the quality of the original parts.",
+      "ES": "You have a very efficient parts departments that change in no time any ruined component of your machines. You can save on the quality of the original parts.",
+      "FR": "Vous disposez d'un service de pièces détachées efficace qui change rapidement tout composant usagé de vos machines. Vous pouvez économiser sur la qualité des pièces d'origine.",
+      "DE": "Sie haben einen sehr effizienten Ersatzteilservice, der kaputte Teile Ihrer Maschinen im Handumdrehen ersetzt. Sie können an der Qualität der Originalteile sparen.",
+      "IT": "La tua azienda vanta un efficiente e rapido servizio di sostituzione delle parti difettose dei tuoi macchinari. Così puoi risparmiare sulle parti originali."
+    },
+    "properties": {
+      "price": 120000000,
+      "level": "master",
+      "efficiency": 15,
+      "quality": -3
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "RemoteControl": {
+    "id": "RemoteControl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Remote Control",
+      "ES": "Remote Control",
+      "FR": "Télécommande",
+      "DE": "Fernbedienung",
+      "IT": "Controllo a distanza"
+    },
+    "description": {
+      "EN": "All your machines can be operated by remote control: handy and very secure.",
+      "ES": "All your machines can be operated with remote controls. Handy and very secure.",
+      "FR": "Il est possible de faire fonctionner vos appareils à l'aide de télécommandes. Pratique et sûr.",
+      "DE": "Alle Ihre Maschinen funktionieren per Fernbedienung. Praktisch und sicher.",
+      "IT": "Tutti i tuoi macchinari possono essere controllati tramite dispositivi a distanza. Un sistema comodo e molto sicuro."
+    },
+    "properties": {
+      "price": 95000000,
+      "prestige": 3,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 10
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "RoboticMachines": {
+    "id": "RoboticMachines",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Robotic Machines",
+      "ES": "Robotic Machines",
+      "FR": "Machines robotisées",
+      "DE": "Robotermaschinen",
+      "IT": "Macchine robotizzate"
+    },
+    "description": {
+      "EN": "Your machines are completely robot operated. No need for human workers.",
+      "ES": "Your machines are completely robot operated. No need for human workers.",
+      "FR": "Vos machines sont entièrement robotisées. Aucun humain n'est requis.",
+      "DE": "Ihre Maschinen werden vollständig von Robotern betrieben, kein Bedarf an menschlichem Personal.",
+      "IT": "Tutte le tue macchine sono robotizzate. In questo modo non hai bisogno di impiegare operai umani."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": -5,
+      "level": "master",
+      "efficiency": -5,
+      "quality": 15
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "StandardizedEngine": {
+    "id": "StandardizedEngine",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Standardized Engine",
+      "ES": "Standardized Engine",
+      "FR": "Moteur standard",
+      "DE": "Standardmotor",
+      "IT": "Motore standardizzato"
+    },
+    "description": {
+      "EN": "All the machines you produce are powered by similar engines, derived from a single unique model.",
+      "ES": "All the machine you produce are powered by similar engines, derived by a unique model.",
+      "FR": "Toutes les machines que vous produisez sont alimentées par des moteurs identiques dérivés d'un modèle unique.",
+      "DE": "Alle von Ihnen hergestellten Maschinen werden von gleichen Motoren angetrieben, abgeleitet aus einem einzigen Modell",
+      "IT": "Tutte le macchine che produci sono azionate da motori simili tra loro e basati su un unico modello."
+    },
+    "properties": {
+      "price": 160000000,
+      "level": "master",
+      "efficiency": 20,
+      "quality": -5
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "TransportationPlan": {
+    "id": "TransportationPlan",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Transportation Plan",
+      "ES": "Transportation Plan",
+      "FR": "Programme de transport",
+      "DE": "Transportplan",
+      "IT": "Servizio trasporti"
+    },
+    "description": {
+      "EN": "You offer a transportation service that moves the machines your clients have bought wherever and whenever is needed, even years after the purchase.",
+      "ES": "You offer a transportation service that moves the machineries that your clients buy wherever and whenever is needed, even years after the purchasing.",
+      "FR": "Vous offrez un service de transport qui livre les machines achetées par vos clients à l'endroit et au moment qui leur convient, même des années après l'achat.",
+      "DE": "Sie bieten einen Transportservice, der die von Ihren Kunden gekauften Maschinen auch Jahre später noch dorthin bringen, wo sie gebraucht werden.",
+      "IT": "Offri ai tuoi clienti un servizio trasporti per il trasferimento di macchinari in qualsiasi luogo e qualsiasi momento, anche anni dopo l'acquisto."
+    },
+    "properties": {
+      "price": 30000000,
+      "level": "master",
+      "efficiency": -8,
+      "quality": 12
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  },
+  "WorkersTimer": {
+    "id": "WorkersTimer",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Machine Timer",
+      "ES": "Workers Timer",
+      "FR": "Pointeuse",
+      "DE": "Arbeiteruhr",
+      "IT": "Temporizzazione dell'attività degli operai"
+    },
+    "description": {
+      "EN": "A timer stops machines after a certain period of continuous use. This measure ensures that workers don't work too many hours in a row.",
+      "ES": "A timer that stops the machine after a given amount a time of continueous use. Insures that the workers don't work too many hours in a row.",
+      "FR": "Horloge permettant d'arrêter la machine après un certain temps d'utilisation continue. Permet de s'assurer que les ouvriers ne travaillent pas de trop longues heures sans faire de pause.",
+      "DE": "Eine Uhr, die die Maschinen nach einer gewissen Anzahl von Stunden ununterbrochenen Gebrauchs anhält. Stellt sicher, dass die Arbeiter nicht zu viele Stunden hintereinander arbeiten.",
+      "IT": "Un timer interrompe il funzionamento delle macchine dopo un determinato periodo di uso continuato. Ciò assicura che gli operai non lavorino senza pause per periodi troppo lunghi."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 10,
+      "level": "master",
+      "efficiency": -3,
+      "quality": 5
+    },
+    "industry_type": "HEAVY_INDUSTRY",
+    "depends_on": [
+      "MachInd"
+    ]
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "AdvGen": {
+    "id": "AdvGen",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Advanced Genetics",
+      "ES": "Advanced Genetics",
+      "FR": "Génétique avancée",
+      "DE": "Genetik für Fortgeschrittene",
+      "IT": "Corso avanzato di genetica"
+    },
+    "description": {
+      "EN": "Incorporate genetics' latest discoveries into your company's research and devleopment.",
+      "ES": "Incorporate the latest discoveries in Genetics into your company's knowledge.",
+      "FR": "Faites entrer les toutes dernières découvertes de la génétique dans les compétences de votre entreprise.",
+      "DE": "Binden Sie die letzten Entdeckung auf dem Gebiet der Genetik in das Know-how Ihrer Firma ein.",
+      "IT": "Per inserire nel bagaglio di competenze della tua azienda le ultime scoperte nel campo della genetica."
+    },
+    "properties": {
+      "price": 40000000,
+      "level": "apprentice",
+      "efficiency": 2,
+      "quality": 1
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "ArtLight": {
+    "id": "ArtLight",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Artificial Sunlight",
+      "ES": "Artificial Sun Light",
+      "FR": "Lumière solaire artificielle",
+      "DE": "Künstliches Sonnenlicht",
+      "IT": "Luce solare artificiale"
+    },
+    "description": {
+      "EN": "Develop a special greenhouse glass that replicates the parameters of earth's sunlight.",
+      "ES": "Develop special greenhouse glasses to make sunlight closer to earth parameters.",
+      "FR": "Développez des verres spéciaux pour les serres afin que la lumière du soleil est les mêmes caractéristiques que reçue sur la Terre.",
+      "DE": "Entwickeln Sie Spezialglas für Treibhäuser, um die Sonneneinstrahlung den Erdparametern ähnlicher zu machen.",
+      "IT": "Sviluppi speciali vetri da serra che simulano i parametri della luce solare sulla Terra."
+    },
+    "properties": {
+      "price": 80000000,
+      "prestige": 7,
+      "level": "apprentice",
+      "efficiency": 3,
+      "quality": 4
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "ETClimate"
+    ]
+  },
+  "AutoIrr": {
+    "id": "AutoIrr",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Automatic Irrigation",
+      "ES": "Automatic Irrigation",
+      "FR": "Irrigation automatique",
+      "DE": "Automatische Bewässerung",
+      "IT": "Irrigazione automatica"
+    },
+    "description": {
+      "EN": "An automated system that monitors land and only irrigates it when necessary.",
+      "ES": "Control system to irrigate land only when necessary.",
+      "FR": "Système de contrôle pour l'irrigation des champs lorsque le besoin s'en fait sentir.",
+      "DE": "Kontrollsystem, das Bewässerung nur auslöst, wenn es notwendig ist.",
+      "IT": "Un sistema di controllo che irriga i terreni solo quando ne hanno bisogno."
+    },
+    "properties": {
+      "price": 60000000,
+      "prestige": 3,
+      "level": "apprentice",
+      "efficiency": 2,
+      "quality": 1
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "BioFeed": {
+    "id": "BioFeed",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Biogenic Feeding",
+      "ES": "Biogenic Feeding",
+      "FR": "Aliments biogéniques",
+      "DE": "Biogenetisches Füttern",
+      "IT": "Nutrimento biogenico degli animali"
+    },
+    "description": {
+      "EN": "Animal's digestive system is connected to a centralized system which pumps out food.",
+      "ES": "Animals' digestive system is connected to a centralized system which delivers the food.",
+      "FR": "Le système digestif des animaux est connecté à un système centralisé qui leur délivre la nourriture.",
+      "DE": "Das Verdauungssystem der Tiere ist mit einem Zentralsystem verbunden, das die Nahrung zuteilt.",
+      "IT": "L'apparato digerente degli animali viene collegato ad un sistema centralizzato di distribuzione del cibo."
+    },
+    "properties": {
+      "price": 50000000,
+      "prestige": -100,
+      "level": "apprentice",
+      "efficiency": 20,
+      "quality": 3
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "ColMutPl": {
+    "id": "ColMutPl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mutant Colonial Plants",
+      "ES": "Colonial Mutant Plants",
+      "FR": "Plantes mutantes des colonies",
+      "DE": "Mutierte Pflanzen aus den Kolonien",
+      "IT": "Piante mutanti"
+    },
+    "description": {
+      "EN": "Develop a mutant vegetable species.",
+      "ES": "Develop mutant vegetal species.",
+      "FR": "Développez des espèces de plantes mutantes.",
+      "DE": "Entwickeln Sie mutierte Pflanzenarten.",
+      "IT": "Sviluppa nuove specie di piante mutanti."
+    },
+    "properties": {
+      "price": 170000000,
+      "prestige": -20,
+      "level": "apprentice",
+      "efficiency": 40,
+      "quality": -20
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "ETClimate"
+    ]
+  },
+  "ETClimate": {
+    "id": "ETClimate",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Climate",
+      "ES": "Extraterrestial Climate",
+      "FR": "Climat extraterrestre",
+      "DE": "Außerirdisches Klima",
+      "IT": "Clima extraterrestre"
+    },
+    "description": {
+      "EN": "Learn how the planet's climate conditions can affect or improve farm production.",
+      "ES": "How the planet conditions can affect or improve farm production.",
+      "FR": "Manière dont les conditions d'une planète peuvent affecter ou améliorer la production agricole.",
+      "DE": "Wie können die Bedingungen auf dem Planeten die landwirtschaftliche Produktion beeinflussen oder verbessern.",
+      "IT": "Come le condizioni del pianeta possono danneggiare o migliorare la produzione agricola."
+    },
+    "properties": {
+      "price": 100000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 4,
+      "quality": 3
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "ETGen": {
+    "id": "ETGen",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Extraterrestrial Genetics",
+      "ES": "Extraterrestial Genetics",
+      "FR": "Génétique des personnes nées hors de la Terre",
+      "DE": "Außerirdische Genetik",
+      "IT": "Genetica extraterrestre"
+    },
+    "description": {
+      "EN": "Study the colony's genetic heritage.",
+      "ES": "Study of the colony genetic heritage.",
+      "FR": "Etude de l'héritage génétique des colonies.",
+      "DE": "Studie des genetischen Erbguts der Kolonie.",
+      "IT": "Lo studio del codice genetico delle colonie."
+    },
+    "properties": {
+      "price": 40000000,
+      "prestige": 20,
+      "level": "apprentice"
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "WaterPumps"
+    ]
+  },
+  "FarmLic": {
+    "id": "FarmLic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Farming",
+      "ES": "Farming",
+      "FR": "Agriculture",
+      "DE": "Landwirtschaft",
+      "IT": "Agricoltura"
+    },
+    "description": {
+      "EN": "License to build farms.",
+      "ES": "License to build farms.",
+      "FR": "Autorisation de construction de fermes.",
+      "DE": "Lizenz zu Errichten von Bauernhöfen.",
+      "IT": "Licenza per la creazione di fattorie."
+    },
+    "properties": {
+      "price": 1000000,
+      "level": "apprentice"
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "DistributedDirection"
+    ]
+  },
+  "IndPhtsynt": {
+    "id": "IndPhtsynt",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Induced Photosynthesis",
+      "ES": "Induced Photosynthesis",
+      "FR": "Photosynthèse provoquée",
+      "DE": "Induzierte Photosynthese",
+      "IT": "Fotosintesi forzata"
+    },
+    "description": {
+      "EN": "Increase the ability to generate energy in plants, thus accelerating their growth.",
+      "ES": "Increase the ability to generate energy in plants, thus accelerating their growth.",
+      "FR": "Augmentez la possibilité de génération d'énergie par les plantes afin d'accélérer leur pousse.",
+      "DE": "Verbessern Sie die Fähigkeit der Pflanzen, Energie zu erzeugen, so wachsen sie schneller.",
+      "IT": "Aumenta l'abilità delle piante di generare energia, accelerandone la crescita."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -10,
+      "level": "apprentice",
+      "efficiency": 6,
+      "quality": -3
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "LargeFarms": {
+    "id": "LargeFarms",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Large Farms",
+      "ES": "Large Farms",
+      "FR": "Grandes exploitations agricoles",
+      "DE": "Große Bauernhöfe",
+      "IT": "Grandi aziende agricole"
+    },
+    "description": {
+      "EN": "Develop the basic skills necessary to create and manage large farms.",
+      "ES": "Develop the basic skills to create and manage large farms.",
+      "FR": "Développez les principes élémentaires de création et de gestion de grandes exploitations agricoles.",
+      "DE": "Entwickeln Sie die Basiskenntnisse, um einen großen Bauernhof zu gründen und zu leiten.",
+      "IT": "Sviluppa le conoscenze di base per la creazione e la gestione di grandi aziende agricole."
+    },
+    "properties": {
+      "price": 4000000,
+      "level": "entrepreneur"
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "MiceRcycl": {
+    "id": "MiceRcycl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Mice Recycling",
+      "ES": "Mice Recycling",
+      "FR": "Recyclage des souris",
+      "DE": "Mäuserecycling",
+      "IT": "Riciclaggio dei topi"
+    },
+    "description": {
+      "EN": "Farm mice are used for livestock food.",
+      "ES": "Inevitable farm mice are used in livestock feeding.",
+      "FR": "Les souris, nombreuses dans les exploitations agricoles, sont utilisées comme nourriture du bétail.",
+      "DE": "Die obligatorischen Farmmäuse werden als Tierfutter verwendet.",
+      "IT": "I topi che non riesci a debellare dalle tue fattorie vengono riciclati come cibo per il bestiame."
+    },
+    "properties": {
+      "price": 10000000,
+      "prestige": -40,
+      "level": "apprentice",
+      "efficiency": 4,
+      "quality": -7
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "PHyCtrl": {
+    "id": "PHyCtrl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Personal Hygiene Control",
+      "ES": "Personal Hygiene Control",
+      "FR": "Contrôle de l'hygiène personnelle",
+      "DE": "Kontrolle der persönlichen Hygiene",
+      "IT": "Controllo dell'igiene personale"
+    },
+    "description": {
+      "EN": "Employees are constantly cleaned at hygiene halls.",
+      "ES": "Employees are constantly cleaned at certain halls.",
+      "FR": "Dans certains halls, les employés sont constamment nettoyés.",
+      "DE": "In bestimmten Hallen werden die Angestellten konstant gesäubert.",
+      "IT": "I dipendenti che stazionano in determinate aree sono sempre puliti."
+    },
+    "properties": {
+      "price": 45000000,
+      "level": "apprentice",
+      "efficiency": -5,
+      "quality": 8
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "PlgCtrlSys": {
+    "id": "PlgCtrlSys",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Plague Control System",
+      "ES": "Plague Control System",
+      "FR": "Système de contrôles des nuisants",
+      "DE": "Seuchenkontrollsystem",
+      "IT": "Sistema di controllo delle piaghe"
+    },
+    "description": {
+      "EN": "Plagues are detected and automatically exterminated.",
+      "ES": "Plagues are detected and exterminated automatically.",
+      "FR": "Les nuisants sont détectés et exterminés automatiquement.",
+      "DE": "Seuchen werden automatisch entdeckt und bekämpft.",
+      "IT": "Le piaghe vengono individuate e debellate automaticamente."
+    },
+    "properties": {
+      "price": 50000000,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -3
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "ETClimate"
+    ]
+  },
+  "SklessPigs": {
+    "id": "SklessPigs",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Skinless Pigs",
+      "ES": "Skinless Pigs",
+      "FR": "Cochons sans peau",
+      "DE": "Hautlose Schweine",
+      "IT": "Maiali privi di pelle"
+    },
+    "description": {
+      "EN": "Pigs with no skin contain less fat.",
+      "ES": "Pigs without skin contain less fat.",
+      "FR": "Les cochons sans peau contiennent moins de graisse.",
+      "DE": "Schweine ohne Haut enthalten weniger Fett.",
+      "IT": "I maiali privi di pelle contengono meno grassi."
+    },
+    "properties": {
+      "price": 30000000,
+      "prestige": -100,
+      "level": "apprentice",
+      "efficiency": 10,
+      "quality": 2
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "AdvGen"
+    ]
+  },
+  "SynAnFood": {
+    "id": "SynAnFood",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Synthetic Animal Food",
+      "ES": "Synthetic Animal Food",
+      "FR": "Nourriture synthétique pour animaux",
+      "DE": "Synthetisches Tierfutter",
+      "IT": "Cibo sintetico per il bestiame"
+    },
+    "description": {
+      "EN": "Helps feed livestock.",
+      "ES": "Helps growing livestock.",
+      "FR": "Aide à la croissance du bétail.",
+      "DE": "Erleichtert die Herdenaufzucht.",
+      "IT": "Contribuisce alla crescita dei capi di bestiame."
+    },
+    "properties": {
+      "price": 15000000,
+      "prestige": -7,
+      "level": "apprentice",
+      "efficiency": 4,
+      "quality": -2
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "SyntGround": {
+    "id": "SyntGround",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Synthetic Soil",
+      "ES": "Synthetic Ground",
+      "FR": "Terre synthétique",
+      "DE": "Synthetischer Boden",
+      "IT": "Terreno sintetico"
+    },
+    "description": {
+      "EN": "Expand the area of cultivation.",
+      "ES": "Enlarge cultivable area.",
+      "FR": "Permet d'agrandir les zones cultivables.",
+      "DE": "Vergrößert die bebaubaren Flächen.",
+      "IT": "Allarga la zona coltivabile."
+    },
+    "properties": {
+      "price": 20000000,
+      "prestige": -7,
+      "level": "apprentice",
+      "efficiency": 7,
+      "quality": -3
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "VegMusic": {
+    "id": "VegMusic",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Vegetable Music",
+      "ES": "Vegetal Music",
+      "FR": "Musique végétale",
+      "DE": "Pflanzenmusik",
+      "IT": "Musica per le piante"
+    },
+    "description": {
+      "EN": "Increase plants growth by creating a rich musical environment.",
+      "ES": "Increase plant's growth by creating a nice musical environment.",
+      "FR": "Augmentez la pousse des plantes en créant un environnement musical agréable.",
+      "DE": "Verbessern Sie das Wachstum der Pflanzen durch eine angenehme musikalische Untermalung.",
+      "IT": "Accelera la crescita delle piante creando una piacevole atmosfera musicale."
+    },
+    "properties": {
+      "price": 90000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": 3,
+      "quality": 2
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  },
+  "WaterCtrl": {
+    "id": "WaterCtrl",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Water Control",
+      "ES": "Water Control",
+      "FR": "Contrôle de l'eau",
+      "DE": "Wasserkontrolle",
+      "IT": "Verifica dell'acqua"
+    },
+    "description": {
+      "EN": "Check farm water for harmful micro-organisms.",
+      "ES": "Check water for harmful micro-organisms in farms.",
+      "FR": "Vérifiez si l'eau des exploitations agricoles ne contient pas des micro-organismes nuisibles.",
+      "DE": "Prüfen Sie das Wasser auf den Bauernhöfen auf schädliche Mikroorganismen.",
+      "IT": "Verifichi che l'acqua utilizzata nelle fattorie non contenga microrganismi pericolosi."
+    },
+    "properties": {
+      "price": 55000000,
+      "prestige": 10,
+      "level": "apprentice",
+      "efficiency": -1,
+      "quality": 4
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "ETClimate"
+    ]
+  },
+  "WaterPumps": {
+    "id": "WaterPumps",
+    "category": "INDUSTRY",
+    "name": {
+      "EN": "Water Pumps",
+      "ES": "Water Pumps",
+      "FR": "Pompes à eau",
+      "DE": "Wasserpumpen",
+      "IT": "Pompe idrauliche"
+    },
+    "description": {
+      "EN": "Ease nutritious flow in organoponic cultivation.",
+      "ES": "Ease nutritious flow in organoponics.",
+      "FR": "Facilitez le flux nutritif dans les organoponiques.",
+      "DE": "Vereinfachen Sie den Fluss der Nährstoffe in hydrophonischen Kulturen.",
+      "IT": "Facilita il flusso nutritivo nelle coltivazioni idroponiche."
+    },
+    "properties": {
+      "price": 65000000,
+      "prestige": 2,
+      "level": "apprentice",
+      "efficiency": 3,
+      "quality": 2
+    },
+    "industry_type": "FARMING",
+    "depends_on": [
+      "FarmLic"
+    ]
+  }
+}
