@@ -9,6 +9,7 @@ sharp = require('sharp')
 CombineBuildingManifest = require('./combine/combine-building-manifest')
 CombineConcreteManifest = require('./combine/combine-concrete-manifest')
 CombineEffectManifest = require('./combine/combine-effect-manifest')
+CombineInventionManifest = require('./combine/combine-invention-manifest')
 CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
 CombineOverlayManifest = require('./combine/combine-overlay-manifest')
@@ -22,6 +23,7 @@ Utils = require('./utils/utils')
 SKIP_BUILDINGS = false
 SKIP_CONCRETE = false
 SKIP_EFFECTS = false
+SKIP_INVENTIONS = false
 SKIP_LAND = false
 SKIP_MAPS = false
 SKIP_MUSIC = false
@@ -69,6 +71,7 @@ jobs = []
 jobs.push(CombineBuildingManifest.combine(buildings_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_with_version)) unless SKIP_EFFECTS
+jobs.push(CombineInventionManifest.combine(inventions_dir, target_with_version)) unless SKIP_INVENTIONS
 jobs.push(CombineLandManifest.combine(land_dir, target_with_version)) unless SKIP_LAND
 jobs.push(CombineMapManifest.combine(maps_dir, target_with_version)) unless SKIP_MAPS
 jobs.push(CombineOverlayManifest.combine(overlays_dir, target_with_version)) unless SKIP_OVERLAYS
