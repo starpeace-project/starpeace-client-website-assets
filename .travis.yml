@@ -3,13 +3,13 @@ node_js:
     - "node"
 
 before_install:
-  - apt-get update
-  - apt-get install -y xvfb
+  - sudo apt-get update
+  - sudo apt-get install -y xvfb
   - npm update -g npm
   - npm install -g grunt-cli
 
 install:
-  - apt-get install -y build-essential libxmu-dev libxi-dev libglu1-mesa-dev libglew-dev
+  - sudo apt-get install -y build-essential libxmu-dev libxi-dev libglu1-mesa-dev libglew-dev
   - npm install
 
 cache:

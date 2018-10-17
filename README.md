@@ -39,7 +39,7 @@ Install starpeace-website-client-assets dependencies:
 $ npm install
 ```
 
-Repository contains server scripts and a server to browse raw assets. Different grunt targets execute each script, explained further below:
+Different grunt targets execute each script, explained further below:
 
 
 ```
