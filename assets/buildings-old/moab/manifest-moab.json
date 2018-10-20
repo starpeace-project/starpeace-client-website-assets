@@ -198,7 +198,7 @@
     "image": "assets/buildings/moab/moab.elect.comp.industry.gif",
     "zone": "INDUSTRIAL",
     "category":"INDUSTRY",
-    "industry_type":"ELECTRIC_COMPONENT",
+    "industry_type":"ELECTRONIC_COMPONENT",
     "tile_width": 4,
     "tile_height": 4,
     "hit_area": [
@@ -262,7 +262,7 @@
     "id": "moab.funeral",
     "image": "assets/buildings/moab/moab.funeral.gif",
     "zone": "COMMERCIAL",
-    "category":"SERVICE",
+    "category":"COMMERCE",
     "industry_type":"FUNERAL_SERVICES",
     "tile_width": 2,
     "tile_height": 2,
@@ -292,7 +292,7 @@
     "image": "assets/buildings/moab/moab.heavy.industry.gif",
     "zone": "INDUSTRIAL",
     "category":"INDUSTRY",
-    "industry_type":"HEAVY_INDUSTRY",
+    "industry_type":"MACHINERY",
     "tile_width": 4,
     "tile_height": 4,
     "hit_area": [

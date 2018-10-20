@@ -181,7 +181,7 @@
     "image": "assets/buildings/pgi/pgi.elect.comp.industry.gif",
     "zone": "INDUSTRIAL",
     "category":"INDUSTRY",
-    "industry_type":"ELECTRIC_COMPONENT",
+    "industry_type":"ELECTRONIC_COMPONENT",
     "tile_width": 5,
     "tile_height": 5,
     "hit_area": [
@@ -199,7 +199,7 @@
     "image": "assets/buildings/pgi/pgi.elect.comp.industry.small.gif",
     "zone": "INDUSTRIAL",
     "category":"INDUSTRY",
-    "industry_type":"ELECTRIC_COMPONENT",
+    "industry_type":"ELECTRONIC_COMPONENT",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -346,7 +346,7 @@
     "image": "assets/buildings/pgi/pgi.heavy.industry.gif",
     "zone": "INDUSTRIAL",
     "category":"INDUSTRY",
-    "industry_type":"HEAVY_INDUSTRY",
+    "industry_type":"MACHINERY",
     "tile_width": 5,
     "tile_height": 5,
     "hit_area": [

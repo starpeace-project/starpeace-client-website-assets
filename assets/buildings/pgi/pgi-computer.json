@@ -1,0 +1,142 @@
+[
+  {
+    "id": "pgi.bm.industry",
+    "image": "assets/buildings/pgi/pgi.bm.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "COMPUTER",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":21,"y":78},{"x":87,"y":118},{"x":121,"y":128},{"x":205,"y":96},{"x":77,"y":49},{"x":42,"y":60}],
+      [{"x":196,"y":25},{"x":147,"y":4},{"x":135,"y":4},{"x":205,"y":96},{"x":200,"y":50}],
+      [{"x":90,"y":23},{"x":77,"y":49},{"x":205,"y":96},{"x":135,"y":4}],
+      [{"x":237,"y":64},{"x":200,"y":50},{"x":205,"y":96},{"x":238,"y":73}]
+    ],
+    "required_inventions": ["BMInd"],
+    "resource_flow": [
+      {
+        "key": "BusinessMachinesInd-Business Machines",
+        "budget": 0,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 100 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 250 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 15 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 20 }
+        ]
+      },
+      {
+        "key": "PGI.BusinessMachinesInd-PGI Business Machines",
+        "budget": 700,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 130 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 225 },
+          { "resource": "CHEMICAL", "max": 40 },
+          { "resource": "WORK_FORCE_HI", "max": 12 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.block.BusinessMachinesInd-Business Machines",
+        "budget": 4865.1826,
+        "cost": 28000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 50 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 50 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 35 },
+          { "resource": "WORK_FORCE_LO", "max": 70 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1.98000001907349 },
+          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 10.0500001907349 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.BusinessMachinesInd-Business Machines small",
+        "budget": 2363.8965,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 25 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 25 },
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 25 },
+          { "resource": "WORK_FORCE_LO", "max": 50 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 5 }
+        ]
+      },
+      {
+        "key": "PGI.block.BusinessMachinesInd-Business Machines",
+        "budget": 6422.2192,
+        "cost": 33600001,
+        "required_inputs": [
+          { "resource": "METAL", "max": 55 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 55 },
+          { "resource": "CHEMICAL", "max": 22 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 37 },
+          { "resource": "WORK_FORCE_LO", "max": 148 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 2.20000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 12.5 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.BusinessMachinesInd-Business Machines small",
+        "budget": 1832.1172,
+        "cost": 8000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 20 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 20 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 22 },
+          { "resource": "WORK_FORCE_LO", "max": 89 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.800000011920929 },
+          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 4 }
+        ]
+      }
+    ]
+  }
+]

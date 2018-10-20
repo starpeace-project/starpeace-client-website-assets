@@ -1,0 +1,156 @@
+[
+  {
+    "id": "mko.elect.comp.industry",
+    "image": "assets/buildings/mariko/mko.elect.comp.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
+      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
+      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
+      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
+    ],
+    "required_inventions": ["ElecLic","LSEPrd"],
+    "resource_flow": [
+      {
+        "key": "Electronic-Electronic Industry",
+        "budget": 2000,
+        "cost": 15000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 50 },
+          { "resource": "METAL", "max": 100 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 50 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
+          { "resource": "LEGAL_SERVICES", "max": 1 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Electronic-Electronic Industry",
+        "budget": 176.2644,
+        "cost": 25199999,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 21 },
+          { "resource": "METAL", "max": 36 },
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 107 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.444999992847443 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 47.3199996948242 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Electronic-Electronic Industry small",
+        "budget": 9.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 7 },
+          { "resource": "METAL", "max": 12 },
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 5 },
+          { "resource": "WORK_FORCE_LO", "max": 62 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.150000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 15.6000003814697 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.elect.comp.industry.small",
+    "image": "assets/buildings/mariko/mko.elect.comp.industry.small.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ELECTRONIC_COMPONENT",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
+      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
+      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
+      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
+    ],
+    "required_inventions": ["ElecLic","LSEPrd"],
+    "resource_flow": [
+      {
+        "key": "Electronic-Electronic Industry",
+        "budget": 2000,
+        "cost": 15000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 50 },
+          { "resource": "METAL", "max": 100 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 50 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
+          { "resource": "LEGAL_SERVICES", "max": 1 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Electronic-Electronic Industry",
+        "budget": 176.2644,
+        "cost": 25199999,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 21 },
+          { "resource": "METAL", "max": 36 },
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 107 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.444999992847443 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 47.3199996948242 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Electronic-Electronic Industry small",
+        "budget": 9.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 7 },
+          { "resource": "METAL", "max": 12 },
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 5 },
+          { "resource": "WORK_FORCE_LO", "max": 62 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.150000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "ELECTRONIC_COMPONENT", "max": 15.6000003814697 }
+        ]
+      }
+    ]
+  }
+]

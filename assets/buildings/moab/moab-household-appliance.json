@@ -1,0 +1,102 @@
+[
+  {
+    "id": "moab.hha.industry",
+    "image": "assets/buildings/moab/moab.hha.industry.gif",
+    "construction_id": "generic.construction.6",
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 6,
+    "tile_height": 6,
+    "hit_area": [
+      [{"x":335,"y":69},{"x":311,"y":66},{"x":318,"y":117},{"x":337,"y":84}],
+      [{"x":350,"y":91},{"x":337,"y":84},{"x":318,"y":117}],
+      [{"x":36,"y":97},{"x":40,"y":111},{"x":113,"y":147},{"x":121,"y":148},{"x":220,"y":0},{"x":211,"y":0},{"x":95,"y":46},{"x":43,"y":79}],
+      [{"x":261,"y":6},{"x":220,"y":0},{"x":132,"y":160},{"x":187,"y":172},{"x":219,"y":168},{"x":264,"y":146},{"x":318,"y":117},{"x":311,"y":66}],
+      [{"x":307,"y":133},{"x":318,"y":117},{"x":264,"y":146}],
+      [{"x":182,"y":179},{"x":187,"y":172},{"x":132,"y":160}],
+      [{"x":132,"y":160},{"x":220,"y":0},{"x":121,"y":148}]
+    ],
+    "required_inventions": ["HHALic","LSAppProd"],
+    "resource_flow": [
+      {
+        "key": "HouseHolding-House Holding Appliances",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 500 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 70 }
+        ]
+      },
+      {
+        "key": "Moab.HouseHolding-Moab House Holding Appliances",
+        "budget": 2000,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 300 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 150 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 333 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 80 }
+        ]
+      },
+      {
+        "key": "Moab.block.HouseHolding-House Holding Appliances",
+        "budget": 236.1096,
+        "cost": 12600000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 36 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 12 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moab.hha.store",
+    "image": "assets/buildings/moab/moab.hha.store.gif",
+    "construction_id": "generic.construction.1",
+    "seal": "moab",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":60,"y":37},{"x":31,"y":14},{"x":25,"y":15},{"x":7,"y":24},{"x":4,"y":40},{"x":34,"y":53}],
+      [{"x":42,"y":9},{"x":38,"y":0},{"x":16,"y":0},{"x":17,"y":14},{"x":25,"y":15},{"x":31,"y":14}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

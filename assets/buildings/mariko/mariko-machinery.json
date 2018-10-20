@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mko.heavy.industry",
+    "image": "assets/buildings/mariko/mko.heavy.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "MACHINERY",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":278,"y":64},{"x":253,"y":73},{"x":85,"y":141},{"x":191,"y":154},{"x":209,"y":154},{"x":281,"y":87}],
+      [{"x":243,"y":47},{"x":219,"y":53},{"x":83,"y":133},{"x":86,"y":135},{"x":243,"y":68}],
+      [{"x":18,"y":105},{"x":35,"y":121},{"x":83,"y":133},{"x":219,"y":53},{"x":112,"y":36},{"x":32,"y":88}],
+      [{"x":214,"y":11},{"x":192,"y":13},{"x":114,"y":24},{"x":112,"y":36},{"x":219,"y":53},{"x":223,"y":32}],
+      [{"x":161,"y":181},{"x":191,"y":154},{"x":85,"y":141},{"x":115,"y":161}],
+      [{"x":156,"y":0},{"x":114,"y":24},{"x":192,"y":13}],
+      [{"x":304,"y":98},{"x":281,"y":87},{"x":209,"y":154},{"x":304,"y":109}],
+      [{"x":30,"y":75},{"x":32,"y":88},{"x":112,"y":36}],
+      [{"x":253,"y":73},{"x":243,"y":68},{"x":86,"y":135},{"x":85,"y":141}]
+    ],
+    "required_inventions": ["MachInd"],
+    "resource_flow": [
+      {
+        "key": "HeavyIndustry-Heavy Industry",
+        "budget": 52300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 1000 },
+          { "resource": "CHEMICAL", "max": 400 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 4 },
+          { "resource": "WORK_FORCE_MID", "max": 50 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 10 }
+        ]
+      },
+      {
+        "key": "Mariko.block.HeavyIndustry-Heavy Industry",
+        "budget": 2634.4642,
+        "cost": 25199999,
+        "required_inputs": [
+          { "resource": "METAL", "max": 1068 },
+          { "resource": "CHEMICAL", "max": 89 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
+          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 1.82000005245209 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.HeavyIndustry-Heavy Industry small",
+        "budget": 717.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 360 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 12 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 116 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 0.600000023841858 }
+        ]
+      }
+    ]
+  }
+]

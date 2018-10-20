@@ -1,0 +1,99 @@
+[
+  {
+    "id": "mko.bm.industry",
+    "image": "assets/buildings/mariko/mko.bm.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "COMPUTER",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
+      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
+      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
+      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
+    ],
+    "required_inventions": ["BMInd"],
+    "resource_flow": [
+      {
+        "key": "BusinessMachinesInd-Business Machines",
+        "budget": 0,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 100 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 250 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 15 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 20 }
+        ]
+      },
+      {
+        "key": "Mariko.block.BusinessMachinesInd-Business Machines",
+        "budget": 4384.1649,
+        "cost": 25199999,
+        "required_inputs": [
+          { "resource": "METAL", "max": 44 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 44 },
+          { "resource": "CHEMICAL", "max": 18 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1.77999997138977 },
+          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 9.10000038146973 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.BusinessMachinesInd-Business Machines small",
+        "budget": 1351.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 15 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 15 },
+          { "resource": "CHEMICAL", "max": 6 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 19 },
+          { "resource": "WORK_FORCE_LO", "max": 77 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.600000023841858 },
+          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER", "max": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.computer.store",
+    "image": "assets/buildings/mariko/mko.computer.store.gif",
+    "construction_id": "generic.construction.1",
+    "seal": "mariko",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "COMPUTER",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":34,"y":41},{"x":64,"y":26},{"x":62,"y":16},{"x":0,"y":15},{"x":0,"y":26}],
+      [{"x":35,"y":1},{"x":0,"y":15},{"x":62,"y":16}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

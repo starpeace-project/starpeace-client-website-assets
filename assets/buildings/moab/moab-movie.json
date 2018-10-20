@@ -1,0 +1,18 @@
+[
+  {
+    "id": "moab.movie",
+    "image": "assets/buildings/moab/moab.movie.gif",
+    "construction_id": "generic.construction.3",
+    "seal": "moab",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "MOVIE",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":127,"y":37},{"x":70,"y":1},{"x":66,"y":1},{"x":2,"y":38},{"x":61,"y":68}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

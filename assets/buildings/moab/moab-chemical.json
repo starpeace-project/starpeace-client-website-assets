@@ -1,0 +1,170 @@
+[
+  {
+    "id": "moab.chemical.industry",
+    "image": "assets/buildings/moab/moab.chemical.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":142,"y":152},{"x":151,"y":149},{"x":164,"y":144},{"x":140,"y":143}],
+      [{"x":118,"y":143},{"x":140,"y":143},{"x":126,"y":128}],
+      [{"x":165,"y":155},{"x":164,"y":144},{"x":151,"y":149}],
+      [{"x":21,"y":108},{"x":56,"y":112},{"x":72,"y":106},{"x":26,"y":82}],
+      [{"x":78,"y":121},{"x":97,"y":120},{"x":81,"y":112}],
+      [{"x":93,"y":130},{"x":115,"y":120},{"x":97,"y":120}],
+      [{"x":140,"y":143},{"x":164,"y":144},{"x":197,"y":140},{"x":303,"y":109},{"x":295,"y":101},{"x":126,"y":128}],
+      [{"x":148,"y":7},{"x":32,"y":56},{"x":72,"y":106},{"x":115,"y":120},{"x":295,"y":101},{"x":284,"y":84},{"x":267,"y":65},{"x":215,"y":31}],
+      [{"x":192,"y":148},{"x":197,"y":140},{"x":164,"y":144}],
+      [{"x":26,"y":82},{"x":72,"y":106},{"x":32,"y":56},{"x":26,"y":66}],
+      [{"x":97,"y":120},{"x":115,"y":120},{"x":72,"y":106},{"x":81,"y":112}],
+      [{"x":210,"y":146},{"x":240,"y":140},{"x":303,"y":109},{"x":197,"y":140}],
+      [{"x":115,"y":120},{"x":126,"y":128},{"x":295,"y":101}]
+    ],
+    "required_inventions": ["ChemLic","LargeChem"],
+    "resource_flow": [
+      {
+        "key": "Chemical-Chemical Plant",
+        "budget": 15300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 3000 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 70 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Moab.Chemical-Moab Chemical Plant",
+        "budget": 11400,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 4000 },
+          { "resource": "WORK_FORCE_HI", "max": 12 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 333 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Moab.block.Chemical-Chemical Plant",
+        "budget": 0.4186,
+        "cost": 9800000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 400 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 40 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moab.mine",
+    "image": "assets/buildings/moab/moab.mine.gif",
+    "construction_id": "generic.construction.6",
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "tile_width": 6,
+    "tile_height": 6,
+    "hit_area": [
+      [{"x":63,"y":180},{"x":75,"y":191},{"x":81,"y":177}],
+      [{"x":198,"y":24},{"x":185,"y":31},{"x":184,"y":100},{"x":203,"y":91},{"x":205,"y":37}],
+      [{"x":79,"y":167},{"x":81,"y":177},{"x":92,"y":220},{"x":90,"y":164}],
+      [{"x":138,"y":251},{"x":145,"y":244},{"x":127,"y":239}],
+      [{"x":321,"y":187},{"x":305,"y":172},{"x":307,"y":210},{"x":317,"y":210}],
+      [{"x":240,"y":253},{"x":261,"y":234},{"x":203,"y":99},{"x":222,"y":246}],
+      [{"x":302,"y":156},{"x":278,"y":146},{"x":291,"y":223},{"x":295,"y":228},{"x":307,"y":210},{"x":305,"y":172}],
+      [{"x":163,"y":248},{"x":166,"y":241},{"x":203,"y":99},{"x":184,"y":100},{"x":92,"y":220},{"x":91,"y":227},{"x":127,"y":239},{"x":145,"y":244}],
+      [{"x":68,"y":198},{"x":81,"y":221},{"x":92,"y":220},{"x":75,"y":191}],
+      [{"x":257,"y":113},{"x":203,"y":99},{"x":261,"y":234},{"x":271,"y":236},{"x":291,"y":223},{"x":278,"y":146}],
+      [{"x":203,"y":91},{"x":184,"y":100},{"x":203,"y":99}],
+      [{"x":128,"y":118},{"x":90,"y":164},{"x":92,"y":220},{"x":184,"y":100}],
+      [{"x":75,"y":191},{"x":92,"y":220},{"x":81,"y":177}],
+      [{"x":194,"y":254},{"x":193,"y":247},{"x":166,"y":241}],
+      [{"x":222,"y":246},{"x":203,"y":99},{"x":166,"y":241},{"x":193,"y":247}]
+    ],
+    "required_inventions": ["ChemLic","LargeChem"],
+    "resource_flow": [
+      {
+        "key": "Chemical-Chemical Plant",
+        "budget": 15300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 3000 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 70 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Moab.Chemical-Moab Chemical Plant",
+        "budget": 11400,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 4000 },
+          { "resource": "WORK_FORCE_HI", "max": 12 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 333 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Moab.block.Chemical-Chemical Plant",
+        "budget": 0.4186,
+        "cost": 9800000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 400 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 40 }
+        ]
+      }
+    ]
+  }
+]

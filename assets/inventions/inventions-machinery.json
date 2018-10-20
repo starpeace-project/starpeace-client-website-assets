@@ -21,7 +21,7 @@
       "level": "master",
       "quality": 7
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -49,7 +49,7 @@
       "efficiency": -2,
       "quality": 5
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -78,7 +78,7 @@
       "efficiency": -2,
       "quality": 3
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -107,7 +107,7 @@
       "efficiency": 7,
       "quality": -3
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -136,7 +136,7 @@
       "efficiency": -5,
       "quality": 4
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -162,7 +162,7 @@
       "price": 70000000,
       "level": "master"
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "DistributedDirection"
     ]
@@ -191,7 +191,7 @@
       "efficiency": -3,
       "quality": 10
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -219,7 +219,7 @@
       "efficiency": 5,
       "quality": 3
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -248,7 +248,7 @@
       "efficiency": -2,
       "quality": 5
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -277,7 +277,7 @@
       "efficiency": 10,
       "quality": -5
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -305,7 +305,7 @@
       "efficiency": 15,
       "quality": -3
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -334,7 +334,7 @@
       "efficiency": -5,
       "quality": 10
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -363,7 +363,7 @@
       "efficiency": -5,
       "quality": 15
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -391,7 +391,7 @@
       "efficiency": 20,
       "quality": -5
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -419,7 +419,7 @@
       "efficiency": -8,
       "quality": 12
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]
@@ -448,7 +448,7 @@
       "efficiency": -3,
       "quality": 5
     },
-    "industry_type": "HEAVY_INDUSTRY",
+    "industry_type": "MACHINERY",
     "depends_on": [
       "MachInd"
     ]

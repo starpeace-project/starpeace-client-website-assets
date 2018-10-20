@@ -1,0 +1,281 @@
+[
+  {
+    "id": "pgi.hha.industry",
+    "image": "assets/buildings/pgi/pgi.hha.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":73,"y":106},{"x":129,"y":134},{"x":139,"y":131},{"x":152,"y":32},{"x":123,"y":39},{"x":89,"y":69}],
+      [{"x":264,"y":58},{"x":240,"y":43},{"x":200,"y":36},{"x":177,"y":131},{"x":234,"y":114},{"x":261,"y":90}],
+      [{"x":240,"y":26},{"x":229,"y":16},{"x":200,"y":36},{"x":240,"y":43}],
+      [{"x":200,"y":36},{"x":160,"y":22},{"x":152,"y":32},{"x":139,"y":131},{"x":177,"y":131}]
+    ],
+    "required_inventions": ["HHALic","LSAppProd"],
+    "resource_flow": [
+      {
+        "key": "HouseHolding-House Holding Appliances",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 500 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 70 }
+        ]
+      },
+      {
+        "key": "PGI.HouseHolding-PGI House Holding Appliances",
+        "budget": 1000,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 300 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 150 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 433 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 80 }
+        ]
+      },
+      {
+        "key": "PGI.block.HouseHolding-House Holding Appliances",
+        "budget": 745.7645,
+        "cost": 25200000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 71 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 71 },
+          { "resource": "CHEMICAL", "max": 40 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 14 },
+          { "resource": "WORK_FORCE_LO", "max": 113 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.791999995708466 },
+          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 303.5068,
+        "cost": 9000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 36 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 12 }
+        ]
+      },
+      {
+        "key": "PGI.block.HouseHolding-House Holding Appliances",
+        "budget": 1411.3973,
+        "cost": 30240001,
+        "required_inputs": [
+          { "resource": "METAL", "max": 79 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 79 },
+          { "resource": "CHEMICAL", "max": 44 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 15 },
+          { "resource": "WORK_FORCE_LO", "max": 178 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.880000054836273 },
+          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 186.2056,
+        "cost": 7200000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 29 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 29 },
+          { "resource": "CHEMICAL", "max": 16 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 9 },
+          { "resource": "WORK_FORCE_LO", "max": 107 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.320000022649765 },
+          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 9.60000038146973 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pgi.hha.industry.small",
+    "image": "assets/buildings/pgi/pgi.hha.industry.small.gif",
+    "construction_id": "generic.construction.3",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":0,"y":65},{"x":55,"y":86},{"x":38,"y":24}],
+      [{"x":55,"y":86},{"x":92,"y":110},{"x":192,"y":60},{"x":170,"y":49},{"x":45,"y":24},{"x":38,"y":24}],
+      [{"x":103,"y":0},{"x":79,"y":4},{"x":45,"y":24},{"x":170,"y":49},{"x":160,"y":30}]
+    ],
+    "required_inventions": ["HHALic","LSAppProd"],
+    "resource_flow": [
+      {
+        "key": "HouseHolding-House Holding Appliances",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 500 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 70 }
+        ]
+      },
+      {
+        "key": "PGI.HouseHolding-PGI House Holding Appliances",
+        "budget": 1000,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 300 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 150 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 433 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 80 }
+        ]
+      },
+      {
+        "key": "PGI.block.HouseHolding-House Holding Appliances",
+        "budget": 745.7645,
+        "cost": 25200000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 71 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 71 },
+          { "resource": "CHEMICAL", "max": 40 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 14 },
+          { "resource": "WORK_FORCE_LO", "max": 113 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.791999995708466 },
+          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 303.5068,
+        "cost": 9000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 36 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 12 }
+        ]
+      },
+      {
+        "key": "PGI.block.HouseHolding-House Holding Appliances",
+        "budget": 1411.3973,
+        "cost": 30240001,
+        "required_inputs": [
+          { "resource": "METAL", "max": 79 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 79 },
+          { "resource": "CHEMICAL", "max": 44 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 15 },
+          { "resource": "WORK_FORCE_LO", "max": 178 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.880000054836273 },
+          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 186.2056,
+        "cost": 7200000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 29 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 29 },
+          { "resource": "CHEMICAL", "max": 16 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 9 },
+          { "resource": "WORK_FORCE_LO", "max": 107 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.320000022649765 },
+          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 9.60000038146973 }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "mko.clothes.industry",
+    "image": "assets/buildings/mariko/mko.clothes.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CLOTHES",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":11,"y":86},{"x":30,"y":103},{"x":80,"y":118},{"x":69,"y":46},{"x":27,"y":72}],
+      [{"x":159,"y":1},{"x":115,"y":25},{"x":103,"y":136},{"x":207,"y":31},{"x":207,"y":23}],
+      [{"x":93,"y":130},{"x":104,"y":126},{"x":115,"y":25},{"x":79,"y":41},{"x":69,"y":46},{"x":80,"y":118}],
+      [{"x":31,"y":55},{"x":27,"y":72},{"x":69,"y":46}],
+      [{"x":80,"y":31},{"x":79,"y":41},{"x":115,"y":25}],
+      [{"x":232,"y":30},{"x":216,"y":36},{"x":103,"y":136},{"x":291,"y":80},{"x":270,"y":52}],
+      [{"x":161,"y":160},{"x":316,"y":87},{"x":291,"y":80},{"x":103,"y":136}],
+      [{"x":216,"y":36},{"x":207,"y":31},{"x":103,"y":136}]
+    ],
+    "required_inventions": ["ClothesLic","LSCManuf"],
+    "resource_flow": [
+      {
+        "key": "Clothing-Clothing",
+        "budget": 200,
+        "cost": 12000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_HI", "max": 5 },
+          { "resource": "CLOTHES_MID", "max": 50 },
+          { "resource": "CLOTHES_LO", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Clothing-Clothing",
+        "budget": 170.2986,
+        "cost": 15120000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 39 },
+          { "resource": "ORGANIC_MATERIAL", "max": 14 },
+          { "resource": "CHEMICAL", "max": 14 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
+          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 54.6000022888184 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Clothing-Clothing small",
+        "budget": 5.6027,
+        "cost": 3600000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 13 },
+          { "resource": "ORGANIC_MATERIAL", "max": 5 },
+          { "resource": "CHEMICAL", "max": 5 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 77 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
+          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 18 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.clothes.industry.small",
+    "image": "assets/buildings/mariko/mko.clothes.industry.small.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CLOTHES",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":11,"y":86},{"x":30,"y":103},{"x":80,"y":118},{"x":69,"y":46},{"x":27,"y":72}],
+      [{"x":159,"y":1},{"x":115,"y":25},{"x":103,"y":136},{"x":207,"y":31},{"x":207,"y":23}],
+      [{"x":93,"y":130},{"x":104,"y":126},{"x":115,"y":25},{"x":79,"y":41},{"x":69,"y":46},{"x":80,"y":118}],
+      [{"x":31,"y":55},{"x":27,"y":72},{"x":69,"y":46}],
+      [{"x":80,"y":31},{"x":79,"y":41},{"x":115,"y":25}],
+      [{"x":232,"y":30},{"x":216,"y":36},{"x":103,"y":136},{"x":291,"y":80},{"x":270,"y":52}],
+      [{"x":161,"y":160},{"x":316,"y":87},{"x":291,"y":80},{"x":103,"y":136}],
+      [{"x":216,"y":36},{"x":207,"y":31},{"x":103,"y":136}]
+    ],
+    "required_inventions": ["ClothesLic","LSCManuf"],
+    "resource_flow": [
+      {
+        "key": "Clothing-Clothing",
+        "budget": 200,
+        "cost": 12000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_HI", "max": 5 },
+          { "resource": "CLOTHES_MID", "max": 50 },
+          { "resource": "CLOTHES_LO", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Clothing-Clothing",
+        "budget": 170.2986,
+        "cost": 15120000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 39 },
+          { "resource": "ORGANIC_MATERIAL", "max": 14 },
+          { "resource": "CHEMICAL", "max": 14 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
+          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 54.6000022888184 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Clothing-Clothing small",
+        "budget": 5.6027,
+        "cost": 3600000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 13 },
+          { "resource": "ORGANIC_MATERIAL", "max": 5 },
+          { "resource": "CHEMICAL", "max": 5 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 77 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
+          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 18 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.clothes.store",
+    "image": "assets/buildings/mariko/mko.clothes.store.gif",
+    "construction_id": "generic.construction.1",
+    "seal": "mariko",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "CLOTHES",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":3,"y":27},{"x":34,"y":39},{"x":47,"y":18},{"x":51,"y":8},{"x":51,"y":0},{"x":14,"y":10}],
+      [{"x":62,"y":24},{"x":47,"y":18},{"x":34,"y":39}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

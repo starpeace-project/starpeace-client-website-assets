@@ -1,0 +1,52 @@
+[
+  {
+    "id": "moab.computing",
+    "image": "assets/buildings/moab/moab.computing.gif",
+    "construction_id": "generic.construction.2",
+    "seal": "moab",
+    "zone": "SERVICE",
+    "category": "SERVICE",
+    "industry_type": "COMPUTER_SERVICES",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":68,"y":77},{"x":111,"y":54},{"x":107,"y":39},{"x":77,"y":11},{"x":68,"y":11},{"x":18,"y":46},{"x":21,"y":57}],
+      [{"x":56,"y":2},{"x":18,"y":46},{"x":68,"y":11}]
+    ],
+    "required_inventions": ["SoftwareFirms"],
+    "resource_flow": [
+      {
+        "key": "Moab.CompServ-Moab Computing Industry",
+        "budget": 100,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 7 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 5 }
+        ]
+      },
+      {
+        "key": "Moab.block.CompServ-Computing Industry",
+        "budget": 711.4551,
+        "cost": 14000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 10 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.400000005960464 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 5 }
+        ]
+      }
+    ]
+  }
+]

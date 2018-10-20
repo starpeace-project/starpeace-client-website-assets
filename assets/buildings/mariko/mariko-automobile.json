@@ -1,0 +1,109 @@
+[
+  {
+    "id": "mko.car.industry",
+    "image": "assets/buildings/mariko/mko.car.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "AUTOMOBILE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":291,"y":77},{"x":275,"y":67},{"x":232,"y":116},{"x":287,"y":91}],
+      [{"x":147,"y":159},{"x":150,"y":149},{"x":130,"y":143}],
+      [{"x":227,"y":127},{"x":232,"y":116},{"x":225,"y":122}],
+      [{"x":190,"y":143},{"x":187,"y":138},{"x":130,"y":143},{"x":150,"y":149},{"x":179,"y":150}],
+      [{"x":275,"y":67},{"x":273,"y":49},{"x":223,"y":8},{"x":193,"y":3},{"x":180,"y":3},{"x":118,"y":145},{"x":130,"y":143},{"x":232,"y":116}],
+      [{"x":13,"y":90},{"x":118,"y":145},{"x":34,"y":82}],
+      [{"x":34,"y":82},{"x":118,"y":145},{"x":180,"y":3},{"x":44,"y":63}],
+      [{"x":187,"y":138},{"x":225,"y":122},{"x":232,"y":116},{"x":130,"y":143}]
+    ],
+    "required_inventions": ["AutoInd"],
+    "resource_flow": [
+      {
+        "key": "CarIndustry-Car Industry",
+        "budget": 35600,
+        "cost": 50000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 1000 },
+          { "resource": "FABRIC", "max": 100 },
+          { "resource": "ORGANIC_MATERIAL", "max": 40 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 20 },
+          { "resource": "WORK_FORCE_MID", "max": 40 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CAR_HI", "max": 0.3 },
+          { "resource": "CAR_MID", "max": 1 },
+          { "resource": "CAR_LO", "max": 3 }
+        ]
+      },
+      {
+        "key": "Mariko.block.CarIndustry-Car Industry",
+        "budget": 1413.4325,
+        "cost": 20159999,
+        "required_inputs": [
+          { "resource": "METAL", "max": 356 },
+          { "resource": "FABRIC", "max": 32 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
+          { "resource": "CHEMICAL", "max": 36 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 20 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1.77999997138977 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "CAR_MID", "max": 0.546000063419342 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.CarIndustry-Car Industry small",
+        "budget": 346.4703,
+        "cost": 4800000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 120 },
+          { "resource": "FABRIC", "max": 11 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 5 },
+          { "resource": "CHEMICAL", "max": 12 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 116 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.600000023841858 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "CAR_MID", "max": 0.180000007152557 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.car.store",
+    "image": "assets/buildings/mariko/mko.car.store.gif",
+    "construction_id": "generic.construction.2",
+    "seal": "mariko",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "AUTOMOBILE",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":2,"y":33},{"x":58,"y":61},{"x":122,"y":30},{"x":104,"y":21},{"x":41,"y":8},{"x":33,"y":8}],
+      [{"x":66,"y":0},{"x":41,"y":8},{"x":104,"y":21},{"x":103,"y":12}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "mko.chemical.industry",
+    "image": "assets/buildings/mariko/mko.chemical.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":17,"y":76},{"x":39,"y":96},{"x":81,"y":110},{"x":74,"y":42},{"x":62,"y":43}],
+      [{"x":213,"y":34},{"x":203,"y":38},{"x":232,"y":69},{"x":221,"y":40}],
+      [{"x":157,"y":6},{"x":122,"y":2},{"x":74,"y":30},{"x":171,"y":22}],
+      [{"x":183,"y":20},{"x":171,"y":22},{"x":232,"y":69},{"x":203,"y":38}],
+      [{"x":126,"y":142},{"x":250,"y":78},{"x":232,"y":69},{"x":74,"y":30},{"x":74,"y":42},{"x":81,"y":110},{"x":88,"y":123}],
+      [{"x":171,"y":22},{"x":74,"y":30},{"x":232,"y":69}]
+    ],
+    "required_inventions": ["ChemLic","LargeChem"],
+    "resource_flow": [
+      {
+        "key": "Chemical-Chemical Plant",
+        "budget": 15300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 3000 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 70 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Chemical-Chemical Plant",
+        "budget": 145.4151,
+        "cost": 17640000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 712 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 160 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 72.8000030517578 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Chemical-Chemical Plant small",
+        "budget": 0,
+        "cost": 4200000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 240 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 93 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 25 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.chemical.industry.small",
+    "image": "assets/buildings/mariko/mko.chemical.industry.small.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":17,"y":76},{"x":39,"y":96},{"x":81,"y":110},{"x":74,"y":42},{"x":62,"y":43}],
+      [{"x":213,"y":34},{"x":203,"y":38},{"x":232,"y":69},{"x":221,"y":40}],
+      [{"x":157,"y":6},{"x":122,"y":2},{"x":74,"y":30},{"x":171,"y":22}],
+      [{"x":183,"y":20},{"x":171,"y":22},{"x":232,"y":69},{"x":203,"y":38}],
+      [{"x":126,"y":142},{"x":250,"y":78},{"x":232,"y":69},{"x":74,"y":30},{"x":74,"y":42},{"x":81,"y":110},{"x":88,"y":123}],
+      [{"x":171,"y":22},{"x":74,"y":30},{"x":232,"y":69}]
+    ],
+    "required_inventions": ["ChemLic","LargeChem"],
+    "resource_flow": [
+      {
+        "key": "Chemical-Chemical Plant",
+        "budget": 15300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 3000 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 70 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Chemical-Chemical Plant",
+        "budget": 145.4151,
+        "cost": 17640000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 712 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 160 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 72.8000030517578 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Chemical-Chemical Plant small",
+        "budget": 0,
+        "cost": 4200000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 240 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 93 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 25 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.plastic.industry",
+    "image": "assets/buildings/mariko/mko.plastic.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":54,"y":87},{"x":49,"y":100},{"x":130,"y":141},{"x":63,"y":89}],
+      [{"x":253,"y":86},{"x":238,"y":81},{"x":206,"y":145},{"x":241,"y":128},{"x":261,"y":100}],
+      [{"x":228,"y":52},{"x":217,"y":52},{"x":139,"y":149},{"x":175,"y":153},{"x":206,"y":145},{"x":238,"y":81}],
+      [{"x":69,"y":128},{"x":111,"y":138},{"x":130,"y":141},{"x":49,"y":100},{"x":42,"y":100}],
+      [{"x":114,"y":22},{"x":68,"y":68},{"x":130,"y":141},{"x":139,"y":149},{"x":217,"y":52},{"x":212,"y":0}],
+      [{"x":215,"y":13},{"x":212,"y":0},{"x":215,"y":27}],
+      [{"x":63,"y":89},{"x":130,"y":141},{"x":68,"y":68}]
+    ],
+    "required_inventions": ["ChemLic","LargeChem"],
+    "resource_flow": [
+      {
+        "key": "Chemical-Chemical Plant",
+        "budget": 15300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 3000 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 70 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 1000 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Chemical-Chemical Plant",
+        "budget": 145.4151,
+        "cost": 17640000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 712 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 160 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
+          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 72.8000030517578 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Chemical-Chemical Plant small",
+        "budget": 0,
+        "cost": 4200000,
+        "required_inputs": [
+          { "resource": "ORE", "max": 240 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 8 },
+          { "resource": "WORK_FORCE_LO", "max": 93 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
+          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "CHEMICAL", "max": 25 }
+        ]
+      }
+    ]
+  }
+]

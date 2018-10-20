@@ -1,0 +1,246 @@
+[
+  {
+    "id": "pgi.farm",
+    "image": "assets/buildings/pgi/pgi.farm.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "FARMING",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":145,"y":193},{"x":264,"y":137},{"x":184,"y":63},{"x":51,"y":109},{"x":20,"y":129}],
+      [{"x":217,"y":0},{"x":202,"y":4},{"x":184,"y":63},{"x":229,"y":78},{"x":232,"y":37},{"x":232,"y":14}],
+      [{"x":305,"y":130},{"x":229,"y":78},{"x":184,"y":63},{"x":264,"y":137},{"x":275,"y":141}],
+      [{"x":155,"y":53},{"x":120,"y":58},{"x":69,"y":83},{"x":51,"y":109},{"x":184,"y":63}]
+    ],
+    "required_inventions": ["FarmLic","LargeFarms"],
+    "resource_flow": [
+      {
+        "key": "Farm-Farm",
+        "budget": 1550,
+        "cost": 880000,
+        "required_inputs": [],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
+          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.Farm-PGI Farm",
+        "budget": 1300,
+        "cost": 5000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 50 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 2 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.3 },
+          { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.block.Farm-Farm",
+        "budget": 345.3931,
+        "cost": 11200000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 17 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.594000041484833 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 50.25 },
+          { "resource": "ORGANIC_MATERIAL", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Farm-Farm small",
+        "budget": 167.5586,
+        "cost": 4000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 12 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.300000011920929 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 25 },
+          { "resource": "ORGANIC_MATERIAL", "max": 12 }
+        ]
+      },
+      {
+        "key": "PGI.block.Farm-Farm",
+        "budget": 426.0877,
+        "cost": 13440001,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 30 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.660000026226044 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 62.5 },
+          { "resource": "ORGANIC_MATERIAL", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Farm-Farm small",
+        "budget": 124.8469,
+        "cost": 3200000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 18 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.240000009536743 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 20 },
+          { "resource": "ORGANIC_MATERIAL", "max": 9.60000038146973 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pgi.farm.small",
+    "image": "assets/buildings/pgi/pgi.farm.small.gif",
+    "construction_id": "generic.construction.3",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "FARMING",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":176,"y":1},{"x":163,"y":3},{"x":148,"y":51},{"x":183,"y":62},{"x":186,"y":25},{"x":186,"y":17}],
+      [{"x":242,"y":105},{"x":183,"y":62},{"x":210,"y":110}],
+      [{"x":210,"y":110},{"x":183,"y":62},{"x":148,"y":51},{"x":43,"y":86},{"x":15,"y":104},{"x":118,"y":154}],
+      [{"x":120,"y":41},{"x":100,"y":44},{"x":53,"y":68},{"x":43,"y":86},{"x":148,"y":51}]
+    ],
+    "required_inventions": ["FarmLic","LargeFarms"],
+    "resource_flow": [
+      {
+        "key": "Farm-Farm",
+        "budget": 1550,
+        "cost": 880000,
+        "required_inputs": [],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
+          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.Farm-PGI Farm",
+        "budget": 1300,
+        "cost": 5000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 50 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 2 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.3 },
+          { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.block.Farm-Farm",
+        "budget": 345.3931,
+        "cost": 11200000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 17 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.594000041484833 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 50.25 },
+          { "resource": "ORGANIC_MATERIAL", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Farm-Farm small",
+        "budget": 167.5586,
+        "cost": 4000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 12 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.300000011920929 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 25 },
+          { "resource": "ORGANIC_MATERIAL", "max": 12 }
+        ]
+      },
+      {
+        "key": "PGI.block.Farm-Farm",
+        "budget": 426.0877,
+        "cost": 13440001,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 30 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.660000026226044 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 62.5 },
+          { "resource": "ORGANIC_MATERIAL", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Farm-Farm small",
+        "budget": 124.8469,
+        "cost": 3200000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 18 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.240000009536743 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 20 },
+          { "resource": "ORGANIC_MATERIAL", "max": 9.60000038146973 }
+        ]
+      }
+    ]
+  }
+]

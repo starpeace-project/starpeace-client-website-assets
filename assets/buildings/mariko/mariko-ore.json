@@ -1,0 +1,161 @@
+[
+  {
+    "id": "mko.mine",
+    "image": "assets/buildings/mariko/mko.mine.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ORE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":164,"y":2},{"x":138,"y":5},{"x":142,"y":15},{"x":167,"y":26}],
+      [{"x":299,"y":98},{"x":290,"y":86},{"x":213,"y":52},{"x":279,"y":115},{"x":289,"y":111}],
+      [{"x":8,"y":94},{"x":12,"y":103},{"x":44,"y":120},{"x":102,"y":47},{"x":18,"y":87}],
+      [{"x":240,"y":135},{"x":250,"y":123},{"x":167,"y":26},{"x":230,"y":131}],
+      [{"x":112,"y":27},{"x":102,"y":47},{"x":92,"y":136},{"x":108,"y":155},{"x":228,"y":141},{"x":230,"y":131},{"x":167,"y":26}],
+      [{"x":155,"y":176},{"x":228,"y":141},{"x":108,"y":155}],
+      [{"x":44,"y":120},{"x":69,"y":134},{"x":92,"y":136},{"x":102,"y":47}],
+      [{"x":279,"y":115},{"x":213,"y":52},{"x":185,"y":29},{"x":167,"y":26},{"x":250,"y":123},{"x":256,"y":127}],
+      [{"x":142,"y":15},{"x":142,"y":26},{"x":167,"y":26}]
+    ],
+    "required_inventions": ["Mining","LSMining"],
+    "resource_flow": [
+      {
+        "key": "Mine-Mine",
+        "budget": 5300,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 30 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 10000 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Mine-Mine",
+        "budget": 87.7822,
+        "cost": 12600000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 14 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.534000039100647 },
+          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 728 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Mine-Mine small",
+        "budget": 0,
+        "cost": 3000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 5 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 75 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.180000007152557 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 255 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.mine.small",
+    "image": "assets/buildings/mariko/mko.mine.small.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ORE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":164,"y":2},{"x":138,"y":5},{"x":142,"y":15},{"x":167,"y":26}],
+      [{"x":299,"y":98},{"x":290,"y":86},{"x":213,"y":52},{"x":279,"y":115},{"x":289,"y":111}],
+      [{"x":8,"y":94},{"x":12,"y":103},{"x":44,"y":120},{"x":102,"y":47},{"x":18,"y":87}],
+      [{"x":240,"y":135},{"x":250,"y":123},{"x":167,"y":26},{"x":230,"y":131}],
+      [{"x":112,"y":27},{"x":102,"y":47},{"x":64,"y":131},{"x":92,"y":136},{"x":228,"y":141},{"x":230,"y":131},{"x":167,"y":26}],
+      [{"x":155,"y":176},{"x":228,"y":141},{"x":92,"y":136},{"x":108,"y":155}],
+      [{"x":279,"y":115},{"x":213,"y":52},{"x":185,"y":29},{"x":167,"y":26},{"x":250,"y":123},{"x":256,"y":127}],
+      [{"x":44,"y":120},{"x":64,"y":131},{"x":102,"y":47}],
+      [{"x":142,"y":15},{"x":142,"y":26},{"x":167,"y":26}],
+      [{"x":69,"y":134},{"x":92,"y":136},{"x":64,"y":131}]
+    ],
+    "required_inventions": ["Mining","LSMining"],
+    "resource_flow": [
+      {
+        "key": "Mine-Mine",
+        "budget": 5300,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 30 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 10000 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Mine-Mine",
+        "budget": 87.7822,
+        "cost": 12600000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 14 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.534000039100647 },
+          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 728 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Mine-Mine small",
+        "budget": 0,
+        "cost": 3000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 5 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 75 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.180000007152557 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 255 }
+        ]
+      }
+    ]
+  }
+]

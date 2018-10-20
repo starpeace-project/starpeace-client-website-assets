@@ -1,0 +1,286 @@
+[
+  {
+    "id": "pgi.clothes.industry",
+    "image": "assets/buildings/pgi/pgi.clothes.industry.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CLOTHES",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":232,"y":46},{"x":218,"y":51},{"x":258,"y":85},{"x":261,"y":76},{"x":244,"y":55}],
+      [{"x":54,"y":113},{"x":77,"y":139},{"x":127,"y":158},{"x":178,"y":160},{"x":204,"y":156},{"x":142,"y":26},{"x":72,"y":51},{"x":53,"y":88}],
+      [{"x":268,"y":100},{"x":258,"y":85},{"x":218,"y":51},{"x":159,"y":26},{"x":142,"y":26},{"x":204,"y":156},{"x":268,"y":121}],
+      [{"x":100,"y":30},{"x":72,"y":51},{"x":142,"y":26}],
+      [{"x":210,"y":35},{"x":159,"y":26},{"x":218,"y":51}]
+    ],
+    "required_inventions": ["ClothesLic","LSCManuf"],
+    "resource_flow": [
+      {
+        "key": "Clothing-Clothing",
+        "budget": 200,
+        "cost": 12000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_HI", "max": 5 },
+          { "resource": "CLOTHES_MID", "max": 50 },
+          { "resource": "CLOTHES_LO", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.Clothing-PGI Clothing",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 160 },
+          { "resource": "ORGANIC_MATERIAL", "max": 40 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 40 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 160 }
+        ]
+      },
+      {
+        "key": "PGI.block.Clothing-Clothing",
+        "budget": 197.2096,
+        "cost": 16800000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 44 },
+          { "resource": "ORGANIC_MATERIAL", "max": 16 },
+          { "resource": "CHEMICAL", "max": 16 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 113 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.791999995708466 },
+          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 60.2999992370605 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Clothing-Clothing small",
+        "budget": 70.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 22 },
+          { "resource": "ORGANIC_MATERIAL", "max": 8 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.block.Clothing-Clothing",
+        "budget": 389.9315,
+        "cost": 20160001,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 48 },
+          { "resource": "ORGANIC_MATERIAL", "max": 18 },
+          { "resource": "CHEMICAL", "max": 18 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 148 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.880000054836273 },
+          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 75 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Clothing-Clothing small",
+        "budget": 38.4703,
+        "cost": 4800000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 18 },
+          { "resource": "ORGANIC_MATERIAL", "max": 6 },
+          { "resource": "CHEMICAL", "max": 6 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 89 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.320000022649765 },
+          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 24 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pgi.clothes.industry.small",
+    "image": "assets/buildings/pgi/pgi.clothes.industry.small.gif",
+    "construction_id": "generic.construction.3",
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CLOTHES",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":48,"y":26},{"x":29,"y":67},{"x":31,"y":77},{"x":164,"y":77},{"x":165,"y":65},{"x":105,"y":6},{"x":90,"y":6}],
+      [{"x":141,"y":21},{"x":105,"y":6},{"x":165,"y":65}],
+      [{"x":135,"y":101},{"x":164,"y":77},{"x":31,"y":77},{"x":65,"y":101}]
+    ],
+    "required_inventions": ["ClothesLic","LSCManuf"],
+    "resource_flow": [
+      {
+        "key": "Clothing-Clothing",
+        "budget": 200,
+        "cost": 12000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_HI", "max": 5 },
+          { "resource": "CLOTHES_MID", "max": 50 },
+          { "resource": "CLOTHES_LO", "max": 100 }
+        ]
+      },
+      {
+        "key": "PGI.Clothing-PGI Clothing",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 160 },
+          { "resource": "ORGANIC_MATERIAL", "max": 40 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 40 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 160 }
+        ]
+      },
+      {
+        "key": "PGI.block.Clothing-Clothing",
+        "budget": 197.2096,
+        "cost": 16800000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 44 },
+          { "resource": "ORGANIC_MATERIAL", "max": 16 },
+          { "resource": "CHEMICAL", "max": 16 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 113 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.791999995708466 },
+          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 60.2999992370605 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Clothing-Clothing small",
+        "budget": 70.3379,
+        "cost": 6000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 22 },
+          { "resource": "ORGANIC_MATERIAL", "max": 8 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 30 }
+        ]
+      },
+      {
+        "key": "PGI.block.Clothing-Clothing",
+        "budget": 389.9315,
+        "cost": 20160001,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 48 },
+          { "resource": "ORGANIC_MATERIAL", "max": 18 },
+          { "resource": "CHEMICAL", "max": 18 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 148 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.880000054836273 },
+          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 75 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.Clothing-Clothing small",
+        "budget": 38.4703,
+        "cost": 4800000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 18 },
+          { "resource": "ORGANIC_MATERIAL", "max": 6 },
+          { "resource": "CHEMICAL", "max": 6 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 89 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.320000022649765 },
+          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 24 }
+        ]
+      }
+    ]
+  }
+]

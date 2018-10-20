@@ -26,7 +26,7 @@
   },
   "CivicFac": {
     "id": "CivicFac",
-    "category": "CIVICS",
+    "category": "CIVIC",
     "name": {
       "EN": "Public Facilities",
       "ES": "Public Facilities",
@@ -93,7 +93,7 @@
   },
   "MinistryAdministration": {
     "id": "MinistryAdministration",
-    "category": "CIVICS",
+    "category": "CIVIC",
     "name": {
       "EN": "Ministry Administration",
       "ES": "Ministry Administration"
@@ -109,7 +109,7 @@
   },
   "Monuments": {
     "id": "Monuments",
-    "category": "CIVICS",
+    "category": "CIVIC",
     "name": {
       "EN": "Monument Reproduction",
       "ES": "Monuments Reproduction",

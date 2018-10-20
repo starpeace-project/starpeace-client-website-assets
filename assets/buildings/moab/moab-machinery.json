@@ -1,0 +1,83 @@
+[
+  {
+    "id": "moab.heavy.industry",
+    "image": "assets/buildings/moab/moab.heavy.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "MACHINERY",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":6,"y":140},{"x":41,"y":151},{"x":22,"y":121}],
+      [{"x":239,"y":64},{"x":237,"y":54},{"x":221,"y":54},{"x":233,"y":65}],
+      [{"x":124,"y":198},{"x":248,"y":140},{"x":233,"y":128},{"x":21,"y":63},{"x":22,"y":121},{"x":41,"y":151}],
+      [{"x":233,"y":65},{"x":221,"y":54},{"x":14,"y":55},{"x":21,"y":63},{"x":233,"y":128}],
+      [{"x":143,"y":4},{"x":110,"y":4},{"x":14,"y":55},{"x":221,"y":54},{"x":218,"y":42}]
+    ],
+    "required_inventions": ["MachInd"],
+    "resource_flow": [
+      {
+        "key": "HeavyIndustry-Heavy Industry",
+        "budget": 52300,
+        "cost": 40000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 1000 },
+          { "resource": "CHEMICAL", "max": 400 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 4 },
+          { "resource": "WORK_FORCE_MID", "max": 50 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 10 }
+        ]
+      },
+      {
+        "key": "Moab.HeavyIndustry-Moab Heavy Industry",
+        "budget": 54000,
+        "cost": 50000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 1000 },
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 100 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 433 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 10 }
+        ]
+      },
+      {
+        "key": "Moab.block.HeavyIndustry-Heavy Industry",
+        "budget": 1228.4551,
+        "cost": 14000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 600 },
+          { "resource": "CHEMICAL", "max": 50 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 150 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
+          { "resource": "LEGAL_SERVICES", "max": 0.100000001490116 }
+        ],
+        "outputs": [
+          { "resource": "MACHINERY", "max": 1 }
+        ]
+      }
+    ]
+  }
+]

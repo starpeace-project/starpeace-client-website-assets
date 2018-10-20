@@ -1,0 +1,67 @@
+[
+  {
+    "id": "dis.legal.services",
+    "image": "assets/buildings/dissident/dis.legal.services.gif",
+    "construction_id": "generic.construction.2",
+    "seal": "dissident",
+    "zone": "SERVICE",
+    "category": "SERVICE",
+    "industry_type": "LEGAL_SERVICES",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":105,"y":53},{"x":88,"y":15},{"x":70,"y":3},{"x":49,"y":7},{"x":23,"y":48},{"x":34,"y":66},{"x":54,"y":71},{"x":76,"y":71}]
+    ],
+    "required_inventions": ["LawyerFirms"],
+    "resource_flow": [
+      {
+        "key": "block.LegalServ-Legal Services",
+        "budget": 950,
+        "cost": 2000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 5 },
+          { "resource": "WORK_FORCE_LO", "max": 10 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 }
+        ],
+        "outputs": [
+          { "resource": "LEGAL_SERVICES", "max": 3 }
+        ]
+      },
+      {
+        "key": "Dissident.block.LegalServ-Legal Services",
+        "budget": 1199.3218,
+        "cost": 3360000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 5 },
+          { "resource": "WORK_FORCE_LO", "max": 11 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1.19000005722046 }
+        ],
+        "outputs": [
+          { "resource": "LEGAL_SERVICES", "max": 6.02999973297119 }
+        ]
+      },
+      {
+        "key": "Dissident.small.block.LegalServ-Legal Services small",
+        "budget": 185.9117,
+        "cost": 800000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 3 },
+          { "resource": "WORK_FORCE_LO", "max": 6 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 }
+        ],
+        "outputs": [
+          { "resource": "LEGAL_SERVICES", "max": 1.20000004768372 }
+        ]
+      }
+    ]
+  }
+]

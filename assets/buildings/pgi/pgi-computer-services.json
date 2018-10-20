@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pgi.computing",
+    "image": "assets/buildings/pgi/pgi.computing.gif",
+    "construction_id": "generic.construction.2",
+    "seal": "pgi",
+    "zone": "SERVICE",
+    "category": "SERVICE",
+    "industry_type": "COMPUTER_SERVICES",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":116,"y":95},{"x":94,"y":68},{"x":43,"y":112},{"x":69,"y":115}],
+      [{"x":94,"y":68},{"x":82,"y":19},{"x":65,"y":14},{"x":43,"y":22},{"x":36,"y":68},{"x":43,"y":112}],
+      [{"x":65,"y":4},{"x":43,"y":22},{"x":65,"y":14}],
+      [{"x":20,"y":82},{"x":20,"y":96},{"x":43,"y":112},{"x":36,"y":68}]
+    ],
+    "required_inventions": ["SoftwareFirms"],
+    "resource_flow": [
+      {
+        "key": "PGI.CompServ-PGI Computing Industry",
+        "budget": 0,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 25 },
+          { "resource": "WORK_FORCE_LO", "max": 10 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 8 }
+        ]
+      },
+      {
+        "key": "PGI.block.CompServ-Computing Industry",
+        "budget": 1547.1826,
+        "cost": 28000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 18 },
+          { "resource": "WORK_FORCE_LO", "max": 3 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.791999995708466 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 10.0500001907349 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.CompServ-Computing Industry small",
+        "budget": 749.8965,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 13 },
+          { "resource": "WORK_FORCE_LO", "max": 2 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.400000005960464 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 5 }
+        ]
+      },
+      {
+        "key": "PGI.block.CompServ-Computing Industry",
+        "budget": 1967.2192,
+        "cost": 33600001,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 19 },
+          { "resource": "WORK_FORCE_LO", "max": 15 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.880000054836273 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 12.5 }
+        ]
+      },
+      {
+        "key": "PGI.small.block.CompServ-Computing Industry small",
+        "budget": 582.1172,
+        "cost": 8000000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 2 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 9 }
+        ],
+        "optional_inputs": [
+          { "resource": "LEGAL_SERVICES", "max": 0.320000022649765 }
+        ],
+        "outputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 4 }
+        ]
+      }
+    ]
+  }
+]

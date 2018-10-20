@@ -1,0 +1,102 @@
+[
+  {
+    "id": "moab.clothes.industry",
+    "image": "assets/buildings/moab/moab.clothes.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CLOTHES",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":12,"y":89},{"x":13,"y":98},{"x":124,"y":154},{"x":251,"y":94},{"x":25,"y":86}],
+      [{"x":13,"y":58},{"x":21,"y":62},{"x":30,"y":50}],
+      [{"x":21,"y":62},{"x":25,"y":86},{"x":251,"y":94},{"x":232,"y":84},{"x":30,"y":50}],
+      [{"x":236,"y":54},{"x":130,"y":1},{"x":108,"y":4},{"x":30,"y":42},{"x":30,"y":50},{"x":232,"y":84}]
+    ],
+    "required_inventions": ["ClothesLic","LSCManuf"],
+    "resource_flow": [
+      {
+        "key": "Clothing-Clothing",
+        "budget": 200,
+        "cost": 12000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_HI", "max": 5 },
+          { "resource": "CLOTHES_MID", "max": 50 },
+          { "resource": "CLOTHES_LO", "max": 100 }
+        ]
+      },
+      {
+        "key": "Moab.Clothing-Moab Clothing",
+        "budget": 0,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 100 },
+          { "resource": "ORGANIC_MATERIAL", "max": 30 },
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "WORK_FORCE_HI", "max": 3 },
+          { "resource": "WORK_FORCE_MID", "max": 33 },
+          { "resource": "WORK_FORCE_LO", "max": 133 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 110 }
+        ]
+      },
+      {
+        "key": "Moab.block.Clothing-Clothing",
+        "budget": 32.0731,
+        "cost": 8400000,
+        "required_inputs": [
+          { "resource": "FABRIC", "max": 22 },
+          { "resource": "ORGANIC_MATERIAL", "max": 8 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
+          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
+        ],
+        "outputs": [
+          { "resource": "CLOTHES_MID", "max": 30 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moab.clothes.store",
+    "image": "assets/buildings/moab/moab.clothes.store.gif",
+    "construction_id": "generic.construction.1",
+    "seal": "moab",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "CLOTHES",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":42,"y":16},{"x":39,"y":4},{"x":14,"y":6},{"x":14,"y":17},{"x":22,"y":21},{"x":31,"y":19}],
+      [{"x":63,"y":45},{"x":45,"y":37},{"x":6,"y":47},{"x":30,"y":59}],
+      [{"x":7,"y":28},{"x":6,"y":47},{"x":45,"y":37},{"x":46,"y":26},{"x":31,"y":19},{"x":22,"y":21}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

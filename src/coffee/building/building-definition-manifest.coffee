@@ -8,6 +8,7 @@ BuildingDefinition = require('./building-definition')
 BuildingTexture = require('../building/building-texture')
 
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
+FileUtils = require('../utils/file-utils')
 Utils = require('../utils/utils')
 
 class BuildingDefinitionManifest
@@ -17,9 +18,10 @@ class BuildingDefinitionManifest
     new Promise (fulfill, reject) ->
       console.log "loading building definition manifest from #{building_dir}\n"
 
-      manifest = JSON.parse(fs.readFileSync(path.join(building_dir, 'building-manifest.json')))
+      building_file_paths = _.filter(FileUtils.read_all_files_sync(building_dir), (file_path) -> file_path.endsWith('.json')) || []
       definitions = []
-      for path in (manifest.manifests || [])
+      for path in building_file_paths
+        console.log "attempting to parase #{path}"
         definitions = definitions.concat(_.map(JSON.parse(fs.readFileSync(path)), BuildingDefinition.from_json))
 
       image_paths = []

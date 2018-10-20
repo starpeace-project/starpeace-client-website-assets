@@ -1,0 +1,274 @@
+[
+  {
+    "id": "dis.hha.industry",
+    "image": "assets/buildings/dissident/dis.hha.industry.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "dissident",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":211,"y":24},{"x":205,"y":31},{"x":215,"y":35}],
+      [{"x":91,"y":30},{"x":91,"y":42},{"x":99,"y":42}],
+      [{"x":287,"y":90},{"x":259,"y":61},{"x":215,"y":35},{"x":205,"y":31},{"x":122,"y":21},{"x":99,"y":42},{"x":257,"y":109},{"x":271,"y":110}],
+      [{"x":171,"y":157},{"x":194,"y":141},{"x":91,"y":42},{"x":128,"y":140},{"x":145,"y":151}],
+      [{"x":266,"y":114},{"x":257,"y":109},{"x":99,"y":42},{"x":91,"y":42},{"x":252,"y":111}],
+      [{"x":196,"y":19},{"x":170,"y":12},{"x":122,"y":21},{"x":205,"y":31}],
+      [{"x":144,"y":156},{"x":145,"y":151},{"x":128,"y":140}],
+      [{"x":27,"y":90},{"x":80,"y":119},{"x":128,"y":140},{"x":91,"y":42},{"x":29,"y":79}],
+      [{"x":169,"y":4},{"x":122,"y":21},{"x":170,"y":12}],
+      [{"x":83,"y":128},{"x":128,"y":140},{"x":80,"y":119}],
+      [{"x":194,"y":141},{"x":225,"y":128},{"x":252,"y":111},{"x":91,"y":42}],
+      [{"x":226,"y":133},{"x":252,"y":111},{"x":225,"y":128}]
+    ],
+    "required_inventions": ["HHALic","LSAppProd"],
+    "resource_flow": [
+      {
+        "key": "Dissident.HouseHolding-Dissident House Holding Appliances",
+        "budget": 1200,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 300 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 150 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 433 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 80 }
+        ]
+      },
+      {
+        "key": "HouseHolding-House Holding Appliances",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 500 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 70 }
+        ]
+      },
+      {
+        "key": "block.HouseHolding-House Holding Appliances",
+        "budget": 920,
+        "cost": 9000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 36 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 12 }
+        ]
+      },
+      {
+        "key": "Dissident.block.HouseHolding-House Holding Appliances",
+        "budget": 2283.9986,
+        "cost": 15120001,
+        "required_inputs": [
+          { "resource": "METAL", "max": 43 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 43 },
+          { "resource": "CHEMICAL", "max": 24 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 11 },
+          { "resource": "WORK_FORCE_LO", "max": 131 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
+          { "resource": "LEGAL_SERVICES", "max": 0.238000020384789 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "Dissident.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 78.6028,
+        "cost": 3600000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 14 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 6 },
+          { "resource": "WORK_FORCE_LO", "max": 76 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 4.80000019073486 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dis.hha.industry.small",
+    "image": "assets/buildings/dissident/dis.hha.industry.small.gif",
+    "construction_id": "generic.construction.4",
+    "seal": "dissident",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":211,"y":24},{"x":205,"y":31},{"x":215,"y":35}],
+      [{"x":91,"y":30},{"x":91,"y":42},{"x":99,"y":42}],
+      [{"x":287,"y":90},{"x":259,"y":61},{"x":215,"y":35},{"x":205,"y":31},{"x":122,"y":21},{"x":99,"y":42},{"x":257,"y":109},{"x":271,"y":110}],
+      [{"x":171,"y":157},{"x":194,"y":141},{"x":91,"y":42},{"x":128,"y":140},{"x":145,"y":151}],
+      [{"x":266,"y":114},{"x":257,"y":109},{"x":99,"y":42},{"x":91,"y":42},{"x":252,"y":111}],
+      [{"x":196,"y":19},{"x":170,"y":12},{"x":122,"y":21},{"x":205,"y":31}],
+      [{"x":144,"y":156},{"x":145,"y":151},{"x":128,"y":140}],
+      [{"x":27,"y":90},{"x":80,"y":119},{"x":128,"y":140},{"x":91,"y":42},{"x":29,"y":79}],
+      [{"x":169,"y":4},{"x":122,"y":21},{"x":170,"y":12}],
+      [{"x":83,"y":128},{"x":128,"y":140},{"x":80,"y":119}],
+      [{"x":194,"y":141},{"x":225,"y":128},{"x":252,"y":111},{"x":91,"y":42}],
+      [{"x":226,"y":133},{"x":252,"y":111},{"x":225,"y":128}]
+    ],
+    "required_inventions": ["HHALic","LSAppProd"],
+    "resource_flow": [
+      {
+        "key": "Dissident.HouseHolding-Dissident House Holding Appliances",
+        "budget": 1200,
+        "cost": 30000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 300 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 150 },
+          { "resource": "CHEMICAL", "max": 30 },
+          { "resource": "WORK_FORCE_HI", "max": 7 },
+          { "resource": "WORK_FORCE_MID", "max": 12 },
+          { "resource": "WORK_FORCE_LO", "max": 433 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 80 }
+        ]
+      },
+      {
+        "key": "HouseHolding-House Holding Appliances",
+        "budget": 0,
+        "cost": 20000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 500 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+          { "resource": "CHEMICAL", "max": 70 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 250 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 1 },
+          { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 70 }
+        ]
+      },
+      {
+        "key": "block.HouseHolding-House Holding Appliances",
+        "budget": 920,
+        "cost": 9000000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 36 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+          { "resource": "CHEMICAL", "max": 20 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 12 }
+        ]
+      },
+      {
+        "key": "Dissident.block.HouseHolding-House Holding Appliances",
+        "budget": 2283.9986,
+        "cost": 15120001,
+        "required_inputs": [
+          { "resource": "METAL", "max": 43 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 43 },
+          { "resource": "CHEMICAL", "max": 24 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 11 },
+          { "resource": "WORK_FORCE_LO", "max": 131 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
+          { "resource": "LEGAL_SERVICES", "max": 0.238000020384789 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 24.1199989318848 }
+        ]
+      },
+      {
+        "key": "Dissident.small.block.HouseHolding-House Holding Appliances small",
+        "budget": 78.6028,
+        "cost": 3600000,
+        "required_inputs": [
+          { "resource": "METAL", "max": 14 },
+          { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 1 },
+          { "resource": "WORK_FORCE_MID", "max": 6 },
+          { "resource": "WORK_FORCE_LO", "max": 76 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
+        ],
+        "outputs": [
+          { "resource": "HOUSEHOLD_APPLIANCE", "max": 4.80000019073486 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dis.hha.store",
+    "image": "assets/buildings/dissident/dis.hha.store.gif",
+    "construction_id": "generic.construction.1",
+    "seal": "dissident",
+    "zone": "COMMERCIAL",
+    "category": "COMMERCE",
+    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":0,"y":24},{"x":34,"y":41},{"x":54,"y":31},{"x":62,"y":24},{"x":37,"y":2},{"x":33,"y":2}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  }
+]

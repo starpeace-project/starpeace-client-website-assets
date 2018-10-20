@@ -91,4 +91,4 @@ Changes to legacy assets, including removal from gameplay (moved to ```/legacy/`
 
 ## License
 
-All content of starpeace-website-client-assets is [commercially licensed](./LICENSE-STARPEACE) and all unauthorized or unapproved use is not permitted, and the underlying source code used to process and manipulate that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). Please contact info@starpeace.io for licensing information.
+All content of starpeace-website-client-assets is [commercially licensed](./LICENSE-STARPEACE) and all unauthorized or unapproved use is not permitted. Underlying source code used to process and manipulate content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). Please contact info@starpeace.io for licensing information.

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "mko.farm",
+    "image": "assets/buildings/mariko/mko.farm.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "FARMING",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
+      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
+    ],
+    "required_inventions": ["FarmLic","LargeFarms"],
+    "resource_flow": [
+      {
+        "key": "Farm-Farm",
+        "budget": 1550,
+        "cost": 880000,
+        "required_inputs": [],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
+          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Farm-Farm",
+        "budget": 301.1858,
+        "cost": 10080000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 27 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 45.5 },
+          { "resource": "ORGANIC_MATERIAL", "max": 21.8400001525879 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Farm-Farm small",
+        "budget": 91.1352,
+        "cost": 2400000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 15 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 15.0000009536743 },
+          { "resource": "ORGANIC_MATERIAL", "max": 7.2000002861023 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.farm.small",
+    "image": "assets/buildings/mariko/mko.farm.small.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "FARMING",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
+      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
+    ],
+    "required_inventions": ["FarmLic","LargeFarms"],
+    "resource_flow": [
+      {
+        "key": "Farm-Farm",
+        "budget": 1550,
+        "cost": 880000,
+        "required_inputs": [],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
+          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 200 },
+          { "resource": "ORGANIC_MATERIAL", "max": 100 }
+        ]
+      },
+      {
+        "key": "Mariko.block.Farm-Farm",
+        "budget": 301.1858,
+        "cost": 10080000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 27 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.534000039100647 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 45.5 },
+          { "resource": "ORGANIC_MATERIAL", "max": 21.8400001525879 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.Farm-Farm small",
+        "budget": 91.1352,
+        "cost": 2400000,
+        "required_inputs": [
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 15 }
+        ],
+        "optional_inputs": [
+          { "resource": "CHEMICAL", "max": 0.180000007152557 }
+        ],
+        "outputs": [
+          { "resource": "FRESH_FOOD", "max": 15.0000009536743 },
+          { "resource": "ORGANIC_MATERIAL", "max": 7.2000002861023 }
+        ]
+      }
+    ]
+  }
+]

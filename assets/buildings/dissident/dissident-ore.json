@@ -1,0 +1,237 @@
+[
+  {
+    "id": "dis.mine",
+    "image": "assets/buildings/dissident/dis.mine.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "dissident",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ORE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":257,"y":31},{"x":247,"y":29},{"x":240,"y":34},{"x":245,"y":39}],
+      [{"x":211,"y":33},{"x":211,"y":64},{"x":250,"y":74},{"x":245,"y":39},{"x":240,"y":34}],
+      [{"x":14,"y":116},{"x":33,"y":125},{"x":63,"y":91},{"x":45,"y":98}],
+      [{"x":171,"y":4},{"x":153,"y":3},{"x":151,"y":38},{"x":171,"y":35}],
+      [{"x":229,"y":162},{"x":222,"y":157},{"x":85,"y":153},{"x":214,"y":171}],
+      [{"x":185,"y":41},{"x":171,"y":35},{"x":151,"y":38},{"x":133,"y":57},{"x":85,"y":153},{"x":185,"y":52}],
+      [{"x":88,"y":163},{"x":106,"y":161},{"x":85,"y":153}],
+      [{"x":138,"y":41},{"x":133,"y":57},{"x":151,"y":38}],
+      [{"x":300,"y":108},{"x":288,"y":108},{"x":284,"y":132}],
+      [{"x":152,"y":185},{"x":179,"y":167},{"x":106,"y":161}],
+      [{"x":44,"y":91},{"x":45,"y":98},{"x":63,"y":91}],
+      [{"x":291,"y":98},{"x":261,"y":93},{"x":288,"y":108}],
+      [{"x":288,"y":108},{"x":261,"y":93},{"x":85,"y":153},{"x":222,"y":157},{"x":284,"y":132}],
+      [{"x":249,"y":23},{"x":240,"y":34},{"x":247,"y":29}],
+      [{"x":33,"y":125},{"x":37,"y":139},{"x":85,"y":153},{"x":133,"y":57},{"x":96,"y":67},{"x":63,"y":91}],
+      [{"x":185,"y":52},{"x":85,"y":153},{"x":261,"y":93},{"x":211,"y":64}],
+      [{"x":250,"y":74},{"x":211,"y":64},{"x":261,"y":93}],
+      [{"x":286,"y":140},{"x":284,"y":132},{"x":222,"y":157}],
+      [{"x":106,"y":161},{"x":179,"y":167},{"x":85,"y":153}]
+    ],
+    "required_inventions": ["Mining","LSMining"],
+    "resource_flow": [
+      {
+        "key": "Dissident.Mine-Dissident Mine",
+        "budget": 120,
+        "cost": 8000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 300 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 8000 }
+        ]
+      },
+      {
+        "key": "Mine-Mine",
+        "budget": 5300,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 30 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 10000 }
+        ]
+      },
+      {
+        "key": "block.Mine-Mine",
+        "budget": 0,
+        "cost": 5000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.3 },
+          { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 400 }
+        ]
+      },
+      {
+        "key": "Dissident.block.Mine-Mine",
+        "budget": 341.9048,
+        "cost": 8400000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 109 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.357000023126602 },
+          { "resource": "LEGAL_SERVICES", "max": 0.119000010192394 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 804 }
+        ]
+      },
+      {
+        "key": "Dissident.small.block.Mine-Mine small",
+        "budget": 0,
+        "cost": 2000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 3 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 60 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0400000028312206 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 175 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dis.mine.small",
+    "image": "assets/buildings/dissident/dis.mine.small.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "dissident",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "ORE",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":27,"y":2},{"x":25,"y":22},{"x":36,"y":15}],
+      [{"x":63,"y":62},{"x":119,"y":30},{"x":25,"y":22},{"x":4,"y":31}],
+      [{"x":36,"y":7},{"x":36,"y":15},{"x":119,"y":30},{"x":98,"y":10},{"x":75,"y":2},{"x":52,"y":2}],
+      [{"x":36,"y":15},{"x":25,"y":22},{"x":119,"y":30}]
+    ],
+    "required_inventions": ["Mining","LSMining"],
+    "resource_flow": [
+      {
+        "key": "Dissident.Mine-Dissident Mine",
+        "budget": 120,
+        "cost": 8000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 300 },
+          { "resource": "WORK_FORCE_HI", "max": 6 },
+          { "resource": "WORK_FORCE_MID", "max": 10 },
+          { "resource": "WORK_FORCE_LO", "max": 120 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 8000 }
+        ]
+      },
+      {
+        "key": "Mine-Mine",
+        "budget": 5300,
+        "cost": 10000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 200 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 30 },
+          { "resource": "WORK_FORCE_LO", "max": 200 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+          { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 10000 }
+        ]
+      },
+      {
+        "key": "block.Mine-Mine",
+        "budget": 0,
+        "cost": 5000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 8 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 100 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.3 },
+          { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 400 }
+        ]
+      },
+      {
+        "key": "Dissident.block.Mine-Mine",
+        "budget": 341.9048,
+        "cost": 8400000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 10 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 109 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.357000023126602 },
+          { "resource": "LEGAL_SERVICES", "max": 0.119000010192394 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 804 }
+        ]
+      },
+      {
+        "key": "Dissident.small.block.Mine-Mine small",
+        "budget": 0,
+        "cost": 2000000,
+        "required_inputs": [
+          { "resource": "CHEMICAL", "max": 3 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 60 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.0400000028312206 }
+        ],
+        "outputs": [
+          { "resource": "ORE", "max": 175 }
+        ]
+      }
+    ]
+  }
+]

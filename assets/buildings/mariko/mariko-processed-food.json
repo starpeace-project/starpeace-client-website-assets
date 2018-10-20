@@ -1,0 +1,178 @@
+[
+  {
+    "id": "mko.food.proc",
+    "image": "assets/buildings/mariko/mko.food.proc.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "PROCESSED_FOOD",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":14,"y":89},{"x":10,"y":99},{"x":50,"y":114},{"x":25,"y":91}],
+      [{"x":54,"y":122},{"x":63,"y":120},{"x":92,"y":53},{"x":40,"y":78},{"x":50,"y":114}],
+      [{"x":137,"y":166},{"x":147,"y":165},{"x":173,"y":157},{"x":136,"y":159}],
+      [{"x":229,"y":23},{"x":212,"y":27},{"x":237,"y":48}],
+      [{"x":188,"y":1},{"x":137,"y":31},{"x":212,"y":27}],
+      [{"x":190,"y":160},{"x":203,"y":145},{"x":237,"y":48},{"x":137,"y":31},{"x":92,"y":46},{"x":92,"y":53},{"x":173,"y":157}],
+      [{"x":38,"y":60},{"x":40,"y":78},{"x":92,"y":53},{"x":64,"y":49},{"x":49,"y":49}],
+      [{"x":25,"y":91},{"x":50,"y":114},{"x":40,"y":78}],
+      [{"x":115,"y":155},{"x":136,"y":159},{"x":173,"y":157},{"x":92,"y":53},{"x":111,"y":144}],
+      [{"x":280,"y":62},{"x":251,"y":47},{"x":237,"y":48},{"x":203,"y":145},{"x":219,"y":144},{"x":286,"y":85}],
+      [{"x":77,"y":135},{"x":81,"y":130},{"x":92,"y":53},{"x":63,"y":120}],
+      [{"x":99,"y":144},{"x":111,"y":144},{"x":92,"y":53},{"x":81,"y":130}],
+      [{"x":212,"y":27},{"x":137,"y":31},{"x":237,"y":48}],
+      [{"x":300,"y":99},{"x":286,"y":85},{"x":219,"y":144}],
+      [{"x":145,"y":171},{"x":173,"y":157},{"x":147,"y":165}]
+    ],
+    "required_inventions": ["FoodPrcLic","LSFoodPrc"],
+    "resource_flow": [
+      {
+        "key": "FoodProcessing-Food Processing Plant",
+        "budget": 0,
+        "cost": 14000000,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 100 },
+          { "resource": "CHEMICAL", "max": 85 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 20 },
+          { "resource": "WORK_FORCE_LO", "max": 300 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.012 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 200 }
+        ]
+      },
+      {
+        "key": "Mariko.block.FoodProcessing-Food Processing Plant",
+        "budget": 74.348,
+        "cost": 22679999,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 71 },
+          { "resource": "CHEMICAL", "max": 18 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
+          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 72.8000030517578 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.FoodProcessing-Food Processing Plant small",
+        "budget": 10,
+        "cost": 5400000,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 24 },
+          { "resource": "CHEMICAL", "max": 6 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 50 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 25 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mko.food.proc.small",
+    "image": "assets/buildings/mariko/mko.food.proc.small.gif",
+    "construction_id": "generic.construction.5",
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "PROCESSED_FOOD",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":14,"y":89},{"x":10,"y":99},{"x":50,"y":114},{"x":25,"y":91}],
+      [{"x":54,"y":122},{"x":63,"y":120},{"x":92,"y":53},{"x":40,"y":78},{"x":50,"y":114}],
+      [{"x":137,"y":166},{"x":147,"y":165},{"x":173,"y":157},{"x":136,"y":159}],
+      [{"x":229,"y":23},{"x":212,"y":27},{"x":237,"y":48}],
+      [{"x":188,"y":1},{"x":137,"y":31},{"x":212,"y":27}],
+      [{"x":190,"y":160},{"x":203,"y":145},{"x":237,"y":48},{"x":137,"y":31},{"x":92,"y":46},{"x":92,"y":53},{"x":173,"y":157}],
+      [{"x":38,"y":60},{"x":40,"y":78},{"x":92,"y":53},{"x":64,"y":49},{"x":49,"y":49}],
+      [{"x":25,"y":91},{"x":50,"y":114},{"x":40,"y":78}],
+      [{"x":115,"y":155},{"x":136,"y":159},{"x":173,"y":157},{"x":92,"y":53},{"x":111,"y":144}],
+      [{"x":280,"y":62},{"x":251,"y":47},{"x":237,"y":48},{"x":203,"y":145},{"x":219,"y":144},{"x":286,"y":85}],
+      [{"x":77,"y":135},{"x":81,"y":130},{"x":92,"y":53},{"x":63,"y":120}],
+      [{"x":99,"y":144},{"x":111,"y":144},{"x":92,"y":53},{"x":81,"y":130}],
+      [{"x":212,"y":27},{"x":137,"y":31},{"x":237,"y":48}],
+      [{"x":300,"y":99},{"x":286,"y":85},{"x":219,"y":144}],
+      [{"x":145,"y":171},{"x":173,"y":157},{"x":147,"y":165}]
+    ],
+    "required_inventions": ["FoodPrcLic","LSFoodPrc"],
+    "resource_flow": [
+      {
+        "key": "FoodProcessing-Food Processing Plant",
+        "budget": 0,
+        "cost": 14000000,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 100 },
+          { "resource": "CHEMICAL", "max": 85 },
+          { "resource": "WORK_FORCE_HI", "max": 5 },
+          { "resource": "WORK_FORCE_MID", "max": 20 },
+          { "resource": "WORK_FORCE_LO", "max": 300 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+          { "resource": "LEGAL_SERVICES", "max": 0.012 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 200 }
+        ]
+      },
+      {
+        "key": "Mariko.block.FoodProcessing-Food Processing Plant",
+        "budget": 74.348,
+        "cost": 22679999,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 71 },
+          { "resource": "CHEMICAL", "max": 18 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 1 },
+          { "resource": "WORK_FORCE_LO", "max": 80 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
+          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 72.8000030517578 }
+        ]
+      },
+      {
+        "key": "Mariko.small.block.FoodProcessing-Food Processing Plant small",
+        "budget": 10,
+        "cost": 5400000,
+        "required_inputs": [
+          { "resource": "FRESH_FOOD", "max": 24 },
+          { "resource": "CHEMICAL", "max": 6 },
+          { "resource": "WORK_FORCE_HI", "max": 0 },
+          { "resource": "WORK_FORCE_MID", "max": 2 },
+          { "resource": "WORK_FORCE_LO", "max": 50 }
+        ],
+        "optional_inputs": [
+          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
+          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
+        ],
+        "outputs": [
+          { "resource": "PROCESSED_FOOD", "max": 25 }
+        ]
+      }
+    ]
+  }
+]
