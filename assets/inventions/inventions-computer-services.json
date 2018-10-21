@@ -1,7 +1,7 @@
 {
   "CDMeltingSecurity": {
     "id": "CDMeltingSecurity",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "CD Melting Security",
       "ES": "CD Melting Security",
@@ -29,7 +29,7 @@
   },
   "CellPhonesTechnology": {
     "id": "CellPhonesTechnology",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Cell Phone Technology",
       "ES": "Cell Phones Technology",
@@ -58,7 +58,7 @@
   },
   "CheapHardware": {
     "id": "CheapHardware",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Cheap Hardware",
       "ES": "Cheap Hardware",
@@ -86,7 +86,7 @@
   },
   "ConvolutedCode": {
     "id": "ConvolutedCode",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Convoluted Code",
       "ES": "Convoluted Code",
@@ -114,7 +114,7 @@
   },
   "DigitalMovies": {
     "id": "DigitalMovies",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Digital Movies",
       "ES": "Digital Movies",
@@ -142,7 +142,7 @@
   },
   "HackersRecruiting": {
     "id": "HackersRecruiting",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Hacker Recruiting",
       "ES": "Hackers Recruiting",
@@ -171,7 +171,7 @@
   },
   "HologramGraphic": {
     "id": "HologramGraphic",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Hologram Graphics",
       "ES": "Hologram Graphic",
@@ -199,7 +199,7 @@
   },
   "IntraworldsECommerce": {
     "id": "IntraworldsECommerce",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Intraworld E-Commerce",
       "ES": "Intraworlds E Commerce",
@@ -228,7 +228,7 @@
   },
   "LaptopsAndDockingStations": {
     "id": "LaptopsAndDockingStations",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Laptops and Docking Stations",
       "ES": "Laptops And Docking Stations",
@@ -256,7 +256,7 @@
   },
   "OceanusHistory": {
     "id": "OceanusHistory",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Oceanus History",
       "ES": "Oceanus History",
@@ -285,7 +285,7 @@
   },
   "RelaxedWorkEnvironment": {
     "id": "RelaxedWorkEnvironment",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Relaxed Work Environment",
       "ES": "Relaxed Work Environment",
@@ -313,7 +313,7 @@
   },
   "SoftwareFirms": {
     "id": "SoftwareFirms",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Software Firm Basics",
       "ES": "Software Firms Basics",
@@ -339,7 +339,7 @@
   },
   "ThroughPortalsDataTransfer": {
     "id": "ThroughPortalsDataTransfer",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Portal Data Transfer",
       "ES": "Trough Portals Data Transfer",
@@ -368,7 +368,7 @@
   },
   "VideogamesDevelopment": {
     "id": "VideogamesDevelopment",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Videogame Development",
       "ES": "Videogames Development",
@@ -396,7 +396,7 @@
   },
   "VirusAntivirusBusiness": {
     "id": "VirusAntivirusBusiness",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Virus and Antivirus Business",
       "ES": "Virus Antivirus Business",
@@ -425,7 +425,7 @@
   },
   "WorkingFromHome": {
     "id": "WorkingFromHome",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Telework",
       "ES": "Working from Home",

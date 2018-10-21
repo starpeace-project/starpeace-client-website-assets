@@ -1,7 +1,7 @@
 {
   "AwardShows": {
     "id": "AwardShows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Award Shows",
       "ES": "Award Shows",
@@ -29,7 +29,7 @@
   },
   "BasicTelevision": {
     "id": "BasicTelevision",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Television",
       "ES": "Television",
@@ -56,7 +56,7 @@
   },
   "Cartoons": {
     "id": "Cartoons",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Cartoons",
       "ES": "Cartoons",
@@ -84,7 +84,7 @@
   },
   "CommentatorsForTheBlind": {
     "id": "CommentatorsForTheBlind",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Commentators For the Blind",
       "ES": "Commentators For The Blind",
@@ -113,7 +113,7 @@
   },
   "DetctiveSeries": {
     "id": "DetctiveSeries",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Detective Series",
       "ES": "Detective Series",
@@ -141,7 +141,7 @@
   },
   "DigitalPlatform": {
     "id": "DigitalPlatform",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Digital Platforms",
       "ES": "Digital Platforms",
@@ -169,7 +169,7 @@
   },
   "Infomercials": {
     "id": "Infomercials",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Infomercials",
       "ES": "Infomercials",
@@ -198,7 +198,7 @@
   },
   "InvestigativeJournalism": {
     "id": "InvestigativeJournalism",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Investigative Journalism",
       "ES": "Investigative Journalism",
@@ -227,7 +227,7 @@
   },
   "LateNightShows": {
     "id": "LateNightShows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Late Night Shows",
       "ES": "Late Night Shows",
@@ -255,7 +255,7 @@
   },
   "LaughTracksBan": {
     "id": "LaughTracksBan",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Laugh Track Ban",
       "ES": "Laugh Tracks Ban",
@@ -284,7 +284,7 @@
   },
   "LocalNews": {
     "id": "LocalNews",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Local News",
       "ES": "Local News",
@@ -313,7 +313,7 @@
   },
   "NewTalents": {
     "id": "NewTalents",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "New Talent Scouts",
       "ES": "New Talents",
@@ -342,7 +342,7 @@
   },
   "PayPerView": {
     "id": "PayPerView",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Pay-Per-View",
       "ES": "Pay Per View",
@@ -371,7 +371,7 @@
   },
   "QuizShows": {
     "id": "QuizShows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Quiz Shows",
       "ES": "Quiz Shows",
@@ -399,7 +399,7 @@
   },
   "RealityShows": {
     "id": "RealityShows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Reality Shows",
       "ES": "Reality Shows",
@@ -428,7 +428,7 @@
   },
   "SexyVarietyShows": {
     "id": "SexyVarietyShows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Sexy Variety Shows",
       "ES": "Sexy Variety Shows",
@@ -457,7 +457,7 @@
   },
   "SingleSportChannels": {
     "id": "SingleSportChannels",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Single Sport Channels",
       "ES": "Single Sport Channels",
@@ -486,7 +486,7 @@
   },
   "SitComInvasion": {
     "id": "SitComInvasion",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Sitcom Invasion",
       "ES": "Sit Com Invasions",
@@ -515,7 +515,7 @@
   },
   "SoapOperasExcellency": {
     "id": "SoapOperasExcellency",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Soap Opera Excellence",
       "ES": "Soap Operas Excellency",
@@ -543,7 +543,7 @@
   },
   "Subtitles": {
     "id": "Subtitles",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Subtitles",
       "ES": "Subtitles",
@@ -572,7 +572,7 @@
   },
   "TrashyTalkshows": {
     "id": "TrashyTalkshows",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Trashy Talkshows",
       "ES": "Trashy Talkshows",

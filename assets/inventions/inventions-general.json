@@ -49,7 +49,7 @@
   },
   "DistributedDirection": {
     "id": "DistributedDirection",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Distributed Direction",
       "ES": "Distributed Direction",
@@ -132,7 +132,7 @@
   },
   "WaterQuest": {
     "id": "WaterQuest",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Water Quest Licenses",
       "ES": "Water Quest Licenses",

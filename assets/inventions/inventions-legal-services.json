@@ -1,7 +1,7 @@
 {
   "AssociateGoal": {
     "id": "AssociateGoal",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Associate Goal",
       "ES": "Associate Goal",
@@ -29,7 +29,7 @@
   },
   "CharityWork": {
     "id": "CharityWork",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Charity Work",
       "ES": "Charity Work",
@@ -57,7 +57,7 @@
   },
   "CompulsoryQuota": {
     "id": "CompulsoryQuota",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Compulsory Quota",
       "ES": "Compulsory Quota",
@@ -86,7 +86,7 @@
   },
   "CorporateCars": {
     "id": "CorporateCars",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Corporate Cars",
       "ES": "Corporate Cars",
@@ -115,7 +115,7 @@
   },
   "DigitalLibraryOnly": {
     "id": "DigitalLibraryOnly",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Digital Library Only",
       "ES": "Digital Library Only",
@@ -144,7 +144,7 @@
   },
   "ExtraterrestrialLaw": {
     "id": "ExtraterrestrialLaw",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Extraterrestrial Law",
       "ES": "Extraterrestrial Law",
@@ -173,7 +173,7 @@
   },
   "HospitalVultures": {
     "id": "HospitalVultures",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Hospital Vultures",
       "ES": "Hospital Vultures",
@@ -202,7 +202,7 @@
   },
   "JudgeConsultants": {
     "id": "JudgeConsultants",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Judge Consultants",
       "ES": "Judge Consultants",
@@ -231,7 +231,7 @@
   },
   "LawSchoolsRecruitment": {
     "id": "LawSchoolsRecruitment",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Law School Recruiting",
       "ES": "Law Schools Recruitment",
@@ -259,7 +259,7 @@
   },
   "LawyerFirms": {
     "id": "LawyerFirms",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Legal Services Basics",
       "ES": "Legal Services Basics",
@@ -285,7 +285,7 @@
   },
   "LongHoursPolicy": {
     "id": "LongHoursPolicy",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Long Hours Policy",
       "ES": "Long Hours Policy",
@@ -313,7 +313,7 @@
   },
   "OnEarthStage": {
     "id": "OnEarthStage",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Earth Internship",
       "ES": "On Earth Stage",
@@ -341,7 +341,7 @@
   },
   "ParalegalsExploitation": {
     "id": "ParalegalsExploitation",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Paralegal Exploitation",
       "ES": "Paralegals Exploitation",
@@ -370,7 +370,7 @@
   },
   "ProLawyersCampaign": {
     "id": "ProLawyersCampaign",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Pro-Lawyer Campaign",
       "ES": "Pro Lawyers Campaign",
@@ -398,7 +398,7 @@
   },
   "SecurityCodes": {
     "id": "SecurityCodes",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Security Codes",
       "ES": "Security Codes",
@@ -427,7 +427,7 @@
   },
   "WorldsLawyerNetwork": {
     "id": "WorldsLawyerNetwork",
-    "category": "GENERAL",
+    "category": "SERVICE",
     "name": {
       "EN": "Worlds Lawyer Network",
       "ES": "Worlds Lawyer Network",
