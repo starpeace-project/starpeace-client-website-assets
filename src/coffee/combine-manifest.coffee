@@ -6,6 +6,8 @@ _ = require('lodash')
 Jimp = require('jimp')
 sharp = require('sharp')
 
+TranslationsManifest = require('./translation/translations-manifest')
+
 CombineBuildingManifest = require('./combine/combine-building-manifest')
 CombineConcreteManifest = require('./combine/combine-concrete-manifest')
 CombineEffectManifest = require('./combine/combine-effect-manifest')
@@ -17,6 +19,7 @@ CombinePlaneManifest = require('./combine/combine-plane-manifest')
 CombineRoadManifest = require('./combine/combine-road-manifest')
 CombineStaticMusic = require('./combine/combine-static-music')
 CombineStaticNews = require('./combine/combine-static-news')
+CombineTranslationsManifest = require('./combine/combine-translations-manifest')
 
 Utils = require('./utils/utils')
 
@@ -67,11 +70,13 @@ overlays_dir = path.join(assets_dir, 'overlays')
 planes_dir = path.join(assets_dir, 'planes')
 roads_dir = path.join(assets_dir, 'roads')
 
+translations_manifest = new TranslationsManifest()
+
 jobs = []
 jobs.push(CombineBuildingManifest.combine(buildings_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_with_version)) unless SKIP_EFFECTS
-jobs.push(CombineInventionManifest.combine(inventions_dir, target_with_version)) unless SKIP_INVENTIONS
+jobs.push(CombineInventionManifest.combine(translations_manifest, inventions_dir, target_with_version)) unless SKIP_INVENTIONS
 jobs.push(CombineLandManifest.combine(land_dir, target_with_version)) unless SKIP_LAND
 jobs.push(CombineMapManifest.combine(maps_dir, target_with_version)) unless SKIP_MAPS
 jobs.push(CombineOverlayManifest.combine(overlays_dir, target_with_version)) unless SKIP_OVERLAYS
@@ -81,10 +86,10 @@ jobs.push(CombineStaticMusic.combine(music_dir, target_with_version)) unless SKI
 jobs.push(CombineStaticNews.combine(news_dir, target_with_version)) unless SKIP_NEWS
 
 Promise.all(jobs)
-  .then(() ->
+  .then CombineTranslationsManifest.combine(translations_manifest, target_with_version)
+  .then ->
     console.log "\nfinished successfully, thank you for using combine-manifest.js!"
-  )
-  .catch((error) ->
+
+  .catch (error) ->
     console.log "there was an error during execution:"
     console.log error
-  )
