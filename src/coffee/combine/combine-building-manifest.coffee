@@ -4,6 +4,7 @@ fs = require('fs-extra')
 _ = require('lodash')
 
 BuildingDefinitionManifest = require('../building/building-definition-manifest')
+SealManifest = require('../seal/seal-manifest')
 Spritesheet = require('../texture/spritesheet')
 
 DEBUG_MODE = false
@@ -14,8 +15,12 @@ TILE_HEIGHT = 32
 OUTPUT_TEXTURE_WIDTH = 2048
 OUTPUT_TEXTURE_HEIGHT = 2048
 
-aggregate = ([building_definition_manifest]) ->
+aggregate = ([building_definition_manifest, seals_manifest]) ->
   new Promise (done, error) ->
+
+    for definition in building_definition_manifest.all_definitions
+      for seal in _.values(seals_manifest)
+        definition.seal_ids.push seal.id if seal.buildings_by_id[definition.id]
 
     frame_texture_groups = []
     for definition in building_definition_manifest.all_definitions
@@ -69,10 +74,10 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
 
 
 class CombineBuildingManifest
-  @combine: (building_dir, target_dir) ->
+  @combine: (building_dir, seals_dir, target_dir) ->
     new Promise (done, error) ->
       Promise.all [
-          BuildingDefinitionManifest.load(building_dir)
+          BuildingDefinitionManifest.load(building_dir), SealManifest.load(seals_dir)
         ]
         .then aggregate
         .then write_assets(target_dir)

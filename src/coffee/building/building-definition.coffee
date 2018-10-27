@@ -5,6 +5,7 @@ _ = require('lodash')
 
 class BuildingDefinition
   constructor: (@id, @image_path, @construction_id, @zone, @category, @industry_type, @hit_area, @tile_width, @tile_height, @effects, @required_invention_ids, @resource_flows) ->
+    @seal_ids = []
 
   to_compiled_json: (atlas) ->
     json = {
@@ -13,6 +14,7 @@ class BuildingDefinition
       h: @tile_height
       hit_area: @hit_area || []
       construction_id: @construction_id
+      seal_ids: _.uniq(@seal_ids)
       zone: @zone
       category: @category
       industry_type: @industry_type

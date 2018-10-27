@@ -69,11 +69,12 @@ news_dir = path.join(assets_dir, 'news')
 overlays_dir = path.join(assets_dir, 'overlays')
 planes_dir = path.join(assets_dir, 'planes')
 roads_dir = path.join(assets_dir, 'roads')
+seals_dir = path.join(assets_dir, 'seals')
 
 translations_manifest = new TranslationsManifest()
 
 jobs = []
-jobs.push(CombineBuildingManifest.combine(buildings_dir, target_with_version)) unless SKIP_BUILDINGS
+jobs.push(CombineBuildingManifest.combine(buildings_dir, seals_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_with_version)) unless SKIP_EFFECTS
 jobs.push(CombineInventionManifest.combine(translations_manifest, inventions_dir, target_with_version)) unless SKIP_INVENTIONS
