@@ -13,14 +13,14 @@ class BuildingDefinition
       w: @tile_width
       h: @tile_height
       hit_area: @hit_area || []
-      construction_id: @construction_id
       seal_ids: _.uniq(@seal_ids)
-      zone: @zone
-      category: @category
-      industry_type: @industry_type
       atlas: atlas
       frames: @frame_ids
     }
+    json.construction_id = @construction_id if @construction_id?.length
+    json.category = @category if @category?.length
+    json.industry_type = @industry_type if @industry_type?.length
+    json.zone = @zone if @zone?.length
     json.effects = @effects if @effects?.length
     json.required_invention_ids = @required_invention_ids if @required_invention_ids?.length
     json.resource_flows = @resource_flows if @resource_flows?.length
