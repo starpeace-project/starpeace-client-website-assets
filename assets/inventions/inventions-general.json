@@ -20,6 +20,7 @@
       "price": 200000,
       "level": "apprentice"
     },
+    "industry_type": "GENERAL",
     "depends_on": [
       "DistributedDirection"
     ]
@@ -45,7 +46,8 @@
       "price": 200000,
       "prestige": 5,
       "level": "apprentice"
-    }
+    },
+    "industry_type": "GENERAL"
   },
   "DistributedDirection": {
     "id": "DistributedDirection",
@@ -67,7 +69,8 @@
     "properties": {
       "price": 1000000,
       "level": "apprentice"
-    }
+    },
+    "industry_type": "GENERAL"
   },
   "Industries": {
     "id": "Industries",
@@ -89,7 +92,8 @@
     "properties": {
       "price": 500000,
       "level": "apprentice"
-    }
+    },
+    "industry_type": "GENERAL"
   },
   "MinistryAdministration": {
     "id": "MinistryAdministration",
@@ -105,7 +109,8 @@
     "properties": {
       "price": 20000000,
       "level": "apprentice"
-    }
+    },
+    "industry_type": "GENERAL"
   },
   "Monuments": {
     "id": "Monuments",
@@ -128,7 +133,8 @@
       "price": 10000000,
       "prestige": 50,
       "level": "entrepreneur"
-    }
+    },
+    "industry_type": "GENERAL"
   },
   "WaterQuest": {
     "id": "WaterQuest",
@@ -152,6 +158,7 @@
       "prestige": 50,
       "level": "apprentice"
     },
+    "industry_type": "GENERAL",
     "depends_on": [
       "DistributedDirection",
       "CivicFac",
