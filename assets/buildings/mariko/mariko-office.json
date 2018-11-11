@@ -3,6 +3,9 @@
     "id": "mko.office.a.empty",
     "image": "assets/buildings/mariko/mko.office.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Yamamoto"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -21,6 +24,9 @@
     "id": "mko.office.a",
     "image": "assets/buildings/mariko/mko.office.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Yamamoto"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -39,6 +45,9 @@
     "id": "mko.office.b.empty",
     "image": "assets/buildings/mariko/mko.office.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Tanakuta"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -56,6 +65,9 @@
     "id": "mko.office.b",
     "image": "assets/buildings/mariko/mko.office.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Tanakuta"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -73,6 +85,9 @@
     "id": "mko.office.c.empty",
     "image": "assets/buildings/mariko/mko.office.c.empty.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Sato Scraper"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -89,6 +104,9 @@
     "id": "mko.office.c",
     "image": "assets/buildings/mariko/mko.office.c.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Sato Scraper"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -105,6 +123,9 @@
     "id": "mko.office.d.empty",
     "image": "assets/buildings/mariko/mko.office.d.empty.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Kunawa Scraper"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -125,6 +146,9 @@
     "id": "mko.office.d",
     "image": "assets/buildings/mariko/mko.office.d.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Kunawa Scraper"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -145,6 +169,9 @@
     "id": "mko.office.e.empty",
     "image": "assets/buildings/mariko/mko.office.e.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en":"Koto-ku"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -164,6 +191,9 @@
     "id": "mko.office.e",
     "image": "assets/buildings/mariko/mko.office.e.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en":"Koto-ku"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -183,6 +213,9 @@
     "id": "mko.office.f.empty",
     "image": "assets/buildings/mariko/mko.office.f.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Small Koto"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -201,6 +234,9 @@
     "id": "mko.office.f",
     "image": "assets/buildings/mariko/mko.office.f.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Small Koto"
+    },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "OFFICE",

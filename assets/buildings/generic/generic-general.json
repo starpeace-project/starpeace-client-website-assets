@@ -3,6 +3,9 @@
     "id": "generic.capitol",
     "image": "assets/buildings/generic/generic.capitol.gif",
     "construction_id": "generic.construction.7",
+    "name": {
+      "en": "Capitol"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -29,6 +32,9 @@
     "id": "generic.college",
     "image": "assets/buildings/generic/generic.college.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "College"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -49,6 +55,9 @@
     "id": "generic.dump",
     "image": "assets/buildings/generic/generic.dump.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Dump"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -74,6 +83,9 @@
     "id": "generic.jail",
     "image": "assets/buildings/generic/generic.jail.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Jail"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -96,6 +108,9 @@
     "id": "generic.museum",
     "image": "assets/buildings/generic/generic.museum.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Museum"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -116,6 +131,9 @@
     "id": "generic.park.alien.a",
     "image": "assets/buildings/generic/generic.park.alien.a.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Lizzard Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -147,6 +165,9 @@
     "id": "generic.park.alien.b",
     "image": "assets/buildings/generic/generic.park.alien.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Gobblin Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -171,6 +192,9 @@
     "id": "generic.park.alien.c",
     "image": "assets/buildings/generic/generic.park.alien.c.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Chicken Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -200,6 +224,9 @@
     "id": "generic.park.alien.d",
     "image": "assets/buildings/generic/generic.park.alien.d.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Alien Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -229,6 +256,9 @@
     "id": "generic.park.central",
     "image": "assets/buildings/generic/generic.park.central.gif",
     "construction_id": "generic.construction.7",
+    "name": {
+      "en": "Central Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -251,6 +281,9 @@
     "id": "generic.park.medium",
     "image": "assets/buildings/generic/generic.park.medium.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -273,6 +306,9 @@
     "id": "generic.park.small",
     "image": "assets/buildings/generic/generic.park.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Small Park"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -294,6 +330,9 @@
     "id": "generic.portal.in",
     "image": "assets/buildings/generic/generic.portal.in.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Inbound Portal"
+    },
     "seal": "generic",
     "zone": "RESERVED",
     "category": "CIVIC",
@@ -314,6 +353,9 @@
     "id": "generic.portal.out",
     "image": "assets/buildings/generic/generic.portal.out.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Outbound Portal"
+    },
     "seal": "generic",
     "zone": "RESERVED",
     "category": "CIVIC",
@@ -334,6 +376,9 @@
     "id": "generic.statue",
     "image": "assets/buildings/generic/generic.statue.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Statue"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -361,6 +406,9 @@
     "id": "generic.tennis",
     "image": "assets/buildings/generic/generic.tennis.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Tennis Court"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -377,6 +425,9 @@
     "id": "generic.tower",
     "image": "assets/buildings/generic/generic.tower.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "civ"
+    },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",

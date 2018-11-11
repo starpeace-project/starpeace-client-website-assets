@@ -3,6 +3,9 @@
     "id": "dis.clothes.industry",
     "image": "assets/buildings/dissident/dis.clothes.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Clothing Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -130,6 +133,9 @@
     "id": "dis.clothes.industry.small",
     "image": "assets/buildings/dissident/dis.clothes.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Clothing Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -255,6 +261,9 @@
     "id": "dis.clothes.store",
     "image": "assets/buildings/dissident/dis.clothes.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Clothes Store"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

@@ -3,6 +3,9 @@
     "id": "mko.clothes.industry",
     "image": "assets/buildings/mariko/mko.clothes.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Clothing Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -89,6 +92,9 @@
     "id": "mko.clothes.industry.small",
     "image": "assets/buildings/mariko/mko.clothes.industry.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Small Clothing Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -175,6 +181,9 @@
     "id": "mko.clothes.store",
     "image": "assets/buildings/mariko/mko.clothes.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Clothes Store"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

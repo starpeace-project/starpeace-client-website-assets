@@ -3,6 +3,9 @@
     "id": "mko.textile.industry",
     "image": "assets/buildings/mariko/mko.textile.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Textile Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -85,6 +88,9 @@
     "id": "mko.textile.industry.small",
     "image": "assets/buildings/mariko/mko.textile.industry.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Small Textile Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

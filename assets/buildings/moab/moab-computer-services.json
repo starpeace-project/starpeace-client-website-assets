@@ -3,6 +3,9 @@
     "id": "moab.computing",
     "image": "assets/buildings/moab/moab.computing.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Computer Services"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",

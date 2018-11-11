@@ -3,6 +3,9 @@
     "id": "moab.hi.res.a.empty",
     "image": "assets/buildings/moab/moab.hi.res.a.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Zharot Palace"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -21,6 +24,9 @@
     "id": "moab.hi.res.a",
     "image": "assets/buildings/moab/moab.hi.res.a.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Zharot Palace"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -39,6 +45,9 @@
     "id": "moab.hi.res.b.empty",
     "image": "assets/buildings/moab/moab.hi.res.b.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Black Palace"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -56,6 +65,9 @@
     "id": "moab.hi.res.b",
     "image": "assets/buildings/moab/moab.hi.res.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Black Palace"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -73,6 +85,9 @@
     "id": "moab.hi.res.c.empty",
     "image": "assets/buildings/moab/moab.hi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Knights Dome"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -91,6 +106,9 @@
     "id": "moab.hi.res.c",
     "image": "assets/buildings/moab/moab.hi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Knights Dome"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -109,6 +127,9 @@
     "id": "moab.hi.res.d.empty",
     "image": "assets/buildings/moab/moab.hi.res.d.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Knights Bungalow"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -126,6 +147,9 @@
     "id": "moab.hi.res.d",
     "image": "assets/buildings/moab/moab.hi.res.d.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Knights Bungalow"
+    },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -140,27 +164,12 @@
     "resource_flow": []
   },
   {
-    "id": "moab.lo.cost.mid.res",
-    "image": "assets/buildings/moab/moab.lo.cost.mid.res.gif",
-    "construction_id": "generic.construction.2",
-    "seal": "moab",
-    "zone": "LC_RESIDENTIAL",
-    "category": "RESIDENTIAL",
-    "industry_type": "LC_RESIDENTIAL",
-    "tile_width": 2,
-    "tile_height": 2,
-    "hit_area": [
-      [{"x":2,"y":41},{"x":0,"y":65},{"x":2,"y":75},{"x":13,"y":45}],
-      [{"x":82,"y":115},{"x":172,"y":74},{"x":172,"y":43},{"x":94,"y":9},{"x":13,"y":45},{"x":2,"y":75}],
-      [{"x":88,"y":0},{"x":13,"y":45},{"x":94,"y":9}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
-  },
-  {
     "id": "moab.lo.res.a.empty",
     "image": "assets/buildings/moab/moab.lo.res.a.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Guruh Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -179,6 +188,9 @@
     "id": "moab.lo.res.a",
     "image": "assets/buildings/moab/moab.lo.res.a.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Guruh Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -197,6 +209,9 @@
     "id": "moab.lo.res.b.empty",
     "image": "assets/buildings/moab/moab.lo.res.b.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Lothar Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -215,6 +230,9 @@
     "id": "moab.lo.res.b",
     "image": "assets/buildings/moab/moab.lo.res.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Lothar Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -235,6 +253,9 @@
     "id": "moab.lo.res.c.empty",
     "image": "assets/buildings/moab/moab.lo.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Black Bowl"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -254,6 +275,9 @@
     "id": "moab.lo.res.c",
     "image": "assets/buildings/moab/moab.lo.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Black Bowl"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -272,6 +296,9 @@
     "id": "moab.lo.res.d.empty",
     "image": "assets/buildings/moab/moab.lo.res.d.empty.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Souls Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -294,6 +321,9 @@
     "id": "moab.lo.res.d",
     "image": "assets/buildings/moab/moab.lo.res.d.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Souls Dome"
+    },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -316,6 +346,9 @@
     "id": "moab.mi.res.a.empty",
     "image": "assets/buildings/moab/moab.mi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Nurse Dome"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -333,6 +366,9 @@
     "id": "moab.mi.res.a",
     "image": "assets/buildings/moab/moab.mi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Nurse Dome"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -350,6 +386,9 @@
     "id": "moab.mi.res.b.empty",
     "image": "assets/buildings/moab/moab.mi.res.b.empty.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Nurse Zoo"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -370,6 +409,9 @@
     "id": "moab.mi.res.b",
     "image": "assets/buildings/moab/moab.mi.res.b.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Nurse Zoo"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -391,6 +433,9 @@
     "id": "moab.mi.res.c.empty",
     "image": "assets/buildings/moab/moab.mi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Nurse Rooms"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -409,6 +454,9 @@
     "id": "moab.mi.res.c",
     "image": "assets/buildings/moab/moab.mi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Nurse Rooms"
+    },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -419,6 +467,27 @@
       [{"x":119,"y":37},{"x":74,"y":15},{"x":28,"y":24},{"x":7,"y":39},{"x":60,"y":67}],
       [{"x":26,"y":14},{"x":28,"y":24},{"x":74,"y":15},{"x":69,"y":1},{"x":34,"y":7}],
       [{"x":11,"y":21},{"x":7,"y":39},{"x":28,"y":24},{"x":20,"y":21}]
+    ],
+    "required_inventions": ["RealEstate"],
+    "resource_flow": []
+  },
+  {
+    "id": "moab.mi.res.d",
+    "image": "assets/buildings/moab/moab.mi.res.d.gif",
+    "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Nurse Fraternity"
+    },
+    "seal": "moab",
+    "zone": "MC_RESIDENTIAL",
+    "category": "RESIDENTIAL",
+    "industry_type": "MC_RESIDENTIAL",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":2,"y":41},{"x":0,"y":65},{"x":2,"y":75},{"x":13,"y":45}],
+      [{"x":82,"y":115},{"x":172,"y":74},{"x":172,"y":43},{"x":94,"y":9},{"x":13,"y":45},{"x":2,"y":75}],
+      [{"x":88,"y":0},{"x":13,"y":45},{"x":94,"y":9}]
     ],
     "required_inventions": ["RealEstate"],
     "resource_flow": []

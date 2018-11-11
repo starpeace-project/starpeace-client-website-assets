@@ -3,6 +3,9 @@
     "id": "moab.gas.station",
     "image": "assets/buildings/moab/moab.gas.station.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Gas Station"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -22,6 +25,9 @@
     "id": "moab.refinery",
     "image": "assets/buildings/moab/moab.refinery.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Refinery Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

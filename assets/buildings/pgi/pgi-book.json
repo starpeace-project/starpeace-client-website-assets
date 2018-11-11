@@ -3,6 +3,9 @@
     "id": "pgi.printing.plant",
     "image": "assets/buildings/pgi/pgi.printing.plant.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Printing Plant"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

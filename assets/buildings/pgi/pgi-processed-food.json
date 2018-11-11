@@ -3,6 +3,9 @@
     "id": "pgi.food.proc",
     "image": "assets/buildings/pgi/pgi.food.proc.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Large Food Processor"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -151,6 +154,9 @@
     "id": "pgi.food.proc.small",
     "image": "assets/buildings/pgi/pgi.food.proc.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Food Processor"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

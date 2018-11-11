@@ -3,6 +3,9 @@
     "id": "moab.tv.station",
     "image": "assets/buildings/moab/moab.tv.station.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "TV Station"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "SERVICE",

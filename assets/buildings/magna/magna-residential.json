@@ -3,6 +3,9 @@
     "id": "magna.cloud.city.empty",
     "image": "assets/buildings/magna/magna.cloud.city.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Cloud City"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -26,6 +29,9 @@
     "id": "magna.cloud.city",
     "image": "assets/buildings/magna/magna.cloud.city.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Cloud City"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -49,6 +55,9 @@
     "id": "magna.heaven.empty",
     "image": "assets/buildings/magna/magna.heaven.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Worker's Heaven"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -78,6 +87,9 @@
     "id": "magna.heaven",
     "image": "assets/buildings/magna/magna.heaven.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Worker's Heaven"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -107,6 +119,9 @@
     "id": "magna.hive.empty",
     "image": "assets/buildings/magna/magna.hive.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Hive"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -135,6 +150,9 @@
     "id": "magna.hive",
     "image": "assets/buildings/magna/magna.hive.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Hive"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -163,6 +181,9 @@
     "id": "magna.ivory.tower.empty",
     "image": "assets/buildings/magna/magna.ivory.tower.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Ivory Tower"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -188,6 +209,9 @@
     "id": "magna.ivory.tower",
     "image": "assets/buildings/magna/magna.ivory.tower.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Ivory Tower"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -213,6 +237,9 @@
     "id": "magna.mayflower.empty",
     "image": "assets/buildings/magna/magna.mayflower.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "May Flower"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -238,6 +265,9 @@
     "id": "magna.mayflower",
     "image": "assets/buildings/magna/magna.mayflower.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "May Flower"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -263,6 +293,9 @@
     "id": "magna.octopus.empty",
     "image": "assets/buildings/magna/magna.octopus.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Octopus"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -290,6 +323,9 @@
     "id": "magna.octopus",
     "image": "assets/buildings/magna/magna.octopus.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Octopus"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -317,6 +353,9 @@
     "id": "magna.sky.dome.empty",
     "image": "assets/buildings/magna/magna.sky.dome.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Sky Dome"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -341,6 +380,9 @@
     "id": "magna.sky.dome",
     "image": "assets/buildings/magna/magna.sky.dome.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Sky Dome"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -365,6 +407,9 @@
     "id": "magna.solarium.empty",
     "image": "assets/buildings/magna/magna.solarium.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Solarium"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -399,6 +444,9 @@
     "id": "magna.solarium",
     "image": "assets/buildings/magna/magna.solarium.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Solarium"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -433,6 +481,9 @@
     "id": "magna.the.spring.empty",
     "image": "assets/buildings/magna/magna.the.spring.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Spring"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -462,6 +513,9 @@
     "id": "magna.the.spring",
     "image": "assets/buildings/magna/magna.the.spring.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Spring"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -491,6 +545,9 @@
     "id": "magna.tulip.empty",
     "image": "assets/buildings/magna/magna.tulip.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Tulip"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -517,6 +574,9 @@
     "id": "magna.tulip",
     "image": "assets/buildings/magna/magna.tulip.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Tulip"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -543,6 +603,9 @@
     "id": "magna.whirlpool.empty",
     "image": "assets/buildings/magna/magna.whirlpool.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Whirlpool"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -566,6 +629,9 @@
     "id": "magna.whirlpool",
     "image": "assets/buildings/magna/magna.whirlpool.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Whirlpool"
+    },
     "seal": "magna",
     "zone": "RESIDENTIAL",
     "category": "RESIDENTIAL",

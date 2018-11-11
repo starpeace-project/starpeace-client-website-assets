@@ -3,6 +3,9 @@
     "id": "moab.office.a.empty",
     "image": "assets/buildings/moab/moab.office.a.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Moab Basilica"
+    },
     "seal": "moab",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -26,6 +29,9 @@
     "id": "moab.office.a",
     "image": "assets/buildings/moab/moab.office.a.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Moab Basilica"
+    },
     "seal": "moab",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -49,6 +55,9 @@
     "id": "moab.office.b.empty",
     "image": "assets/buildings/moab/moab.office.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Dark Crysler"
+    },
     "seal": "moab",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -69,6 +78,9 @@
     "id": "moab.office.b",
     "image": "assets/buildings/moab/moab.office.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Dark Crysler"
+    },
     "seal": "moab",
     "zone": "OFFICES",
     "category": "OFFICE",

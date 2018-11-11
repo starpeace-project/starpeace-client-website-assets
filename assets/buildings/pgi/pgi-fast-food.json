@@ -3,6 +3,9 @@
     "id": "pgi.food.store",
     "image": "assets/buildings/pgi/pgi.food.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Fast Food"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

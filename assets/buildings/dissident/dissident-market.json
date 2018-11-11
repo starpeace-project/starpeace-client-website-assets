@@ -3,6 +3,9 @@
     "id": "dis.market.a",
     "image": "assets/buildings/dissident/dis.market.a.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Big Market"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -21,6 +24,9 @@
     "id": "dis.market.b",
     "image": "assets/buildings/dissident/dis.market.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Flea Market"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

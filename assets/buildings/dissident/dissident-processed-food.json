@@ -3,6 +3,9 @@
     "id": "dis.food.proc",
     "image": "assets/buildings/dissident/dis.food.proc.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Food Processor"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -141,6 +144,9 @@
     "id": "dis.food.proc.small",
     "image": "assets/buildings/dissident/dis.food.proc.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Food Processor"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

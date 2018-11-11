@@ -3,6 +3,9 @@
     "id": "dis.toy.industry",
     "image": "assets/buildings/dissident/dis.toy.industry.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Toy Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -29,6 +32,9 @@
     "id": "dis.toy.store",
     "image": "assets/buildings/dissident/dis.toy.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Toy Store"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

@@ -3,6 +3,9 @@
     "id": "dis.funeral",
     "image": "assets/buildings/dissident/dis.funeral.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Funeral Parlor"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

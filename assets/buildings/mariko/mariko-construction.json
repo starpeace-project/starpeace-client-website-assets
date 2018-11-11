@@ -3,6 +3,9 @@
     "id": "mko.construction.industry",
     "image": "assets/buildings/mariko/mko.construction.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Construction Workyard"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "SERVICE",

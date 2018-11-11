@@ -3,6 +3,9 @@
     "id": "dis.bar",
     "image": "assets/buildings/dissident/dis.bar.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Bar"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

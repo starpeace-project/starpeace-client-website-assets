@@ -3,6 +3,9 @@
     "id": "pgi.restaurant",
     "image": "assets/buildings/pgi/pgi.restaurant.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Restaurant"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

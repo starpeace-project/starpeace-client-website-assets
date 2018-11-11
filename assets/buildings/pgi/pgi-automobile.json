@@ -3,6 +3,9 @@
     "id": "pgi.car.industry",
     "image": "assets/buildings/pgi/pgi.car.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Automobile Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -159,6 +162,9 @@
     "id": "pgi.car.store",
     "image": "assets/buildings/pgi/pgi.car.store.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Automobile Dealership"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

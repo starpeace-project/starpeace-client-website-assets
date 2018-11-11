@@ -15,7 +15,7 @@ TILE_HEIGHT = 32
 OUTPUT_TEXTURE_WIDTH = 2048
 OUTPUT_TEXTURE_HEIGHT = 2048
 
-aggregate = ([building_definition_manifest, seals_manifest]) ->
+aggregate = (translations_manifest) -> ([building_definition_manifest, seals_manifest]) ->
   new Promise (done, error) ->
 
     for definition in building_definition_manifest.all_definitions
@@ -28,6 +28,8 @@ aggregate = ([building_definition_manifest, seals_manifest]) ->
       unless texture?
         console.log "unable to find building image #{definition.image_path}"
         continue
+
+      translations_manifest.accumulate_i18n_text(definition.name_key(), definition.name) if definition.name?
 
       frame_textures = texture.get_frame_textures(definition.id, definition.tile_width * TILE_WIDTH, definition.tile_height * TILE_HEIGHT)
       definition.frame_ids = _.map(frame_textures, (frame) -> frame.id)
@@ -74,12 +76,12 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
 
 
 class CombineBuildingManifest
-  @combine: (building_dir, seals_dir, target_dir) ->
+  @combine: (translations_manifest, building_dir, seals_dir, target_dir) ->
     new Promise (done, error) ->
       Promise.all [
           BuildingDefinitionManifest.load(building_dir), SealManifest.load(seals_dir)
         ]
-        .then aggregate
+        .then aggregate(translations_manifest)
         .then write_assets(target_dir)
         .then done
         .catch error

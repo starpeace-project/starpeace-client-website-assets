@@ -3,6 +3,9 @@
     "id": "moab.elect.comp.industry",
     "image": "assets/buildings/moab/moab.elect.comp.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Dome of Chips"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

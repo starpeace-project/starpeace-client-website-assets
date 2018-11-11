@@ -3,6 +3,9 @@
     "id": "pgi.heavy.industry",
     "image": "assets/buildings/pgi/pgi.heavy.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Machinery Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

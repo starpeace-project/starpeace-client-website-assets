@@ -3,6 +3,9 @@
     "id": "dis.chemical.industry",
     "image": "assets/buildings/dissident/dis.chemical.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Chemical Plant"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -121,6 +124,9 @@
     "id": "dis.chemical.industry.small",
     "image": "assets/buildings/dissident/dis.chemical.industry.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Chemical Plant"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

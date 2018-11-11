@@ -3,6 +3,9 @@
     "id": "pgi.farm",
     "image": "assets/buildings/pgi/pgi.farm.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Large Farm"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -125,6 +128,9 @@
     "id": "pgi.farm.small",
     "image": "assets/buildings/pgi/pgi.farm.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Farm"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

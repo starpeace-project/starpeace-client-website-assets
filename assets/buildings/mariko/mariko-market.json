@@ -3,6 +3,9 @@
     "id": "mko.market.a",
     "image": "assets/buildings/mariko/mko.market.a.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Takuri Market"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -22,6 +25,9 @@
     "id": "mko.market.b",
     "image": "assets/buildings/mariko/mko.market.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Tamakura Market"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -39,6 +45,9 @@
     "id": "mko.market.c",
     "image": "assets/buildings/mariko/mko.market.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Satoi Market"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

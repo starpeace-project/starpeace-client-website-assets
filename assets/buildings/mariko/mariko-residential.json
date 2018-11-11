@@ -3,6 +3,9 @@
     "id": "mko.hi.res.a.empty",
     "image": "assets/buildings/mariko/mko.hi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Katana House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -21,6 +24,9 @@
     "id": "mko.hi.res.a",
     "image": "assets/buildings/mariko/mko.hi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Katana House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -39,6 +45,9 @@
     "id": "mko.hi.res.b.empty",
     "image": "assets/buildings/mariko/mko.hi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sohei House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -56,6 +65,9 @@
     "id": "mko.hi.res.b",
     "image": "assets/buildings/mariko/mko.hi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sohei House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -73,6 +85,9 @@
     "id": "mko.hi.res.c.empty",
     "image": "assets/buildings/mariko/mko.hi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Tarakawa House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -91,6 +106,9 @@
     "id": "mko.hi.res.c",
     "image": "assets/buildings/mariko/mko.hi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Tarakawa House"
+    },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -109,6 +127,9 @@
     "id": "mko.lo.res.a.empty",
     "image": "assets/buildings/mariko/mko.lo.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Katana Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -131,6 +152,9 @@
     "id": "mko.lo.res.a",
     "image": "assets/buildings/mariko/mko.lo.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Katana Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -153,6 +177,9 @@
     "id": "mko.lo.res.b.empty",
     "image": "assets/buildings/mariko/mko.lo.res.b.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Nikotori Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -173,6 +200,9 @@
     "id": "mko.lo.res.b",
     "image": "assets/buildings/mariko/mko.lo.res.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Nikotori Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -193,6 +223,9 @@
     "id": "mko.lo.res.c.empty",
     "image": "assets/buildings/mariko/mko.lo.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hazobito Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -211,6 +244,9 @@
     "id": "mko.lo.res.c",
     "image": "assets/buildings/mariko/mko.lo.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hazobito Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -229,6 +265,9 @@
     "id": "mko.lo.res.d.empty",
     "image": "assets/buildings/mariko/mko.lo.res.d.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Hisogari Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -248,6 +287,9 @@
     "id": "mko.lo.res.d",
     "image": "assets/buildings/mariko/mko.lo.res.d.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Hisogari Building"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -267,6 +309,9 @@
     "id": "mko.lo.res.e.empty",
     "image": "assets/buildings/mariko/mko.lo.res.e.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Taramagushi"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -287,6 +332,9 @@
     "id": "mko.lo.res.e",
     "image": "assets/buildings/mariko/mko.lo.res.e.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Taramagushi"
+    },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -307,6 +355,9 @@
     "id": "mko.mi.res.a.empty",
     "image": "assets/buildings/mariko/mko.mi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Somsei-Taj Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -325,6 +376,9 @@
     "id": "mko.mi.res.a",
     "image": "assets/buildings/mariko/mko.mi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Somsei-Taj Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -343,6 +397,9 @@
     "id": "mko.mi.res.b.empty",
     "image": "assets/buildings/mariko/mko.mi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Marakas Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -362,6 +419,9 @@
     "id": "mko.mi.res.b",
     "image": "assets/buildings/mariko/mko.mi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Marakas Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -381,6 +441,9 @@
     "id": "mko.mi.res.c.empty",
     "image": "assets/buildings/mariko/mko.mi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Yohito Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -399,6 +462,9 @@
     "id": "mko.mi.res.c",
     "image": "assets/buildings/mariko/mko.mi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Yohito Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -417,6 +483,9 @@
     "id": "mko.mi.res.d.empty",
     "image": "assets/buildings/mariko/mko.mi.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hirijoto-Manko Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -438,6 +507,9 @@
     "id": "mko.mi.res.d",
     "image": "assets/buildings/mariko/mko.mi.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hirijoto-Manko Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -459,6 +531,9 @@
     "id": "mko.mi.res.e.empty",
     "image": "assets/buildings/mariko/mko.mi.res.e.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Blue Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -479,6 +554,9 @@
     "id": "mko.mi.res.e",
     "image": "assets/buildings/mariko/mko.mi.res.e.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Blue Rooms"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -499,6 +577,9 @@
     "id": "mko.mi.res.f.empty",
     "image": "assets/buildings/mariko/mko.mi.res.f.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Purple Delight"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -518,6 +599,9 @@
     "id": "mko.mi.res.f",
     "image": "assets/buildings/mariko/mko.mi.res.f.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Purple Delight"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -537,6 +621,9 @@
     "id": "mko.mi.res.g.empty",
     "image": "assets/buildings/mariko/mko.mi.res.g.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Round Mariko"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -555,6 +642,9 @@
     "id": "mko.mi.res.g",
     "image": "assets/buildings/mariko/mko.mi.res.g.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Round Mariko"
+    },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",

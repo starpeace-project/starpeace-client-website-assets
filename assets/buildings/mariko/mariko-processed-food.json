@@ -3,6 +3,9 @@
     "id": "mko.food.proc",
     "image": "assets/buildings/mariko/mko.food.proc.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Food Processor"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -91,6 +94,9 @@
     "id": "mko.food.proc.small",
     "image": "assets/buildings/mariko/mko.food.proc.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Food Processor"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

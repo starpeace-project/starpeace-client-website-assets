@@ -3,6 +3,9 @@
     "id": "pgi.bar",
     "image": "assets/buildings/pgi/pgi.bar.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Bar"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

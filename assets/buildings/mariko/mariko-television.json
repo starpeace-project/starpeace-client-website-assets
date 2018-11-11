@@ -3,6 +3,9 @@
     "id": "mko.tv.station",
     "image": "assets/buildings/mariko/mko.tv.station.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "TV Station"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "SERVICE",

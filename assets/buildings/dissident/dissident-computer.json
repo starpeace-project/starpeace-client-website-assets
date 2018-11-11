@@ -3,6 +3,9 @@
     "id": "dis.bm.industry",
     "image": "assets/buildings/dissident/dis.bm.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Computer Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

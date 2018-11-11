@@ -3,6 +3,9 @@
     "id": "pgi.legal.services",
     "image": "assets/buildings/pgi/pgi.legal.services.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Law Firm"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",

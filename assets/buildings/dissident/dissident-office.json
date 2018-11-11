@@ -3,6 +3,9 @@
     "id": "dis.office.a.empty",
     "image": "assets/buildings/dissident/dis.office.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Ribs"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -25,6 +28,9 @@
     "id": "dis.office.a",
     "image": "assets/buildings/dissident/dis.office.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Ribs"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -45,6 +51,9 @@
     "id": "dis.office.b.empty",
     "image": "assets/buildings/dissident/dis.office.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Red Ball"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -65,6 +74,9 @@
     "id": "dis.office.b",
     "image": "assets/buildings/dissident/dis.office.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Red Ball"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -86,6 +98,9 @@
     "id": "dis.office.c.empty",
     "image": "assets/buildings/dissident/dis.office.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Duango"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -107,6 +122,9 @@
     "id": "dis.office.c",
     "image": "assets/buildings/dissident/dis.office.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Duango"
+    },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "OFFICE",

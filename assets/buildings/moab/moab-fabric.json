@@ -3,6 +3,9 @@
     "id": "moab.textile.industry",
     "image": "assets/buildings/moab/moab.textile.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Dome of Threads"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

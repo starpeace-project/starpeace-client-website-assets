@@ -3,6 +3,9 @@
     "id": "mko.heavy.industry",
     "image": "assets/buildings/mariko/mko.heavy.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Machinery Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

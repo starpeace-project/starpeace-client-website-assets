@@ -3,6 +3,9 @@
     "id": "dis.hi.res.a.empty",
     "image": "assets/buildings/dissident/dis.hi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Needle"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -21,6 +24,9 @@
     "id": "dis.hi.res.a",
     "image": "assets/buildings/dissident/dis.hi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Needle"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -39,6 +45,9 @@
     "id": "dis.hi.res.b.empty",
     "image": "assets/buildings/dissident/dis.hi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Balloon House"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -61,6 +70,9 @@
     "id": "dis.hi.res.b",
     "image": "assets/buildings/dissident/dis.hi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Balloon House"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -83,6 +95,9 @@
     "id": "dis.hi.res.c.empty",
     "image": "assets/buildings/dissident/dis.hi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Funnel"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -104,6 +119,9 @@
     "id": "dis.hi.res.c",
     "image": "assets/buildings/dissident/dis.hi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Funnel"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -125,6 +143,9 @@
     "id": "dis.hi.res.d.empty",
     "image": "assets/buildings/dissident/dis.hi.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Cottage"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -143,6 +164,9 @@
     "id": "dis.hi.res.d",
     "image": "assets/buildings/dissident/dis.hi.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Cottage"
+    },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -161,6 +185,9 @@
     "id": "dis.lo.cost.hi.res",
     "image": "assets/buildings/dissident/dis.lo.cost.hi.res.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Generic high class building"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -179,6 +206,9 @@
     "id": "dis.lo.cost.lo.res",
     "image": "assets/buildings/dissident/dis.lo.cost.lo.res.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Generic low class building"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -198,6 +228,9 @@
     "id": "dis.lo.cost.mi.res",
     "image": "assets/buildings/dissident/dis.lo.cost.mi.res.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Generic middle class building"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -216,6 +249,9 @@
     "id": "dis.lo.res.a.empty",
     "image": "assets/buildings/dissident/dis.lo.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Recycled Homes"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -235,6 +271,9 @@
     "id": "dis.lo.res.a",
     "image": "assets/buildings/dissident/dis.lo.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Recycled Homes"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -256,6 +295,9 @@
     "id": "dis.lo.res.b.empty",
     "image": "assets/buildings/dissident/dis.lo.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Recycled Buildings"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -275,6 +317,9 @@
     "id": "dis.lo.res.b",
     "image": "assets/buildings/dissident/dis.lo.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Recycled Buildings"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -295,6 +340,9 @@
     "id": "dis.lo.res.c.empty",
     "image": "assets/buildings/dissident/dis.lo.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sardine Cans"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -320,6 +368,9 @@
     "id": "dis.lo.res.c",
     "image": "assets/buildings/dissident/dis.lo.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sardine Cans"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -343,6 +394,9 @@
     "id": "dis.lo.res.d.empty",
     "image": "assets/buildings/dissident/dis.lo.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Barracks"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -361,6 +415,9 @@
     "id": "dis.lo.res.d",
     "image": "assets/buildings/dissident/dis.lo.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Barracks"
+    },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -379,6 +436,9 @@
     "id": "dis.mi.res.a.empty",
     "image": "assets/buildings/dissident/dis.mi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Dreams Tower"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -398,6 +458,9 @@
     "id": "dis.mi.res.a",
     "image": "assets/buildings/dissident/dis.mi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Dreams Tower"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -416,6 +479,9 @@
     "id": "dis.mi.res.b.empty",
     "image": "assets/buildings/dissident/dis.mi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Mushrooms"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -437,6 +503,9 @@
     "id": "dis.mi.res.b",
     "image": "assets/buildings/dissident/dis.mi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Mushrooms"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -457,6 +526,9 @@
     "id": "dis.mi.res.c.empty",
     "image": "assets/buildings/dissident/dis.mi.res.c.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Bushings"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -478,6 +550,9 @@
     "id": "dis.mi.res.c",
     "image": "assets/buildings/dissident/dis.mi.res.c.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "The Bushings"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -499,6 +574,9 @@
     "id": "dis.mi.res.d.empty",
     "image": "assets/buildings/dissident/dis.mi.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Screwer"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -518,6 +596,9 @@
     "id": "dis.mi.res.d",
     "image": "assets/buildings/dissident/dis.mi.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Screwer"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -537,6 +618,9 @@
     "id": "dis.mi.res.e.empty",
     "image": "assets/buildings/dissident/dis.mi.res.e.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Castles"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -561,6 +645,9 @@
     "id": "dis.mi.res.e",
     "image": "assets/buildings/dissident/dis.mi.res.e.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Castles"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -585,6 +672,9 @@
     "id": "dis.mi.res.f.empty",
     "image": "assets/buildings/dissident/dis.mi.res.f.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Spire"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -604,6 +694,9 @@
     "id": "dis.mi.res.f",
     "image": "assets/buildings/dissident/dis.mi.res.f.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Spire"
+    },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",

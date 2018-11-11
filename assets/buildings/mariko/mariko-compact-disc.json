@@ -3,6 +3,9 @@
     "id": "mko.cd.industry",
     "image": "assets/buildings/mariko/mko.cd.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Compact Disc Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -28,6 +31,9 @@
     "id": "mko.cd.store",
     "image": "assets/buildings/mariko/mko.cd.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Compact Disc Store"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

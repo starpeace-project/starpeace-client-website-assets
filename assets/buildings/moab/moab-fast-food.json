@@ -3,6 +3,9 @@
     "id": "moab.food.store",
     "image": "assets/buildings/moab/moab.food.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Fast Food"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

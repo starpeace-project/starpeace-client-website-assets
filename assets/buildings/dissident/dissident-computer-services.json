@@ -3,6 +3,9 @@
     "id": "dis.computing",
     "image": "assets/buildings/dissident/dis.computing.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Computer Services"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",

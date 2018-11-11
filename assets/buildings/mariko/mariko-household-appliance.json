@@ -3,6 +3,9 @@
     "id": "mko.hha.industry",
     "image": "assets/buildings/mariko/mko.hha.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Appliances Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -95,6 +98,9 @@
     "id": "mko.hha.industry.small",
     "image": "assets/buildings/mariko/mko.hha.industry.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Appliances Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -187,6 +193,9 @@
     "id": "mko.hha.store",
     "image": "assets/buildings/mariko/mko.hha.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Appliances Store"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

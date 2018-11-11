@@ -3,6 +3,9 @@
     "id": "dis.car.industry",
     "image": "assets/buildings/dissident/dis.car.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Automobile Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -134,6 +137,9 @@
     "id": "dis.car.store",
     "image": "assets/buildings/dissident/dis.car.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Automobile Dealership"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

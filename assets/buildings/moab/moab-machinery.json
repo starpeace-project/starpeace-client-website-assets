@@ -3,6 +3,9 @@
     "id": "moab.heavy.industry",
     "image": "assets/buildings/moab/moab.heavy.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Machinery Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

@@ -3,6 +3,9 @@
     "id": "dis.farm",
     "image": "assets/buildings/dissident/dis.farm.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Farm"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -116,6 +119,9 @@
     "id": "dis.farm.small",
     "image": "assets/buildings/dissident/dis.farm.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Small Farm"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

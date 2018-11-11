@@ -3,6 +3,9 @@
     "id": "pgi.computing",
     "image": "assets/buildings/pgi/pgi.computing.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Computer Services"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",

@@ -3,6 +3,9 @@
     "id": "moab.hha.industry",
     "image": "assets/buildings/moab/moab.hha.industry.gif",
     "construction_id": "generic.construction.6",
+    "name": {
+      "en": "Appliances Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -86,6 +89,9 @@
     "id": "moab.hha.store",
     "image": "assets/buildings/moab/moab.hha.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Appliances Store"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

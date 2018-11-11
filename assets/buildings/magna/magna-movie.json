@@ -1,8 +1,33 @@
 [
   {
+    "id": "magna.movie.studios.construction",
+    "image": "assets/buildings/magna/magna.movie.studios.construction.gif",
+    "construction_id": "generic.construction.8",
+    "seal": "magna",
+    "zone": "INDUSTRIAL",
+    "tile_width": 8,
+    "tile_height": 8,
+    "hit_area": [
+      [{"x":198,"y":26},{"x":195,"y":43},{"x":210,"y":32}],
+      [{"x":240,"y":3},{"x":244,"y":14},{"x":256,"y":14},{"x":247,"y":0}],
+      [{"x":252,"y":256},{"x":490,"y":139},{"x":113,"y":93},{"x":27,"y":143}],
+      [{"x":244,"y":14},{"x":238,"y":22},{"x":490,"y":139},{"x":421,"y":88},{"x":256,"y":14}],
+      [{"x":22,"y":129},{"x":27,"y":143},{"x":113,"y":93},{"x":85,"y":87},{"x":47,"y":106}],
+      [{"x":223,"y":22},{"x":210,"y":32},{"x":238,"y":22}],
+      [{"x":117,"y":71},{"x":113,"y":93},{"x":490,"y":139},{"x":195,"y":43},{"x":157,"y":49}],
+      [{"x":210,"y":32},{"x":195,"y":43},{"x":490,"y":139},{"x":238,"y":22}],
+      [{"x":490,"y":129},{"x":421,"y":88},{"x":490,"y":139}]
+    ],
+    "required_inventions": [],
+    "resource_flow": []
+  },
+  {
     "id": "magna.movie.studios",
     "image": "assets/buildings/magna/magna.movie.studios.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Movie Studios"
+    },
     "seal": "magna",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

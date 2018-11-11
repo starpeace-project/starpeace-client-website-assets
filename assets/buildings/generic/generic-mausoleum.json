@@ -20,6 +20,9 @@
     "id": "generic.mausoleum.legend",
     "image": "assets/buildings/generic/generic.mausoleum.legend.gif",
     "construction_id": "generic.construction.9",
+    "name": {
+      "en": "Legend Mausoleum"
+    },
     "seal": "generic",
     "zone": "MAUSOLEUM",
     "category": "SERVICE",
@@ -47,6 +50,9 @@
     "id": "generic.mausoleum.paradigm",
     "image": "assets/buildings/generic/generic.mausoleum.paradigm.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Paradigm Mausoleum"
+    },
     "seal": "generic",
     "zone": "MAUSOLEUM",
     "category": "SERVICE",

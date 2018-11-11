@@ -3,6 +3,9 @@
     "id": "moab.oil.rig",
     "image": "assets/buildings/moab/moab.oil.rig.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Oil Rig"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

@@ -3,6 +3,9 @@
     "id": "moab.cathedral",
     "image": "assets/buildings/moab/moab.cathedral.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Moab Cathedral"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -30,6 +33,9 @@
     "id": "moab.correctional",
     "image": "assets/buildings/moab/moab.correctional.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Moab Correctional"
+    },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -48,6 +54,9 @@
     "id": "moab.correctional.tower",
     "image": "assets/buildings/moab/moab.correctional.tower.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Civic Affairs Tower"
+    },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -67,6 +76,9 @@
     "id": "moab.hq.1",
     "image": "assets/buildings/moab/moab.hq.1.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -93,6 +105,9 @@
     "id": "moab.hq.2",
     "image": "assets/buildings/moab/moab.hq.2.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -125,6 +140,9 @@
     "id": "moab.hq.3",
     "image": "assets/buildings/moab/moab.hq.3.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -152,6 +170,9 @@
     "id": "moab.hq.4",
     "image": "assets/buildings/moab/moab.hq.4.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -181,6 +202,9 @@
     "id": "moab.hq.5",
     "image": "assets/buildings/moab/moab.hq.5.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -213,6 +237,9 @@
     "id": "moab.industry.tower",
     "image": "assets/buildings/moab/moab.industry.tower.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Industries Tower"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -232,6 +259,9 @@
     "id": "moab.market.tower",
     "image": "assets/buildings/moab/moab.market.tower.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Commerce Tower"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -250,6 +280,9 @@
     "id": "moab.residential.tower",
     "image": "assets/buildings/moab/moab.residential.tower.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Real Estate Tower"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -269,6 +302,9 @@
     "id": "moab.townhall",
     "image": "assets/buildings/moab/moab.townhall.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Townhall"
+    },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -291,6 +327,9 @@
     "id": "moab.tradecenter",
     "image": "assets/buildings/moab/moab.tradecenter.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Tradecenter"
+    },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",

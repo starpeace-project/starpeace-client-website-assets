@@ -3,6 +3,9 @@
     "id": "moab.food.proc",
     "image": "assets/buildings/moab/moab.food.proc.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Food Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

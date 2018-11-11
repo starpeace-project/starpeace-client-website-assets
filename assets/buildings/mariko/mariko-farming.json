@@ -3,6 +3,9 @@
     "id": "mko.farm",
     "image": "assets/buildings/mariko/mko.farm.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Farm"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -70,6 +73,9 @@
     "id": "mko.farm.small",
     "image": "assets/buildings/mariko/mko.farm.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Small Farm"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

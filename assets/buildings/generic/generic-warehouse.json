@@ -3,6 +3,9 @@
     "id": "generic.warehouse.chemical",
     "image": "assets/buildings/generic/generic.warehouse.chemical.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Chemical Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -28,6 +31,9 @@
     "id": "generic.warehouse.cold",
     "image": "assets/buildings/generic/generic.warehouse.cold.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Cold Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -51,6 +57,9 @@
     "id": "generic.warehouse.cold.super",
     "image": "assets/buildings/generic/generic.warehouse.cold.super.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Super Cold Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -69,6 +78,9 @@
     "id": "generic.warehouse.export",
     "image": "assets/buildings/generic/generic.warehouse.export.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Export Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -88,6 +100,9 @@
     "id": "generic.warehouse.fabric",
     "image": "assets/buildings/generic/generic.warehouse.fabric.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Fabrics Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -108,6 +123,9 @@
     "id": "generic.warehouse.import",
     "image": "assets/buildings/generic/generic.warehouse.import.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Import Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -127,6 +145,9 @@
     "id": "generic.warehouse.ore",
     "image": "assets/buildings/generic/generic.warehouse.ore.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Ore Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",
@@ -148,6 +169,9 @@
     "id": "generic.warehouse.univeral",
     "image": "assets/buildings/generic/generic.warehouse.univeral.gif",
     "construction_id": "generic.construction.6",
+    "name": {
+      "en": "General Storage"
+    },
     "seal": "generic",
     "zone": "WAREHOUSE",
     "category": "LOGISTICS",

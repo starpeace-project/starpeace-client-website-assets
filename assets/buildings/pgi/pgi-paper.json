@@ -3,6 +3,9 @@
     "id": "pgi.paper.industry",
     "image": "assets/buildings/pgi/pgi.paper.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Paper Mill"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

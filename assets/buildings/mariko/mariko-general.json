@@ -3,6 +3,9 @@
     "id": "mko.hospital",
     "image": "assets/buildings/mariko/mko.hospital.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hospital"
+    },
     "seal": "mariko",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -19,6 +22,9 @@
     "id": "mko.hq.1",
     "image": "assets/buildings/mariko/mko.hq.1.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "mariko",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -40,6 +46,9 @@
     "id": "mko.hq.2",
     "image": "assets/buildings/mariko/mko.hq.2.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "mariko",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -62,6 +71,9 @@
     "id": "mko.hq.3",
     "image": "assets/buildings/mariko/mko.hq.3.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "mariko",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -85,6 +97,9 @@
     "id": "mko.hq.4",
     "image": "assets/buildings/mariko/mko.hq.4.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "mariko",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -108,6 +123,9 @@
     "id": "mko.hq.5",
     "image": "assets/buildings/mariko/mko.hq.5.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "mariko",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -129,6 +147,9 @@
     "id": "mko.police",
     "image": "assets/buildings/mariko/mko.police.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Police Station"
+    },
     "seal": "mariko",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -146,6 +167,9 @@
     "id": "mko.school",
     "image": "assets/buildings/mariko/mko.school.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "School"
+    },
     "seal": "mariko",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -163,6 +187,9 @@
     "id": "mko.townhall",
     "image": "assets/buildings/mariko/mko.townhall.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Townhall"
+    },
     "seal": "mariko",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -185,6 +212,9 @@
     "id": "mko.tradecenter",
     "image": "assets/buildings/mariko/mko.tradecenter.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Tradecenter"
+    },
     "seal": "mariko",
     "zone": "CIVICS",
     "category": "CIVIC",

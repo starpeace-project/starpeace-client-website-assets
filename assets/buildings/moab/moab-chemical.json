@@ -3,6 +3,9 @@
     "id": "moab.chemical.industry",
     "image": "assets/buildings/moab/moab.chemical.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Chemical Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -86,6 +89,9 @@
     "id": "moab.mine",
     "image": "assets/buildings/moab/moab.mine.gif",
     "construction_id": "generic.construction.6",
+    "name": {
+      "en": "Chemical Mine"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

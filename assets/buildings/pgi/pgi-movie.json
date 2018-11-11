@@ -3,6 +3,9 @@
     "id": "pgi.movie.a",
     "image": "assets/buildings/pgi/pgi.movie.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Movie Theater"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -20,6 +23,9 @@
     "id": "pgi.movie.b",
     "image": "assets/buildings/pgi/pgi.movie.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Movie Theater"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

@@ -3,6 +3,9 @@
     "id": "mko.warehouse",
     "image": "assets/buildings/mariko/mko.warehouse.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "General Storage"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "LOGISTICS",

@@ -3,6 +3,9 @@
     "id": "dis.lumber.0",
     "image": "assets/buildings/dissident/dis.lumber.0.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -22,6 +25,9 @@
     "id": "dis.lumber.1",
     "image": "assets/buildings/dissident/dis.lumber.1.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -41,6 +47,9 @@
     "id": "dis.lumber.2",
     "image": "assets/buildings/dissident/dis.lumber.2.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -60,6 +69,9 @@
     "id": "dis.lumber.3",
     "image": "assets/buildings/dissident/dis.lumber.3.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -79,6 +91,9 @@
     "id": "dis.lumber.4",
     "image": "assets/buildings/dissident/dis.lumber.4.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -133,6 +148,9 @@
     "id": "dis.lumber.5",
     "image": "assets/buildings/dissident/dis.lumber.5.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -183,6 +201,9 @@
     "id": "dis.lumber.6",
     "image": "assets/buildings/dissident/dis.lumber.6.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -221,6 +242,9 @@
     "id": "dis.lumber.7",
     "image": "assets/buildings/dissident/dis.lumber.7.gif",
     "construction_id": "generic.construction.8",
+    "name": {
+      "en": "Lumber Mill"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

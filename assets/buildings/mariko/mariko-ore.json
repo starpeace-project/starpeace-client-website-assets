@@ -3,6 +3,9 @@
     "id": "mko.mine",
     "image": "assets/buildings/mariko/mko.mine.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Ore Mine"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -82,6 +85,9 @@
     "id": "mko.mine.small",
     "image": "assets/buildings/mariko/mko.mine.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Ore Mine"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

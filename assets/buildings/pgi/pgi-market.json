@@ -3,6 +3,9 @@
     "id": "pgi.market.a",
     "image": "assets/buildings/pgi/pgi.market.a.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Mall"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -24,6 +27,9 @@
     "id": "pgi.market.b",
     "image": "assets/buildings/pgi/pgi.market.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Supermarket"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -48,6 +54,9 @@
     "id": "pgi.market.c",
     "image": "assets/buildings/pgi/pgi.market.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Mart"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

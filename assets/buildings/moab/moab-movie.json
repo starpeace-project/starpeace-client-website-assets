@@ -3,6 +3,9 @@
     "id": "moab.movie",
     "image": "assets/buildings/moab/moab.movie.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Movie Theater"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

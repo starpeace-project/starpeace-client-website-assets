@@ -3,6 +3,9 @@
     "id": "mko.car.industry",
     "image": "assets/buildings/mariko/mko.car.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Automobile Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -93,6 +96,9 @@
     "id": "mko.car.store",
     "image": "assets/buildings/mariko/mko.car.store.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en":"Automobile Dealership"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

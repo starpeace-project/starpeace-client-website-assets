@@ -3,6 +3,9 @@
     "id": "dis.hha.industry",
     "image": "assets/buildings/dissident/dis.hha.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Appliances Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -131,6 +134,9 @@
     "id": "dis.hha.industry.small",
     "image": "assets/buildings/dissident/dis.hha.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Appliances Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -259,6 +265,9 @@
     "id": "dis.hha.store",
     "image": "assets/buildings/dissident/dis.hha.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Appliances Store"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

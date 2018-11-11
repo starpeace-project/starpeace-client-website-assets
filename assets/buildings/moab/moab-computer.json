@@ -3,6 +3,9 @@
     "id": "moab.bm.industry",
     "image": "assets/buildings/moab/moab.bm.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Computer Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

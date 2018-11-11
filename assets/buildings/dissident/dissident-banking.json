@@ -3,6 +3,9 @@
     "id": "dis.bank",
     "image": "assets/buildings/dissident/dis.bank.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Bank"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",

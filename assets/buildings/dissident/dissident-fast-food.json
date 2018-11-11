@@ -3,6 +3,9 @@
     "id": "dis.food.store",
     "image": "assets/buildings/dissident/dis.food.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Fast Food"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

@@ -3,6 +3,9 @@
     "id": "dis.hospital",
     "image": "assets/buildings/dissident/dis.hospital.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Hospital"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -23,6 +26,9 @@
     "id": "dis.hq.1",
     "image": "assets/buildings/dissident/dis.hq.1.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -44,6 +50,9 @@
     "id": "dis.hq.2",
     "image": "assets/buildings/dissident/dis.hq.2.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -73,6 +82,9 @@
     "id": "dis.hq.3",
     "image": "assets/buildings/dissident/dis.hq.3.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -103,6 +115,9 @@
     "id": "dis.hq.4",
     "image": "assets/buildings/dissident/dis.hq.4.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -132,6 +147,9 @@
     "id": "dis.hq.5",
     "image": "assets/buildings/dissident/dis.hq.5.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -163,6 +181,9 @@
     "id": "dis.park.small",
     "image": "assets/buildings/dissident/dis.park.small.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Small Park"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -192,6 +213,9 @@
     "id": "dis.police",
     "image": "assets/buildings/dissident/dis.police.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Police Station"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -210,6 +234,9 @@
     "id": "dis.school",
     "image": "assets/buildings/dissident/dis.school.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "School"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -230,6 +257,9 @@
     "id": "dis.townhall",
     "image": "assets/buildings/dissident/dis.townhall.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Townhall"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -258,6 +288,9 @@
     "id": "dis.tradecenter",
     "image": "assets/buildings/dissident/dis.tradecenter.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Tradecenter"
+    },
     "seal": "dissident",
     "zone": "CIVICS",
     "category": "CIVIC",

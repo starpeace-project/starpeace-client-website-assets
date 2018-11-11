@@ -3,6 +3,9 @@
     "id": "dis.heavy.industry",
     "image": "assets/buildings/dissident/dis.heavy.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Machinery Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

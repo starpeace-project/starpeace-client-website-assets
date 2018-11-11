@@ -3,6 +3,9 @@
     "id": "moab.farm",
     "image": "assets/buildings/moab/moab.farm.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Food Crater"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

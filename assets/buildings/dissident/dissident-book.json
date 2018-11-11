@@ -3,6 +3,9 @@
     "id": "dis.book.store",
     "image": "assets/buildings/dissident/dis.book.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Book Store"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

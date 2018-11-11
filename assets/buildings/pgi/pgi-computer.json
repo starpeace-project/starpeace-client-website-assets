@@ -3,6 +3,9 @@
     "id": "pgi.bm.industry",
     "image": "assets/buildings/pgi/pgi.bm.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Computer Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

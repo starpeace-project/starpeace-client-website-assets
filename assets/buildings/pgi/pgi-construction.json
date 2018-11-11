@@ -3,6 +3,9 @@
     "id": "pgi.const.industry",
     "image": "assets/buildings/pgi/pgi.const.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Construction Workyard"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

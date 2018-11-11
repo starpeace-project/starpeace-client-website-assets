@@ -3,6 +3,9 @@
     "id": "dis.liquor.industry",
     "image": "assets/buildings/dissident/dis.liquor.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Distillery"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

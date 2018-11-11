@@ -3,6 +3,9 @@
     "id": "dis.metal.industry",
     "image": "assets/buildings/dissident/dis.metal.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Metal Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -140,6 +143,9 @@
     "id": "dis.metal.industry.small",
     "image": "assets/buildings/dissident/dis.metal.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Metal Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

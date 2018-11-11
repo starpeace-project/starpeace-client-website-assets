@@ -3,6 +3,9 @@
     "id": "dis.legal.services",
     "image": "assets/buildings/dissident/dis.legal.services.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Law Firm"
+    },
     "seal": "dissident",
     "zone": "SERVICE",
     "category": "SERVICE",

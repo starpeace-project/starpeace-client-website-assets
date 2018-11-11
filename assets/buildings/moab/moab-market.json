@@ -3,6 +3,9 @@
     "id": "moab.market",
     "image": "assets/buildings/moab/moab.market.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Moab Supermarket"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

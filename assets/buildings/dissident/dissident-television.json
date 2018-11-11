@@ -3,6 +3,9 @@
     "id": "dis.tv.antenna",
     "image": "assets/buildings/dissident/dis.tv.antenna.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "TV Antenna"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
@@ -22,6 +25,9 @@
     "id": "dis.tv.station",
     "image": "assets/buildings/dissident/dis.tv.station.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "TV Station"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",

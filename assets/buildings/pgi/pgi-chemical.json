@@ -3,6 +3,9 @@
     "id": "pgi.chemical.industry",
     "image": "assets/buildings/pgi/pgi.chemical.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Large Chemical Plant"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -155,6 +158,9 @@
     "id": "pgi.chemical.industry.small",
     "image": "assets/buildings/pgi/pgi.chemical.industry.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Chemical Plant"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -304,6 +310,9 @@
     "id": "pgi.mine",
     "image": "assets/buildings/pgi/pgi.mine.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Chemical Mine"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -461,6 +470,9 @@
     "id": "pgi.mine.small",
     "image": "assets/buildings/pgi/pgi.mine.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Small Chemical Mine"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

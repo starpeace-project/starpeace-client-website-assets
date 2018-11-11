@@ -3,6 +3,9 @@
     "id": "moab.clothes.industry",
     "image": "assets/buildings/moab/moab.clothes.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Dome of Clothes"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -85,6 +88,9 @@
     "id": "moab.clothes.store",
     "image": "assets/buildings/moab/moab.clothes.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Clothes Store"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

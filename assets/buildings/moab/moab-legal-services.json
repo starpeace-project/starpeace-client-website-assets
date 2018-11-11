@@ -3,6 +3,9 @@
     "id": "moab.legal.services",
     "image": "assets/buildings/moab/moab.legal.services.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Law Firm"
+    },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",

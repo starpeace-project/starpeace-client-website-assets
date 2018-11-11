@@ -3,6 +3,9 @@
     "id": "pgi.hi.res.a.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.a.empty.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Xanadu Palace"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -24,6 +27,9 @@
     "id": "pgi.hi.res.a",
     "image": "assets/buildings/pgi/pgi.hi.res.a.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Xanadu Palace"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -45,6 +51,9 @@
     "id": "pgi.hi.res.b.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Atrium"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -61,9 +70,12 @@
     "resource_flow": []
   },
   {
-    "id": "pgi.hi.res.by",
+    "id": "pgi.hi.res.b",
     "image": "assets/buildings/pgi/pgi.hi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Atrium"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -83,6 +95,9 @@
     "id": "pgi.hi.res.c.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Willington"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -102,6 +117,9 @@
     "id": "pgi.hi.res.c",
     "image": "assets/buildings/pgi/pgi.hi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Willington"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -121,6 +139,9 @@
     "id": "pgi.hi.res.d.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Golden Cap"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -140,6 +161,9 @@
     "id": "pgi.hi.res.d",
     "image": "assets/buildings/pgi/pgi.hi.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Golden Cap"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -159,6 +183,9 @@
     "id": "pgi.hi.res.e.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.e.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Kent Square"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -177,6 +204,9 @@
     "id": "pgi.hi.res.e",
     "image": "assets/buildings/pgi/pgi.hi.res.e.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Kent Square"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -195,6 +225,9 @@
     "id": "pgi.hi.res.f.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.f.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Lisgar Towers"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -214,6 +247,9 @@
     "id": "pgi.hi.res.f",
     "image": "assets/buildings/pgi/pgi.hi.res.f.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Lisgar Towers"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -233,6 +269,9 @@
     "id": "pgi.hi.res.g.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.g.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "White Hut"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -252,6 +291,9 @@
     "id": "pgi.hi.res.g",
     "image": "assets/buildings/pgi/pgi.hi.res.g.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "White Hut"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -271,6 +313,9 @@
     "id": "pgi.hi.res.h.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.h.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Lyon Rooms"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -290,6 +335,9 @@
     "id": "pgi.hi.res.h",
     "image": "assets/buildings/pgi/pgi.hi.res.h.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Lyon Rooms"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -309,6 +357,9 @@
     "id": "pgi.hi.res.i.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.i.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Blue Mansion"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -328,6 +379,9 @@
     "id": "pgi.hi.res.i",
     "image": "assets/buildings/pgi/pgi.hi.res.i.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Blue Mansion"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -347,6 +401,9 @@
     "id": "pgi.hi.res.j.empty",
     "image": "assets/buildings/pgi/pgi.hi.res.j.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Pink Mansion"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -365,6 +422,9 @@
     "id": "pgi.hi.res.j",
     "image": "assets/buildings/pgi/pgi.hi.res.j.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Pink Mansion"
+    },
     "seal": "pgi",
     "zone": "HC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -383,6 +443,9 @@
     "id": "pgi.lo.res.a.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Playfair Towers"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -402,6 +465,9 @@
     "id": "pgi.lo.res.a",
     "image": "assets/buildings/pgi/pgi.lo.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Playfair Towers"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -420,6 +486,9 @@
     "id": "pgi.lo.res.b.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.b.empty.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Arlington Rooms"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -439,6 +508,9 @@
     "id": "pgi.lo.res.b",
     "image": "assets/buildings/pgi/pgi.lo.res.b.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Arlington Rooms"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -458,6 +530,9 @@
     "id": "pgi.lo.res.c.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Caesar's Atrium"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -477,6 +552,9 @@
     "id": "pgi.lo.res.c",
     "image": "assets/buildings/pgi/pgi.lo.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Caesar's Atrium"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -496,6 +574,9 @@
     "id": "pgi.lo.res.d.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Sicily"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -516,6 +597,9 @@
     "id": "pgi.lo.res.d",
     "image": "assets/buildings/pgi/pgi.lo.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Sicily"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -536,6 +620,9 @@
     "id": "pgi.lo.res.e.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.e.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Mountbatten Rooms"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -556,6 +643,9 @@
     "id": "pgi.lo.res.e",
     "image": "assets/buildings/pgi/pgi.lo.res.e.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Mountbatten Rooms"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -576,6 +666,9 @@
     "id": "pgi.lo.res.f.empty",
     "image": "assets/buildings/pgi/pgi.lo.res.f.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Ambassador"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -596,6 +689,9 @@
     "id": "pgi.lo.res.f",
     "image": "assets/buildings/pgi/pgi.lo.res.f.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Ambassador"
+    },
     "seal": "pgi",
     "zone": "LC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -616,6 +712,9 @@
     "id": "pgi.mi.res.a.empty",
     "image": "assets/buildings/pgi/pgi.mi.res.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Gladston Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -636,6 +735,9 @@
     "id": "pgi.mi.res.a",
     "image": "assets/buildings/pgi/pgi.mi.res.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Gladston Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -656,6 +758,9 @@
     "id": "pgi.mi.res.b.empty",
     "image": "assets/buildings/pgi/pgi.mi.res.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Quincy"
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -676,6 +781,9 @@
     "id": "pgi.mi.res.b",
     "image": "assets/buildings/pgi/pgi.mi.res.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Quincy"
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -696,6 +804,9 @@
     "id": "pgi.mi.res.c.empty",
     "image": "assets/buildings/pgi/pgi.mi.res.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Metcalfe Towers"
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -717,6 +828,9 @@
     "id": "pgi.mi.res.c",
     "image": "assets/buildings/pgi/pgi.mi.res.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Metcalfe Towers"
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -738,6 +852,9 @@
     "id": "pgi.mi.res.d.empty",
     "image": "assets/buildings/pgi/pgi.mi.res.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Delmar Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -758,6 +875,9 @@
     "id": "pgi.mi.res.d",
     "image": "assets/buildings/pgi/pgi.mi.res.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Delmar Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -778,6 +898,9 @@
     "id": "pgi.mi.res.e.empty",
     "image": "assets/buildings/pgi/pgi.mi.res.e.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sunset Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",
@@ -795,6 +918,9 @@
     "id": "pgi.mi.res.e",
     "image": "assets/buildings/pgi/pgi.mi.res.e.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sunset Apts."
+    },
     "seal": "pgi",
     "zone": "MC_RESIDENTIAL",
     "category": "RESIDENTIAL",

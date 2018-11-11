@@ -3,6 +3,9 @@
     "id": "dis.mine",
     "image": "assets/buildings/dissident/dis.mine.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Ore Mine"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -128,6 +131,9 @@
     "id": "dis.mine.small",
     "image": "assets/buildings/dissident/dis.mine.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Ore Mine"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

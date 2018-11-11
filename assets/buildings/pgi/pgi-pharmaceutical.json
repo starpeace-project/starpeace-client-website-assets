@@ -3,6 +3,9 @@
     "id": "pgi.drug.store",
     "image": "assets/buildings/pgi/pgi.drug.store.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Drug Store"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -20,6 +23,9 @@
     "id": "pgi.pharma.industry",
     "image": "assets/buildings/pgi/pgi.pharma.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Pharmaceutical Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

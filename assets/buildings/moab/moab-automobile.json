@@ -3,6 +3,9 @@
     "id": "moab.car.industry",
     "image": "assets/buildings/moab/moab.car.industry.gif",
     "construction_id": "generic.construction.6",
+    "name": {
+      "en": "Automobile Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -94,6 +97,9 @@
     "id": "moab.car.store",
     "image": "assets/buildings/moab/moab.car.store.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Autombile Dealership"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

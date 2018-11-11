@@ -3,6 +3,9 @@
     "id": "dis.furniture.industry",
     "image": "assets/buildings/dissident/dis.furniture.industry.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Furniture Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -22,6 +25,9 @@
     "id": "dis.furniture.store",
     "image": "assets/buildings/dissident/dis.furniture.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Furniture Store"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

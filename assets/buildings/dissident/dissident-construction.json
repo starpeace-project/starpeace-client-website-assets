@@ -3,6 +3,9 @@
     "id": "dis.construction.industry",
     "image": "assets/buildings/dissident/dis.construction.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Construction Workyard"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "SERVICE",

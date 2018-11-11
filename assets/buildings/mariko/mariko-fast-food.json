@@ -3,6 +3,9 @@
     "id": "mko.food.store",
     "image": "assets/buildings/mariko/mko.food.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Fast Food"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

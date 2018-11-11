@@ -3,6 +3,9 @@
     "id": "mko.elect.comp.industry",
     "image": "assets/buildings/mariko/mko.elect.comp.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en":"Electronic Component Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -80,6 +83,9 @@
     "id": "mko.elect.comp.industry.small",
     "image": "assets/buildings/mariko/mko.elect.comp.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en":"Small Electronic Component Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

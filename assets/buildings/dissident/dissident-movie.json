@@ -3,6 +3,9 @@
     "id": "dis.movie",
     "image": "assets/buildings/dissident/dis.movie.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Movie Theater"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

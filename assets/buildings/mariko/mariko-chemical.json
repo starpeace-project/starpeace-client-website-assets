@@ -3,6 +3,9 @@
     "id": "mko.chemical.industry",
     "image": "assets/buildings/mariko/mko.chemical.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en":"Chemical Plant"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -79,6 +82,9 @@
     "id": "mko.chemical.industry.small",
     "image": "assets/buildings/mariko/mko.chemical.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en":"Small Chemical Plant"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -155,6 +161,9 @@
     "id": "mko.plastic.industry",
     "image": "assets/buildings/mariko/mko.plastic.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en":"Plastic Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

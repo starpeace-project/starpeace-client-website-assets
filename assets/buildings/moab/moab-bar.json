@@ -3,6 +3,9 @@
     "id": "moab.bar",
     "image": "assets/buildings/moab/moab.bar.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Dome of Joy"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

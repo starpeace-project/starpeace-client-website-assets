@@ -3,6 +3,9 @@
     "id": "dis.textile.industry",
     "image": "assets/buildings/dissident/dis.textile.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Textile Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -125,6 +128,9 @@
     "id": "dis.textile.industry.small",
     "image": "assets/buildings/dissident/dis.textile.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Textile Factory"
+    },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

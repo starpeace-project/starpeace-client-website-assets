@@ -3,6 +3,9 @@
     "id": "pgi.office.a.empty",
     "image": "assets/buildings/pgi/pgi.office.a.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sting"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -24,6 +27,9 @@
     "id": "pgi.office.a",
     "image": "assets/buildings/pgi/pgi.office.a.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Sting"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -45,6 +51,9 @@
     "id": "pgi.office.b.empty",
     "image": "assets/buildings/pgi/pgi.office.b.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Davis Bow"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -62,6 +71,9 @@
     "id": "pgi.office.b",
     "image": "assets/buildings/pgi/pgi.office.b.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Davis Bow"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -79,6 +91,9 @@
     "id": "pgi.office.c.empty",
     "image": "assets/buildings/pgi/pgi.office.c.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Mc Neon Tower"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -98,6 +113,9 @@
     "id": "pgi.office.c",
     "image": "assets/buildings/pgi/pgi.office.c.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Mc Neon Tower"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -117,6 +135,9 @@
     "id": "pgi.office.d.empty",
     "image": "assets/buildings/pgi/pgi.office.d.empty.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Spire"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",
@@ -138,6 +159,9 @@
     "id": "pgi.office.d",
     "image": "assets/buildings/pgi/pgi.office.d.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "The Spire"
+    },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "OFFICE",

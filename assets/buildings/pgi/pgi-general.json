@@ -3,6 +3,9 @@
     "id": "pgi.fire",
     "image": "assets/buildings/pgi/pgi.fire.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Fire Station"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -22,6 +25,9 @@
     "id": "pgi.hospital",
     "image": "assets/buildings/pgi/pgi.hospital.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Hospital"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -41,6 +47,9 @@
     "id": "pgi.hq.1",
     "image": "assets/buildings/pgi/pgi.hq.1.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -62,6 +71,9 @@
     "id": "pgi.hq.2",
     "image": "assets/buildings/pgi/pgi.hq.2.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -84,6 +96,9 @@
     "id": "pgi.hq.3",
     "image": "assets/buildings/pgi/pgi.hq.3.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -107,6 +122,9 @@
     "id": "pgi.hq.4",
     "image": "assets/buildings/pgi/pgi.hq.4.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -129,6 +147,9 @@
     "id": "pgi.hq.5",
     "image": "assets/buildings/pgi/pgi.hq.5.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Headquarters"
+    },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
@@ -151,6 +172,9 @@
     "id": "pgi.police",
     "image": "assets/buildings/pgi/pgi.police.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Police Station"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -169,6 +193,9 @@
     "id": "pgi.school",
     "image": "assets/buildings/pgi/pgi.school.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "School"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -186,6 +213,9 @@
     "id": "pgi.townhall",
     "image": "assets/buildings/pgi/pgi.townhall.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Townhall"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
@@ -208,6 +238,9 @@
     "id": "pgi.tradecenter",
     "image": "assets/buildings/pgi/pgi.tradecenter.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Tradecenter"
+    },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",

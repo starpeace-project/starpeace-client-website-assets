@@ -3,6 +3,9 @@
     "id": "dis.restaurant.a",
     "image": "assets/buildings/dissident/dis.restaurant.a.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Restaurant"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -21,6 +24,9 @@
     "id": "dis.restaurant.b",
     "image": "assets/buildings/dissident/dis.restaurant.b.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en": "Restaurant"
+    },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

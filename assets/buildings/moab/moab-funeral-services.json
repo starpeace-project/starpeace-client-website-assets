@@ -3,6 +3,9 @@
     "id": "moab.funeral",
     "image": "assets/buildings/moab/moab.funeral.gif",
     "construction_id": "generic.construction.2",
+    "name": {
+      "en": "Funeral Parlor"
+    },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

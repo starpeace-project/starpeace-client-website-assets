@@ -3,6 +3,9 @@
     "id": "mko.bm.industry",
     "image": "assets/buildings/mariko/mko.bm.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en":"Computer Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -83,6 +86,9 @@
     "id": "mko.computer.store",
     "image": "assets/buildings/mariko/mko.computer.store.gif",
     "construction_id": "generic.construction.1",
+    "name": {
+      "en":"Computer Store"
+    },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

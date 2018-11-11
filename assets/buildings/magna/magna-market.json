@@ -3,6 +3,9 @@
     "id": "magna.supermarket.a",
     "image": "assets/buildings/magna/magna.supermarket.a.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Sky Seller"
+    },
     "seal": "magna",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
@@ -31,6 +34,9 @@
     "id": "magna.supermarket.b",
     "image": "assets/buildings/magna/magna.supermarket.b.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Galaxie"
+    },
     "seal": "magna",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",

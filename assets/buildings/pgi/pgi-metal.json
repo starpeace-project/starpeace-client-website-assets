@@ -3,6 +3,9 @@
     "id": "pgi.metal.industry",
     "image": "assets/buildings/pgi/pgi.metal.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Large Metal Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -140,6 +143,9 @@
     "id": "pgi.metal.industry.small",
     "image": "assets/buildings/pgi/pgi.metal.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Metal Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

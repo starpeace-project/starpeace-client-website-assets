@@ -3,6 +3,9 @@
     "id": "pgi.hha.industry",
     "image": "assets/buildings/pgi/pgi.hha.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Large Appliances Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -143,6 +146,9 @@
     "id": "pgi.hha.industry.small",
     "image": "assets/buildings/pgi/pgi.hha.industry.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Appliances Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

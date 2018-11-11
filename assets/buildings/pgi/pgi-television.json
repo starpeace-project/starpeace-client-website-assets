@@ -3,6 +3,9 @@
     "id": "pgi.tv.station",
     "image": "assets/buildings/pgi/pgi.tv.station.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "TV Station"
+    },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "SERVICE",

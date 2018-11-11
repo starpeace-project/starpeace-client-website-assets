@@ -3,6 +3,9 @@
     "id": "pgi.elect.comp.industry",
     "image": "assets/buildings/pgi/pgi.elect.comp.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Electronic Component Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -140,6 +143,9 @@
     "id": "pgi.elect.comp.industry.small",
     "image": "assets/buildings/pgi/pgi.elect.comp.industry.small.gif",
     "construction_id": "generic.construction.3",
+    "name": {
+      "en": "Small Electronic Component Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

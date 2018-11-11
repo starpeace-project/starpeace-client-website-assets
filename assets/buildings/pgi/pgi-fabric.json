@@ -3,6 +3,9 @@
     "id": "pgi.textile.industry",
     "image": "assets/buildings/pgi/pgi.textile.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Textile Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -125,6 +128,9 @@
     "id": "pgi.textile.industry.small",
     "image": "assets/buildings/pgi/pgi.textile.industry.small.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Small Textile Factory"
+    },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

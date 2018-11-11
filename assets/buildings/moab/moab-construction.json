@@ -3,6 +3,9 @@
     "id": "moab.construction.industry",
     "image": "assets/buildings/moab/moab.construction.industry.gif",
     "construction_id": "generic.construction.4",
+    "name": {
+      "en": "Construction Dome"
+    },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",

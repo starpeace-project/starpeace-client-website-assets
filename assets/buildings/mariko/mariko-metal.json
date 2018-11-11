@@ -3,6 +3,9 @@
     "id": "mko.metal.industry",
     "image": "assets/buildings/mariko/mko.metal.industry.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Metal Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
@@ -83,6 +86,9 @@
     "id": "mko.metal.industry.small",
     "image": "assets/buildings/mariko/mko.metal.industry.small.gif",
     "construction_id": "generic.construction.5",
+    "name": {
+      "en": "Small Metal Factory"
+    },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
