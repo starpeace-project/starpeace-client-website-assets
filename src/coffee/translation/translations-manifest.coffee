@@ -13,7 +13,7 @@ class TranslationsManifest
   accumulate_i18n_text: (id, text_by_language) ->
     other = Translation.for_languages(id, text_by_language)
     if @translation_id_translations[id]
-      return if _.isEquals(@translation_id_translations[id], other)
+      return if _.isEqual(@translation_id_translations[id], other)
       console.log "[WARN] duplicate translation for #{id}"
     @translation_id_translations[id] = other
 

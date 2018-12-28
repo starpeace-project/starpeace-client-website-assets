@@ -1,8 +1,8 @@
 [
   {
     "id": "mko.textile.industry",
-    "image": "assets/buildings/mariko/mko.textile.industry.gif",
-    "construction_id": "generic.construction.5",
+    "image_id": "mko.textile.industry",
+    "construction_image_id": "generic.construction.5",
     "name": {
       "en":"Textile Factory"
     },
@@ -10,18 +10,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "tile_width": 5,
-    "tile_height": 5,
-    "hit_area": [
-      [{"x":11,"y":86},{"x":30,"y":103},{"x":80,"y":118},{"x":69,"y":46},{"x":27,"y":72}],
-      [{"x":159,"y":1},{"x":115,"y":25},{"x":103,"y":136},{"x":207,"y":31},{"x":207,"y":23}],
-      [{"x":93,"y":130},{"x":104,"y":126},{"x":115,"y":25},{"x":79,"y":41},{"x":69,"y":46},{"x":80,"y":118}],
-      [{"x":31,"y":55},{"x":27,"y":72},{"x":69,"y":46}],
-      [{"x":80,"y":31},{"x":79,"y":41},{"x":115,"y":25}],
-      [{"x":232,"y":30},{"x":216,"y":36},{"x":103,"y":136},{"x":291,"y":80},{"x":270,"y":52}],
-      [{"x":161,"y":160},{"x":316,"y":87},{"x":291,"y":80},{"x":103,"y":136}],
-      [{"x":216,"y":36},{"x":207,"y":31},{"x":103,"y":136}]
-    ],
     "required_inventions": ["TextileLic","LSTextile"],
     "resource_flow": [
       {
@@ -86,8 +74,9 @@
   },
   {
     "id": "mko.textile.industry.small",
+    "image_id": "mko.textile.industry.small",
     "image": "assets/buildings/mariko/mko.textile.industry.small.gif",
-    "construction_id": "generic.construction.5",
+    "construction_image_id": "generic.construction.5",
     "name": {
       "en":"Small Textile Factory"
     },
@@ -95,18 +84,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "tile_width": 5,
-    "tile_height": 5,
-    "hit_area": [
-      [{"x":11,"y":86},{"x":30,"y":103},{"x":80,"y":118},{"x":69,"y":46},{"x":27,"y":72}],
-      [{"x":159,"y":1},{"x":115,"y":25},{"x":103,"y":136},{"x":207,"y":31},{"x":207,"y":23}],
-      [{"x":93,"y":130},{"x":104,"y":126},{"x":115,"y":25},{"x":79,"y":41},{"x":69,"y":46},{"x":80,"y":118}],
-      [{"x":31,"y":55},{"x":27,"y":72},{"x":69,"y":46}],
-      [{"x":80,"y":31},{"x":79,"y":41},{"x":115,"y":25}],
-      [{"x":232,"y":30},{"x":216,"y":36},{"x":103,"y":136},{"x":291,"y":80},{"x":270,"y":52}],
-      [{"x":161,"y":160},{"x":316,"y":87},{"x":291,"y":80},{"x":103,"y":136}],
-      [{"x":216,"y":36},{"x":207,"y":31},{"x":103,"y":136}]
-    ],
     "required_inventions": ["TextileLic","LSTextile"],
     "resource_flow": [
       {

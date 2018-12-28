@@ -22,20 +22,19 @@ aggregate = (translations_manifest) -> ([building_definition_manifest, seals_man
       for seal in _.values(seals_manifest)
         definition.seal_ids.push seal.id if seal.buildings_by_id[definition.id]
 
-    frame_texture_groups = []
-    for definition in building_definition_manifest.all_definitions
-      texture = definition.image
-      unless texture?
-        console.log "unable to find building image #{definition.image_path}"
-        continue
-
       translations_manifest.accumulate_i18n_text(definition.name_key(), definition.name) if definition.name?
 
-      frame_textures = texture.get_frame_textures(definition.id, definition.tile_width * TILE_WIDTH, definition.tile_height * TILE_HEIGHT)
-      definition.frame_ids = _.map(frame_textures, (frame) -> frame.id)
+    frame_texture_groups = []
+    for building_image in building_definition_manifest.all_images
+      unless building_image.image?
+        console.log "unable to find building image #{building_image.image_path}"
+        continue
+
+      frame_textures = building_image.image.get_frame_textures(building_image.id, building_image.tile_width * TILE_WIDTH, building_image.tile_height * TILE_HEIGHT)
+      building_image.frame_ids = _.map(frame_textures, (frame) -> frame.id)
 
       frame_texture_groups.push frame_textures
-      console.log "#{definition.id} has #{frame_textures.length} frames"
+      console.log "#{building_image.id} has #{frame_textures.length} frames"
 
     done([building_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
@@ -57,12 +56,16 @@ write_assets = (output_dir) -> ([building_definition_manifest, building_spritesh
 
       frame_atlas[data.key] = atlas_name for data in spritesheet.packed_texture_data
 
-    definitions = {}
-    definitions[definition.id] = definition.to_compiled_json(frame_atlas[definition.frame_ids[0]]) for definition in building_definition_manifest.all_definitions
+    images = []
+    images.push building_image.to_compiled_json(frame_atlas[building_image.frame_ids[0]]) for building_image in building_definition_manifest.all_images
+
+    definitions = []
+    definitions.push definition.to_compiled_json() for definition in building_definition_manifest.all_definitions
 
     json = {
       atlas: atlas_names
-      buildings: definitions
+      images: images
+      definitions: definitions
     }
 
     metadata_file = path.join(output_dir, "building.metadata.json")

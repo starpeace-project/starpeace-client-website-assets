@@ -1,8 +1,8 @@
 [
   {
     "id": "mko.farm",
-    "image": "assets/buildings/mariko/mko.farm.gif",
-    "construction_id": "generic.construction.5",
+    "image_id": "mko.farm",
+    "construction_image_id": "generic.construction.5",
     "name": {
       "en":"Farm"
     },
@@ -10,12 +10,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "tile_width": 5,
-    "tile_height": 5,
-    "hit_area": [
-      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
-      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
-    ],
     "required_inventions": ["FarmLic","LargeFarms"],
     "resource_flow": [
       {
@@ -71,8 +65,8 @@
   },
   {
     "id": "mko.farm.small",
-    "image": "assets/buildings/mariko/mko.farm.small.gif",
-    "construction_id": "generic.construction.5",
+    "image_id": "mko.farm.small",
+    "construction_image_id": "generic.construction.5",
     "name": {
       "en":"Small Farm"
     },
@@ -80,12 +74,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "tile_width": 5,
-    "tile_height": 5,
-    "hit_area": [
-      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
-      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
-    ],
     "required_inventions": ["FarmLic","LargeFarms"],
     "resource_flow": [
       {

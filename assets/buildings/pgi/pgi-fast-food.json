@@ -1,8 +1,8 @@
 [
   {
     "id": "pgi.food.store",
-    "image": "assets/buildings/pgi/pgi.food.store.gif",
-    "construction_id": "generic.construction.1",
+    "image_id": "pgi.food.store",
+    "construction_image_id": "generic.construction.1",
     "name": {
       "en": "Fast Food"
     },
@@ -10,11 +10,6 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "FAST_FOOD",
-    "tile_width": 1,
-    "tile_height": 1,
-    "hit_area": [
-      [{"x":53,"y":29},{"x":37,"y":3},{"x":31,"y":3},{"x":11,"y":21},{"x":22,"y":35}]
-    ],
     "required_inventions": [],
     "resource_flow": []
   }

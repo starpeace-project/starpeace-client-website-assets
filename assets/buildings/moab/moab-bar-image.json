@@ -1,0 +1,11 @@
+[
+  {
+    "id": "moab.bar",
+    "image": "assets/buildings/moab/moab.bar.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":60,"y":17},{"x":40,"y":2},{"x":35,"y":2},{"x":20,"y":3},{"x":6,"y":17},{"x":36,"y":30}]
+    ]
+  }
+]

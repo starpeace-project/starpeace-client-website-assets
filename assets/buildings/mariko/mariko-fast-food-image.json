@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mko.food.store",
+    "image": "assets/buildings/mariko/mko.food.store.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":2,"y":26},{"x":32,"y":41},{"x":52,"y":8},{"x":52,"y":0},{"x":14,"y":9}],
+      [{"x":61,"y":27},{"x":52,"y":8},{"x":32,"y":41}]
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dis.furniture.industry",
+    "image": "assets/buildings/dissident/dis.furniture.industry.gif",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":100,"y":169},{"x":192,"y":126},{"x":177,"y":114},{"x":50,"y":52},{"x":11,"y":83},{"x":11,"y":125}],
+      [{"x":111,"y":2},{"x":47,"y":31},{"x":166,"y":66},{"x":161,"y":28}],
+      [{"x":20,"y":65},{"x":11,"y":83},{"x":50,"y":52}],
+      [{"x":177,"y":76},{"x":166,"y":66},{"x":47,"y":31},{"x":50,"y":52},{"x":177,"y":114}]
+    ]
+  },
+  {
+    "id": "dis.furniture.store",
+    "image": "assets/buildings/dissident/dis.furniture.store.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":34,"y":50},{"x":64,"y":35},{"x":64,"y":16},{"x":0,"y":15},{"x":0,"y":35}],
+      [{"x":35,"y":1},{"x":0,"y":15},{"x":64,"y":16}]
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 [
   {
     "id": "moab.bar",
-    "image": "assets/buildings/moab/moab.bar.gif",
-    "construction_id": "generic.construction.1",
+    "image_id": "moab.bar",
+    "construction_image_id": "generic.construction.1",
     "name": {
       "en": "Dome of Joy"
     },
@@ -10,11 +10,6 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "BAR",
-    "tile_width": 1,
-    "tile_height": 1,
-    "hit_area": [
-      [{"x":60,"y":17},{"x":40,"y":2},{"x":35,"y":2},{"x":20,"y":3},{"x":6,"y":17},{"x":36,"y":30}]
-    ],
     "required_inventions": ["Bars"],
     "resource_flow": []
   }

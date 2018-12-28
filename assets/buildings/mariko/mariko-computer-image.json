@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mko.bm.industry",
+    "image": "assets/buildings/mariko/mko.bm.industry.gif",
+    "tile_width": 4,
+    "tile_height": 4,
+    "hit_area": [
+      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
+      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
+      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
+      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
+    ]
+  },
+  {
+    "id": "mko.computer.store",
+    "image": "assets/buildings/mariko/mko.computer.store.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":34,"y":41},{"x":64,"y":26},{"x":62,"y":16},{"x":0,"y":15},{"x":0,"y":26}],
+      [{"x":35,"y":1},{"x":0,"y":15},{"x":62,"y":16}]
+    ]
+  }
+]

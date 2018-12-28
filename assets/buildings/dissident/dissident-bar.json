@@ -1,8 +1,8 @@
 [
   {
     "id": "dis.bar",
-    "image": "assets/buildings/dissident/dis.bar.gif",
-    "construction_id": "generic.construction.2",
+    "image_id": "dis.bar",
+    "construction_image_id": "generic.construction.2",
     "name": {
       "en": "Bar"
     },
@@ -10,12 +10,6 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "BAR",
-    "tile_width": 2,
-    "tile_height": 2,
-    "hit_area": [
-      [{"x":18,"y":37},{"x":25,"y":57},{"x":69,"y":66},{"x":110,"y":52},{"x":99,"y":26},{"x":59,"y":20},{"x":48,"y":20}],
-      [{"x":110,"y":36},{"x":99,"y":26},{"x":110,"y":52}]
-    ],
     "required_inventions": ["Bars"],
     "resource_flow": []
   }

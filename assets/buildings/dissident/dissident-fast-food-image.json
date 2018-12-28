@@ -1,0 +1,12 @@
+[
+  {
+    "id": "dis.food.store",
+    "image": "assets/buildings/dissident/dis.food.store.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":9,"y":40},{"x":34,"y":50},{"x":59,"y":38},{"x":50,"y":32},{"x":21,"y":16},{"x":11,"y":20}],
+      [{"x":26,"y":2},{"x":21,"y":16},{"x":50,"y":32},{"x":50,"y":24}]
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 [
   {
     "id": "mko.elect.comp.industry",
-    "image": "assets/buildings/mariko/mko.elect.comp.industry.gif",
-    "construction_id": "generic.construction.4",
+    "image_id": "mko.elect.comp.industry",
+    "construction_image_id": "generic.construction.4",
     "name": {
       "en":"Electronic Component Factory"
     },
@@ -10,14 +10,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "tile_width": 4,
-    "tile_height": 4,
-    "hit_area": [
-      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
-      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
-      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
-      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
-    ],
     "required_inventions": ["ElecLic","LSEPrd"],
     "resource_flow": [
       {
@@ -81,8 +73,8 @@
   },
   {
     "id": "mko.elect.comp.industry.small",
-    "image": "assets/buildings/mariko/mko.elect.comp.industry.small.gif",
-    "construction_id": "generic.construction.4",
+    "image_id": "mko.elect.comp.industry.small",
+    "construction_image_id": "generic.construction.4",
     "name": {
       "en":"Small Electronic Component Factory"
     },
@@ -90,14 +82,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "tile_width": 4,
-    "tile_height": 4,
-    "hit_area": [
-      [{"x":239,"y":68},{"x":205,"y":39},{"x":167,"y":95}],
-      [{"x":11,"y":62},{"x":126,"y":121},{"x":144,"y":8},{"x":129,"y":0},{"x":65,"y":25}],
-      [{"x":205,"y":23},{"x":163,"y":1},{"x":138,"y":112},{"x":137,"y":120},{"x":167,"y":95},{"x":205,"y":39}],
-      [{"x":144,"y":8},{"x":126,"y":121},{"x":138,"y":112},{"x":163,"y":1}]
-    ],
     "required_inventions": ["ElecLic","LSEPrd"],
     "resource_flow": [
       {

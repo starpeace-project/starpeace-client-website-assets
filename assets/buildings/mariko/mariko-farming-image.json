@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mko.farm",
+    "image": "assets/buildings/mariko/mko.farm.gif",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
+      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
+    ]
+  },
+  {
+    "id": "mko.farm.small",
+    "image": "assets/buildings/mariko/mko.farm.small.gif",
+    "tile_width": 5,
+    "tile_height": 5,
+    "hit_area": [
+      [{"x":314,"y":86},{"x":187,"y":22},{"x":136,"y":22},{"x":110,"y":26},{"x":0,"y":85},{"x":157,"y":164}],
+      [{"x":174,"y":1},{"x":166,"y":1},{"x":136,"y":22},{"x":187,"y":22}]
+    ]
+  }
+]

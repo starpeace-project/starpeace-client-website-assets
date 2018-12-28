@@ -1,8 +1,8 @@
 [
   {
     "id": "pgi.computing",
-    "image": "assets/buildings/pgi/pgi.computing.gif",
-    "construction_id": "generic.construction.2",
+    "image_id": "pgi.computing",
+    "construction_image_id": "generic.construction.2",
     "name": {
       "en": "Computer Services"
     },
@@ -10,14 +10,6 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "COMPUTER_SERVICES",
-    "tile_width": 2,
-    "tile_height": 2,
-    "hit_area": [
-      [{"x":116,"y":95},{"x":94,"y":68},{"x":43,"y":112},{"x":69,"y":115}],
-      [{"x":94,"y":68},{"x":82,"y":19},{"x":65,"y":14},{"x":43,"y":22},{"x":36,"y":68},{"x":43,"y":112}],
-      [{"x":65,"y":4},{"x":43,"y":22},{"x":65,"y":14}],
-      [{"x":20,"y":82},{"x":20,"y":96},{"x":43,"y":112},{"x":36,"y":68}]
-    ],
     "required_inventions": ["SoftwareFirms"],
     "resource_flow": [
       {

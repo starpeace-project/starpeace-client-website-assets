@@ -1,0 +1,12 @@
+[
+  {
+    "id": "pgi.restaurant",
+    "image": "assets/buildings/pgi/pgi.restaurant.gif",
+    "construction_image_id": "generic.construction.1",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":55,"y":28},{"x":34,"y":8},{"x":9,"y":22},{"x":10,"y":30},{"x":25,"y":37},{"x":32,"y":37}]
+    ]
+  }
+]

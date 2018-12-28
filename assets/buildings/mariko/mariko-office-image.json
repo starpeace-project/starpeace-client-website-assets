@@ -1,0 +1,134 @@
+[
+  {
+    "id": "mko.office.a.empty",
+    "image": "assets/buildings/mariko/mko.office.a.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":59,"y":130},{"x":123,"y":99},{"x":99,"y":87},{"x":24,"y":87},{"x":0,"y":98}],
+      [{"x":35,"y":12},{"x":35,"y":25},{"x":99,"y":87},{"x":96,"y":36},{"x":71,"y":3},{"x":60,"y":0}],
+      [{"x":24,"y":28},{"x":24,"y":87},{"x":99,"y":87},{"x":35,"y":25}]
+    ]
+  },
+  {
+    "id": "mko.office.a",
+    "image": "assets/buildings/mariko/mko.office.a.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":59,"y":130},{"x":123,"y":99},{"x":99,"y":87},{"x":24,"y":87},{"x":0,"y":98}],
+      [{"x":35,"y":12},{"x":35,"y":25},{"x":99,"y":87},{"x":96,"y":36},{"x":71,"y":3},{"x":60,"y":0}],
+      [{"x":24,"y":28},{"x":24,"y":87},{"x":99,"y":87},{"x":35,"y":25}]
+    ]
+  },
+  {
+    "id": "mko.office.b.empty",
+    "image": "assets/buildings/mariko/mko.office.b.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":123,"y":177},{"x":102,"y":76},{"x":45,"y":9},{"x":0,"y":175},{"x":63,"y":207}],
+      [{"x":66,"y":0},{"x":45,"y":9},{"x":102,"y":76},{"x":102,"y":71},{"x":86,"y":10}]
+    ]
+  },
+  {
+    "id": "mko.office.b",
+    "image": "assets/buildings/mariko/mko.office.b.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":123,"y":177},{"x":102,"y":76},{"x":45,"y":9},{"x":0,"y":175},{"x":63,"y":207}],
+      [{"x":66,"y":0},{"x":45,"y":9},{"x":102,"y":76},{"x":102,"y":71},{"x":86,"y":10}]
+    ]
+  },
+  {
+    "id": "mko.office.c.empty",
+    "image": "assets/buildings/mariko/mko.office.c.empty.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":21,"y":173},{"x":56,"y":163},{"x":55,"y":11},{"x":41,"y":1},{"x":20,"y":1},{"x":7,"y":10},{"x":7,"y":162}]
+    ]
+  },
+  {
+    "id": "mko.office.c",
+    "image": "assets/buildings/mariko/mko.office.c.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":21,"y":173},{"x":56,"y":163},{"x":55,"y":11},{"x":41,"y":1},{"x":20,"y":1},{"x":7,"y":10},{"x":7,"y":162}]
+    ]
+  },
+  {
+    "id": "mko.office.d.empty",
+    "image": "assets/buildings/mariko/mko.office.d.empty.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":13,"y":201},{"x":41,"y":200},{"x":54,"y":183},{"x":54,"y":46},{"x":44,"y":33},{"x":17,"y":30},{"x":2,"y":35},{"x":2,"y":174}],
+      [{"x":36,"y":10},{"x":34,"y":28},{"x":42,"y":31}],
+      [{"x":20,"y":11},{"x":17,"y":30},{"x":21,"y":28}],
+      [{"x":34,"y":28},{"x":21,"y":28},{"x":17,"y":30},{"x":44,"y":33},{"x":42,"y":31}],
+      [{"x":44,"y":33},{"x":42,"y":1},{"x":42,"y":31}]
+    ]
+  },
+  {
+    "id": "mko.office.d",
+    "image": "assets/buildings/mariko/mko.office.d.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":13,"y":201},{"x":41,"y":200},{"x":54,"y":183},{"x":54,"y":46},{"x":44,"y":33},{"x":17,"y":30},{"x":2,"y":35},{"x":2,"y":174}],
+      [{"x":36,"y":10},{"x":34,"y":28},{"x":42,"y":31}],
+      [{"x":20,"y":11},{"x":17,"y":30},{"x":21,"y":28}],
+      [{"x":34,"y":28},{"x":21,"y":28},{"x":17,"y":30},{"x":44,"y":33},{"x":42,"y":31}],
+      [{"x":44,"y":33},{"x":42,"y":1},{"x":42,"y":31}]
+    ]
+  },
+  {
+    "id": "mko.office.e.empty",
+    "image": "assets/buildings/mariko/mko.office.e.empty.gif",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":186,"y":62},{"x":123,"y":30},{"x":62,"y":31},{"x":38,"y":41},{"x":25,"y":50},{"x":94,"y":108}],
+      [{"x":95,"y":1},{"x":62,"y":31},{"x":123,"y":30}],
+      [{"x":33,"y":32},{"x":28,"y":32},{"x":25,"y":50},{"x":38,"y":41}],
+      [{"x":1,"y":62},{"x":94,"y":108},{"x":25,"y":50}]
+    ]
+  },
+  {
+    "id": "mko.office.e",
+    "image": "assets/buildings/mariko/mko.office.e.gif",
+    "tile_width": 3,
+    "tile_height": 3,
+    "hit_area": [
+      [{"x":186,"y":62},{"x":123,"y":30},{"x":62,"y":31},{"x":38,"y":41},{"x":25,"y":50},{"x":94,"y":108}],
+      [{"x":95,"y":1},{"x":62,"y":31},{"x":123,"y":30}],
+      [{"x":33,"y":32},{"x":28,"y":32},{"x":25,"y":50},{"x":38,"y":41}],
+      [{"x":1,"y":62},{"x":94,"y":108},{"x":25,"y":50}]
+    ]
+  },
+  {
+    "id": "mko.office.f.empty",
+    "image": "assets/buildings/mariko/mko.office.f.empty.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":63,"y":0},{"x":39,"y":19},{"x":10,"y":45},{"x":61,"y":68},{"x":82,"y":16}],
+      [{"x":21,"y":7},{"x":1,"y":29},{"x":10,"y":45},{"x":39,"y":19}],
+      [{"x":61,"y":68},{"x":120,"y":41},{"x":109,"y":16},{"x":82,"y":16}]
+    ]
+  },
+  {
+    "id": "mko.office.f",
+    "image": "assets/buildings/mariko/mko.office.f.gif",
+    "tile_width": 2,
+    "tile_height": 2,
+    "hit_area": [
+      [{"x":63,"y":0},{"x":39,"y":19},{"x":10,"y":45},{"x":61,"y":68},{"x":82,"y":16}],
+      [{"x":21,"y":7},{"x":1,"y":29},{"x":10,"y":45},{"x":39,"y":19}],
+      [{"x":61,"y":68},{"x":120,"y":41},{"x":109,"y":16},{"x":82,"y":16}]
+    ]
+  }
+]

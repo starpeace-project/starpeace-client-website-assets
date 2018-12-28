@@ -1,0 +1,11 @@
+[
+  {
+    "id": "pgi.food.store",
+    "image": "assets/buildings/pgi/pgi.food.store.gif",
+    "tile_width": 1,
+    "tile_height": 1,
+    "hit_area": [
+      [{"x":53,"y":29},{"x":37,"y":3},{"x":31,"y":3},{"x":11,"y":21},{"x":22,"y":35}]
+    ]
+  }
+]

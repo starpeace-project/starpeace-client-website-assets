@@ -1,8 +1,8 @@
 [
   {
     "id": "moab.clothes.industry",
-    "image": "assets/buildings/moab/moab.clothes.industry.gif",
-    "construction_id": "generic.construction.4",
+    "image_id": "moab.clothes.industry",
+    "construction_image_id": "generic.construction.4",
     "name": {
       "en": "Dome of Clothes"
     },
@@ -10,14 +10,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "tile_width": 4,
-    "tile_height": 4,
-    "hit_area": [
-      [{"x":12,"y":89},{"x":13,"y":98},{"x":124,"y":154},{"x":251,"y":94},{"x":25,"y":86}],
-      [{"x":13,"y":58},{"x":21,"y":62},{"x":30,"y":50}],
-      [{"x":21,"y":62},{"x":25,"y":86},{"x":251,"y":94},{"x":232,"y":84},{"x":30,"y":50}],
-      [{"x":236,"y":54},{"x":130,"y":1},{"x":108,"y":4},{"x":30,"y":42},{"x":30,"y":50},{"x":232,"y":84}]
-    ],
     "required_inventions": ["ClothesLic","LSCManuf"],
     "resource_flow": [
       {
@@ -86,8 +78,8 @@
   },
   {
     "id": "moab.clothes.store",
-    "image": "assets/buildings/moab/moab.clothes.store.gif",
-    "construction_id": "generic.construction.1",
+    "image_id": "moab.clothes.store",
+    "construction_image_id": "generic.construction.1",
     "name": {
       "en": "Clothes Store"
     },
@@ -95,13 +87,6 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "CLOTHES",
-    "tile_width": 1,
-    "tile_height": 1,
-    "hit_area": [
-      [{"x":42,"y":16},{"x":39,"y":4},{"x":14,"y":6},{"x":14,"y":17},{"x":22,"y":21},{"x":31,"y":19}],
-      [{"x":63,"y":45},{"x":45,"y":37},{"x":6,"y":47},{"x":30,"y":59}],
-      [{"x":7,"y":28},{"x":6,"y":47},{"x":45,"y":37},{"x":46,"y":26},{"x":31,"y":19},{"x":22,"y":21}]
-    ],
     "required_inventions": [],
     "resource_flow": []
   }

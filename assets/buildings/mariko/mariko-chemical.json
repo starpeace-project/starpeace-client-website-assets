@@ -1,8 +1,8 @@
 [
   {
     "id": "mko.chemical.industry",
-    "image": "assets/buildings/mariko/mko.chemical.industry.gif",
-    "construction_id": "generic.construction.4",
+    "image_id": "mko.chemical.industry",
+    "construction_image_id": "generic.construction.4",
     "name": {
       "en":"Chemical Plant"
     },
@@ -10,16 +10,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "tile_width": 4,
-    "tile_height": 4,
-    "hit_area": [
-      [{"x":17,"y":76},{"x":39,"y":96},{"x":81,"y":110},{"x":74,"y":42},{"x":62,"y":43}],
-      [{"x":213,"y":34},{"x":203,"y":38},{"x":232,"y":69},{"x":221,"y":40}],
-      [{"x":157,"y":6},{"x":122,"y":2},{"x":74,"y":30},{"x":171,"y":22}],
-      [{"x":183,"y":20},{"x":171,"y":22},{"x":232,"y":69},{"x":203,"y":38}],
-      [{"x":126,"y":142},{"x":250,"y":78},{"x":232,"y":69},{"x":74,"y":30},{"x":74,"y":42},{"x":81,"y":110},{"x":88,"y":123}],
-      [{"x":171,"y":22},{"x":74,"y":30},{"x":232,"y":69}]
-    ],
     "required_inventions": ["ChemLic","LargeChem"],
     "resource_flow": [
       {
@@ -80,8 +70,8 @@
   },
   {
     "id": "mko.chemical.industry.small",
-    "image": "assets/buildings/mariko/mko.chemical.industry.small.gif",
-    "construction_id": "generic.construction.4",
+    "image_id": "mko.chemical.industry.small",
+    "construction_image_id": "generic.construction.4",
     "name": {
       "en":"Small Chemical Plant"
     },
@@ -89,16 +79,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "tile_width": 4,
-    "tile_height": 4,
-    "hit_area": [
-      [{"x":17,"y":76},{"x":39,"y":96},{"x":81,"y":110},{"x":74,"y":42},{"x":62,"y":43}],
-      [{"x":213,"y":34},{"x":203,"y":38},{"x":232,"y":69},{"x":221,"y":40}],
-      [{"x":157,"y":6},{"x":122,"y":2},{"x":74,"y":30},{"x":171,"y":22}],
-      [{"x":183,"y":20},{"x":171,"y":22},{"x":232,"y":69},{"x":203,"y":38}],
-      [{"x":126,"y":142},{"x":250,"y":78},{"x":232,"y":69},{"x":74,"y":30},{"x":74,"y":42},{"x":81,"y":110},{"x":88,"y":123}],
-      [{"x":171,"y":22},{"x":74,"y":30},{"x":232,"y":69}]
-    ],
     "required_inventions": ["ChemLic","LargeChem"],
     "resource_flow": [
       {
@@ -159,8 +139,8 @@
   },
   {
     "id": "mko.plastic.industry",
-    "image": "assets/buildings/mariko/mko.plastic.industry.gif",
-    "construction_id": "generic.construction.5",
+    "image_id": "mko.plastic.industry",
+    "construction_image_id": "generic.construction.5",
     "name": {
       "en":"Plastic Factory"
     },
@@ -168,17 +148,6 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "tile_width": 5,
-    "tile_height": 5,
-    "hit_area": [
-      [{"x":54,"y":87},{"x":49,"y":100},{"x":130,"y":141},{"x":63,"y":89}],
-      [{"x":253,"y":86},{"x":238,"y":81},{"x":206,"y":145},{"x":241,"y":128},{"x":261,"y":100}],
-      [{"x":228,"y":52},{"x":217,"y":52},{"x":139,"y":149},{"x":175,"y":153},{"x":206,"y":145},{"x":238,"y":81}],
-      [{"x":69,"y":128},{"x":111,"y":138},{"x":130,"y":141},{"x":49,"y":100},{"x":42,"y":100}],
-      [{"x":114,"y":22},{"x":68,"y":68},{"x":130,"y":141},{"x":139,"y":149},{"x":217,"y":52},{"x":212,"y":0}],
-      [{"x":215,"y":13},{"x":212,"y":0},{"x":215,"y":27}],
-      [{"x":63,"y":89},{"x":130,"y":141},{"x":68,"y":68}]
-    ],
     "required_inventions": ["ChemLic","LargeChem"],
     "resource_flow": [
       {
