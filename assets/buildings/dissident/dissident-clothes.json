@@ -10,111 +10,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
-    "resource_flow": [
-      {
-        "key": "Clothing-Clothing",
-        "budget": 200,
-        "cost": 12000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_HI", "max": 5 },
-          { "resource": "CLOTHES_MID", "max": 50 },
-          { "resource": "CLOTHES_LO", "max": 100 }
-        ]
-      },
-      {
-        "key": "Dissident.Clothing-Dissident Clothing",
-        "budget": 0,
-        "cost": 7000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 30 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 100 }
-        ]
-      },
-      {
-        "key": "block.Clothing-Clothing",
-        "budget": 57,
-        "cost": 6000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 22 },
-          { "resource": "ORGANIC_MATERIAL", "max": 8 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 30 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Clothing-Clothing",
-        "budget": 670.2658,
-        "cost": 10080000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 26 },
-          { "resource": "ORGANIC_MATERIAL", "max": 10 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 109 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-          { "resource": "LEGAL_SERVICES", "max": 0.238000020384789 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 60.2999992370605 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Clothing-Clothing small",
-        "budget": 0.7352,
-        "cost": 2400000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 9 },
-          { "resource": "ORGANIC_MATERIAL", "max": 3 },
-          { "resource": "CHEMICAL", "max": 3 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 63 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 12 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSCManuf"],
+    "industry": {
+      "budget": 670,
+      "cost": 10080000,
+      "required_inputs": [
+        { "resource": "FABRIC", "max": 26 },
+        { "resource": "ORGANIC_MATERIAL", "max": 10 },
+        { "resource": "CHEMICAL", "max": 10 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 109 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CLOTHES", "max": 60 }
+      ]
+    }
   },
   {
     "id": "dis.clothes.industry.small",
@@ -127,111 +41,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
-    "resource_flow": [
-      {
-        "key": "Clothing-Clothing",
-        "budget": 200,
-        "cost": 12000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_HI", "max": 5 },
-          { "resource": "CLOTHES_MID", "max": 50 },
-          { "resource": "CLOTHES_LO", "max": 100 }
-        ]
-      },
-      {
-        "key": "Dissident.Clothing-Dissident Clothing",
-        "budget": 0,
-        "cost": 7000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 30 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 100 }
-        ]
-      },
-      {
-        "key": "block.Clothing-Clothing",
-        "budget": 57,
-        "cost": 6000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 22 },
-          { "resource": "ORGANIC_MATERIAL", "max": 8 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 30 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Clothing-Clothing",
-        "budget": 670.2658,
-        "cost": 10080000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 26 },
-          { "resource": "ORGANIC_MATERIAL", "max": 10 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 109 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-          { "resource": "LEGAL_SERVICES", "max": 0.238000020384789 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 60.2999992370605 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Clothing-Clothing small",
-        "budget": 0.7352,
-        "cost": 2400000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 9 },
-          { "resource": "ORGANIC_MATERIAL", "max": 3 },
-          { "resource": "CHEMICAL", "max": 3 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 63 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 12 }
-        ]
-      }
-    ]
+    "required_inventions": ["ClothesLic"],
+    "industry": {
+      "budget": 57,
+      "cost": 2400000,
+      "required_inputs": [
+        { "resource": "FABRIC", "max": 9 },
+        { "resource": "ORGANIC_MATERIAL", "max": 3 },
+        { "resource": "CHEMICAL", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 63 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "CLOTHES", "max": 12 }
+      ]
+    }
   },
   {
     "id": "dis.clothes.store",
@@ -244,7 +72,7 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "CLOTHES",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": ["BasicCommerce"],
+    "commerce": {}
   }
 ]

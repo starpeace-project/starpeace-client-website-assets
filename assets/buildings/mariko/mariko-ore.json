@@ -10,63 +10,23 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ORE",
-    "required_inventions": ["Mining","LSMining"],
-    "resource_flow": [
-      {
-        "key": "Mine-Mine",
-        "budget": 5300,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 30 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 10000 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Mine-Mine",
-        "budget": 87.7822,
-        "cost": 12600000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 14 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.534000039100647 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 728 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Mine-Mine small",
-        "budget": 0,
-        "cost": 3000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 5 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 75 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.180000007152557 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 255 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSMining"],
+    "industry": {
+      "budget": 530,
+      "cost": 12600000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 14 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 133 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.5 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "ORE", "max": 728 }
+      ]
+    }
   },
   {
     "id": "mko.mine.small",
@@ -79,62 +39,22 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ORE",
-    "required_inventions": ["Mining","LSMining"],
-    "resource_flow": [
-      {
-        "key": "Mine-Mine",
-        "budget": 5300,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 30 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 10000 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Mine-Mine",
-        "budget": 87.7822,
-        "cost": 12600000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 14 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.534000039100647 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 728 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Mine-Mine small",
-        "budget": 0,
-        "cost": 3000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 5 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 75 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.180000007152557 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "ORE", "max": 255 }
-        ]
-      }
-    ]
+    "required_inventions": ["Mining"],
+    "industry": {
+      "budget": 87,
+      "cost": 3000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 5 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 75 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "ORE", "max": 255 }
+      ]
+    }
   }
 ]

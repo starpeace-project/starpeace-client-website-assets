@@ -11,6 +11,25 @@
     "category": "INDUSTRY",
     "industry_type": "BOOK",
     "required_inventions": ["PrintingInd"],
-    "resource_flow": []
+    "industry": {
+      "budget": 1620,
+      "cost": 60000000,
+      "required_inputs": [
+        { "resource": "PAPER", "max": 60 },
+        { "resource": "ORGANIC_MATERIAL", "max": 10 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 6 },
+        { "resource": "WORK_FORCE_LO", "max": 100 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "BOOK", "max": 100 },
+        { "resource": "PRINTED_MATERIAL", "max": 50 }
+      ]
+    }
   }
 ]

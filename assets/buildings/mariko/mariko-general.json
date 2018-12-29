@@ -11,7 +11,7 @@
     "category": "CIVIC",
     "industry_type": "HOSPITAL",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "mko.hq",
@@ -24,8 +24,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "mko.police",
@@ -39,7 +38,7 @@
     "category": "CIVIC",
     "industry_type": "POLICE",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "mko.school",
@@ -53,7 +52,7 @@
     "category": "CIVIC",
     "industry_type": "SCHOOL",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "mko.townhall",
@@ -67,8 +66,7 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "mko.tradecenter",
@@ -82,7 +80,6 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   }
 ]

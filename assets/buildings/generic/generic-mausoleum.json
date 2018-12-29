@@ -1,19 +1,8 @@
 [
   {
-    "id": "generic.mausoleum.construction",
-    "image_id": "generic.mausoleum.construction",
-    "construction_image_id": "generic.construction.9",
-    "seal": "generic",
-    "zone": "MAUSOLEUM",
-    "category": "SERVICE",
-    "industry_type": "MAUSOLEUM",
-    "required_inventions": [],
-    "resource_flow": []
-  },
-  {
     "id": "generic.mausoleum.legend",
     "image_id": "generic.mausoleum.legend",
-    "construction_image_id": "generic.construction.9",
+    "construction_image_id": "generic.mausoleum.construction",
     "name": {
       "en": "Legend Mausoleum"
     },
@@ -22,7 +11,7 @@
     "category": "SERVICE",
     "industry_type": "MAUSOLEUM",
     "required_inventions": [],
-    "resource_flow": []
+    "mausoleum": {}
   },
   {
     "id": "generic.mausoleum.paradigm",
@@ -36,6 +25,6 @@
     "category": "SERVICE",
     "industry_type": "MAUSOLEUM",
     "required_inventions": [],
-    "resource_flow": []
+    "mausoleum": {}
   }
 ]

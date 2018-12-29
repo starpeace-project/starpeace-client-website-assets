@@ -11,74 +11,28 @@
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
     "required_inventions": ["AutoInd"],
-    "resource_flow": [
-      {
-        "key": "CarIndustry-Car Industry",
-        "budget": 35600,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 20 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CAR_HI", "max": 0.3 },
-          { "resource": "CAR_MID", "max": 1 },
-          { "resource": "CAR_LO", "max": 3 }
-        ]
-      },
-      {
-        "key": "Mariko.block.CarIndustry-Car Industry",
-        "budget": 1413.4325,
-        "cost": 20159999,
-        "required_inputs": [
-          { "resource": "METAL", "max": 356 },
-          { "resource": "FABRIC", "max": 32 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
-          { "resource": "CHEMICAL", "max": 36 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 20 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.77999997138977 },
-          { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.546000063419342 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.CarIndustry-Car Industry small",
-        "budget": 346.4703,
-        "cost": 4800000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 120 },
-          { "resource": "FABRIC", "max": 11 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 5 },
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 116 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.600000023841858 },
-          { "resource": "LEGAL_SERVICES", "max": 0.180000007152557 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.180000007152557 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 1400,
+      "cost": 20160000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 356 },
+        { "resource": "FABRIC", "max": 32 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
+        { "resource": "CHEMICAL", "max": 36 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 20 },
+        { "resource": "WORK_FORCE_LO", "max": 200 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1.77999997138977 },
+        { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+      ],
+      "outputs": [
+        { "resource": "CAR_HI", "max": 0.3 },
+        { "resource": "CAR_MID", "max": 1 },
+        { "resource": "CAR_LO", "max": 3 }
+      ]
+    }
   },
   {
     "id": "mko.car.store",
@@ -92,6 +46,6 @@
     "category": "COMMERCE",
     "industry_type": "AUTOMOBILE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

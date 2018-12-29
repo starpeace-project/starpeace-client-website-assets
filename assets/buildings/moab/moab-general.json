@@ -11,7 +11,7 @@
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
     "required_inventions": [],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "moab.correctional",
@@ -25,7 +25,7 @@
     "category": "CIVIC",
     "industry_type": "PRISON",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "moab.correctional.tower",
@@ -39,7 +39,7 @@
     "category": "CIVIC",
     "industry_type": "PRISON",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "moab.hq",
@@ -52,8 +52,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "moab.industry.tower",
@@ -66,8 +65,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "moab.market.tower",
@@ -80,8 +78,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "moab.residential.tower",
@@ -94,8 +91,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "moab.townhall",
@@ -109,8 +105,7 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "moab.tradecenter",
@@ -124,7 +119,6 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "required_inventions": []
   }
 ]

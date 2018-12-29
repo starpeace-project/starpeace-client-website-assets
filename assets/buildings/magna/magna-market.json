@@ -11,7 +11,7 @@
     "category": "COMMERCE",
     "industry_type": "MARKET",
     "required_inventions": ["Supermarkets"],
-    "resource_flow": []
+    "commerce": {}
   },
   {
     "id": "magna.supermarket.b",
@@ -25,6 +25,6 @@
     "category": "COMMERCE",
     "industry_type": "MARKET",
     "required_inventions": ["Supermarkets"],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

@@ -11,7 +11,7 @@
     "category": "COMMERCE",
     "industry_type": "GASOLINE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   },
   {
     "id": "moab.refinery",
@@ -25,6 +25,22 @@
     "category": "INDUSTRY",
     "industry_type": "GASOLINE",
     "required_inventions": ["Refinery"],
-    "resource_flow": []
+    "industry": {
+      "budget": 100,
+      "cost": 35000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 10 },
+        { "resource": "CRUDE_OIL", "max": 3000 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 100 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.3 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "GASOLINE", "max": 3000 }
+      ]
+    }
   }
 ]

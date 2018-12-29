@@ -10,92 +10,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic","LargeFarms"],
-    "resource_flow": [
-      {
-        "key": "Dissident.Farm-Dissident Farm",
-        "budget": 1070,
-        "cost": 3000000,
-        "required_inputs": [],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 1 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.05 },
-          { "resource": "LEGAL_SERVICES", "max": 0.01 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 150 },
-          { "resource": "ORGANIC_MATERIAL", "max": 70 }
-        ]
-      },
-      {
-        "key": "Farm-Farm",
-        "budget": 1550,
-        "cost": 880000,
-        "required_inputs": [],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
-          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 }
-        ]
-      },
-      {
-        "key": "block.Farm-Farm",
-        "budget": 0,
-        "cost": 4000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 20 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.3 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 25 },
-          { "resource": "ORGANIC_MATERIAL", "max": 12 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Farm-Farm",
-        "budget": 370.7038,
-        "cost": 6720000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 22 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 50.25 },
-          { "resource": "ORGANIC_MATERIAL", "max": 24.1199989318848 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Farm-Farm small",
-        "budget": 56.4234,
-        "cost": 1600000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 13 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 10 },
-          { "resource": "ORGANIC_MATERIAL", "max": 4.80000019073486 }
-        ]
-      }
-    ]
+    "required_inventions": ["LargeFarms"],
+    "industry": {
+      "budget": 370,
+      "cost": 6720000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 22 }
+      ],
+      "optional_inputs": [
+        { "resource": "CHEMICAL", "max": 1 },
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "FRESH_FOOD", "max": 50 },
+        { "resource": "ORGANIC_MATERIAL", "max": 24 }
+      ]
+    }
   },
   {
     "id": "dis.farm.small",
@@ -108,91 +40,23 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic","LargeFarms"],
-    "resource_flow": [
-      {
-        "key": "Dissident.Farm-Dissident Farm",
-        "budget": 1070,
-        "cost": 3000000,
-        "required_inputs": [],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 1 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.05 },
-          { "resource": "LEGAL_SERVICES", "max": 0.01 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 150 },
-          { "resource": "ORGANIC_MATERIAL", "max": 70 }
-        ]
-      },
-      {
-        "key": "Farm-Farm",
-        "budget": 1550,
-        "cost": 880000,
-        "required_inputs": [],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.041 },
-          { "resource": "LEGAL_SERVICES", "max": 0.01200000000000000 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 }
-        ]
-      },
-      {
-        "key": "block.Farm-Farm",
-        "budget": 0,
-        "cost": 4000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 20 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.3 },
-          { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 25 },
-          { "resource": "ORGANIC_MATERIAL", "max": 12 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Farm-Farm",
-        "budget": 370.7038,
-        "cost": 6720000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 22 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 50.25 },
-          { "resource": "ORGANIC_MATERIAL", "max": 24.1199989318848 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Farm-Farm small",
-        "budget": 56.4234,
-        "cost": 1600000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 13 }
-        ],
-        "optional_inputs": [
-          { "resource": "CHEMICAL", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "FRESH_FOOD", "max": 10 },
-          { "resource": "ORGANIC_MATERIAL", "max": 4.80000019073486 }
-        ]
-      }
-    ]
+    "required_inventions": ["FarmLic"],
+    "industry": {
+      "budget": 60,
+      "cost": 1600000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 13 }
+      ],
+      "optional_inputs": [
+        { "resource": "CHEMICAL", "max": 0.3 },
+        { "resource": "COMPUTER_SERVICES", "max": 0.05 },
+        { "resource": "LEGAL_SERVICES", "max": 0.01 }
+      ],
+      "outputs": [
+        { "resource": "FRESH_FOOD", "max": 10 },
+        { "resource": "ORGANIC_MATERIAL", "max": 4 }
+      ]
+    }
   }
 ]

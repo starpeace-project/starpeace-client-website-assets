@@ -11,6 +11,6 @@
     "category": "COMMERCE",
     "industry_type": "FUNERAL_SERVICES",
     "required_inventions": ["Funerals"],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

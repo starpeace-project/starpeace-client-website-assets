@@ -11,116 +11,26 @@
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
     "required_inventions": ["AutoInd"],
-    "resource_flow": [
-      {
-        "key": "CarIndustry-Car Industry",
-        "budget": 35600,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 20 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CAR_HI", "max": 0.3 },
-          { "resource": "CAR_MID", "max": 1 },
-          { "resource": "CAR_LO", "max": 3 }
-        ]
-      },
-      {
-        "key": "Dissident.CarIndustry-Dissident Car Industry",
-        "budget": 0,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 500 },
-          { "resource": "FABRIC", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 60 },
-          { "resource": "WORK_FORCE_HI", "max": 15 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 400 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.8 }
-        ]
-      },
-      {
-        "key": "block.CarIndustry-Car Industry",
-        "budget": 730,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 200 },
-          { "resource": "FABRIC", "max": 18 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 8 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.3 }
-        ]
-      },
-      {
-        "key": "Dissident.block.CarIndustry-Car Industry",
-        "budget": 3742.0382,
-        "cost": 13440001,
-        "required_inputs": [
-          { "resource": "METAL", "max": 238 },
-          { "resource": "FABRIC", "max": 21 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 16 },
-          { "resource": "WORK_FORCE_LO", "max": 164 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.19000005722046 },
-          { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.603000044822693 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.CarIndustry-Car Industry small",
-        "budget": 218.6469,
-        "cost": 3200000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 80 },
-          { "resource": "FABRIC", "max": 7 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 3 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 9 },
-          { "resource": "WORK_FORCE_LO", "max": 95 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.120000004768372 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 8000,
+      "cost": 30000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 500 },
+        { "resource": "FABRIC", "max": 40 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+        { "resource": "CHEMICAL", "max": 60 },
+        { "resource": "WORK_FORCE_HI", "max": 15 },
+        { "resource": "WORK_FORCE_MID", "max": 50 },
+        { "resource": "WORK_FORCE_LO", "max": 400 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CAR_MID", "max": 0.8 }
+      ]
+    }
   },
   {
     "id": "dis.car.store",
@@ -133,130 +43,7 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "AUTOMOBILE",
-    "required_inventions": [],
-    "resource_flow": []
-  },
-  {
-    "id": "dis.car.industry",
-    "image_id": "dis.car.industry",
-    "construction_image_id": "generic.construction.4",
-    "name": {
-      "en": "Automobile Factory"
-    },
-    "seal": "dissident",
-    "zone": "INDUSTRIAL",
-    "category": "INDUSTRY",
-    "industry_type": "AUTOMOBILE",
-    "required_inventions": ["AutoInd"],
-    "resource_flow": [
-      {
-        "key": "CarIndustry-Car Industry",
-        "budget": 35600,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 20 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CAR_HI", "max": 0.3 },
-          { "resource": "CAR_MID", "max": 1 },
-          { "resource": "CAR_LO", "max": 3 }
-        ]
-      },
-      {
-        "key": "Dissident.CarIndustry-Dissident Car Industry",
-        "budget": 0,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 500 },
-          { "resource": "FABRIC", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 60 },
-          { "resource": "WORK_FORCE_HI", "max": 15 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 400 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.8 }
-        ]
-      },
-      {
-        "key": "block.CarIndustry-Car Industry",
-        "budget": 730,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 200 },
-          { "resource": "FABRIC", "max": 18 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 8 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.3 }
-        ]
-      },
-      {
-        "key": "Dissident.block.CarIndustry-Car Industry",
-        "budget": 3742.0382,
-        "cost": 13440001,
-        "required_inputs": [
-          { "resource": "METAL", "max": 238 },
-          { "resource": "FABRIC", "max": 21 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 16 },
-          { "resource": "WORK_FORCE_LO", "max": 164 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.19000005722046 },
-          { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.603000044822693 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.CarIndustry-Car Industry small",
-        "budget": 218.6469,
-        "cost": 3200000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 80 },
-          { "resource": "FABRIC", "max": 7 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 3 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 9 },
-          { "resource": "WORK_FORCE_LO", "max": 95 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.120000004768372 }
-        ]
-      }
-    ]
+    "required_inventions": ["BasicCommerce"],
+    "commerce": {}
   }
 ]

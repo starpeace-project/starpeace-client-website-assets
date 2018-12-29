@@ -10,65 +10,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["FoodPrcLic","LSFoodPrc"],
-    "resource_flow": [
-      {
-        "key": "FoodProcessing-Food Processing Plant",
-        "budget": 0,
-        "cost": 14000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 100 },
-          { "resource": "CHEMICAL", "max": 85 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 20 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.012 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 200 }
-        ]
-      },
-      {
-        "key": "Moab.FoodProcessing-Moab Food Processing Plant",
-        "budget": 0,
-        "cost": 20000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 150 },
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 7 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 150 }
-        ]
-      },
-      {
-        "key": "Moab.block.FoodProcessing-Food Processing Plant",
-        "budget": 0,
-        "cost": 12600000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 40 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 60 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 40 }
-        ]
-      }
-    ]
+    "required_inventions": ["FoodPrcLic"],
+    "industry": {
+      "budget": 100,
+      "cost": 20000000,
+      "required_inputs": [
+        { "resource": "FRESH_FOOD", "max": 150 },
+        { "resource": "CHEMICAL", "max": 12 },
+        { "resource": "WORK_FORCE_HI", "max": 2 },
+        { "resource": "WORK_FORCE_MID", "max": 7 },
+        { "resource": "WORK_FORCE_LO", "max": 133 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.5 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "PROCESSED_FOOD", "max": 40 }
+      ]
+    }
   }
 ]

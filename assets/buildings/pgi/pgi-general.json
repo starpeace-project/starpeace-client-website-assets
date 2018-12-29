@@ -11,7 +11,7 @@
     "category": "CIVIC",
     "industry_type": "FIRE_PREVENTION",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "pgi.hospital",
@@ -25,7 +25,7 @@
     "category": "CIVIC",
     "industry_type": "HOSPITAL",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "pgi.hq",
@@ -38,8 +38,7 @@
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "pgi.police",
@@ -53,7 +52,7 @@
     "category": "CIVIC",
     "industry_type": "POLICE",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "pgi.school",
@@ -67,7 +66,7 @@
     "category": "CIVIC",
     "industry_type": "SCHOOL",
     "required_inventions": ["CivicFac"],
-    "resource_flow": []
+    "civic": {}
   },
   {
     "id": "pgi.townhall",
@@ -81,8 +80,7 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "pgi.tradecenter",
@@ -96,7 +94,6 @@
     "category": "CIVIC",
     "industry_type": "GOVERNMENT",
     "restricted": true,
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   }
 ]

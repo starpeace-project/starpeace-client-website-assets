@@ -11,103 +11,24 @@
     "category": "INDUSTRY",
     "industry_type": "METAL",
     "required_inventions": ["Metallic","LSMetal"],
-    "resource_flow": [
-      {
-        "key": "Dissident.Metalurgic-Dissident Metalurgic",
-        "budget": 825,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "CHEMICAL", "max": 225 },
-          { "resource": "WORK_FORCE_HI", "max": 6 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 420 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1500 }
-        ]
-      },
-      {
-        "key": "Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 1800 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "block.Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 11000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 250 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-          { "resource": "LEGAL_SERVICES", "max": 0.1 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 120 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Metalurgic-Metalurgic",
-        "budget": 819.7705,
-        "cost": 18480001,
-        "required_inputs": [
-          { "resource": "ORE", "max": 298 },
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 131 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.238000020384789 },
-          { "resource": "LEGAL_SERVICES", "max": 0.119000010192394 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 241.199996948242 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Metalurgic-Metalurgic small",
-        "budget": 0,
-        "cost": 4400000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 100 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 76 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.0800000056624413 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0400000028312206 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 50 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 800,
+      "cost": 18480000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 298 },
+        { "resource": "CHEMICAL", "max": 24 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 131 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "METAL", "max": 240 }
+      ]
+    }
   },
   {
     "id": "dis.metal.industry.small",
@@ -121,102 +42,22 @@
     "category": "INDUSTRY",
     "industry_type": "METAL",
     "required_inventions": ["Metallic","LSMetal"],
-    "resource_flow": [
-      {
-        "key": "Dissident.Metalurgic-Dissident Metalurgic",
-        "budget": 825,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "CHEMICAL", "max": 225 },
-          { "resource": "WORK_FORCE_HI", "max": 6 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 420 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1500 }
-        ]
-      },
-      {
-        "key": "Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 1800 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "block.Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 11000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 250 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-          { "resource": "LEGAL_SERVICES", "max": 0.1 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 120 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Metalurgic-Metalurgic",
-        "budget": 819.7705,
-        "cost": 18480001,
-        "required_inputs": [
-          { "resource": "ORE", "max": 298 },
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 131 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.238000020384789 },
-          { "resource": "LEGAL_SERVICES", "max": 0.119000010192394 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 241.199996948242 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Metalurgic-Metalurgic small",
-        "budget": 0,
-        "cost": 4400000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 100 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 76 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.0800000056624413 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0400000028312206 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 50 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 600,
+      "cost": 4400000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 100 },
+        { "resource": "CHEMICAL", "max": 8 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 76 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+        { "resource": "LEGAL_SERVICES", "max": 0.03 }
+      ],
+      "outputs": [
+        { "resource": "METAL", "max": 50 }
+      ]
+    }
   }
 ]

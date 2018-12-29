@@ -119,7 +119,7 @@
     },
     {
       "id": "HouseHolding",
-      "resource": "HOUSEHOLD_APPLIANCE",
+      "resource": "APPLIANCE",
       "options": {
         "name": "House Holding Appliances",
         "price": "200",

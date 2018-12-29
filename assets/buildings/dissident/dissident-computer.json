@@ -11,106 +11,24 @@
     "category": "INDUSTRY",
     "industry_type": "COMPUTER",
     "required_inventions": ["BMInd"],
-    "resource_flow": [
-      {
-        "key": "BusinessMachinesInd-Business Machines",
-        "budget": 0,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 100 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 250 },
-          { "resource": "CHEMICAL", "max": 70 },
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 250 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.8 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER", "max": 20 }
-        ]
-      },
-      {
-        "key": "Dissident.BusinessMachinesInd-Dissident Business Machines",
-        "budget": 0,
-        "cost": 25000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 150 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 190 },
-          { "resource": "CHEMICAL", "max": 22 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 140 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.8 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER", "max": 19 }
-        ]
-      },
-      {
-        "key": "block.BusinessMachinesInd-Business Machines",
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 25 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 25 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 25 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.2 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER", "max": 5 }
-        ]
-      },
-      {
-        "key": "Dissident.block.BusinessMachinesInd-Business Machines",
-        "budget": 6039.6096,
-        "cost": 16800001,
-        "required_inputs": [
-          { "resource": "METAL", "max": 30 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 30 },
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 27 },
-          { "resource": "WORK_FORCE_LO", "max": 109 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.19000005722046 },
-          { "resource": "LEGAL_SERVICES", "max": 0.238000020384789 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER", "max": 10.0500001907349 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.BusinessMachinesInd-Business Machines small",
-        "budget": 872.5586,
-        "cost": 4000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 10 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 4 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 16 },
-          { "resource": "WORK_FORCE_LO", "max": 63 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER", "max": 2 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 6000,
+      "cost": 25000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 30 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 30 },
+        { "resource": "CHEMICAL", "max": 12 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 27 },
+        { "resource": "WORK_FORCE_LO", "max": 109 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "COMPUTER", "max": 10 }
+      ]
+    }
   }
 ]

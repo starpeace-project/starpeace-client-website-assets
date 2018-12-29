@@ -11,64 +11,23 @@
     "category": "INDUSTRY",
     "industry_type": "METAL",
     "required_inventions": ["Metallic","LSMetal"],
-    "resource_flow": [
-      {
-        "key": "Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 1800 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.Metalurgic-Moab Metalurgic",
-        "budget": 2000,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 5000 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 433 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 2000 }
-        ]
-      },
-      {
-        "key": "Moab.block.Metalurgic-Metalurgic",
-        "budget": 0,
-        "cost": 15400000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 250 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.100000001490116 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 120 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 2000,
+      "cost": 40000000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 250 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 120 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "METAL", "max": 120 }
+      ]
+    }
   }
 ]

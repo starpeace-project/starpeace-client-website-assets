@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mko.plastic.industry",
+    "image_id": "mko.plastic.industry",
+    "construction_image_id": "generic.construction.5",
+    "name": {
+      "en":"Plastic Factory"
+    },
+    "seal": "mariko",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "required_inventions": ["Plastics"],
+    "industry": {
+      "budget": 150,
+      "cost": 20000000,
+      "required_inputs": [
+        { "resource": "CRUDE_OIL", "max": 600 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_MID", "max": 3 },
+        { "resource": "WORK_FORCE_LO", "max": 100 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.36 },
+        { "resource": "LEGAL_SERVICES", "max": 0.18 }
+      ],
+      "outputs": [
+        { "resource": "PLASTIC", "max": 216 }
+      ]
+    }
+  }
+]

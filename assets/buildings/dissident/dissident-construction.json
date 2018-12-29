@@ -8,110 +8,26 @@
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
-    "category": "SERVICE",
+    "category": "INDUSTRY",
     "industry_type": "CONSTRUCTION",
     "required_inventions": [],
-    "resource_flow": [
-      {
-        "key": "Construction-Construction",
-        "budget": 700,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 500 },
-          { "resource": "METAL", "max": 200 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Dissident.Construction-Dissident Construction",
-        "budget": 841.5068,
-        "cost": 35280001,
-        "required_inputs": [
-          { "resource": "ORE", "max": 144 },
-          { "resource": "METAL", "max": 30 },
-          { "resource": "CHEMICAL", "max": 30 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 4 },
-          { "resource": "WORK_FORCE_LO", "max": 164 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.12 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 24 }
-        ]
-      },
-      {
-        "key": "block.Construction-Construction",
-        "budget": 2100,
-        "cost": 11000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 120 },
-          { "resource": "METAL", "max": 25 },
-          { "resource": "CHEMICAL", "max": 25 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 4 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.1 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 20 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Construction-Construction",
-        "budget": 2626.5705,
-        "cost": 18480001,
-        "required_inputs": [
-          { "resource": "ORE", "max": 143 },
-          { "resource": "METAL", "max": 30 },
-          { "resource": "CHEMICAL", "max": 30 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 4 },
-          { "resource": "WORK_FORCE_LO", "max": 164 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-          { "resource": "LEGAL_SERVICES", "max": 0.119000010192394 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 40.2000007629395 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Construction-Construction small",
-        "budget": 289.5145,
-        "cost": 4400000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 48 },
-          { "resource": "METAL", "max": 10 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 95 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0400000028312206 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 8 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 700,
+      "cost": 30000000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 143 },
+        { "resource": "METAL", "max": 30 },
+        { "resource": "CHEMICAL", "max": 30 },
+        { "resource": "WORK_FORCE_MID", "max": 4 },
+        { "resource": "WORK_FORCE_LO", "max": 164 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "CONSTRUCTION", "max": 40 }
+      ]
+    }
   }
 ]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "moab.mine",
+    "image_id": "moab.mine",
+    "construction_image_id": "generic.construction.6",
+    "name": {
+      "en": "Chemical Mine"
+    },
+    "seal": "moab",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "required_inventions": ["ChemMining"],
+    "industry": {
+      "budget": 35,
+      "cost": 20500000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 12 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 122 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "RAW_CHEMICAL", "max": 600 }
+      ]
+    }
+  }
+]

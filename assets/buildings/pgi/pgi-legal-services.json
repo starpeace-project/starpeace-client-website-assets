@@ -11,87 +11,20 @@
     "category": "SERVICE",
     "industry_type": "LEGAL_SERVICES",
     "required_inventions": ["LawyerFirms"],
-    "resource_flow": [
-      {
-        "key": "PGI.LegalServ-Moab Legal Services",
-        "budget": 1700,
-        "cost": 6000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 5 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 11 }
-        ]
-      },
-      {
-        "key": "PGI.block.LegalServ-Legal Services",
-        "budget": 1014.5364,
-        "cost": 5600000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 7 },
-          { "resource": "WORK_FORCE_LO", "max": 7 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.98000001907349 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 6.02999973297119 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.LegalServ-Legal Services small",
-        "budget": 489.7793,
-        "cost": 2000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 5 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 3 }
-        ]
-      },
-      {
-        "key": "PGI.block.LegalServ-Legal Services",
-        "budget": 1323.6438,
-        "cost": 6720000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 7 },
-          { "resource": "WORK_FORCE_LO", "max": 15 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 2.20000004768372 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 7.5 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.LegalServ-Legal Services small",
-        "budget": 382.8234,
-        "cost": 1600000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 4 },
-          { "resource": "WORK_FORCE_LO", "max": 9 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.800000011920929 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 2.40000009536743 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 1300,
+      "cost": 6720000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_HI", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 7 },
+        { "resource": "WORK_FORCE_LO", "max": 15 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 2 }
+      ],
+      "outputs": [
+        { "resource": "LEGAL_SERVICES", "max": 10 }
+      ]
+    }
   }
 ]

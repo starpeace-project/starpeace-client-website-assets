@@ -11,6 +11,6 @@
     "category": "SERVICE",
     "industry_type": "TELEVISION",
     "required_inventions": ["BasicTelevision"],
-    "resource_flow": []
+    "television": {}
   }
 ]

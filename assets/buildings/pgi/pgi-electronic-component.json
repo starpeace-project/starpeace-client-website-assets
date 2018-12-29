@@ -10,123 +10,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "required_inventions": ["ElecLic","LSEPrd"],
-    "resource_flow": [
-      {
-        "key": "Electronic-Electronic Industry",
-        "budget": 2000,
-        "cost": 15000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "METAL", "max": 100 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-          { "resource": "LEGAL_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 100 }
-        ]
-      },
-      {
-        "key": "PGI.Electronic-PGI Electronic Industry",
-        "budget": 5790,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "METAL", "max": 100 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 200 }
-        ]
-      },
-      {
-        "key": "PGI.block.Electronic-Electronic Industry",
-        "budget": 118.6826,
-        "cost": 28000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "METAL", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 8 },
-          { "resource": "WORK_FORCE_LO", "max": 70 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.495000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.791999995708466 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 50.25 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.Electronic-Electronic Industry small",
-        "budget": 29.8965,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "METAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 6 },
-          { "resource": "WORK_FORCE_LO", "max": 50 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.25 },
-          { "resource": "LEGAL_SERVICES", "max": 0.400000005960464 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 25 }
-        ]
-      },
-      {
-        "key": "PGI.block.Electronic-Electronic Industry",
-        "budget": 426.2192,
-        "cost": 33600001,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 26 },
-          { "resource": "METAL", "max": 44 },
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 9 },
-          { "resource": "WORK_FORCE_LO", "max": 119 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.550000011920929 },
-          { "resource": "LEGAL_SERVICES", "max": 0.660000026226044 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 65 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.Electronic-Electronic Industry small",
-        "budget": 23.1173,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "METAL", "max": 16 },
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 72 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.240000009536743 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 20.8000011444092 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSEPrd"],
+    "industry": {
+      "budget": 120,
+      "cost": 28000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 24 },
+        { "resource": "METAL", "max": 40 },
+        { "resource": "WORK_FORCE_HI", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 8 },
+        { "resource": "WORK_FORCE_LO", "max": 70 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.5 },
+        { "resource": "LEGAL_SERVICES", "max": 0.8 }
+      ],
+      "outputs": [
+        { "resource": "ELECTRONIC_COMPONENT", "max": 50 }
+      ]
+    }
   },
   {
     "id": "pgi.elect.comp.industry.small",
@@ -139,122 +41,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "required_inventions": ["ElecLic","LSEPrd"],
-    "resource_flow": [
-      {
-        "key": "Electronic-Electronic Industry",
-        "budget": 2000,
-        "cost": 15000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "METAL", "max": 100 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-          { "resource": "LEGAL_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 100 }
-        ]
-      },
-      {
-        "key": "PGI.Electronic-PGI Electronic Industry",
-        "budget": 5790,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "METAL", "max": 100 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 200 }
-        ]
-      },
-      {
-        "key": "PGI.block.Electronic-Electronic Industry",
-        "budget": 118.6826,
-        "cost": 28000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 24 },
-          { "resource": "METAL", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 8 },
-          { "resource": "WORK_FORCE_LO", "max": 70 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.495000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.791999995708466 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 50.25 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.Electronic-Electronic Industry small",
-        "budget": 29.8965,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "METAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 6 },
-          { "resource": "WORK_FORCE_LO", "max": 50 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.25 },
-          { "resource": "LEGAL_SERVICES", "max": 0.400000005960464 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 25 }
-        ]
-      },
-      {
-        "key": "PGI.block.Electronic-Electronic Industry",
-        "budget": 426.2192,
-        "cost": 33600001,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 26 },
-          { "resource": "METAL", "max": 44 },
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 9 },
-          { "resource": "WORK_FORCE_LO", "max": 119 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.550000011920929 },
-          { "resource": "LEGAL_SERVICES", "max": 0.660000026226044 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 65 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.Electronic-Electronic Industry small",
-        "budget": 23.1173,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "METAL", "max": 16 },
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 72 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.240000009536743 }
-        ],
-        "outputs": [
-          { "resource": "ELECTRONIC_COMPONENT", "max": 20.8000011444092 }
-        ]
-      }
-    ]
+    "required_inventions": ["ElecLic"],
+    "industry": {
+      "budget": 30,
+      "cost": 10000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 12 },
+        { "resource": "METAL", "max": 20 },
+        { "resource": "WORK_FORCE_HI", "max": 2 },
+        { "resource": "WORK_FORCE_MID", "max": 6 },
+        { "resource": "WORK_FORCE_LO", "max": 50 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.25 },
+        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+      ],
+      "outputs": [
+        { "resource": "ELECTRONIC_COMPONENT", "max": 25 }
+      ]
+    }
   }
 ]

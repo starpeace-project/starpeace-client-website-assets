@@ -10,66 +10,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic","LSMetal"],
-    "resource_flow": [
-      {
-        "key": "Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 1800 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Metalurgic-Metalurgic",
-        "budget": 126.2809,
-        "cost": 27719999,
-        "required_inputs": [
-          { "resource": "ORE", "max": 445 },
-          { "resource": "CHEMICAL", "max": 36 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 160 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 218.400009155273 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Metalurgic-Metalurgic small",
-        "budget": 0,
-        "cost": 6600000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 150 },
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 90 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 72 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSMetal"],
+    "industry": {
+      "budget": 600,
+      "cost": 27719999,
+      "required_inputs": [
+        { "resource": "ORE", "max": 445 },
+        { "resource": "CHEMICAL", "max": 36 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 3 },
+        { "resource": "WORK_FORCE_LO", "max": 160 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "METAL", "max": 218 }
+      ]
+    }
   },
   {
     "id": "mko.metal.industry.small",
@@ -82,65 +41,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic","LSMetal"],
-    "resource_flow": [
-      {
-        "key": "Metalurgic-Metalurgic",
-        "budget": 600,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 1800 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Metalurgic-Metalurgic",
-        "budget": 126.2809,
-        "cost": 27719999,
-        "required_inputs": [
-          { "resource": "ORE", "max": 445 },
-          { "resource": "CHEMICAL", "max": 36 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 160 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 218.400009155273 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Metalurgic-Metalurgic small",
-        "budget": 0,
-        "cost": 6600000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 150 },
-          { "resource": "CHEMICAL", "max": 12 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 90 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "METAL", "max": 72 }
-        ]
-      }
-    ]
+    "required_inventions": ["Metallic"],
+    "industry": {
+      "budget": 120,
+      "cost": 6600000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 150 },
+        { "resource": "CHEMICAL", "max": 12 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 90 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "METAL", "max": 72 }
+      ]
+    }
   }
 ]

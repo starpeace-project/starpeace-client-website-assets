@@ -11,39 +11,20 @@
     "category": "SERVICE",
     "industry_type": "LEGAL_SERVICES",
     "required_inventions": ["LawyerFirms"],
-    "resource_flow": [
-      {
-        "key": "Moab.LegalServ-Moab Legal Services",
-        "budget": 1500,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 5 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 11 }
-        ]
-      },
-      {
-        "key": "Moab.block.LegalServ-Legal Services",
-        "budget": 478.691,
-        "cost": 2800000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 10 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 }
-        ],
-        "outputs": [
-          { "resource": "LEGAL_SERVICES", "max": 3 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 1500,
+      "cost": 10000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_HI", "max": 7 },
+        { "resource": "WORK_FORCE_MID", "max": 33 },
+        { "resource": "WORK_FORCE_LO", "max": 5 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 }
+      ],
+      "outputs": [
+        { "resource": "LEGAL_SERVICES", "max": 11 }
+      ]
+    }
   }
 ]

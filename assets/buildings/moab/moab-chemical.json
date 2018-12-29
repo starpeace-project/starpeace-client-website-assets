@@ -11,130 +11,22 @@
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
     "required_inventions": ["ChemLic","LargeChem"],
-    "resource_flow": [
-      {
-        "key": "Chemical-Chemical Plant",
-        "budget": 15300,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 70 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.Chemical-Moab Chemical Plant",
-        "budget": 11400,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 4000 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 333 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.block.Chemical-Chemical Plant",
-        "budget": 0.4186,
-        "cost": 9800000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 400 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 40 }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "moab.mine",
-    "image_id": "moab.mine",
-    "construction_image_id": "generic.construction.6",
-    "name": {
-      "en": "Chemical Mine"
-    },
-    "seal": "moab",
-    "zone": "INDUSTRIAL",
-    "category": "INDUSTRY",
-    "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic","LargeChem"],
-    "resource_flow": [
-      {
-        "key": "Chemical-Chemical Plant",
-        "budget": 15300,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 70 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.Chemical-Moab Chemical Plant",
-        "budget": 11400,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 4000 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 333 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.block.Chemical-Chemical Plant",
-        "budget": 0.4186,
-        "cost": 9800000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 400 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 40 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 100,
+      "cost": 40000000,
+      "required_inputs": [
+        { "resource": "RAW_CHEMICAL", "max": 400 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 10 },
+        { "resource": "WORK_FORCE_LO", "max": 120 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CHEMICAL", "max": 40 }
+      ]
+    }
   }
 ]

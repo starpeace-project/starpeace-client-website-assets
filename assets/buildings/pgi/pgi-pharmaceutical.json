@@ -11,7 +11,7 @@
     "category": "COMMERCE",
     "industry_type": "PHARMACEUTICAL",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   },
   {
     "id": "pgi.pharma.industry",
@@ -25,6 +25,23 @@
     "category": "INDUSTRY",
     "industry_type": "PHARMACEUTICAL",
     "required_inventions": ["PharmaIndustry"],
-    "resource_flow": []
+    "industry": {
+      "budget": 133,
+      "cost": 20000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 50 },
+        { "resource": "PLASTIC", "max": 50 },
+        { "resource": "WORK_FORCE_HI", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 50 },
+        { "resource": "WORK_FORCE_LO", "max": 100 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.75 }
+      ],
+      "outputs": [
+        { "resource": "PHARMACEUTICAL", "max": 100 }
+      ]
+    }
   }
 ]

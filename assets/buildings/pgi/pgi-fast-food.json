@@ -11,6 +11,6 @@
     "category": "COMMERCE",
     "industry_type": "FAST_FOOD",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

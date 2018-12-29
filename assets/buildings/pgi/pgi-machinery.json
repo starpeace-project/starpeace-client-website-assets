@@ -11,127 +11,24 @@
     "category": "INDUSTRY",
     "industry_type": "MACHINERY",
     "required_inventions": ["MachInd"],
-    "resource_flow": [
-      {
-        "key": "HeavyIndustry-Heavy Industry",
-        "budget": 52300,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "CHEMICAL", "max": 400 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 4 },
-          { "resource": "WORK_FORCE_MID", "max": 50 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 10 }
-        ]
-      },
-      {
-        "key": "PGI.HeavyIndustry-PGI Heavy Industry",
-        "budget": 51450,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "CHEMICAL", "max": 400 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 100 },
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 433 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 10 }
-        ]
-      },
-      {
-        "key": "PGI.block.HeavyIndustry-Heavy Industry",
-        "budget": 8438.4824,
-        "cost": 28000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 594 },
-          { "resource": "CHEMICAL", "max": 59 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 14 },
-          { "resource": "WORK_FORCE_LO", "max": 155 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.395999997854233 },
-          { "resource": "LEGAL_SERVICES", "max": 0.197999998927116 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 2.00999999046326 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.HeavyIndustry-Heavy Industry small",
-        "budget": 4098.8965,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 300 },
-          { "resource": "CHEMICAL", "max": 30 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 110 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.100000001490116 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 1 }
-        ]
-      },
-      {
-        "key": "PGI.block.HeavyIndustry-Heavy Industry",
-        "budget": 5293.2192,
-        "cost": 33600001,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1320 },
-          { "resource": "CHEMICAL", "max": 110 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 44 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 222 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.440000027418137 },
-          { "resource": "LEGAL_SERVICES", "max": 0.220000013709068 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 2.5 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.HeavyIndustry-Heavy Industry small",
-        "budget": 987.1172,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 480 },
-          { "resource": "CHEMICAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 16 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 9 },
-          { "resource": "WORK_FORCE_LO", "max": 134 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0800000056624413 }
-        ],
-        "outputs": [
-          { "resource": "MACHINERY", "max": 0.800000011920929 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 4000,
+      "cost": 28000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 594 },
+        { "resource": "CHEMICAL", "max": 59 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 40 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 14 },
+        { "resource": "WORK_FORCE_LO", "max": 155 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "MACHINERY", "max": 2 }
+      ]
+    }
   }
 ]

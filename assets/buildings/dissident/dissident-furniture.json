@@ -11,7 +11,27 @@
     "category": "INDUSTRY",
     "industry_type": "FURNITURE",
     "required_inventions": ["FurnLic"],
-    "resource_flow": []
+    "industry": {
+      "budget": 2000,
+      "cost": 50000000,
+      "required_inputs": [
+        { "resource": "TIMBER", "max": 50 },
+        { "resource": "ORGANIC_MATERIAL", "max": 10 },
+        { "resource": "FABRIC", "max": 10 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "PLASTIC", "max": 10 },
+        { "resource": "METAL", "max": 5 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 50 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "FURNITURE", "max": 10 }
+      ]
+    }
   },
   {
     "id": "dis.furniture.store",
@@ -24,7 +44,7 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "FURNITURE",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": ["BasicCommerce"],
+    "commerce": {}
   }
 ]

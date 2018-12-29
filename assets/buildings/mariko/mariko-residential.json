@@ -11,7 +11,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.hi.res.b",
@@ -25,7 +25,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.hi.res.c",
@@ -39,7 +39,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.lo.res.a",
@@ -53,7 +53,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.lo.res.b",
@@ -67,7 +67,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.lo.res.c",
@@ -81,7 +81,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.lo.res.d",
@@ -95,7 +95,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.lo.res.e",
@@ -109,7 +109,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.a",
@@ -123,7 +123,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.b",
@@ -137,7 +137,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.c",
@@ -151,7 +151,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.d",
@@ -165,7 +165,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.e",
@@ -179,7 +179,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.f",
@@ -193,7 +193,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   },
   {
     "id": "mko.mi.res.g",
@@ -207,6 +207,6 @@
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
     "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    "residential": {}
   }
 ]

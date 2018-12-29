@@ -11,87 +11,39 @@
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
     "required_inventions": ["AutoInd"],
-    "resource_flow": [
-      {
-        "key": "CarIndustry-Car Industry",
-        "budget": 35600,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 20 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CAR_HI", "max": 0.3 },
-          { "resource": "CAR_MID", "max": 1 },
-          { "resource": "CAR_LO", "max": 3 }
-        ]
-      },
-      {
-        "key": "Moab.CarIndustry-Moab Car Industry",
-        "budget": 700,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 750 },
-          { "resource": "FABRIC", "max": 30 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "WORK_FORCE_HI", "max": 12 },
-          { "resource": "WORK_FORCE_MID", "max": 33 },
-          { "resource": "WORK_FORCE_LO", "max": 333 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 1 }
-        ]
-      },
-      {
-        "key": "Moab.block.CarIndustry-Car Industry",
-        "budget": 635.7643,
-        "cost": 11200000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 200 },
-          { "resource": "FABRIC", "max": 18 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 8 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.300000011920929 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 700,
+      "cost": 40000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 750 },
+        { "resource": "FABRIC", "max": 30 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+        { "resource": "CHEMICAL", "max": 50 },
+        { "resource": "WORK_FORCE_HI", "max": 12 },
+        { "resource": "WORK_FORCE_MID", "max": 33 },
+        { "resource": "WORK_FORCE_LO", "max": 333 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CAR_MID", "max": 1 }
+      ]
+    }
   },
   {
     "id": "moab.car.store",
     "image_id": "moab.car.store",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Autombile Dealership"
+      "en": "Automobile Dealership"
     },
     "seal": "moab",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "AUTOMOBILE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

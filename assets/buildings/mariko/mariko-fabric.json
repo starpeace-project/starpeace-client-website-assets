@@ -10,67 +10,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "required_inventions": ["TextileLic","LSTextile"],
-    "resource_flow": [
-      {
-        "key": "Mariko.block.Textile-Textile",
-        "budget": 94.5986,
-        "cost": 15120000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 27 },
-          { "resource": "CHEMICAL", "max": 9 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 107 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 109.200004577637 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Textile-Textile small",
-        "budget": 0,
-        "cost": 3600000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 9 },
-          { "resource": "CHEMICAL", "max": 3 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 62 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 37 }
-        ]
-      },
-      {
-        "key": "Textile-Textile",
-        "budget": 500,
-        "cost": 15000000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 180 },
-          { "resource": "CHEMICAL", "max": 70 },
-          { "resource": "WORK_FORCE_HI", "max": 4 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 300 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 800 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSTextile"],
+    "industry": {
+      "budget": 200,
+      "cost": 15120000,
+      "required_inputs": [
+        { "resource": "ORGANIC_MATERIAL", "max": 27 },
+        { "resource": "CHEMICAL", "max": 9 },
+        { "resource": "WORK_FORCE_MID", "max": 5 },
+        { "resource": "WORK_FORCE_LO", "max": 107 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "FABRIC", "max": 110 }
+      ]
+    }
   },
   {
     "id": "mko.textile.industry.small",
@@ -84,66 +41,23 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "required_inventions": ["TextileLic","LSTextile"],
-    "resource_flow": [
-      {
-        "key": "Mariko.block.Textile-Textile",
-        "budget": 94.5986,
-        "cost": 15120000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 27 },
-          { "resource": "CHEMICAL", "max": 9 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 5 },
-          { "resource": "WORK_FORCE_LO", "max": 107 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.356000006198883 },
-          { "resource": "LEGAL_SERVICES", "max": 0.178000003099442 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 109.200004577637 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Textile-Textile small",
-        "budget": 0,
-        "cost": 3600000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 9 },
-          { "resource": "CHEMICAL", "max": 3 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 62 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.120000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.0600000023841858 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 37 }
-        ]
-      },
-      {
-        "key": "Textile-Textile",
-        "budget": 500,
-        "cost": 15000000,
-        "required_inputs": [
-          { "resource": "ORGANIC_MATERIAL", "max": 180 },
-          { "resource": "CHEMICAL", "max": 70 },
-          { "resource": "WORK_FORCE_HI", "max": 4 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 300 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "FABRIC", "max": 800 }
-        ]
-      }
-    ]
+    "required_inventions": ["TextileLic"],
+    "industry": {
+      "budget": 100,
+      "cost": 3600000,
+      "required_inputs": [
+        { "resource": "ORGANIC_MATERIAL", "max": 9 },
+        { "resource": "CHEMICAL", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 3 },
+        { "resource": "WORK_FORCE_LO", "max": 62 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.1 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "FABRIC", "max": 37 }
+      ]
+    }
   }
 ]

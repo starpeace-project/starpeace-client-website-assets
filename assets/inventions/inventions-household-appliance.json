@@ -23,7 +23,7 @@
       "efficiency": -1,
       "desirability": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "AlienAlarm": {
     "id": "AlienAlarm",
@@ -47,7 +47,7 @@
       "prestige": 20,
       "level": "apprentice"
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -76,7 +76,7 @@
       "efficiency": -4,
       "quality": 10
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -105,7 +105,7 @@
       "efficiency": -3,
       "quality": 5
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -134,7 +134,7 @@
       "efficiency": -1,
       "quality": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -162,7 +162,7 @@
       "efficiency": -2,
       "quality": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -190,7 +190,7 @@
       "efficiency": 1,
       "desirability": 2
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "FullHouseSpecial": {
     "id": "FullHouseSpecial",
@@ -215,7 +215,7 @@
       "efficiency": 5,
       "desirability": -1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "GeneralRemote": {
     "id": "GeneralRemote",
@@ -241,7 +241,7 @@
       "efficiency": -3,
       "quality": 12
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -267,7 +267,7 @@
       "price": 10000000,
       "level": "apprentice"
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "DistributedDirection"
     ]
@@ -295,7 +295,7 @@
       "efficiency": -1,
       "desirability": 2
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "HiFiDirectionalSpeakers": {
     "id": "HiFiDirectionalSpeakers",
@@ -321,7 +321,7 @@
       "efficiency": -4,
       "quality": 8
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -349,7 +349,7 @@
       "efficiency": -2,
       "desirability": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "HolographicTV": {
     "id": "HolographicTV",
@@ -375,7 +375,7 @@
       "efficiency": -2,
       "quality": 5
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -403,7 +403,7 @@
       "efficiency": -1,
       "desirability": 2
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "LifeWarranties": {
     "id": "LifeWarranties",
@@ -429,7 +429,7 @@
       "efficiency": -1,
       "desirability": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "LSAppProd": {
     "id": "LSAppProd",
@@ -452,7 +452,7 @@
       "price": 70000000,
       "level": "entrepreneur"
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -480,7 +480,7 @@
       "efficiency": -2,
       "desirability": 1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "MorphingPet": {
     "id": "MorphingPet",
@@ -506,7 +506,7 @@
       "efficiency": -2,
       "quality": 8
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "ArtificialPets"
     ]
@@ -534,7 +534,7 @@
       "efficiency": -1,
       "desirability": 1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "RepairmentDepartment": {
     "id": "RepairmentDepartment",
@@ -559,7 +559,7 @@
       "efficiency": -3,
       "desirability": 4
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "SalesPeopleAsCustomer": {
     "id": "SalesPeopleAsCustomer",
@@ -584,7 +584,7 @@
       "efficiency": 2,
       "desirability": -1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "UltrasoundsWashingMachines": {
     "id": "UltrasoundsWashingMachines",
@@ -610,7 +610,7 @@
       "efficiency": -1,
       "quality": 3
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -638,7 +638,7 @@
       "efficiency": -2,
       "quality": 5
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -666,7 +666,7 @@
       "efficiency": 5,
       "desirability": -2
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "UniversalMachine": {
     "id": "UniversalMachine",
@@ -691,7 +691,7 @@
       "efficiency": 40,
       "quality": -8
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -720,7 +720,7 @@
       "efficiency": 15,
       "quality": -5
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -748,7 +748,7 @@
       "efficiency": 3,
       "desirability": 1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "UsedUnitsRetirement": {
     "id": "UsedUnitsRetirement",
@@ -773,7 +773,7 @@
       "efficiency": 15,
       "quality": -4
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -801,7 +801,7 @@
       "efficiency": 4,
       "desirability": -1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE"
+    "industry_type": "APPLIANCE"
   },
   "VoiceActivator": {
     "id": "VoiceActivator",
@@ -826,7 +826,7 @@
       "efficiency": -7,
       "quality": 10
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "HHALic"
     ]
@@ -854,7 +854,7 @@
       "efficiency": 2,
       "desirability": 1
     },
-    "industry_type": "HOUSEHOLD_APPLIANCE",
+    "industry_type": "APPLIANCE",
     "depends_on": [
       "RepairmentDepartment"
     ]

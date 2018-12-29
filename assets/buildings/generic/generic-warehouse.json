@@ -11,7 +11,18 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 1000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 10 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "CHEMICAL", "max": 100000 },
+        { "resource": "CRUDE_OIL", "max": 100000 },
+        { "resource": "GASOLINE", "max": 100000 }
+      ]
+    }
   },
   {
     "id": "generic.warehouse.cold",
@@ -25,7 +36,18 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 10000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 10 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "FRESH_FOOD", "max": 1000000 },
+        { "resource": "PROCESSED_FOOD", "max": 250000 },
+        { "resource": "LIQUOR", "max": 250000 }
+      ]
+    }
   },
   {
     "id": "generic.warehouse.cold.super",
@@ -39,7 +61,18 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 100000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 12 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "FRESH_FOOD", "max": 20000000 },
+        { "resource": "PROCESSED_FOOD", "max": 2500000 },
+        { "resource": "LIQUOR", "max": 2500000 }
+      ]
+    }
   },
   {
     "id": "generic.warehouse.export",
@@ -53,7 +86,15 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 10000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 10 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+      ]
+    }
   },
   {
     "id": "generic.warehouse.fabric",
@@ -67,7 +108,20 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 100000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 12 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "ORGANIC_MATERIAL", "max": 20000000 },
+        { "resource": "FABRIC", "max": 250000 },
+        { "resource": "CLOTHES", "max": 100000 },
+        { "resource": "PAPER", "max": 250000 },
+        { "resource": "PRINTED_MATERIAL", "max": 250000 }
+      ]
+    }
   },
   {
     "id": "generic.warehouse.import",
@@ -81,7 +135,15 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 10000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 10 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+      ]
+    }
   },
   {
     "id": "generic.warehouse.ore",
@@ -95,7 +157,19 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 20000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_LO", "max": 12 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "ORE", "max": 200000 },
+        { "resource": "METAL", "max": 50000 },
+        { "resource": "CONSTRUCTION", "max": 500000 },
+        { "resource": "TIMBER", "max": 500000 }
+      ]
+    }
   },
   {
     "id": "generic.warehouse.univeral",
@@ -109,6 +183,30 @@
     "category": "LOGISTICS",
     "industry_type": "WAREHOUSE",
     "required_inventions": [],
-    "resource_flow": []
+    "warehouse": {
+      "cost": 20000000,
+      "required_inputs": [
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 80 }
+      ],
+      "optional_inputs": [],
+      "storage": [
+        { "resource": "ORGANIC_MATERIAL", "max": 10000 },
+        { "resource": "FABRIC", "max": 10000 },
+        { "resource": "CLOTHES", "max": 10000 },
+        { "resource": "ELECTRIC_COMPONENT", "max": 10000 },
+        { "resource": "APPLIANCE", "max": 10000 },
+        { "resource": "COMPUTER", "max": 10000 },
+        { "resource": "METAL", "max": 25000 },
+        { "resource": "AUTOMOBILE", "max": 160 },
+        { "resource": "TOY", "max": 10000 },
+        { "resource": "PHARMACEUTICAL", "max": 10000 },
+        { "resource": "PLASTIC", "max": 20000 },
+        { "resource": "MACHINERY", "max": 1000 },
+        { "resource": "FURNITURE", "max": 15000 },
+        { "resource": "BOOK", "max": 10000 },
+        { "resource": "COMPACT_DISC", "max": 10000 }
+      ]
+    }
   }
 ]

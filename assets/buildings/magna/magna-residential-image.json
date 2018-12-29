@@ -2,14 +2,6 @@
   {
     "id": "magna.cloud.city.empty",
     "image": "assets/buildings/magna/magna.cloud.city.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Cloud City"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -21,21 +13,11 @@
       [{"x":56,"y":255},{"x":42,"y":352},{"x":136,"y":249},{"x":136,"y":226}],
       [{"x":136,"y":249},{"x":42,"y":352},{"x":150,"y":340}],
       [{"x":150,"y":340},{"x":42,"y":352},{"x":166,"y":361}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.cloud.city",
     "image": "assets/buildings/magna/magna.cloud.city.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Cloud City"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -47,21 +29,11 @@
       [{"x":56,"y":255},{"x":42,"y":352},{"x":136,"y":249},{"x":136,"y":226}],
       [{"x":136,"y":249},{"x":42,"y":352},{"x":150,"y":340}],
       [{"x":150,"y":340},{"x":42,"y":352},{"x":166,"y":361}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.heaven.empty",
     "image": "assets/buildings/magna/magna.heaven.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Worker's Heaven"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -79,21 +51,11 @@
       [{"x":49,"y":57},{"x":5,"y":90},{"x":15,"y":95},{"x":176,"y":95},{"x":141,"y":61}],
       [{"x":122,"y":266},{"x":123,"y":249},{"x":61,"y":272},{"x":45,"y":279},{"x":1,"y":302}],
       [{"x":65,"y":249},{"x":61,"y":272},{"x":123,"y":249}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.heaven",
     "image": "assets/buildings/magna/magna.heaven.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Worker's Heaven"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -111,21 +73,11 @@
       [{"x":49,"y":57},{"x":5,"y":90},{"x":15,"y":95},{"x":176,"y":95},{"x":141,"y":61}],
       [{"x":122,"y":266},{"x":123,"y":249},{"x":61,"y":272},{"x":45,"y":279},{"x":1,"y":302}],
       [{"x":65,"y":249},{"x":61,"y":272},{"x":123,"y":249}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.hive.empty",
     "image": "assets/buildings/magna/magna.hive.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Hive"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -142,21 +94,11 @@
       [{"x":95,"y":0},{"x":95,"y":26},{"x":100,"y":68}],
       [{"x":95,"y":26},{"x":91,"y":70},{"x":100,"y":68}],
       [{"x":62,"y":342},{"x":59,"y":372},{"x":130,"y":342}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.hive",
     "image": "assets/buildings/magna/magna.hive.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Hive"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -173,21 +115,11 @@
       [{"x":95,"y":0},{"x":95,"y":26},{"x":100,"y":68}],
       [{"x":95,"y":26},{"x":91,"y":70},{"x":100,"y":68}],
       [{"x":62,"y":342},{"x":59,"y":372},{"x":130,"y":342}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.ivory.tower.empty",
     "image": "assets/buildings/magna/magna.ivory.tower.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Ivory Tower"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -201,21 +133,11 @@
       [{"x":156,"y":256},{"x":142,"y":252},{"x":51,"y":251},{"x":33,"y":262},{"x":170,"y":269}],
       [{"x":38,"y":159},{"x":51,"y":194},{"x":142,"y":252},{"x":42,"y":143}],
       [{"x":51,"y":194},{"x":51,"y":251},{"x":142,"y":252}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.ivory.tower",
     "image": "assets/buildings/magna/magna.ivory.tower.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Ivory Tower"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -229,21 +151,11 @@
       [{"x":156,"y":256},{"x":142,"y":252},{"x":51,"y":251},{"x":33,"y":262},{"x":170,"y":269}],
       [{"x":38,"y":159},{"x":51,"y":194},{"x":142,"y":252},{"x":42,"y":143}],
       [{"x":51,"y":194},{"x":51,"y":251},{"x":142,"y":252}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.mayflower.empty",
     "image": "assets/buildings/magna/magna.mayflower.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "May Flower"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -257,21 +169,11 @@
       [{"x":23,"y":229},{"x":29,"y":278},{"x":52,"y":152},{"x":32,"y":196}],
       [{"x":164,"y":274},{"x":161,"y":225},{"x":29,"y":278},{"x":1,"y":292}],
       [{"x":52,"y":152},{"x":29,"y":278},{"x":161,"y":225},{"x":72,"y":79}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.mayflower",
     "image": "assets/buildings/magna/magna.mayflower.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "May Flower"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -285,21 +187,11 @@
       [{"x":23,"y":229},{"x":29,"y":278},{"x":52,"y":152},{"x":32,"y":196}],
       [{"x":164,"y":274},{"x":161,"y":225},{"x":29,"y":278},{"x":1,"y":292}],
       [{"x":52,"y":152},{"x":29,"y":278},{"x":161,"y":225},{"x":72,"y":79}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.octopus.empty",
     "image": "assets/buildings/magna/magna.octopus.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Octopus"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -315,21 +207,11 @@
       [{"x":26,"y":377},{"x":18,"y":391},{"x":171,"y":389},{"x":163,"y":375},{"x":30,"y":373}],
       [{"x":52,"y":173},{"x":52,"y":202},{"x":163,"y":375}],
       [{"x":42,"y":269},{"x":30,"y":373},{"x":163,"y":375}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.octopus",
     "image": "assets/buildings/magna/magna.octopus.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Octopus"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -345,21 +227,11 @@
       [{"x":26,"y":377},{"x":18,"y":391},{"x":171,"y":389},{"x":163,"y":375},{"x":30,"y":373}],
       [{"x":52,"y":173},{"x":52,"y":202},{"x":163,"y":375}],
       [{"x":42,"y":269},{"x":30,"y":373},{"x":163,"y":375}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.sky.dome.empty",
     "image": "assets/buildings/magna/magna.sky.dome.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Sky Dome"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -372,21 +244,11 @@
       [{"x":33,"y":158},{"x":44,"y":275},{"x":143,"y":207},{"x":152,"y":159}],
       [{"x":143,"y":207},{"x":44,"y":275},{"x":44,"y":322},{"x":140,"y":335}],
       [{"x":44,"y":322},{"x":35,"y":389},{"x":148,"y":390},{"x":140,"y":335}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.sky.dome",
     "image": "assets/buildings/magna/magna.sky.dome.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Sky Dome"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -399,21 +261,11 @@
       [{"x":33,"y":158},{"x":44,"y":275},{"x":143,"y":207},{"x":152,"y":159}],
       [{"x":143,"y":207},{"x":44,"y":275},{"x":44,"y":322},{"x":140,"y":335}],
       [{"x":44,"y":322},{"x":35,"y":389},{"x":148,"y":390},{"x":140,"y":335}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.solarium.empty",
     "image": "assets/buildings/magna/magna.solarium.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Solarium"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -436,21 +288,11 @@
       [{"x":133,"y":266},{"x":114,"y":182},{"x":74,"y":178},{"x":55,"y":266}],
       [{"x":55,"y":33},{"x":35,"y":81},{"x":39,"y":77}],
       [{"x":39,"y":77},{"x":35,"y":81},{"x":48,"y":75}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.solarium",
     "image": "assets/buildings/magna/magna.solarium.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Solarium"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -473,21 +315,11 @@
       [{"x":133,"y":266},{"x":114,"y":182},{"x":74,"y":178},{"x":55,"y":266}],
       [{"x":55,"y":33},{"x":35,"y":81},{"x":39,"y":77}],
       [{"x":39,"y":77},{"x":35,"y":81},{"x":48,"y":75}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.the.spring.empty",
     "image": "assets/buildings/magna/magna.the.spring.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Spring"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -505,21 +337,11 @@
       [{"x":42,"y":344},{"x":48,"y":352},{"x":125,"y":345},{"x":59,"y":304}],
       [{"x":128,"y":322},{"x":42,"y":251},{"x":40,"y":261},{"x":59,"y":304},{"x":125,"y":345}],
       [{"x":152,"y":355},{"x":125,"y":345},{"x":165,"y":365}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.the.spring",
     "image": "assets/buildings/magna/magna.the.spring.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Spring"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "HC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -537,21 +359,11 @@
       [{"x":42,"y":344},{"x":48,"y":352},{"x":125,"y":345},{"x":59,"y":304}],
       [{"x":128,"y":322},{"x":42,"y":251},{"x":40,"y":261},{"x":59,"y":304},{"x":125,"y":345}],
       [{"x":152,"y":355},{"x":125,"y":345},{"x":165,"y":365}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.tulip.empty",
     "image": "assets/buildings/magna/magna.tulip.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Tulip"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -566,21 +378,11 @@
       [{"x":48,"y":229},{"x":93,"y":400},{"x":104,"y":397},{"x":140,"y":220},{"x":107,"y":108},{"x":62,"y":136}],
       [{"x":125,"y":126},{"x":107,"y":108},{"x":140,"y":220}],
       [{"x":161,"y":299},{"x":161,"y":277},{"x":140,"y":220},{"x":104,"y":397},{"x":156,"y":316}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.tulip",
     "image": "assets/buildings/magna/magna.tulip.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "Tulip"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "MC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -595,21 +397,11 @@
       [{"x":48,"y":229},{"x":93,"y":400},{"x":104,"y":397},{"x":140,"y":220},{"x":107,"y":108},{"x":62,"y":136}],
       [{"x":125,"y":126},{"x":107,"y":108},{"x":140,"y":220}],
       [{"x":161,"y":299},{"x":161,"y":277},{"x":140,"y":220},{"x":104,"y":397},{"x":156,"y":316}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.whirlpool.empty",
     "image": "assets/buildings/magna/magna.whirlpool.empty.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Whirlpool"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -621,21 +413,11 @@
       [{"x":187,"y":67},{"x":168,"y":44},{"x":105,"y":19},{"x":151,"y":194},{"x":187,"y":112}],
       [{"x":14,"y":52},{"x":4,"y":70},{"x":5,"y":109},{"x":41,"y":199},{"x":88,"y":27},{"x":37,"y":37}],
       [{"x":151,"y":194},{"x":41,"y":199},{"x":167,"y":214}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   },
   {
     "id": "magna.whirlpool",
     "image": "assets/buildings/magna/magna.whirlpool.gif",
-    "construction_image_id": "generic.construction.3",
-    "name": {
-      "en": "The Whirlpool"
-    },
-    "seal": "magna",
-    "zone": "RESIDENTIAL",
-    "category": "REAL_ESTATE",
-    "industry_type": "LC_RESIDENTIAL",
     "tile_width": 3,
     "tile_height": 3,
     "hit_area": [
@@ -647,8 +429,6 @@
       [{"x":187,"y":67},{"x":168,"y":44},{"x":105,"y":19},{"x":151,"y":194},{"x":187,"y":112}],
       [{"x":14,"y":52},{"x":4,"y":70},{"x":5,"y":109},{"x":41,"y":199},{"x":88,"y":27},{"x":37,"y":37}],
       [{"x":151,"y":194},{"x":41,"y":199},{"x":167,"y":214}]
-    ],
-    "required_inventions": ["RealEstate"],
-    "resource_flow": []
+    ]
   }
 ]

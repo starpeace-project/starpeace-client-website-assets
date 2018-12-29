@@ -11,87 +11,21 @@
     "category": "SERVICE",
     "industry_type": "COMPUTER_SERVICES",
     "required_inventions": ["SoftwareFirms"],
-    "resource_flow": [
-      {
-        "key": "PGI.CompServ-PGI Computing Industry",
-        "budget": 0,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 25 },
-          { "resource": "WORK_FORCE_LO", "max": 10 }
-        ],
-        "optional_inputs": [
-          { "resource": "LEGAL_SERVICES", "max": 0.8 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 8 }
-        ]
-      },
-      {
-        "key": "PGI.block.CompServ-Computing Industry",
-        "budget": 1547.1826,
-        "cost": 28000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 18 },
-          { "resource": "WORK_FORCE_LO", "max": 3 }
-        ],
-        "optional_inputs": [
-          { "resource": "LEGAL_SERVICES", "max": 0.791999995708466 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 10.0500001907349 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.CompServ-Computing Industry small",
-        "budget": 749.8965,
-        "cost": 10000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 13 },
-          { "resource": "WORK_FORCE_LO", "max": 2 }
-        ],
-        "optional_inputs": [
-          { "resource": "LEGAL_SERVICES", "max": 0.400000005960464 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 5 }
-        ]
-      },
-      {
-        "key": "PGI.block.CompServ-Computing Industry",
-        "budget": 1967.2192,
-        "cost": 33600001,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 3 },
-          { "resource": "WORK_FORCE_MID", "max": 19 },
-          { "resource": "WORK_FORCE_LO", "max": 15 }
-        ],
-        "optional_inputs": [
-          { "resource": "LEGAL_SERVICES", "max": 0.880000054836273 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 12.5 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.CompServ-Computing Industry small",
-        "budget": 582.1172,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "WORK_FORCE_HI", "max": 2 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 9 }
-        ],
-        "optional_inputs": [
-          { "resource": "LEGAL_SERVICES", "max": 0.320000022649765 }
-        ],
-        "outputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 4 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 2000,
+      "cost": 33600000,
+      "required_inputs": [
+        { "resource": "COMPUTER", "max": 1 },
+        { "resource": "WORK_FORCE_HI", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 19 },
+        { "resource": "WORK_FORCE_LO", "max": 15 }
+      ],
+      "optional_inputs": [
+        { "resource": "LEGAL_SERVICES", "max": 1 }
+      ],
+      "outputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 5 }
+      ]
+    }
   }
 ]

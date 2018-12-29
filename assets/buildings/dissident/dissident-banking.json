@@ -11,6 +11,6 @@
     "category": "SERVICE",
     "industry_type": "BANKING",
     "required_inventions": ["Banking"],
-    "resource_flow": []
+    "banking": {}
   }
 ]

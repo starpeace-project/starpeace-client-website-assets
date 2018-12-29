@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pgi.hha.industry",
+    "image_id": "pgi.hha.industry",
+    "construction_image_id": "generic.construction.5",
+    "name": {
+      "en": "Large Appliances Factory"
+    },
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "APPLIANCE",
+    "required_inventions": ["LSAppProd"],
+    "industry": {
+      "budget": 745,
+      "cost": 25200000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 71 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 71 },
+        { "resource": "CHEMICAL", "max": 40 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 14 },
+        { "resource": "WORK_FORCE_LO", "max": 113 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.8 },
+        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+      ],
+      "outputs": [
+        { "resource": "APPLIANCE", "max": 24 }
+      ]
+    }
+  },
+  {
+    "id": "pgi.hha.industry.small",
+    "image_id": "pgi.hha.industry.small",
+    "construction_image_id": "generic.construction.3",
+    "name": {
+      "en": "Appliances Factory"
+    },
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "APPLIANCE",
+    "required_inventions": ["HHALic"],
+    "industry": {
+      "budget": 300,
+      "cost": 9000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 36 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 10 },
+        { "resource": "WORK_FORCE_LO", "max": 80 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "APPLIANCE", "max": 12 }
+      ]
+    }
+  }
+]

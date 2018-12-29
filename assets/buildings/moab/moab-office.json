@@ -11,7 +11,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
     "required_inventions": ["Offices"],
-    "resource_flow": []
+    "office": {}
   },
   {
     "id": "moab.office.b",
@@ -25,6 +25,6 @@
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
     "required_inventions": ["Offices"],
-    "resource_flow": []
+    "office": {}
   }
 ]

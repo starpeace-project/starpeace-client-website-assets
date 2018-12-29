@@ -11,7 +11,7 @@
     "category": "COMMERCE",
     "industry_type": "MOVIE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   },
   {
     "id": "pgi.movie.b",
@@ -25,6 +25,6 @@
     "category": "COMMERCE",
     "industry_type": "MOVIE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

@@ -11,6 +11,23 @@
     "category": "INDUSTRY",
     "industry_type": "MOVIE",
     "required_inventions": ["MovieStudios"],
-    "resource_flow": []
+    "industry": {
+      "budget": 15000,
+      "cost": 2500000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 10 },
+        { "resource": "PLASTIC", "max": 15 },
+        { "resource": "WORK_FORCE_HI", "max": 10 },
+        { "resource": "WORK_FORCE_MID", "max": 30 },
+        { "resource": "WORK_FORCE_LO", "max": 100 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 1 },
+        { "resource": "LEGAL_SERVICES", "max": 1 }
+      ],
+      "outputs": [
+        { "resource": "MOVIE", "max": 0.8 }
+      ]
+    }
   }
 ]

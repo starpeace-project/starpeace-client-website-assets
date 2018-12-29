@@ -11,7 +11,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
     "required_inventions": ["Offices"],
-    "resource_flow": []
+    "office": {}
   },
   {
     "id": "dis.office.b",
@@ -25,7 +25,7 @@
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
     "required_inventions": ["Offices"],
-    "resource_flow": []
+    "office": {}
   },
   {
     "id": "dis.office.c",
@@ -39,6 +39,6 @@
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
     "required_inventions": ["Offices"],
-    "resource_flow": []
+    "office": {}
   }
 ]

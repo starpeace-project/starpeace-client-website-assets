@@ -10,71 +10,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
-    "resource_flow": [
-      {
-        "key": "Clothing-Clothing",
-        "budget": 200,
-        "cost": 12000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_HI", "max": 5 },
-          { "resource": "CLOTHES_MID", "max": 50 },
-          { "resource": "CLOTHES_LO", "max": 100 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Clothing-Clothing",
-        "budget": 170.2986,
-        "cost": 15120000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 39 },
-          { "resource": "ORGANIC_MATERIAL", "max": 14 },
-          { "resource": "CHEMICAL", "max": 14 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
-          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 54.6000022888184 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Clothing-Clothing small",
-        "budget": 5.6027,
-        "cost": 3600000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 13 },
-          { "resource": "ORGANIC_MATERIAL", "max": 5 },
-          { "resource": "CHEMICAL", "max": 5 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 77 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 18 }
-        ]
-      }
-    ]
+    "required_inventions": ["LSCManuf"],
+    "industry": {
+      "budget": 170,
+      "cost": 15120000,
+      "required_inputs": [
+        { "resource": "FABRIC", "max": 39 },
+        { "resource": "ORGANIC_MATERIAL", "max": 14 },
+        { "resource": "CHEMICAL", "max": 14 },
+        { "resource": "WORK_FORCE_MID", "max": 3 },
+        { "resource": "WORK_FORCE_LO", "max": 133 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.7 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CLOTHES_MID", "max": 54 }
+      ]
+    }
   },
   {
     "id": "mko.clothes.industry.small",
@@ -87,71 +41,25 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
-    "resource_flow": [
-      {
-        "key": "Clothing-Clothing",
-        "budget": 200,
-        "cost": 12000000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 200 },
-          { "resource": "ORGANIC_MATERIAL", "max": 100 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 100 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_HI", "max": 5 },
-          { "resource": "CLOTHES_MID", "max": 50 },
-          { "resource": "CLOTHES_LO", "max": 100 }
-        ]
-      },
-      {
-        "key": "Mariko.block.Clothing-Clothing",
-        "budget": 170.2986,
-        "cost": 15120000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 39 },
-          { "resource": "ORGANIC_MATERIAL", "max": 14 },
-          { "resource": "CHEMICAL", "max": 14 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 3 },
-          { "resource": "WORK_FORCE_LO", "max": 133 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.712000012397766 },
-          { "resource": "LEGAL_SERVICES", "max": 0.356000006198883 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 54.6000022888184 }
-        ]
-      },
-      {
-        "key": "Mariko.small.block.Clothing-Clothing small",
-        "budget": 5.6027,
-        "cost": 3600000,
-        "required_inputs": [
-          { "resource": "FABRIC", "max": 13 },
-          { "resource": "ORGANIC_MATERIAL", "max": 5 },
-          { "resource": "CHEMICAL", "max": 5 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 2 },
-          { "resource": "WORK_FORCE_LO", "max": 77 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.240000009536743 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CLOTHES_MID", "max": 18 }
-        ]
-      }
-    ]
+    "required_inventions": ["ClothesLic"],
+    "industry": {
+      "budget": 5,
+      "cost": 3600000,
+      "required_inputs": [
+        { "resource": "FABRIC", "max": 13 },
+        { "resource": "ORGANIC_MATERIAL", "max": 5 },
+        { "resource": "CHEMICAL", "max": 5 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 77 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "CLOTHES_MID", "max": 18 }
+      ]
+    }
   },
   {
     "id": "mko.clothes.store",
@@ -164,7 +72,7 @@
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "CLOTHES",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": ["BasicCommerce"],
+    "commerce": {}
   }
 ]

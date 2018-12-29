@@ -11,67 +11,23 @@
     "category": "INDUSTRY",
     "industry_type": "CONSTRUCTION",
     "required_inventions": ["ConstInd"],
-    "resource_flow": [
-      {
-        "key": "Construction-Construction",
-        "budget": 700,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 500 },
-          { "resource": "METAL", "max": 200 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Moab.Construction-Moab Construction",
-        "budget": 38000,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 500 },
-          { "resource": "METAL", "max": 200 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 12 },
-          { "resource": "WORK_FORCE_LO", "max": 533 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 500 }
-        ]
-      },
-      {
-        "key": "Moab.block.Construction-Construction",
-        "budget": 791.8006,
-        "cost": 15400000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 120 },
-          { "resource": "METAL", "max": 25 },
-          { "resource": "CHEMICAL", "max": 25 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 4 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.400000005960464 },
-          { "resource": "LEGAL_SERVICES", "max": 0.100000001490116 }
-        ],
-        "outputs": [
-          { "resource": "CONSTRUCTION", "max": 20 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 800,
+      "cost": 15400000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 120 },
+        { "resource": "METAL", "max": 25 },
+        { "resource": "CHEMICAL", "max": 25 },
+        { "resource": "WORK_FORCE_MID", "max": 4 },
+        { "resource": "WORK_FORCE_LO", "max": 150 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "CONSTRUCTION", "max": 20 }
+      ]
+    }
   }
 ]

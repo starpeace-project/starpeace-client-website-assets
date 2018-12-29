@@ -1,0 +1,60 @@
+[
+  {
+    "id": "pgi.mine",
+    "image_id": "pgi.mine",
+    "construction_image_id": "generic.construction.3",
+    "name": {
+      "en": "Chemical Mine"
+    },
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "required_inventions": ["ChemLSMining"],
+    "industry": {
+      "budget": 88,
+      "cost": 17500000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_MID", "max": 2 },
+        { "resource": "WORK_FORCE_LO", "max": 158 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.75 },
+        { "resource": "LEGAL_SERVICES", "max": 0.25 }
+      ],
+      "outputs": [
+        { "resource": "RAW_CHEMICAL", "max": 1000 }
+      ]
+    }
+  },
+  {
+    "id": "pgi.mine.small",
+    "image_id": "pgi.mine.small",
+    "construction_image_id": "generic.construction.3",
+    "name": {
+      "en": "Small Chemical Mine"
+    },
+    "seal": "pgi",
+    "zone": "INDUSTRIAL",
+    "category": "INDUSTRY",
+    "industry_type": "CHEMICAL",
+    "required_inventions": ["ChemMining"],
+    "industry": {
+      "budget": 16,
+      "cost": 4000000,
+      "required_inputs": [
+        { "resource": "CHEMICAL", "max": 6 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 89 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.25 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "RAW_CHEMICAL", "max": 320 }
+      ]
+    }
+  }
+]

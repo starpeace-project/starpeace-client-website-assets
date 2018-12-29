@@ -11,6 +11,6 @@
     "category": "COMMERCE",
     "industry_type": "RESTAURANT",
     "required_inventions": ["Restaurants"],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

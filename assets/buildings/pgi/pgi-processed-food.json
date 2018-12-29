@@ -11,122 +11,23 @@
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
     "required_inventions": ["FoodPrcLic","LSFoodPrc"],
-    "resource_flow": [
-      {
-        "key": "FoodProcessing-Food Processing Plant",
-        "budget": 0,
-        "cost": 14000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 100 },
-          { "resource": "CHEMICAL", "max": 85 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 20 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.012 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 200 }
-        ]
-      },
-      {
-        "key": "PGI.FoodProcessing-PGI Food Processing Plant",
-        "budget": 200,
-        "cost": 20000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 400 },
-          { "resource": "CHEMICAL", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 7 },
-          { "resource": "WORK_FORCE_LO", "max": 233 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.012 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 300 }
-        ]
-      },
-      {
-        "key": "PGI.block.FoodProcessing-Food Processing Plant",
-        "budget": 93.9644,
-        "cost": 25200000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 79 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 70 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.395999997854233 },
-          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 80.4000015258789 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.FoodProcessing-Food Processing Plant small",
-        "budget": 27.5068,
-        "cost": 9000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 40 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 50 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 40 }
-        ]
-      },
-      {
-        "key": "PGI.block.FoodProcessing-Food Processing Plant",
-        "budget": 244.3973,
-        "cost": 30240001,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 88 },
-          { "resource": "CHEMICAL", "max": 22 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 89 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.440000027418137 },
-          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 100 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.FoodProcessing-Food Processing Plant small",
-        "budget": 7.2055,
-        "cost": 7200000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 32 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 54 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 32 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 100,
+      "cost": 25200000,
+      "required_inputs": [
+        { "resource": "FRESH_FOOD", "max": 79 },
+        { "resource": "CHEMICAL", "max": 20 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 70 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+      ],
+      "outputs": [
+        { "resource": "PROCESSED_FOOD", "max": 80 }
+      ]
+    }
   },
   {
     "id": "pgi.food.proc.small",
@@ -140,121 +41,22 @@
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
     "required_inventions": ["FoodPrcLic","LSFoodPrc"],
-    "resource_flow": [
-      {
-        "key": "FoodProcessing-Food Processing Plant",
-        "budget": 0,
-        "cost": 14000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 100 },
-          { "resource": "CHEMICAL", "max": 85 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 20 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.012 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 200 }
-        ]
-      },
-      {
-        "key": "PGI.FoodProcessing-PGI Food Processing Plant",
-        "budget": 200,
-        "cost": 20000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 400 },
-          { "resource": "CHEMICAL", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 7 },
-          { "resource": "WORK_FORCE_MID", "max": 7 },
-          { "resource": "WORK_FORCE_LO", "max": 233 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.012 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 300 }
-        ]
-      },
-      {
-        "key": "PGI.block.FoodProcessing-Food Processing Plant",
-        "budget": 93.9644,
-        "cost": 25200000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 79 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 70 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.395999997854233 },
-          { "resource": "LEGAL_SERVICES", "max": 0.395999997854233 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 80.4000015258789 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.FoodProcessing-Food Processing Plant small",
-        "budget": 27.5068,
-        "cost": 9000000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 40 },
-          { "resource": "CHEMICAL", "max": 10 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 50 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.200000002980232 },
-          { "resource": "LEGAL_SERVICES", "max": 0.200000002980232 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 40 }
-        ]
-      },
-      {
-        "key": "PGI.block.FoodProcessing-Food Processing Plant",
-        "budget": 244.3973,
-        "cost": 30240001,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 88 },
-          { "resource": "CHEMICAL", "max": 22 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 89 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.440000027418137 },
-          { "resource": "LEGAL_SERVICES", "max": 0.440000027418137 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 100 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.FoodProcessing-Food Processing Plant small",
-        "budget": 7.2055,
-        "cost": 7200000,
-        "required_inputs": [
-          { "resource": "FRESH_FOOD", "max": 32 },
-          { "resource": "CHEMICAL", "max": 8 },
-          { "resource": "WORK_FORCE_HI", "max": 0 },
-          { "resource": "WORK_FORCE_MID", "max": 1 },
-          { "resource": "WORK_FORCE_LO", "max": 54 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.160000011324882 }
-        ],
-        "outputs": [
-          { "resource": "PROCESSED_FOOD", "max": 32 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 30,
+      "cost": 9000000,
+      "required_inputs": [
+        { "resource": "FRESH_FOOD", "max": 40 },
+        { "resource": "CHEMICAL", "max": 10 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 50 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+      ],
+      "outputs": [
+        { "resource": "PROCESSED_FOOD", "max": 40 }
+      ]
+    }
   }
 ]

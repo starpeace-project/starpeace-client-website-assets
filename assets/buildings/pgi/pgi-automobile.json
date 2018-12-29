@@ -11,137 +11,28 @@
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
     "required_inventions": ["AutoInd"],
-    "resource_flow": [
-      {
-        "key": "CarIndustry-Car Industry",
-        "budget": 35600,
-        "cost": 50000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 1000 },
-          { "resource": "FABRIC", "max": 100 },
-          { "resource": "ORGANIC_MATERIAL", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 200 },
-          { "resource": "WORK_FORCE_HI", "max": 20 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 200 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.03 }
-        ],
-        "outputs": [
-          { "resource": "CAR_HI", "max": 0.3 },
-          { "resource": "CAR_MID", "max": 1 },
-          { "resource": "CAR_LO", "max": 3 }
-        ]
-      },
-      {
-        "key": "PGI.CarIndustry-PGI Car Industry",
-        "budget": 10000,
-        "cost": 60000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 750 },
-          { "resource": "FABRIC", "max": 30 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-          { "resource": "CHEMICAL", "max": 50 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 350 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 2 },
-          { "resource": "LEGAL_SERVICES", "max": 0.4 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 2 }
-        ]
-      },
-      {
-        "key": "PGI.block.CarIndustry-Car Industry",
-        "budget": 1620.6466,
-        "cost": 22400000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 396 },
-          { "resource": "FABRIC", "max": 36 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 16 },
-          { "resource": "CHEMICAL", "max": 40 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 21 },
-          { "resource": "WORK_FORCE_LO", "max": 113 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1.98000001907349 },
-          { "resource": "LEGAL_SERVICES", "max": 0.594000041484833 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.603000044822693 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.CarIndustry-Car Industry small",
-        "budget": 730.1174,
-        "cost": 8000000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 200 },
-          { "resource": "FABRIC", "max": 18 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 8 },
-          { "resource": "CHEMICAL", "max": 20 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 15 },
-          { "resource": "WORK_FORCE_LO", "max": 80 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.300000011920929 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.300000011920929 }
-        ]
-      },
-      {
-        "key": "PGI.block.CarIndustry-Car Industry",
-        "budget": 2661.5753,
-        "cost": 26880001,
-        "required_inputs": [
-          { "resource": "METAL", "max": 440 },
-          { "resource": "FABRIC", "max": 40 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 18 },
-          { "resource": "CHEMICAL", "max": 44 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 22 },
-          { "resource": "WORK_FORCE_LO", "max": 222 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 2.20000004768372 },
-          { "resource": "LEGAL_SERVICES", "max": 0.660000026226044 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.75 }
-        ]
-      },
-      {
-        "key": "PGI.small.block.CarIndustry-Car Industry small",
-        "budget": 523.2938,
-        "cost": 6400000,
-        "required_inputs": [
-          { "resource": "METAL", "max": 160 },
-          { "resource": "FABRIC", "max": 14 },
-          { "resource": "ELECTRONIC_COMPONENT", "max": 6 },
-          { "resource": "CHEMICAL", "max": 16 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 13 },
-          { "resource": "WORK_FORCE_LO", "max": 134 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.800000011920929 },
-          { "resource": "LEGAL_SERVICES", "max": 0.240000009536743 }
-        ],
-        "outputs": [
-          { "resource": "CAR_MID", "max": 0.240000009536743 }
-        ]
-      }
-    ]
+    "industry": {
+      "budget": 1620,
+      "cost": 60000000,
+      "required_inputs": [
+        { "resource": "METAL", "max": 750 },
+        { "resource": "FABRIC", "max": 30 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
+        { "resource": "CHEMICAL", "max": 50 },
+        { "resource": "WORK_FORCE_HI", "max": 10 },
+        { "resource": "WORK_FORCE_MID", "max": 40 },
+        { "resource": "WORK_FORCE_LO", "max": 350 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+      ],
+      "outputs": [
+        { "resource": "CAR_HI", "max": 0.3 },
+        { "resource": "CAR_MID", "max": 1 },
+        { "resource": "CAR_LO", "max": 3 }
+      ]
+    }
   },
   {
     "id": "pgi.car.store",
@@ -155,6 +46,6 @@
     "category": "COMMERCE",
     "industry_type": "AUTOMOBILE",
     "required_inventions": [],
-    "resource_flow": []
+    "commerce": {}
   }
 ]

@@ -10,8 +10,7 @@
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   },
   {
     "id": "magna.research.b",
@@ -24,7 +23,6 @@
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "HEADQUARTERS",
-    "required_inventions": [],
-    "resource_flow": []
+    "required_inventions": []
   }
 ]

@@ -11,6 +11,22 @@
     "category": "INDUSTRY",
     "industry_type": "LIQUOR",
     "required_inventions": ["Liquors"],
-    "resource_flow": []
+    "industry": {
+      "budget": 400,
+      "cost": 25200000,
+      "required_inputs": [
+        { "resource": "FRESH_FOOD", "max": 10 },
+        { "resource": "CHEMICAL", "max": 3 },
+        { "resource": "WORK_FORCE_MID", "max": 1 },
+        { "resource": "WORK_FORCE_LO", "max": 60 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
+        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+      ],
+      "outputs": [
+        { "resource": "LIQUOR", "max": 48 }
+      ]
+    }
   }
 ]

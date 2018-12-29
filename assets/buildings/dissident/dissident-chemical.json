@@ -10,99 +10,24 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic","LargeChem"],
-    "resource_flow": [
-      {
-        "key": "Chemical-Chemical Plant",
-        "budget": 15300,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 70 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Dissident.Chemical-Dissident Chemical Plant",
-        "budget": 2000,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 10000 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 800 }
-        ]
-      },
-      {
-        "key": "block.Chemical-Chemical Plant",
-        "budget": 100,
-        "cost": 7000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 400 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 40 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Chemical-Chemical Plant",
-        "budget": 695.4267,
-        "cost": 11760000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 476 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 11 },
-          { "resource": "WORK_FORCE_LO", "max": 131 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-          { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 80.4000015258789 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Chemical-Chemical Plant small",
-        "budget": -33.309,
-        "cost": 2800000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 160 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 6 },
-          { "resource": "WORK_FORCE_LO", "max": 76 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 16 }
-        ]
-      }
-    ]
+    "required_inventions": ["LargeChem"],
+    "industry": {
+      "budget": 2000,
+      "cost": 30000000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 476 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 11 },
+        { "resource": "WORK_FORCE_LO", "max": 131 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
+        { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
+      ],
+      "outputs": [
+        { "resource": "CHEMICAL", "max": 80 }
+      ]
+    }
   },
   {
     "id": "dis.chemical.industry.small",
@@ -115,98 +40,23 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic","LargeChem"],
-    "resource_flow": [
-      {
-        "key": "Chemical-Chemical Plant",
-        "budget": 15300,
-        "cost": 40000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 3000 },
-          { "resource": "WORK_FORCE_HI", "max": 5 },
-          { "resource": "WORK_FORCE_MID", "max": 70 },
-          { "resource": "WORK_FORCE_LO", "max": 150 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 1000 }
-        ]
-      },
-      {
-        "key": "Dissident.Chemical-Dissident Chemical Plant",
-        "budget": 2000,
-        "cost": 30000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 10000 },
-          { "resource": "WORK_FORCE_HI", "max": 10 },
-          { "resource": "WORK_FORCE_MID", "max": 40 },
-          { "resource": "WORK_FORCE_LO", "max": 300 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 1 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 800 }
-        ]
-      },
-      {
-        "key": "block.Chemical-Chemical Plant",
-        "budget": 100,
-        "cost": 7000000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 400 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 10 },
-          { "resource": "WORK_FORCE_LO", "max": 120 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-          { "resource": "LEGAL_SERVICES", "max": 0.3 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 40 }
-        ]
-      },
-      {
-        "key": "Dissident.block.Chemical-Chemical Plant",
-        "budget": 695.4267,
-        "cost": 11760000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 476 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 11 },
-          { "resource": "WORK_FORCE_LO", "max": 131 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-          { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 80.4000015258789 }
-        ]
-      },
-      {
-        "key": "Dissident.small.block.Chemical-Chemical Plant small",
-        "budget": -33.309,
-        "cost": 2800000,
-        "required_inputs": [
-          { "resource": "ORE", "max": 160 },
-          { "resource": "WORK_FORCE_HI", "max": 1 },
-          { "resource": "WORK_FORCE_MID", "max": 6 },
-          { "resource": "WORK_FORCE_LO", "max": 76 }
-        ],
-        "optional_inputs": [
-          { "resource": "COMPUTER_SERVICES", "max": 0.160000011324882 },
-          { "resource": "LEGAL_SERVICES", "max": 0.120000004768372 }
-        ],
-        "outputs": [
-          { "resource": "CHEMICAL", "max": 16 }
-        ]
-      }
-    ]
+    "required_inventions": ["ChemLic"],
+    "industry": {
+      "budget": 300,
+      "cost": 7800000,
+      "required_inputs": [
+        { "resource": "ORE", "max": 160 },
+        { "resource": "WORK_FORCE_HI", "max": 1 },
+        { "resource": "WORK_FORCE_MID", "max": 6 },
+        { "resource": "WORK_FORCE_LO", "max": 76 }
+      ],
+      "optional_inputs": [
+        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
+        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+      ],
+      "outputs": [
+        { "resource": "CHEMICAL", "max": 16 }
+      ]
+    }
   }
 ]
