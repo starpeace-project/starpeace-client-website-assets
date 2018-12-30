@@ -15,7 +15,7 @@
       "budget": 100,
       "cost": 50000000,
       "required_inputs": [
-        { "resource": "WOOD", "max": 200 },
+        { "resource": "TIMBER", "max": 200 },
         { "resource": "ORGANIC_MATERIAL", "max": 20 },
         { "resource": "CHEMICAL", "max": 10 },
         { "resource": "WORK_FORCE_HI", "max": 1 },

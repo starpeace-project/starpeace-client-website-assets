@@ -28,9 +28,7 @@
         { "resource": "LEGAL_SERVICES", "max": 0.4 }
       ],
       "outputs": [
-        { "resource": "CAR_HI", "max": 0.3 },
-        { "resource": "CAR_MID", "max": 1 },
-        { "resource": "CAR_LO", "max": 3 }
+        { "resource": "AUTOMOBILE", "max": 1 }
       ]
     }
   },
