@@ -315,18 +315,18 @@
     "id": "SoftwareFirms",
     "category": "SERVICE",
     "name": {
-      "EN": "Software Firm Basics",
-      "ES": "Software Firms Basics",
-      "FR": "Principes de production de logiciels",
-      "DE": "Grundlagen für Softwarefirmen",
-      "IT": "Fondamenti della progettazione del software"
+      "EN": "Computer Services Basics",
+      "ES": "Conceptos básicos de Servicios Informáticos",
+      "FR": "Notions de base sur les Services Informatiques",
+      "DE": "Grundlagen der Computerdienste",
+      "IT": "Nozioni di base sui Servizi Informatici"
     },
     "description": {
-      "EN": "Assimilate the knowledge to manage software development facilities.",
-      "ES": "Assimilate the knowledge to manage Software Development facilities.",
-      "FR": "Assimilez les principes de gestion des bâtiments de développement de logiciels.",
-      "DE": "Eignen Sie sich die Kenntnisse für die Leitung von Softwareentwicklungsfirmen an.",
-      "IT": "Apprendi le conoscenze fondamentali per gestire una ditta di sviluppo del software."
+      "EN": "Assimilate the knowledge to manage computer services facilities.",
+      "ES": "Asimilar los conocimientos para gestionar instalaciones de servicios informáticos.",
+      "FR": "Assimiler les connaissances pour gérer les installations de services informatiques.",
+      "DE": "Das Wissen zur Verwaltung von Einrichtungen für Computerdienste zusammenführen.",
+      "IT": "Assimilare le conoscenze per gestire le strutture dei servizi informaticie."
     },
     "properties": {
       "price": 30000000,

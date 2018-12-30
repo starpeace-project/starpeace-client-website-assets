@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic","LargeFarms"],
+    "required_inventions": ["LargeFarms"],
     "industry": {
       "budget": 425,
       "cost": 13440000,
@@ -38,7 +38,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic","LargeFarms"],
+    "required_inventions": ["FarmLic"],
     "industry": {
       "budget": 125,
       "cost": 3200000,

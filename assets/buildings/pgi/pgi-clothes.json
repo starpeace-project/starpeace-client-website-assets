@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
+    "required_inventions": ["LSCManuf"],
     "industry": {
       "budget": 200,
       "cost": 16800000,
@@ -42,7 +42,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic","LSCManuf"],
+    "required_inventions": ["ClothesLic"],
     "industry": {
       "budget": 70,
       "cost": 6000000,

@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ORE",
-    "required_inventions": ["Mining","LSMining"],
+    "required_inventions": ["LSMining"],
     "industry": {
       "budget": 340,
       "cost": 8400000,

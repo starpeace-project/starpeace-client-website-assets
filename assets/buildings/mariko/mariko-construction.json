@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CONSTRUCTION",
-    "required_inventions": [],
+    "required_inventions": ["ConstInd"],
     "industry": {
       "budget": 1600,
       "cost": 30000000,

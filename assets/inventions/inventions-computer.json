@@ -28,15 +28,15 @@
     "id": "BMInd",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Business Machines Production",
-      "ES": "Business Machines Production",
+      "EN": "Computer Production",
+      "ES": "Computer Production",
       "FR": "Production de biens d'équipement",
       "DE": "Ausrüstungsgüterproduktion",
       "IT": "Produzione di macchine per ufficio"
     },
     "description": {
-      "EN": "Basic skills to manage Business Machines factories.",
-      "ES": "Basic skills to manage Business Machines factories.",
+      "EN": "Basic skills to manage Computer factories.",
+      "ES": "Basic skills to manage Computer factories.",
       "FR": "Principes de gestion d'usines de biens d'équipement.",
       "DE": "Basisfähigkeiten im Management der Ausrüstungsgüterfabriken.",
       "IT": "Le nozioni fondamentali per la gestione di fabbriche di macchine per ufficio."

@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["FoodPrcLic","LSFoodPrc"],
+    "required_inventions": ["LSFoodPrc"],
     "industry": {
       "budget": 100,
       "cost": 25200000,
@@ -40,7 +40,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["FoodPrcLic","LSFoodPrc"],
+    "required_inventions": ["FoodPrcLic"],
     "industry": {
       "budget": 30,
       "cost": 9000000,

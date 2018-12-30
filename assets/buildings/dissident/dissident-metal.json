@@ -10,7 +10,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic","LSMetal"],
+    "required_inventions": ["LSMetal"],
     "industry": {
       "budget": 800,
       "cost": 18480000,
@@ -41,7 +41,7 @@
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic","LSMetal"],
+    "required_inventions": ["Metallic"],
     "industry": {
       "budget": 600,
       "cost": 4400000,
