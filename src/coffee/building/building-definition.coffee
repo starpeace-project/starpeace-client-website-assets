@@ -37,7 +37,7 @@ module.exports = class BuildingDefinition
     definition.category = json.category
     definition.industry_type = json.industry_type
     definition.restricted = json.restricted || false
-    definition.required_inventions = json.required_inventions
+    definition.required_invention_ids = json.required_inventions
 
     definition.industry = json.industry if json.industry?
     definition.warehouse = json.warehouse if json.warehouse?
