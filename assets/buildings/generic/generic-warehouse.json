@@ -194,7 +194,7 @@
         { "resource": "ORGANIC_MATERIAL", "max": 10000 },
         { "resource": "FABRIC", "max": 10000 },
         { "resource": "CLOTHES", "max": 10000 },
-        { "resource": "ELECTRIC_COMPONENT", "max": 10000 },
+        { "resource": "ELECTRONIC_COMPONENT", "max": 10000 },
         { "resource": "APPLIANCE", "max": 10000 },
         { "resource": "COMPUTER", "max": 10000 },
         { "resource": "METAL", "max": 25000 },
