@@ -23,7 +23,10 @@
       "maintenance": 3,
       "privacy": -1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AdvAroma": {
     "id": "AdvAroma",
@@ -48,7 +51,10 @@
       "beauty": 4,
       "environment": 1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AdvDec": {
     "id": "AdvDec",
@@ -72,7 +78,10 @@
       "level": "apprentice",
       "beauty": 5
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AIManager": {
     "id": "AIManager",
@@ -96,7 +105,10 @@
       "level": "apprentice",
       "maintenance": 6
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AirBorneDeliveries": {
     "id": "AirBorneDeliveries",
@@ -123,7 +135,10 @@
       "security": 3,
       "environment": -2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AntiPollPaint": {
     "id": "AntiPollPaint",
@@ -148,7 +163,10 @@
       "beauty": -7,
       "environment": 25
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AntiRadGlass": {
     "id": "AntiRadGlass",
@@ -174,7 +192,10 @@
       "privacy": 2,
       "environment": 10
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "AntiRadWall": {
     "id": "AntiRadWall",
@@ -199,7 +220,10 @@
       "beauty": -1,
       "environment": 10
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "BanjeeJumping": {
     "id": "BanjeeJumping",
@@ -226,7 +250,10 @@
       "privacy": -2,
       "security": -1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "CleaningMonitoringSystem": {
     "id": "CleaningMonitoringSystem",
@@ -253,7 +280,10 @@
       "privacy": 2,
       "environment": -3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "ClosedCircuits": {
     "id": "ClosedCircuits",
@@ -278,7 +308,10 @@
       "privacy": -4,
       "security": 9
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "Colossus": {
     "id": "Colossus",
@@ -305,7 +338,10 @@
       "maintenance": -1,
       "privacy": -1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "Communities": {
     "id": "Communities",
@@ -329,7 +365,10 @@
       "level": "apprentice",
       "privacy": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "ComplementaryCars": {
     "id": "ComplementaryCars",
@@ -356,7 +395,10 @@
       "security": 1,
       "environment": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "ControlledRiots": {
     "id": "ControlledRiots",
@@ -383,7 +425,10 @@
       "privacy": -1,
       "security": 6
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "DailyCleaners": {
     "id": "DailyCleaners",
@@ -411,7 +456,10 @@
       "security": 1,
       "environment": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "DigitalPaintings": {
     "id": "DigitalPaintings",
@@ -437,7 +485,10 @@
       "maintenance": 1,
       "security": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "ElecFenc": {
     "id": "ElecFenc",
@@ -464,7 +515,10 @@
       "privacy": 4,
       "security": 20
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "EmergencyParachuting": {
     "id": "EmergencyParachuting",
@@ -490,7 +544,10 @@
       "security": 2,
       "environment": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "EnvMusic": {
     "id": "EnvMusic",
@@ -514,7 +571,10 @@
       "level": "apprentice",
       "beauty": 4
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "EscortService": {
     "id": "EscortService",
@@ -538,7 +598,10 @@
       "level": "apprentice",
       "security": 5
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "FengShui": {
     "id": "FengShui",
@@ -562,7 +625,10 @@
       "level": "apprentice",
       "beauty": 7
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "FishBowls": {
     "id": "FishBowls",
@@ -586,7 +652,10 @@
       "level": "apprentice",
       "beauty": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "Gardener": {
     "id": "Gardener",
@@ -613,7 +682,10 @@
       "security": 2,
       "environment": 1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "GatedFloors": {
     "id": "GatedFloors",
@@ -640,7 +712,10 @@
       "privacy": 5,
       "security": 6
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "GlassCleaningRobots": {
     "id": "GlassCleaningRobots",
@@ -668,7 +743,10 @@
       "security": 1,
       "environment": 4
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "GlobFilters": {
     "id": "GlobFilters",
@@ -694,7 +772,10 @@
       "security": -4,
       "environment": 10
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "GunCompart": {
     "id": "GunCompart",
@@ -719,7 +800,10 @@
       "beauty": -3,
       "security": 7
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "HallMirrors": {
     "id": "HallMirrors",
@@ -745,7 +829,10 @@
       "privacy": -1,
       "security": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "HallwayTrees": {
     "id": "HallwayTrees",
@@ -771,7 +858,10 @@
       "security": -2,
       "environment": 3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "HighSpeedElevators": {
     "id": "HighSpeedElevators",
@@ -796,7 +886,10 @@
       "privacy": 2,
       "environment": 3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "HoboEnrolling": {
     "id": "HoboEnrolling",
@@ -825,7 +918,10 @@
       "security": 2,
       "environment": 5
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "HolidayCenters": {
     "id": "HolidayCenters",
@@ -853,7 +949,10 @@
       "privacy": 6,
       "environment": -1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "InternalZoo": {
     "id": "InternalZoo",
@@ -879,7 +978,10 @@
       "maintenance": -2,
       "environment": -1
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "IntExt": {
     "id": "IntExt",
@@ -906,7 +1008,10 @@
       "security": -3,
       "environment": -2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "MobileApartments": {
     "id": "MobileApartments",
@@ -933,7 +1038,10 @@
       "privacy": 5,
       "security": 3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "OxygenMasks": {
     "id": "OxygenMasks",
@@ -958,7 +1066,10 @@
       "beauty": -1,
       "environment": 4
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "Painting": {
     "id": "Painting",
@@ -983,7 +1094,10 @@
       "beauty": 4,
       "security": -2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "PatBldgs": {
     "id": "PatBldgs",
@@ -1009,7 +1123,10 @@
       "privacy": -3,
       "security": 10
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "RealEstate": {
     "id": "RealEstate",
@@ -1059,7 +1176,10 @@
       "security": -2,
       "environment": 6
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "Sculpt": {
     "id": "Sculpt",
@@ -1084,7 +1204,10 @@
       "beauty": 4,
       "security": -3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "SealedEnvironment": {
     "id": "SealedEnvironment",
@@ -1108,7 +1231,10 @@
       "level": "apprentice",
       "environment": 8
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "SelfDef": {
     "id": "SelfDef",
@@ -1132,7 +1258,10 @@
       "level": "apprentice",
       "security": 7
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "SuicideTerrace": {
     "id": "SuicideTerrace",
@@ -1159,7 +1288,10 @@
       "privacy": 2,
       "security": 2
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   },
   "ZeroToleranceRent": {
     "id": "ZeroToleranceRent",
@@ -1186,6 +1318,9 @@
       "privacy": 2,
       "security": 3
     },
-    "industry_type": "RESIDENTIAL"
+    "industry_type": "RESIDENTIAL",
+    "depends_on": [
+      "RealEstate"
+    ]
   }
 }
