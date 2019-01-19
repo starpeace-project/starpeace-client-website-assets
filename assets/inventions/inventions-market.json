@@ -3,18 +3,20 @@
     "id": "AutomatedCarts",
     "category": "COMMERCE",
     "name": {
-      "EN": "Automated Carts",
-      "ES": "Automated Carts",
-      "FR": "Caddies automatisés",
       "DE": "Automatische Einkaufswagen",
-      "IT": "Carrelli automatizzati"
+      "EN": "Automated Carts",
+      "ES": "Carros automatizados",
+      "FR": "Caddies automatisés",
+      "IT": "Carrelli automatizzati",
+      "PT": "Carrinhos Automatizados"
     },
     "description": {
-      "EN": "Special motorized carts that follow your clients around the supermarket and to the parking lot.",
-      "ES": "Special motorized carts that follow your clients in the supermarket and in the parking lot.",
-      "FR": "Caddies motorisés qui suivent les clients dans le supermarché et sur le parking.",
       "DE": "Spezielle motorisierte Einkaufswagen folgen Ihren Kunden im Supermarkt und auf dem Parkplatz.",
-      "IT": "Speciali carrelli motorizzati che seguono i tuoi clienti nel supermercato e nel parcheggio."
+      "EN": "Special motorized carts that follow your clients around the supermarket and to the parking lot.",
+      "ES": "Carritos especiales motorizados que siguen a sus clientes alrededor del supermercado y al estacionamiento.",
+      "FR": "Caddies motorisés qui suivent les clients dans le supermarché et sur le parking.",
+      "IT": "Speciali carrelli motorizzati che seguono i tuoi clienti nel supermercato e nel parcheggio.",
+      "PT": "Carrinhos motorizados especiais que acompanham seus clientes ao redor do supermercado e ao estacionamento."
     },
     "properties": {
       "price": 75000000,
@@ -31,18 +33,20 @@
     "id": "BagPackers",
     "category": "COMMERCE",
     "name": {
-      "EN": "Bag Packers",
-      "ES": "Bag Packers",
-      "FR": "Empaqueteurs",
       "DE": "Tütenpacker",
-      "IT": "Addetti all'insacchettamento"
+      "EN": "Bag Packers",
+      "ES": "Empacadores de bolsas",
+      "FR": "Empaqueteurs",
+      "IT": "Addetti all'insacchettamento",
+      "PT": "Packers de sacos"
     },
     "description": {
-      "EN": "Workers that bag groceries and put them in the carts for your customers.",
-      "ES": "Special workers that prepare and put in the cart the bags for your customers after they have paid.",
-      "FR": "Ouvriers spécialisés qui préparent les sacs et les mettent dans les caddies une fois que les acheteurs ont payé.",
       "DE": "Spezialarbeiter, die die Tüten der Kunden nach der Bezahlung packen und in den Einkaufswagen stellen.",
-      "IT": "Impiegati incaricati di insacchettare la spesa dei tuoi clienti e mettere le borse nel carrello dopo che questi hanno pagato."
+      "EN": "Workers that bag groceries and put them in the carts for your customers.",
+      "ES": "Trabajadores que empaquetan comestibles y los ponen en los carritos para sus clientes.",
+      "FR": "Ouvriers spécialisés qui préparent les sacs et les mettent dans les caddies une fois que les acheteurs ont payé.",
+      "IT": "Impiegati incaricati di insacchettare la spesa dei tuoi clienti e mettere le borse nel carrello dopo che questi hanno pagato.",
+      "PT": "Trabalhadores que saciam mantimentos e os colocam nos carrinhos para seus clientes."
     },
     "properties": {
       "price": 5000000,
@@ -59,18 +63,20 @@
     "id": "CourtesyBuses",
     "category": "COMMERCE",
     "name": {
-      "EN": "Courtesy Buses",
-      "ES": "Courtesy Buses",
-      "FR": "Bus gratuits",
       "DE": "Kundenbusse",
-      "IT": "Autobus gratuiti per i clienti"
+      "EN": "Courtesy Buses",
+      "ES": "Autobuses de cortesía",
+      "FR": "Bus gratuits",
+      "IT": "Autobus gratuiti per i clienti",
+      "PT": "Ônibus de cortesia"
     },
     "description": {
-      "EN": "A special bus service for your customers: from home to the supermarket and back.",
-      "ES": "Service of buses for your clients, from home to the supermarket and back.",
-      "FR": "Service de bus proposé à vos clients, de chez eux jusqu'au supermarché et retour.",
       "DE": "Busservice für Ihre Kunden. Von zuhause zum Supermarkt, und wieder nach Hause.",
-      "IT": "Offri ai tuoi clienti un servizio di trasporto su autobus, da casa al supermercato e viceversa."
+      "EN": "A special bus service for your customers: from home to the supermarket and back.",
+      "ES": "Un servicio especial de autobús para sus clientes: desde su casa hasta el supermercado y viceversa.",
+      "FR": "Service de bus proposé à vos clients, de chez eux jusqu'au supermarché et retour.",
+      "IT": "Offri ai tuoi clienti un servizio di trasporto su autobus, da casa al supermercato e viceversa.",
+      "PT": "Um serviço de ônibus especial para seus clientes: de casa ao supermercado e de volta."
     },
     "properties": {
       "price": 15000000,
@@ -87,18 +93,20 @@
     "id": "FewItemCashes",
     "category": "COMMERCE",
     "name": {
-      "EN": "Minimal Item Cashes",
-      "ES": "Few Item Cashes",
-      "FR": "Caisses moins de 10 articles",
       "DE": "Schnellkassen",
-      "IT": "Casse veloci"
+      "EN": "Minimal Item Cashes",
+      "ES": "Objetos mínimos en efectivo",
+      "FR": "Caisses moins de 10 articles",
+      "IT": "Casse veloci",
+      "PT": "Artigo Mínimo"
     },
     "description": {
-      "EN": "Cashes for customers with only few items: it shortens the waiting time.",
-      "ES": "Cashes for customers with few items. It shortens the waiting time.",
-      "FR": "Caisses destinées aux clients qui n'ont que quelques articles. Le temps d'attente est réduit.",
       "DE": "Kassen für Kunden mit wenigen Gegenständen. Verkürzt die Wartezeit.",
-      "IT": "Casse per i clienti che hanno acquistato pochi articoli. I tempi di attesa si riducono."
+      "EN": "Cashes for customers with only few items: it shortens the waiting time.",
+      "ES": "Cobra para clientes con solo unos pocos artículos: acorta el tiempo de espera.",
+      "FR": "Caisses destinées aux clients qui n'ont que quelques articles. Le temps d'attente est réduit.",
+      "IT": "Casse per i clienti che hanno acquistato pochi articoli. I tempi di attesa si riducono.",
+      "PT": "Cauções para clientes com apenas alguns itens: reduz o tempo de espera."
     },
     "properties": {
       "price": 35000000,
@@ -115,18 +123,20 @@
     "id": "FlyersInondation",
     "category": "COMMERCE",
     "name": {
-      "EN": "Flyer Inundation",
-      "ES": "Flyers Inondation",
-      "FR": "Inondation de prospectus publicitaires",
       "DE": "Reklamezettelflut",
-      "IT": "Volantinaggio a tappeto"
+      "EN": "Flyer Inundation",
+      "ES": "Inundacion de Flyer",
+      "FR": "Inondation de prospectus publicitaires",
+      "IT": "Volantinaggio a tappeto",
+      "PT": "Inundação de Flyer"
     },
     "description": {
-      "EN": "Massive flyer campaign in the neighborhoods near your supermarkets.",
-      "ES": "Massive flyers campaign in the neighborhoods around your supermarkets.",
-      "FR": "Campagne publicitaire massive dans le voisinage de vos supermarchés.",
       "DE": "Eine massive Werbekampagne in den Vierteln rund um Ihren Supermarkt.",
-      "IT": "Una massiccia campagna di volantinaggio nelle zone circostanti i tuoi supermercati."
+      "EN": "Massive flyer campaign in the neighborhoods near your supermarkets.",
+      "ES": "Campaña masiva de volantes en los barrios cercanos a sus supermercados.",
+      "FR": "Campagne publicitaire massive dans le voisinage de vos supermarchés.",
+      "IT": "Una massiccia campagna di volantinaggio nelle zone circostanti i tuoi supermercati.",
+      "PT": "Campanha panfleto maciço nos bairros perto de seus supermercados."
     },
     "properties": {
       "price": 5000000,
@@ -143,18 +153,20 @@
     "id": "FreeCoupons",
     "category": "COMMERCE",
     "name": {
-      "EN": "Free Coupons",
-      "ES": "Free Coupons",
-      "FR": "Bons d'achat gratuits",
       "DE": "Freigutscheine",
-      "IT": "Buoni sconto gratuiti"
+      "EN": "Free Coupons",
+      "ES": "Cupones gratis",
+      "FR": "Bons d'achat gratuits",
+      "IT": "Buoni sconto gratuiti",
+      "PT": "Cupons Grátis"
     },
     "description": {
-      "EN": "Give free discount coupons to your customers. They like it and it enables you to guide their next purchases.",
-      "ES": "Give free discount coupons to your customers. They like it and you can guide in some way their next purchases.",
-      "FR": "Distribuez des coupons de remise à vos clients. Ils adorent ça et vous pouvez les guider pour leurs prochains achats.",
       "DE": "Geben Sie Ihren Kunden Freigutscheine. Sie finden das toll, und sie können so ihre nächsten Einkäufe beeinflussen.",
-      "IT": "Distribuisci tra i tuoi clienti buoni sconto gratuiti. L'iniziativa viene apprezzata e ti permette di dirigere in parte gli acquisti."
+      "EN": "Give free discount coupons to your customers. They like it and it enables you to guide their next purchases.",
+      "ES": "Regale cupones de descuento gratis a sus clientes. Les gusta y le permite guiar sus próximas compras.",
+      "FR": "Distribuez des coupons de remise à vos clients. Ils adorent ça et vous pouvez les guider pour leurs prochains achats.",
+      "IT": "Distribuisci tra i tuoi clienti buoni sconto gratuiti. L'iniziativa viene apprezzata e ti permette di dirigere in parte gli acquisti.",
+      "PT": "Dê cupons de desconto para seus clientes. Eles gostam e permite que você guie suas próximas compras."
     },
     "properties": {
       "price": 35000000,
@@ -171,18 +183,20 @@
     "id": "FreeParkingLot",
     "category": "COMMERCE",
     "name": {
-      "EN": "Free Parking Lot",
-      "ES": "Free Parking Lot",
-      "FR": "Parking gratuit",
       "DE": "Kostenlose Parkplätze",
-      "IT": "Parcheggio gratuito"
+      "EN": "Free Parking Lot",
+      "ES": "Estacionamiento gratuito",
+      "FR": "Parking gratuit",
+      "IT": "Parcheggio gratuito",
+      "PT": "Estacionamento grátis"
     },
     "description": {
-      "EN": "Free parking for your customers.",
-      "ES": "Free parking for your customers.",
-      "FR": "Parking gratuit pour les clients.",
       "DE": "Ihre Kunden brauchen für den Parkplatz nichts zu bezahlen.",
-      "IT": "Parcheggio gratuito per i tuoi clienti."
+      "EN": "Free parking for your customers.",
+      "ES": "Aparcamiento gratuito para sus clientes.",
+      "FR": "Parking gratuit pour les clients.",
+      "IT": "Parcheggio gratuito per i tuoi clienti.",
+      "PT": "Estacionamento gratuito para seus clientes."
     },
     "properties": {
       "price": 45000000,
@@ -199,18 +213,20 @@
     "id": "HighAirConditioning",
     "category": "COMMERCE",
     "name": {
-      "EN": "Low Temperature",
-      "ES": "High Air Conditioning",
-      "FR": "Niveau de climatisation élevé",
       "DE": "Starke Klimaanlagen",
-      "IT": "Aria condizionata molto alta"
+      "EN": "Low Temperature",
+      "ES": "Baja temperatura",
+      "FR": "Niveau de climatisation élevé",
+      "IT": "Aria condizionata molto alta",
+      "PT": "Temperatura baixa"
     },
     "description": {
-      "EN": "Your stores are kept cool: keeps food fresh and it ensures customers stay on the move.",
-      "ES": "The air condition in the store is set at a very high level, to keep food fresh and to have the customers move quickly.",
-      "FR": "La climatisation du magasin est réglée à un niveau très élevé pour que la nourriture reste fraîche et pour que les clients ne fassent pas du « sur place ».",
       "DE": "Die Klimaanlagen in Ihren Geschäften funktionieren auf dem höchsten Niveau damit die Lebensmittel frisch bleiben und die Kunden sich schnell bewegen.",
-      "IT": "L'aria condizionata del tuo supermercato è tenuta a livelli molto alti, in modo da mantenere freschi i cibi e far sì che i clienti si muovano rapidamente."
+      "EN": "Your stores are kept cool: keeps food fresh and it ensures customers stay on the move.",
+      "ES": "Sus tiendas se mantienen frescas: mantiene los alimentos frescos y asegura que los clientes se mantengan en movimiento.",
+      "FR": "La climatisation du magasin est réglée à un niveau très élevé pour que la nourriture reste fraîche et pour que les clients ne fassent pas du « sur place ».",
+      "IT": "L'aria condizionata del tuo supermercato è tenuta a livelli molto alti, in modo da mantenere freschi i cibi e far sì che i clienti si muovano rapidamente.",
+      "PT": "Suas lojas são mantidas frescas: mantêm os alimentos frescos e garantem que os clientes permaneçam em movimento."
     },
     "properties": {
       "price": 15000000,
@@ -227,18 +243,20 @@
     "id": "LuringDisplays",
     "category": "COMMERCE",
     "name": {
-      "EN": "Enticing Displays",
-      "ES": "Luring Displays",
-      "FR": "Etalages attrayants",
       "DE": "Anziehende Displays",
-      "IT": "Disposizione accurata dei prodotti"
+      "EN": "Enticing Displays",
+      "ES": "Exhibiciones tentadoras",
+      "FR": "Etalages attrayants",
+      "IT": "Disposizione accurata dei prodotti",
+      "PT": "Exibindo Exibições"
     },
     "description": {
-      "EN": "Items on your shelves are displayed according to the most modern marketing theories so that they attract customers.",
-      "ES": "The items on your shelves are displayed to attract customers, according the most modern marketing theories.",
-      "FR": "Les articles contenus sur vos étagères sont installés de manière à attirer les clients selon les théories les plus modernes en matière de marketing.",
       "DE": "Die Waren auf Ihren Regalen sind so ausgestellt, das sie Kunden anziehen. Basiert auf den modernsten Marketingmethoden.",
-      "IT": "I prodotti vengono disposti sugli scaffali in modo da attirare i clienti, secondo le più recenti teorie di marketing."
+      "EN": "Items on your shelves are displayed according to the most modern marketing theories so that they attract customers.",
+      "ES": "Los artículos en sus estantes se muestran de acuerdo con las teorías de marketing más modernas para atraer a los clientes.",
+      "FR": "Les articles contenus sur vos étagères sont installés de manière à attirer les clients selon les théories les plus modernes en matière de marketing.",
+      "IT": "I prodotti vengono disposti sugli scaffali in modo da attirare i clienti, secondo le più recenti teorie di marketing.",
+      "PT": "Itens em suas prateleiras são exibidos de acordo com as teorias de marketing mais modernas, para que atraiam clientes."
     },
     "properties": {
       "price": 25000000,
@@ -255,18 +273,20 @@
     "id": "MassiveStorage",
     "category": "COMMERCE",
     "name": {
-      "EN": "Massive Storage",
-      "ES": "Massive Storage",
-      "FR": "Stockage massif",
       "DE": "Massive Lagerung",
-      "IT": "Grandi scorte"
+      "EN": "Massive Storage",
+      "ES": "Almacenamiento masivo",
+      "FR": "Stockage massif",
+      "IT": "Grandi scorte",
+      "PT": "Armazenamento maciço"
     },
     "description": {
-      "EN": "To save on deliveries, you store massive amounts of food, but sometimes it goes bad.",
-      "ES": "To save on the deliveries, you store massive amount of food. Sometimes it gets too old.",
-      "FR": "Pour faire des économies sur les livraisons, vous stockez de grandes quantités de nourriture. Quelques fois, leur date de consommation est dépassée.",
       "DE": "Um bei den Lieferungen zu sparen lagern Sie große Mengen Lebensmittel. Manchmal werden sie zu alt.",
-      "IT": "Per risparmiare sulle consegne accumuli grandi quantità di generi alimentari. Il rischio talvolta è che esso deperisca."
+      "EN": "To save on deliveries, you store massive amounts of food, but sometimes it goes bad.",
+      "ES": "Para ahorrar en las entregas, almacena cantidades masivas de alimentos, pero a veces no funciona.",
+      "FR": "Pour faire des économies sur les livraisons, vous stockez de grandes quantités de nourriture. Quelques fois, leur date de consommation est dépassée.",
+      "IT": "Per risparmiare sulle consegne accumuli grandi quantità di generi alimentari. Il rischio talvolta è che esso deperisca.",
+      "PT": "Para economizar em entregas, você armazena grandes quantidades de comida, mas às vezes fica ruim."
     },
     "properties": {
       "price": 25000000,
@@ -283,18 +303,20 @@
     "id": "PromotionalStands",
     "category": "COMMERCE",
     "name": {
-      "EN": "Promotional Stands",
-      "ES": "Promotional Stands",
-      "FR": "Stands publicitaires",
       "DE": "Werbestände",
-      "IT": "Stand promozionali"
+      "EN": "Promotional Stands",
+      "ES": "Stands Promocionales",
+      "FR": "Stands publicitaires",
+      "IT": "Stand promozionali",
+      "PT": "Suportes Promocionais"
     },
     "description": {
-      "EN": "In-sore stands that promote new products with free samples.",
-      "ES": "Stands that promote new products with free samples.",
-      "FR": "Stands réalisés pour la promotion de nouveaux produits avec échantillons gratuits.",
       "DE": "Stände, die neue Produkte mit Gratisproben anpreisen.",
-      "IT": "Stand per la promozione di nuovi prodotti, dei quali vengono offerti campioni gratuiti."
+      "EN": "In-sore stands that promote new products with free samples.",
+      "ES": "Para ahorrar en las entregas, almacena cantidades masivas de alimentos, pero a veces no funciona.",
+      "FR": "Stands réalisés pour la promotion de nouveaux produits avec échantillons gratuits.",
+      "IT": "Stand per la promozione di nuovi prodotti, dei quali vengono offerti campioni gratuiti.",
+      "PT": "Estandes in-sore que promovem novos produtos com amostras grátis."
     },
     "properties": {
       "price": 15000000,
@@ -311,18 +333,20 @@
     "id": "SpecialOffersRotation",
     "category": "COMMERCE",
     "name": {
-      "EN": "Special Offer Rotation",
-      "ES": "Special Offers Rotation",
-      "FR": "Rotation des offres spéciales",
       "DE": "Rotation der Sonderangebote",
-      "IT": "Rotazione di offerte speciali"
+      "EN": "Special Offer Rotation",
+      "ES": "Oferta especial de rotación",
+      "FR": "Rotation des offres spéciales",
+      "IT": "Rotazione di offerte speciali",
+      "PT": "Rotação de Oferta Especial"
     },
     "description": {
-      "EN": "All your items are periodically sold at a specially reduced price. In the hopes your customers will continue to buy them once they return to their regular price.",
-      "ES": "All your items are periodically sold with special reduced price. Hopefully your customer will buy them attracted by the deal and will continue to buy them when they go back to the notmal price.",
-      "FR": "Tous vos articles sont régulièrement vendus à prix réduit. Vous espérez que vos clients les achèteront lorsque le prix les attirera et continueront à les acheter lorsque le prix sera redevenu normal.",
       "DE": "Alle Ihre Waren werden periodisch zu Sonderpreisen verkauft. Sie hoffen, dass Ihre Kunden sie dann auf Grund des interessanten Preises kaufen und auch weiter kaufen werden, wenn der Preis wieder normal ist.",
-      "IT": "Tutti i tuoi articoli vengono venduti periodicamente in offerta speciale. La speranza è che i clienti continuino ad acquistarli anche quando il prezzo torna ai suoi livelli normali."
+      "EN": "All your items are periodically sold at a specially reduced price. In the hopes your customers will continue to buy them once they return to their regular price.",
+      "ES": "Todos sus artículos se venden periódicamente a un precio especialmente reducido. Con la esperanza de que sus clientes continúen comprando una vez que regresen a su precio regular.",
+      "FR": "Tous vos articles sont régulièrement vendus à prix réduit. Vous espérez que vos clients les achèteront lorsque le prix les attirera et continueront à les acheter lorsque le prix sera redevenu normal.",
+      "IT": "Tutti i tuoi articoli vengono venduti periodicamente in offerta speciale. La speranza è che i clienti continuino ad acquistarli anche quando il prezzo torna ai suoi livelli normali.",
+      "PT": "Todos os seus itens são vendidos periodicamente a um preço especialmente reduzido. Na esperança de que seus clientes continuem a comprá-los quando voltarem ao preço normal."
     },
     "properties": {
       "price": 25000000,
@@ -339,18 +363,20 @@
     "id": "SpecialPricedExpiredItems",
     "category": "COMMERCE",
     "name": {
-      "EN": "Specially Priced Expired Items",
-      "ES": "Special Priced Expired Items",
-      "FR": "Articles périmés à prix spécial",
       "DE": "Sonderpreise für abgelaufene Waren",
-      "IT": "Articoli scaduti a prezzo scontato"
+      "EN": "Specially Priced Expired Items",
+      "ES": "Artículos vencidos a precios especiales",
+      "FR": "Articles périmés à prix spécial",
+      "IT": "Articoli scaduti a prezzo scontato",
+      "PT": "Itens Expirados com Preço Especial"
     },
     "description": {
-      "EN": "When products expire, you keep them for few more days at a reduced price.",
-      "ES": "When the products expire, you keep them for few days more with a reduced price.",
-      "FR": "Lorsque des produits arrivent à expiration, vous les gardez pendant quelques jours et les vendez à prix réduit.",
       "DE": "Wenn das Haltbarkeitsdatum abläuft, behalten Sie die Waren noch ein paar Tage zu Sonderpreisen.",
-      "IT": "Quando un prodotto scade, lo tieni sugli scaffali ancora per qualche giorno ad un prezzo scontato."
+      "EN": "When products expire, you keep them for few more days at a reduced price.",
+      "ES": "Cuando los productos caducan, los conserva por unos días más a un precio reducido.",
+      "FR": "Lorsque des produits arrivent à expiration, vous les gardez pendant quelques jours et les vendez à prix réduit.",
+      "IT": "Quando un prodotto scade, lo tieni sugli scaffali ancora per qualche giorno ad un prezzo scontato.",
+      "PT": "Quando os produtos expiram, você os mantém por mais alguns dias a um preço reduzido."
     },
     "properties": {
       "price": 15000000,
@@ -367,18 +393,20 @@
     "id": "SupermarketBrand",
     "category": "COMMERCE",
     "name": {
-      "EN": "Supermarket Brand",
-      "ES": "Supermarket Brand",
-      "FR": "Marque de supermarché",
       "DE": "Hausmarke",
-      "IT": "Marca per supermercati"
+      "EN": "Supermarket Brand",
+      "ES": "Marca de supermercado",
+      "FR": "Marque de supermarché",
+      "IT": "Marca per supermercati",
+      "PT": "Marca de supermercado"
     },
     "description": {
-      "EN": "Create a new brand for food which can only be bought at your supermarkets: a way to unite different low quality food suppliers into one brand name.",
-      "ES": "Create a new brand for food which can be bought only at your supermarkets. A way to unify different low quality food suppliers into one name.",
-      "FR": "Créez une marque de nourriture disponible uniquement dans vos magasins. Ceci est une manière d'associer des fournisseurs de nourriture de faible qualité sous un même nom.",
       "DE": "Verwenden Sie einen neuen Markennamen für Produkte, die es nur in Ihren Supermärkten zu kaufen gibt. Eine Möglichkeit, unterschiedliche Billigproduktzulieferer unter einem Namen zusammenzufassen",
-      "IT": "Crei una nuova marca per una serie di prodotti alimentari che si trovano solo nei supermercati. Un modo di unificare diverse sottomarche sotto un unico nome."
+      "EN": "Create a new brand for food which can only be bought at your supermarkets: a way to unite different low quality food suppliers into one brand name.",
+      "ES": "Cree una nueva marca para alimentos que solo se puede comprar en sus supermercados: una forma de unir a diferentes proveedores de alimentos de baja calidad en una sola marca.",
+      "FR": "Créez une marque de nourriture disponible uniquement dans vos magasins. Ceci est une manière d'associer des fournisseurs de nourriture de faible qualité sous un même nom.",
+      "IT": "Crei una nuova marca per una serie di prodotti alimentari che si trovano solo nei supermercati. Un modo di unificare diverse sottomarche sotto un unico nome.",
+      "PT": "Crie uma nova marca de alimentos que só pode ser comprada em seus supermercados: uma maneira de unir diferentes fornecedores de alimentos de baixa qualidade em uma única marca."
     },
     "properties": {
       "price": 35000000,
@@ -395,18 +423,20 @@
     "id": "Supermarkets",
     "category": "COMMERCE",
     "name": {
-      "EN": "Supermarket Basics",
-      "ES": "Supermarkets Basics",
-      "FR": "Principes de supermarché",
       "DE": "Grundlagen für Supermarktmanagement",
-      "IT": "Fondamenti della gestione dei supermercati"
+      "EN": "Supermarket Basics",
+      "ES": "Conceptos básicos de supermercado",
+      "FR": "Principes de supermarché",
+      "IT": "Fondamenti della gestione dei supermercati",
+      "PT": "Noções básicas de supermercado"
     },
     "description": {
-      "EN": "Learn the basic skills to create and manage supermarkets.",
-      "ES": "Learn the basic skills to create and manage supermarkets.",
-      "FR": "Apprenez les principes de création et de gestion de supermarchés.",
       "DE": "Erlernen Sie die Grundlagen der Gründung und der Leitung eines Supermarkts.",
-      "IT": "Apprendi le conoscenze di base per la creazione e gestione di supermercati."
+      "EN": "Learn the basic skills to create and manage supermarkets.",
+      "ES": "Aprende las habilidades básicas para crear y gestionar supermercados.",
+      "FR": "Apprenez les principes de création et de gestion de supermarchés.",
+      "IT": "Apprendi le conoscenze di base per la creazione e gestione di supermercati.",
+      "PT": "Aprenda as habilidades básicas para criar e gerenciar supermercados."
     },
     "properties": {
       "price": 20000000,
@@ -418,18 +448,20 @@
     "id": "TimeSafe",
     "category": "COMMERCE",
     "name": {
-      "EN": "Safe Timer",
-      "ES": "Time Safe",
-      "FR": "Coffre-fort à ouverture temporaire",
       "DE": "Safe mit Zeitschalter",
-      "IT": "Cassaforte a tempo"
+      "EN": "Safe Timer",
+      "ES": "Temporizador de seguridad",
+      "FR": "Coffre-fort à ouverture temporaire",
+      "IT": "Cassaforte a tempo",
+      "PT": "Temporizador Seguro"
     },
     "description": {
-      "EN": "Your cashiers don't have access to the store safe, it only opens at fixed hours.",
-      "ES": "Your cashiers don't have access to the store safe, it opens only at fixed hours.",
-      "FR": "Vous caissières n'ont pas accès au coffre-fort du magasin. Il ne s'ouvre qu'à heures fixes.",
       "DE": "Ihre Kassierer haben keinen Zugang zum Geschäftssafe, er öffnet sich nur zu bestimmten Uhrzeiten.",
-      "IT": "I tuoi cassieri non hanno accesso alla cassaforte, che si apre solo ad orari fissi."
+      "EN": "Your cashiers don't have access to the store safe, it only opens at fixed hours.",
+      "ES": "Sus cajeros no tienen acceso a la caja fuerte de la tienda, solo abre en horas fijas.",
+      "FR": "Vous caissières n'ont pas accès au coffre-fort du magasin. Il ne s'ouvre qu'à heures fixes.",
+      "IT": "I tuoi cassieri non hanno accesso alla cassaforte, che si apre solo ad orari fissi.",
+      "PT": "Seus caixas não têm acesso ao cofre da loja, só abre em horários fixos."
     },
     "properties": {
       "price": 5000000,

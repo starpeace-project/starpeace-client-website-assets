@@ -3,18 +3,20 @@
     "id": "AntiChockingPlasticBags",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Child Friendly Plastic Bags",
-      "ES": "Anti Chocking Plastic Bags",
-      "FR": "Sacs plastique anti-étouffement",
       "DE": "Anti-Erstickungs-Plastiktüten",
-      "IT": "Sacchetti di plastica a prova di asfissia"
+      "EN": "Child Friendly Plastic Bags",
+      "ES": "Bolsas de plástico para niños",
+      "FR": "Sacs plastique anti-étouffement",
+      "IT": "Sacchetti di plastica a prova di asfissia",
+      "PT": "Sacos de plástico para crianças"
     },
     "description": {
-      "EN": "To avoid children asphyxia tragedies, you create plastic bags with areas of biodegradable material that dissolve when touched by saliva. Parents see you as a hero.",
-      "ES": "To avoid children asphixya tragedies, you create plastic bags with spots of biodegradable material that melt when touched by saliva. Parents portrait you as a hero.",
-      "FR": "Pour éviter les problèmes d'asphyxie d'enfants, vous créez des sacs plastique dont certaines parties sont biodégradables et qui fondent lorsqu'elles sont en contact avec de la salive. Les parents font de vous un héros.",
       "DE": "Um zu verhindern, dass Kinder beim Spielen mit Plastiktüten ersticken, konzipieren Sie Plastiktüten, die teilweise aus bioabbaubarem Material stammen und schmelzen, wenn sie mit Speichel in Berührung kommen. Für die Eltern sind Sie ein Held.",
-      "IT": "Per ridurre il rischio che i bambini si soffochino con i sacchetti, crei una plastica mista a un materiale biodegradabile che si scioglie a contatto con la saliva. I genitori ti osannano."
+      "EN": "To avoid children asphyxia tragedies, you create plastic bags with areas of biodegradable material that dissolve when touched by saliva. Parents see you as a hero.",
+      "ES": "Para evitar las tragedias de asfixia en los niños, se crean bolsas de plástico con áreas de material biodegradable que se disuelven cuando se tocan con la saliva. Los padres te ven como un héroe.",
+      "FR": "Pour éviter les problèmes d'asphyxie d'enfants, vous créez des sacs plastique dont certaines parties sont biodégradables et qui fondent lorsqu'elles sont en contact avec de la salive. Les parents font de vous un héros.",
+      "IT": "Per ridurre il rischio che i bambini si soffochino con i sacchetti, crei una plastica mista a un materiale biodegradabile che si scioglie a contatto con la saliva. I genitori ti osannano.",
+      "PT": "Para evitar tragédias de asfixia em crianças, você cria sacolas plásticas com áreas de material biodegradável que se dissolvem quando tocadas pela saliva. Os pais veem você como um herói."
     },
     "properties": {
       "price": 45000000,
@@ -32,18 +34,20 @@
     "id": "BiodegradablePlasticLikeMaterial",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Biodegradable Plastic-Like Material",
-      "ES": "Biodegradable Plastic Like Material",
-      "FR": "Matériau biodégradable semblable à du plastique",
       "DE": "Bioabbaubares plastikähnliches Material",
-      "IT": "Similplastica biodegradabile"
+      "EN": "Biodegradable Plastic-Like Material",
+      "ES": "Material biodegradable similar al plástico",
+      "FR": "Matériau biodégradable semblable à du plastique",
+      "IT": "Similplastica biodegradabile",
+      "PT": "Material semelhante ao plástico biodegradável"
     },
     "description": {
-      "EN": "You produce a plastic-like material derived from corn. It can replace the plastic used in some minor applications and it gives you the ecologist's seal of approval.",
-      "ES": "You produce a plastic like material derived from corn. It can replace the plastic in some minor applications and gives you the patent of echologist.",
-      "FR": "Vous produisez un matériau semblable à du plastique à partir du maïs. Il remplace le plastique dans certains cas et vous permet de jouer la carte de lécologie.",
       "DE": "Sie produzieren ein plastikähnliches Material aus Weizen. Es kann Plastik in einigen Verwendungen ersetzen und gibt Ihnen ein ökologisches Patent.",
-      "IT": "Realizzi un materiale derivato dal grano in grado di sostituire la plastica in alcune applicazioni di minore importanza. Acquisti la fama di industriale amico della natura."
+      "EN": "You produce a plastic-like material derived from corn. It can replace the plastic used in some minor applications and it gives you the ecologist's seal of approval.",
+      "ES": "Usted produce un material similar al plástico derivado del maíz. Puede reemplazar el plástico utilizado en algunas aplicaciones menores y le otorga el sello de aprobación del ecologista.",
+      "FR": "Vous produisez un matériau semblable à du plastique à partir du maïs. Il remplace le plastique dans certains cas et vous permet de jouer la carte de lécologie.",
+      "IT": "Realizzi un materiale derivato dal grano in grado di sostituire la plastica in alcune applicazioni di minore importanza. Acquisti la fama di industriale amico della natura.",
+      "PT": "Você produz um material plástico derivado do milho. Ele pode substituir o plástico usado em algumas aplicações menores e lhe dá o selo de aprovação do ecologista."
     },
     "properties": {
       "price": 85000000,
@@ -61,18 +65,20 @@
     "id": "EchologicalAwarenessCampaign",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ecological Awareness Campaign",
-      "ES": "Echological Awarness Campaign",
-      "FR": "Campagne d'éveil écologique",
       "DE": "Kampagne zum Umweltschutz",
-      "IT": "Campagna di sensibilizzazione ambientale"
+      "EN": "Ecological Awareness Campaign",
+      "ES": "Campaña de sensibilización ecológica",
+      "FR": "Campagne d'éveil écologique",
+      "IT": "Campagna di sensibilizzazione ambientale",
+      "PT": "Campanha de Conscientização Ecológica"
     },
     "description": {
-      "EN": "You launch a campaign encouraging people to bring old plastic products to your recycle centers: cost-effective and environmentally sound.",
-      "ES": "You launch a campaign to incourage people to recycle plastic bringing it to your recycle centers. Costly effective and enviromentally sensible.",
-      "FR": "Vous lancez une campagne visant à encourager la population à recycler le plastique en l'apportant dans des centres de recyclage. Rentable et bon pour l'environnement.",
       "DE": "Sie starten eine Kampagne, in der Sie die Leute auffordern, Plastik zu Ihren Recyclingzentren zu bringen. Teuer aber effizient und umweltpolitisch geschickt.",
-      "IT": "Lanci una campagna che incoraggi la gente a riciclare la plastica presso i tuoi centri. Efficace dal punto di vista dei costi e razionale da quello ambientale."
+      "EN": "You launch a campaign encouraging people to bring old plastic products to your recycle centers: cost-effective and environmentally sound.",
+      "ES": "Usted lanza una campaña para alentar a las personas a traer productos de plástico viejos a sus centros de reciclaje: rentables y ecológicamente racionales.",
+      "FR": "Vous lancez une campagne visant à encourager la population à recycler le plastique en l'apportant dans des centres de recyclage. Rentable et bon pour l'environnement.",
+      "IT": "Lanci una campagna che incoraggi la gente a riciclare la plastica presso i tuoi centri. Efficace dal punto di vista dei costi e razionale da quello ambientale.",
+      "PT": "Você lança uma campanha incentivando as pessoas a levarem produtos de plástico antigos para seus centros de reciclagem: com boa relação custo-benefício e meio ambiente."
     },
     "properties": {
       "price": 110000000,
@@ -89,18 +95,20 @@
     "id": "ExtraStrongPlastic",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Extra Strong Plastic",
-      "ES": "Extra Strong Plastic",
-      "FR": "Plastique extra résistant",
       "DE": "Extrafester Kunststoff",
-      "IT": "Plastica ultra-resistente"
+      "EN": "Extra Strong Plastic",
+      "ES": "Plástico Extra Fuerte",
+      "FR": "Plastique extra résistant",
+      "IT": "Plastica ultra-resistente",
+      "PT": "Plástico Extra Forte"
     },
     "description": {
-      "EN": "Using the sound wave molder technique, you can actually create a plastic as strong as many metals.",
-      "ES": "Using the sound wave molder technique, you can actually create a plastic as strong as many metals.",
-      "FR": "Grâce à la technique du moulage par onde sonore, vous pouvez créer un plastique aussi solide que de nombreux métaux.",
       "DE": "Mit der Schallwellenformtechnik sind Sie in der Lage, einen Kunststoff herzustellen, der fast so hart ist wie einige Metalle.",
-      "IT": "Utilizzando una tecnica di formatura che sfrutta le onde sonore, sei in grado di realizzare una plastica la cui resistenza è pari a quella di molti metalli."
+      "EN": "Using the sound wave molder technique, you can actually create a plastic as strong as many metals.",
+      "ES": "Usando la técnica del moldeador de ondas de sonido, puedes crear un plástico tan fuerte como muchos metales.",
+      "FR": "Grâce à la technique du moulage par onde sonore, vous pouvez créer un plastique aussi solide que de nombreux métaux.",
+      "IT": "Utilizzando una tecnica di formatura che sfrutta le onde sonore, sei in grado di realizzare una plastica la cui resistenza è pari a quella di molti metalli.",
+      "PT": "Usando a técnica de moldagem de ondas sonoras, você pode criar um plástico tão forte quanto muitos metais."
     },
     "properties": {
       "price": 65000000,
@@ -117,18 +125,20 @@
     "id": "ExtraterrestrialOilImpurityRemoving",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Impure Extraterrestrial Oil Removal",
-      "ES": "Extraterrestrial Oil Impurity Removing",
-      "FR": "Suppression des impuretés dans le pétrole extraterrestre",
       "DE": "Reinigung außerirdischen Öls",
-      "IT": "Rimozione delle scorie dal petrolio extraterrestre"
+      "EN": "Impure Extraterrestrial Oil Removal",
+      "ES": "Remoción de aceite extraterrestre impuro",
+      "FR": "Suppression des impuretés dans le pétrole extraterrestre",
+      "IT": "Rimozione delle scorie dal petrolio extraterrestre",
+      "PT": "Remoção de óleo extraterrestre impuro"
     },
     "description": {
-      "EN": "Extraterrestrial oil has slightly different impurities compared to earth's oil; in order to ensure that a high quality plastic is produced, it's necessary to change its cleaning process.",
-      "ES": "The extraterrestrial oil has slightly different impurities from the earth one, so to have a better quality plastic is necessary to vary its cleaning process.",
-      "FR": "Les impuretés contenues dans le pétrole extraterrestre sont légèrement différentes de celles de la Terre. Par conséquent, pour obtenir un plastique de meilleure qualité, le processus de nettoyage doit être différent.",
       "DE": "Das außerirdische Öl hat andere Unreinheiten als das der Erde. Um eine gute Plastikqualität zu erzielen, müssen Sie den Reinigungsprozeß variieren.",
-      "IT": "Il petrolio extraterrestre contiene impurità diverse rispetto a quello terrestre. Di conseguenza, per produrre una plastica migliore servono nuovi metodi di eliminazione delle impurità."
+      "EN": "Extraterrestrial oil has slightly different impurities compared to earth's oil; in order to ensure that a high quality plastic is produced, it's necessary to change its cleaning process.",
+      "ES": "El aceite extraterrestre tiene impurezas ligeramente diferentes en comparación con el aceite de la tierra; Para garantizar que se produce un plástico de alta calidad, es necesario cambiar su proceso de limpieza.",
+      "FR": "Les impuretés contenues dans le pétrole extraterrestre sont légèrement différentes de celles de la Terre. Par conséquent, pour obtenir un plastique de meilleure qualité, le processus de nettoyage doit être différent.",
+      "IT": "Il petrolio extraterrestre contiene impurità diverse rispetto a quello terrestre. Di conseguenza, per produrre una plastica migliore servono nuovi metodi di eliminazione delle impurità.",
+      "PT": "O óleo extraterrestre tem impurezas ligeiramente diferentes em comparação com o petróleo da Terra; Para garantir a produção de plástico de alta qualidade, é necessário alterar o processo de limpeza."
     },
     "properties": {
       "price": 110000000,
@@ -145,18 +155,20 @@
     "id": "GrowYourOwnPlasticPlant",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Grow Your Own Plastic Plant",
-      "ES": "Grow Your Own Plastic Plant",
-      "FR": "Faites pousser vos propres plantes en plastique",
       "DE": "Lassen Sie Ihre eigene Plastikfabrik wachsen",
-      "IT": "Plastica coltivabile"
+      "EN": "Grow Your Own Plastic Plant",
+      "ES": "Cultiva tu propia planta de plástico",
+      "FR": "Faites pousser vos propres plantes en plastique",
+      "IT": "Plastica coltivabile",
+      "PT": "Cresça sua própria planta plástica"
     },
     "description": {
-      "EN": "A new plastic on Earth has been discovered; it grows when wet with turpentine. While it's too fragile for any industrial applications, as an artificial plant, it becomes a great gift idea.",
-      "ES": "A new plastic has been discovered on Earth that automatically grows if wet with trementine. Unfortunately it's too fragile to have any industrial applications, but in shape of artificial plants, it becomes a gift idea.",
-      "FR": "Un nouveau type de plastique a été découvert sur Terre. Il pousse seul s'il est arrosé avec de la trementine. Malheureusement, il est trop fragile pour pouvoir être utilisé de manière industrielle, mais si vous souhaitez offrir une plante, c'est une très bonne idée de cadeau.",
       "DE": "Auf der Erde wurde ein neuer Kunststoff erfunden, der automatisch wächst, wenn er mit Trementin begossen wird. Er ist leider nicht solide genug für Industrieanwendungen. Aber in Form von künstlichen Pflanzen ist es eine nette Geschenkidee.",
-      "IT": "Sulla Terra è stata scoperta una nuova plastica che cresce se bagnata con trementina. Essa è troppo fragile per le applicazioni industriali, ma sotto forma di pianta è un'ottima idea regalo."
+      "EN": "A new plastic on Earth has been discovered; it grows when wet with turpentine. While it's too fragile for any industrial applications, as an artificial plant, it becomes a great gift idea.",
+      "ES": "Se ha descubierto un nuevo plástico en la Tierra; Crece cuando se moja con trementina. Si bien es demasiado frágil para cualquier aplicación industrial, como planta artificial, se convierte en una gran idea de regalo.",
+      "FR": "Un nouveau type de plastique a été découvert sur Terre. Il pousse seul s'il est arrosé avec de la trementine. Malheureusement, il est trop fragile pour pouvoir être utilisé de manière industrielle, mais si vous souhaitez offrir une plante, c'est une très bonne idée de cadeau.",
+      "IT": "Sulla Terra è stata scoperta una nuova plastica che cresce se bagnata con trementina. Essa è troppo fragile per le applicazioni industriali, ma sotto forma di pianta è un'ottima idea regalo.",
+      "PT": "Um novo plástico na Terra foi descoberto; cresce quando molhado com terebintina. Embora seja muito frágil para qualquer aplicação industrial, como uma planta artificial, ela se torna uma ótima ideia para presentes."
     },
     "properties": {
       "price": 35000000,
@@ -174,18 +186,20 @@
     "id": "LaserPlasticCutter",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Laser Plastic Cutter",
-      "ES": "Laser Plastic Cutter",
-      "FR": "Découpage du plastique au laser",
       "DE": "Laserkunsstoffschneider",
-      "IT": "Taglia-plastica al laser"
+      "EN": "Laser Plastic Cutter",
+      "ES": "Cortador de plástico láser",
+      "FR": "Découpage du plastique au laser",
+      "IT": "Taglia-plastica al laser",
+      "PT": "Cortador de plástico a laser"
     },
     "description": {
-      "EN": "Your factories implement a revolutionary technique of cutting plastic with lasers. Its extreme precision opens you to new lines of business.",
-      "ES": "Your factories implements a revolutionary technique of cutting plastic with lasers. Its extreme precision opens you new lines of business.",
-      "FR": "Vos usines mettent en place une technique révolutionnaire de découpage du plastique avec des lasers. L'extrême précision vous ouvre la porte de nouvelles activités.",
       "DE": "Ihre Fabriken verwenden eine revolutionäre Technologie des Kunststoffschnitts mit Lasern. Die extrem hohe Präzision öffnet neue Geschäftsbereiche.",
-      "IT": "Le tue fabbriche adottano una tecnica rivoluzionaria di taglio della plastica tramite laser. La grande precisione di questo processo apre nuove prospettive commerciali."
+      "EN": "Your factories implement a revolutionary technique of cutting plastic with lasers. Its extreme precision opens you to new lines of business.",
+      "ES": "Sus fábricas implementan una técnica revolucionaria de corte de plástico con láser. Su extrema precisión te abre a nuevas líneas de negocio.",
+      "FR": "Vos usines mettent en place une technique révolutionnaire de découpage du plastique avec des lasers. L'extrême précision vous ouvre la porte de nouvelles activités.",
+      "IT": "Le tue fabbriche adottano una tecnica rivoluzionaria di taglio della plastica tramite laser. La grande precisione di questo processo apre nuove prospettive commerciali.",
+      "PT": "Suas fábricas implementam uma técnica revolucionária de cortar plástico com lasers. Sua extrema precisão abre você para novas linhas de negócios."
     },
     "properties": {
       "price": 135000000,
@@ -202,18 +216,20 @@
     "id": "PlasticDressLine",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Plastic Clothes Line",
-      "ES": "Plastic Dress Line",
-      "FR": "Ligne de vêtements en plastique",
       "DE": "Kunststoffbekleidungskollektion",
-      "IT": "Linea di indumenti di plastica"
+      "EN": "Plastic Clothes Line",
+      "ES": "Línea de ropa plástica",
+      "FR": "Ligne de vêtements en plastique",
+      "IT": "Linea di indumenti di plastica",
+      "PT": "Linha de roupa de plástico"
     },
     "description": {
-      "EN": "Your factories produce a clothes collection made entirely of plastic. It is an immediate hit with S&M lovers.",
-      "ES": "Your factories produce a dress collection made entirely of plastic. It has an immediate success with SM lovers.",
-      "FR": "Vos usines produisent une collection de vêtements entièrement faits de plastique. Le succès est immédiat auprès des amateurs de SM.",
       "DE": "Ihre Fabriken produzieren eine Bekleidungskollektion, die nur aus Plastik besteht. Großer Erfolg im SM-Milieu.",
-      "IT": "Le tue fabbriche producono una linea di indumenti interamente realizzati in plastica. Un immediato successo tra gli adepti del sado-maso."
+      "EN": "Your factories produce a clothes collection made entirely of plastic. It is an immediate hit with S&M lovers.",
+      "ES": "Sus fábricas producen una colección de ropa hecha completamente de plástico. Es un éxito inmediato con los amantes de S&M.",
+      "FR": "Vos usines produisent une collection de vêtements entièrement faits de plastique. Le succès est immédiat auprès des amateurs de SM.",
+      "IT": "Le tue fabbriche producono una linea di indumenti interamente realizzati in plastica. Un immediato successo tra gli adepti del sado-maso.",
+      "PT": "Suas fábricas produzem uma coleção de roupas feita inteiramente de plástico. É um sucesso imediato com os amantes da S & M."
     },
     "properties": {
       "price": 40000000,
@@ -230,18 +246,20 @@
     "id": "PlasticRecyclingCenters",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Plastic Recycling Centers",
-      "ES": "Plastic Recycling Centers",
-      "FR": "Centres de recyclage du plastique",
       "DE": "Kunststoffrecyclingzentren",
-      "IT": "Centri per il riciclaggio della plastica"
+      "EN": "Plastic Recycling Centers",
+      "ES": "Centros de reciclaje de plástico",
+      "FR": "Centres de recyclage du plastique",
+      "IT": "Centri per il riciclaggio della plastica",
+      "PT": "Centros de Reciclagem de Plásticos"
     },
     "description": {
-      "EN": "Your factories have recycling points where used plastic is molded and used in the production of new plastics.",
-      "ES": "Your factories have recycling points where used plastic is molded and reused in the production of new one.",
-      "FR": "Vos usines sont équipées de points de recyclage dans lesquels les plastiques usagés sont fondus et réutilisés dans la production.",
       "DE": "Ihre Fabriken verfügen über Recyclingpunkte, an denen gebrauchtes Plastik geschmolzen und für die Produktion von neuem Kunststoff verwendet wird.",
-      "IT": "Le tue fabbriche sono dotate di centri di riciclaggio nei quali la plastica viene fusa e riutilizzata per produrne di nuova."
+      "EN": "Your factories have recycling points where used plastic is molded and used in the production of new plastics.",
+      "ES": "Sus fábricas tienen puntos de reciclaje donde el plástico usado se moldea y se usa en la producción de nuevos plásticos.",
+      "FR": "Vos usines sont équipées de points de recyclage dans lesquels les plastiques usagés sont fondus et réutilisés dans la production.",
+      "IT": "Le tue fabbriche sono dotate di centri di riciclaggio nei quali la plastica viene fusa e riutilizzata per produrne di nuova.",
+      "PT": "Suas fábricas têm pontos de reciclagem onde o plástico usado é moldado e usado na produção de novos plásticos."
     },
     "properties": {
       "price": 70000000,
@@ -259,18 +277,20 @@
     "id": "Plastics",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Plastic Production",
-      "ES": "Plastics Production",
-      "FR": "Production de plastique",
       "DE": "Kunststoffproduktion",
-      "IT": "Fabbricazione della plastica"
+      "EN": "Plastic Production",
+      "ES": "Produccion plastica",
+      "FR": "Production de plastique",
+      "IT": "Fabbricazione della plastica",
+      "PT": "Produção Plástica"
     },
     "description": {
-      "EN": "Learn how to produce plastic.",
-      "ES": "Learn how to produce plastic.",
-      "FR": "Apprenez à produire du plastique.",
       "DE": "Lernen Sie, wie man Kunststoff produziert.",
-      "IT": "Tutto quello che c'è da sapere sulla fabbricazione della plastica."
+      "EN": "Learn how to produce plastic.",
+      "ES": "Aprende a producir plástico.",
+      "FR": "Apprenez à produire du plastique.",
+      "IT": "Tutto quello che c'è da sapere sulla fabbricazione della plastica.",
+      "PT": "Aprenda a produzir plástico."
     },
     "properties": {
       "price": 10000000,
@@ -285,18 +305,20 @@
     "id": "ProPlasticCampaign",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Pro-Plastic Campaign",
-      "ES": "Pro Plastic Campaign",
-      "FR": "Campagne pour l'usage du plastique",
       "DE": "Pro-Kunststoffkampagne",
-      "IT": "Campagna in favore della plastica"
+      "EN": "Pro-Plastic Campaign",
+      "ES": "Campaña Pro-Plástica",
+      "FR": "Campagne pour l'usage du plastique",
+      "IT": "Campagna in favore della plastica",
+      "PT": "Campanha Pro-Plástica"
     },
     "description": {
-      "EN": "To increase the consumption of plastic, your marketing department launches a media campaign on its positive qualities. The productions of plastic increases but ecologists are not happy.",
-      "ES": "To increase the plastic consume, your marketing department launch a media campaign on the good qualities of the material. The production is increased, but echologists don't like it.",
-      "FR": "Pour accroître l'usage du plastique, votre service marketing lance une campagne médiatique sur les bonnes qualités de ce matériau. La production augmente, mais les écologistes y sont défavorables.",
       "DE": "Um den Kunststoffverbrauch zu steigern, startet Ihre Marketingabteilung eine Kampagne, in der die Vorteile des Materials hervorgehoben werden. Die Produktion nimmt zu, aber den Umweltschützern gefällt es nicht.",
-      "IT": "Il tuo ufficio marketing lancia una campagna di stampa sulle qualità della plastica, nel tentativo di incrementarne il consumo. La produzione aumenta, ma gli ecologisti protestano."
+      "EN": "To increase the consumption of plastic, your marketing department launches a media campaign on its positive qualities. The productions of plastic increases but ecologists are not happy.",
+      "ES": "Para aumentar el consumo de plástico, su departamento de marketing lanza una campaña de medios sobre sus cualidades positivas. Las producciones de plástico aumentan pero los ecólogos no están contentos.",
+      "FR": "Pour accroître l'usage du plastique, votre service marketing lance une campagne médiatique sur les bonnes qualités de ce matériau. La production augmente, mais les écologistes y sont défavorables.",
+      "IT": "Il tuo ufficio marketing lancia una campagna di stampa sulle qualità della plastica, nel tentativo di incrementarne il consumo. La produzione aumenta, ma gli ecologisti protestano.",
+      "PT": "Para aumentar o consumo de plástico, o departamento de marketing lança uma campanha de mídia sobre suas qualidades positivas. As produções de plástico aumentam, mas os ecologistas não são felizes."
     },
     "properties": {
       "price": 70000000,
@@ -313,18 +335,20 @@
     "id": "RecyclingDepurators",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Recycling Filters",
-      "ES": "Recycling Depurators",
-      "FR": "Recyclage des épurateurs",
       "DE": "Recycling in Filtern",
-      "IT": "Riciclaggio tramite depuratori"
+      "EN": "Recycling Filters",
+      "ES": "Filtros de reciclaje",
+      "FR": "Recyclage des épurateurs",
+      "IT": "Riciclaggio tramite depuratori",
+      "PT": "Reciclagem de Filtros"
     },
     "description": {
-      "EN": "Your filters automatically collect and recycle any particles produced from the gas emissions that result from the plastic production process. It helps the environment too.",
-      "ES": "Your depurators automatically collect and recycle any particle in the gas emission results of the plastic production process. It helps the environment too.",
-      "FR": "Vos épurateurs recueillent et recyclent automatiquement toutes les particules contenues dans les émissions de gaz résultant de la production de plastique. Vous protégez également l'environnement.",
       "DE": "Ihre Filter sammeln und recyclen automatisch alle Partikel in dem Emissionen, die bei der Kunststoffherstellung entstehen. Gut für die Umwelt.",
-      "IT": "I tuoi depuratori raccolgono e riciclano automaticamente le particelle presenti nelle emissioni di gas prodotte durante la fabbricazione della plastica. Utile anche per la difesa dell'ambiente."
+      "EN": "Your filters automatically collect and recycle any particles produced from the gas emissions that result from the plastic production process. It helps the environment too.",
+      "ES": "Sus filtros recolectan y reciclan automáticamente cualquier partícula producida a partir de las emisiones de gases que resultan del proceso de producción de plástico. Ayuda también al medio ambiente.",
+      "FR": "Vos épurateurs recueillent et recyclent automatiquement toutes les particules contenues dans les émissions de gaz résultant de la production de plastique. Vous protégez également l'environnement.",
+      "IT": "I tuoi depuratori raccolgono e riciclano automaticamente le particelle presenti nelle emissioni di gas prodotte durante la fabbricazione della plastica. Utile anche per la difesa dell'ambiente.",
+      "PT": "Seus filtros coletam e reciclam automaticamente quaisquer partículas produzidas a partir das emissões de gases resultantes do processo de produção de plástico. Isso ajuda o meio ambiente também."
     },
     "properties": {
       "price": 100000000,
@@ -342,18 +366,20 @@
     "id": "SoundWaveMolder",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Sound Wave Molder",
-      "ES": "Sound Wave Molder",
-      "FR": "Mouleur à ondes sonores",
       "DE": "Schallwellenformer",
-      "IT": "Formatura tramite onde sonore"
+      "EN": "Sound Wave Molder",
+      "ES": "Moldeo de ondas de sonido",
+      "FR": "Mouleur à ondes sonores",
+      "IT": "Formatura tramite onde sonore",
+      "PT": "Moldador de Ondas Sonoras"
     },
     "description": {
-      "EN": "Melted plastic is molded using sound waves, by using very precise emitters it's possible to shape plastics almost as well as physical molders. You also create a new type of heavily clustered plastic.",
-      "ES": "Melted plastic is molded using sound waves. Using very precise emittors it's possible to shape it almost as good as physical molders do. In addition a new type of hyper clustered plastic can be created.",
-      "FR": "Le plastique fondu est moulé à l'aide d'ondes sonores. Grâce à des émetteurs très précis, il est possible de lui donner des formes presque aussi belles qu'avec des moules physiques. En outre, un nouveau type de plastique hyper-condensé peut être créé.",
       "DE": "Geschmolzener Kunststoff wird durch Schallwellen geformt. Mit sehr präzisen Sendern ist es möglich, ihn fast genauso gut zu formen, wie mit maschinellen Formgeräten. Außerdem kann damit ein stark verdichteter Kunststoff hergestellt werden.",
-      "IT": "La plastica fusa viene modellata tramite onde sonore, con una precisione paragonabile a quella delle formatrici solide. Diventa possibile creare un nuovo tipo di plastica ultra-compatta."
+      "EN": "Melted plastic is molded using sound waves, by using very precise emitters it's possible to shape plastics almost as well as physical molders. You also create a new type of heavily clustered plastic.",
+      "ES": "El plástico derretido se moldea utilizando ondas de sonido; mediante el uso de emisores muy precisos, es posible dar forma a los plásticos casi tan bien como a los moldeadores físicos. También creas un nuevo tipo de plástico muy agrupado.",
+      "FR": "Le plastique fondu est moulé à l'aide d'ondes sonores. Grâce à des émetteurs très précis, il est possible de lui donner des formes presque aussi belles qu'avec des moules physiques. En outre, un nouveau type de plastique hyper-condensé peut être créé.",
+      "IT": "La plastica fusa viene modellata tramite onde sonore, con una precisione paragonabile a quella delle formatrici solide. Diventa possibile creare un nuovo tipo di plastica ultra-compatta.",
+      "PT": "Plástico derretido é moldado usando ondas sonoras, usando emissores muito precisos é possível moldar plásticos quase tão bem quanto moldadores físicos. Você também cria um novo tipo de plástico altamente agrupado."
     },
     "properties": {
       "price": 330000000,
@@ -370,18 +396,20 @@
     "id": "SpaceApplications",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Space Applications",
-      "ES": "Space Applications",
-      "FR": "Applications spatiales",
       "DE": "Raumfahrtanwendungen",
-      "IT": "Applicazioni per l'industria aerospaziale"
+      "EN": "Space Applications",
+      "ES": "Aplicaciones espaciales",
+      "FR": "Applications spatiales",
+      "IT": "Applicazioni per l'industria aerospaziale",
+      "PT": "Aplicações Espaciais"
     },
     "description": {
-      "EN": "Thanks to the extra strong plastic, your products now have many applications in outer space.",
-      "ES": "Thanks to the extra strong plastic, you open your products to many applications in outer space.",
-      "FR": "Grâce au plastique ultra résistant, vous ouvrez vos produits à de nombreuses utilisations dans l'espace.",
       "DE": "Dank der Produktion von extrastarkem Kunststoff, können viele Ihrer Produkte in der Raumfahrt eingesetzt werden",
-      "IT": "Grazie alla plastica ultra-resistente, puoi allargare il campo di applicazione dei tuoi prodotti al settore dell'industria aerospaziale."
+      "EN": "Thanks to the extra strong plastic, your products now have many applications in outer space.",
+      "ES": "Gracias al plástico extra fuerte, sus productos ahora tienen muchas aplicaciones en el espacio exterior.",
+      "FR": "Grâce au plastique ultra résistant, vous ouvrez vos produits à de nombreuses utilisations dans l'espace.",
+      "IT": "Grazie alla plastica ultra-resistente, puoi allargare il campo di applicazione dei tuoi prodotti al settore dell'industria aerospaziale.",
+      "PT": "Graças ao plástico extra forte, seus produtos agora têm muitas aplicações no espaço exterior."
     },
     "properties": {
       "price": 80000000,
@@ -399,18 +427,20 @@
     "id": "UltrathinPlastic",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ultra Thin Plastic",
-      "ES": "Ultra Thin Plastic",
-      "FR": "Plastique ultra mince",
       "DE": "Superdünner Kunststoff",
-      "IT": "Plastica ultra-sottile"
+      "EN": "Ultra Thin Plastic",
+      "ES": "Plástico ultra delgado",
+      "FR": "Plastique ultra mince",
+      "IT": "Plastica ultra-sottile",
+      "PT": "Plástico Ultrafino"
     },
     "description": {
-      "EN": "The laser cutting technique enables you to produce extremely thin plastic sheets. One of the most successful applications of this technology is a new condom. Right-wing religious groups protest.",
-      "ES": "The use of the laser cutting technique permits you to create extremely thin plastic sheets. One of the most successfull application is a new condom, even if it raises some protests from moral associations.",
-      "FR": "Utilisation de la technique de découpe au laser vous permet de créer des feuilles de plastique extrêmement fines. L'une des applications les plus réussies est pour la fabrication d'un nouveau préservatif, même si les ligues de vertu émettent quelques protestations.",
       "DE": "Die Verwendung der Laserschnitttechnik ermöglicht Ihnen  die Herstellung von extrem dünnen Plastikfolien. Eine der erfolgreichsten Anwendungen ist ein neues Kondom, auch wenn das zu einigen Protesten von Moralaposteln geführt hat.",
-      "IT": "La tecnica di taglio al laser ti permette di creare fogli di plastica sottilissimi. Tra le applicazioni vi è un nuovo profilattico, anche se ciò solleva qualche protesta da parte dei moralisti."
+      "EN": "The laser cutting technique enables you to produce extremely thin plastic sheets. One of the most successful applications of this technology is a new condom. Right-wing religious groups protest.",
+      "ES": "La técnica de corte por láser le permite producir láminas de plástico extremadamente delgadas. Una de las aplicaciones más exitosas de esta tecnología es un condón nuevo. Protesta de grupos religiosos de derecha.",
+      "FR": "Utilisation de la technique de découpe au laser vous permet de créer des feuilles de plastique extrêmement fines. L'une des applications les plus réussies est pour la fabrication d'un nouveau préservatif, même si les ligues de vertu émettent quelques protestations.",
+      "IT": "La tecnica di taglio al laser ti permette di creare fogli di plastica sottilissimi. Tra le applicazioni vi è un nuovo profilattico, anche se ciò solleva qualche protesta da parte dei moralisti.",
+      "PT": "A técnica de corte a laser permite produzir folhas de plástico extremamente finas. Uma das aplicações mais bem sucedidas desta tecnologia é um novo preservativo. Grupos religiosos de direita protestam."
     },
     "properties": {
       "price": 40000000,
@@ -428,18 +458,20 @@
     "id": "WoodLookingPlasticSheets",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Imitation Plastic Wood",
-      "ES": "Wood Looking Plastic Sheets",
-      "FR": "Feuilles de plastique semblables à du bois",
       "DE": "Holzimitation",
-      "IT": "Lamine in plastica simili al legno"
+      "EN": "Imitation Plastic Wood",
+      "ES": "Imitacion de madera plástica",
+      "FR": "Feuilles de plastique semblables à du bois",
+      "IT": "Lamine in plastica simili al legno",
+      "PT": "Imitação de madeira de plástico"
     },
     "description": {
-      "EN": "You produce a special line of plastic sheets that look like wood and are used to make furniture: more trees are saved.",
-      "ES": "You produce a special line of plastic sheets used to build furnitures completely without the use of wood.",
-      "FR": "Vous produisez une gamme de feuilles plastiques utilisées pour construire des meubles sans bois.",
       "DE": "Sie produzieren eine spezielle Linie von Kunststoffplatten, die dazu dienen, Möbel ohne die Verwendung von Holz zu bauen.",
-      "IT": "Produci una linea di lamine in plastica che permettono di realizzare mobili senza far uso di legno."
+      "EN": "You produce a special line of plastic sheets that look like wood and are used to make furniture: more trees are saved.",
+      "ES": "Usted produce una línea especial de hojas de plástico que se parecen a la madera y se usan para hacer muebles: se guardan más árboles.",
+      "FR": "Vous produisez une gamme de feuilles plastiques utilisées pour construire des meubles sans bois.",
+      "IT": "Produci una linea di lamine in plastica che permettono di realizzare mobili senza far uso di legno.",
+      "PT": "Você produz uma linha especial de folhas de plástico que se parecem com madeira e são usadas para fazer móveis: mais árvores são salvas."
     },
     "properties": {
       "price": 50000000,

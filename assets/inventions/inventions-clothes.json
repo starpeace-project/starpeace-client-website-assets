@@ -3,18 +3,20 @@
     "id": "AlteringMirrors",
     "category": "COMMERCE",
     "name": {
-      "EN": "Altering Mirrors",
-      "ES": "Altering Mirrors",
-      "FR": "Miroirs déformants",
       "DE": "Verändernde Spiegel",
-      "IT": "Specchi deformanti"
+      "EN": "Altering Mirrors",
+      "ES": "Alterando Espejos",
+      "FR": "Miroirs déformants",
+      "IT": "Specchi deformanti",
+      "PT": "Alterando Espelhos"
     },
     "description": {
-      "EN": "Special mirrors that make customers look slimmer.",
-      "ES": "Special mirrors that make look slimmer the person that is using them.",
-      "FR": "Miroirs spéciaux faisant sembler plus mince la personne qui s'y regarde.",
       "DE": "Spezialspiegel, der die Person, die hineinsieht, schlanker erscheinen lässt.",
-      "IT": "Speciali specchi che fanno sembrare più magre le persone che li usano."
+      "EN": "Special mirrors that make customers look slimmer.",
+      "ES": "Espejos especiales que hacen que los clientes se vean más delgados.",
+      "FR": "Miroirs spéciaux faisant sembler plus mince la personne qui s'y regarde.",
+      "IT": "Speciali specchi che fanno sembrare più magre le persone che li usano.",
+      "PT": "Espelhos especiais que fazem os clientes parecerem mais magros."
     },
     "properties": {
       "price": 15000000,
@@ -28,18 +30,20 @@
     "id": "Antialine",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Antialien Suit",
-      "ES": "Antialien Suits",
-      "FR": "Costumes anti-extraterrestres",
       "DE": "Anti-Außerirdische Anzüge",
-      "IT": "Tuta anti-alieni"
+      "EN": "Antialien Suit",
+      "ES": "Traje Antialien",
+      "FR": "Costumes anti-extraterrestres",
+      "IT": "Tuta anti-alieni",
+      "PT": "Terno Antialien"
     },
     "description": {
-      "EN": "This is a precaution since nobody has ever seen an alien.",
-      "ES": "Just in case: nobody has ever seen an alien.",
-      "FR": "Juste au cas où. Personne n'a jamais vu d'extraterrestre.",
       "DE": "Nur für den Fall: Niemand hat bis jetzt einen Außerirdischen gesehen.",
-      "IT": "Una misura di sicurezza per i più lungimiranti, giacché nessuno ha mai visto un alieno."
+      "EN": "This is a precaution since nobody has ever seen an alien.",
+      "ES": "Esta es una precaución ya que nadie ha visto un extraterrestre.",
+      "FR": "Juste au cas où. Personne n'a jamais vu d'extraterrestre.",
+      "IT": "Una misura di sicurezza per i più lungimiranti, giacché nessuno ha mai visto un alieno.",
+      "PT": "Isso é uma precaução, já que ninguém jamais viu um alienígena."
     },
     "properties": {
       "price": 10000000,
@@ -57,18 +61,20 @@
     "id": "ATCD",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Advanced Top Clothing Design",
-      "ES": "Advanced Top Clothing Design",
-      "FR": "Design haute couture avancé",
       "DE": "Top-Bekleidungs-Design für Fortgeschrittene",
-      "IT": "Design d'alta moda avanzato"
+      "EN": "Advanced Top Clothing Design",
+      "ES": "Diseño avanzado superior de la ropa",
+      "FR": "Design haute couture avancé",
+      "IT": "Design d'alta moda avanzato",
+      "PT": "Design avançado de vestuário superior"
     },
     "description": {
-      "EN": "Research this to have access to the best design techniques available.",
-      "ES": "Research this to have access to the best design technics available.",
-      "FR": "Cette recherche vous permet daccéder aux meilleures techniques de design qui existent.",
       "DE": "Entwickeln Sie das, um an die besten Designtechniken zu gelangen.",
-      "IT": "Questa ricerca permette di avere accesso alle più avanzate tecniche di design nel campo dell'alta moda."
+      "EN": "Research this to have access to the best design techniques available.",
+      "ES": "Investigue esto para tener acceso a las mejores técnicas de diseño disponibles.",
+      "FR": "Cette recherche vous permet daccéder aux meilleures techniques de design qui existent.",
+      "IT": "Questa ricerca permette di avere accesso alle più avanzate tecniche di design nel campo dell'alta moda.",
+      "PT": "Pesquise isto para ter acesso às melhores técnicas de design disponíveis."
     },
     "properties": {
       "price": 160000000,
@@ -86,18 +92,20 @@
     "id": "AutoLaseSew",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Automatic Laser Sewing",
-      "ES": "Automatic laser sewing",
-      "FR": "Couture automatique au laser",
       "DE": "Automatisches Lasernähen",
-      "IT": "Cuciture al laser"
+      "EN": "Automatic Laser Sewing",
+      "ES": "Costura láser automática",
+      "FR": "Couture automatique au laser",
+      "IT": "Cuciture al laser",
+      "PT": "Costura a laser automática"
     },
     "description": {
-      "EN": "Laser stitches replace sewing, while the process is quite efficient garments can sometimes look dull.",
-      "ES": "Laser stitches keep fabrics together. Quite efficient, but garments can't look dull sometimes.",
-      "FR": "Les points faits au laser permettent d'assurer la couture des tissus. Très efficace, mais les vêtements ont parfois un aspect étrange.",
       "DE": "Laserstiche halten die Stoffe zusammen. Aber die Kleidung hört nicht auf zu scheinen.",
-      "IT": "Le cuciture al laser sono molto resistenti, ma a volte danno agli indumenti un aspetto un po' incolore."
+      "EN": "Laser stitches replace sewing, while the process is quite efficient garments can sometimes look dull.",
+      "ES": "Las puntadas con láser reemplazan la costura, mientras que el proceso es bastante eficiente, las prendas a veces pueden parecer aburridas.",
+      "FR": "Les points faits au laser permettent d'assurer la couture des tissus. Très efficace, mais les vêtements ont parfois un aspect étrange.",
+      "IT": "Le cuciture al laser sono molto resistenti, ma a volte danno agli indumenti un aspetto un po' incolore.",
+      "PT": "Os pontos a laser substituem a costura, enquanto o processo é bastante eficiente, às vezes, as roupas podem parecer sem graça."
     },
     "properties": {
       "price": 20000000,
@@ -114,18 +122,20 @@
     "id": "BigSizes",
     "category": "COMMERCE",
     "name": {
-      "EN": "Large Sizes",
-      "ES": "Big Sizes",
-      "FR": "Grandes tailles",
       "DE": "Mode für Vollschlanke",
-      "IT": "Taglie grandi"
+      "EN": "Large Sizes",
+      "ES": "Tallas grandes",
+      "FR": "Grandes tailles",
+      "IT": "Taglie grandi",
+      "PT": "Tamanhos Grandes"
     },
     "description": {
-      "EN": "Some of your stores specialize in clothes for overweight people.",
-      "ES": "Some of your stores are specialized in clothes for overwheight people.",
-      "FR": "Certains de vos magasins sont spécialisés dans les vêtements pour personnes corpulentes.",
       "DE": "Einige Ihrer Geschäfte sind auf die Bekleidung in XXL-Größen spezialisiert.",
-      "IT": "Alcuni dei tuoi negozi si specializzano in indumenti per le persone sovrappeso."
+      "EN": "Some of your stores specialize in clothes for overweight people.",
+      "ES": "Algunas de sus tiendas se especializan en ropa para personas con sobrepeso.",
+      "FR": "Certains de vos magasins sont spécialisés dans les vêtements pour personnes corpulentes.",
+      "IT": "Alcuni dei tuoi negozi si specializzano in indumenti per le persone sovrappeso.",
+      "PT": "Algumas de suas lojas se especializam em roupas para pessoas com excesso de peso."
     },
     "properties": {
       "price": 35000000,
@@ -139,18 +149,20 @@
     "id": "CasualComplimentsDeliverer",
     "category": "COMMERCE",
     "name": {
-      "EN": "Compliment Delivery",
-      "ES": "Casual Compliments Deliverer",
-      "FR": "Complimenteur",
       "DE": "Komplimentemacher",
-      "IT": "Finto cliente entusiasta"
+      "EN": "Compliment Delivery",
+      "ES": "Entrega de cortesía",
+      "FR": "Complimenteur",
+      "IT": "Finto cliente entusiasta",
+      "PT": "Entrega de elogios"
     },
     "description": {
-      "EN": "One of your shop assistants poses as a customer and drops casual compliments to customers that are deciding whether to purchase the clothes that they are trying on.",
-      "ES": "One of your shop assistant dresses like a client and drops casual compliments to customers that are deciding if to purchase the clothes that they are trying on.",
-      "FR": "L'un de vos vendeurs se fait passer pour un client et fait des compliments aux clients qui hésitent à acheter les vêtements qu'ils essayent.",
       "DE": "Einer Ihrer Angestellten zieht sich an wie ein Kunde und komplimentiert Kunden, die sich gerade entscheiden, ob sie das anprobierte Kleidungsstück kaufen sollen oder nicht",
-      "IT": "Uno dei tuoi commessi si finge cliente e fa complimenti ai clienti veri mentre provano i vestiti, incoraggiandoli a comprare questo o quel capo."
+      "EN": "One of your shop assistants poses as a customer and drops casual compliments to customers that are deciding whether to purchase the clothes that they are trying on.",
+      "ES": "Uno de sus ayudantes de tienda se hace pasar por un cliente y le hace un cumplido informal a los clientes que están decidiendo si comprar la ropa que se están probando.",
+      "FR": "L'un de vos vendeurs se fait passer pour un client et fait des compliments aux clients qui hésitent à acheter les vêtements qu'ils essayent.",
+      "IT": "Uno dei tuoi commessi si finge cliente e fa complimenti ai clienti veri mentre provano i vestiti, incoraggiandoli a comprare questo o quel capo.",
+      "PT": "Um de seus assistentes de loja se apresenta como cliente e descarta elogios casuais para os clientes que estão decidindo se querem comprar as roupas que estão experimentando."
     },
     "properties": {
       "price": 45000000,
@@ -163,18 +175,20 @@
     "id": "ClientsTasteAndMeasuresDatabase",
     "category": "COMMERCE",
     "name": {
-      "EN": "Client Taste and Measurements Database",
-      "ES": "Clients Taste and Measures Database",
-      "FR": "Base de données des goûts et des mensurations des clients",
       "DE": "Datenbank für Kundengeschmack und Kleidergröße",
-      "IT": "Archivio di misure e gusti dei clienti"
+      "EN": "Client Taste and Measurements Database",
+      "ES": "Base de datos de gustos y mediciones del cliente",
+      "FR": "Base de données des goûts et des mensurations des clients",
+      "IT": "Archivio di misure e gusti dei clienti",
+      "PT": "Banco de dados de provas e medições de clientes"
     },
     "description": {
-      "EN": "Store the measurements and clothing tastes of your clients in a database; call them at home when your store receives something they may like.",
-      "ES": "Store the measure and the cloth tastes of your clients in a database and call them at home when you have something they may like.",
-      "FR": "Enregistrez les mensurations et les goûts en matière d'habillement de vos clients dans une base de données. Vous pourrez ainsi les appeler chez eux si un article est susceptible de leur plaire.",
       "DE": "Speichern Sie die Kleidergröße und den Geschmack Ihrer Kunden in einer Datenbank und rufen Sie sie zuhause an, wenn Sie etwas haben, was ihnen gefallen könnte.",
-      "IT": "Memorizza in un data base le misure dei tuoi clienti e i loro gusti in fatto di abbigliamento, così da poterli contattare a domicilio quando hai qualcosa che potrebbe piacergli."
+      "EN": "Store the measurements and clothing tastes of your clients in a database; call them at home when your store receives something they may like.",
+      "ES": "Almacene las medidas y los gustos de la ropa de sus clientes en una base de datos; llámalos a casa cuando tu tienda reciba algo que les guste.",
+      "FR": "Enregistrez les mensurations et les goûts en matière d'habillement de vos clients dans une base de données. Vous pourrez ainsi les appeler chez eux si un article est susceptible de leur plaire.",
+      "IT": "Memorizza in un data base le misure dei tuoi clienti e i loro gusti in fatto di abbigliamento, così da poterli contattare a domicilio quando hai qualcosa che potrebbe piacergli.",
+      "PT": "Armazene as medições e gostos de roupas de seus clientes em um banco de dados; chame-os em casa quando sua loja receber algo que eles possam gostar."
     },
     "properties": {
       "price": 55000000,
@@ -188,18 +202,20 @@
     "id": "ClothesLic",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Clothes Manufacturing",
-      "ES": "Clothes Manufacturing",
-      "FR": "Fabrication de vêtements",
       "DE": "Bekleidungsherstellung",
-      "IT": "Confezionamento di indumenti"
+      "EN": "Clothes Manufacturing",
+      "ES": "Fabricación de ropa",
+      "FR": "Fabrication de vêtements",
+      "IT": "Confezionamento di indumenti",
+      "PT": "Fabricação de roupas"
     },
     "description": {
-      "EN": "License to manage clothes factories.",
-      "ES": "License to manage clothes factories.",
-      "FR": "Licence de gestion d'usines de vêtements.",
       "DE": "Lizenz für das Management einer Bekleidungsfabrik.",
-      "IT": "La licenza per la gestione di stabilimenti per il confezionamento di indumenti."
+      "EN": "License to manage clothes factories.",
+      "ES": "Licencia para gestionar fábricas de ropa.",
+      "FR": "Licence de gestion d'usines de vêtements.",
+      "IT": "La licenza per la gestione di stabilimenti per il confezionamento di indumenti.",
+      "PT": "Licença para gerenciar fábricas de roupas."
     },
     "properties": {
       "price": 1000000,
@@ -214,18 +230,20 @@
     "id": "ClothGluing",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Clothes Gluing",
-      "ES": "Clothes gluing",
-      "FR": "Collage de vêtements",
       "DE": "Geklebte Kleidung",
-      "IT": "Incollatura degli indumenti"
+      "EN": "Clothes Gluing",
+      "ES": "Encolado de ropa",
+      "FR": "Collage de vêtements",
+      "IT": "Incollatura degli indumenti",
+      "PT": "Cola De Roupas"
     },
     "description": {
-      "EN": "Pieces of fabric are glued together; garments get bulky.",
-      "ES": "Pieces of fabrics are glued to each other. Garment gets bulky.",
-      "FR": "Les pièces de tissus sont collées les unes aux autres. Les vêtements deviennent amples.",
       "DE": "Stoffe werden zusammengeklebt. Kleider sind unförmig.",
-      "IT": "I lembi di tessuto sono incollati l'uno all'altro. Ciò aumenta il volume degli indumenti."
+      "EN": "Pieces of fabric are glued together; garments get bulky.",
+      "ES": "Los pedazos de tela se pegan juntos; las prendas se vuelven voluminosas.",
+      "FR": "Les pièces de tissus sont collées les unes aux autres. Les vêtements deviennent amples.",
+      "IT": "I lembi di tessuto sono incollati l'uno all'altro. Ciò aumenta il volume degli indumenti.",
+      "PT": "Pedaços de tecido são colados juntos; as roupas ficam volumosas."
     },
     "properties": {
       "price": 10000000,
@@ -243,18 +261,20 @@
     "id": "ComplementaryAccessories",
     "category": "COMMERCE",
     "name": {
-      "EN": "Complimentary Accessories",
-      "ES": "Complementary Accessories",
-      "FR": "Accessoires gratuits",
       "DE": "Gratisaccessoires",
-      "IT": "Accessori compresi nel prezzo"
+      "EN": "Complimentary Accessories",
+      "ES": "Accesorios complementarios",
+      "FR": "Accessoires gratuits",
+      "IT": "Accessori compresi nel prezzo",
+      "PT": "Acessórios Complementares"
     },
     "description": {
-      "EN": "Accessories such as belts, ties and gloves are given to client as a gift when they spend a lot of money.",
-      "ES": "Accessories like belts, ties and gloves are given as a gift to clients that spend a lot of money.",
-      "FR": "Accessoires, tels que les ceintures, les cravates et les gants sont donnés en cadeau aux clients qui dépensent de grosses sommes d'argent.",
       "DE": "Accessoires wie Gürtel, Krawatten und Handschuhe werden den Kunden geschenkt, die große Summen ausgeben.",
-      "IT": "Accessori come cinture, cravatte e guanti vengono dati in omaggio ai clienti che fanno ingenti acquisti."
+      "EN": "Accessories such as belts, ties and gloves are given to client as a gift when they spend a lot of money.",
+      "ES": "Los accesorios como cinturones, corbatas y guantes se entregan al cliente como regalo cuando gastan mucho dinero.",
+      "FR": "Accessoires, tels que les ceintures, les cravates et les gants sont donnés en cadeau aux clients qui dépensent de grosses sommes d'argent.",
+      "IT": "Accessori come cinture, cravatte e guanti vengono dati in omaggio ai clienti che fanno ingenti acquisti.",
+      "PT": "Acessórios como cintos, gravatas e luvas são dados ao cliente como um presente quando eles gastam muito dinheiro."
     },
     "properties": {
       "price": 65000000,
@@ -268,18 +288,20 @@
     "id": "CoutureDresses",
     "category": "COMMERCE",
     "name": {
-      "EN": "Couture Dresses",
-      "ES": "Couture Dresses",
-      "FR": "Robes de haute couture",
       "DE": "Haute Couture Kleider",
-      "IT": "Creazioni d'alta moda"
+      "EN": "Couture Dresses",
+      "ES": "Vestidos de alta costura",
+      "FR": "Robes de haute couture",
+      "IT": "Creazioni d'alta moda",
+      "PT": "Vestidos De Alta Costura"
     },
     "description": {
-      "EN": "Bring couture pieces from Earth's most famous designers.",
-      "ES": "Bring from Earth the top fashion models of famous stylists.",
-      "FR": "Amenez avec vous, depuis la Terre, des modèles haute couture de stylistes réputés.",
       "DE": "Bringen Sie die Topmodelle berühmter Modemacher von der Erde.",
-      "IT": "Importi dalla Terra i modelli più esclusivi dei grandi stilisti."
+      "EN": "Bring couture pieces from Earth's most famous designers.",
+      "ES": "Trae piezas de alta costura de los diseñadores más famosos de la tierra.",
+      "FR": "Amenez avec vous, depuis la Terre, des modèles haute couture de stylistes réputés.",
+      "IT": "Importi dalla Terra i modelli più esclusivi dei grandi stilisti.",
+      "PT": "Trazer peças de alta costura dos designers mais famosos da Terra."
     },
     "properties": {
       "price": 65000000,
@@ -294,18 +316,20 @@
     "id": "DryCleaningService",
     "category": "COMMERCE",
     "name": {
-      "EN": "Dry Cleaning Service",
-      "ES": "Dry Cleaning Service",
-      "FR": "Service de nettoyage à sec",
       "DE": "Trockenreinigungsservice",
-      "IT": "Servizio di lavaggio a secco"
+      "EN": "Dry Cleaning Service",
+      "ES": "Servicio de limpieza en seco",
+      "FR": "Service de nettoyage à sec",
+      "IT": "Servizio di lavaggio a secco",
+      "PT": "Serviço de limpeza a seco"
     },
     "description": {
-      "EN": "On-site dry cleaning service for clothes purchased in your stores.",
-      "ES": "On site dry cleaning service for the dresses purchased in your stores.",
-      "FR": "Service de nettoyage à sec sur site pour les robes achetées dans vos magasins.",
       "DE": "Trockenreinigungsservice vor Ort für die Kleider die in Ihren Geschäften gekauft wurden.",
-      "IT": "Un servizio di pulizia a secco in loco per gli indumenti acquistati presso i tuoi negozi."
+      "EN": "On-site dry cleaning service for clothes purchased in your stores.",
+      "ES": "Servicio de limpieza en seco en el lugar para la ropa comprada en sus tiendas.",
+      "FR": "Service de nettoyage à sec sur site pour les robes achetées dans vos magasins.",
+      "IT": "Un servizio di pulizia a secco in loco per gli indumenti acquistati presso i tuoi negozi.",
+      "PT": "Serviço de lavagem a seco no local para roupas compradas em suas lojas."
     },
     "properties": {
       "price": 35000000,
@@ -319,18 +343,20 @@
     "id": "FashionConsultants",
     "category": "COMMERCE",
     "name": {
-      "EN": "Fashion Consultants",
-      "ES": "Fashion Consultants",
-      "FR": "Consultants en mode",
       "DE": "Modeberater",
-      "IT": "Consulenti di moda"
+      "EN": "Fashion Consultants",
+      "ES": "Consultores de Moda",
+      "FR": "Consultants en mode",
+      "IT": "Consulenti di moda",
+      "PT": "Consultores de moda"
     },
     "description": {
-      "EN": "Specially trained employees that advise customers about the latest trends and fashions.",
-      "ES": "Special employees that advice the clients on the latest trends and fashionable combinations.",
-      "FR": "Employés spécialisés qui conseillent les clients sur les dernières tendances de la mode et les associations de vêtements de bon goût.",
       "DE": "Spezielle Angestellte, die die Kunden hinsichtlich der letzten Modetrends und Kombinationen beraten.",
-      "IT": "Impiegati incaricati di dare consigli alla clientela sugli ultimi trend e sugli abbinamenti più alla moda."
+      "EN": "Specially trained employees that advise customers about the latest trends and fashions.",
+      "ES": "Empleados especialmente capacitados que asesoran a los clientes sobre las últimas tendencias y modas.",
+      "FR": "Employés spécialisés qui conseillent les clients sur les dernières tendances de la mode et les associations de vêtements de bon goût.",
+      "IT": "Impiegati incaricati di dare consigli alla clientela sugli ultimi trend e sugli abbinamenti più alla moda.",
+      "PT": "Funcionários especialmente treinados que aconselham os clientes sobre as últimas tendências e modas."
     },
     "properties": {
       "price": 25000000,
@@ -344,18 +370,20 @@
     "id": "GayOutfits",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Gay Clothing Designs",
-      "ES": "Gay Friendly Outfits",
-      "FR": "Tenue respectueuse de la clientèle gay",
       "DE": "Schwulenfreundliche Anzüge",
-      "IT": "Indumenti per la clientela gay"
+      "EN": "Gay Clothing Designs",
+      "ES": "Diseños de ropa gay",
+      "FR": "Tenue respectueuse de la clientèle gay",
+      "IT": "Indumenti per la clientela gay",
+      "PT": "Desenhos de roupas alegres"
     },
     "description": {
-      "EN": "Design and produce clothes specifically for the gay man or woman tastes.",
-      "ES": "Design and produce gay friendly wears.",
-      "FR": "Concevez et produisez des vêtements destinés à la clientèle gay.",
       "DE": "Entwickeln Sie das Design und entwerfen Sie schwulenfreundliche Anzüge.",
-      "IT": "Disegna e confeziona indumenti per la clientela gay."
+      "EN": "Design and produce clothes specifically for the gay man or woman tastes.",
+      "ES": "Diseña y produce ropa específicamente para el gusto del hombre o la mujer gay.",
+      "FR": "Concevez et produisez des vêtements destinés à la clientèle gay.",
+      "IT": "Disegna e confeziona indumenti per la clientela gay.",
+      "PT": "Projetar e produzir roupas especificamente para o homem gay ou mulher gostos."
     },
     "properties": {
       "price": 60000000,
@@ -373,18 +401,20 @@
     "id": "HighQualitySuits",
     "category": "INDUSTRY",
     "name": {
-      "EN": "High Quality Suits",
-      "ES": "High Quality Suits",
-      "FR": "Costumes de qualité",
       "DE": "Hochwertige Anzüge",
-      "IT": "Completi di lusso"
+      "EN": "High Quality Suits",
+      "ES": "Trajes de alta calidad",
+      "FR": "Costumes de qualité",
+      "IT": "Completi di lusso",
+      "PT": "Ternos de alta qualidade"
     },
     "description": {
-      "EN": "Superior quality suits for managers and CEO.",
-      "ES": "For managers and CEO.",
-      "FR": "Pour managers et PDG.",
       "DE": "Für Manager und Generaldirektoren.",
-      "IT": "Per i dirigenti e l'amministratore delegato."
+      "EN": "Superior quality suits for managers and CEO.",
+      "ES": "Trajes de calidad superior para directivos y CEO.",
+      "FR": "Pour managers et PDG.",
+      "IT": "Per i dirigenti e l'amministratore delegato.",
+      "PT": "Fatos de qualidade superior para gerentes e CEO."
     },
     "properties": {
       "price": 90000000,
@@ -402,18 +432,20 @@
     "id": "HstClothing",
     "category": "INDUSTRY",
     "name": {
-      "EN": "History of Clothing",
-      "ES": "History of Clothing",
-      "FR": "Histoire des vêtements",
       "DE": "Geschichte der Bekleidung",
-      "IT": "Storia dell'abbigliamento"
+      "EN": "History of Clothing",
+      "ES": "Historia de la ropa",
+      "FR": "Histoire des vêtements",
+      "IT": "Storia dell'abbigliamento",
+      "PT": "História da Roupa"
     },
     "description": {
-      "EN": "A broad knowledge of clothing throughout the ages allows for better designs.",
-      "ES": "A deep knoledge of clothing across the ages allows better designs.",
-      "FR": "Une bonne connaissance des vêtements à travers les âges permet d'obtenir de meilleurs concepts.",
       "DE": "Eine gute Kenntnis der Geschichte der Bekleidung ermöglicht bessere Designs.",
-      "IT": "Una conoscenza approfondita dei mutamenti dell'abbigliamento nelle varie epoche permette di realizzare modelli migliori."
+      "EN": "A broad knowledge of clothing throughout the ages allows for better designs.",
+      "ES": "Un amplio conocimiento de la ropa a lo largo de los siglos permite mejores diseños.",
+      "FR": "Une bonne connaissance des vêtements à travers les âges permet d'obtenir de meilleurs concepts.",
+      "IT": "Una conoscenza approfondita dei mutamenti dell'abbigliamento nelle varie epoche permette di realizzare modelli migliori.",
+      "PT": "Um amplo conhecimento de roupas ao longo das idades permite melhores designs."
     },
     "properties": {
       "price": 20000000,
@@ -429,18 +461,20 @@
     "id": "HstFootwears",
     "category": "INDUSTRY",
     "name": {
-      "EN": "History of Footwear",
-      "ES": "History of Footwear",
-      "FR": "Histoire des chaussures",
       "DE": "Geschichte des Schuhwerks",
-      "IT": "Storia delle calzature"
+      "EN": "History of Footwear",
+      "ES": "Historia del calzado",
+      "FR": "Histoire des chaussures",
+      "IT": "Storia delle calzature",
+      "PT": "História do Calçado"
     },
     "description": {
-      "EN": "A broad knowledge of the evolution of footwear throughout the ages allows for superior shoe designs.",
-      "ES": "A deep knoledge of footwear evolution across the ages allows better shoe designs.",
-      "FR": "Une bonne connaissance de l'évolution des chaussures à travers les âges permet d'obtenir de meilleurs concepts.",
       "DE": "Eine gute Kenntnis der Geschichte des Schuhwerks ermöglicht bessere Schuhdesigns.",
-      "IT": "Una conoscenza approfondita dei mutamenti delle calzature nella storia permette di realizzare modelli migliori."
+      "EN": "A broad knowledge of the evolution of footwear throughout the ages allows for superior shoe designs.",
+      "ES": "Un amplio conocimiento de la evolución del calzado a lo largo de los siglos permite diseños de calzado superiores.",
+      "FR": "Une bonne connaissance de l'évolution des chaussures à travers les âges permet d'obtenir de meilleurs concepts.",
+      "IT": "Una conoscenza approfondita dei mutamenti delle calzature nella storia permette di realizzare modelli migliori.",
+      "PT": "Um amplo conhecimento da evolução do calçado ao longo das idades permite designs de calçados superiores."
     },
     "properties": {
       "price": 20000000,
@@ -456,18 +490,20 @@
     "id": "HypAtt",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Hypnotic Attire",
-      "ES": "Hypnotic Attires",
-      "FR": "Vêtements hypnotiques",
       "DE": "Hypnotische Kleidung",
-      "IT": "Indumenti ipnotici"
+      "EN": "Hypnotic Attire",
+      "ES": "Atuendo hipnótico",
+      "FR": "Vêtements hypnotiques",
+      "IT": "Indumenti ipnotici",
+      "PT": "Traje Hipnótico"
     },
     "description": {
-      "EN": "Learn how to produce clothing that is the center of attention.",
-      "ES": "Learn how to produce clothing that acts as a pure focus of attention.",
-      "FR": "Apprenez à produire des vêtements qui attirent l'attention.",
       "DE": "Lernen Sie, wie man Kleidung produziert, die Aufmerksamkeit auf sich lenkt.",
-      "IT": "Impara i segreti della realizzazione di capi in grado di concentrare su di sé l'attenzione."
+      "EN": "Learn how to produce clothing that is the center of attention.",
+      "ES": "Aprende a producir ropa que sea el centro de atención.",
+      "FR": "Apprenez à produire des vêtements qui attirent l'attention.",
+      "IT": "Impara i segreti della realizzazione di capi in grado di concentrare su di sé l'attenzione.",
+      "PT": "Aprenda a produzir roupas que é o centro das atenções."
     },
     "properties": {
       "price": 10000000,
@@ -484,18 +520,20 @@
     "id": "LimitedSizeChoice",
     "category": "COMMERCE",
     "name": {
-      "EN": "Limited Size Selection",
-      "ES": "Limited Size Choice",
-      "FR": "Choix de tailles limité",
       "DE": "Geringe Größenauswahl",
-      "IT": "Gamma limitata di misure"
+      "EN": "Limited Size Selection",
+      "ES": "Selección de tamaño limitado",
+      "FR": "Choix de tailles limité",
+      "IT": "Gamma limitata di misure",
+      "PT": "Seleção limitada de tamanho"
     },
     "description": {
-      "EN": "Your shops only carry the more common sizes. You can't satisfy everybody but it's more cost-efficient.",
-      "ES": "Your shops carry only the more common sizes. You can't satisfy everybody but it's more efficient.",
-      "FR": "Vos magasins proposent les tailles les plus répandues. Il est impossible de satisfaire tout le monde, mais ce moyen est plus efficace.",
       "DE": "In Ihren Geschäften findet man nur die gängigen Größen. Sie können zwar nicht alle Kunden bedienen, aber es ist effizienter.",
-      "IT": "I tuoi negozi dispongono solo di indumenti nelle taglie più comuni. Questa politica aumenta l'efficienza ma non permette di soddisfare tutti i clienti."
+      "EN": "Your shops only carry the more common sizes. You can't satisfy everybody but it's more cost-efficient.",
+      "ES": "Tus tiendas solo llevan los tamaños más comunes. No puedes satisfacer a todos, pero es más rentable.",
+      "FR": "Vos magasins proposent les tailles les plus répandues. Il est impossible de satisfaire tout le monde, mais ce moyen est plus efficace.",
+      "IT": "I tuoi negozi dispongono solo di indumenti nelle taglie più comuni. Questa politica aumenta l'efficienza ma non permette di soddisfare tutti i clienti.",
+      "PT": "Suas lojas só carregam os tamanhos mais comuns. Você não pode satisfazer a todos, mas é mais rentável."
     },
     "properties": {
       "price": 5000000,
@@ -509,18 +547,20 @@
     "id": "LingerieSelection",
     "category": "COMMERCE",
     "name": {
-      "EN": "Lingerie Selection",
-      "ES": "Lingerie Selection",
-      "FR": "Choix de lingerie",
       "DE": "Auswahl von Dessous",
-      "IT": "Assortimento di lingerie"
+      "EN": "Lingerie Selection",
+      "ES": "Selección de lencería",
+      "FR": "Choix de lingerie",
+      "IT": "Assortimento di lingerie",
+      "PT": "Seleção Lingerie"
     },
     "description": {
-      "EN": "Luxurious undergarments for wealthy customers.",
-      "ES": "Luxurious underwear for rich clients.",
-      "FR": "Sous-vêtements de luxe pour les clients fortunés.",
       "DE": "Luxusunterwäsche für reiche Kunden.",
-      "IT": "Biancheria intima di gran lusso per la clientela più danarosa."
+      "EN": "Luxurious undergarments for wealthy customers.",
+      "ES": "Ropa interior de lujo para clientes adinerados.",
+      "FR": "Sous-vêtements de luxe pour les clients fortunés.",
+      "IT": "Biancheria intima di gran lusso per la clientela più danarosa.",
+      "PT": "Roupas de baixo luxuosas para clientes abastados."
     },
     "properties": {
       "price": 65000000,
@@ -534,18 +574,20 @@
     "id": "LSCManuf",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Large Scale Clothing Manufacturing",
-      "ES": "Large Scale Clothe Manufacturing",
-      "FR": "Fabrication de vêtements à grande échelle",
       "DE": "Große Bekleidungsindustrien",
-      "IT": "Grandi industrie di abbigliamento"
+      "EN": "Large Scale Clothing Manufacturing",
+      "ES": "Fabricación de ropa a gran escala",
+      "FR": "Fabrication de vêtements à grande échelle",
+      "IT": "Grandi industrie di abbigliamento",
+      "PT": "Fabricação de roupas em larga escala"
     },
     "description": {
-      "EN": "Learn the basic skills required to manage large scale clothing manufacturing.",
-      "ES": "Learn the basic skills to manage large scale clothes manufacturing.",
-      "FR": "Apprenez les principes élémentaires de gestion de la fabrication de vêtements à grande échelle.",
       "DE": "Erlernen Sie das Grundwissen für das Management von großen Bekleidungsindustrien.",
-      "IT": "Apprendi le conoscenze di base per gestire una grande industria di abbigliamento."
+      "EN": "Learn the basic skills required to manage large scale clothing manufacturing.",
+      "ES": "Aprenda las habilidades básicas necesarias para administrar la fabricación de ropa a gran escala.",
+      "FR": "Apprenez les principes élémentaires de gestion de la fabrication de vêtements à grande échelle.",
+      "IT": "Apprendi le conoscenze di base per gestire una grande industria di abbigliamento.",
+      "PT": "Aprenda as habilidades básicas necessárias para gerenciar a fabricação de roupas em larga escala."
     },
     "properties": {
       "price": 2000000,
@@ -560,18 +602,20 @@
     "id": "OldDressesRecycleBins",
     "category": "COMMERCE",
     "name": {
-      "EN": "Used Clothes Recycle Bins",
-      "ES": "Old Dresses Recycle Bins",
-      "FR": "Caisses de recyclage des vêtements usagés",
       "DE": "Altkleidersammlung",
-      "IT": "Bidoni per il riciclaggio di abiti smessi"
+      "EN": "Used Clothes Recycle Bins",
+      "ES": "Contenedores de reciclaje de ropa usada",
+      "FR": "Caisses de recyclage des vêtements usagés",
+      "IT": "Bidoni per il riciclaggio di abiti smessi",
+      "PT": "Recipientes para Reciclagem de Roupas Usadas"
     },
     "description": {
-      "EN": "Your stores have bins where clients can drop off clothes, they no longer use. You give these items to charity.",
-      "ES": "In your stores there are bins in which the clients can drop old used cloths. You give to charity those still in good shape.",
-      "FR": "Vos magasins sont équipés de caisses dans lesquelles les clients peuvent déposer les vêtements usagés. Vous donnez ensuite les vêtements en bon état à des uvres caritatives.",
       "DE": "In Ihren Geschäften gibt es Container, in die die Kunden ihre alten Kleider werfen können. Sie geben die Sachen, die noch brauchbar sind an die Wohlfahrt weiter.",
-      "IT": "Nei tuoi negozi vi sono bidoni in cui i clienti possono lasciare i vestiti smessi. Quelli ancora portabili vengono dati in beneficenza."
+      "EN": "Your stores have bins where clients can drop off clothes, they no longer use. You give these items to charity.",
+      "ES": "Sus tiendas tienen contenedores donde los clientes pueden dejar la ropa, ya no la usan. Usted da estos artículos a la caridad.",
+      "FR": "Vos magasins sont équipés de caisses dans lesquelles les clients peuvent déposer les vêtements usagés. Vous donnez ensuite les vêtements en bon état à des uvres caritatives.",
+      "IT": "Nei tuoi negozi vi sono bidoni in cui i clienti possono lasciare i vestiti smessi. Quelli ancora portabili vengono dati in beneficenza.",
+      "PT": "Suas lojas têm caixas onde os clientes podem deixar roupas, eles não usam mais. Você dá esses itens para caridade."
     },
     "properties": {
       "price": 25000000,
@@ -586,18 +630,20 @@
     "id": "OneUseClothes",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Disposable Clothes",
-      "ES": "One Use Clothes",
-      "FR": "Vêtements à usage unique",
       "DE": "Wegwerfkleidung",
-      "IT": "Indumenti usa e getta"
+      "EN": "Disposable Clothes",
+      "ES": "Ropa desechable",
+      "FR": "Vêtements à usage unique",
+      "IT": "Indumenti usa e getta",
+      "PT": "Roupas descartáveis"
     },
     "description": {
-      "EN": "Low quality clothes that are thrown away instead of washed.",
-      "ES": "Low quality clothes that are thrown away instead of being washed.",
-      "FR": "Vêtements de mauvaise qualité qui sont jetés au lieu de les laver.",
       "DE": "Billigkleidung die man wegschmeißt anstatt sie zu waschen.",
-      "IT": "Indumenti di scarsa qualità che possono essere gettati dopo l'uso anziché lavati."
+      "EN": "Low quality clothes that are thrown away instead of washed.",
+      "ES": "Ropa de baja calidad que se tira en lugar de lavarse.",
+      "FR": "Vêtements de mauvaise qualité qui sont jetés au lieu de les laver.",
+      "IT": "Indumenti di scarsa qualità che possono essere gettati dopo l'uso anziché lavati.",
+      "PT": "Roupas de baixa qualidade que são jogadas fora em vez de lavadas."
     },
     "properties": {
       "price": 10000000,
@@ -615,18 +661,20 @@
     "id": "OutOfFashionStockUp",
     "category": "COMMERCE",
     "name": {
-      "EN": "Out-of-Fashion Stock",
-      "ES": "Out of Fashion Stock Up",
-      "FR": "Stockage de vêtements passés de mode",
       "DE": "Lagerung von unmodernen Kleidern",
-      "IT": "Stock di indumenti fuori moda"
+      "EN": "Out-of-Fashion Stock",
+      "ES": "Stock fuera de moda",
+      "FR": "Stockage de vêtements passés de mode",
+      "IT": "Stock di indumenti fuori moda",
+      "PT": "Estoque fora de moda"
     },
     "description": {
-      "EN": "Since fashion is cyclic, you store clothes that are not in style anymore, until they are in fashion again.",
-      "ES": "Since fashion is cyclic, you stock up on clothes that are not in any more and wait until they are in fashion again.",
-      "FR": "Etant donné que la mode est cyclique, vous stockez des vêtements qui ne sont plus à la mode et attendez qu'ils le soient de nouveau.",
       "DE": "Da die Mode einem Zyklus folgt, lagern Sie unmoderne Kleider ein und warten, bis sie wieder in Mode kommen.",
-      "IT": "Sapendo che le mode sono cicliche, fai scorta di vestiti fuori moda in attesa che tornino in auge."
+      "EN": "Since fashion is cyclic, you store clothes that are not in style anymore, until they are in fashion again.",
+      "ES": "Ya que la moda es cíclica, almacenas ropa que ya no está en estilo, hasta que están nuevamente en moda.",
+      "FR": "Etant donné que la mode est cyclique, vous stockez des vêtements qui ne sont plus à la mode et attendez qu'ils le soient de nouveau.",
+      "IT": "Sapendo che le mode sono cicliche, fai scorta di vestiti fuori moda in attesa che tornino in auge.",
+      "PT": "Como a moda é cíclica, você armazena roupas que não são mais em estilo, até que estejam novamente na moda."
     },
     "properties": {
       "price": 15000000,
@@ -640,18 +688,20 @@
     "id": "RealTimeTailoring",
     "category": "COMMERCE",
     "name": {
-      "EN": "Real Time Tailoring",
-      "ES": "Real Time Tailoring",
-      "FR": "Retouche de vêtements en temps réel",
       "DE": "Änderungen in Echtzeit",
-      "IT": "Sartoria pronto acquisto"
+      "EN": "Real Time Tailoring",
+      "ES": "Sastrería en tiempo real",
+      "FR": "Retouche de vêtements en temps réel",
+      "IT": "Sartoria pronto acquisto",
+      "PT": "Alfaiataria em Tempo Real"
     },
     "description": {
-      "EN": "The little adjustment like pant's hem are performed just after the purchase.",
-      "ES": "The little adjustment like pant's hem are performed just after the purchase.",
-      "FR": "Les retouches, telles que les ourlets de pantalons, sont effectuées juste après l'achat.",
       "DE": "Die kleinen Änderungen, wie die Länge des Saums, werden gleich nach dem Verkauf erledigt.",
-      "IT": "Piccole modifiche come gli orli dei pantaloni vengono effettuate al momento dell'acquisto."
+      "EN": "The little adjustment like pant's hem are performed just after the purchase.",
+      "ES": "El pequeño ajuste como el dobladillo del pantalón se realiza justo después de la compra.",
+      "FR": "Les retouches, telles que les ourlets de pantalons, sont effectuées juste après l'achat.",
+      "IT": "Piccole modifiche come gli orli dei pantaloni vengono effettuate al momento dell'acquisto.",
+      "PT": "O pequeno ajuste como a bainha da calça é realizado logo após a compra."
     },
     "properties": {
       "price": 35000000,
@@ -665,18 +715,20 @@
     "id": "SmallChangeCabins",
     "category": "COMMERCE",
     "name": {
-      "EN": "Small Change Rooms",
-      "ES": "Small Change Cabins",
-      "FR": "Petites cabines d'essayage",
       "DE": "Kleine Umkleidekabinen",
-      "IT": "Cabine a gettone"
+      "EN": "Small Change Rooms",
+      "ES": "Pequeñas habitaciones de cambio",
+      "FR": "Petites cabines d'essayage",
+      "IT": "Cabine a gettone",
+      "PT": "Salas Pequenas"
     },
     "description": {
-      "EN": "To speed up lazy customers and gain more display space.",
-      "ES": "To speed up lazy clients and gain display space.",
-      "FR": "Permettent de presser un peu les clients fainéants et de gagner de la place pour l'étalage.",
       "DE": "Machen faulen Kunden Beine und schaffen mehr Ausstellungsfläche.",
-      "IT": "Per incoraggiare i clienti più pigri a sbrigarsi e aumentare lo spazio espositivo."
+      "EN": "To speed up lazy customers and gain more display space.",
+      "ES": "Para acelerar los clientes perezosos y ganar más espacio de visualización.",
+      "FR": "Permettent de presser un peu les clients fainéants et de gagner de la place pour l'étalage.",
+      "IT": "Per incoraggiare i clienti più pigri a sbrigarsi e aumentare lo spazio espositivo.",
+      "PT": "Para acelerar os clientes preguiçosos e ganhar mais espaço de exibição."
     },
     "properties": {
       "price": 15000000,
@@ -690,18 +742,20 @@
     "id": "SponsoredShirts",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Sponsor Shirts",
-      "ES": "Sponsored Shirts",
-      "FR": "Chemises sponsorisées",
       "DE": "Gesponserte Hemden",
-      "IT": "Magliette sponsorizzate"
+      "EN": "Sponsor Shirts",
+      "ES": "Camisetas de patrocinador",
+      "FR": "Chemises sponsorisées",
+      "IT": "Magliette sponsorizzate",
+      "PT": "Camisas Patrocinador"
     },
     "description": {
-      "EN": "Various firms commission shirts from you with their logo, for advertisement purposes.",
-      "ES": "Various firms commision you shirts with their logo on for advertisement purposes.",
-      "FR": "Diverses entreprises sponsorisent vos chemises en y apposant leur logo publicitaire.",
       "DE": "Verschiedene Firmen geben Hemden mit ihrem Logo zu Werbezwecken in Auftrag.",
-      "IT": "Alcune ditte ti commissionano magliette con il loro logo per scopi promozionali."
+      "EN": "Various firms commission shirts from you with their logo, for advertisement purposes.",
+      "ES": "Varias firmas le encargan camisetas con su logotipo, con fines publicitarios.",
+      "FR": "Diverses entreprises sponsorisent vos chemises en y apposant leur logo publicitaire.",
+      "IT": "Alcune ditte ti commissionano magliette con il loro logo per scopi promozionali.",
+      "PT": "Várias empresas encomendam camisetas de você com seu logotipo, para fins de propaganda."
     },
     "properties": {
       "price": 35000000,
@@ -719,18 +773,20 @@
     "id": "Sportswear",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Sportswear",
-      "ES": "Sportswear",
-      "FR": "Vêtements de sport",
       "DE": "Sportbekleidung",
-      "IT": "Abbigliamento sportivo"
+      "EN": "Sportswear",
+      "ES": "Ropa de deporte",
+      "FR": "Vêtements de sport",
+      "IT": "Abbigliamento sportivo",
+      "PT": "Sportswear"
     },
     "description": {
-      "EN": "Produce a line of active wear and sports clothes.",
-      "ES": "Line of sports clothes.",
-      "FR": "Ligne de vêtements pour le sport.",
       "DE": "Sportbekleidungs-Kollektion.",
-      "IT": "Una linea di indumenti sportivi."
+      "EN": "Produce a line of active wear and sports clothes.",
+      "ES": "Producir una línea de ropa deportiva y ropa deportiva.",
+      "FR": "Ligne de vêtements pour le sport.",
+      "IT": "Una linea di indumenti sportivi.",
+      "PT": "Produza uma linha de roupas esportivas e esportivas ativas."
     },
     "properties": {
       "price": 10000000,
@@ -747,18 +803,20 @@
     "id": "TopClothingDesignBasics",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Top Clothing Design Basics",
-      "ES": "Top Clothing Design Basics",
-      "FR": "Principes de création haute couture",
       "DE": "Grundlagen für Topbekleidungsdesigns",
-      "IT": "Fondamenti del design di alta moda"
+      "EN": "Top Clothing Design Basics",
+      "ES": "Principales fundamentos de diseño de ropa",
+      "FR": "Principes de création haute couture",
+      "IT": "Fondamenti del design di alta moda",
+      "PT": "Noções básicas sobre design de roupas"
     },
     "description": {
-      "EN": "Research the basics of how to make fine clothing and footwear.",
-      "ES": "Research the basics of how to make fine clothing and footwears.",
-      "FR": "Faites des recherches sur les principes de création de vêtements et de chaussures raffinés.",
       "DE": "Entwickeln Sie die Grundlagen für die Herstellung von schöner Kleidung und Schuhen.",
-      "IT": "Apprendi le conoscenze alla base del design di alta moda nei rami di abbigliamento e calzature."
+      "EN": "Research the basics of how to make fine clothing and footwear.",
+      "ES": "Investiga los conceptos básicos de cómo hacer ropa fina y calzado.",
+      "FR": "Faites des recherches sur les principes de création de vêtements et de chaussures raffinés.",
+      "IT": "Apprendi le conoscenze alla base del design di alta moda nei rami di abbigliamento e calzature.",
+      "PT": "Pesquise as noções básicas sobre como fazer roupas e calçados finos."
     },
     "properties": {
       "price": 70000000,
@@ -775,18 +833,20 @@
     "id": "TraditionalCostumes",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Traditional Costumes",
-      "ES": "Traditional Costumes",
-      "FR": "Costumes traditionnels",
       "DE": "Traditionelle Kostüme",
-      "IT": "Costumi tradizionali"
+      "EN": "Traditional Costumes",
+      "ES": "Trajes tipicos",
+      "FR": "Costumes traditionnels",
+      "IT": "Costumi tradizionali",
+      "PT": "Fantasias tradicionais"
     },
     "description": {
-      "EN": "Bring old Earth traditions to the new worlds by reproducing ethnic outfits.",
-      "ES": "Bring the old Earth traditions to the new worlds. Ethnic outfits reproduced.",
-      "FR": "Importez les anciennes traditions de la Terre dans les nouveaux mondes. Reproduction de vêtements ethniques.",
       "DE": "Bringen Sie die alten Traditionen der Erde in die neuen Welten. Reproduktion von Ethno-Outfits.",
-      "IT": "Trapianti sui nuovi mondi le tradizioni terrestri, riproducendo costumi etnici."
+      "EN": "Bring old Earth traditions to the new worlds by reproducing ethnic outfits.",
+      "ES": "Traiga las tradiciones terrenales antiguas a los nuevos mundos reproduciendo trajes étnicos.",
+      "FR": "Importez les anciennes traditions de la Terre dans les nouveaux mondes. Reproduction de vêtements ethniques.",
+      "IT": "Trapianti sui nuovi mondi le tradizioni terrestri, riproducendo costumi etnici.",
+      "PT": "Traga antigas tradições da Terra para os novos mundos, reproduzindo trajes étnicos."
     },
     "properties": {
       "price": 50000000,
@@ -804,18 +864,20 @@
     "id": "UnifootShoes",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Unifoot Shoes",
-      "ES": "Unifoot shoes",
-      "FR": "Chaussure sans distinction de pied",
       "DE": "Unifuß-Schuhe",
-      "IT": "Scarpe ambidestre"
+      "EN": "Unifoot Shoes",
+      "ES": "Zapatos unifoot",
+      "FR": "Chaussure sans distinction de pied",
+      "IT": "Scarpe ambidestre",
+      "PT": "Unifoot Tênis"
     },
     "description": {
-      "EN": "Like unisex clothes, but for your feet. The right shoe is identical to the left shoe. The shoe shape is designed to accommodate both the right and left foot.",
-      "ES": "Like unisex, but for your feet. The right shoe is identical to the left shoe. The shoe shape is designed to accomodate both feet.",
-      "FR": "Comme les vêtements unisexes, mais pour les pieds. La chaussure droite est identique à la gauche. La forme de la chaussure est conçue pour s'adapter aux deux pieds.",
       "DE": "So wie Unisex, aber für die Füße. Der rechte Schuh gleicht genau dem linken. Die Form ist so konzipiert, dass sie auf beide Füße passt.",
-      "IT": "Calzature in cui la scarpa destra è identica alla sinistra, eppure entrambe si calzano alla perfezione."
+      "EN": "Like unisex clothes, but for your feet. The right shoe is identical to the left shoe. The shoe shape is designed to accommodate both the right and left foot.",
+      "ES": "Como la ropa unisex, pero para tus pies. El zapato derecho es idéntico al zapato izquierdo. La forma del zapato está diseñada para adaptarse tanto al pie derecho como al izquierdo.",
+      "FR": "Comme les vêtements unisexes, mais pour les pieds. La chaussure droite est identique à la gauche. La forme de la chaussure est conçue pour s'adapter aux deux pieds.",
+      "IT": "Calzature in cui la scarpa destra è identica alla sinistra, eppure entrambe si calzano alla perfezione.",
+      "PT": "Como roupas unissex, mas para seus pés. O sapato direito é idêntico ao sapato esquerdo. A forma do sapato é projetada para acomodar tanto o pé direito quanto o esquerdo."
     },
     "properties": {
       "price": 15000000,
@@ -832,18 +894,20 @@
     "id": "UsedClothesReshaping",
     "category": "COMMERCE",
     "name": {
-      "EN": "Used Clothes Refurbishing",
-      "ES": "Used Clothes Reshaping",
-      "FR": "Remise en forme des vêtements usagés",
       "DE": "Altkleiderwiederverkauf",
-      "IT": "Alterazione di indumenti usati"
+      "EN": "Used Clothes Refurbishing",
+      "ES": "Ropa usada que reacondiciona",
+      "FR": "Remise en forme des vêtements usagés",
+      "IT": "Alterazione di indumenti usati",
+      "PT": "Recondicionamento de roupas usadas"
     },
     "description": {
-      "EN": "Instead of giving used clothes to charities, your in-house tailors repair them and you put them out for sale again.",
-      "ES": "Instead of giving to charity the used clothes you collected, your taylors repair them and you put them for sale again.",
-      "FR": "Au lieu de donner vos vêtements usagés que vous avez collectés à des uvres de bienfaisance, vos couturières les réparent afin de pouvoir les remettre en vente.",
       "DE": "Anstatt die Altkleider einer Wohlfahrt zu geben, lassen Sie sie von Ihren Schneidern ausbessern und verkaufen sie wieder.",
-      "IT": "Invece di dare in beneficenza gli abiti usati che hai raccolto, incarichi i tuoi sarti di sistemarli in modo che possano essere rivenduti."
+      "EN": "Instead of giving used clothes to charities, your in-house tailors repair them and you put them out for sale again.",
+      "ES": "En lugar de dar ropa usada a organizaciones benéficas, sus sastres internos las reparan y usted los pone nuevamente a la venta.",
+      "FR": "Au lieu de donner vos vêtements usagés que vous avez collectés à des uvres de bienfaisance, vos couturières les réparent afin de pouvoir les remettre en vente.",
+      "IT": "Invece di dare in beneficenza gli abiti usati che hai raccolto, incarichi i tuoi sarti di sistemarli in modo che possano essere rivenduti.",
+      "PT": "Em vez de dar roupas usadas a instituições de caridade, seus alfaiates reparam-nas e você as coloca à venda novamente."
     },
     "properties": {
       "price": 5000000,

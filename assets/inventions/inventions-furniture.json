@@ -3,18 +3,20 @@
     "id": "Barbra",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Barbra Streisand furniture",
-      "ES": "Barbra Straisand furniture",
-      "FR": "Meubles de Barbra Straisand",
       "DE": "Barbra Straisand furniture",
-      "IT": "Copie dei mobili di Barbra Streisand"
+      "EN": "Barbra Streisand furniture",
+      "ES": "Barbra Streisand muebles",
+      "FR": "Meubles de Barbra Straisand",
+      "IT": "Copie dei mobili di Barbra Streisand",
+      "PT": "Móveis Barbra Streisand"
     },
     "description": {
-      "EN": "Get a copyright license of the furniture found at the Barbara Streisand Museum in Tel Aviv. Warning: Some people will perceive them as truly horrible pieces of furniture.",
-      "ES": "Get a copyright license for the models found at the Barbra Straisand Museum in Tel Aviv. Warning: Some people percieve them as horrible, horrible pieces of furniture.",
-      "FR": "Obtenez un permis de copyright pour les modèles trouvés au musée de Barbra Streisand à Tel Aviv. Avertissement: Certains gens pensent que les meubles sont vraiment horribles.",
       "DE": "Get a copyright license for the models found at the Barbra Straisand Museum in Tel Aviv. Warning: Some people percieve them as horrible, horrible pieces of furniture.",
-      "IT": "Ottieni i diritti di copyright sui mobili esposti al Museo Barbra Streisand di Tel Aviv. Attenzione, però: alcune persone pensano che siano di una bruttezza più unica che rara."
+      "EN": "Get a copyright license of the furniture found at the Barbara Streisand Museum in Tel Aviv. Warning: Some people will perceive them as truly horrible pieces of furniture.",
+      "ES": "Obtenga una licencia de copyright de los muebles que se encuentran en el Museo Barbara Streisand en Tel Aviv. Advertencia: Algunas personas los percibirán como muebles realmente horribles.",
+      "FR": "Obtenez un permis de copyright pour les modèles trouvés au musée de Barbra Streisand à Tel Aviv. Avertissement: Certains gens pensent que les meubles sont vraiment horribles.",
+      "IT": "Ottieni i diritti di copyright sui mobili esposti al Museo Barbra Streisand di Tel Aviv. Attenzione, però: alcune persone pensano che siano di una bruttezza più unica che rara.",
+      "PT": "Obter uma licença de direitos autorais dos móveis encontrados no Museu Barbara Streisand em Tel Aviv. Aviso: Algumas pessoas irão percebê-las como móveis verdadeiramente horríveis."
     },
     "properties": {
       "price": 90000000,
@@ -32,18 +34,20 @@
     "id": "FlexibleFurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Flexible furniture",
-      "ES": "Flexible furniture",
-      "FR": "Meubles Flexibles",
       "DE": "Flexible furniture",
-      "IT": "Mobilia flessibile"
+      "EN": "Flexible furniture",
+      "ES": "Muebles flexibles",
+      "FR": "Meubles Flexibles",
+      "IT": "Mobilia flessibile",
+      "PT": "Móveis flexíveis"
     },
     "description": {
-      "EN": "Furniture is prepared to arc gracefully under the weight of the user, making for a very comfortable experience.",
-      "ES": "Furniture is prepared to arc gracefully under the weight of the user, creating a very confortable feel.",
-      "FR": "Des meubles sont préparés pour courber avec élégance sous le poids de l'utilisateur, créant une sensation très confortable.",
       "DE": "Furniture is prepared to arc gracefully under the weight of the user, creating a very confortable feel.",
-      "IT": "Mobilia realizzata perché si pieghi dolcemente sotto il peso di chi la usa, risultando molto comoda."
+      "EN": "Furniture is prepared to arc gracefully under the weight of the user, making for a very comfortable experience.",
+      "ES": "Los muebles están preparados para arquearse con gracia bajo el peso del usuario, lo que lo convierte en una experiencia muy cómoda.",
+      "FR": "Des meubles sont préparés pour courber avec élégance sous le poids de l'utilisateur, créant une sensation très confortable.",
+      "IT": "Mobilia realizzata perché si pieghi dolcemente sotto il peso di chi la usa, risultando molto comoda.",
+      "PT": "A mobília está preparada para ficar graciosamente sob o peso do usuário, proporcionando uma experiência muito confortável."
     },
     "properties": {
       "price": 20000000,
@@ -61,18 +65,20 @@
     "id": "FurnAssemblyCourses",
     "category": "COMMERCE",
     "name": {
-      "EN": "Assembly courses",
-      "ES": "Assembly courses",
-      "FR": "Cours d'Assemblée",
       "DE": "Assembly courses",
-      "IT": "Corsi di assemblaggio"
+      "EN": "Assembly courses",
+      "ES": "Cursos de montaje",
+      "FR": "Cours d'Assemblée",
+      "IT": "Corsi di assemblaggio",
+      "PT": "Cursos de montagem"
     },
     "description": {
-      "EN": "Create a department that teaches customers how to assemble the furniture they buy.",
-      "ES": "Create a deparment to teach customers how to assembly the furniture they buy.",
-      "FR": "Créez un département pour enseigner les clients comment assembler les meubles qu'ils achètent.",
       "DE": "Create a deparment to teach customers how to assembly the furniture they buy.",
-      "IT": "Crei un dipartimento che insegni ai clienti come assemblare i mobili che hanno acquistato."
+      "EN": "Create a department that teaches customers how to assemble the furniture they buy.",
+      "ES": "Cree un departamento que enseñe a los clientes cómo ensamblar los muebles que compran.",
+      "FR": "Créez un département pour enseigner les clients comment assembler les meubles qu'ils achètent.",
+      "IT": "Crei un dipartimento che insegni ai clienti come assemblare i mobili che hanno acquistato.",
+      "PT": "Crie um departamento que ensine os clientes a montar os móveis que eles compram."
     },
     "properties": {
       "price": 85000000,
@@ -86,18 +92,20 @@
     "id": "FurnBringithome",
     "category": "COMMERCE",
     "name": {
-      "EN": "Bring-It-Home",
-      "ES": "Bring-It-Home",
-      "FR": "Apporter à la Maison",
       "DE": "Bring-It-Home",
-      "IT": "Prove a domicilio"
+      "EN": "Bring-It-Home",
+      "ES": "Traerlo a casa",
+      "FR": "Apporter à la Maison",
+      "IT": "Prove a domicilio",
+      "PT": "Traga-o-lar"
     },
     "description": {
-      "EN": "The store will deliver furniture to the potential buyer's house so that it can be tested by the entire family.",
-      "ES": "The store will put furniture in the potential buyer's house so it can be tested by the entire family.",
-      "FR": "Le magasin mettra des meubles dans la maison de l'acheteur potentiel de sorte quils peuvent être essayé par la famille entière.",
       "DE": "The store will put furniture in the potential buyer's house so it can be tested by the entire family.",
-      "IT": "Il negozio si offre di installare i mobili nella case dei potenziali acquirenti, in modo che possano essere provati da tutta la famiglia."
+      "EN": "The store will deliver furniture to the potential buyer's house so that it can be tested by the entire family.",
+      "ES": "La tienda entregará muebles a la casa del comprador potencial para que pueda ser probada por toda la familia.",
+      "FR": "Le magasin mettra des meubles dans la maison de l'acheteur potentiel de sorte quils peuvent être essayé par la famille entière.",
+      "IT": "Il negozio si offre di installare i mobili nella case dei potenziali acquirenti, in modo che possano essere provati da tutta la famiglia.",
+      "PT": "A loja irá entregar móveis para a casa do potencial comprador, para que possa ser testado por toda a família."
     },
     "properties": {
       "price": 75000000,
@@ -111,18 +119,20 @@
     "id": "FurnDinnerTest",
     "category": "COMMERCE",
     "name": {
-      "EN": "Dinner Test",
-      "ES": "Dinner Test",
-      "FR": "Test de Dîner",
       "DE": "Dinner Test",
-      "IT": "Cena di prova"
+      "EN": "Dinner Test",
+      "ES": "Prueba de cena",
+      "FR": "Test de Dîner",
+      "IT": "Cena di prova",
+      "PT": "Teste de jantar"
     },
     "description": {
-      "EN": "Dining sets are showcased with food so that customers can get the entire experience.",
-      "ES": "Dinner sets are showcased along with food so customers can get the entire experience.",
-      "FR": "Dinner sets are showcased along with food so customers can get the entire experience.",
       "DE": "Dinner sets are showcased along with food so customers can get the entire experience.",
-      "IT": "I servizi di piatti e posate sono mostrati insieme a del cibo, in modo che i clienti possano farsene un'idea più accurata."
+      "EN": "Dining sets are showcased with food so that customers can get the entire experience.",
+      "ES": "Los juegos de comedor se muestran con alimentos para que los clientes puedan disfrutar de toda la experiencia.",
+      "FR": "Dinner sets are showcased along with food so customers can get the entire experience.",
+      "IT": "I servizi di piatti e posate sono mostrati insieme a del cibo, in modo che i clienti possano farsene un'idea più accurata.",
+      "PT": "Conjuntos de jantar são apresentados com alimentos para que os clientes possam obter toda a experiência."
     },
     "properties": {
       "price": 60000000,
@@ -137,18 +147,20 @@
     "id": "FurnFullHouseSpecial",
     "category": "COMMERCE",
     "name": {
-      "EN": "Full House Special",
-      "ES": "Full House Special",
-      "FR": "Spéciale la maison entière",
       "DE": "Full House Special",
-      "IT": "Offerta speciale sugli arredamenti completi"
+      "EN": "Full House Special",
+      "ES": "Especial Casa Completa",
+      "FR": "Spéciale la maison entière",
+      "IT": "Offerta speciale sugli arredamenti completi",
+      "PT": "Casa cheia especial"
     },
     "description": {
-      "EN": "A special discount for customers that furnish their entire home with items from your store.",
-      "ES": "Special discount to the clients that accept to buy all the furniture from your store.",
-      "FR": "Special discount to the clients that accept to buy all the furniture from your store.",
       "DE": "Special discount to the clients that accept to buy all the furniture from your store.",
-      "IT": "Offri sconti speciali ai clienti che accettano di acquistare tutta la loro mobilia presso il tuo negozio."
+      "EN": "A special discount for customers that furnish their entire home with items from your store.",
+      "ES": "Un descuento especial para los clientes que proporcionan a su hogar toda la casa con artículos de su tienda.",
+      "FR": "Special discount to the clients that accept to buy all the furniture from your store.",
+      "IT": "Offri sconti speciali ai clienti che accettano di acquistare tutta la loro mobilia presso il tuo negozio.",
+      "PT": "Um desconto especial para clientes que fornecem toda a casa com itens da sua loja."
     },
     "properties": {
       "price": 43000000,
@@ -162,18 +174,20 @@
     "id": "FurnHammockTraning",
     "category": "COMMERCE",
     "name": {
-      "EN": "Hammock Training",
-      "ES": "Hammock Traning",
-      "FR": "Utilisation d'Hamac",
       "DE": "Hammock Traning",
-      "IT": "Corso di amaca"
+      "EN": "Hammock Training",
+      "ES": "Hamaca de entrenamiento",
+      "FR": "Utilisation d'Hamac",
+      "IT": "Corso di amaca",
+      "PT": "Treinamento de rede"
     },
     "description": {
-      "EN": "Offer a course to teach customers the tricky art of sleeping in a hammock.",
-      "ES": "Create a course to teach customers the tricky art of sleeping in a hammock.",
-      "FR": "Create a course to teach customers the tricky art of sleeping in a hammock.",
       "DE": "Create a course to teach customers the tricky art of sleeping in a hammock.",
-      "IT": "Offri un corso nel quale si insegna ai clienti la difficile arte di dormire nell'amaca."
+      "EN": "Offer a course to teach customers the tricky art of sleeping in a hammock.",
+      "ES": "Ofrezca un curso para enseñar a los clientes el complicado arte de dormir en una hamaca.",
+      "FR": "Create a course to teach customers the tricky art of sleeping in a hammock.",
+      "IT": "Offri un corso nel quale si insegna ai clienti la difficile arte di dormire nell'amaca.",
+      "PT": "Ofereça um curso para ensinar aos clientes a arte complicada de dormir em uma rede."
     },
     "properties": {
       "price": 65000000,
@@ -187,18 +201,20 @@
     "id": "FurnLic",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Furniture Production",
-      "ES": "Furniture Production",
-      "FR": "Production De Meubles",
       "DE": "Furniture Production",
-      "IT": "Fabbricazione di mobili"
+      "EN": "Furniture Production",
+      "ES": "Producción de muebles",
+      "FR": "Production De Meubles",
+      "IT": "Fabbricazione di mobili",
+      "PT": "Produção de Móveis"
     },
     "description": {
-      "EN": "Get the license and basic knowledge to manage furniture factories.",
-      "ES": "Get the License and basic knowledge to manage furniture factories.",
-      "FR": "Get the License and basic knowledge to manage furniture factories.",
       "DE": "Get the License and basic knowledge to manage furniture factories.",
-      "IT": "Ottieni la licenza e le competenze di base per la gestione di fabbriche di mobili."
+      "EN": "Get the license and basic knowledge to manage furniture factories.",
+      "ES": "Obtenga la licencia y conocimientos básicos para gestionar las fábricas de muebles.",
+      "FR": "Get the License and basic knowledge to manage furniture factories.",
+      "IT": "Ottieni la licenza e le competenze di base per la gestione di fabbriche di mobili.",
+      "PT": "Obter a licença e conhecimento básico para gerenciar fábricas de móveis."
     },
     "properties": {
       "price": 10000000,
@@ -213,18 +229,20 @@
     "id": "FurnLifetimeGuarantee",
     "category": "COMMERCE",
     "name": {
-      "EN": "Lifetime Guarantee",
-      "ES": "Lifetime Guarantee",
-      "FR": "Garantie De Vie",
       "DE": "Lifetime Guarantee",
-      "IT": "Garanzia a vita"
+      "EN": "Lifetime Guarantee",
+      "ES": "Garantía de por vida",
+      "FR": "Garantie De Vie",
+      "IT": "Garanzia a vita",
+      "PT": "Garantia para a vida toda"
     },
     "description": {
-      "EN": "Offer lifetime warranties on the items you sell.",
-      "ES": "Offer lifetime guarantee for the items you sell.",
-      "FR": "Offrez une garantie de vie pour les articles que vous vous vendez.",
       "DE": "Offer lifetime guarantee for the items you sell.",
-      "IT": "Offri una garanzia a vita sugli articoli che vendi."
+      "EN": "Offer lifetime warranties on the items you sell.",
+      "ES": "Ofrezca garantías de por vida en los artículos que vende.",
+      "FR": "Offrez une garantie de vie pour les articles que vous vous vendez.",
+      "IT": "Offri una garanzia a vita sugli articoli che vendi.",
+      "PT": "Ofereça garantias vitalícias sobre os itens que você vende."
     },
     "properties": {
       "price": 160000000,
@@ -239,18 +257,20 @@
     "id": "FurnRepairmentDepartment",
     "category": "COMMERCE",
     "name": {
+      "DE": "Reparaturabteilung",
       "EN": "Repair Department",
-      "ES": "Repairment Department",
-      "FR": "Département De Repairment",
-      "DE": "Repairment Department",
-      "IT": "Servizio riparazioni"
+      "ES": "Departamento de reparaciones",
+      "FR": "Service de réparation",
+      "IT": "Servizio riparazioni",
+      "PT": "Departamento de reparo"
     },
     "description": {
+      "DE": "Reparaturabteilung vor Ort für Ihre Kunden.",
       "EN": "In-store repair center for your customers.",
-      "ES": "In store repairment center for your clients.",
-      "FR": "In store repairment center for your clients.",
-      "DE": "In store repairment center for your clients.",
-      "IT": "Un servizio riparazioni in loco per i tuoi clienti."
+      "ES": "Centro de reparaciones en la tienda para sus clientes.",
+      "FR": "Centre de réparation dans les magasins à l'usage de vos clients.",
+      "IT": "Ciascuno dei tuoi negozi è dotato di un servizio riparazioni ad uso della clientela.",
+      "PT": "Centro de reparos na loja para seus clientes."
     },
     "properties": {
       "price": 55000000,
@@ -264,18 +284,20 @@
     "id": "FurnSleepover",
     "category": "COMMERCE",
     "name": {
-      "EN": "Sleepover Program",
-      "ES": "Sleep Over program",
-      "FR": "Dormir dans le Magasin",
       "DE": "Sleep Over program",
-      "IT": "Prova notturna dei letti"
+      "EN": "Sleepover Program",
+      "ES": "Programa de dormir",
+      "FR": "Dormir dans le Magasin",
+      "IT": "Prova notturna dei letti",
+      "PT": "Programa Sleepover"
     },
     "description": {
-      "EN": "Allow customers to sleep in the store for one night; an effective way to test beds and mattresses.",
-      "ES": "Allow customers to sleep for one night in the store. An effective way to test beds and mattresses.",
-      "FR": "Permettez aux clients de dormir dans le magasin pour une nuit. Une manière efficace pour leur permetter à essayer les lits et matelas.",
       "DE": "Allow customers to sleep for one night in the store. An effective way to test beds and mattresses.",
-      "IT": "Permetti ai clienti di dormire per una notte nel negozio, in modo che possano provare letti e materassi."
+      "EN": "Allow customers to sleep in the store for one night; an effective way to test beds and mattresses.",
+      "ES": "Permita que los clientes duerman en la tienda por una noche; Una forma efectiva de probar camas y colchones.",
+      "FR": "Permettez aux clients de dormir dans le magasin pour une nuit. Une manière efficace pour leur permetter à essayer les lits et matelas.",
+      "IT": "Permetti ai clienti di dormire per una notte nel negozio, in modo che possano provare letti e materassi.",
+      "PT": "Permita que os clientes durmam na loja por uma noite; uma maneira eficaz de testar camas e colchões."
     },
     "properties": {
       "price": 20000000,
@@ -289,18 +311,20 @@
     "id": "FurnSPAsCustomer",
     "category": "COMMERCE",
     "name": {
-      "EN": "Salespeople-As-Customers",
-      "ES": "Sales People As Customer",
-      "FR": "Vendeurs Comme Clients",
       "DE": "Sales People As Customer",
-      "IT": "Venditori che diventano clienti"
+      "EN": "Salespeople-As-Customers",
+      "ES": "Vendedores como clientes",
+      "FR": "Vendeurs Comme Clients",
+      "IT": "Venditori che diventano clienti",
+      "PT": "Vendedores como clientes"
     },
     "description": {
-      "EN": "When they are initially hired, your salespeople agree that they will buy all their furniture from your store.",
-      "ES": "When they are hired, your salesmen agree to buy the furniture for their houses only at your store.",
-      "FR": "Quand ils sont engagés, vos vendeurs acceptent de seulement acheter les meubles pour leurs maisons à votre magasin.",
       "DE": "When they are hired, your salesmen agree to buy the furniture for their houses only at your store.",
-      "IT": "Al momento dell'assunzione il tuo personale di vendita si impegna ad acquistare i propri mobili presso i tuoi negozi."
+      "EN": "When they are initially hired, your salespeople agree that they will buy all their furniture from your store.",
+      "ES": "Cuando son contratados inicialmente, sus vendedores aceptan que comprarán todos sus muebles en su tienda.",
+      "FR": "Quand ils sont engagés, vos vendeurs acceptent de seulement acheter les meubles pour leurs maisons à votre magasin.",
+      "IT": "Al momento dell'assunzione il tuo personale di vendita si impegna ad acquistare i propri mobili presso i tuoi negozi.",
+      "PT": "Quando eles são inicialmente contratados, seus vendedores concordam em comprar todos os móveis da sua loja."
     },
     "properties": {
       "price": 5000000,
@@ -314,18 +338,20 @@
     "id": "FurnUnexpTechnicians",
     "category": "COMMERCE",
     "name": {
+      "DE": "Unerfahrene Techniker",
       "EN": "Inexperienced Technicians",
-      "ES": "Unexperienced Technicians",
-      "FR": "Unexperienced Technicians",
-      "DE": "Unexperienced Technicians",
-      "IT": "Tecnici inesperti"
+      "ES": "Técnicos sin experiencia",
+      "FR": "Techniciens sans expérience",
+      "IT": "Tecnici inesperti",
+      "PT": "Técnicos Inexperientes"
     },
     "description": {
+      "DE": "Um Geld zu sparen, stellen Sie für Ihre Reparaturzentren nur sehr junge Techniker ein.",
       "EN": "To save money, your repair center only employs very young technicians.",
-      "ES": "To save money, your repairment center employs only very young technicians.",
-      "FR": "Pour économiser l'argent, votre centre de réparation emploie seulement les techniciens très jeunes.",
-      "DE": "To save money, your repairment center employs only very young technicians.",
-      "IT": "Per risparmiare soldi, i tuoi centri assistenza impiegano solo tecnici molto giovani."
+      "ES": "Para ahorrar dinero, su centro de reparaciones solo emplea técnicos muy jóvenes.",
+      "FR": "Pour économiser de l'argent, vos centres de réparation emploient uniquement de très jeunes techniciens.",
+      "IT": "Per risparmiare soldi i tuoi centri assistenza impiegano solo tecnici molto giovani.",
+      "PT": "Para economizar dinheiro, seu centro de reparos emprega apenas técnicos muito jovens."
     },
     "properties": {
       "price": 15000000,
@@ -342,18 +368,20 @@
     "id": "FurnVerticalStorage",
     "category": "COMMERCE",
     "name": {
-      "EN": "Furniture Vertical Storage",
-      "ES": "Vertical Storage",
-      "FR": "Stockage vertical De Meubles",
       "DE": "Vertical Storage",
-      "IT": "Magazzinaggio verticale"
+      "EN": "Furniture Vertical Storage",
+      "ES": "Muebles de almacenamiento vertical",
+      "FR": "Stockage vertical De Meubles",
+      "IT": "Magazzinaggio verticale",
+      "PT": "Armazenamento Vertical para Móveis"
     },
     "description": {
-      "EN": "All the furnitures you sell are in rectangular boxes. By storing them on top of each other you save a lot of space, but sometimes items may get a little scratched.",
-      "ES": "All the appliances you sell are in rectangular boxes. By storing them one above the other you save a lot of space, but sometimes they are a little scratched.",
-      "FR": "Tous les meubles que vous vendez se trouvent dans des boîtes rectangulaires. En les empilant les unes sur les autre, vous économisez de l'espace, mais les appareils sont parfois abîmés.",
       "DE": "All the appliances you sell are in rectangular boxes. By storing them one above the other you save a lot of space, but sometimes they are a little scratched.",
-      "IT": "Tutti i tuoi mobili sono venduti in confezioni rettangolari. Ammassando le scatole l'una sull'altra risparmi moltissimo spazio, a costo di qualche scalfitura."
+      "EN": "All the furnitures you sell are in rectangular boxes. By storing them on top of each other you save a lot of space, but sometimes items may get a little scratched.",
+      "ES": "Todos los muebles que vendes son en cajas rectangulares. Al almacenarlos uno encima del otro, se ahorra mucho espacio, pero a veces los elementos pueden rayarse un poco.",
+      "FR": "Tous les meubles que vous vendez se trouvent dans des boîtes rectangulaires. En les empilant les unes sur les autre, vous économisez de l'espace, mais les appareils sont parfois abîmés.",
+      "IT": "Tutti i tuoi mobili sono venduti in confezioni rettangolari. Ammassando le scatole l'una sull'altra risparmi moltissimo spazio, a costo di qualche scalfitura.",
+      "PT": "Todos os móveis que você vende são em caixas retangulares. Ao armazená-los um em cima do outro, você economiza muito espaço, mas às vezes os itens podem ficar um pouco arranhados."
     },
     "properties": {
       "price": 25000000,
@@ -367,18 +395,20 @@
     "id": "GrowingFurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Growing furniture",
-      "ES": "Growing furniture",
-      "FR": "Meubles Cultiver",
       "DE": "Growing furniture",
-      "IT": "Mobili che crescono"
+      "EN": "Growing furniture",
+      "ES": "Muebles en crecimiento",
+      "FR": "Meubles Cultiver",
+      "IT": "Mobili che crescono",
+      "PT": "Mobiliário Crescente"
     },
     "description": {
-      "EN": "Add enough water and sun, and you will be able to turn a queen size bed into a king size one in one week.",
-      "ES": "Add enough water and sun, and you will be able to grow a Queen size bed to King size in one week.",
-      "FR": "Ajoutez assez d'eau et  soleil, et vous pourrez accroître un lit de taille de reine dans une taille de roi en une semaine.",
       "DE": "Add enough water and sun, and you will be able to grow a Queen size bed to King size in one week.",
-      "IT": "Acqua e sole permettono al tuo letto a due piazze di diventare a due e mezza nel giro di una settimana."
+      "EN": "Add enough water and sun, and you will be able to turn a queen size bed into a king size one in one week.",
+      "ES": "Agregue suficiente agua y sol, y podrá convertir una cama tamaño queen en una cama king size en una semana.",
+      "FR": "Ajoutez assez d'eau et  soleil, et vous pourrez accroître un lit de taille de reine dans une taille de roi en une semaine.",
+      "IT": "Acqua e sole permettono al tuo letto a due piazze di diventare a due e mezza nel giro di una settimana.",
+      "PT": "Adicione bastante água e sol, e você será capaz de transformar uma cama queen size em um king size em uma semana."
     },
     "properties": {
       "price": 80000000,
@@ -396,18 +426,20 @@
     "id": "KidsLine",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Kids Line",
-      "ES": "Kids Line",
-      "FR": "Ligne DEnfants",
       "DE": "Kids Line",
-      "IT": "Linea per bambini"
+      "EN": "Kids Line",
+      "ES": "Linea de niños",
+      "FR": "Ligne DEnfants",
+      "IT": "Linea per bambini",
+      "PT": "Linha Kids"
     },
     "description": {
-      "EN": "Produce miniature furniture for kids.",
-      "ES": "Produce tiny furniture for kids.",
-      "FR": "Produce tiny furniture for kids.",
       "DE": "Produce tiny furniture for kids.",
-      "IT": "Produci mini-mobili per i bambini."
+      "EN": "Produce miniature furniture for kids.",
+      "ES": "Produce muebles en miniatura para niños.",
+      "FR": "Produce tiny furniture for kids.",
+      "IT": "Produci mini-mobili per i bambini.",
+      "PT": "Produza móveis em miniatura para crianças."
     },
     "properties": {
       "price": 45000000,
@@ -425,18 +457,20 @@
     "id": "LegoFurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Lego Furniture",
-      "ES": "Lego Furniture",
-      "FR": "Meubles De Lego",
       "DE": "Lego Furniture",
-      "IT": "Mobili di Lego"
+      "EN": "Lego Furniture",
+      "ES": "Muebles de lego",
+      "FR": "Meubles De Lego",
+      "IT": "Mobili di Lego",
+      "PT": "Móveis Lego"
     },
     "description": {
-      "EN": "Build all your furniture from from individual pieces.",
-      "ES": "Build all your furniture from a very small set of pieces.",
-      "FR": "Build all your furniture from a very small set of pieces.",
       "DE": "Build all your furniture from a very small set of pieces.",
-      "IT": "Costruisci tutti i tuoi mobili a partire da set di pezzi molto piccoli."
+      "EN": "Build all your furniture from from individual pieces.",
+      "ES": "Construye todos tus muebles a partir de piezas individuales.",
+      "FR": "Build all your furniture from a very small set of pieces.",
+      "IT": "Costruisci tutti i tuoi mobili a partire da set di pezzi molto piccoli.",
+      "PT": "Construa todos os seus móveis a partir de peças individuais."
     },
     "properties": {
       "price": 400000000,
@@ -453,18 +487,20 @@
     "id": "MassagingFurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Massage Furniture",
-      "ES": "Massaging Furniture",
-      "FR": "Meubles qui Masseront",
       "DE": "Massaging Furniture",
-      "IT": "Mobili massaggianti"
+      "EN": "Massage Furniture",
+      "ES": "Muebles de masaje",
+      "FR": "Meubles qui Masseront",
+      "IT": "Mobili massaggianti",
+      "PT": "Móveis de massagem"
     },
     "description": {
-      "EN": "Produce furniture that can deliver a relaxing massage. Very relaxing.",
-      "ES": "Produce furniture that will massage the user. Very relaxing.",
-      "FR": "Produisez des meubles qui masseront l'utilisateur. Très détendant.",
       "DE": "Produce furniture that will massage the user. Very relaxing.",
-      "IT": "Realizzi mobili in grado di praticare veri e propri massaggi a chi li usa. Una trovata molto rilassante."
+      "EN": "Produce furniture that can deliver a relaxing massage. Very relaxing.",
+      "ES": "Produce muebles que puedan entregar un relajante masaje. Muy relajante.",
+      "FR": "Produisez des meubles qui masseront l'utilisateur. Très détendant.",
+      "IT": "Realizzi mobili in grado di praticare veri e propri massaggi a chi li usa. Una trovata molto rilassante.",
+      "PT": "Produza móveis que possam proporcionar uma massagem relaxante. Muito relaxante."
     },
     "properties": {
       "price": 65000000,
@@ -482,18 +518,20 @@
     "id": "Noncombustiblefurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Noncombustible furniture",
-      "ES": "Non-combustible furniture",
-      "FR": "Meubles qui non Brûleront",
       "DE": "Non-combustible furniture",
-      "IT": "Mobilia ignifuga"
+      "EN": "Noncombustible furniture",
+      "ES": "Muebles no combustibles",
+      "FR": "Meubles qui non Brûleront",
+      "IT": "Mobilia ignifuga",
+      "PT": "Móveis não-combustíveis"
     },
     "description": {
-      "EN": "Produce furniture that not only won't burn, it can even be used to put out a fire.",
-      "ES": "Produce furniture that not only will not burn, but that can be used to put down a fire.",
-      "FR": "Produisez les meubles qui non seulement ne brûleront pas, mais qui peuvent aussi être employé pour eteindre un feu.",
       "DE": "Produce furniture that not only will not burn, but that can be used to put down a fire.",
-      "IT": "Realizzi mobili non solo resistenti al fuoco, ma che possono essere utilizzati per estinguere gli incendi."
+      "EN": "Produce furniture that not only won't burn, it can even be used to put out a fire.",
+      "ES": "Produzca muebles que no solo no se quemen, sino que incluso se pueden usar para apagar un incendio.",
+      "FR": "Produisez les meubles qui non seulement ne brûleront pas, mais qui peuvent aussi être employé pour eteindre un feu.",
+      "IT": "Realizzi mobili non solo resistenti al fuoco, ma che possono essere utilizzati per estinguere gli incendi.",
+      "PT": "Produza móveis que não só não vão queimar, mas também podem ser usados ​​para apagar o fogo."
     },
     "properties": {
       "price": 95000000,
@@ -511,18 +549,20 @@
     "id": "PersonalizedFurniture",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Personalized Furniture",
-      "ES": "Personalized Furniture",
-      "FR": "Meubles Personnalisés",
       "DE": "Personalized Furniture",
-      "IT": "Mobilia personalizzata"
+      "EN": "Personalized Furniture",
+      "ES": "Muebles personalizados",
+      "FR": "Meubles Personnalisés",
+      "IT": "Mobilia personalizzata",
+      "PT": "Móveis Personalizados"
     },
     "description": {
-      "EN": "Furniture that can learn from the user so that it can make itself as useful as possible.",
-      "ES": "Furniture will learn from the user so it can serve him best.",
-      "FR": "Furniture will learn from the user so it can serve him best.",
       "DE": "Furniture will learn from the user so it can serve him best.",
-      "IT": "Mobili che apprendono dall'utente onde poterlo servire al meglio."
+      "EN": "Furniture that can learn from the user so that it can make itself as useful as possible.",
+      "ES": "Muebles que pueden aprender del usuario para que se convierta en lo más útil posible.",
+      "FR": "Furniture will learn from the user so it can serve him best.",
+      "IT": "Mobili che apprendono dall'utente onde poterlo servire al meglio.",
+      "PT": "Móveis que podem aprender com o usuário para que ele possa se tornar o mais útil possível."
     },
     "properties": {
       "price": 580000000,
@@ -539,18 +579,20 @@
     "id": "PsyChair",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Psychic Chair",
-      "ES": "Psy Chair",
-      "FR": "Chaise Psy",
       "DE": "Psy Chair",
-      "IT": "Sedia PSI"
+      "EN": "Psychic Chair",
+      "ES": "Silla psíquica",
+      "FR": "Chaise Psy",
+      "IT": "Sedia PSI",
+      "PT": "Cadeira psíquica"
     },
     "description": {
-      "EN": "Furniture is shaped in a way that permits it to resonate with universal psychic waves, making the user feel connected to the Universe.",
-      "ES": "Furniture is shaped in a way that will resonate with universal Psy waves, making the user feel connected to the Universe.",
-      "FR": "Des meubles sont formés d'une manière que résonnera avec les vagues universelles de Psy, faisant la sensation que lutilisateur se sent relié à l'univers.",
       "DE": "Furniture is shaped in a way that will resonate with universal Psy waves, making the user feel connected to the Universe.",
-      "IT": "Una sedia la cui forma le permette di captare le onde universali PSI, dando la sensazione a chi ci si siede sopra di essere tutt'uno col cosmo."
+      "EN": "Furniture is shaped in a way that permits it to resonate with universal psychic waves, making the user feel connected to the Universe.",
+      "ES": "Los muebles tienen una forma que le permite resonar con las ondas psíquicas universales, haciendo que el usuario se sienta conectado con el Universo.",
+      "FR": "Des meubles sont formés d'une manière que résonnera avec les vagues universelles de Psy, faisant la sensation que lutilisateur se sent relié à l'univers.",
+      "IT": "Una sedia la cui forma le permette di captare le onde universali PSI, dando la sensazione a chi ci si siede sopra di essere tutt'uno col cosmo.",
+      "PT": "O mobiliário é moldado de uma forma que permite ressoar com ondas psíquicas universais, fazendo com que o usuário se sinta conectado ao Universo."
     },
     "properties": {
       "price": 170000000,
@@ -568,18 +610,20 @@
     "id": "SmartDesk",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Smart Desk",
-      "ES": "Smart Desk",
-      "FR": "Bureau Intelligent",
       "DE": "Smart Desk",
-      "IT": "Scrivania intelligente"
+      "EN": "Smart Desk",
+      "ES": "Escritorio inteligente",
+      "FR": "Bureau Intelligent",
+      "IT": "Scrivania intelligente",
+      "PT": "Secretária Inteligente"
     },
     "description": {
-      "EN": "Produce desks with a built-in electronic organizer. It will keep papers organized and remind the user of important events.",
-      "ES": "Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.",
-      "FR": "Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.",
       "DE": "Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.",
-      "IT": "Realizzi scrivanie con organizer a 1024 bit incorporati che tengono le carte in ordine e rammentano gli appuntamenti."
+      "EN": "Produce desks with a built-in electronic organizer. It will keep papers organized and remind the user of important events.",
+      "ES": "Produce escritorios con un organizador electrónico incorporado. Mantendrá los documentos organizados y recordará al usuario los eventos importantes.",
+      "FR": "Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.",
+      "IT": "Realizzi scrivanie con organizer a 1024 bit incorporati che tengono le carte in ordine e rammentano gli appuntamenti.",
+      "PT": "Produza mesas com um organizador eletrônico embutido. Manterá os trabalhos organizados e lembrará o usuário de eventos importantes."
     },
     "properties": {
       "price": 20000000,
@@ -597,18 +641,20 @@
     "id": "SuperGlue",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Super Glue",
-      "ES": "Super Glue",
-      "FR": "Colle Forte",
       "DE": "Super Glue",
-      "IT": "Super colla"
+      "EN": "Super Glue",
+      "ES": "Super pegamento",
+      "FR": "Colle Forte",
+      "IT": "Super colla",
+      "PT": "Super cola"
     },
     "description": {
-      "EN": "Develop special glue that will keep furniture pieces together for centuries.",
-      "ES": "Develop a special glue that will keep furniture pieces together for centuries.",
-      "FR": "Develop a special glue that will keep furniture pieces together for centuries.",
       "DE": "Develop a special glue that will keep furniture pieces together for centuries.",
-      "IT": "Sviluppi una speciale colla che mantiene i mobili integri per secoli."
+      "EN": "Develop special glue that will keep furniture pieces together for centuries.",
+      "ES": "Desarrollar pegamento especial que mantendrá las piezas de muebles juntas durante siglos.",
+      "FR": "Develop a special glue that will keep furniture pieces together for centuries.",
+      "IT": "Sviluppi una speciale colla che mantiene i mobili integri per secoli.",
+      "PT": "Desenvolva cola especial que manterá os móveis juntos por séculos."
     },
     "properties": {
       "price": 35000000,
@@ -625,18 +671,20 @@
     "id": "Superwood",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Super Wood",
-      "ES": "Super wood",
-      "FR": "Bois Super",
       "DE": "Super wood",
-      "IT": "Super legno"
+      "EN": "Super Wood",
+      "ES": "Super madera",
+      "FR": "Bois Super",
+      "IT": "Super legno",
+      "PT": "Super Madeira"
     },
     "description": {
-      "EN": "A process that enables you to grow wood directly into the shape of the product. The differences are not noticeable, but furniture is prone to break when used by overweight individuals.",
-      "ES": "A procedure is applied to grow the wood pieces to be used. The results are unnoticeable, but furniture is prone to break when used by overweight individuals.",
-      "FR": "A procedure is applied to grow the wood pieces to be used. The results are unnoticeable, but furniture is prone to break when used by overweight individuals.",
       "DE": "A procedure is applied to grow the wood pieces to be used. The results are unnoticeable, but furniture is prone to break when used by overweight individuals.",
-      "IT": "Una speciale procedura viene applicata al legno da utilizzare in modo da farlo crescere. Non si notano differenze, eccetto che i mobili tendono a rompersi sotto il peso di persone obese."
+      "EN": "A process that enables you to grow wood directly into the shape of the product. The differences are not noticeable, but furniture is prone to break when used by overweight individuals.",
+      "ES": "Un proceso que le permite cultivar madera directamente en la forma del producto. Las diferencias no son notables, pero los muebles son propensos a romperse cuando son utilizados por personas con sobrepeso.",
+      "FR": "A procedure is applied to grow the wood pieces to be used. The results are unnoticeable, but furniture is prone to break when used by overweight individuals.",
+      "IT": "Una speciale procedura viene applicata al legno da utilizzare in modo da farlo crescere. Non si notano differenze, eccetto che i mobili tendono a rompersi sotto il peso di persone obese.",
+      "PT": "Um processo que permite cultivar madeira diretamente na forma do produto. As diferenças não são perceptíveis, mas a mobília é propensa a quebrar quando usada por indivíduos com excesso de peso."
     },
     "properties": {
       "price": 100000000,
@@ -653,18 +701,20 @@
     "id": "Thorns",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Thorns",
-      "ES": "Thorns",
-      "FR": "Épines",
       "DE": "Thorns",
-      "IT": "Spine"
+      "EN": "Thorns",
+      "ES": "Espinas",
+      "FR": "Épines",
+      "IT": "Spine",
+      "PT": "Espinhos"
     },
     "description": {
-      "EN": "Produce pieces that can recognize criminal fingerprints and cast numerous thorns in a legitimate act of self defense.",
-      "ES": "Produce pieces that will recognize criminal fingerprints and cast numerous thorns in a legitim self-defensive act.",
-      "FR": "Produce pieces that will recognize criminal fingerprints and cast numerous thorns in a legitim self-defensive act.",
       "DE": "Produce pieces that will recognize criminal fingerprints and cast numerous thorns in a legitim self-defensive act.",
-      "IT": "Realizzi pezzi in grado di riconoscere le impronte dei criminali e di emettere salve di spine in un legittimo gesto di autodifesa."
+      "EN": "Produce pieces that can recognize criminal fingerprints and cast numerous thorns in a legitimate act of self defense.",
+      "ES": "Produzca piezas que puedan reconocer huellas dactilares criminales y arroje numerosas espinas en un acto legítimo de defensa propia.",
+      "FR": "Produce pieces that will recognize criminal fingerprints and cast numerous thorns in a legitim self-defensive act.",
+      "IT": "Realizzi pezzi in grado di riconoscere le impronte dei criminali e di emettere salve di spine in un legittimo gesto di autodifesa.",
+      "PT": "Produza peças que possam reconhecer impressões digitais criminosas e lançar numerosos espinhos em um legítimo ato de defesa pessoal."
     },
     "properties": {
       "price": 185000000,
@@ -682,18 +732,20 @@
     "id": "UniversalChair",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Universal Chair",
-      "ES": "Universal Chair",
-      "FR": "Chaise Universelle",
       "DE": "Universal Chair",
-      "IT": "Sedia universale"
+      "EN": "Universal Chair",
+      "ES": "Silla universal",
+      "FR": "Chaise Universelle",
+      "IT": "Sedia universale",
+      "PT": "Cadeira universal"
     },
     "description": {
-      "EN": "Produce the famous universal chair, designed by the late Michael Chang.",
-      "ES": "Produce the famous Universal Chair, designed by the late Michael Chang.",
-      "FR": "Produce the famous Universal Chair, designed by the late Michael Chang.",
       "DE": "Produce the famous Universal Chair, designed by the late Michael Chang.",
-      "IT": "Realizzi la famosa sedia universale progettata dal compianto Michael Chang."
+      "EN": "Produce the famous universal chair, designed by the late Michael Chang.",
+      "ES": "Produce la famosa silla universal, diseñada por el difunto Michael Chang.",
+      "FR": "Produce the famous Universal Chair, designed by the late Michael Chang.",
+      "IT": "Realizzi la famosa sedia universale progettata dal compianto Michael Chang.",
+      "PT": "Produza a famosa cadeira universal, projetada pelo falecido Michael Chang."
     },
     "properties": {
       "price": 800000000,
@@ -711,18 +763,20 @@
     "id": "UsedFurnMarket",
     "category": "COMMERCE",
     "name": {
-      "EN": "Used Furniture Market",
-      "ES": "Used Furniture Market",
-      "FR": "Marché De Meubles Usés",
       "DE": "Used Furniture Market",
-      "IT": "Mercato dei mobili usati"
+      "EN": "Used Furniture Market",
+      "ES": "Mercado de muebles usados",
+      "FR": "Marché De Meubles Usés",
+      "IT": "Mercato dei mobili usati",
+      "PT": "Mercado de Móveis Usados"
     },
     "description": {
-      "EN": "Market your store's used furniture every week.",
-      "ES": "Market your store used furniture, every week.",
-      "FR": "Market your store used furniture, every week.",
       "DE": "Market your store used furniture, every week.",
-      "IT": "Un mercato settimanale della mobilia usata proveniente dai tuoi negozi."
+      "EN": "Market your store's used furniture every week.",
+      "ES": "Comercializa los muebles usados ​​de tu tienda todas las semanas.",
+      "FR": "Market your store used furniture, every week.",
+      "IT": "Un mercato settimanale della mobilia usata proveniente dai tuoi negozi.",
+      "PT": "Comercialize a mobília usada da sua loja toda semana."
     },
     "properties": {
       "price": 55000000,
@@ -736,18 +790,20 @@
     "id": "WaterproofPieces",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Waterproof pieces",
-      "ES": "Waterproof pieces",
-      "FR": "Morceaux imperméables",
       "DE": "Waterproof pieces",
-      "IT": "Mobili impermeabili"
+      "EN": "Waterproof pieces",
+      "ES": "Piezas impermeables",
+      "FR": "Morceaux imperméables",
+      "IT": "Mobili impermeabili",
+      "PT": "Peças impermeáveis"
     },
     "description": {
-      "EN": "This will enable the production of delicate wood furniture that will even be able to endure harsh weather (like a refined Louis XIV barbecue set).",
-      "ES": "This will allow the production of wooden delicate furniture that will endure harsh weather (like a refined Luis XIV barbacue set).",
-      "FR": "This will allow the production of wooden delicate furniture that will endure harsh weather (like a refined Luis XIV barbacue set).",
       "DE": "This will allow the production of wooden delicate furniture that will endure harsh weather (like a refined Luis XIV barbacue set).",
-      "IT": "Sei in grado di realizzare delicati mobili in legno capaci di resistere alle intemperie (esempio di applicazione: un raffinato barbecue Luigi XV)."
+      "EN": "This will enable the production of delicate wood furniture that will even be able to endure harsh weather (like a refined Louis XIV barbecue set).",
+      "ES": "Esto permitirá la producción de delicados muebles de madera que incluso podrán soportar las inclemencias del tiempo (como un elegante juego de barbacoa Louis XIV).",
+      "FR": "This will allow the production of wooden delicate furniture that will endure harsh weather (like a refined Luis XIV barbacue set).",
+      "IT": "Sei in grado di realizzare delicati mobili in legno capaci di resistere alle intemperie (esempio di applicazione: un raffinato barbecue Luigi XV).",
+      "PT": "Isso permitirá a produção de delicados móveis de madeira que serão capazes de suportar duras condições climáticas (como um refinado conjunto de churrasco Louis XIV)."
     },
     "properties": {
       "price": 68000000,

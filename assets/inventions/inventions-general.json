@@ -3,18 +3,20 @@
     "id": "BasicCommerce",
     "category": "COMMERCE",
     "name": {
-      "EN": "Commerce Facilities",
-      "ES": "Commerce Facilities",
-      "FR": "Bâtiments de commerce",
       "DE": "Handelseinrichtungen",
-      "IT": "Esercizio commerciale"
+      "EN": "Commerce Facilities",
+      "ES": "Instalaciones de comercio",
+      "FR": "Bâtiments de commerce",
+      "IT": "Esercizio commerciale",
+      "PT": "Instalações de comércio"
     },
     "description": {
-      "EN": "Paperwork necessary for commerce facilities management.",
-      "ES": "Paperwork for commerce facilities management.",
-      "FR": "Travail administratif pour la gestion des bâtiments de commerce.",
       "DE": "Papiere für das Management von Handelseinrichtungen.",
-      "IT": "Tutti i documenti necessari alla gestione di un esercizio commerciale."
+      "EN": "Paperwork necessary for commerce facilities management.",
+      "ES": "Trámites necesarios para la gestión de instalaciones comerciales.",
+      "FR": "Travail administratif pour la gestion des bâtiments de commerce.",
+      "IT": "Tutti i documenti necessari alla gestione di un esercizio commerciale.",
+      "PT": "Papelada necessária para o gerenciamento de instalações comerciais."
     },
     "properties": {
       "price": 200000,
@@ -29,18 +31,20 @@
     "id": "CivicFac",
     "category": "CIVIC",
     "name": {
-      "EN": "Public Facilities",
-      "ES": "Public Facilities",
-      "FR": "Services publics",
       "DE": "Öffentliche Einrichtungen",
-      "IT": "Servizi pubblici"
+      "EN": "Public Facilities",
+      "ES": "Instalaciones públicas",
+      "FR": "Services publics",
+      "IT": "Servizi pubblici",
+      "PT": "Instalações públicas"
     },
     "description": {
-      "EN": "Paperwork necessary for managing public facilities such as schools, hospitals and police stations.",
-      "ES": "Paperwork for managing public facilities such as schools, hospitals and police stations.",
-      "FR": "Travail administratif pour la gestion des services publics, tels que les écoles, hôpitaux et postes de police.",
       "DE": "Papiere für das Management von öffentlichen Einrichtungen wie Schulen, Krankenhäuser und Polizeireviere.",
-      "IT": "I documenti necessari per la gestione di servizi pubblici come scuole, ospedali e stazioni di polizia."
+      "EN": "Paperwork necessary for managing public facilities such as schools, hospitals and police stations.",
+      "ES": "Papeleo necesario para la gestión de instalaciones públicas como colegios, hospitales y comisarías.",
+      "FR": "Travail administratif pour la gestion des services publics, tels que les écoles, hôpitaux et postes de police.",
+      "IT": "I documenti necessari per la gestione di servizi pubblici come scuole, ospedali e stazioni di polizia.",
+      "PT": "Papelada necessária para gerenciar instalações públicas, como escolas, hospitais e delegacias de polícia."
     },
     "properties": {
       "price": 200000,
@@ -53,18 +57,20 @@
     "id": "DistributedDirection",
     "category": "SERVICE",
     "name": {
-      "EN": "Distributed Direction",
-      "ES": "Distributed Direction",
-      "FR": "Direction répartie",
       "DE": "Managementanweisungen",
-      "IT": "Gestione distribuita"
+      "EN": "Distributed Direction",
+      "ES": "Direccion distribuida",
+      "FR": "Direction répartie",
+      "IT": "Gestione distribuita",
+      "PT": "Direção Distribuída"
     },
     "description": {
-      "EN": "The usual paperwork necessary for establishing and organizing a company.",
-      "ES": "The usual paperwork for organizing any company.",
-      "FR": "Quantité de travail administratif habituelle nécessaire à l'organisation de toute société.",
       "DE": "Die üblichen Papiere zur Organisation eines Unternehmens.",
-      "IT": "I soliti documenti per l'organizzazione aziendale."
+      "EN": "The usual paperwork necessary for establishing and organizing a company.",
+      "ES": "El papeleo habitual necesario para establecer y organizar una empresa.",
+      "FR": "Quantité de travail administratif habituelle nécessaire à l'organisation de toute société.",
+      "IT": "I soliti documenti per l'organizzazione aziendale.",
+      "PT": "A papelada usual necessária para estabelecer e organizar uma empresa."
     },
     "properties": {
       "price": 1000000,
@@ -76,18 +82,20 @@
     "id": "Industries",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Industrial Facilities",
-      "ES": "Industrial Facilities",
-      "FR": "Bâtiments industriels",
       "DE": "Industrieeinrichtungen",
-      "IT": "Impianti industriali"
+      "EN": "Industrial Facilities",
+      "ES": "Instalaciones industriales",
+      "FR": "Bâtiments industriels",
+      "IT": "Impianti industriali",
+      "PT": "Instalações industriais"
     },
     "description": {
-      "EN": "Paperwork necessary for the management of industries.",
-      "ES": "Paperwork for industries management.",
-      "FR": "Travail administratif nécessaire à la gestion industrielle.",
       "DE": "Papiere für das Management von Industrien.",
-      "IT": "I documenti necessari per la gestione di un'industria."
+      "EN": "Paperwork necessary for the management of industries.",
+      "ES": "Trámites necesarios para la gestión de las industrias.",
+      "FR": "Travail administratif nécessaire à la gestion industrielle.",
+      "IT": "I documenti necessari per la gestione di un'industria.",
+      "PT": "Papelada necessária para a gestão das indústrias."
     },
     "properties": {
       "price": 500000,
@@ -99,8 +107,12 @@
     "id": "MinistryAdministration",
     "category": "CIVIC",
     "name": {
+      "DE": "Ministry Administration",
       "EN": "Ministry Administration",
-      "ES": "Ministry Administration"
+      "ES": "Administracion de ministerios",
+      "FR": "Ministry Administration",
+      "IT": "Ministry Administration",
+      "PT": "Administração do Ministério"
     },
     "description": {
       "EN": "",
@@ -116,18 +128,20 @@
     "id": "Monuments",
     "category": "CIVIC",
     "name": {
-      "EN": "Monument Reproduction",
-      "ES": "Monuments Reproduction",
-      "FR": "Reproduction de monuments",
       "DE": "Reproduktion von Denkmälern",
-      "IT": "Riproduzione di monumenti"
+      "EN": "Monument Reproduction",
+      "ES": "Reproduccion de monumentos",
+      "FR": "Reproduction de monuments",
+      "IT": "Riproduzione di monumenti",
+      "PT": "Reprodução Monumento"
     },
     "description": {
-      "EN": "Acquire the skills to reproduce monuments.",
-      "ES": "Acquire the skills to reproduce monuments.",
-      "FR": "Apprenez à reproduire les monuments.",
       "DE": "Eignen Sie sich die Kenntnis über die Reproduktion von Denkmälern an.",
-      "IT": "Apprendi i procedimenti per la riproduzione di monumenti."
+      "EN": "Acquire the skills to reproduce monuments.",
+      "ES": "Adquirir las habilidades para reproducir monumentos.",
+      "FR": "Apprenez à reproduire les monuments.",
+      "IT": "Apprendi i procedimenti per la riproduzione di monumenti.",
+      "PT": "Adquira as habilidades para reproduzir monumentos."
     },
     "properties": {
       "price": 10000000,
@@ -140,18 +154,20 @@
     "id": "WaterQuest",
     "category": "SERVICE",
     "name": {
-      "EN": "Water Quest Licenses",
-      "ES": "Water Quest Licenses",
-      "FR": "Water Quest Licenses",
       "DE": "Water Quest Licenses",
-      "IT": "Conquista dell'acqua"
+      "EN": "Water Quest Licenses",
+      "ES": "Licencias de Water Quest",
+      "FR": "Water Quest Licenses",
+      "IT": "Conquista dell'acqua",
+      "PT": "Licenças de busca de água"
     },
     "description": {
-      "EN": "Build urban structures on water. Since it will allow you to build residentials, commerce and offices over the water this research will require 3 IFEL Licenses.",
-      "ES": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
-      "FR": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
       "DE": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
-      "IT": "Costruisci edifici sull'acqua. Dal momento che ti consentirà di costruire edifici commerciali e residenziali sull'acqua, questa ricerca costa 3 licenze IFEL."
+      "EN": "Build urban structures on water. Since it will allow you to build residentials, commerce and offices over the water this research will require 3 IFEL Licenses.",
+      "ES": "Construir estructuras urbanas sobre el agua. Dado que le permitirá construir viviendas, comercios y oficinas sobre el agua, esta investigación requerirá 3 Licencias IFEL.",
+      "FR": "Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.",
+      "IT": "Costruisci edifici sull'acqua. Dal momento che ti consentirà di costruire edifici commerciali e residenziali sull'acqua, questa ricerca costa 3 licenze IFEL.",
+      "PT": "Construa estruturas urbanas na água. Uma vez que permitirá a construção de residências, comércio e escritórios sobre a água, esta pesquisa exigirá 3 licenças IFEL."
     },
     "properties": {
       "price": 10000000,

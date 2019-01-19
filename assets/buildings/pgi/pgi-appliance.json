@@ -36,7 +36,12 @@
     "image_id": "pgi.hha.industry.small",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Appliances Factory"
+      "EN": "Appliances Factory",
+"ES": "Fábrica de Electrodomésticos",
+"DE": "Gerätefabrik",
+"FR": "Usine d'électroménagers",
+"IT": "Fabbrica di Elettrodomestici",
+"PT": "Fábrica de Eletrodomésticos"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",

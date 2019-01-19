@@ -3,18 +3,20 @@
     "id": "AssociateGoal",
     "category": "SERVICE",
     "name": {
-      "EN": "Associate Goal",
-      "ES": "Associate Goal",
-      "FR": "But associé",
       "DE": "Teilhaber-Fernziel",
-      "IT": "Possibilità di diventare soci"
+      "EN": "Associate Goal",
+      "ES": "Objetivo asociado",
+      "FR": "But associé",
+      "IT": "Possibilità di diventare soci",
+      "PT": "Associar meta"
     },
     "description": {
-      "EN": "Your lawyers can become associates if they work long hours for many years.",
-      "ES": "The lawyers can become associates if they work long hours for many years.",
-      "FR": "Les avocats peuvent s'associer s'ils ont fait de longues journées pendant plusieurs années.",
       "DE": "Anwälte können Teilhaber werden, wenn sie viele Jahre lang viele Stunden arbeiten.",
-      "IT": "Gli avvocati possono sperare di diventare soci dello studio se lavorano duramente per diversi anni."
+      "EN": "Your lawyers can become associates if they work long hours for many years.",
+      "ES": "Sus abogados pueden asociarse si trabajan muchas horas durante muchos años.",
+      "FR": "Les avocats peuvent s'associer s'ils ont fait de longues journées pendant plusieurs années.",
+      "IT": "Gli avvocati possono sperare di diventare soci dello studio se lavorano duramente per diversi anni.",
+      "PT": "Seus advogados podem se tornar associados se trabalharem muitas horas por muitos anos."
     },
     "properties": {
       "price": 60000000,
@@ -31,18 +33,20 @@
     "id": "CharityWork",
     "category": "SERVICE",
     "name": {
-      "EN": "Charity Work",
-      "ES": "Charity Work",
-      "FR": "uvre de bienfaisance",
       "DE": "Wohlfahrtsarbeit",
-      "IT": "Lavoro non retribuito"
+      "EN": "Charity Work",
+      "ES": "Trabajo de caridad",
+      "FR": "uvre de bienfaisance",
+      "IT": "Lavoro non retribuito",
+      "PT": "Trabalho de caridade"
     },
     "description": {
-      "EN": "Every lawyer has to work for free on a few cases every year; for people that can't afford to pay legal fees.",
-      "ES": "Every lawyer has to work for free on a few lawsuits every year. For people that can't afford to pay legal fees.",
-      "FR": "Tous les ans, chaque avocat doit plaider bénévolement pour des procès. Cette action est destinée aux personnes ne pouvant pas s'acquitter des frais occasionnés par un procès.",
       "DE": "Jeder Anwalt muss einige Fälle im Jahr kostenlos übernehmen. Für die Personen, die sich die Anwaltskosten nicht leisten können.",
-      "IT": "Ogni avvocato dello studio deve lavorare gratis ad alcune cause ogni anno, per aiutare coloro che non sono in grado di pagare le proprie spese legali."
+      "EN": "Every lawyer has to work for free on a few cases every year; for people that can't afford to pay legal fees.",
+      "ES": "Cada abogado tiene que trabajar gratis en algunos casos cada año; Para personas que no pueden pagar los honorarios legales.",
+      "FR": "Tous les ans, chaque avocat doit plaider bénévolement pour des procès. Cette action est destinée aux personnes ne pouvant pas s'acquitter des frais occasionnés par un procès.",
+      "IT": "Ogni avvocato dello studio deve lavorare gratis ad alcune cause ogni anno, per aiutare coloro che non sono in grado di pagare le proprie spese legali.",
+      "PT": "Todo advogado tem que trabalhar de graça em alguns casos todos os anos; para pessoas que não podem pagar taxas legais."
     },
     "properties": {
       "price": 40000000,
@@ -59,18 +63,20 @@
     "id": "CompulsoryQuota",
     "category": "SERVICE",
     "name": {
-      "EN": "Compulsory Quota",
-      "ES": "Compulsory Quota",
-      "FR": "Quotas obligatoires",
       "DE": "Pflichtrate",
-      "IT": "Quota obbligatoria"
+      "EN": "Compulsory Quota",
+      "ES": "Cuota obligatoria",
+      "FR": "Quotas obligatoires",
+      "IT": "Quota obbligatoria",
+      "PT": "Cota Compulsória"
     },
     "description": {
-      "EN": "Your lawyers must win a fixed quota of cases every year or they are fired.",
-      "ES": "Your lawyers have to win a fixed quota of cases every year or they are fired.",
-      "FR": "Vos avocats doivent gagner un certain nombre de cas chaque année sous peine d'être renvoyés.",
       "DE": "Ihre Anwälte müssen eine festgelegte Anzahl von Fällen im Jahr gewinnen, sonst fliegen sie.",
-      "IT": "I tuoi avvocati devono vincere un numero fisso di cause ogni anno, pena il licenziamento."
+      "EN": "Your lawyers must win a fixed quota of cases every year or they are fired.",
+      "ES": "Sus abogados deben ganar una cuota fija de casos cada año o son despedidos.",
+      "FR": "Vos avocats doivent gagner un certain nombre de cas chaque année sous peine d'être renvoyés.",
+      "IT": "I tuoi avvocati devono vincere un numero fisso di cause ogni anno, pena il licenziamento.",
+      "PT": "Seus advogados devem ganhar uma cota fixa de casos a cada ano ou são demitidos."
     },
     "properties": {
       "price": 60000000,
@@ -88,18 +94,20 @@
     "id": "CorporateCars",
     "category": "SERVICE",
     "name": {
-      "EN": "Corporate Cars",
-      "ES": "Corporate Cars",
-      "FR": "Véhicules d'entreprise",
       "DE": "Dienstwagen",
-      "IT": "Auto di rappresentanza"
+      "EN": "Corporate Cars",
+      "ES": "Coches corporativos",
+      "FR": "Véhicules d'entreprise",
+      "IT": "Auto di rappresentanza",
+      "PT": "Carros corporativos"
     },
     "description": {
-      "EN": "You provide your lawyers with luxurious company cars.",
-      "ES": "You provide your lawyers with luxurious company cars.",
-      "FR": "Vous fournissez des véhicules d'entreprise luxueux à vos avocats.",
       "DE": "Sie versorgen Ihre Anwälte mit luxuriösen Dienstwagen.",
-      "IT": "Fornisci i tuoi avvocati di auto di lusso."
+      "EN": "You provide your lawyers with luxurious company cars.",
+      "ES": "Usted proporciona a sus abogados con lujosos vehículos de empresa.",
+      "FR": "Vous fournissez des véhicules d'entreprise luxueux à vos avocats.",
+      "IT": "Fornisci i tuoi avvocati di auto di lusso.",
+      "PT": "Você fornece seus advogados com carros de luxo da empresa."
     },
     "properties": {
       "price": 25000000,
@@ -117,18 +125,20 @@
     "id": "DigitalLibraryOnly",
     "category": "SERVICE",
     "name": {
-      "EN": "Digital Library Only",
-      "ES": "Digital Library Only",
-      "FR": "Bibliothèque numérique uniquement",
       "DE": "Digitale Bibliothek",
-      "IT": "Biblioteca solo digitale"
+      "EN": "Digital Library Only",
+      "ES": "Sólo biblioteca digital",
+      "FR": "Bibliothèque numérique uniquement",
+      "IT": "Biblioteca solo digitale",
+      "PT": "Apenas biblioteca digital"
     },
     "description": {
-      "EN": "No need to use those monstrously large volumes to consult, all legal information is on digital devices. Sometimes viruses can destroy some information, but in the end you save many trees.",
-      "ES": "No more big volumes to consult, every cases are only on digital devices. Sometimes viruses can destroy some, but you save many trees.",
-      "FR": "Plus de gros livres à consulter. Les procès sont enregistrés uniquement au format numérique. Il arrive parfois que des virus en détruisent quelques uns, mais vous épargnez de nombreux arbres.",
       "DE": "Keine dicken Wälzer mehr, nur noch digitale Geräte. Manche werden zwar von Viren zerstört, aber dafür retten Sie vielen Bäumen das Leben.",
-      "IT": "Niente più voluminosi testi da consultare: l'intera casistica è disponibile su supporti digitali. A volte parte dell'archivio viene attaccato dai virus, ma salvi la vita a moltissimi alberi."
+      "EN": "No need to use those monstrously large volumes to consult, all legal information is on digital devices. Sometimes viruses can destroy some information, but in the end you save many trees.",
+      "ES": "No es necesario utilizar esos volúmenes monstruosamente grandes para consultar, toda la información legal está en dispositivos digitales. A veces los virus pueden destruir cierta información, pero al final se guardan muchos árboles.",
+      "FR": "Plus de gros livres à consulter. Les procès sont enregistrés uniquement au format numérique. Il arrive parfois que des virus en détruisent quelques uns, mais vous épargnez de nombreux arbres.",
+      "IT": "Niente più voluminosi testi da consultare: l'intera casistica è disponibile su supporti digitali. A volte parte dell'archivio viene attaccato dai virus, ma salvi la vita a moltissimi alberi.",
+      "PT": "Não há necessidade de usar esses volumes monstruosamente grandes para consultar, todas as informações legais estão em dispositivos digitais. Às vezes, os vírus podem destruir algumas informações, mas no final você salva muitas árvores."
     },
     "properties": {
       "price": 50000000,
@@ -146,18 +156,20 @@
     "id": "ExtraterrestrialLaw",
     "category": "SERVICE",
     "name": {
-      "EN": "Extraterrestrial Law",
-      "ES": "Extraterrestrial Law",
-      "FR": "Loi extraterrestre",
       "DE": "Außerirdisches Gesetz",
-      "IT": "Legge extraterrestre"
+      "EN": "Extraterrestrial Law",
+      "ES": "Ley extraterrestre",
+      "FR": "Loi extraterrestre",
+      "IT": "Legge extraterrestre",
+      "PT": "Lei Extraterrestre"
     },
     "description": {
-      "EN": "Lawyers that specialize in trade and extradition issues between worlds.",
-      "ES": "Lawyers specialized in trade and extradition between worlds.",
-      "FR": "Avocats spécialisés dans le commerce et l'extradition entre les mondes.",
       "DE": "Anwälte, die sich auf den Handel und die Auslieferung zwischen den Welten spezialisiert haben.",
-      "IT": "Avvocati specializzati nelle leggi che regolano il commercio e le estradizioni tra mondi diversi."
+      "EN": "Lawyers that specialize in trade and extradition issues between worlds.",
+      "ES": "Abogados especializados en temas de comercio y extradición entre mundos.",
+      "FR": "Avocats spécialisés dans le commerce et l'extradition entre les mondes.",
+      "IT": "Avvocati specializzati nelle leggi che regolano il commercio e le estradizioni tra mondi diversi.",
+      "PT": "Advogados especializados em questões de comércio e extradição entre mundos."
     },
     "properties": {
       "price": 60000000,
@@ -175,18 +187,20 @@
     "id": "HospitalVultures",
     "category": "SERVICE",
     "name": {
-      "EN": "Hospital Vultures",
-      "ES": "Hospital Vultures",
-      "FR": "Vautours des hôpitaux",
       "DE": "Krankenhausgeier",
-      "IT": "Avvocati appostati negli ospedali"
+      "EN": "Hospital Vultures",
+      "ES": "Buitres de hospital",
+      "FR": "Vautours des hôpitaux",
+      "IT": "Avvocati appostati negli ospedali",
+      "PT": "Abutres do Hospital"
     },
     "description": {
-      "EN": "Have your lawyers patrol hospital trauma centers to approach victims of accidents and talk them into suing the party responsible for the accident.",
-      "ES": "Have your lawyers patrol the trauma center of hospitals to approach victims of accidents and talk them into suing the responsibles for the accident.",
-      "FR": "Vous envoyez vos avocats dans les centres de traumatologie afin qu'ils contactent les victimes d'accidents et les amener à intenter un procès aux personnes responsables de l'accident.",
       "DE": "Schicken Sie Ihre Anwälten in die Unfallstationen der Krankenhäuser. Dort sprechen sie die Unfallopfer an und überreden sie, die Verantwortlichen für den Unfall zu verklagen.",
-      "IT": "Istruisci i tuoi avvocati affinché stazionino presso i pronto soccorsi degli ospedali e convincano le vittime di incidenti a fare causa ai responsabili."
+      "EN": "Have your lawyers patrol hospital trauma centers to approach victims of accidents and talk them into suing the party responsible for the accident.",
+      "ES": "Haga que sus abogados patrullen los centros de trauma del hospital para acercarse a las víctimas de accidentes y convencerlos de que demanden a la parte responsable del accidente.",
+      "FR": "Vous envoyez vos avocats dans les centres de traumatologie afin qu'ils contactent les victimes d'accidents et les amener à intenter un procès aux personnes responsables de l'accident.",
+      "IT": "Istruisci i tuoi avvocati affinché stazionino presso i pronto soccorsi degli ospedali e convincano le vittime di incidenti a fare causa ai responsabili.",
+      "PT": "Peça aos seus advogados que patrulhem os centros de trauma do hospital para abordar as vítimas de acidentes e convencê-los a processar a parte responsável pelo acidente."
     },
     "properties": {
       "price": 20000000,
@@ -204,18 +218,20 @@
     "id": "JudgeConsultants",
     "category": "SERVICE",
     "name": {
-      "EN": "Judge Consultants",
-      "ES": "Judge Consultants",
-      "FR": "Juges consultants",
       "DE": "Beratende Richter",
-      "IT": "Consulenza tramite giudici"
+      "EN": "Judge Consultants",
+      "ES": "Consultores del juez",
+      "FR": "Juges consultants",
+      "IT": "Consulenza tramite giudici",
+      "PT": "Consultores de Juízes"
     },
     "description": {
-      "EN": "Hire retired judges to work as consultants.",
-      "ES": "Hire retired judges as consultants.",
-      "FR": "Embauchez des juges à la retraite en tant que consultants.",
       "DE": "Stellen Sie ehemalige Richter als Consultants ein.",
-      "IT": "Assumi giudici in pensione come consulenti."
+      "EN": "Hire retired judges to work as consultants.",
+      "ES": "Contratar jueces jubilados para trabajar como consultores.",
+      "FR": "Embauchez des juges à la retraite en tant que consultants.",
+      "IT": "Assumi giudici in pensione come consulenti.",
+      "PT": "Contratar juízes aposentados para trabalhar como consultores."
     },
     "properties": {
       "price": 40000000,
@@ -233,18 +249,20 @@
     "id": "LawSchoolsRecruitment",
     "category": "SERVICE",
     "name": {
-      "EN": "Law School Recruiting",
-      "ES": "Law Schools Recruitment",
-      "FR": "Recrutement dans les facultés de droit",
       "DE": "Einstellung von Studienabgängern",
-      "IT": "Campagna di reclutamento nelle università"
+      "EN": "Law School Recruiting",
+      "ES": "Colegio de abogados de reclutamiento",
+      "FR": "Recrutement dans les facultés de droit",
+      "IT": "Campagna di reclutamento nelle università",
+      "PT": "Recrutamento em Direito"
     },
     "description": {
-      "EN": "Instead of hiring seasoned lawyers, your firms go to law schools and recruit new graduates.",
-      "ES": "Instead of hiring seasoned lawyers, your firms go to the law schools to recruit freshly graduated students.",
-      "FR": "Au lieu d'embaucher des avocats expérimentés, vos entreprises se rendent dans les facultés de droit pour recruter les jeunes diplômés.",
       "DE": "Anstatt renommierte Anwälte einzustellen, gehen Sie an die Universitäten und stellen frisch gebackene Abgänger ein.",
-      "IT": "Invece di assumere avvocati esperti, i tuoi studi reclutano i laureati appena usciti dall'università."
+      "EN": "Instead of hiring seasoned lawyers, your firms go to law schools and recruit new graduates.",
+      "ES": "En lugar de contratar abogados experimentados, sus firmas van a las escuelas de derecho y reclutan nuevos graduados.",
+      "FR": "Au lieu d'embaucher des avocats expérimentés, vos entreprises se rendent dans les facultés de droit pour recruter les jeunes diplômés.",
+      "IT": "Invece di assumere avvocati esperti, i tuoi studi reclutano i laureati appena usciti dall'università.",
+      "PT": "Em vez de contratar advogados experientes, suas empresas vão para faculdades de direito e recrutam novos graduados."
     },
     "properties": {
       "price": 50000000,
@@ -261,18 +279,20 @@
     "id": "LawyerFirms",
     "category": "SERVICE",
     "name": {
-      "EN": "Legal Services Basics",
-      "ES": "Legal Services Basics",
-      "FR": "Principes des services juridiques",
       "DE": "Grundwissen für Rechtsdienstleistungen",
-      "IT": "Fondamenti dei servizi legali"
+      "EN": "Legal Services Basics",
+      "ES": "Conceptos básicos de servicios legales",
+      "FR": "Principes des services juridiques",
+      "IT": "Fondamenti dei servizi legali",
+      "PT": "Noções básicas sobre serviços jurídicos"
     },
     "description": {
-      "EN": "Assimilate the knowledge to manage a law firm.",
-      "ES": "Assimilate the knowledge to manage lawyer firms.",
-      "FR": "Assimilez les principes de gestion de cabinets juridiques.",
       "DE": "Eignen Sie sich das Wissen an, um Anwaltskanzleien managen zu können.",
-      "IT": "Apprendi le conoscenze di base per la gestione dì uno studio legale."
+      "EN": "Assimilate the knowledge to manage a law firm.",
+      "ES": "Asimilar los conocimientos para gestionar una firma de abogados.",
+      "FR": "Assimilez les principes de gestion de cabinets juridiques.",
+      "IT": "Apprendi le conoscenze di base per la gestione dì uno studio legale.",
+      "PT": "Assimilar o conhecimento para gerenciar um escritório de advocacia."
     },
     "properties": {
       "price": 35000000,
@@ -287,18 +307,20 @@
     "id": "LongHoursPolicy",
     "category": "SERVICE",
     "name": {
-      "EN": "Long Hours Policy",
-      "ES": "Long Hours Policy",
-      "FR": "Politique des longues heures de travail",
       "DE": "Politik der langen Stunden",
-      "IT": "Lunghi orari di lavoro"
+      "EN": "Long Hours Policy",
+      "ES": "Política de Horas Largas",
+      "FR": "Politique des longues heures de travail",
+      "IT": "Lunghi orari di lavoro",
+      "PT": "Política de Long Hours"
     },
     "description": {
-      "EN": "It's implicitly understood that to have a good career in your firm, your lawyers have to work at least 12 hours a day.",
-      "ES": "It's implicit that to have a good career in your firm, your lawyers have to work at least 12 hours a day.",
-      "FR": "Il est implicite que pour faire une grande carrière dans votre société, vos avocats doivent travailler au moins 12 heures par jour.",
       "DE": "Es ist allen klar, dass die Anwälte in Ihrer Firma mindestens 12 Stunden am Tag arbeiten müssen, um Karrierechancen zu haben",
-      "IT": "È scontato che per fare carriera nel tuo studio i tuoi avvocati debbano lavorare almeno dodici ore al giorno."
+      "EN": "It's implicitly understood that to have a good career in your firm, your lawyers have to work at least 12 hours a day.",
+      "ES": "Se entiende implícitamente que para tener una buena carrera en su empresa, sus abogados tienen que trabajar al menos 12 horas al día.",
+      "FR": "Il est implicite que pour faire une grande carrière dans votre société, vos avocats doivent travailler au moins 12 heures par jour.",
+      "IT": "È scontato che per fare carriera nel tuo studio i tuoi avvocati debbano lavorare almeno dodici ore al giorno.",
+      "PT": "É implicitamente entendido que para ter uma boa carreira em sua empresa, seus advogados têm que trabalhar pelo menos 12 horas por dia."
     },
     "properties": {
       "price": 90000000,
@@ -315,18 +337,20 @@
     "id": "OnEarthStage",
     "category": "SERVICE",
     "name": {
-      "EN": "Earth Internship",
-      "ES": "On Earth Stage",
-      "FR": "Stages sur la Terre",
       "DE": "Praktikum auf der Erde",
-      "IT": "Stage sulla Terra"
+      "EN": "Earth Internship",
+      "ES": "Pasantía en la tierra",
+      "FR": "Stages sur la Terre",
+      "IT": "Stage sulla Terra",
+      "PT": "Estágio na Terra"
     },
     "description": {
-      "EN": "All your lawyers briefly go to work on Earth, to see where the code of human law was first created.",
-      "ES": "All your lawyers go to work for a brief period on Earth, to see where the code of human laws was invented.",
-      "FR": "Tous vos avocats vont travailler quelques temps sur la Terre pour savoir où le code des lois humaines a été inventé.",
       "DE": "Alle Ihre Anwälte arbeiten eine Zeit auf der Erde, um zu sehen, wo die Gesetze der Menschheit entstanden sind.",
-      "IT": "Tutti i tuoi avvocati vengono inviati per brevi periodi sulla Terra, culla dei codici legislativi umani."
+      "EN": "All your lawyers briefly go to work on Earth, to see where the code of human law was first created.",
+      "ES": "Todos sus abogados van brevemente a trabajar en la Tierra, para ver dónde se creó el código de la ley humana.",
+      "FR": "Tous vos avocats vont travailler quelques temps sur la Terre pour savoir où le code des lois humaines a été inventé.",
+      "IT": "Tutti i tuoi avvocati vengono inviati per brevi periodi sulla Terra, culla dei codici legislativi umani.",
+      "PT": "Todos os seus advogados vão brevemente trabalhar na Terra, para ver onde o código da lei humana foi criado pela primeira vez."
     },
     "properties": {
       "price": 50000000,
@@ -343,18 +367,20 @@
     "id": "ParalegalsExploitation",
     "category": "SERVICE",
     "name": {
-      "EN": "Paralegal Exploitation",
-      "ES": "Paralegals Exploitation",
-      "FR": "Exploitation d'auxiliaires juridiques",
       "DE": "Anwärterausbeutung",
-      "IT": "Sfruttamento dei praticanti"
+      "EN": "Paralegal Exploitation",
+      "ES": "Explotación paralegal",
+      "FR": "Exploitation d'auxiliaires juridiques",
+      "IT": "Sfruttamento dei praticanti",
+      "PT": "Exploração Paralegal"
     },
     "description": {
-      "EN": "Your paralegals are expected to work long hours, even if their salaries are low. In your view this is a necessary formative step to becoming a lawyer.",
-      "ES": "Your paralegals are expected to work long hours, even if they are paid low salaries. In your view, a necessary formative step to become lawyers.",
-      "FR": "Vos auxiliaires juridiques doivent travailler de nombreuses heures, même s'ils sont mal payés. Selon vous, il s'agit d'une étape nécessaire à leur formation d'avocats.",
       "DE": "Ihre Anwärter müssen lange Stunden arbeiten, auch wenn das Gehalt sehr niedrig ist. In Ihren Augen ist das ein notwendiger Schritt auf dem Weg zum Anwalt.",
-      "IT": "I praticanti dei tuoi uffici sono costretti a lavorare fino a molto tardi, nonostante il mediocre salario. Sei convinto si tratti di una gavetta indispensabile per chi vuole diventare avvocato."
+      "EN": "Your paralegals are expected to work long hours, even if their salaries are low. In your view this is a necessary formative step to becoming a lawyer.",
+      "ES": "Se espera que sus asistentes legales trabajen largas horas, incluso si sus salarios son bajos. En su opinión, este es un paso formativo necesario para convertirse en un abogado.",
+      "FR": "Vos auxiliaires juridiques doivent travailler de nombreuses heures, même s'ils sont mal payés. Selon vous, il s'agit d'une étape nécessaire à leur formation d'avocats.",
+      "IT": "I praticanti dei tuoi uffici sono costretti a lavorare fino a molto tardi, nonostante il mediocre salario. Sei convinto si tratti di una gavetta indispensabile per chi vuole diventare avvocato.",
+      "PT": "Espera-se que seus assistentes trabalhem longas horas, mesmo que seus salários sejam baixos. Na sua opinião, este é um passo formativo necessário para se tornar um advogado."
     },
     "properties": {
       "price": 25000000,
@@ -372,18 +398,20 @@
     "id": "ProLawyersCampaign",
     "category": "SERVICE",
     "name": {
-      "EN": "Pro-Lawyer Campaign",
-      "ES": "Pro Lawyers Campaign",
-      "FR": "Campagne de revalorisation de l'image des avocats",
       "DE": "Pro-Anwaltskampagne",
-      "IT": "Campagna pro-avvocati"
+      "EN": "Pro-Lawyer Campaign",
+      "ES": "Campaña a favor del abogado",
+      "FR": "Campagne de revalorisation de l'image des avocats",
+      "IT": "Campagna pro-avvocati",
+      "PT": "Campanha Pró-Advogado"
     },
     "description": {
-      "EN": "Since lawyers are often perceived as slimy figures that exploit the misfortunes of others, your firm launches a media campaign to underline the noble aspects of the profession.",
-      "ES": "Since lawyers are often perceived as slimy figures that exploit the disasters of other people, your firm launch a media campaign to underline the noble aspects of the profession.",
-      "FR": "Les avocats étant souvent perçus comme des personnes désagréables qui exploitent le malheur des gens, votre entreprise lance une campagne médiatique pour mettre en avant les aspects nobles de la profession.",
       "DE": "Da Anwälte oft als schleimige Figuren angesehen werden, die Ihr Geld mit dem Malheur anderer Personen verdienen, starten Sie eine Medienkampagne, um die edlen Aspekte des Berufs hervorzuheben.",
-      "IT": "Ben conscio della cattiva fama degli avvocati, spesso visti come figure meschine che campano sulle disgrazie altrui, il tuo studio lancia una campagna di stampa a sostegno della professione."
+      "EN": "Since lawyers are often perceived as slimy figures that exploit the misfortunes of others, your firm launches a media campaign to underline the noble aspects of the profession.",
+      "ES": "Dado que los abogados a menudo son percibidos como figuras flacas que explotan las desgracias de los demás, su firma lanza una campaña en los medios para subrayar los aspectos nobles de la profesión.",
+      "FR": "Les avocats étant souvent perçus comme des personnes désagréables qui exploitent le malheur des gens, votre entreprise lance une campagne médiatique pour mettre en avant les aspects nobles de la profession.",
+      "IT": "Ben conscio della cattiva fama degli avvocati, spesso visti come figure meschine che campano sulle disgrazie altrui, il tuo studio lancia una campagna di stampa a sostegno della professione.",
+      "PT": "Como os advogados costumam ser vistos como figuras viscosas que exploram os infortúnios dos outros, sua empresa lança uma campanha na mídia para destacar os aspectos nobres da profissão."
     },
     "properties": {
       "price": 25000000,
@@ -400,18 +428,20 @@
     "id": "SecurityCodes",
     "category": "SERVICE",
     "name": {
-      "EN": "Security Codes",
-      "ES": "Security Codes",
-      "FR": "Codes de sécurité",
       "DE": "Sicherheitscodes",
-      "IT": "Codici di sicurezza"
+      "EN": "Security Codes",
+      "ES": "Codigos de seguridad",
+      "FR": "Codes de sécurité",
+      "IT": "Codici di sicurezza",
+      "PT": "Códigos de Segurança"
     },
     "description": {
-      "EN": "Every document in your office is protected by security codes known only by the lawyer working on the case and his or her staff. These security measures are appreciated by your clients.",
-      "ES": "Every document in your office is protected by security codes known only by the lawyer who handles it and his or her staff. Security measure appreciated by your clients.",
-      "FR": "Tous les documents de vos bureaux sont protégés par des codes de sécurité connus uniquement de l'avocat qui les gère et par son équipe. Vos clients apprécient cette mesure de sécurité.",
       "DE": "Jedes Dokument in Ihrem Büro ist durch einen Sicherheitscode geschützt, den nur Ihr Anwalt und seine Mitarbeiter kennen. Eine Sicherheitsmaßnahme nach dem Herzen Ihrer Kunden.",
-      "IT": "Ogni documento nella tua sede è protetto da codici segreti noti solo agli avvocati che se ne occupano ed al loro staff. Una misura di sicurezza apprezzata dai clienti."
+      "EN": "Every document in your office is protected by security codes known only by the lawyer working on the case and his or her staff. These security measures are appreciated by your clients.",
+      "ES": "Todos los documentos en su oficina están protegidos por códigos de seguridad conocidos solo por el abogado que trabaja en el caso y su personal. Estas medidas de seguridad son apreciadas por sus clientes.",
+      "FR": "Tous les documents de vos bureaux sont protégés par des codes de sécurité connus uniquement de l'avocat qui les gère et par son équipe. Vos clients apprécient cette mesure de sécurité.",
+      "IT": "Ogni documento nella tua sede è protetto da codici segreti noti solo agli avvocati che se ne occupano ed al loro staff. Una misura di sicurezza apprezzata dai clienti.",
+      "PT": "Todos os documentos em seu escritório são protegidos por códigos de segurança conhecidos apenas pelo advogado que trabalha no caso e por sua equipe. Essas medidas de segurança são apreciadas pelos seus clientes."
     },
     "properties": {
       "price": 60000000,
@@ -429,18 +459,20 @@
     "id": "WorldsLawyerNetwork",
     "category": "SERVICE",
     "name": {
-      "EN": "Worlds Lawyer Network",
-      "ES": "Worlds Lawyer Network",
-      "FR": "Réseau interplanétaire d'avocats",
       "DE": "Weltweites Anwaltsnetz",
-      "IT": "Rete interplanetaria per avvocati"
+      "EN": "Worlds Lawyer Network",
+      "ES": "Red Mundial de Abogados",
+      "FR": "Réseau interplanétaire d'avocats",
+      "IT": "Rete interplanetaria per avvocati",
+      "PT": "Rede de Advogados do Mundo"
     },
     "description": {
-      "EN": "Participate in a legal interworld network that monitors all cases, ensuring no precedents that can be useful for your cases is missed.",
-      "ES": "Partecipate to a lawyer intraworld network that monitors all the cases to be sure not to miss any precedent that can be useful for your cases.",
-      "FR": "Participez à un réseau interplanétaire d'avocats qui gère toutes les affaires afin de s'assurer qu'aucun précédent, utile pour les cas que vous défendez, ne sera oublié.",
       "DE": "Nehmen Sie an einen Intrawelt-Anwaltsnetz teil, in dem alle Fälle aufgelistet sind, so dass Ihnen nichts entgeht, was Ihnen beim aktuellen Fall helfen könnte.",
-      "IT": "Ti iscrivi ad una rete di avvocati interplanetaria in modo da poterti aggiornare sulle cause in corso e non lasciarti sfuggire precedenti che potrebbero risultare utili nei procedimenti di cui ti occupi."
+      "EN": "Participate in a legal interworld network that monitors all cases, ensuring no precedents that can be useful for your cases is missed.",
+      "ES": "Participe en una red legal mundial que supervisa todos los casos, asegurándose de que no se pierda ningún precedente que pueda ser útil para sus casos.",
+      "FR": "Participez à un réseau interplanétaire d'avocats qui gère toutes les affaires afin de s'assurer qu'aucun précédent, utile pour les cas que vous défendez, ne sera oublié.",
+      "IT": "Ti iscrivi ad una rete di avvocati interplanetaria in modo da poterti aggiornare sulle cause in corso e non lasciarti sfuggire precedenti che potrebbero risultare utili nei procedimenti di cui ti occupi.",
+      "PT": "Participe de uma rede interworld legal que monitora todos os casos, garantindo que nenhum precedente que possa ser útil para seus casos seja perdido."
     },
     "properties": {
       "price": 40000000,

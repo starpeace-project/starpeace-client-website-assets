@@ -3,18 +3,20 @@
     "id": "AtomicSizeMetalSheets",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Atom Size Metal Sheets",
-      "ES": "Atomic Size Metal Sheets",
-      "FR": "Feuilles de métal de lépaisseur d'un atome",
       "DE": "Atomdünne Metallplatten",
-      "IT": "Lastre metalliche ultra-sottili"
+      "EN": "Atom Size Metal Sheets",
+      "ES": "Hojas de metal de tamaño atómico",
+      "FR": "Feuilles de métal de lépaisseur d'un atome",
+      "IT": "Lastre metalliche ultra-sottili",
+      "PT": "Folhas de metal do tamanho do átomo"
     },
     "description": {
-      "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
-      "ES": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
-      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
       "DE": "Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.",
-      "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali."
+      "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
+      "ES": "El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.",
+      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
+      "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.",
+      "PT": "O uso da modelagem com gravidade zero permite criar folhas de metal com apenas alguns átomos de largura; extremamente útil em aplicações industriais."
     },
     "properties": {
       "price": 60000000,
@@ -31,18 +33,20 @@
     "id": "AtomicSizeMetalSheetsM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Atom Size Metal Sheets",
-      "ES": "Atomic Size Metal Sheets",
-      "FR": "Feuilles de métal de lépaisseur d'un atome",
       "DE": "Atomdünne Metallplatten",
-      "IT": "Lastre metalliche ultra-sottili"
+      "EN": "Atom Size Metal Sheets",
+      "ES": "Hojas de metal de tamaño atómico",
+      "FR": "Feuilles de métal de lépaisseur d'un atome",
+      "IT": "Lastre metalliche ultra-sottili",
+      "PT": "Folhas de metal do tamanho do átomo"
     },
     "description": {
-      "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
-      "ES": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
-      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
       "DE": "Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.",
-      "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali."
+      "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
+      "ES": "El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.",
+      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
+      "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.",
+      "PT": "O uso da modelagem com gravidade zero permite criar folhas de metal com apenas alguns átomos de largura; extremamente útil em aplicações industriais."
     },
     "properties": {
       "price": 60000000,
@@ -59,18 +63,20 @@
     "id": "AutoCoolingSuites",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Auto-Cooling Suits",
-      "ES": "Auto Cooling Suites",
-      "FR": "Costumes à refroidissement automatique",
       "DE": "Selbstkühlende Anzüge",
-      "IT": "Tute autorefrigeranti"
+      "EN": "Auto-Cooling Suits",
+      "ES": "Trajes de auto-enfriamiento",
+      "FR": "Costumes à refroidissement automatique",
+      "IT": "Tute autorefrigeranti",
+      "PT": "Ternos de resfriamento automático"
     },
     "description": {
-      "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
-      "ES": "Your workers wear suites with fresh waters running all over the body to cool them in the high temperature environment of the plant. Unfortunately, they end up being a little clumsier.",
-      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
       "DE": "Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.",
-      "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti."
+      "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
+      "ES": "Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.",
+      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
+      "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.",
+      "PT": "Seus trabalhadores usam ternos que têm água fresca sobre o corpo para mantê-los frescos no ambiente de alta temperatura da fábrica. Infelizmente, os trajes os tornam um pouco desajeitados."
     },
     "properties": {
       "price": 100000000,
@@ -88,18 +94,20 @@
     "id": "AutoCoolingSuitesM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Auto-Cooling Suits",
-      "ES": "Auto Cooling Suites",
-      "FR": "Costumes à refroidissement automatique",
       "DE": "Selbstkühlende Anzüge",
-      "IT": "Tute autorefrigeranti"
+      "EN": "Auto-Cooling Suits",
+      "ES": "Trajes de auto-enfriamiento",
+      "FR": "Costumes à refroidissement automatique",
+      "IT": "Tute autorefrigeranti",
+      "PT": "Ternos de resfriamento automático"
     },
     "description": {
-      "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
-      "ES": "Your workers wear suites with fresh waters running all over the body to cool them in the high temperature environment of the plant. Unfortunately, they end up being a little clumsier.",
-      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
       "DE": "Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.",
-      "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti."
+      "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
+      "ES": "Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.",
+      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
+      "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.",
+      "PT": "Seus trabalhadores usam ternos que têm água fresca sobre o corpo para mantê-los frescos no ambiente de alta temperatura da fábrica. Infelizmente, os trajes os tornam um pouco desajeitados."
     },
     "properties": {
       "price": 100000000,
@@ -117,18 +125,20 @@
     "id": "BuiltInTrasmittors",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Built-In Transmitters",
-      "ES": "Built In Transmittors",
-      "FR": "Transmetteurs incorporés",
       "DE": "Eingebaute Sender",
-      "IT": "Trasmettitori incorporati"
+      "EN": "Built-In Transmitters",
+      "ES": "Transmisores incorporados",
+      "FR": "Transmetteurs incorporés",
+      "IT": "Trasmettitori incorporati",
+      "PT": "Transmissores Integrados"
     },
     "description": {
-      "EN": "The metal parts you produce have a built in transmittor that alerts when the part is ruined.Extremely useful for buried components like pipes.",
-      "ES": "The metal parts you produce have a built in transmittor that alerts when the part is ruined. Extremely useful for buried components like pipes.",
-      "FR": "Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.",
       "DE": "Die von Ihnen produzierten Metallteile enthalten Sender, die Alarm auslösen, wenn das Teil beschädigt ist. Sehr nützlich für eingegrabene Teile, wie z.B. Röhren.",
-      "IT": "I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate."
+      "EN": "The metal parts you produce have a built in transmittor that alerts when the part is ruined.Extremely useful for buried components like pipes.",
+      "ES": "Las partes metálicas que produce tienen un transmisor incorporado que alerta cuando la pieza está arruinada. Extremadamente útil para componentes enterrados como tuberías.",
+      "FR": "Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.",
+      "IT": "I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate.",
+      "PT": "As peças de metal que você produz têm um transmissor embutido que alerta quando a peça está estragada. Extremamente útil para componentes enterrados como canos."
     },
     "properties": {
       "price": 35000000,
@@ -145,18 +155,20 @@
     "id": "BuiltInTrasmittorsM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Built-In Transmitters",
-      "ES": "Built In Transmittors",
-      "FR": "Transmetteurs incorporés",
       "DE": "Eingebaute Sender",
-      "IT": "Trasmettitori incorporati"
+      "EN": "Built-In Transmitters",
+      "ES": "Transmisores incorporados",
+      "FR": "Transmetteurs incorporés",
+      "IT": "Trasmettitori incorporati",
+      "PT": "Transmissores Integrados"
     },
     "description": {
-      "EN": "The metal parts you produce have a built-in transmitter that alerts to when the part is ruined; extremely useful for buried components like pipes.",
-      "ES": "The metal parts you produce have a built in transmittor that alerts when the part is ruined. Extremely useful for buried components like pipes.",
-      "FR": "Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.",
       "DE": "Die von Ihnen produzierten Metallteile enthalten Sender, die Alarm auslösen, wenn das Teil beschädigt ist. Sehr nützlich für eingegrabene Teile, wie z.B. Röhren.",
-      "IT": "I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate."
+      "EN": "The metal parts you produce have a built-in transmitter that alerts to when the part is ruined; extremely useful for buried components like pipes.",
+      "ES": "Las partes metálicas que produce tienen un transmisor incorporado que avisa cuando la pieza está arruinada; Muy útil para componentes enterrados como tuberías.",
+      "FR": "Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.",
+      "IT": "I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate.",
+      "PT": "As peças de metal que você produz têm um transmissor embutido que alerta quando a peça está estragada; extremamente útil para componentes enterrados como tubos."
     },
     "properties": {
       "price": 35000000,
@@ -173,18 +185,20 @@
     "id": "DeepCryogenicSteelCooling",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Cryogenic Steel Cooling",
-      "ES": "Deep Cryogenic Steel Cooling",
-      "FR": "Refroidissement cryogénique de l'acier",
       "DE": "Kryogene Stahlabkühlung",
-      "IT": "Raffreddamento criogenico dell'acciaio"
+      "EN": "Cryogenic Steel Cooling",
+      "ES": "Enfriamiento de acero criogénico",
+      "FR": "Refroidissement cryogénique de l'acier",
+      "IT": "Raffreddamento criogenico dell'acciaio",
+      "PT": "Refrigeração Criogênica de Aço"
     },
     "description": {
-      "EN": "The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.",
-      "ES": "The steel you produce is cooled at cryogenic temperatures. The overall process is more efficient.",
-      "FR": "L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.",
       "DE": "Der von Ihnen produzierte Stahl wird bei kryogenen Temperaturen abgekühlt. Der Gesamtprozeß ist effizienter.",
-      "IT": "L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente."
+      "EN": "The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.",
+      "ES": "El acero que produce se enfría a temperaturas criogénicas, lo que hace que el proceso general sea más eficiente.",
+      "FR": "L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.",
+      "IT": "L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente.",
+      "PT": "O aço que você produz é resfriado em temperaturas criogênicas, tornando o processo geral mais eficiente."
     },
     "properties": {
       "price": 70000000,
@@ -201,18 +215,20 @@
     "id": "DeepCryogenicSteelCoolingM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Cryogenic Steel Cooling",
-      "ES": "Deep Cryogenic Steel Cooling",
-      "FR": "Refroidissement cryogénique de l'acier",
       "DE": "Kryogene Stahlabkühlung",
-      "IT": "Raffreddamento criogenico dell'acciaio"
+      "EN": "Cryogenic Steel Cooling",
+      "ES": "Enfriamiento de acero criogénico",
+      "FR": "Refroidissement cryogénique de l'acier",
+      "IT": "Raffreddamento criogenico dell'acciaio",
+      "PT": "Refrigeração Criogênica de Aço"
     },
     "description": {
-      "EN": "The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.",
-      "ES": "The steel you produce is cooled at cryogenic temperatures. The overall process is more efficient.",
-      "FR": "L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.",
       "DE": "Der von Ihnen produzierte Stahl wird bei kryogenen Temperaturen abgekühlt. Der Gesamtprozeß ist effizienter.",
-      "IT": "L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente."
+      "EN": "The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.",
+      "ES": "El acero que produce se enfría a temperaturas criogénicas, lo que hace que el proceso general sea más eficiente.",
+      "FR": "L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.",
+      "IT": "L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente.",
+      "PT": "O aço que você produz é resfriado em temperaturas criogênicas, tornando o processo geral mais eficiente."
     },
     "properties": {
       "price": 70000000,
@@ -229,18 +245,20 @@
     "id": "ExtraterrestrialAlloys",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Extraterrestrial Alloys",
-      "ES": "Extraterrestrial Alloys",
-      "FR": "Alliages élaborés ailleurs que sur sol terrestre",
       "DE": "Außerirdische Legierungen",
-      "IT": "Leghe extraterrestri"
+      "EN": "Extraterrestrial Alloys",
+      "ES": "Aleaciones extraterrestres",
+      "FR": "Alliages élaborés ailleurs que sur sol terrestre",
+      "IT": "Leghe extraterrestri",
+      "PT": "Ligas Extraterrestres"
     },
     "description": {
-      "EN": "The slightly different chemistry and physics of the new worlds allows you to create new alloys that can't be produced on Earth.",
-      "ES": "The slightly different chemistry and physics of the new worlds allows you to create new alloys that can't be produced on Earth.",
-      "FR": "La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.",
       "DE": "Die etwas andere Chemie und Physik in den neuen Welten ermöglichen Ihnen die Herstellung von neuen Legierungen, die auf der Erde nicht produziert werden können.",
-      "IT": "Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra."
+      "EN": "The slightly different chemistry and physics of the new worlds allows you to create new alloys that can't be produced on Earth.",
+      "ES": "La química y física ligeramente diferentes de los nuevos mundos te permiten crear nuevas aleaciones que no se pueden producir en la Tierra.",
+      "FR": "La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.",
+      "IT": "Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra.",
+      "PT": "A química e a física ligeiramente diferentes dos novos mundos permitem que você crie novas ligas que não podem ser produzidas na Terra."
     },
     "properties": {
       "price": 80000000,
@@ -257,18 +275,20 @@
     "id": "ExtraterrestrialAlloysM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Extraterrestrial Alloys",
-      "ES": "Extraterrestrial Alloys",
-      "FR": "Alliages élaborés ailleurs que sur sol terrestre",
       "DE": "Außerirdische Legierungen",
-      "IT": "Leghe extraterrestri"
+      "EN": "Extraterrestrial Alloys",
+      "ES": "Aleaciones extraterrestres",
+      "FR": "Alliages élaborés ailleurs que sur sol terrestre",
+      "IT": "Leghe extraterrestri",
+      "PT": "Ligas Extraterrestres"
     },
     "description": {
-      "EN": "The slightly different chemistry and physic's principles on the new worlds allow you to create new alloys that can't be produced on Earth.",
-      "ES": "The slightly different chemistry and physics of the new worlds allows you to create new alloys that can't be produced on Earth.",
-      "FR": "La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.",
       "DE": "Die etwas andere Chemie und Physik in den neuen Welten ermöglichen Ihnen die Herstellung von neuen Legierungen, die auf der Erde nicht produziert werden können.",
-      "IT": "Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra."
+      "EN": "The slightly different chemistry and physic's principles on the new worlds allow you to create new alloys that can't be produced on Earth.",
+      "ES": "La química ligeramente diferente y los principios físicos en los nuevos mundos le permiten crear nuevas aleaciones que no se pueden producir en la Tierra.",
+      "FR": "La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.",
+      "IT": "Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra.",
+      "PT": "Os princípios químicos e físicos ligeiramente diferentes nos novos mundos permitem que você crie novas ligas que não podem ser produzidas na Terra."
     },
     "properties": {
       "price": 80000000,
@@ -285,18 +305,20 @@
     "id": "InternalBusSystem",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Internal Bus System",
       "EN": "Internal Bus System",
-      "ES": "Internal Bus System",
-      "FR": "Système de bus interne",
-      "DE": "Internes Bussystem",
-      "IT": "Servizio interno di autobus"
+      "ES": "Sistema de bus interno",
+      "FR": "Système D'Autobus Interne",
+      "IT": "Servizio interno di autobus",
+      "PT": "Sistema de barramento interno"
     },
     "description": {
-      "EN": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
-      "ES": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
-      "FR": "Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.",
       "DE": "Die Wohngebiete und die Arbeitsstätten bei Metallindustrien müssen auf Grund der Hitze weit voneinander entfernt liegen. In großen Unternehmen verbessert ein internes Bussystem die Effizienz.",
-      "IT": "Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese."
+      "EN": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
+      "ES": "Las habitaciones y el ambiente de trabajo en una planta metalúrgica tienen que estar distantes debido a la alta temperatura. En plantas grandes, un sistema de bus interno mejora la eficiencia del trabajo.",
+      "FR": "Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.",
+      "IT": "Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.",
+      "PT": "Os alojamentos e o ambiente de trabalho em uma usina metalúrgica precisam ficar distantes por causa da alta temperatura. Em grandes fábricas, um sistema interno de ônibus melhora a eficiência do trabalho."
     },
     "properties": {
       "price": 90000000,
@@ -313,18 +335,20 @@
     "id": "InternalBusSystemM",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Internal Bus System",
       "EN": "Internal Bus System",
-      "ES": "Internal Bus System",
-      "FR": "Système de bus interne",
-      "DE": "Internes Bussystem",
-      "IT": "Servizio interno di autobus"
+      "ES": "Sistema de bus interno",
+      "FR": "Système D'Autobus Interne",
+      "IT": "Servizio interno di autobus",
+      "PT": "Sistema de barramento interno"
     },
     "description": {
-      "EN": "A metallurgic plant's living quarters have to far removed from the plant due to its high temperatures. In large plants, an internal bus system efficiently moves workers.",
-      "ES": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
-      "FR": "Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.",
       "DE": "Die Wohngebiete und die Arbeitsstätten bei Metallindustrien müssen auf Grund der Hitze weit voneinander entfernt liegen. In großen Unternehmen verbessert ein internes Bussystem die Effizienz.",
-      "IT": "Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese."
+      "EN": "A metallurgic plant's living quarters have to far removed from the plant due to its high temperatures. In large plants, an internal bus system efficiently moves workers.",
+      "ES": "Las viviendas de una planta metalúrgica tienen que estar muy alejadas de la planta debido a sus altas temperaturas. En plantas grandes, un sistema interno de autobuses mueve de manera eficiente a los trabajadores.",
+      "FR": "Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.",
+      "IT": "Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.",
+      "PT": "Os alojamentos de uma usina metalúrgica precisam ser removidos da fábrica devido às altas temperaturas. Em grandes usinas, um sistema de ônibus interno movimenta os funcionários com eficiência."
     },
     "properties": {
       "price": 90000000,
@@ -341,18 +365,20 @@
     "id": "LSMetal",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Large Scale Metallurgy Production",
-      "ES": "Large Scale Metallurgy",
-      "FR": "Métallurgie à grande échelle",
       "DE": "Große Metallindustrien",
-      "IT": "Metallurgia su vasta scala"
+      "EN": "Large Scale Metallurgy Production",
+      "ES": "Producción de metalurgia a gran escala",
+      "FR": "Métallurgie à grande échelle",
+      "IT": "Metallurgia su vasta scala",
+      "PT": "Produção em Metalurgia de Grande Escala"
     },
     "description": {
-      "EN": "Learn the basic skills to manage large scale metallurgy production.",
-      "ES": "Learn the basic skills to manage large scale metalurgy.",
-      "FR": "Apprenez les principes élémentaires de gestion dans le domaine de la métallurgie à grande échelle.",
       "DE": "Erlernen Sie das Grundwissen für das Management von großen Metallindustrien.",
-      "IT": "Apprendi le conoscenze di base per la gestione di grandi aziende metallurgiche."
+      "EN": "Learn the basic skills to manage large scale metallurgy production.",
+      "ES": "Aprender las habilidades básicas para gestionar la producción metalúrgica a gran escala.",
+      "FR": "Apprenez les principes élémentaires de gestion dans le domaine de la métallurgie à grande échelle.",
+      "IT": "Apprendi le conoscenze di base per la gestione di grandi aziende metallurgiche.",
+      "PT": "Aprenda as habilidades básicas para gerenciar a produção de metalurgia em larga escala."
     },
     "properties": {
       "price": 60000000,
@@ -367,18 +393,20 @@
     "id": "Metallic",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Metallurgy",
-      "ES": "Metallurgy",
-      "FR": "Métallurgie",
       "DE": "Metallurgie",
-      "IT": "Metallurgia"
+      "EN": "Metallurgy",
+      "ES": "Metalurgia",
+      "FR": "Métallurgie",
+      "IT": "Metallurgia",
+      "PT": "Metalurgia"
     },
     "description": {
-      "EN": "Basic metallurgy production.",
-      "ES": "Basic metallurgy production.",
-      "FR": "Principes de production métallurgique.",
       "DE": "Grundlagen der Metallproduktion.",
-      "IT": "Fondamenti dell'industria metallurgica."
+      "EN": "Basic metallurgy production.",
+      "ES": "Producción metalúrgica básica.",
+      "FR": "Principes de production métallurgique.",
+      "IT": "Fondamenti dell'industria metallurgica.",
+      "PT": "Produção de metalurgia básica."
     },
     "properties": {
       "price": 50000000,
@@ -393,18 +421,20 @@
     "id": "MetallicArt",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Metallic Art",
-      "ES": "Metallic Art",
-      "FR": "uvres d'art en métal",
       "DE": "Metallkunst",
-      "IT": "Opere d'arte metalliche"
+      "EN": "Metallic Art",
+      "ES": "Arte metalico",
+      "FR": "uvres d'art en métal",
+      "IT": "Opere d'arte metalliche",
+      "PT": "Arte Metálica"
     },
     "description": {
-      "EN": "You recycle the metal pieces thrown away by the production process as artistic sculptures created by an unexistent Earth artist. You gain some reputation as an art expert.",
-      "ES": "You recycle the metal pieces thrown away by the production process as artistic sculptures created by an unexistent Earth artist. You gain some reputation as an art expert.",
-      "FR": "Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.",
       "DE": "Sie recyclen Metallabfälle der Produktionsverfahren als Kunstwerke eines nicht existierenden Künstlers von der Erde. Sie erlangen einen gewissen Ruf als Kunstexperte.",
-      "IT": "Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte."
+      "EN": "You recycle the metal pieces thrown away by the production process as artistic sculptures created by an unexistent Earth artist. You gain some reputation as an art expert.",
+      "ES": "Recicla las piezas de metal desechadas por el proceso de producción como esculturas artísticas creadas por un artista inexistente de la Tierra. Ganas algo de reputación como experto en arte.",
+      "FR": "Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.",
+      "IT": "Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte.",
+      "PT": "Você recicla as peças de metal jogadas fora pelo processo de produção como esculturas artísticas criadas por um artista da Terra inexistente. Você ganha alguma reputação como especialista em arte."
     },
     "properties": {
       "price": 65000000,
@@ -422,18 +452,20 @@
     "id": "MetallicArtM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Metallic Art",
-      "ES": "Metallic Art",
-      "FR": "uvres d'art en métal",
       "DE": "Metallkunst",
-      "IT": "Opere d'arte metalliche"
+      "EN": "Metallic Art",
+      "ES": "Arte metalico",
+      "FR": "uvres d'art en métal",
+      "IT": "Opere d'arte metalliche",
+      "PT": "Arte Metálica"
     },
     "description": {
-      "EN": "You recycle the metal pieces thrown away from the production process as artistic sculptures created by a fictional artist from Earth. You gain a reputation as an art expert.",
-      "ES": "You recycle the metal pieces thrown away by the production process as artistic sculptures created by an unexistent Earth artist. You gain some reputation as an art expert.",
-      "FR": "Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.",
       "DE": "Sie recyclen Metallabfälle der Produktionsverfahrens als Kunstwerke eines nicht existierenden Künstlers von der Erde. Sie erlangen einen gewissen Ruf als Kunstexperte.",
-      "IT": "Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte."
+      "EN": "You recycle the metal pieces thrown away from the production process as artistic sculptures created by a fictional artist from Earth. You gain a reputation as an art expert.",
+      "ES": "Reciclas las piezas de metal que se desprenden del proceso de producción como esculturas artísticas creadas por un artista ficticio de la Tierra. Ganaste una reputación como experto en arte.",
+      "FR": "Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.",
+      "IT": "Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte.",
+      "PT": "Você recicla as peças de metal descartadas do processo de produção como esculturas artísticas criadas por um artista fictício da Terra. Você ganha uma reputação como especialista em arte."
     },
     "properties": {
       "price": 65000000,
@@ -451,18 +483,20 @@
     "id": "MetallurgyMuseum",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Metallurgy Museum",
-      "ES": "Metallurgy Museum",
-      "FR": "Musée de la métallurgie",
       "DE": "Metallmuseum",
-      "IT": "Museo della metallurgia"
+      "EN": "Metallurgy Museum",
+      "ES": "Museo de metalurgia",
+      "FR": "Musée de la métallurgie",
+      "IT": "Museo della metallurgia",
+      "PT": "Museu da Metalurgia"
     },
     "description": {
-      "EN": "You create a metallurgy museum in your industry headquarter. Watching the history of metal working motivates your employees.",
-      "ES": "You create a metallurgy museum in your Cuarteles de Industria. Watching the history of metal working motivates your employees.",
-      "FR": "Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés.",
       "DE": "Sie gründen ein Metallmuseum in Ihrer Industriezentrale. Die Geschichte der Metallverarbeitung motiviert Ihre Angestellten.",
-      "IT": "Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti."
+      "EN": "You create a metallurgy museum in your industry headquarter. Watching the history of metal working motivates your employees.",
+      "ES": "Usted crea un museo de metalurgia en la sede de su industria. Ver la historia del trabajo del metal motiva a sus empleados.",
+      "FR": "Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés.",
+      "IT": "Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti.",
+      "PT": "Você cria um museu de metalurgia na sua sede da indústria. Assistir a história do trabalho em metal motiva seus funcionários."
     },
     "properties": {
       "price": 45000000,
@@ -479,18 +513,20 @@
     "id": "MetallurgyMuseumM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Metallurgy Museum",
-      "ES": "Metallurgy Museum",
-      "FR": "Musée de la métallurgie",
       "DE": "Metallmuseum",
-      "IT": "Museo della metallurgia"
+      "EN": "Metallurgy Museum",
+      "ES": "Museo de metalurgia",
+      "FR": "Musée de la métallurgie",
+      "IT": "Museo della metallurgia",
+      "PT": "Museu da Metalurgia"
     },
     "description": {
-      "EN": "You create a metallurgy museum in your industry headquarters. Viewing the history of metal working motivates your employees.",
-      "ES": "You create a metallurgy museum in your Cuarteles de Industria. Watching the history of metal working motivates your employees.",
-      "FR": "Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés",
       "DE": "Sie gründen ein Metallmuseum in Ihrer Industriezentrale. Die Geschichte der Metallverarbeitung motiviert Ihre Angestellten.",
-      "IT": "Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti."
+      "EN": "You create a metallurgy museum in your industry headquarters. Viewing the history of metal working motivates your employees.",
+      "ES": "Usted crea un museo de metalurgia en la sede de su industria. Ver la historia del trabajo del metal motiva a sus empleados.",
+      "FR": "Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés",
+      "IT": "Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti.",
+      "PT": "Você cria um museu de metalurgia na sede da sua indústria. Visualizar o histórico do trabalho com metais motiva seus funcionários."
     },
     "properties": {
       "price": 45000000,
@@ -507,18 +543,20 @@
     "id": "NanotechnologyDevelopment",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Nanotechnology Developments",
       "EN": "Nanotechnology Developments",
-      "ES": "Nanotechnology Developments",
-      "FR": "Développement en matière de nanotechnologie",
-      "DE": "Nanotechnologie-Entwicklungen",
-      "IT": "Parti per nanotecnologia"
+      "ES": "Desarrollos en nanotecnología",
+      "FR": "Développements De Nanotechnologie",
+      "IT": "Applicazioni per nanotecnologia",
+      "PT": "Desenvolvimentos da nanotecnologia"
     },
     "description": {
-      "EN": "You produce metallics micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
-      "ES": "You produce metallics micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
-      "FR": "Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.",
       "DE": "Sie produzieren metallische Mikroteile für den Einsatz in der Nanotechnologie. Das zwingt Ihre Fabriken qualitativ hochwertigere Verfahren einzusetzen.",
-      "IT": "Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati."
+      "EN": "You produce metallics micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "ES": "Usted produce micro partes metálicas para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.",
+      "FR": "Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.",
+      "IT": "Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.",
+      "PT": "Você produz micro peças metálicas para uso em nanotecnologia. Isso força suas fábricas a implementar um processo de melhor qualidade."
     },
     "properties": {
       "price": 80000000,
@@ -535,18 +573,20 @@
     "id": "NanotechnologyDevelopmentM",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Nanotechnology Developments",
       "EN": "Nanotechnology Developments",
-      "ES": "Nanotechnology Developments",
-      "FR": "Développement en matière de nanotechnologie",
-      "DE": "Nanotechnologie-Entwicklungen",
-      "IT": "Parti per nanotecnologia"
+      "ES": "Desarrollos en nanotecnología",
+      "FR": "Développements De Nanotechnologie",
+      "IT": "Applicazioni per nanotecnologia",
+      "PT": "Desenvolvimentos da nanotecnologia"
     },
     "description": {
-      "EN": "You produce metallics micro-parts for nanotechnology uses. It forces your plants to implement a better quality process.",
-      "ES": "You produce metallics micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
-      "FR": "Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.",
       "DE": "Sie produzieren metallische Mikroteile für den Einsatz in der Nanotechnologie. Das zwingt Ihre Fabriken qualitativ hochwertigere Verfahren einzusetzen.",
-      "IT": "Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati."
+      "EN": "You produce metallics micro-parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "ES": "Usted produce micropiezas metálicas para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.",
+      "FR": "Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.",
+      "IT": "Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.",
+      "PT": "Você produz micro-partes metálicas para uso em nanotecnologia. Isso força suas fábricas a implementar um processo de melhor qualidade."
     },
     "properties": {
       "price": 80000000,
@@ -563,18 +603,20 @@
     "id": "NoGravityShaping",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Zero Gravity Shaping",
-      "ES": "No Gravity Shaping",
-      "FR": "Mise en forme en état d'impesanteur",
       "DE": "Schwereloses Formen",
-      "IT": "Formatura in assenza di gravità"
+      "EN": "Zero Gravity Shaping",
+      "ES": "Conformidad de gravedad cero",
+      "FR": "Mise en forme en état d'impesanteur",
+      "IT": "Formatura in assenza di gravità",
+      "PT": "Modelagem por Gravidade Zero"
     },
     "description": {
-      "EN": "The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.",
-      "ES": "The shaping of the metal is performed in a special cabin free falling within your plant. The zero gravity field inside it permits a better quality process.",
-      "FR": "La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.",
       "DE": "Das Formen des Metalls findet in einer Spezialkabinen auf Ihrem Fabrikgelände statt. Die Schwerelosigkeit darin ermöglicht ein besseres Verfahren.",
-      "IT": "La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo."
+      "EN": "The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.",
+      "ES": "La conformación del metal se realiza en una cabina especial de caída libre dentro de su planta. El campo de gravedad cero en su interior permite un proceso de mejor calidad.",
+      "FR": "La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.",
+      "IT": "La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo.",
+      "PT": "A modelagem do metal é realizada em uma cabine especial de queda livre dentro de sua planta. O campo de gravidade zero dentro dele permite um processo de melhor qualidade."
     },
     "properties": {
       "price": 25000000,
@@ -591,18 +633,20 @@
     "id": "NoGravityShapingM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Zero Gravity Shaping",
-      "ES": "No Gravity Shaping",
-      "FR": "Mise en forme en état d'impesanteur",
       "DE": "Schwereloses Formen",
-      "IT": "Formatura in assenza di gravità"
+      "EN": "Zero Gravity Shaping",
+      "ES": "Conformidad de gravedad cero",
+      "FR": "Mise en forme en état d'impesanteur",
+      "IT": "Formatura in assenza di gravità",
+      "PT": "Modelagem por Gravidade Zero"
     },
     "description": {
-      "EN": "The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.",
-      "ES": "The shaping of the metal is performed in a special cabin free falling within your plant. The zero gravity field inside it, permits a better quality process.",
-      "FR": "La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.",
       "DE": "Das Formen des Metalls findet in einer Spezialkabinen auf Ihrem Fabrikgelände statt. Die Schwerelosigkeit darin ermöglicht ein besseres Verfahren.",
-      "IT": "La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo."
+      "EN": "The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.",
+      "ES": "La conformación del metal se realiza en una cabina especial de caída libre dentro de su planta. El campo de gravedad cero en su interior permite un proceso de mejor calidad.",
+      "FR": "La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.",
+      "IT": "La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo.",
+      "PT": "A modelagem do metal é realizada em uma cabine especial de queda livre dentro de sua planta. O campo de gravidade zero dentro dele permite um processo de melhor qualidade."
     },
     "properties": {
       "price": 25000000,
@@ -619,18 +663,20 @@
     "id": "OreScreening",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ore Screening",
-      "ES": "Ore Screening",
-      "FR": "Filtrage du minerai",
       "DE": "Erzüberprüfung",
-      "IT": "Screening dei minerali"
+      "EN": "Ore Screening",
+      "ES": "Cribado de minerales",
+      "FR": "Filtrage du minerai",
+      "IT": "Screening dei minerali",
+      "PT": "Triagem De Minério"
     },
     "description": {
-      "EN": "Your plants implement an ulterior screening of the ore bought from mines. Costly but improve the quality.",
-      "ES": "Your plants implement an ulterior screening of the ore bought from mines. Costly but improve the quality.",
-      "FR": "Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.",
       "DE": "In Ihren Fabriken wird das in den Bergwerken gekaufte Erz noch einmal überprüft. Teuer aber verbessert die Qualität.",
-      "IT": "I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità."
+      "EN": "Your plants implement an ulterior screening of the ore bought from mines. Costly but improve the quality.",
+      "ES": "Sus plantas implementan un cribado ulterior del mineral comprado en las minas. Costoso pero mejorar la calidad.",
+      "FR": "Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.",
+      "IT": "I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità.",
+      "PT": "Suas plantas implementam uma triagem posterior do minério comprado das minas. Caro, mas melhorar a qualidade."
     },
     "properties": {
       "price": 30000000,
@@ -647,18 +693,20 @@
     "id": "OreScreeningM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ore Screening",
-      "ES": "Ore Screening",
-      "FR": "Filtrage du minerai",
       "DE": "Erzüberprüfung",
-      "IT": "Screening dei minerali"
+      "EN": "Ore Screening",
+      "ES": "Cribado de minerales",
+      "FR": "Filtrage du minerai",
+      "IT": "Screening dei minerali",
+      "PT": "Triagem De Minério"
     },
     "description": {
-      "EN": "Your plants implement an additional screening process on the ore extracted from mines; costly but improves quality.",
-      "ES": "Your plants implement an ulterior screening of the ore bought from mines. Costly but improve the quality.",
-      "FR": "Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.",
       "DE": "In Ihren Fabriken wird das in den Bergwerken gekaufte Erz noch einmal überprüft. Teuer aber verbessert die Qualität.",
-      "IT": "I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità."
+      "EN": "Your plants implement an additional screening process on the ore extracted from mines; costly but improves quality.",
+      "ES": "Sus plantas implementan un proceso de selección adicional en el mineral extraído de las minas; Costoso pero mejora la calidad.",
+      "FR": "Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.",
+      "IT": "I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità.",
+      "PT": "Suas plantas implementam um processo adicional de triagem no minério extraído das minas; caro, mas melhora a qualidade."
     },
     "properties": {
       "price": 30000000,
@@ -675,18 +723,20 @@
     "id": "PreciousMetalTreatment",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Precious Metal Treatment",
-      "ES": "Precious Metal Treatment",
-      "FR": "Traitement des métaux précieux",
       "DE": "Behandlung von Edelmetallen",
-      "IT": "Trattamento dei metalli preziosi"
+      "EN": "Precious Metal Treatment",
+      "ES": "Tratamiento de metales preciosos",
+      "FR": "Traitement des métaux précieux",
+      "IT": "Trattamento dei metalli preziosi",
+      "PT": "Tratamento De Metal Precioso"
     },
     "description": {
-      "EN": "You recycle the impurity of precious metal not used in the industrial production to create a jewellery line.",
-      "ES": "You recycle the impurity of precious metal not used in the industrial production to create a jewellery line.",
-      "FR": "Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.",
       "DE": "Sie recyclen die Unreinheiten der Edelmetalle, die in der Industrie nicht genutzt werden und entwerfen eine Schmuckkollektion.",
-      "IT": "Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli."
+      "EN": "You recycle the impurity of precious metal not used in the industrial production to create a jewellery line.",
+      "ES": "Recicla la impureza del metal precioso que no se utiliza en la producción industrial para crear una línea de joyería.",
+      "FR": "Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.",
+      "IT": "Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli.",
+      "PT": "Você recicla a impureza do metal precioso não usado na produção industrial para criar uma linha de joalharia."
     },
     "properties": {
       "price": 60000000,
@@ -703,18 +753,20 @@
     "id": "PreciousMetalTreatmentM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Precious Metal Treatment",
-      "ES": "Precious Metal Treatment",
-      "FR": "Traitement des métaux précieux",
       "DE": "Behandlung von Edelmetallen",
-      "IT": "Trattamento dei metalli preziosi"
+      "EN": "Precious Metal Treatment",
+      "ES": "Tratamiento de metales preciosos",
+      "FR": "Traitement des métaux précieux",
+      "IT": "Trattamento dei metalli preziosi",
+      "PT": "Tratamento De Metal Precioso"
     },
     "description": {
-      "EN": "You recycle the impurities extracted from precious metal from industrial production to create a jewellery line.",
-      "ES": "You recycle the impurity of precious metal not used in the industrial production to create a jewellery line.",
-      "FR": "Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.",
       "DE": "Sie recyclen die Unreinheiten der Edelmetalle, die in der Industrie nicht genutzt werden und entwerfen eine Schmuckkollektion.",
-      "IT": "Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli."
+      "EN": "You recycle the impurities extracted from precious metal from industrial production to create a jewellery line.",
+      "ES": "Recicla las impurezas extraídas de metales preciosos de la producción industrial para crear una línea de joyería.",
+      "FR": "Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.",
+      "IT": "Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli.",
+      "PT": "Você recicla as impurezas extraídas do metal precioso da produção industrial para criar uma linha de joalheria."
     },
     "properties": {
       "price": 60000000,
@@ -731,18 +783,20 @@
     "id": "SecurityCollapsingMechanism",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Security Collapsing Mechanism",
-      "ES": "Security Collapsing Mechanism",
-      "FR": "Mécanisme rétractile en cas d'alerte",
       "DE": "Sicherheitssystem für Hochöfen",
-      "IT": "Meccanismo di autodistruzione degli altiforni"
+      "EN": "Security Collapsing Mechanism",
+      "ES": "Mecanismo de colapso de seguridad",
+      "FR": "Mécanisme rétractile en cas d'alerte",
+      "IT": "Meccanismo di autodistruzione degli altiforni",
+      "PT": "Mecanismo de Colapso de Segurança"
     },
     "description": {
-      "EN": "Your large plants have a system that collapses the furnace in an underground cavity in case of fuse metal leakage. Very effective in emergencies.",
-      "ES": "Your large plants have a system that collapses the furnace in an underground cavity in case of fuse metal leakage. Very effective in emergencies.",
-      "FR": "Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.",
       "DE": "Ihre großen Fabriken verfügen über ein System, das den Hochofen in eine unterirdische Grube zusammenbrechen lässt, wenn geschmolzenes Metall ausläuft. Im Notfall sehr effizient.",
-      "IT": "I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze."
+      "EN": "Your large plants have a system that collapses the furnace in an underground cavity in case of fuse metal leakage. Very effective in emergencies.",
+      "ES": "Sus plantas grandes tienen un sistema que colapsa el horno en una cavidad subterránea en caso de fugas de metal. Muy eficaz en emergencias.",
+      "FR": "Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.",
+      "IT": "I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze.",
+      "PT": "Suas plantas grandes têm um sistema que colapsa o forno em uma cavidade subterrânea em caso de vazamento de metal do fusível. Muito eficaz em emergências."
     },
     "properties": {
       "price": 120000000,
@@ -759,18 +813,20 @@
     "id": "SecurityCollapsingMechanismM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Security Collapsing Mechanism",
-      "ES": "Security Collapsing Mechanism",
-      "FR": "Mécanisme rétractile en cas d'alerte",
       "DE": "Sicherheitssystem für Hochöfen",
-      "IT": "Meccanismo di autodistruzione degli altiforni"
+      "EN": "Security Collapsing Mechanism",
+      "ES": "Mecanismo de colapso de seguridad",
+      "FR": "Mécanisme rétractile en cas d'alerte",
+      "IT": "Meccanismo di autodistruzione degli altiforni",
+      "PT": "Mecanismo de Colapso de Segurança"
     },
     "description": {
-      "EN": "Your large plants have a system that collapses the furnace into an underground cavity in the event that fuse metal leakage occurs: very effective in emergencies.",
-      "ES": "Your large plants have a system that collapses the furnace in an underground cavity in case of fuse metal leakage. Very effective in emergencies.",
-      "FR": "Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.",
       "DE": "Ihre großen Fabriken verfügen über ein System, das den Hochofen in eine unterirdische Grube zusammenbrechen lässt, wenn geschmolzenes Metall ausläuft. Im Notfall sehr effizient.",
-      "IT": "I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze."
+      "EN": "Your large plants have a system that collapses the furnace into an underground cavity in the event that fuse metal leakage occurs: very effective in emergencies.",
+      "ES": "Sus plantas grandes tienen un sistema que colapsa el horno en una cavidad subterránea en caso de que ocurra una fuga de metal por fusible: muy efectivo en emergencias.",
+      "FR": "Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.",
+      "IT": "I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze.",
+      "PT": "Suas grandes usinas têm um sistema que colapsa o forno em uma cavidade subterrânea no caso de vazamento de metal do fusível: muito eficaz em emergências."
     },
     "properties": {
       "price": 120000000,
@@ -787,18 +843,20 @@
     "id": "SuperconductorsProduction",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Superconductors Production",
       "EN": "Superconductor Production",
-      "ES": "Superconductors Production",
-      "FR": "Production de supraconducteurs",
-      "DE": "Produktion von Superleitern",
-      "IT": "Produzione di superconduttori"
+      "ES": "Producción de superconductores",
+      "FR": "Superconductors Production",
+      "IT": "Produzione di superconduttori",
+      "PT": "Produção Supercondutor"
     },
     "description": {
-      "EN": "By using the high end technology needed to produce superconductors, you improves your products quality.",
-      "ES": "By using the high end technology needed to produce superconductors, you improves your products quality.",
-      "FR": "En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.",
       "DE": "Durch die Nutzung der Spitzentechnologie, die zur Herstellung von Superleitern benötigt wird, verbessern Sie die Qualität Ihrer Produkte.",
-      "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti."
+      "EN": "By using the high end technology needed to produce superconductors, you improves your products quality.",
+      "ES": "Al utilizar la tecnología de gama alta necesaria para producir superconductores, usted mejora la calidad de sus productos.",
+      "FR": "En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.",
+      "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.",
+      "PT": "Usando a tecnologia de ponta necessária para produzir supercondutores, você melhora a qualidade de seus produtos."
     },
     "properties": {
       "price": 60000000,
@@ -815,18 +873,20 @@
     "id": "SuperconductorsProductionM",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Superconductors Production",
       "EN": "Superconductor Production",
-      "ES": "Superconductors Production",
-      "FR": "Production de supraconducteurs",
-      "DE": "Produktion von Superleitern",
-      "IT": "Produzione di superconduttori"
+      "ES": "Producción de superconductores",
+      "FR": "Superconductors Production",
+      "IT": "Produzione di superconduttori",
+      "PT": "Produção Supercondutor"
     },
     "description": {
-      "EN": "By using the high-end technology needed to produce superconductors, you increase the quality of your products.",
-      "ES": "By using the high end technology needed to produce superconductors, you improves your products quality.",
-      "FR": "En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.",
       "DE": "Durch die Nutzung der Spitzentechnologie, die zur Herstellung von Superleitern benötigt wird, verbessern Sie die Qualität Ihrer Produkte.",
-      "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti."
+      "EN": "By using the high-end technology needed to produce superconductors, you increase the quality of your products.",
+      "ES": "Al utilizar la tecnología de gama alta necesaria para producir superconductores, aumenta la calidad de sus productos.",
+      "FR": "En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.",
+      "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.",
+      "PT": "Usando a tecnologia de ponta necessária para produzir supercondutores, você aumenta a qualidade de seus produtos."
     },
     "properties": {
       "price": 60000000,
@@ -843,18 +903,20 @@
     "id": "UltimateTitaniumAlloy",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ultimate Titanium Alloy",
-      "ES": "Ultimate Titanium Alloy",
-      "FR": "Alliage de titane absolu",
       "DE": "Ultimative Titanlegierung",
-      "IT": "Lega al titanio ultra-resistente"
+      "EN": "Ultimate Titanium Alloy",
+      "ES": "La mejor aleación de titanio",
+      "FR": "Alliage de titane absolu",
+      "IT": "Lega al titanio ultra-resistente",
+      "PT": "Liga de titânio final"
     },
     "description": {
-      "EN": "Production of the strongest metal alloy ever created by men. Used mainly in aerospace industry.",
-      "ES": "Production of the strongest metal alloy ever created by men. Used mainly in aerospace industry.",
-      "FR": "Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.",
       "DE": "Produktion der haltbarsten Metalllegierung, die je von Menschen hergestellt wurde. Hauptsächlich für die Raumfahrt.",
-      "IT": "La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale."
+      "EN": "Production of the strongest metal alloy ever created by men. Used mainly in aerospace industry.",
+      "ES": "Producción de la aleación de metal más fuerte jamás creada por los hombres. Utilizado principalmente en la industria aeroespacial.",
+      "FR": "Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.",
+      "IT": "La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale.",
+      "PT": "Produção da liga metálica mais forte já criada pelos homens. Usado principalmente na indústria aeroespacial."
     },
     "properties": {
       "price": 80000000,
@@ -872,18 +934,20 @@
     "id": "UltimateTitaniumAlloyM",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Ultimate Titanium Alloy",
-      "ES": "Ultimate Titanium Alloy",
-      "FR": "Alliage de titane absolu",
       "DE": "Ultimative Titanlegierung",
-      "IT": "Lega al titanio ultra-resistente"
+      "EN": "Ultimate Titanium Alloy",
+      "ES": "La mejor aleación de titanio",
+      "FR": "Alliage de titane absolu",
+      "IT": "Lega al titanio ultra-resistente",
+      "PT": "Liga de titânio final"
     },
     "description": {
-      "EN": "Production of the strongest metal alloy ever created by man; used mainly in the aerospace industry.",
-      "ES": "Production of the strongest metal alloy ever created by men. Used mainly in aerospace industry.",
-      "FR": "Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.",
       "DE": "Produktion der haltbarsten Metalllegierung, die je von Menschen hergestellt wurde. Hauptsächlich für die Raumfahrt.",
-      "IT": "La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale."
+      "EN": "Production of the strongest metal alloy ever created by man; used mainly in the aerospace industry.",
+      "ES": "Producción de la aleación de metal más fuerte jamás creada por el hombre; Utilizado principalmente en la industria aeroespacial.",
+      "FR": "Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.",
+      "IT": "La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale.",
+      "PT": "Produção da liga metálica mais forte já criada pelo homem; usado principalmente na indústria aeroespacial."
     },
     "properties": {
       "price": 80000000,

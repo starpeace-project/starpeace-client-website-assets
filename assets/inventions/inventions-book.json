@@ -3,18 +3,20 @@
     "id": "AlienWriting",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Alien Books",
-      "ES": "Alien Writing",
-      "FR": "Livres dextraterrestres",
       "DE": "Alien Writing",
-      "IT": "Alien Writing"
+      "EN": "Alien Books",
+      "ES": "Libros extranjeros",
+      "FR": "Livres dextraterrestres",
+      "IT": "Alien Writing",
+      "PT": "Livros estrangeiros"
     },
     "description": {
-      "EN": "Produce books written with invented Alien languages, great for sci-fi fanatics. A niche market but valuable nonetheless.",
-      "ES": "Produce books written with invented alien languages for Sci-Fi fanatics. A niche market but valuable nonetheless.",
-      "FR": "Produisez des livres écrits dans des langues extraterrestres inventées; excellent pour les fanatiques de science fiction. Un marché à créneaux spécifique mais néanmoins intéressant",
       "DE": "Produce books written with invented alien languages for Sci-Fi fanatics. A niche market but valuable nonetheless.",
-      "IT": "Produce books written with invented alien languages for Sci-Fi fanatics. A niche market but valuable nonetheless."
+      "EN": "Produce books written with invented Alien languages, great for sci-fi fanatics. A niche market but valuable nonetheless.",
+      "ES": "Produce libros escritos con lenguajes alienígenas inventados, ideales para fanáticos de la ciencia ficción. Un nicho de mercado pero no obstante valioso.",
+      "FR": "Produisez des livres écrits dans des langues extraterrestres inventées; excellent pour les fanatiques de science fiction. Un marché à créneaux spécifique mais néanmoins intéressant",
+      "IT": "Produce books written with invented alien languages for Sci-Fi fanatics. A niche market but valuable nonetheless.",
+      "PT": "Produza livros escritos com idiomas estrangeiros inventados, ótimo para fanáticos por ficção científica. Um nicho de mercado, mas valioso, no entanto."
     },
     "properties": {
       "price": 40000000,
@@ -30,18 +32,20 @@
     "id": "BigLetters",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Large Font Books",
-      "ES": "Big Letters",
-      "FR": "Livres en grand police des caractères",
       "DE": "Big Letters",
-      "IT": "Big Letters"
+      "EN": "Large Font Books",
+      "ES": "Libros de fuentes grandes",
+      "FR": "Livres en grand police des caractères",
+      "IT": "Big Letters",
+      "PT": "Livros grandes de fontes"
     },
     "description": {
-      "EN": "Older customers like to read books with a large font so that they don't tire out their eyes: a sensible and lucrative line of products.",
-      "ES": "Old people like to read books with big prints that don't tire their eyes. A sensible and lucrative line of products.",
-      "FR": "Les clients plus âgés aiment lire des livres à grands caractères dimprimerie qui ne fatiguent pas les yeux: une ligne des produits sensé et lucrative.",
       "DE": "Old people like to read books with big prints that don't tire their eyes. A sensible and lucrative line of products.",
-      "IT": "Old people like to read books with big prints that don't tire their eyes. A sensible and lucrative line of products."
+      "EN": "Older customers like to read books with a large font so that they don't tire out their eyes: a sensible and lucrative line of products.",
+      "ES": "A los clientes mayores les gusta leer libros con una fuente grande para que no se cansen: una línea de productos sensata y lucrativa.",
+      "FR": "Les clients plus âgés aiment lire des livres à grands caractères dimprimerie qui ne fatiguent pas les yeux: une ligne des produits sensé et lucrative.",
+      "IT": "Old people like to read books with big prints that don't tire their eyes. A sensible and lucrative line of products.",
+      "PT": "Os clientes mais antigos gostam de ler livros com uma fonte grande para não cansarem os olhos: uma linha de produtos sensata e lucrativa."
     },
     "properties": {
       "price": 40000000,
@@ -59,18 +63,20 @@
     "id": "bookBedtime",
     "category": "COMMERCE",
     "name": {
-      "EN": "Beds",
-      "ES": "Beds",
-      "FR": "Lits",
       "DE": "Beds",
-      "IT": "Letti"
+      "EN": "Beds",
+      "ES": "Camas",
+      "FR": "Lits",
+      "IT": "Letti",
+      "PT": "Camas"
     },
     "description": {
-      "EN": "Add beds to your stores reading areas so that people can try bedtime books and stories.",
-      "ES": "Add beds to reading areas in your stores so people can try bed-time books and stories.",
-      "FR": "Add beds to reading areas in your stores so people can try bed-time books and stories.",
       "DE": "Add beds to reading areas in your stores so people can try bed-time books and stories.",
-      "IT": "Aggiungi letti alle zone di lettura dei tuoi negozi, in modo che i clienti possano provare libri e storie da leggere ai bambini prima che si addormentino."
+      "EN": "Add beds to your stores reading areas so that people can try bedtime books and stories.",
+      "ES": "Agregue camas a las áreas de lectura de sus tiendas para que las personas puedan probar libros e historias a la hora de acostarse.",
+      "FR": "Add beds to reading areas in your stores so people can try bed-time books and stories.",
+      "IT": "Aggiungi letti alle zone di lettura dei tuoi negozi, in modo che i clienti possano provare libri e storie da leggere ai bambini prima che si addormentino.",
+      "PT": "Adicione camas às suas lojas, lendo as áreas para que as pessoas possam experimentar livros e histórias para dormir."
     },
     "properties": {
       "price": 15000000,
@@ -84,18 +90,20 @@
     "id": "bookBestOnly",
     "category": "COMMERCE",
     "name": {
-      "EN": "Best-Sellers Only",
-      "ES": "Best Sellers Only",
-      "FR": "Seulement Best-Sellers",
       "DE": "Best Sellers Only",
-      "IT": "Solo best seller"
+      "EN": "Best-Sellers Only",
+      "ES": "Sólo los más vendidos",
+      "FR": "Seulement Best-Sellers",
+      "IT": "Solo best seller",
+      "PT": "Apenas os melhores vendedores"
     },
     "description": {
-      "EN": "Your shops will only sell best-sellers.",
-      "ES": "Your shops will sell best-sellers only.",
-      "FR": "Vos magasins vendront seulement les best-seller.",
       "DE": "Your shops will sell best-sellers only.",
-      "IT": "I tuoi negozi vendono esclusivamente best seller."
+      "EN": "Your shops will only sell best-sellers.",
+      "ES": "Tus tiendas solo venderán best-sellers.",
+      "FR": "Vos magasins vendront seulement les best-seller.",
+      "IT": "I tuoi negozi vendono esclusivamente best seller.",
+      "PT": "Suas lojas só venderão best-sellers."
     },
     "properties": {
       "price": 5000000,
@@ -109,18 +117,20 @@
     "id": "bookBookLaunch",
     "category": "COMMERCE",
     "name": {
-      "EN": "Book Launchings",
-      "ES": "Book Launchings",
-      "FR": "Les lancements de livre",
       "DE": "Book Launchings",
-      "IT": "Presentazioni di libri"
+      "EN": "Book Launchings",
+      "ES": "Lanzamiento de libros",
+      "FR": "Les lancements de livre",
+      "IT": "Presentazioni di libri",
+      "PT": "Lançamentos de livros"
     },
     "description": {
-      "EN": "Sign some popular authors to exclusively launch their books with your bookstore chain.",
-      "ES": "Sign some popular authors to launch their books exclusively on your bookstore chain.",
-      "FR": "Signez des auteurs populaires pour lancer leurs livres exclusivement dans votre chaîne de librairie.",
       "DE": "Sign some popular authors to launch their books exclusively on your bookstore chain.",
-      "IT": "Ti accaparri in esclusiva presso la tua catena di librerie la presentazione delle novità di autori molto popolari."
+      "EN": "Sign some popular authors to exclusively launch their books with your bookstore chain.",
+      "ES": "Firma algunos autores populares para lanzar sus libros exclusivamente con tu cadena de librerías.",
+      "FR": "Signez des auteurs populaires pour lancer leurs livres exclusivement dans votre chaîne de librairie.",
+      "IT": "Ti accaparri in esclusiva presso la tua catena di librerie la presentazione delle novità di autori molto popolari.",
+      "PT": "Assine alguns autores populares para lançar seus livros exclusivamente com sua rede de livrarias."
     },
     "properties": {
       "price": 75000000,
@@ -135,18 +145,20 @@
     "id": "bookBookWhore",
     "category": "COMMERCE",
     "name": {
-      "EN": "Flirting",
-      "ES": "Flirting",
-      "FR": "Flirting",
       "DE": "Flirting",
-      "IT": "Flirt"
+      "EN": "Flirting",
+      "ES": "Flirteador",
+      "FR": "Flirting",
+      "IT": "Flirt",
+      "PT": "Flertando"
     },
     "description": {
-      "EN": "You hire attractive people to flirt with customers and discuss Melville at a nearby cafe.",
-      "ES": "You hire nice looking people to flirt with potential customers and offer to discuss Melville at a nearby cafe.",
-      "FR": "You hire nice looking people to flirt with potential customers and offer to discuss Melville at a nearby cafe.",
       "DE": "You hire nice looking people to flirt with potential customers and offer to discuss Melville at a nearby cafe.",
-      "IT": "Assumi impiegate ed impiegati piacenti perché flirtino con la clientela e propongano di discutere Melville nei bar dei paraggi."
+      "EN": "You hire attractive people to flirt with customers and discuss Melville at a nearby cafe.",
+      "ES": "Usted contrata a personas atractivas para coquetear con los clientes y hablar sobre Melville en una cafetería cercana.",
+      "FR": "You hire nice looking people to flirt with potential customers and offer to discuss Melville at a nearby cafe.",
+      "IT": "Assumi impiegate ed impiegati piacenti perché flirtino con la clientela e propongano di discutere Melville nei bar dei paraggi.",
+      "PT": "Você contrata pessoas atraentes para flertar com os clientes e discutir Melville em um café nas proximidades."
     },
     "properties": {
       "price": 45000000,
@@ -160,18 +172,20 @@
     "id": "bookDigitalCatalog",
     "category": "COMMERCE",
     "name": {
-      "EN": "Digital Catalog",
-      "ES": "Digital Catalog",
-      "FR": "Catalogue Digital",
       "DE": "Digital Catalog",
-      "IT": "Catalogo digitale"
+      "EN": "Digital Catalog",
+      "ES": "Catalogo digital",
+      "FR": "Catalogue Digital",
+      "IT": "Catalogo digitale",
+      "PT": "Catálogo Digital"
     },
     "description": {
-      "EN": "Your stores will have computers in the aisles so customers can easily find the books they want.",
-      "ES": "Your stores will have computers in the halls so customers can find easily the books they want.",
-      "FR": "Vos magasins auront des ordinateurs dans les couloirs ainsi que les clients peuvent facilement trouver les livres qu'ils veulent.",
       "DE": "Your stores will have computers in the halls so customers can find easily the books they want.",
-      "IT": "Le tue librerie sono dotate di computer in modo che i clienti possano trovare con facilità i libri che cercano."
+      "EN": "Your stores will have computers in the aisles so customers can easily find the books they want.",
+      "ES": "Sus tiendas tendrán computadoras en los pasillos para que los clientes puedan encontrar fácilmente los libros que desean.",
+      "FR": "Vos magasins auront des ordinateurs dans les couloirs ainsi que les clients peuvent facilement trouver les livres qu'ils veulent.",
+      "IT": "Le tue librerie sono dotate di computer in modo che i clienti possano trovare con facilità i libri che cercano.",
+      "PT": "Suas lojas terão computadores nos corredores para que os clientes possam encontrar facilmente os livros que desejam."
     },
     "properties": {
       "price": 35000000,
@@ -185,18 +199,20 @@
     "id": "bookFinding",
     "category": "COMMERCE",
     "name": {
-      "EN": "Book Finding Service",
-      "ES": "Book Finding",
-      "FR": "Recherche de Livre",
       "DE": "Book Finding",
-      "IT": "Servizio di ricerca dei libri"
+      "EN": "Book Finding Service",
+      "ES": "Servicio de búsqueda de libros",
+      "FR": "Recherche de Livre",
+      "IT": "Servizio di ricerca dei libri",
+      "PT": "Serviço de Pesquisa de Livros"
     },
     "description": {
-      "EN": "Form a bookstore network that allows customers to locate rare books.",
-      "ES": "Form part of a bookstore network that allows customers to locate rare books.",
-      "FR": "Form part of a bookstore network that allows customers to locate rare books.",
       "DE": "Form part of a bookstore network that allows customers to locate rare books.",
-      "IT": "Ti associ ad una rete di librerie che aiuta i clienti a rintracciare i libri rari."
+      "EN": "Form a bookstore network that allows customers to locate rare books.",
+      "ES": "Forme una red de librerías que permita a los clientes localizar libros raros.",
+      "FR": "Form part of a bookstore network that allows customers to locate rare books.",
+      "IT": "Ti associ ad una rete di librerie che aiuta i clienti a rintracciare i libri rari.",
+      "PT": "Forme uma rede de livrarias que permita aos clientes localizar livros raros."
     },
     "properties": {
       "price": 35000000,
@@ -210,18 +226,20 @@
     "id": "bookHolobooks",
     "category": "COMMERCE",
     "name": {
-      "EN": "Holo-Books",
-      "ES": "Holo-Books",
-      "FR": "Livres Holographique",
       "DE": "Holo-Books",
-      "IT": "Olo-libri"
+      "EN": "Holo-Books",
+      "ES": "Holo-libros",
+      "FR": "Livres Holographique",
+      "IT": "Olo-libri",
+      "PT": "Holo-Books"
     },
     "description": {
-      "EN": "Create holographic books to stock store shelves so that real books don't get damaged. Holo-books can also be taken home for a trial period. They will vanish after a pre-set number of days.",
-      "ES": "Create holographics version of books for the shelves so real books won't get damaged. Holo-books can be taken home for a trial period as well. They will vanish after a set number of days.",
-      "FR": "Créez les versions olographes des livres pour vos magasins de sorte que les vrais livres ne sont pas endommagés. En plus, les Holo-livres peuvent être emmenés à la maison pendant une période d'essai. Ils disparaîtront après un temps fixe.",
       "DE": "Create holographics version of books for the shelves so real books won't get damaged. Holo-books can be taken home for a trial period as well. They will vanish after a set number of days.",
-      "IT": "Esponi versioni olografiche dei libri in modo che non vengano danneggiati quelli veri. Gli olo-libri possono essere portati a casa per un periodo di prova, e svaniscono dopo qualche giorno."
+      "EN": "Create holographic books to stock store shelves so that real books don't get damaged. Holo-books can also be taken home for a trial period. They will vanish after a pre-set number of days.",
+      "ES": "Cree libros holográficos en los estantes de las tiendas para que los libros reales no se dañen. Los Holo-libros también pueden llevarse a casa por un período de prueba. Desaparecerán después de un número preestablecido de días.",
+      "FR": "Créez les versions olographes des livres pour vos magasins de sorte que les vrais livres ne sont pas endommagés. En plus, les Holo-livres peuvent être emmenés à la maison pendant une période d'essai. Ils disparaîtront après un temps fixe.",
+      "IT": "Esponi versioni olografiche dei libri in modo che non vengano danneggiati quelli veri. Gli olo-libri possono essere portati a casa per un periodo di prova, e svaniscono dopo qualche giorno.",
+      "PT": "Crie livros holográficos para estocar as prateleiras das lojas para que os livros reais não sejam danificados. Holo-books também podem ser levados para casa por um período experimental. Eles desaparecerão após um número de dias pré-definido."
     },
     "properties": {
       "price": 65000000,
@@ -235,18 +253,20 @@
     "id": "bookKids",
     "category": "COMMERCE",
     "name": {
-      "EN": "Kid's Section",
-      "ES": "Kids Section",
-      "FR": "Livres pour les Enfants",
       "DE": "Kids Section",
-      "IT": "Sezione per i bambini"
+      "EN": "Kid's Section",
+      "ES": "Sección infantil",
+      "FR": "Livres pour les Enfants",
+      "IT": "Sezione per i bambini",
+      "PT": "Seção infantil"
     },
     "description": {
-      "EN": "Create a department in your stores that will feature books only for kids and people who have suffered severe brain-damage.",
-      "ES": "Create a department in your stores that will feature only books for kids and people who have suffered severe brain-damage.",
-      "FR": "Créez un département dans vos magasins qui comporteront seulement des livres pour les enfants et les personnes qui ont souffert du dommages graves au cerveau.",
       "DE": "Create a department in your stores that will feature only books for kids and people who have suffered severe brain-damage.",
-      "IT": "Crei una sezione nelle tue librerie riservata ai bambini e a coloro che hanno subito gravi danni cerebrali."
+      "EN": "Create a department in your stores that will feature books only for kids and people who have suffered severe brain-damage.",
+      "ES": "Cree un departamento en sus tiendas que incluya libros solo para niños y personas que hayan sufrido daños cerebrales graves.",
+      "FR": "Créez un département dans vos magasins qui comporteront seulement des livres pour les enfants et les personnes qui ont souffert du dommages graves au cerveau.",
+      "IT": "Crei una sezione nelle tue librerie riservata ai bambini e a coloro che hanno subito gravi danni cerebrali.",
+      "PT": "Crie um departamento em suas lojas que contará com livros apenas para crianças e pessoas que sofreram danos cerebrais graves."
     },
     "properties": {
       "price": 25000000,
@@ -260,18 +280,20 @@
     "id": "bookLiveWriting",
     "category": "COMMERCE",
     "name": {
-      "EN": "Live Writing",
-      "ES": "Live Writing",
-      "FR": "Ecrivans Vivent",
       "DE": "Live Writing",
-      "IT": "Scrittura dal vivo"
+      "EN": "Live Writing",
+      "ES": "Escritura en vivo",
+      "FR": "Ecrivans Vivent",
+      "IT": "Scrittura dal vivo",
+      "PT": "Escrita ao vivo"
     },
     "description": {
-      "EN": "Make some of the signed authors go to your stores one day every month and sit in a glass cubicle where he or she will pretend to be working on his/her new project.",
-      "ES": "Make some of the signed authors go to your stores one day every month and sit in a glass cubicle where he or she will pretend to be working on his/her new project.",
-      "FR": "Vous obligez vos auteurs signés daller à vos magasins un jour chaque mois et se reposer dans un compartiment de verre où lui ou elle feindra travailler sur leur nouveau projet.",
       "DE": "Make some of the signed authors go to your stores one day every month and sit in a glass cubicle where he or she will pretend to be working on his/her new project.",
-      "IT": "Convinci alcuni degli scrittori che hai assunto a recarsi in libreria un giorno al mese e lavorare in una cabina dalle pareti trasparenti, per la gioia della clientela."
+      "EN": "Make some of the signed authors go to your stores one day every month and sit in a glass cubicle where he or she will pretend to be working on his/her new project.",
+      "ES": "Haga que algunos de los autores firmados vayan a sus tiendas un día al mes y se sienten en un cubículo de vidrio donde él o ella fingirán estar trabajando en su nuevo proyecto.",
+      "FR": "Vous obligez vos auteurs signés daller à vos magasins un jour chaque mois et se reposer dans un compartiment de verre où lui ou elle feindra travailler sur leur nouveau projet.",
+      "IT": "Convinci alcuni degli scrittori che hai assunto a recarsi in libreria un giorno al mese e lavorare in una cabina dalle pareti trasparenti, per la gioia della clientela.",
+      "PT": "Faça com que alguns dos autores assinados vão às suas lojas um dia por mês e se sentem em um cubículo de vidro onde ele ou ela fingirão estar trabalhando em seu novo projeto."
     },
     "properties": {
       "price": 75000000,
@@ -286,18 +308,20 @@
     "id": "bookMisinformation",
     "category": "COMMERCE",
     "name": {
-      "EN": "Positive Misinformation",
-      "ES": "Positive Misinformation",
-      "FR": "Information Fausse Mais Postivie",
       "DE": "Positive Misinformation",
-      "IT": "Disinformazione costruttiva"
+      "EN": "Positive Misinformation",
+      "ES": "Desinformación positiva",
+      "FR": "Information Fausse Mais Postivie",
+      "IT": "Disinformazione costruttiva",
+      "PT": "Desinformação Positiva"
     },
     "description": {
-      "EN": "You create flyers and posters with false statements and statistics to make your customers feel smarter: \"To have never finished a book is a sign of intelligence.\"- Goethe",
-      "ES": "You create flyers and posters with all sort of false statements and statistics to make your customers feel smarter: \"To have never finished a book is a sign of intelligence. - Goethe\"",
-      "FR": "Vous créez des feuillets et affiches avec toutes sortes de rapports et statistiques faux pour faire vos clients se sentire plus intelligent: \"ne jamais avoir fini un livre est un signe d'intelligence. - Goethe \"",
       "DE": "You create flyers and posters with all sort of false statements and statistics to make your customers feel smarter: \"To have never finished a book is a sign of intelligence. - Goethe\"",
-      "IT": "Produci depliant e poster pieni di citazioni e statistiche false, in modo che i clienti possano sentirsi superiori: \"Non aver mai terminato un libro è un segno di intelligenza. - Goethe\""
+      "EN": "You create flyers and posters with false statements and statistics to make your customers feel smarter: \"To have never finished a book is a sign of intelligence.\"- Goethe",
+      "ES": "Crea volantes y carteles con declaraciones y estadísticas falsas para que sus clientes se sientan más inteligentes: \"Nunca haber terminado un libro es un signo de inteligencia\". - Goethe",
+      "FR": "Vous créez des feuillets et affiches avec toutes sortes de rapports et statistiques faux pour faire vos clients se sentire plus intelligent: \"ne jamais avoir fini un livre est un signe d'intelligence. - Goethe \"",
+      "IT": "Produci depliant e poster pieni di citazioni e statistiche false, in modo che i clienti possano sentirsi superiori: \"Non aver mai terminato un libro è un segno di intelligenza. - Goethe\"",
+      "PT": "Você cria panfletos e cartazes com declarações falsas e estatísticas para fazer seus clientes se sentirem mais inteligentes: \"Nunca ter terminado um livro é um sinal de inteligência.\" - Goethe"
     },
     "properties": {
       "price": 25000000,
@@ -310,18 +334,20 @@
     "id": "bookPoetClub",
     "category": "COMMERCE",
     "name": {
-      "EN": "Poetry Club",
-      "ES": "Poetry Club",
-      "FR": "Club de Poésie",
       "DE": "Poetry Club",
-      "IT": "Club della poesia"
+      "EN": "Poetry Club",
+      "ES": "Club de poesía",
+      "FR": "Club de Poésie",
+      "IT": "Club della poesia",
+      "PT": "Clube de Poesia"
     },
     "description": {
-      "EN": "You have a pedantic poetry club perform by the aisles where the low-priced classics are shelved. Customers will be diverted to more expensive sections.",
-      "ES": "You have a pedantic Poetry Club perform in the halls of classical-low priced books. Customers will be diverted to more expensive sections.",
-      "FR": "Vous avez un club pedantic de poésie exécuter dans les coulloires des livres classiques à bas prix. Vos clients seront détournés à des sections plus chères.",
       "DE": "You have a pedantic Poetry Club perform in the halls of classical-low priced books. Customers will be diverted to more expensive sections.",
-      "IT": "Chiedi ai noiosissimi iscritti di un club della poesia di esibirsi nei corridoi della sezione dei classici tascabili. I clienti fuggiranno verso sezioni in cui i libri sono più costosi."
+      "EN": "You have a pedantic poetry club perform by the aisles where the low-priced classics are shelved. Customers will be diverted to more expensive sections.",
+      "ES": "Usted tiene un club de poesía pedante en los pasillos donde se guardan los clásicos de bajo precio. Los clientes serán desviados a secciones más caras.",
+      "FR": "Vous avez un club pedantic de poésie exécuter dans les coulloires des livres classiques à bas prix. Vos clients seront détournés à des sections plus chères.",
+      "IT": "Chiedi ai noiosissimi iscritti di un club della poesia di esibirsi nei corridoi della sezione dei classici tascabili. I clienti fuggiranno verso sezioni in cui i libri sono più costosi.",
+      "PT": "Você tem um clube de poesia pedante executado pelos corredores onde os clássicos de baixo preço são arquivados. Os clientes serão desviados para seções mais caras."
     },
     "properties": {
       "price": 15000000,
@@ -335,18 +361,20 @@
     "id": "bookPoliticallyCorrect",
     "category": "COMMERCE",
     "name": {
-      "EN": "Politically Correct Books",
-      "ES": "Big Sizes",
-      "FR": "Livres Politiquement Correct",
       "DE": "Big Sizes",
-      "IT": "Solo libri politicamente corretti"
+      "EN": "Politically Correct Books",
+      "ES": "Libros políticamente correctos",
+      "FR": "Livres Politiquement Correct",
+      "IT": "Solo libri politicamente corretti",
+      "PT": "Livros politicamente corretos"
     },
     "description": {
-      "EN": "Your stores will only publish books certified to be non-offensive to any cult, race, idea or thing embraced or known by any number of persons or things in the past, present or future.",
-      "ES": "Your stores will publish only books that have been certified as non-offensive to any cult, race, idea or thing embraced or known by any number of persons or things from zero to infinite in the past, present or future.",
-      "FR": "Vos magasins publieront seulement les livres qui ont été certifiés comme non-offensifs à n'importe quelle culte, race, idée ou chose embrassée ou connue par tout nombre de personnes ou de choses de zéro à infini dans le passé, présent ou le futur.",
       "DE": "Your stores will publish only books that have been certified as non-offensive to any cult, race, idea or thing embraced or known by any number of persons or things from zero to infinite in the past, present or future.",
-      "IT": "Le tue librerie espongono solo libri che non siano ritenuti offensivi da alcun culto, razza, ideale o entità presenti, passati o futuri."
+      "EN": "Your stores will only publish books certified to be non-offensive to any cult, race, idea or thing embraced or known by any number of persons or things in the past, present or future.",
+      "ES": "Sus tiendas solo publicarán libros certificados como no ofensivos para cualquier culto, raza, idea o cosa adoptada o conocida por cualquier número de personas o cosas en el pasado, presente o futuro.",
+      "FR": "Vos magasins publieront seulement les livres qui ont été certifiés comme non-offensifs à n'importe quelle culte, race, idée ou chose embrassée ou connue par tout nombre de personnes ou de choses de zéro à infini dans le passé, présent ou le futur.",
+      "IT": "Le tue librerie espongono solo libri che non siano ritenuti offensivi da alcun culto, razza, ideale o entità presenti, passati o futuri.",
+      "PT": "Suas lojas só publicarão livros certificados como não ofensivos a qualquer culto, raça, ideia ou coisa adotada ou conhecida por qualquer número de pessoas ou coisas no passado, presente ou futuro."
     },
     "properties": {
       "price": 55000000,
@@ -361,18 +389,20 @@
     "id": "booksBraile",
     "category": "COMMERCE",
     "name": {
-      "EN": "Braille Section",
-      "ES": "Braile Section",
-      "FR": "Livres Braille",
       "DE": "Braile Section",
-      "IT": "Libri per ciechi"
+      "EN": "Braille Section",
+      "ES": "Sección braille",
+      "FR": "Livres Braille",
+      "IT": "Libri per ciechi",
+      "PT": "Seção Braille"
     },
     "description": {
-      "EN": "Your bookstores will have a Braille book section for blind customers.",
-      "ES": "Your bookstores will have a section for blind people.",
-      "FR": "Vos librairies auront une section pour les personnes aveugles.",
       "DE": "Your bookstores will have a section for blind people.",
-      "IT": "Le tue librerie sono dotate di una sezione di testi in braille."
+      "EN": "Your bookstores will have a Braille book section for blind customers.",
+      "ES": "Sus librerías tendrán una sección de libros en braille para clientes ciegos.",
+      "FR": "Vos librairies auront une section pour les personnes aveugles.",
+      "IT": "Le tue librerie sono dotate di una sezione di testi in braille.",
+      "PT": "Suas livrarias terão uma seção de livros em Braille para clientes cegos."
     },
     "properties": {
       "price": 15000000,
@@ -387,18 +417,20 @@
     "id": "bookTrailers",
     "category": "COMMERCE",
     "name": {
-      "EN": "Books Trailers",
-      "ES": "Books Trailers",
-      "FR": "Réserve des bas de page",
       "DE": "Books Trailers",
-      "IT": "Trailer dei libri"
+      "EN": "Books Trailers",
+      "ES": "Remolques de libros",
+      "FR": "Réserve des bas de page",
+      "IT": "Trailer dei libri",
+      "PT": "Trailers de livros"
     },
     "description": {
-      "EN": "You will produce CGI trailers for the books you sell to spark interest in your clientele.",
-      "ES": "You will produce CGI trailers for the books you sell to spark interest in your clientele.",
-      "FR": "Vous produirez des bas de page de CGI pour les livres que vous vendez de façon à éveiller lintérêt de votre clientèle.",
       "DE": "You will produce CGI trailers for the books you sell to spark interest in your clientele.",
-      "IT": "Produci trailer digitali delle novità editoriali in modo da ravvivare l'interesse della tua clientela."
+      "EN": "You will produce CGI trailers for the books you sell to spark interest in your clientele.",
+      "ES": "Producirá remolques CGI para los libros que vende para despertar el interés en su clientela.",
+      "FR": "Vous produirez des bas de page de CGI pour les livres que vous vendez de façon à éveiller lintérêt de votre clientèle.",
+      "IT": "Produci trailer digitali delle novità editoriali in modo da ravvivare l'interesse della tua clientela.",
+      "PT": "Você vai produzir trailers CGI para os livros que você vende para despertar o interesse em sua clientela."
     },
     "properties": {
       "price": 60000000,
@@ -412,18 +444,20 @@
     "id": "bookUsedBooks",
     "category": "COMMERCE",
     "name": {
-      "EN": "Used Books",
-      "ES": "Used Books",
-      "FR": "Livres Usés",
       "DE": "Used Books",
-      "IT": "Libri usati"
+      "EN": "Used Books",
+      "ES": "Libros usados",
+      "FR": "Livres Usés",
+      "IT": "Libri usati",
+      "PT": "Livros Usados"
     },
     "description": {
-      "EN": "Sell used books.",
-      "ES": "Sell used books.",
-      "FR": "Vendre Livres Usés",
       "DE": "Sell used books.",
-      "IT": "Vendi libri usati."
+      "EN": "Sell used books.",
+      "ES": "Vender libros usados.",
+      "FR": "Vendre Livres Usés",
+      "IT": "Vendi libri usati.",
+      "PT": "Venda livros usados."
     },
     "properties": {
       "price": 5000000,
@@ -438,18 +472,20 @@
     "id": "BrailleBooks",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Braille Books",
-      "ES": "Braille Books",
-      "FR": "Livres en Braille",
       "DE": "Braille Books",
-      "IT": "Braille Books"
+      "EN": "Braille Books",
+      "ES": "Libros de braille",
+      "FR": "Livres en Braille",
+      "IT": "Braille Books",
+      "PT": "Livros Braille"
     },
     "description": {
-      "EN": "Produce books in the Braille alphabet for the blind. While this is costly you seem socially conscious and compassionate.",
-      "ES": "Produce books in Braille alphabet for blind people. Costly but you come accross as a benefactor.",
-      "FR": "Produisez des livres en Braille pour les non-voyants. Bien que cela soit coûteux vous apparaîtrez ouverts au social et pleins de compassion.",
       "DE": "Produce books in Braille alphabet for blind people. Costly but you come accross as a benefactor.",
-      "IT": "Produce books in Braille alphabet for blind people. Costly but you come accross as a benefactor."
+      "EN": "Produce books in the Braille alphabet for the blind. While this is costly you seem socially conscious and compassionate.",
+      "ES": "Producir libros en el alfabeto braille para ciegos. Si bien esto es costoso, pareces socialmente consciente y compasivo.",
+      "FR": "Produisez des livres en Braille pour les non-voyants. Bien que cela soit coûteux vous apparaîtrez ouverts au social et pleins de compassion.",
+      "IT": "Produce books in Braille alphabet for blind people. Costly but you come accross as a benefactor.",
+      "PT": "Produza livros no alfabeto Braille para cegos. Embora isso seja caro, você parece socialmente consciente e compassivo."
     },
     "properties": {
       "price": 100000000,
@@ -466,18 +502,20 @@
     "id": "FirstEditionScam",
     "category": "INDUSTRY",
     "name": {
-      "EN": "First Edition Scam",
-      "ES": "First Edition Scam",
-      "FR": "Arnaque de première édition",
       "DE": "First Edition Scam",
-      "IT": "First Edition Scam"
+      "EN": "First Edition Scam",
+      "ES": "Estafa de primera edición",
+      "FR": "Arnaque de première édition",
+      "IT": "First Edition Scam",
+      "PT": "Primeira edição Scam"
     },
     "description": {
-      "EN": "When you print the first edition of a book, you put aside a number of copies to sell them as collector's items in the future, should the book become successful.",
-      "ES": "When you print the first edition of a book, you put aside a number of copies to sell them after several years as collection items if the book is successful.",
-      "FR": "Quand vous imprimez la première édition d'un livre, vous mettez de côté un certain nombre de copies pour les vendre comme articles de collection au cas où dans lavenir le livre remporterait un grand succès.",
       "DE": "When you print the first edition of a book, you put aside a number of copies to sell them after several years as collection items if the book is successful.",
-      "IT": "When you print the first edition of a book, you put aside a number of copies to sell them after several years as collection items if the book is successful."
+      "EN": "When you print the first edition of a book, you put aside a number of copies to sell them as collector's items in the future, should the book become successful.",
+      "ES": "Cuando imprime la primera edición de un libro, guarda un número de copias para venderlas como artículos de colección en el futuro, en caso de que el libro tenga éxito.",
+      "FR": "Quand vous imprimez la première édition d'un livre, vous mettez de côté un certain nombre de copies pour les vendre comme articles de collection au cas où dans lavenir le livre remporterait un grand succès.",
+      "IT": "When you print the first edition of a book, you put aside a number of copies to sell them after several years as collection items if the book is successful.",
+      "PT": "Quando você imprime a primeira edição de um livro, coloca de lado várias cópias para vendê-las como itens de colecionador no futuro, caso o livro seja bem-sucedido."
     },
     "properties": {
       "price": 80000000,
@@ -494,18 +532,20 @@
     "id": "FloweryLetters",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Fancy Font",
-      "ES": "Flowery Letters",
-      "FR": "Police dimprimerie de fantaisie",
       "DE": "Flowery Letters",
-      "IT": "Flowery Letters"
+      "EN": "Fancy Font",
+      "ES": "Fancy Font",
+      "FR": "Police dimprimerie de fantaisie",
+      "IT": "Flowery Letters",
+      "PT": "Fonte chique"
     },
     "description": {
-      "EN": "Use a beautiful artistic letter at the start of each chapter, imitating ancient manuscripts.",
-      "ES": "Put beautiful artistic letters at the start of the different chapters, just like in ancient miniated manuscripts.",
-      "FR": "Employez une belle lettre artistique au début de chaque chapitre, imitant les manuscrits antiques.",
       "DE": "Put beautiful artistic letters at the start of the different chapters, just like in ancient miniated manuscripts.",
-      "IT": "Put beautiful artistic letters at the start of the different chapters, just like in ancient miniated manuscripts."
+      "EN": "Use a beautiful artistic letter at the start of each chapter, imitating ancient manuscripts.",
+      "ES": "Use una hermosa carta artística al comienzo de cada capítulo, imitando manuscritos antiguos.",
+      "FR": "Employez une belle lettre artistique au début de chaque chapitre, imitant les manuscrits antiques.",
+      "IT": "Put beautiful artistic letters at the start of the different chapters, just like in ancient miniated manuscripts.",
+      "PT": "Use uma bela carta artística no início de cada capítulo, imitando manuscritos antigos."
     },
     "properties": {
       "price": 70000000,
@@ -522,18 +562,20 @@
     "id": "Flyers",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Flyers",
-      "ES": "Flyers",
-      "FR": "Feuillets",
       "DE": "Flyers",
-      "IT": "Flyers"
+      "EN": "Flyers",
+      "ES": "Volantes",
+      "FR": "Feuillets",
+      "IT": "Flyers",
+      "PT": "Folhetos"
     },
     "description": {
-      "EN": "Specialize in low-quality printing for flyers and other bulk advertisement products.",
-      "ES": "Specialize in low-quality printing for flyers and other bulk advertisement products.",
-      "FR": "Spécialisez-vous à  produire des impressions de basse qualité pour des feuillets et d'autres produits de publicité en bloc.",
       "DE": "Specialize in low-quality printing for flyers and other bulk advertisement products.",
-      "IT": "Specialize in low-quality printing for flyers and other bulk advertisement products."
+      "EN": "Specialize in low-quality printing for flyers and other bulk advertisement products.",
+      "ES": "Se especializa en la impresión de baja calidad para volantes y otros productos de publicidad a granel.",
+      "FR": "Spécialisez-vous à  produire des impressions de basse qualité pour des feuillets et d'autres produits de publicité en bloc.",
+      "IT": "Specialize in low-quality printing for flyers and other bulk advertisement products.",
+      "PT": "Especialize-se em impressão de baixa qualidade para folhetos e outros produtos de propaganda em massa."
     },
     "properties": {
       "price": 70000000,
@@ -550,18 +592,20 @@
     "id": "FontDatabase",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Font Database",
-      "ES": "Font Database",
-      "FR": "Base de données de polices",
       "DE": "Font Database",
-      "IT": "Font Database"
+      "EN": "Font Database",
+      "ES": "Base de datos de fuentes",
+      "FR": "Base de données de polices",
+      "IT": "Font Database",
+      "PT": "Banco de dados de fontes"
     },
     "description": {
-      "EN": "Any font ever invented on earth or on one of the new worlds is stored in a massive database. This ensures the maximum variety for your clients.",
-      "ES": "Any font ever invented on earth or on one of the new planets is stored in a huge database. Maximum variety for your clients.",
-      "FR": "N'importe quelle police dimprimerie, inventée sur terre ou dans un des nouveaux mondes, est gardée dans une grande base de données.  Ceci assure une variété maximale à vos clients.",
       "DE": "Any font ever invented on earth or on one of the new planets is stored in a huge database. Maximum variety for your clients.",
-      "IT": "Any font ever invented on earth or on one of the new planets is stored in a huge database. Maximum variety for your clients."
+      "EN": "Any font ever invented on earth or on one of the new worlds is stored in a massive database. This ensures the maximum variety for your clients.",
+      "ES": "Cualquier fuente inventada en la Tierra o en uno de los nuevos mundos se almacena en una base de datos masiva. Esto asegura la máxima variedad para sus clientes.",
+      "FR": "N'importe quelle police dimprimerie, inventée sur terre ou dans un des nouveaux mondes, est gardée dans une grande base de données.  Ceci assure une variété maximale à vos clients.",
+      "IT": "Any font ever invented on earth or on one of the new planets is stored in a huge database. Maximum variety for your clients.",
+      "PT": "Qualquer fonte já inventada na terra ou em um dos novos mundos é armazenada em um banco de dados enorme. Isso garante a máxima variedade para seus clientes."
     },
     "properties": {
       "price": 60000000,
@@ -577,18 +621,20 @@
     "id": "HighQualityPictures",
     "category": "INDUSTRY",
     "name": {
-      "EN": "High Quality Pictures",
-      "ES": "High Quality Pictures",
-      "FR": "Images de haute qualité",
       "DE": "High Quality Pictures",
-      "IT": "High Quality Pictures"
+      "EN": "High Quality Pictures",
+      "ES": "Fotos de alta calidad",
+      "FR": "Images de haute qualité",
+      "IT": "High Quality Pictures",
+      "PT": "Imagens de alta qualidade"
     },
     "description": {
-      "EN": "Specialize in printing very high quality pictures.",
-      "ES": "Specialize in printing pictures at a very high quality standard.",
-      "FR": "Spécialisez-vous en imprimant des images de très grande qualité.",
       "DE": "Specialize in printing pictures at a very high quality standard.",
-      "IT": "Specialize in printing pictures at a very high quality standard."
+      "EN": "Specialize in printing very high quality pictures.",
+      "ES": "Especializado en impresión de imágenes de muy alta calidad.",
+      "FR": "Spécialisez-vous en imprimant des images de très grande qualité.",
+      "IT": "Specialize in printing pictures at a very high quality standard.",
+      "PT": "Especialize-se em imprimir imagens de alta qualidade."
     },
     "properties": {
       "price": 50000000,
@@ -605,18 +651,20 @@
     "id": "HistoryOfPrinting",
     "category": "INDUSTRY",
     "name": {
-      "EN": "History of Printing",
-      "ES": "History of Printing",
-      "FR": "Histoire de l'impression",
       "DE": "History of Printing",
-      "IT": "History of Printing"
+      "EN": "History of Printing",
+      "ES": "Historia de la impresión",
+      "FR": "Histoire de l'impression",
+      "IT": "History of Printing",
+      "PT": "História da Impressão"
     },
     "description": {
-      "EN": "From Gutenberg to laser printing, study the history of printing to improve the quality of your products now.",
-      "ES": "From Gutenberg to laser printing, study all the advancement in the history of printing to improve the quality of your products.",
-      "FR": "De Gutenberg à l'impression laser, étudiez l'histoire de l'imprimerie pour améliorer la qualité de vos produits actuels.",
       "DE": "From Gutenberg to laser printing, study all the advancement in the history of printing to improve the quality of your products.",
-      "IT": "From Gutenberg to laser printing, study all the advancement in the history of printing to improve the quality of your products."
+      "EN": "From Gutenberg to laser printing, study the history of printing to improve the quality of your products now.",
+      "ES": "Desde Gutenberg hasta la impresión láser, estudie la historia de la impresión para mejorar la calidad de sus productos ahora.",
+      "FR": "De Gutenberg à l'impression laser, étudiez l'histoire de l'imprimerie pour améliorer la qualité de vos produits actuels.",
+      "IT": "From Gutenberg to laser printing, study all the advancement in the history of printing to improve the quality of your products.",
+      "PT": "De Gutenberg à impressão a laser, estude a história da impressão para melhorar a qualidade de seus produtos agora."
     },
     "properties": {
       "price": 40000000,
@@ -632,18 +680,20 @@
     "id": "Holograms",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Holograms",
-      "ES": "Holograms",
-      "FR": "Hologrammes",
       "DE": "Holograms",
-      "IT": "Holograms"
+      "EN": "Holograms",
+      "ES": "Hologramas",
+      "FR": "Hologrammes",
+      "IT": "Holograms",
+      "PT": "Hologramas"
     },
     "description": {
-      "EN": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.",
-      "ES": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.",
-      "FR": "Apprenez comment appliquer des hologrammes sur le papier.  Ils sont agréables à regarder mais difficiles à réaliser.",
       "DE": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.",
-      "IT": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge."
+      "EN": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.",
+      "ES": "Aprende a aplicar hologramas en papel. Son muy geniales y realmente difíciles de forjar.",
+      "FR": "Apprenez comment appliquer des hologrammes sur le papier.  Ils sont agréables à regarder mais difficiles à réaliser.",
+      "IT": "Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.",
+      "PT": "Aprenda como aplicar hologramas no papel. Eles são muito legais de se ver e realmente difíceis de forjar."
     },
     "properties": {
       "price": 100000000,
@@ -660,18 +710,20 @@
     "id": "LuxuryBindings",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Luxury Binding",
-      "ES": "Luxury Bindings",
-      "FR": "Reliure De luxe",
       "DE": "Luxury Bindings",
-      "IT": "Luxury Bindings"
+      "EN": "Luxury Binding",
+      "ES": "Encuadernación de lujo",
+      "FR": "Reliure De luxe",
+      "IT": "Luxury Bindings",
+      "PT": "Encadernação de luxo"
     },
     "description": {
-      "EN": "Use silk, leather and other resistant threads to make luxurious book covers.",
-      "ES": "Use silk and leather along with extra resistant threads to make the covers of your books.",
-      "FR": "Use silk, leather and other resistant threads to make luxurious book covers.",
       "DE": "Use silk and leather along with extra resistant threads to make the covers of your books.",
-      "IT": "Use silk and leather along with extra resistant threads to make the covers of your books."
+      "EN": "Use silk, leather and other resistant threads to make luxurious book covers.",
+      "ES": "Use seda, cuero y otros hilos resistentes para hacer cubiertas de libros de lujo.",
+      "FR": "Use silk, leather and other resistant threads to make luxurious book covers.",
+      "IT": "Use silk and leather along with extra resistant threads to make the covers of your books.",
+      "PT": "Use seda, couro e outros fios resistentes para fazer capas de livros de luxo."
     },
     "properties": {
       "price": 40000000,
@@ -688,18 +740,20 @@
     "id": "MintOutsourcing",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Banknote Outsourcing",
-      "ES": "Mint Outsourcing",
-      "FR": "Impartition des billets de banque",
       "DE": "Mint Outsourcing",
-      "IT": "Mint Outsourcing"
+      "EN": "Banknote Outsourcing",
+      "ES": "Externalización de billetes",
+      "FR": "Impartition des billets de banque",
+      "IT": "Mint Outsourcing",
+      "PT": "Terceirização de notas"
     },
     "description": {
-      "EN": "When the immigration rate in a new world is high, the mint can't produce enough local currency, they outsource banknote printing to your plants. Returns are high and it raises your business profile.",
-      "ES": "When the immigration rate is high in the new worlds, the mint can't produce enough local currency and out-sources banknote printing to your plants. The return is high and it raises your business profile.",
-      "FR": "Quand le taux d'immigration dans un nouveau monde est haut, lHôtel de la Monnaie ne peut pas produire assez de pièces en monnaie locale, ils commandent alors limpression de billets de banque à vos usines.  Les retours sont élevés et le contrat améliore le profil de votre entreprise.",
       "DE": "When the immigration rate is high in the new worlds, the mint can't produce enough local currency and out-sources banknote printing to your plants. The return is high and it raises your business profile.",
-      "IT": "When the immigration rate is high in the new worlds, the mint can't produce enough local currency and out-sources banknote printing to your plants. The return is high and it raises your business profile."
+      "EN": "When the immigration rate in a new world is high, the mint can't produce enough local currency, they outsource banknote printing to your plants. Returns are high and it raises your business profile.",
+      "ES": "Cuando la tasa de inmigración en un nuevo mundo es alta, la menta no puede producir suficiente moneda local, externalizan la impresión de billetes a sus plantas. Las devoluciones son altas y eleva su perfil de negocio.",
+      "FR": "Quand le taux d'immigration dans un nouveau monde est haut, lHôtel de la Monnaie ne peut pas produire assez de pièces en monnaie locale, ils commandent alors limpression de billets de banque à vos usines.  Les retours sont élevés et le contrat améliore le profil de votre entreprise.",
+      "IT": "When the immigration rate is high in the new worlds, the mint can't produce enough local currency and out-sources banknote printing to your plants. The return is high and it raises your business profile.",
+      "PT": "Quando a taxa de imigração em um novo mundo é alta, a hortelã não pode produzir moeda local suficiente, eles terceirizam a impressão de notas para suas fábricas. Os retornos são altos e aumentam o perfil da sua empresa."
     },
     "properties": {
       "price": 150000000,
@@ -716,18 +770,20 @@
     "id": "PlasticizedBooks",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Plastic Books",
-      "ES": "Plasticized Books",
-      "FR": "Livres en plastique",
       "DE": "Plasticized Books",
-      "IT": "Plasticized Books"
+      "EN": "Plastic Books",
+      "ES": "Libros de plastico",
+      "FR": "Livres en plastique",
+      "IT": "Plasticized Books",
+      "PT": "Livros De Plástico"
     },
     "description": {
-      "EN": "Produce books whose pages are laminated so that customers can read them underwater or in the outdoors.",
-      "ES": "Produce books whose pages are covered with a tiny film of transparent plastic, so that the customers can read it underwater.",
-      "FR": "Produisez des livres dont les pages sont laminées de sorte que les clients puissent les lire sous leau ou dehors.",
       "DE": "Produce books whose pages are covered with a tiny film of transparent plastic, so that the customers can read it underwater.",
-      "IT": "Produce books whose pages are covered with a tiny film of transparent plastic, so that the customers can read it underwater."
+      "EN": "Produce books whose pages are laminated so that customers can read them underwater or in the outdoors.",
+      "ES": "Produzca libros cuyas páginas estén laminadas para que los clientes puedan leerlas bajo el agua o al aire libre.",
+      "FR": "Produisez des livres dont les pages sont laminées de sorte que les clients puissent les lire sous leau ou dehors.",
+      "IT": "Produce books whose pages are covered with a tiny film of transparent plastic, so that the customers can read it underwater.",
+      "PT": "Produza livros cujas páginas sejam laminadas para que os clientes possam lê-las embaixo d'água ou ao ar livre."
     },
     "properties": {
       "price": 50000000,
@@ -744,18 +800,20 @@
     "id": "PrintingInd",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Printing Industry Basics",
-      "ES": "Printing Industry Basics",
-      "FR": "Fondements de lindustrie d'imprimerie",
       "DE": "Printing Industry Basics",
-      "IT": "Printing Industry Basics"
+      "EN": "Printing Industry Basics",
+      "ES": "Fundamentos de la industria de impresión",
+      "FR": "Fondements de lindustrie d'imprimerie",
+      "IT": "Printing Industry Basics",
+      "PT": "Noções básicas sobre indústria de impressão"
     },
     "description": {
-      "EN": "Basic skills to manage printing plants.",
-      "ES": "Basic skills to manage Printing Plants.",
-      "FR": "Techniques de base pour gérer les imprimeries.",
       "DE": "Basic skills to manage Printing Plants.",
-      "IT": "Basic skills to manage Printing Plants."
+      "EN": "Basic skills to manage printing plants.",
+      "ES": "Habilidades básicas para gestionar plantas de impresión.",
+      "FR": "Techniques de base pour gérer les imprimeries.",
+      "IT": "Basic skills to manage Printing Plants.",
+      "PT": "Habilidades básicas para gerenciar plantas de impressão."
     },
     "properties": {
       "price": 50000000,
@@ -770,18 +828,20 @@
     "id": "QualityMagazines",
     "category": "INDUSTRY",
     "name": {
-      "EN": "High Quality Magazines",
-      "ES": "Quality Magazines",
-      "FR": "Revues de grande qualité",
       "DE": "Quality Magazines",
-      "IT": "Quality Magazines"
+      "EN": "High Quality Magazines",
+      "ES": "Revistas de alta calidad",
+      "FR": "Revues de grande qualité",
+      "IT": "Quality Magazines",
+      "PT": "Revistas de alta qualidade"
     },
     "description": {
-      "EN": "Print high-end magazines for a cultural savvy audience.",
-      "ES": "Print high-end magazines for a cultural savvy audience.",
-      "FR": "Imprimez des magasines haut de gamme pour des lecteurs cultivés et avisés.",
       "DE": "Print high-end magazines for a cultural savvy audience.",
-      "IT": "Print high-end magazines for a cultural savvy audience."
+      "EN": "Print high-end magazines for a cultural savvy audience.",
+      "ES": "Imprime revistas de alta gama para un público con conocimientos culturales.",
+      "FR": "Imprimez des magasines haut de gamme pour des lecteurs cultivés et avisés.",
+      "IT": "Print high-end magazines for a cultural savvy audience.",
+      "PT": "Imprima revistas de alta qualidade para um público cultural experiente."
     },
     "properties": {
       "price": 80000000,
@@ -799,18 +859,20 @@
     "id": "Watermarks",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Watermarks",
-      "ES": "Watermarks",
-      "FR": "Filigranes",
       "DE": "Watermarks",
-      "IT": "Watermarks"
+      "EN": "Watermarks",
+      "ES": "Marcas de agua",
+      "FR": "Filigranes",
+      "IT": "Watermarks",
+      "PT": "Marcas d'água"
     },
     "description": {
-      "EN": "Learn how to engrave sheets of paper with precious filaments of metal.",
-      "ES": "Learn how to engrave sheets of paper with precious filaments of metal.",
-      "FR": "Apprenez comment graver des feuilles de papier avec des filaments de métal précieux.",
       "DE": "Learn how to engrave sheets of paper with precious filaments of metal.",
-      "IT": "Learn how to engrave sheets of paper with precious filaments of metal."
+      "EN": "Learn how to engrave sheets of paper with precious filaments of metal.",
+      "ES": "Aprende a grabar hojas de papel con preciados filamentos de metal.",
+      "FR": "Apprenez comment graver des feuilles de papier avec des filaments de métal précieux.",
+      "IT": "Learn how to engrave sheets of paper with precious filaments of metal.",
+      "PT": "Aprenda a gravar folhas de papel com preciosos filamentos de metal."
     },
     "properties": {
       "price": 60000000,

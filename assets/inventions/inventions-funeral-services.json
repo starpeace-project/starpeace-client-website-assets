@@ -3,18 +3,20 @@
     "id": "CCFunerals",
     "category": "COMMERCE",
     "name": {
-      "EN": "Conference Call Funerals",
-      "ES": "Conference Call Funerals",
-      "FR": "Télé-funérailles",
       "DE": "Conference Call Funerals",
-      "IT": "Conference Call Funerals"
+      "EN": "Conference Call Funerals",
+      "ES": "Funerales de llamadas de conferencia",
+      "FR": "Télé-funérailles",
+      "IT": "Conference Call Funerals",
+      "PT": "Funerais de teleconferência"
     },
     "description": {
-      "EN": "It may be too difficult to attend a funeral, especially on another planet. A special broadcast and transmission arrangement permits loved ones to remotely say goodbye to the dearly departed.",
-      "ES": "For some can be difficult to attend a funeral, especially in another planet. A special broadcasting and transmitting arrangement permits to say goodbye to the departed through a monitor and a microphone.",
-      "FR": "Il peut être trop difficile d'assister à des funérailles, particulièrement sur une autre planète. Une émission spéciale et des arrangements de transmission permettent aux parents de dire au revoir à distance à ceux qui sont décédés.",
       "DE": "For some can be difficult to attend a funeral, especially in another planet. A special broadcasting and transmitting arrangement permits to say goodbye to the departed through a monitor and a microphone.",
-      "IT": "For some can be difficult to attend a funeral, especially in another planet. A special broadcasting and transmitting arrangement permits to say goodbye to the departed through a monitor and a microphone."
+      "EN": "It may be too difficult to attend a funeral, especially on another planet. A special broadcast and transmission arrangement permits loved ones to remotely say goodbye to the dearly departed.",
+      "ES": "Puede ser demasiado difícil asistir a un funeral, especialmente en otro planeta. Un acuerdo especial de transmisión y transmisión permite a los seres queridos decir adiós a los difuntos.",
+      "FR": "Il peut être trop difficile d'assister à des funérailles, particulièrement sur une autre planète. Une émission spéciale et des arrangements de transmission permettent aux parents de dire au revoir à distance à ceux qui sont décédés.",
+      "IT": "For some can be difficult to attend a funeral, especially in another planet. A special broadcasting and transmitting arrangement permits to say goodbye to the departed through a monitor and a microphone.",
+      "PT": "Pode ser muito difícil assistir a um funeral, especialmente em outro planeta. Um arranjo especial de transmissão e transmissão permite que os entes queridos se dirijam remotamente aos que partiram."
     },
     "properties": {
       "price": 80000000,
@@ -31,18 +33,20 @@
     "id": "CoffinAlarm",
     "category": "COMMERCE",
     "name": {
-      "EN": "Coffin Alarm",
-      "ES": "Coffin Alarm",
-      "FR": "Alarme pour cercueils",
       "DE": "Coffin Alarm",
-      "IT": "Coffin Alarm"
+      "EN": "Coffin Alarm",
+      "ES": "Alarma de ataúd",
+      "FR": "Alarme pour cercueils",
+      "IT": "Coffin Alarm",
+      "PT": "Alarme de caixão"
     },
     "description": {
-      "EN": "For people who are afraid to be buried alive. An alarm is installed inside the coffin, along an air reserve. If the deceased wakes up, he or she can trigger the alarm and be rescued.",
-      "ES": "For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued.",
-      "FR": "Une alarme est intégrée à l'intérieur des cercueils, avec une réserve d'air, pour les gens qui sont obsédés par l'idée d'être incinérés vivant. Si le défunt revient à la vie, il peut déclancher l'alarme et être sauvé.",
       "DE": "For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued.",
-      "IT": "For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued."
+      "EN": "For people who are afraid to be buried alive. An alarm is installed inside the coffin, along an air reserve. If the deceased wakes up, he or she can trigger the alarm and be rescued.",
+      "ES": "Para las personas que temen ser enterradas vivas. Se instala una alarma dentro del ataúd, a lo largo de una reserva aérea. Si el difunto se despierta, él o ella puede activar la alarma y ser rescatado.",
+      "FR": "Une alarme est intégrée à l'intérieur des cercueils, avec une réserve d'air, pour les gens qui sont obsédés par l'idée d'être incinérés vivant. Si le défunt revient à la vie, il peut déclancher l'alarme et être sauvé.",
+      "IT": "For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued.",
+      "PT": "Para pessoas que têm medo de serem enterradas vivas. Um alarme é instalado dentro do caixão, ao longo de uma reserva aérea. Se o falecido acordar, ele poderá acionar o alarme e ser resgatado."
     },
     "properties": {
       "price": 55000000,
@@ -60,18 +64,20 @@
     "id": "CoffinVision",
     "category": "COMMERCE",
     "name": {
-      "EN": "Coffin Vision",
-      "ES": "Coffin Vision",
-      "FR": "Cercueil Vision",
       "DE": "Coffin Vision",
-      "IT": "Coffin Vision"
+      "EN": "Coffin Vision",
+      "ES": "Visión del ataúd",
+      "FR": "Cercueil Vision",
+      "IT": "Coffin Vision",
+      "PT": "Visão de caixão"
     },
     "description": {
-      "EN": "Some people cannot live without seeing their dearly departed loved one. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body is slowl",
-      "ES": "Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them.",
-      "FR": "Certaines personnes dans le deuil ne peuvent vivre sans leur être cher perdu. Une caméra est placée dans le cerceuil et réliée à un moniteur que vos clients peuvent regarder chaque jour. Le corps qui se décompose lentement ne semble pas les affecter.",
       "DE": "Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them.",
-      "IT": "Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them."
+      "EN": "Some people cannot live without seeing their dearly departed loved one. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body is slowl",
+      "ES": "Algunas personas no pueden vivir sin ver a sus seres queridos difuntos. Usted coloca una cámara dentro del ataúd conectada a un monitor que sus clientes pueden ver todos los días. El hecho de que el cuerpo es lento.",
+      "FR": "Certaines personnes dans le deuil ne peuvent vivre sans leur être cher perdu. Une caméra est placée dans le cerceuil et réliée à un moniteur que vos clients peuvent regarder chaque jour. Le corps qui se décompose lentement ne semble pas les affecter.",
+      "IT": "Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them.",
+      "PT": "Algumas pessoas não podem viver sem ver seu amado ente querido. Você coloca uma câmera dentro do caixão conectado a um monitor que seus clientes podem assistir todos os dias. O fato de que o corpo é lento"
     },
     "properties": {
       "price": 45000000,
@@ -88,18 +94,20 @@
     "id": "CorpsesStandIn",
     "category": "COMMERCE",
     "name": {
-      "EN": "Free Repair Department",
-      "ES": "Free Repairment Department",
-      "FR": "Acteurs mortuaires",
       "DE": "Free Repairment Department",
-      "IT": "Free Repairment Department"
+      "EN": "Free Repair Department",
+      "ES": "Departamento de reparaciones gratis",
+      "FR": "Acteurs mortuaires",
+      "IT": "Free Repairment Department",
+      "PT": "Departamento de reparo gratuito"
     },
     "description": {
-      "EN": "Sometimes the corpse isn't in good enough shape to be displayed. You pay actors to lay down in the coffin disguised as the departed for the funeral reception.",
-      "ES": "Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception.",
-      "FR": "Parfois, le corps des défunts est en trop mauvais état pour être exposé. Vous payez des acteurs pour rempalcer les morts pendant les cérémonies.",
       "DE": "Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception.",
-      "IT": "Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception."
+      "EN": "Sometimes the corpse isn't in good enough shape to be displayed. You pay actors to lay down in the coffin disguised as the departed for the funeral reception.",
+      "ES": "A veces, el cadáver no está lo suficientemente bien como para ser mostrado. Usted paga a los actores para que se acuesten en el ataúd disfrazado de partidarios de la recepción del funeral.",
+      "FR": "Parfois, le corps des défunts est en trop mauvais état pour être exposé. Vous payez des acteurs pour rempalcer les morts pendant les cérémonies.",
+      "IT": "Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception.",
+      "PT": "Às vezes o cadáver não está em boa forma para ser exibido. Você paga atores para deitar no caixão disfarçado como o partido para a recepção do funeral."
     },
     "properties": {
       "price": 65000000,
@@ -116,18 +124,20 @@
     "id": "Crematory",
     "category": "COMMERCE",
     "name": {
-      "EN": "Crematory",
-      "ES": "Crematory",
-      "FR": "Fours crématoires",
       "DE": "Crematory",
-      "IT": "Crematory"
+      "EN": "Crematory",
+      "ES": "Crematorio",
+      "FR": "Fours crématoires",
+      "IT": "Crematory",
+      "PT": "Crematório"
     },
     "description": {
-      "EN": "Your funeral parlors have built-in crematories for people who want to be burnt to ashes after their departure.",
-      "ES": "Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure.",
-      "FR": "Vos maisons funéraires possèdent des fours crématoires pour incinérer efficacement les cadavres.",
       "DE": "Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure.",
-      "IT": "Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure."
+      "EN": "Your funeral parlors have built-in crematories for people who want to be burnt to ashes after their departure.",
+      "ES": "Sus funerarias tienen crematorios incorporados para las personas que desean ser quemadas en cenizas después de su partida.",
+      "FR": "Vos maisons funéraires possèdent des fours crématoires pour incinérer efficacement les cadavres.",
+      "IT": "Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure.",
+      "PT": "Suas casas funerárias têm crematórios embutidos para pessoas que querem ser queimadas em cinzas após a partida."
     },
     "properties": {
       "price": 200000000,
@@ -144,18 +154,20 @@
     "id": "Embalming",
     "category": "COMMERCE",
     "name": {
-      "EN": "Embalming",
-      "ES": "Embalming",
-      "FR": "Préservation",
       "DE": "Embalming",
-      "IT": "Embalming"
+      "EN": "Embalming",
+      "ES": "Embalsamamiento",
+      "FR": "Préservation",
+      "IT": "Embalming",
+      "PT": "Embalsamamento"
     },
     "description": {
-      "EN": "Stuff the client's body and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.",
-      "ES": "Stuff the bodies of your client and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.",
-      "FR": "Un traitement spécial est appliqué sur les corps des défunts pour éviter que la chair ne se décompose. Certaines personnes désirent conserver leur être cher pour l'éternité.",
       "DE": "Stuff the bodies of your client and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.",
-      "IT": "Stuff the bodies of your client and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity."
+      "EN": "Stuff the client's body and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.",
+      "ES": "Rellene el cuerpo del cliente y trate su piel para prevenir la putrefacción. A algunas personas les gusta preservar a sus amados por la eternidad.",
+      "FR": "Un traitement spécial est appliqué sur les corps des défunts pour éviter que la chair ne se décompose. Certaines personnes désirent conserver leur être cher pour l'éternité.",
+      "IT": "Stuff the bodies of your client and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.",
+      "PT": "Encha o corpo do cliente e trate a pele para evitar a putrefação. Algumas pessoas gostam de preservar sua amada pela eternidade."
     },
     "properties": {
       "price": 70000000,
@@ -172,18 +184,20 @@
     "id": "EthnicCeremonies",
     "category": "COMMERCE",
     "name": {
-      "EN": "Ethnic Ceremonies",
-      "ES": "Ethnic Ceremonies",
-      "FR": "Cérémonies diverses",
       "DE": "Ethnic Ceremonies",
-      "IT": "Ethnic Ceremonies"
+      "EN": "Ethnic Ceremonies",
+      "ES": "Ceremonias etnicas",
+      "FR": "Cérémonies diverses",
+      "IT": "Ethnic Ceremonies",
+      "PT": "Cerimônias Étnicas"
     },
     "description": {
-      "EN": "From flaming pyres to mummification, you offer clients any possible religious and ethnic funeral.",
-      "ES": "From flaming pyres to mummifucation, you offer your clients any possible religious and ethnic funeral.",
-      "FR": "De l'incinération à la momification, vous offrez tout les types de rituels mortuaires religieux ou ethiniques.",
       "DE": "From flaming pyres to mummifucation, you offer your clients any possible religious and ethnic funeral.",
-      "IT": "From flaming pyres to mummifucation, you offer your clients any possible religious and ethnic funeral."
+      "EN": "From flaming pyres to mummification, you offer clients any possible religious and ethnic funeral.",
+      "ES": "Desde piras de fuego hasta momificación, ofrece a sus clientes cualquier posible funeral religioso y étnico.",
+      "FR": "De l'incinération à la momification, vous offrez tout les types de rituels mortuaires religieux ou ethiniques.",
+      "IT": "From flaming pyres to mummifucation, you offer your clients any possible religious and ethnic funeral.",
+      "PT": "De piras flamejantes a mumificação, você oferece aos clientes qualquer possível funeral religioso e étnico."
     },
     "properties": {
       "price": 90000000,
@@ -201,18 +215,20 @@
     "id": "FamilySpecials",
     "category": "COMMERCE",
     "name": {
-      "EN": "Family Special",
-      "ES": "Family Specials",
-      "FR": "Spécial de famille",
       "DE": "Family Specials",
-      "IT": "Family Specials"
+      "EN": "Family Special",
+      "ES": "Especial Familia",
+      "FR": "Spécial de famille",
+      "IT": "Family Specials",
+      "PT": "Especial da Família"
     },
     "description": {
-      "EN": "Pre-book funerals for all the family, no matter their age, huge savings for everybody, both the clients and your parlors.",
-      "ES": "Book funerals for all the component of your family, no matter their age. Savings for everybody, both the clients and your parlours.",
-      "FR": "Un rabais est offert pour ceux qui font un pré-arrangement des rites mortuaires de tout les membres de leur famille. Tous économisent autant les clients que vous.",
       "DE": "Book funerals for all the component of your family, no matter their age. Savings for everybody, both the clients and your parlours.",
-      "IT": "Book funerals for all the component of your family, no matter their age. Savings for everybody, both the clients and your parlours."
+      "EN": "Pre-book funerals for all the family, no matter their age, huge savings for everybody, both the clients and your parlors.",
+      "ES": "Pre-reserve funerales para toda la familia, sin importar su edad, grandes ahorros para todos, tanto los clientes como sus salones.",
+      "FR": "Un rabais est offert pour ceux qui font un pré-arrangement des rites mortuaires de tout les membres de leur famille. Tous économisent autant les clients que vous.",
+      "IT": "Book funerals for all the component of your family, no matter their age. Savings for everybody, both the clients and your parlours.",
+      "PT": "Pré-agendar funerais para toda a família, independentemente da idade, grandes poupanças para todos, tanto para os clientes como para os seus salões."
     },
     "properties": {
       "price": 120000000,
@@ -229,18 +245,20 @@
     "id": "Funerals",
     "category": "COMMERCE",
     "name": {
-      "EN": "Funeral Parlour Basics",
-      "ES": "Funeral Parlour Basics",
-      "FR": "Gestion de maisons funéraires",
       "DE": "Funeral Parlour Basics",
-      "IT": "Funeral Parlour Basics"
+      "EN": "Funeral Parlour Basics",
+      "ES": "Fundamentos de la sala de funeral",
+      "FR": "Gestion de maisons funéraires",
+      "IT": "Funeral Parlour Basics",
+      "PT": "Funeral Parlor Basics"
     },
     "description": {
-      "EN": "Paperwork for managing funeral parlours.",
-      "ES": "Paperwork for managing funeral parlours.",
-      "FR": "Accomplissement des exigences légales pour gérer des maisons funéraires.",
       "DE": "Paperwork for managing funeral parlours.",
-      "IT": "Paperwork for managing funeral parlours."
+      "EN": "Paperwork for managing funeral parlours.",
+      "ES": "Trámites para la gestión de salones funerarios.",
+      "FR": "Accomplissement des exigences légales pour gérer des maisons funéraires.",
+      "IT": "Paperwork for managing funeral parlours.",
+      "PT": "Papelada para administrar funerárias."
     },
     "properties": {
       "price": 25000000,
@@ -252,18 +270,20 @@
     "id": "HalloweenProps",
     "category": "COMMERCE",
     "name": {
-      "EN": "Halloween Props",
-      "ES": "Halloween Props",
-      "FR": "Accessoires d'Halloween",
       "DE": "Halloween Props",
-      "IT": "Halloween Props"
+      "EN": "Halloween Props",
+      "ES": "Accesorios de halloween",
+      "FR": "Accessoires d'Halloween",
+      "IT": "Halloween Props",
+      "PT": "Adereços de Halloween"
     },
     "description": {
-      "EN": "Rent the parlor's furniture and accessories for Halloween parties; a creative way to generate revenues.",
-      "ES": "Rent the furnitures and accessories used in your funerals for parties on Halloween. A creative way to increase your profit.",
-      "FR": "Location des accessoires et des meubles pour les fêtes d'Halloween. Une façon plutôt originale d'augmenter vos profits.",
       "DE": "Rent the furnitures and accessories used in your funerals for parties on Halloween. A creative way to increase your profit.",
-      "IT": "Rent the furnitures and accessories used in your funerals for parties on Halloween. A creative way to increase your profit."
+      "EN": "Rent the parlor's furniture and accessories for Halloween parties; a creative way to generate revenues.",
+      "ES": "Alquiler de muebles y accesorios para fiestas de halloween; Una forma creativa de generar ingresos.",
+      "FR": "Location des accessoires et des meubles pour les fêtes d'Halloween. Une façon plutôt originale d'augmenter vos profits.",
+      "IT": "Rent the furnitures and accessories used in your funerals for parties on Halloween. A creative way to increase your profit.",
+      "PT": "Alugue os móveis e acessórios da sala de estar para festas de Halloween; uma maneira criativa de gerar receitas."
     },
     "properties": {
       "price": 60000000,
@@ -280,18 +300,20 @@
     "id": "HospitalSentinels",
     "category": "COMMERCE",
     "name": {
-      "EN": "Hospital Sentinels",
-      "ES": "Hospital Sentinels",
-      "FR": "Réprésentants d'hôpitaux",
       "DE": "Hospital Sentinels",
-      "IT": "Hospital Sentinels"
+      "EN": "Hospital Sentinels",
+      "ES": "Hospital centinelas",
+      "FR": "Réprésentants d'hôpitaux",
+      "IT": "Hospital Sentinels",
+      "PT": "Sentinelas de Hospital"
     },
     "description": {
-      "EN": "Save money on ads by paying someone to monitor hospitals. When a there is a death, you immediately contact the family and offer them your services.",
-      "ES": "Save money on advertisement by paying someone to monitor hospitals. When a victim of an accident comes in, he will contact the family immediately and offer them your service.",
-      "FR": "Vous économisez sur la publicité en payant des réprésentants, postés dans les hôpitaux, pour offir vos services aux familles des victimes d'accidents, malades...",
       "DE": "Save money on advertisement by paying someone to monitor hospitals. When a victim of an accident comes in, he will contact the family immediately and offer them your service.",
-      "IT": "Save money on advertisement by paying someone to monitor hospitals. When a victim of an accident comes in, he will contact the family immediately and offer them your service."
+      "EN": "Save money on ads by paying someone to monitor hospitals. When a there is a death, you immediately contact the family and offer them your services.",
+      "ES": "Ahorre dinero en anuncios pagando a alguien para monitorear hospitales. Cuando hay una muerte, inmediatamente se pone en contacto con la familia y les ofrece sus servicios.",
+      "FR": "Vous économisez sur la publicité en payant des réprésentants, postés dans les hôpitaux, pour offir vos services aux familles des victimes d'accidents, malades...",
+      "IT": "Save money on advertisement by paying someone to monitor hospitals. When a victim of an accident comes in, he will contact the family immediately and offer them your service.",
+      "PT": "Economize dinheiro em anúncios pagando alguém para monitorar hospitais. Quando há uma morte, você imediatamente entra em contato com a família e oferece seus serviços."
     },
     "properties": {
       "price": 50000000,
@@ -308,18 +330,20 @@
     "id": "LuxuryUrns",
     "category": "COMMERCE",
     "name": {
-      "EN": "Luxury Urns",
-      "ES": "Luxury Urns",
-      "FR": "Urnes de Luxe",
       "DE": "Luxury Urns",
-      "IT": "Luxury Urns"
+      "EN": "Luxury Urns",
+      "ES": "Urnas de lujo",
+      "FR": "Urnes de Luxe",
+      "IT": "Luxury Urns",
+      "PT": "Urnas de luxo"
     },
     "description": {
-      "EN": "For clients that want their ashes kept in over-the-top precious urns.",
-      "ES": "For clients that want their ashes kept in over the top, precious urns.",
-      "FR": "Des urnes de luxe sont offertes aux clients soucieux d'offir les funérailles les plus coûteuses possibles aux défunts.",
       "DE": "For clients that want their ashes kept in over the top, precious urns.",
-      "IT": "For clients that want their ashes kept in over the top, precious urns."
+      "EN": "For clients that want their ashes kept in over-the-top precious urns.",
+      "ES": "Para los clientes que desean que sus cenizas se mantengan en urnas preciosas de alta calidad.",
+      "FR": "Des urnes de luxe sont offertes aux clients soucieux d'offir les funérailles les plus coûteuses possibles aux défunts.",
+      "IT": "For clients that want their ashes kept in over the top, precious urns.",
+      "PT": "Para clientes que querem que suas cinzas sejam mantidas em urnas preciosas exageradas."
     },
     "properties": {
       "price": 20000000,
@@ -336,18 +360,20 @@
     "id": "MediumsAndPsychics",
     "category": "COMMERCE",
     "name": {
-      "EN": "Mediums and Psychics",
-      "ES": "Mediums and Psychics",
-      "FR": "Médiums et spécialistes",
       "DE": "Mediums and Psychics",
-      "IT": "Mediums and Psychics"
+      "EN": "Mediums and Psychics",
+      "ES": "Médiums y psíquicos",
+      "FR": "Médiums et spécialistes",
+      "IT": "Mediums and Psychics",
+      "PT": "Médiuns e Videntes"
     },
     "description": {
-      "EN": "Hire psychics so that clients can discuss the funeral arrangements with their dearly deceased.",
-      "ES": "Hire psychics to have your client discuss with their dead beloved the arrangement of the funeral exactly how they would have liked.",
-      "FR": "Engagement de médiums et de spécialistes en sciences occultes pour que vos clients puissent discuter avec le mort des arrangements mortuaires à effectuer.",
       "DE": "Hire psychics to have your client discuss with their dead beloved the arrangement of the funeral exactly how they would have liked.",
-      "IT": "Hire psychics to have your client discuss with their dead beloved the arrangement of the funeral exactly how they would have liked."
+      "EN": "Hire psychics so that clients can discuss the funeral arrangements with their dearly deceased.",
+      "ES": "Contrate psíquicos para que los clientes puedan discutir los arreglos funerarios con sus queridos difuntos.",
+      "FR": "Engagement de médiums et de spécialistes en sciences occultes pour que vos clients puissent discuter avec le mort des arrangements mortuaires à effectuer.",
+      "IT": "Hire psychics to have your client discuss with their dead beloved the arrangement of the funeral exactly how they would have liked.",
+      "PT": "Contrate médiuns para que os clientes possam discutir os arranjos do funeral com os seus falecidos."
     },
     "properties": {
       "price": 100000000,
@@ -365,18 +391,20 @@
     "id": "PetFunerals",
     "category": "COMMERCE",
     "name": {
-      "EN": "Pet Funerals",
-      "ES": "Pet Funerals",
-      "FR": "Funérailles d'animaux",
       "DE": "Pet Funerals",
-      "IT": "Pet Funerals"
+      "EN": "Pet Funerals",
+      "ES": "Funerales de mascotas",
+      "FR": "Funérailles d'animaux",
+      "IT": "Pet Funerals",
+      "PT": "Funerais para animais de estimação"
     },
     "description": {
-      "EN": "Why limit the care of the departed only to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.",
-      "ES": "Why limit the care for the departed to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.",
-      "FR": "Où sont les limites de la folie humaine? Pourquoi privé les amis des animaux de funérailles pour leurs animaux de compagnie.",
       "DE": "Why limit the care for the departed to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.",
-      "IT": "Why limit the care for the departed to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets."
+      "EN": "Why limit the care of the departed only to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.",
+      "ES": "¿Por qué limitar el cuidado de los difuntos solo a los humanos? Muchos de los amantes de los animales están dispuestos a pagar un funeral completo para sus queridas mascotas.",
+      "FR": "Où sont les limites de la folie humaine? Pourquoi privé les amis des animaux de funérailles pour leurs animaux de compagnie.",
+      "IT": "Why limit the care for the departed to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.",
+      "PT": "Por que limitar o cuidado do falecido apenas aos humanos? Muitos amantes de animais estão dispostos a pagar por um funeral completo para seus amados animais de estimação."
     },
     "properties": {
       "price": 8000000,
@@ -394,18 +422,20 @@
     "id": "WaxMuseumConnection",
     "category": "COMMERCE",
     "name": {
-      "EN": "Wax Museum Connection",
-      "ES": "Wax Museum Connection",
-      "FR": "Musées de cire",
       "DE": "Wax Museum Connection",
-      "IT": "Wax Museum Connection"
+      "EN": "Wax Museum Connection",
+      "ES": "Conexión Museo de Cera",
+      "FR": "Musées de cire",
+      "IT": "Wax Museum Connection",
+      "PT": "Conexão do Museu de Cera"
     },
     "description": {
-      "EN": "When famous people die, you sell the exact measurements of their body to wax museums, so that they can create a perfect replica for their exposition.",
-      "ES": "When famous people die, you sell to wax museums the exact measures of their body, in order to create a perfect copy for their exposition.",
-      "FR": "Lorsque des gens célèbres meurts, vous vendez les dimensions des corps pour que les musées puissent les reproduire fidèlement.",
       "DE": "When famous people die, you sell to wax museums the exact measures of their body, in order to create a perfect copy for their exposition.",
-      "IT": "When famous people die, you sell to wax museums the exact measures of their body, in order to create a perfect copy for their exposition."
+      "EN": "When famous people die, you sell the exact measurements of their body to wax museums, so that they can create a perfect replica for their exposition.",
+      "ES": "Cuando las personas famosas mueren, vendes las medidas exactas de su cuerpo a los museos de cera, para que puedan crear una réplica perfecta para su exposición.",
+      "FR": "Lorsque des gens célèbres meurts, vous vendez les dimensions des corps pour que les musées puissent les reproduire fidèlement.",
+      "IT": "When famous people die, you sell to wax museums the exact measures of their body, in order to create a perfect copy for their exposition.",
+      "PT": "Quando pessoas famosas morrem, você vende as medidas exatas de seu corpo para encerar museus, para que possam criar uma réplica perfeita para sua exposição."
     },
     "properties": {
       "price": 65000000,
@@ -423,18 +453,20 @@
     "id": "WigsProduction",
     "category": "COMMERCE",
     "name": {
-      "EN": "Wig Production",
-      "ES": "Wigs Production",
-      "FR": "Fabrication de perruques",
       "DE": "Wigs Production",
-      "IT": "Wigs Production"
+      "EN": "Wig Production",
+      "ES": "Producción de pelucas",
+      "FR": "Fabrication de perruques",
+      "IT": "Wigs Production",
+      "PT": "Produção de Peruca"
     },
     "description": {
-      "EN": "It's common knowledge that hair keeps growing for a while after the body has died. Use the hair cut from the corpses to create wigs and sell them to unknowing specialty shop.",
-      "ES": "It's common knowledge that hair keep growing for a while after the death of the body. Use the hair cut from the corpses to create wigs and sell them to unaware specialty shop.",
-      "FR": "Les cheveux continuent de pousser après la mort. Les cheveux prélevés sur les morts sont envoyés à une boutique spécialisée dans ce domaine.",
       "DE": "It's common knowledge that hair keep growing for a while after the death of the body. Use the hair cut from the corpses to create wigs and sell them to unaware specialty shop.",
-      "IT": "It's common knowledge that hair keep growing for a while after the death of the body. Use the hair cut from the corpses to create wigs and sell them to unaware specialty shop."
+      "EN": "It's common knowledge that hair keeps growing for a while after the body has died. Use the hair cut from the corpses to create wigs and sell them to unknowing specialty shop.",
+      "ES": "Es de conocimiento general que el cabello sigue creciendo durante un tiempo después de que el cuerpo ha muerto. Usa el corte de pelo de los cadáveres para crear pelucas y véndelos a una tienda especializada desconocida.",
+      "FR": "Les cheveux continuent de pousser après la mort. Les cheveux prélevés sur les morts sont envoyés à une boutique spécialisée dans ce domaine.",
+      "IT": "It's common knowledge that hair keep growing for a while after the death of the body. Use the hair cut from the corpses to create wigs and sell them to unaware specialty shop.",
+      "PT": "É do conhecimento comum que o cabelo continua crescendo por um tempo após o corpo ter morrido. Use o cabelo cortado dos cadáveres para criar perucas e vendê-las para a loja especializada sem saber."
     },
     "properties": {
       "price": 50000000,

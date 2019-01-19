@@ -3,18 +3,20 @@
     "id": "AlternativeSources",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Alternative Sources",
-      "ES": "Alternative Sources",
-      "FR": "Sources alternatives",
       "DE": "Alternative Sources",
-      "IT": "Alternative Sources"
+      "EN": "Alternative Sources",
+      "ES": "Fuentes alternativas",
+      "FR": "Sources alternatives",
+      "IT": "Alternative Sources",
+      "PT": "Fontes alternativas"
     },
     "description": {
-      "EN": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve efficiency.",
-      "ES": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.",
-      "FR": "Employez des matières premières alternatives comme le chanvre et le kénaf pour produire le papier. Économiser quelques arbres et améliorez l'efficacité.",
       "DE": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.",
-      "IT": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency."
+      "EN": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve efficiency.",
+      "ES": "Utilice materias primas alternativas como el cáñamo y el kenaf para producir papel. Salva algunos árboles y mejora la eficiencia.",
+      "FR": "Employez des matières premières alternatives comme le chanvre et le kénaf pour produire le papier. Économiser quelques arbres et améliorez l'efficacité.",
+      "IT": "Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.",
+      "PT": "Use matérias-primas alternativas como cânhamo e kenaf para produzir papel. Poupe algumas árvores e melhore a eficiência."
     },
     "properties": {
       "price": 100000000,
@@ -32,18 +34,20 @@
     "id": "ColorChangingPaper",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Chameleon Paper",
-      "ES": "Color Changing Paper",
-      "FR": "Papier caméléon",
       "DE": "Color Changing Paper",
-      "IT": "Color Changing Paper"
+      "EN": "Chameleon Paper",
+      "ES": "Papel camaleón",
+      "FR": "Papier caméléon",
+      "IT": "Color Changing Paper",
+      "PT": "Papel Chameleon"
     },
     "description": {
-      "EN": "Based on the principle of litmus paper, produce special sheets of paper that can change color when immersed in different liquid solutions: your customers love the whimsy of it.",
-      "ES": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.",
-      "FR": "Basé selon le principe du papier tournesol, produisez des feuilles spéciales de papier qui peuvent changer de couleur quand elles sont immergées dans différentes solutions liquides: vos clients adorent cela.",
       "DE": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.",
-      "IT": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them."
+      "EN": "Based on the principle of litmus paper, produce special sheets of paper that can change color when immersed in different liquid solutions: your customers love the whimsy of it.",
+      "ES": "Basado en el principio del papel de tornasol, produzca hojas de papel especiales que pueden cambiar de color cuando se sumergen en diferentes soluciones líquidas: a sus clientes les encanta la fantasía de hacerlo.",
+      "FR": "Basé selon le principe du papier tournesol, produisez des feuilles spéciales de papier qui peuvent changer de couleur quand elles sont immergées dans différentes solutions liquides: vos clients adorent cela.",
+      "IT": "Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.",
+      "PT": "Com base no princípio do papel tornassol, produza folhas de papel especiais que podem mudar de cor quando imersas em diferentes soluções líquidas: seus clientes adoram o capricho."
     },
     "properties": {
       "price": 40000000,
@@ -60,18 +64,20 @@
     "id": "ExtraterrestrialFibers",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Extraterrestrial Fibers",
-      "ES": "Extraterrestrial Fibers",
-      "FR": "Fibres extraterrestres",
       "DE": "Extraterrestrial Fibers",
-      "IT": "Extraterrestrial Fibers"
+      "EN": "Extraterrestrial Fibers",
+      "ES": "Fibras extraterrestres",
+      "FR": "Fibres extraterrestres",
+      "IT": "Extraterrestrial Fibers",
+      "PT": "Fibras Extraterrestres"
     },
     "description": {
-      "EN": "Extraterrestrial wood can be slightly different from Earth's wood. Study those differences to improve the paper production.",
-      "ES": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.",
-      "FR": "Le bois extraterrestre peut être légèrement différent du bois de la terre.  Étudiez ces différences pour améliorer la production de papier.",
       "DE": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.",
-      "IT": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production."
+      "EN": "Extraterrestrial wood can be slightly different from Earth's wood. Study those differences to improve the paper production.",
+      "ES": "La madera extraterrestre puede ser ligeramente diferente de la madera de la Tierra. Estudia esas diferencias para mejorar la producción de papel.",
+      "FR": "Le bois extraterrestre peut être légèrement différent du bois de la terre.  Étudiez ces différences pour améliorer la production de papier.",
+      "IT": "Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.",
+      "PT": "A madeira extraterrestre pode ser ligeiramente diferente da madeira da Terra. Estude essas diferenças para melhorar a produção de papel."
     },
     "properties": {
       "price": 100000000,
@@ -88,18 +94,20 @@
     "id": "FoodContainers",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Food Containers",
-      "ES": "Food Containers",
-      "FR": "Contenants alimentaires",
       "DE": "Food Containers",
-      "IT": "Food Containers"
+      "EN": "Food Containers",
+      "ES": "Contenedores de comida",
+      "FR": "Contenants alimentaires",
+      "IT": "Food Containers",
+      "PT": "Recipientes para alimentos"
     },
     "description": {
-      "EN": "Produce specially designed hygienic containers for food storage: it appeals to the safety-conscious consumer.",
-      "ES": "Produce special hygienic containers to store food. Safety is a major concern.",
-      "FR": "Produisez des récipients hygiéniques spécifiquement conçus pour lentreposage de nourriture: cela répond au souci de sécurité des consommateurs.",
       "DE": "Produce special hygienic containers to store food. Safety is a major concern.",
-      "IT": "Produce special hygienic containers to store food. Safety is a major concern."
+      "EN": "Produce specially designed hygienic containers for food storage: it appeals to the safety-conscious consumer.",
+      "ES": "Produzca contenedores higiénicos especialmente diseñados para el almacenamiento de alimentos: es atractivo para el consumidor consciente de la seguridad.",
+      "FR": "Produisez des récipients hygiéniques spécifiquement conçus pour lentreposage de nourriture: cela répond au souci de sécurité des consommateurs.",
+      "IT": "Produce special hygienic containers to store food. Safety is a major concern.",
+      "PT": "Produza recipientes higiênicos especialmente projetados para armazenamento de alimentos: atrai o consumidor consciente da segurança."
     },
     "properties": {
       "price": 50000000,
@@ -116,18 +124,20 @@
     "id": "HandMadePaper",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Handmade Paper",
-      "ES": "Hand Made Paper",
-      "FR": "Papier fait à la main",
       "DE": "Hand Made Paper",
-      "IT": "Hand Made Paper"
+      "EN": "Handmade Paper",
+      "ES": "Papel hecho a mano",
+      "FR": "Papier fait à la main",
+      "IT": "Hand Made Paper",
+      "PT": "Papel artesanal"
     },
     "description": {
-      "EN": "Hire artisans able to create beautiful handmade paper: for the most demanding customer. This paper is not cheap, but the quality of this product is dramatically enhanced.",
-      "ES": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.",
-      "FR": "Engagez des artisans qui soient capables de créer du beau papier á la main: ceci pour les clients les plus exigeants.  Cet article n'est pas bon marché, mais la qualité du produit est nettement augmentée.",
       "DE": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.",
-      "IT": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves."
+      "EN": "Hire artisans able to create beautiful handmade paper: for the most demanding customer. This paper is not cheap, but the quality of this product is dramatically enhanced.",
+      "ES": "Contrata artesanos capaces de crear hermosos papeles hechos a mano: para el cliente más exigente. Este papel no es barato, pero la calidad de este producto se ha mejorado dramáticamente.",
+      "FR": "Engagez des artisans qui soient capables de créer du beau papier á la main: ceci pour les clients les plus exigeants.  Cet article n'est pas bon marché, mais la qualité du produit est nettement augmentée.",
+      "IT": "Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.",
+      "PT": "Contrate artesãos capazes de criar belos papéis artesanais: para o cliente mais exigente. Este artigo não é barato, mas a qualidade deste produto é drasticamente aprimorada."
     },
     "properties": {
       "price": 30000000,
@@ -144,18 +154,20 @@
     "id": "MakeYourOwnPaperKit",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Do-It-Yourself Paper Kit",
-      "ES": "Make Your Own Paper Kit",
-      "FR": "Nécessaire à papier pour le bricoleur",
       "DE": "Make Your Own Paper Kit",
-      "IT": "Make Your Own Paper Kit"
+      "EN": "Do-It-Yourself Paper Kit",
+      "ES": "Kit de papel de bricolaje",
+      "FR": "Nécessaire à papier pour le bricoleur",
+      "IT": "Make Your Own Paper Kit",
+      "PT": "Kit de papel \"faça você mesmo\""
     },
     "description": {
-      "EN": "Have your artisans prepare a special kit, to be sold in stores, for people who want to create their own paper: a new line of business.",
-      "ES": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.",
-      "FR": "Demandez à vos artisans de préparer un nécessaire à papier spécial qui pourra être vendu dans les magasins aux personnes qui veulent créer leur propre papier: une nouvelle branche d'activité.",
       "DE": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.",
-      "IT": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business."
+      "EN": "Have your artisans prepare a special kit, to be sold in stores, for people who want to create their own paper: a new line of business.",
+      "ES": "Haga que sus artesanos preparen un kit especial, que se venderá en las tiendas, para las personas que desean crear su propio papel: una nueva línea de negocios.",
+      "FR": "Demandez à vos artisans de préparer un nécessaire à papier spécial qui pourra être vendu dans les magasins aux personnes qui veulent créer leur propre papier: une nouvelle branche d'activité.",
+      "IT": "Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.",
+      "PT": "Peça a seus artesãos que preparem um kit especial, para serem vendidos nas lojas, para pessoas que desejam criar seu próprio papel: uma nova linha de negócios."
     },
     "properties": {
       "price": 50000000,
@@ -172,18 +184,20 @@
     "id": "MintContract",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Banknote Contract",
-      "ES": "Mint Contract",
-      "FR": "Contrat pour billets de banque",
       "DE": "Mint Contract",
-      "IT": "Mint Contract"
+      "EN": "Banknote Contract",
+      "ES": "Contrato de Billetes",
+      "FR": "Contrat pour billets de banque",
+      "IT": "Mint Contract",
+      "PT": "Contrato de cédula"
     },
     "description": {
-      "EN": "Provide high quality paper to the mint to print banknotes: a very high profile contract.",
-      "ES": "Provide high quality paper to the mint to print banknotes. Very high profile contract.",
-      "FR": "Fournissez du papier de haute qualité à lHôtel de la Monnaie pour l'impression des billets de banque: un contrat très prestigieux.",
       "DE": "Provide high quality paper to the mint to print banknotes. Very high profile contract.",
-      "IT": "Provide high quality paper to the mint to print banknotes. Very high profile contract."
+      "EN": "Provide high quality paper to the mint to print banknotes: a very high profile contract.",
+      "ES": "Proporcione papel de alta calidad a la menta para imprimir billetes: un contrato de muy alto perfil.",
+      "FR": "Fournissez du papier de haute qualité à lHôtel de la Monnaie pour l'impression des billets de banque: un contrat très prestigieux.",
+      "IT": "Provide high quality paper to the mint to print banknotes. Very high profile contract.",
+      "PT": "Forneça papel de alta qualidade à casa da moeda para imprimir notas: um contrato de alto perfil."
     },
     "properties": {
       "price": 80000000,
@@ -201,18 +215,20 @@
     "id": "PackagingMaterials",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Packaging",
-      "ES": "Packaging Materials",
-      "FR": "Emballage",
       "DE": "Packaging Materials",
-      "IT": "Packaging Materials"
+      "EN": "Packaging",
+      "ES": "embalaje",
+      "FR": "Emballage",
+      "IT": "Packaging Materials",
+      "PT": "Embalagem"
     },
     "description": {
-      "EN": "Produce cardboard boxes and other paper-based packaging: very in demand.",
-      "ES": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.",
-      "FR": "Produisez des boîtes de carton et tout autre empaquetage en papier : des produits très demandés.",
       "DE": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.",
-      "IT": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products."
+      "EN": "Produce cardboard boxes and other paper-based packaging: very in demand.",
+      "ES": "Producir cajas de cartón y otros envases de papel: muy demandados.",
+      "FR": "Produisez des boîtes de carton et tout autre empaquetage en papier : des produits très demandés.",
+      "IT": "Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.",
+      "PT": "Produza caixas de papelão e outras embalagens de papel: muito procuradas."
     },
     "properties": {
       "price": 150000000,
@@ -229,18 +245,20 @@
     "id": "PaperBagCampaign",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Paper Bag Campaign",
-      "ES": "Paper Bag Campaign",
-      "FR": "Campagne de sac de papier",
       "DE": "Paper Bag Campaign",
-      "IT": "Paper Bag Campaign"
+      "EN": "Paper Bag Campaign",
+      "ES": "Campaña de bolsas de papel",
+      "FR": "Campagne de sac de papier",
+      "IT": "Paper Bag Campaign",
+      "PT": "Campanha do saco de papel"
     },
     "description": {
-      "EN": "Launch a massive campaign to promote the use of paper bags instead of plastic ones in stores. Increase the demand for your products, while coming across as environmentally friendly.",
-      "ES": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.",
-      "FR": "Lancez une campagne massive pour favoriser l'utilisation des sacs en papier au lieu de ceux en plastique dans les magasins.  Augmentez ainsi la demande pour vos produits  tout en ayant lair de protéger  lenvironnement.",
       "DE": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.",
-      "IT": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly."
+      "EN": "Launch a massive campaign to promote the use of paper bags instead of plastic ones in stores. Increase the demand for your products, while coming across as environmentally friendly.",
+      "ES": "Lanzar una campaña masiva para promover el uso de bolsas de papel en lugar de bolsas de plástico en las tiendas. Aumente la demanda de sus productos y, al mismo tiempo, sea respetuoso con el medio ambiente",
+      "FR": "Lancez une campagne massive pour favoriser l'utilisation des sacs en papier au lieu de ceux en plastique dans les magasins.  Augmentez ainsi la demande pour vos produits  tout en ayant lair de protéger  lenvironnement.",
+      "IT": "Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.",
+      "PT": "Lance uma campanha massiva para promover o uso de sacolas de papel em vez das de plástico nas lojas. Aumente a demanda por seus produtos, enquanto se torna ambientalmente amigável."
     },
     "properties": {
       "price": 30000000,
@@ -257,18 +275,20 @@
     "id": "PaperClothes",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Paper Clothes",
-      "ES": "Paper Clothes",
-      "FR": "Vêtements de papier",
       "DE": "Paper Clothes",
-      "IT": "Paper Clothes"
+      "EN": "Paper Clothes",
+      "ES": "Ropa de papel",
+      "FR": "Vêtements de papier",
+      "IT": "Paper Clothes",
+      "PT": "Roupas de papel"
     },
     "description": {
-      "EN": "Produce cheap but attractive attire, completely made out of high quality paper.",
-      "ES": "Produce cheap but still good looking attires completely made out of high quality paper.",
-      "FR": "Produisez des vêtements attrayants à un prix abordable, entièrement faits de papier de première qualité.",
       "DE": "Produce cheap but still good looking attires completely made out of high quality paper.",
-      "IT": "Produce cheap but still good looking attires completely made out of high quality paper."
+      "EN": "Produce cheap but attractive attire, completely made out of high quality paper.",
+      "ES": "Produce un atuendo barato pero atractivo, completamente hecho de papel de alta calidad.",
+      "FR": "Produisez des vêtements attrayants à un prix abordable, entièrement faits de papier de première qualité.",
+      "IT": "Produce cheap but still good looking attires completely made out of high quality paper.",
+      "PT": "Produza roupas baratas, mas atraentes, completamente feitas de papel de alta qualidade."
     },
     "properties": {
       "price": 100000000,
@@ -286,18 +306,20 @@
     "id": "PaperHistory",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Paper History",
-      "ES": "Paper History",
-      "FR": "Histoire du papier",
       "DE": "Paper History",
-      "IT": "Paper History"
+      "EN": "Paper History",
+      "ES": "Historia del papel",
+      "FR": "Histoire du papier",
+      "IT": "Paper History",
+      "PT": "História do papel"
     },
     "description": {
-      "EN": "Study how paper was made on early Earth; it will provide you with insights on how to improve the quality of your paper.",
-      "ES": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.",
-      "FR": "Étudiez comment au commencement des temps le papier a été fabriqué sur la terre; cela vous donnera des idées sur comment améliorer la qualité de votre papier.",
       "DE": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.",
-      "IT": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper."
+      "EN": "Study how paper was made on early Earth; it will provide you with insights on how to improve the quality of your paper.",
+      "ES": "Estudia cómo se hizo el papel en la Tierra primitiva; le proporcionará información sobre cómo mejorar la calidad de su papel.",
+      "FR": "Étudiez comment au commencement des temps le papier a été fabriqué sur la terre; cela vous donnera des idées sur comment améliorer la qualité de votre papier.",
+      "IT": "Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.",
+      "PT": "Estude como o papel foi feito na Terra primitiva; Ele fornecerá insights sobre como melhorar a qualidade do seu trabalho."
     },
     "properties": {
       "price": 60000000,
@@ -313,18 +335,20 @@
     "id": "PaperInd",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Paper Industry Basics",
-      "ES": "Paper Industry Basics",
-      "FR": "Fondement de lindustrie papetière",
       "DE": "Paper Industry Basics",
-      "IT": "Paper Industry Basics"
+      "EN": "Paper Industry Basics",
+      "ES": "Fundamentos de la industria del papel",
+      "FR": "Fondement de lindustrie papetière",
+      "IT": "Paper Industry Basics",
+      "PT": "Fundamentos da indústria de papel"
     },
     "description": {
-      "EN": "Basic skills to manage paper manufacturing.",
-      "ES": "Basic skills to manage Paper factories.",
-      "FR": "Techniques de base pour gérer les usines à papier.",
       "DE": "Basic skills to manage Paper factories.",
-      "IT": "Basic skills to manage Paper factories."
+      "EN": "Basic skills to manage paper manufacturing.",
+      "ES": "Habilidades básicas para gestionar la fabricación de papel.",
+      "FR": "Techniques de base pour gérer les usines à papier.",
+      "IT": "Basic skills to manage Paper factories.",
+      "PT": "Habilidades básicas para gerenciar a fabricação de papel."
     },
     "properties": {
       "price": 50000000,
@@ -339,18 +363,20 @@
     "id": "PaperKnives",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Paper Knives",
-      "ES": "Paper Knives",
-      "FR": "Coupe-papiers",
       "DE": "Paper Knives",
-      "IT": "Paper Knives"
+      "EN": "Paper Knives",
+      "ES": "Cuchillos de papel",
+      "FR": "Coupe-papiers",
+      "IT": "Paper Knives",
+      "PT": "Facas de papel"
     },
     "description": {
-      "EN": "Everybody knows how nasty a paper cut be: create a line of knives with paper blades, ideal for cutting soft materials.",
-      "ES": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.",
-      "FR": "Tout le monde sait combien mauvaise peut être une coupure faite avec du papier: créez une ligne de couteaux avec lames en papier, idéale pour couper les matériaux mous.",
       "DE": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.",
-      "IT": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials."
+      "EN": "Everybody knows how nasty a paper cut be: create a line of knives with paper blades, ideal for cutting soft materials.",
+      "ES": "Todo el mundo sabe lo desagradable que puede ser un corte de papel: cree una línea de cuchillos con hojas de papel, ideal para cortar materiales blandos.",
+      "FR": "Tout le monde sait combien mauvaise peut être une coupure faite avec du papier: créez une ligne de couteaux avec lames en papier, idéale pour couper les matériaux mous.",
+      "IT": "Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.",
+      "PT": "Todo mundo sabe o quão desagradável é um corte de papel: criar uma linha de facas com lâminas de papel, ideal para cortar materiais macios."
     },
     "properties": {
       "price": 45000000,
@@ -366,18 +392,20 @@
     "id": "Parchment",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Parchment",
-      "ES": "Parchment",
-      "FR": "Parchemin",
       "DE": "Parchment",
-      "IT": "Parchment"
+      "EN": "Parchment",
+      "ES": "Pergamino",
+      "FR": "Parchemin",
+      "IT": "Parchment",
+      "PT": "Pergaminho"
     },
     "description": {
-      "EN": "Produce ancient style paper with modern equipment. Very nice to look at and perfect for diplomas or certificates.",
-      "ES": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.",
-      "FR": "Produisez du papier style antique avec l'équipement moderne. Très beau à regarder et parfait pour des diplômes ou des certificats.",
       "DE": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.",
-      "IT": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas."
+      "EN": "Produce ancient style paper with modern equipment. Very nice to look at and perfect for diplomas or certificates.",
+      "ES": "Produce papel de estilo antiguo con equipamiento moderno. Muy agradable a la vista y perfecto para diplomas o certificados.",
+      "FR": "Produisez du papier style antique avec l'équipement moderne. Très beau à regarder et parfait pour des diplômes ou des certificats.",
+      "IT": "Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.",
+      "PT": "Produza papel de estilo antigo com equipamentos modernos. Muito bom de ver e perfeito para diplomas ou certificados."
     },
     "properties": {
       "price": 40000000,
@@ -394,18 +422,20 @@
     "id": "RecyclingFacility",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Recycling Facility",
-      "ES": "Recycling Facility",
-      "FR": "Installations de recyclage",
       "DE": "Recycling Facility",
-      "IT": "Recycling Facility"
+      "EN": "Recycling Facility",
+      "ES": "Planta de reciclaje",
+      "FR": "Installations de recyclage",
+      "IT": "Recycling Facility",
+      "PT": "Reciclagem"
     },
     "description": {
-      "EN": "Build a recycling facility inside your plants so that you to use old paper towards making your new products: very cost-effective and environmentally friendly.",
-      "ES": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.",
-      "FR": "Établissez un service de recyclage à l'intérieur de vos usines de sorte que vous employez le vieux papier dans la fabrication de vos nouveaux produits:  très rentable et écologique.",
       "DE": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.",
-      "IT": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly."
+      "EN": "Build a recycling facility inside your plants so that you to use old paper towards making your new products: very cost-effective and environmentally friendly.",
+      "ES": "Construya una instalación de reciclaje dentro de sus plantas para que use papel viejo para hacer sus nuevos productos: muy rentable y respetuoso con el medio ambiente.",
+      "FR": "Établissez un service de recyclage à l'intérieur de vos usines de sorte que vous employez le vieux papier dans la fabrication de vos nouveaux produits:  très rentable et écologique.",
+      "IT": "Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.",
+      "PT": "Construa uma instalação de reciclagem dentro de suas plantas para que você use papel antigo para fazer seus novos produtos: muito rentável e ambientalmente amigável."
     },
     "properties": {
       "price": 400000000,
@@ -423,18 +453,20 @@
     "id": "TissueProduction",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Tissue Production",
-      "ES": "Tissue Production",
-      "FR": "Fabrication de papier-tissu",
       "DE": "Tissue Production",
-      "IT": "Tissue Production"
+      "EN": "Tissue Production",
+      "ES": "Producción de tejidos",
+      "FR": "Fabrication de papier-tissu",
+      "IT": "Tissue Production",
+      "PT": "Produção de Tecidos"
     },
     "description": {
-      "EN": "Add a cleaning line to your product offering: paper towels and other paper-based cleaning products make for a very lucrative business.",
-      "ES": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.",
-      "FR": "Ajoutez à vos produits une ligne de produits en papier pour nettoyage: les serviettes de papier et autres produits de nettoyage en papier génèrent des affaires très lucratives.",
       "DE": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.",
-      "IT": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business."
+      "EN": "Add a cleaning line to your product offering: paper towels and other paper-based cleaning products make for a very lucrative business.",
+      "ES": "Agregue una línea de limpieza a su oferta de productos: toallas de papel y otros productos de limpieza a base de papel para un negocio muy lucrativo.",
+      "FR": "Ajoutez à vos produits une ligne de produits en papier pour nettoyage: les serviettes de papier et autres produits de nettoyage en papier génèrent des affaires très lucratives.",
+      "IT": "Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.",
+      "PT": "Adicione uma linha de limpeza à sua oferta de produtos: toalhas de papel e outros produtos de limpeza feitos em papel contribuem para um negócio muito lucrativo."
     },
     "properties": {
       "price": 150000000,

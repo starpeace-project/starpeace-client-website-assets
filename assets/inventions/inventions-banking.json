@@ -3,18 +3,20 @@
     "id": "Banking",
     "category": "SERVICE",
     "name": {
-      "EN": "Banking Basics",
-      "ES": "Banking Basics",
-      "FR": "Principes de la banque",
       "DE": "Banking-Grundlagen",
-      "IT": "Fondamenti dell'attività bancaria"
+      "EN": "Banking Basics",
+      "ES": "Conceptos básicos de banca",
+      "FR": "Principes de la banque",
+      "IT": "Fondamenti dell'attività bancaria",
+      "PT": "Fundamentos Bancários"
     },
     "description": {
-      "EN": "Assimilate the knowledge to manage banks.",
-      "ES": "Assimilate the knowledge to manage banks.",
-      "FR": "Assimilez les principes de gestion dune banque.",
       "DE": "Eignen Sie sich das Wissen über Bankmanagement an.",
-      "IT": "Apprendi le nozioni di base per la gestione di una banca."
+      "EN": "Assimilate the knowledge to manage banks.",
+      "ES": "Asimilar los conocimientos para gestionar bancos.",
+      "FR": "Assimilez les principes de gestion dune banque.",
+      "IT": "Apprendi le nozioni di base per la gestione di una banca.",
+      "PT": "Assimilar o conhecimento para gerenciar bancos."
     },
     "properties": {
       "price": 50000000,

@@ -5,8 +5,9 @@ LANGUAGE_CODES = {
   'EN': true
   'ES': true
   'DE': true
-  'IT': true
   'FR': true
+  'IT': true
+  'PT': true
 }
 
 

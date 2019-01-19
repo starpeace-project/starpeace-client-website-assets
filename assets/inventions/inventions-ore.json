@@ -3,18 +3,20 @@
     "id": "AdvGeology",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Advanced Geology",
       "EN": "Advanced Geology",
-      "ES": "Advanced Geology",
+      "ES": "Geología avanzada",
       "FR": "Géologie avancée",
-      "DE": "Geologie für Fortgeschrittene",
-      "IT": "Geologia avanzata"
+      "IT": "Geologia avanzata",
+      "PT": "Geologia Avançada"
     },
     "description": {
+      "DE": "Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.",
       "EN": "Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.",
-      "ES": "Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.",
+      "ES": "Estudia los temas más avanzados en geología extraterrestre. Esto es obligatorio para realizar una investigación más avanzada en este campo.",
       "FR": "Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.",
-      "DE": "Studieren Sie die fortschrittlichsten Themen zur außerirdischen Geologie. Das ist obligatorisch für fortgeschrittene Entwicklungen auf diesem Gebiet.",
-      "IT": "Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo."
+      "IT": "Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo.",
+      "PT": "Estude os tópicos mais avançados em geologia extraterrestre. Isso é obrigatório para conduzir pesquisas mais avançadas nesse campo."
     },
     "properties": {
       "price": 20000000,
@@ -30,18 +32,20 @@
     "id": "AdvMinSec",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Advanced Mines Security",
       "EN": "Advanced Mine Security",
-      "ES": "Advanced Mines Security",
+      "ES": "Seguridad avanzada de minas",
       "FR": "Sécurité minière avancée",
-      "DE": "Minensicherheit für Fortgeschrittene",
-      "IT": "Nozioni avanzate di sicurezza delle miniere"
+      "IT": "Nozioni avanzate di sicurezza delle miniere",
+      "PT": "Segurança avançada de minas"
     },
     "description": {
+      "DE": "Protect your workers from the native toxic emissions.",
       "EN": "Protect your workers from the toxic emissions, native to the planet.",
-      "ES": "Protect your workers from the native toxic emissions.",
+      "ES": "Protege a tus trabajadores de las emisiones tóxicas, nativas del planeta.",
       "FR": "Protégez vos ouvriers contre les émissions naturelles toxiques.",
-      "DE": "Schützen Sie Ihre Arbeiter vor den nativen Giftgasen.",
-      "IT": "Proteggi i tuoi operai dalle emissioni tossiche."
+      "IT": "Proteggi i tuoi operai dalle emissioni tossiche.",
+      "PT": "Proteja seus trabalhadores das emissões tóxicas, nativas do planeta."
     },
     "properties": {
       "price": 210000000,
@@ -59,18 +63,20 @@
     "id": "AdvOreSensors",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Advanced Sensors",
-      "ES": "Advanced Ore Sensors",
-      "FR": "Détecteurs de minerais avancés",
       "DE": "Erzsensoren für Fortgeschrittene",
-      "IT": "Sensori minerari avanzati"
+      "EN": "Advanced Sensors",
+      "ES": "Sensores avanzados",
+      "FR": "Détecteurs de minerais avancés",
+      "IT": "Sensori minerari avanzati",
+      "PT": "Sensores Avançados"
     },
     "description": {
+      "DE": "Develop more efficent methods to detect impurities in ore.",
       "EN": "Develop more efficient methods to detect impurities in ore.",
-      "ES": "Develop more efficent methods to detect impurities in ore.",
+      "ES": "Desarrollar métodos más eficientes para detectar impurezas en el mineral.",
       "FR": "Développez des méthodes plus efficaces de détection des impuretés dans les minerais.",
-      "DE": "Entwickeln Sie effizientere Methoden um Unreinheiten in Erzen zu entdecken.",
-      "IT": "Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari."
+      "IT": "Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari.",
+      "PT": "Desenvolver métodos mais eficientes para detectar impurezas no minério."
     },
     "properties": {
       "price": 90000000,
@@ -87,18 +93,20 @@
     "id": "AirConducts",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Extra Air Conducts",
       "EN": "Extra Air Shafts",
-      "ES": "Extra Air Conducts",
+      "ES": "Ejes de aire extra",
       "FR": "Conduits d'aération supplémentaires",
-      "DE": "Extra Luftschächte",
-      "IT": "Condotte supplementari per l'aria"
+      "IT": "Condotte supplementari per l'aria",
+      "PT": "Veios de ar extra"
     },
     "description": {
+      "DE": "Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.",
       "EN": "Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.",
-      "ES": "Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.",
+      "ES": "Los ejes de aire adicionales facilitan la tarea de los trabajadores en las minas, pero la abundancia de oxígeno puede corromper algunos minerales delicados.",
       "FR": "Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.",
-      "DE": "Extra Luftschächte machen es den Arbeitern in den Bergwerken leichter, aber zu viel Sauerstoff kann sensible Mineralien verderben.",
-      "IT": "Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati."
+      "IT": "Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati.",
+      "PT": "Os poços de ar extra facilitam o trabalho dos trabalhadores nas minas, mas a abundância de oxigênio pode corromper alguns minerais delicados."
     },
     "properties": {
       "price": 40000000,
@@ -115,18 +123,20 @@
     "id": "Exoscheletons",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Exoscheletons",
       "EN": "Exoskeletons",
-      "ES": "Exoscheletons",
+      "ES": "Exoesqueletos",
       "FR": "Exosquelettes",
-      "DE": "Außenskelette",
-      "IT": "Esoscheletri"
+      "IT": "Esoscheletri",
+      "PT": "Exosqueletos"
     },
     "description": {
+      "DE": "The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.",
       "EN": "The miners use hydraulic exoskeletons to extract ore, this method is very fast but not as precise.",
-      "ES": "The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.",
+      "ES": "Los mineros utilizan exoesqueletos hidráulicos para extraer el mineral, este método es muy rápido pero no tan preciso.",
       "FR": "Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.",
-      "DE": "Die Minenarbeiter verwenden Außenskelette um das Erz abzubauen. Sehr schnell, aber nicht so präzise.",
-      "IT": "I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso."
+      "IT": "I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso.",
+      "PT": "Os mineiros usam exoesqueletos hidráulicos para extrair minério, este método é muito rápido, mas não tão preciso."
     },
     "properties": {
       "price": 325000000,
@@ -143,18 +153,20 @@
     "id": "ExtMining",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Extraterrestrial Mining",
       "EN": "Extraterrestrial Mining",
-      "ES": "Extraterrestrial Mining",
+      "ES": "Mineria extraterrestre",
       "FR": "Exploitation minière du sol extraterrestre",
-      "DE": "Außerirdischer Bergbau",
-      "IT": "Tecniche minerarie extraterrestri"
+      "IT": "Tecniche minerarie extraterrestri",
+      "PT": "Mineração Extraterrestre"
     },
     "description": {
+      "DE": "Stop mining like you were on Earth. Take advantage of the specific planet conditions.",
       "EN": "Stop mining the same way you did on earth; take advantage of specific planet conditions.",
-      "ES": "Stop mining like you were on Earth. Take advantage of the specific planet conditions.",
+      "ES": "Deja de minar de la misma manera que lo hiciste en la tierra; Aprovecha las condiciones específicas del planeta.",
       "FR": "Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.",
-      "DE": "Hören Sie auf Bergbau zu betreiben, als wären Sie nach auf der Erde. Nutzen Sie die planeteneigenen Bedingungen aus.",
-      "IT": "Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta."
+      "IT": "Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta.",
+      "PT": "Pare de minerar da mesma maneira que você fez na terra; aproveite as condições específicas do planeta."
     },
     "properties": {
       "price": 100000000,
@@ -172,18 +184,20 @@
     "id": "LSMining",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Large Scale Minning",
       "EN": "Large Scale Mining",
-      "ES": "Large Scale Minning",
+      "ES": "Minería a gran escala",
       "FR": "Exploitation minière à grande échelle",
-      "DE": "Große Bergwerke",
-      "IT": "Attività minerarie su vasta scala"
+      "IT": "Attività minerarie su vasta scala",
+      "PT": "Mineração em Grande Escala"
     },
     "description": {
+      "DE": "Learn the basic skills to manage big mines.",
       "EN": "Learn the basic skills to manage large mines.",
-      "ES": "Learn the basic skills to manage big mines.",
+      "ES": "Aprende las habilidades básicas para gestionar grandes minas.",
       "FR": "Apprenez les principes élémentaires de gestion de mines de grande envergure.",
-      "DE": "Erlernen Sie das Grundwissen für das Management von großen Bergwerken.",
-      "IT": "Apprendi le conoscenze di base per la gestione di grandi miniere."
+      "IT": "Apprendi le competenze di base per la gestione di grandi miniere.",
+      "PT": "Aprenda as habilidades básicas para gerenciar grandes minas."
     },
     "properties": {
       "price": 30000000,
@@ -198,18 +212,20 @@
     "id": "MagneticElev",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Magnetic Elevators",
       "EN": "Magnetic Elevators",
-      "ES": "Magnetic Elevators",
+      "ES": "Elevadores magneticos",
       "FR": "Ascenseurs magnétiques",
-      "DE": "Magnetfahrstühle",
-      "IT": "Ascensori magnetici"
+      "IT": "Ascensori magnetici",
+      "PT": "Elevadores magnéticos"
     },
     "description": {
+      "DE": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
       "EN": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
-      "ES": "Elevators operating with natural magnetic fields are far more secure than normal elevators.",
+      "ES": "Los ascensores que operan con campos magnéticos naturales son mucho más seguros que los ascensores normales.",
       "FR": "Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.",
-      "DE": "Fahrstühle, die mit natürlichen Magnetfeldern arbeiten sind wesentlich sicherer als normale Fahrstühle.",
-      "IT": "Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni."
+      "IT": "Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni.",
+      "PT": "Elevadores operando com campos magnéticos naturais são muito mais seguros que os elevadores normais."
     },
     "properties": {
       "price": 20000000,
@@ -225,18 +241,20 @@
     "id": "MicroExplosions",
     "category": "INDUSTRY",
     "name": {
+      "DE": "MicroExplosions",
       "EN": "Microexplosions",
-      "ES": "MicroExplosions",
+      "ES": "Microexplosiones",
       "FR": "Micro-explosions",
-      "DE": "Mikroexplosionen",
-      "IT": "Microesplosioni"
+      "IT": "Microesplosioni",
+      "PT": "Microexplosões"
     },
     "description": {
+      "DE": "Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.",
       "EN": "Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore deposits.",
-      "ES": "Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.",
+      "ES": "En lugar de llevar a cabo grandes explosiones en sus minas, cientos de pequeñas explosiones se llevan a cabo para descubrir depósitos de mineral.",
       "FR": "Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.",
-      "DE": "Anstatt von großen Explosionen werden in Ihren Bergwerken hunderte kleiner Explosionen verwendet, um das Erz freizulegen.",
-      "IT": "Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche."
+      "IT": "Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche.",
+      "PT": "Em vez de realizar grandes explosões em suas minas, centenas de pequenas explosões são realizadas a fim de descobrir depósitos de minério."
     },
     "properties": {
       "price": 145000000,
@@ -254,18 +272,20 @@
     "id": "MinersLocators",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Miners Locators",
       "EN": "Miner Locators",
-      "ES": "Miners Locators",
+      "ES": "Localizadores de mineros",
       "FR": "Système de repérage des mineurs",
-      "DE": "Beeper für Kumpel",
-      "IT": "Trasmettitori per minatori"
+      "IT": "Trasmettitori per minatori",
+      "PT": "Localizadores de mineiros"
     },
     "description": {
+      "DE": "Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.",
       "EN": "Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.",
-      "ES": "Every miner as a transmittor that always comunicates his or her exact location. Fundamental in emergencies.",
+      "ES": "Cada minero tiene un transmisor que siempre transmite su ubicación exacta: fundamental en emergencias.",
       "FR": "Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.",
-      "DE": "Jeder Arbeiter des Bergwerks verfügt über einen Sender, der seine genaue Position anzeigt. In Notfällen lebenswichtig.",
-      "IT": "Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze."
+      "IT": "Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze.",
+      "PT": "Todo mineiro tem um transmissor que sempre transmite sua localização exata: fundamental em emergências."
     },
     "properties": {
       "price": 45000000,
@@ -282,18 +302,20 @@
     "id": "Mining",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Mining Basics",
       "EN": "Mining Basics",
-      "ES": "Mining Basics",
+      "ES": "Conceptos básicos de minería",
       "FR": "Principes d'exploitation minière",
-      "DE": "Bergbaugrundlagen",
-      "IT": "Fondamenti dell'industria mineraria"
+      "IT": "Fondamenti dell'industria mineraria",
+      "PT": "Noções básicas de mineração"
     },
     "description": {
+      "DE": "Learn the basic skills to deal with minery.",
       "EN": "Learn the basic skills to deal with mining.",
-      "ES": "Learn the basic skills to deal with minery.",
+      "ES": "Aprende las habilidades básicas para lidiar con la minería.",
       "FR": "Apprenez les principes vous permettant de vous occuper d'exploitation minière.",
-      "DE": "Lernen Sie die Grundlagen des Bergbaus.",
-      "IT": "Apprendi le nozioni fondamentali per la gestione di attività minerarie."
+      "IT": "Apprendi le nozioni fondamentali per la gestione di attività minerarie.",
+      "PT": "Aprenda as habilidades básicas para lidar com a mineração."
     },
     "properties": {
       "price": 10000000,
@@ -308,18 +330,20 @@
     "id": "MiningBacteria",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Mining Bacteria",
       "EN": "Mining Bacteria",
-      "ES": "Mining Bacteria",
+      "ES": "Bacterias mineras",
       "FR": "Bactéries utilisées dans l'exploitation minière",
-      "DE": "Bergwerksbakterien",
-      "IT": "Batteri per gli scavi minerari"
+      "IT": "Batteri per gli scavi minerari",
+      "PT": "Bactérias De Mineração"
     },
     "description": {
-      "EN": "Create large populations of rock eating bacteria to facilitate access to minerals. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.",
-      "ES": "Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.",
-      "FR": "Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.",
       "DE": "Züchten Sie große Mengen von steinessenden Bakterien, um den Zugang zu den Erzen zu vereinfachen. Es hat sich als für den Menschen unschädlich erwiesen. Die Kumpel bleiben skeptisch.",
-      "IT": "Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici."
+      "EN": "Create large populations of rock eating bacteria to facilitate access to minerals. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.",
+      "ES": "Crea grandes poblaciones de bacterias que se alimentan de rocas para facilitar el acceso a los minerales. Esta práctica no ha sido probada como perjudicial para los humanos. Sin embargo, los trabajadores siguen siendo escépticos sobre este hecho.",
+      "FR": "Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.",
+      "IT": "Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici.",
+      "PT": "Crie grandes populações de bactérias que comem pedras para facilitar o acesso aos minerais. Esta prática não foi provada prejudicial aos seres humanos. No entanto, os trabalhadores continuam céticos sobre esse fato."
     },
     "properties": {
       "price": 365000000,
@@ -337,18 +361,20 @@
     "id": "MiningDroids",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Mining Droids",
       "EN": "Mining Droids",
-      "ES": "Mining Droids",
+      "ES": "Droides mineros",
       "FR": "Droïdes de minage",
-      "DE": "Bergwerksdroiden",
-      "IT": "Minatori droidi"
+      "IT": "Minatori droidi",
+      "PT": "Droides de Mineração"
     },
     "description": {
+      "DE": "Replace humans by droids on the most dangerous tasks.",
       "EN": "Replace humans with droids to work on the most dangerous tasks.",
-      "ES": "Replace humans by droids on the most dangerous tasks.",
+      "ES": "Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.",
       "FR": "Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.",
-      "DE": "Ersetzen Sie bei gefährlichen Aufgaben Menschen durch Droiden.",
-      "IT": "Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose."
+      "IT": "Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.",
+      "PT": "Substitua os humanos por dróides para trabalhar nas tarefas mais perigosas."
     },
     "properties": {
       "price": 220000000,
@@ -365,18 +391,20 @@
     "id": "OreAdulteration",
     "category": "INDUSTRY",
     "name": {
-      "EN": "Mineral Adulteration",
-      "ES": "Ore Adulteration",
-      "FR": "Adultération du minerai",
       "DE": "Erzabwandlung",
-      "IT": "Adulterazione dei minerali"
+      "EN": "Mineral Adulteration",
+      "ES": "Adulteracion mineral",
+      "FR": "Adultération du minerai",
+      "IT": "Adulterazione dei minerali",
+      "PT": "Adulteração Mineral"
     },
     "description": {
+      "DE": "Learn how to introduce dosages of common rocks in order to increase production.",
       "EN": "Learn how to introduce doses of common rocks in order to increase production.",
-      "ES": "Learn how to introduce dosages of common rocks in order to increase production.",
+      "ES": "Aprende a introducir dosis de rocas comunes para aumentar la producción.",
       "FR": "Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.",
-      "DE": "Lernen Sie, wie man Anteile von normalem Stein untermischt, um die Produktion zu steigern.",
-      "IT": "Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume."
+      "IT": "Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume.",
+      "PT": "Aprenda como introduzir doses de pedras comuns para aumentar a produção."
     },
     "properties": {
       "price": 10000000,
@@ -394,18 +422,20 @@
     "id": "RemoteControlledCarts",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Remote Controlled Carts",
       "EN": "Remote Control Carts",
-      "ES": "Remote Controlled Carts",
+      "ES": "Carros de control remoto",
       "FR": "Chariots télécommandés",
-      "DE": "Ferngesteuerte Waggons",
-      "IT": "Carrelli telecomandati"
+      "IT": "Carrelli telecomandati",
+      "PT": "Carrinhos de Controle Remoto"
     },
     "description": {
+      "DE": "The mining carts are controlled from a centralized office.",
       "EN": "The mining carts are managed by remote control from a centralized office.",
-      "ES": "The mining carts are controlled from a centralized office.",
+      "ES": "Los carros mineros se administran por control remoto desde una oficina centralizada.",
       "FR": "Les chariots des mineurs sont contrôlés à partir d'un bureau central.",
-      "DE": "Die Waggons in den Bergwerken werden von einem Zentralbüro gesteuert.",
-      "IT": "I carrelli delle miniere sono controllati da un ufficio centralizzato."
+      "IT": "I carrelli delle miniere sono controllati da un ufficio centralizzato.",
+      "PT": "Os carrinhos de mineração são gerenciados por controle remoto de um escritório centralizado."
     },
     "properties": {
       "price": 100000000,
@@ -421,18 +451,20 @@
     "id": "SteamDrills",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Steam Drills",
       "EN": "Steam Drills",
-      "ES": "Steam Drills",
+      "ES": "Brocas de vapor",
       "FR": "Forage à la vapeur",
-      "DE": "Dampfbohrer",
-      "IT": "Trivelle a vapore"
+      "IT": "Trivelle a vapore",
+      "PT": "Brocas a Vapor"
     },
     "description": {
+      "DE": "Use higly dense steam-beams to melt rocks and uncover ore.",
       "EN": "Use highly dense steam-beams to melt rock and uncover ore.",
-      "ES": "Use higly dense steam-beams to melt rocks and uncover ore.",
+      "ES": "Use vigas de vapor muy densas para derretir la roca y descubrir el mineral.",
       "FR": "Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.",
-      "DE": "Verwenden Sie hochdichte Dampfstrahler, um Felsen zu schmelzen und das Erz freizulegen.",
-      "IT": "Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti."
+      "IT": "Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.",
+      "PT": "Use vigas de vapor altamente densas para derreter a rocha e descobrir o minério."
     },
     "properties": {
       "price": 35000000,
@@ -449,18 +481,20 @@
     "id": "UndergroundCharting",
     "category": "INDUSTRY",
     "name": {
+      "DE": "Underground Charting",
       "EN": "Underground Charting",
-      "ES": "Underground Charting",
+      "ES": "Trazado subterráneo",
       "FR": "Etablissement de cartes souterraines",
-      "DE": "Untergrundkarten",
-      "IT": "Mappatura del sottosuolo"
+      "IT": "Mappatura del sottosuolo",
+      "PT": "Gráficos Subterrâneos"
     },
     "description": {
+      "DE": "Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.",
       "EN": "Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.",
-      "ES": "Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.",
+      "ES": "Desarrolla cartas subterráneas de las áreas donde operan tus minas. No solo ayuda a administrar sus operaciones, sino que también aumenta la sensación de seguridad.",
       "FR": "Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.",
-      "DE": "Erstellen Sie Karten vom Untergrund Ihrer Bergwerke. Sie können nicht nur gezielter arbeiten, sondern auch das Gefühl der Sicherheit wird verbessert.",
-      "IT": "Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza."
+      "IT": "Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.",
+      "PT": "Desenvolva cartas subterrâneas das áreas onde suas minas operam. Isso não apenas ajuda a gerenciar suas operações, mas também aumenta a sensação de segurança."
     },
     "properties": {
       "price": 165000000,

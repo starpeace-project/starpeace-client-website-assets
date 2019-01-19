@@ -30,6 +30,12 @@ module.exports = function(grunt) {
       },
       animate_planets: {
         exec: 'node build/generate-planet-animations.js src/images assets build/public'
+      },
+      export_languages: {
+        exec: 'node build/languages-export.js assets translations'
+      },
+      import_languages: {
+        exec: 'node build/languages-import.js assets translations'
       }
     }
   });
@@ -39,6 +45,9 @@ module.exports = function(grunt) {
   grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('combine', ['build', 'run:combine_textures']);
   grunt.registerTask('animate_planets', ['build', 'run:animate_planets']);
+
+  grunt.registerTask('export', ['build', 'run:export_languages']);
+  grunt.registerTask('import', ['build', 'run:import_languages']);
 
   grunt.registerTask('default', ['clean', 'build', 'combine', 'animate_planets']);
 }
