@@ -6,7 +6,7 @@
       "DE": "Atomdünne Metallplatten",
       "EN": "Atom Size Metal Sheets",
       "ES": "Hojas de metal de tamaño atómico",
-      "FR": "Feuilles de métal de lépaisseur d'un atome",
+      "FR": "Feuilles de métal de l'épaisseur d'un atome",
       "IT": "Lastre metalliche ultra-sottili",
       "PT": "Folhas de metal do tamanho do átomo"
     },
@@ -14,7 +14,7 @@
       "DE": "Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.",
       "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
       "ES": "El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.",
-      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
+      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de l'épaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
       "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.",
       "PT": "O uso da modelagem com gravidade zero permite criar folhas de metal com apenas alguns átomos de largura; extremamente útil em aplicações industriais."
     },
@@ -36,7 +36,7 @@
       "DE": "Atomdünne Metallplatten",
       "EN": "Atom Size Metal Sheets",
       "ES": "Hojas de metal de tamaño atómico",
-      "FR": "Feuilles de métal de lépaisseur d'un atome",
+      "FR": "Feuilles de métal de l'épaisseur d'un atome",
       "IT": "Lastre metalliche ultra-sottili",
       "PT": "Folhas de metal do tamanho do átomo"
     },
@@ -44,7 +44,7 @@
       "DE": "Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.",
       "EN": "The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.",
       "ES": "El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.",
-      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
+      "FR": "L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de l'épaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.",
       "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.",
       "PT": "O uso da modelagem com gravidade zero permite criar folhas de metal com apenas alguns átomos de largura; extremamente útil em aplicações industriais."
     },
@@ -74,7 +74,7 @@
       "DE": "Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.",
       "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
       "ES": "Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.",
-      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
+      "FR": "En raison des fortes températures qu'ils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
       "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.",
       "PT": "Seus trabalhadores usam ternos que têm água fresca sobre o corpo para mantê-los frescos no ambiente de alta temperatura da fábrica. Infelizmente, os trajes os tornam um pouco desajeitados."
     },
@@ -105,7 +105,7 @@
       "DE": "Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.",
       "EN": "Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.",
       "ES": "Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.",
-      "FR": "En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
+      "FR": "En raison des fortes températures qu'ils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.",
       "IT": "I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.",
       "PT": "Seus trabalhadores usam ternos que têm água fresca sobre o corpo para mantê-los frescos no ambiente de alta temperatura da fábrica. Infelizmente, os trajes os tornam um pouco desajeitados."
     },
@@ -305,7 +305,7 @@
     "id": "InternalBusSystem",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Internal Bus System",
+      "DE": "Internes Bussystem",
       "EN": "Internal Bus System",
       "ES": "Sistema de bus interno",
       "FR": "Système D'Autobus Interne",
@@ -335,7 +335,7 @@
     "id": "InternalBusSystemM",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Internal Bus System",
+      "DE": "Internes Bussystem",
       "EN": "Internal Bus System",
       "ES": "Sistema de bus interno",
       "FR": "Système D'Autobus Interne",
@@ -543,7 +543,7 @@
     "id": "NanotechnologyDevelopment",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Nanotechnology Developments",
+      "DE": "Nanotechnologie-Entwicklungen",
       "EN": "Nanotechnology Developments",
       "ES": "Desarrollos en nanotecnología",
       "FR": "Développements De Nanotechnologie",
@@ -573,7 +573,7 @@
     "id": "NanotechnologyDevelopmentM",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Nanotechnology Developments",
+      "DE": "Nanotechnologie-Entwicklungen",
       "EN": "Nanotechnology Developments",
       "ES": "Desarrollos en nanotecnología",
       "FR": "Développements De Nanotechnologie",
@@ -843,7 +843,7 @@
     "id": "SuperconductorsProduction",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Superconductors Production",
+      "DE": "Produktion von Superleitern",
       "EN": "Superconductor Production",
       "ES": "Producción de superconductores",
       "FR": "Superconductors Production",
@@ -873,7 +873,7 @@
     "id": "SuperconductorsProductionM",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Superconductors Production",
+      "DE": "Produktion von Superleitern",
       "EN": "Superconductor Production",
       "ES": "Producción de superconductores",
       "FR": "Superconductors Production",

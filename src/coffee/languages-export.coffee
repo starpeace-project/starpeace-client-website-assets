@@ -32,11 +32,19 @@ for json_path in (json_file_paths || [])
   inventions_json_by_id[key] = invention for key,invention of JSON.parse(fs.readFileSync(json_path))
 
 inventions_export_lines = {}
+inventions_export_lines[type] = [] for type in ['DE', 'EN', 'ES', 'FR', 'IT', 'PT']
+
+all_lines_en = {}
 for id,invention_json of inventions_json_by_id
-  for type in ['DE', 'EN', 'ES', 'FR', 'IT', 'PT']
-    inventions_export_lines[type] = [] unless inventions_export_lines[type]?
-    inventions_export_lines[type].push invention_json.name[type]
-    inventions_export_lines[type].push invention_json.description[type]
+  if invention_json.name['EN']?.length && !all_lines_en[invention_json.name['EN']]?
+    all_lines_en[invention_json.name['EN']] = true
+    inventions_export_lines['EN'].push invention_json.name['EN']
+    inventions_export_lines[type].push invention_json.name[type] for type in ['DE', 'ES', 'FR', 'IT', 'PT']
+
+  if invention_json.description['EN']?.length && !all_lines_en[invention_json.description['EN']]?
+    all_lines_en[invention_json.description['EN']] = true
+    inventions_export_lines['EN'].push invention_json.description['EN']
+    inventions_export_lines[type].push invention_json.description[type] for type in ['DE', 'ES', 'FR', 'IT', 'PT']
 
 for type in ['DE', 'EN', 'ES', 'FR', 'IT', 'PT']
   inventions_export_file = path.join(unique_inventions_output_dir, "translations.#{type.toLowerCase()}.txt")

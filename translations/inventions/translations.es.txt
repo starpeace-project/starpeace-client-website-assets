@@ -316,7 +316,6 @@ CDs flexibles
 Ya que sus CD son resistentes a los rasguños, también puede usar un plástico más liviano y barato que se doble.
 CD gratis para ciegos
 The Blind puede obtener un CD gratis de tu historia cada mes.
-Protección de cuerpo completo
 Sus trabajadores usan protección de cuerpo completo para evitar incluso un contacto mínimo con los rayos láser.
 Fundamentos de la industria de CD
 Habilidades básicas para gestionar plantas de CD.
@@ -656,7 +655,6 @@ Alarma de ataúd
 Para las personas que temen ser enterradas vivas. Se instala una alarma dentro del ataúd, a lo largo de una reserva aérea. Si el difunto se despierta, él o ella puede activar la alarma y ser rescatado.
 Visión del ataúd
 Algunas personas no pueden vivir sin ver a sus seres queridos difuntos. Usted coloca una cámara dentro del ataúd conectada a un monitor que sus clientes pueden ver todos los días. El hecho de que el cuerpo es lento.
-Departamento de reparaciones gratis
 A veces, el cadáver no está lo suficientemente bien como para ser mostrado. Usted paga a los actores para que se acuesten en el ataúd disfrazado de partidarios de la recepción del funeral.
 Crematorio
 Sus funerarias tienen crematorios incorporados para las personas que desean ser quemadas en cenizas después de su partida.
@@ -809,7 +807,6 @@ El papeleo habitual necesario para establecer y organizar una empresa.
 Instalaciones industriales
 Trámites necesarios para la gestión de las industrias.
 Administracion de ministerios
-
 Reproduccion de monumentos
 Adquirir las habilidades para reproducir monumentos.
 Licencias de Water Quest
@@ -854,16 +851,12 @@ Mascota morphing
 Elija el animal doméstico que desea a diario con este robot especial que cambia de forma: desde un perro guardián hasta un gato peludo, se transformará a pedido.
 Curso de tecnología de un día
 ¿Se burlan de usted sus hijos porque no saben cómo utilizar una videograbadora o un reproductor de CD? Un curso de un día en la tienda revela el misterio de la tecnología al cliente más tradicional.
-Departamento de reparaciones
-Centro de reparaciones en la tienda para sus clientes.
 Vendedores como cliente
 Cuando son contratados, sus vendedores solo aceptan comprar sus electrodomésticos en su tienda.
 Lavadora de ultrasonido
 No se necesita detergente, gracias a las ondas de ultrasonido. Ecológicamente sensato y práctico.
 Televisión ultra delgada
 Producen televisores delgados como cuadros. La calidad de imagen es excelente.
-Técnicos sin experiencia
-Para ahorrar dinero, su centro de reparaciones solo emplea técnicos muy jóvenes.
 Maquina universal
 Unifique todos los aparatos de cocina más comunes en una sola máquina. No es tan bueno como las piezas individuales por separado, pero sus fábricas son mucho más eficientes.
 Componentes no apantallados
@@ -1008,27 +1001,18 @@ Temporizador de seguridad
 Sus cajeros no tienen acceso a la caja fuerte de la tienda, solo abre en horas fijas.
 Hojas de metal de tamaño atómico
 El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.
-Hojas de metal de tamaño atómico
-El uso de la conformación de gravedad cero le permite crear láminas de metal que tienen solo unos pocos átomos de ancho; Muy útil en aplicaciones industriales.
-Trajes de auto-enfriamiento
-Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.
 Trajes de auto-enfriamiento
 Sus trabajadores usan trajes que tienen agua fresca corriendo sobre su cuerpo para mantenerlos frescos en el ambiente de alta temperatura de la planta. Desafortunadamente, los trajes los hacen un poco torpes.
 Transmisores incorporados
 Las partes metálicas que produce tienen un transmisor incorporado que alerta cuando la pieza está arruinada. Extremadamente útil para componentes enterrados como tuberías.
-Transmisores incorporados
 Las partes metálicas que produce tienen un transmisor incorporado que avisa cuando la pieza está arruinada; Muy útil para componentes enterrados como tuberías.
-Enfriamiento de acero criogénico
-El acero que produce se enfría a temperaturas criogénicas, lo que hace que el proceso general sea más eficiente.
 Enfriamiento de acero criogénico
 El acero que produce se enfría a temperaturas criogénicas, lo que hace que el proceso general sea más eficiente.
 Aleaciones extraterrestres
 La química y física ligeramente diferentes de los nuevos mundos te permiten crear nuevas aleaciones que no se pueden producir en la Tierra.
-Aleaciones extraterrestres
 La química ligeramente diferente y los principios físicos en los nuevos mundos le permiten crear nuevas aleaciones que no se pueden producir en la Tierra.
 Sistema de bus interno
 Las habitaciones y el ambiente de trabajo en una planta metalúrgica tienen que estar distantes debido a la alta temperatura. En plantas grandes, un sistema de bus interno mejora la eficiencia del trabajo.
-Sistema de bus interno
 Las viviendas de una planta metalúrgica tienen que estar muy alejadas de la planta debido a sus altas temperaturas. En plantas grandes, un sistema interno de autobuses mueve de manera eficiente a los trabajadores.
 Producción de metalurgia a gran escala
 Aprender las habilidades básicas para gestionar la producción metalúrgica a gran escala.
@@ -1036,39 +1020,29 @@ Metalurgia
 Producción metalúrgica básica.
 Arte metalico
 Recicla las piezas de metal desechadas por el proceso de producción como esculturas artísticas creadas por un artista inexistente de la Tierra. Ganas algo de reputación como experto en arte.
-Arte metalico
 Reciclas las piezas de metal que se desprenden del proceso de producción como esculturas artísticas creadas por un artista ficticio de la Tierra. Ganaste una reputación como experto en arte.
 Museo de metalurgia
 Usted crea un museo de metalurgia en la sede de su industria. Ver la historia del trabajo del metal motiva a sus empleados.
-Museo de metalurgia
 Usted crea un museo de metalurgia en la sede de su industria. Ver la historia del trabajo del metal motiva a sus empleados.
 Desarrollos en nanotecnología
 Usted produce micro partes metálicas para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.
-Desarrollos en nanotecnología
 Usted produce micropiezas metálicas para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.
-Conformidad de gravedad cero
-La conformación del metal se realiza en una cabina especial de caída libre dentro de su planta. El campo de gravedad cero en su interior permite un proceso de mejor calidad.
 Conformidad de gravedad cero
 La conformación del metal se realiza en una cabina especial de caída libre dentro de su planta. El campo de gravedad cero en su interior permite un proceso de mejor calidad.
 Cribado de minerales
 Sus plantas implementan un cribado ulterior del mineral comprado en las minas. Costoso pero mejorar la calidad.
-Cribado de minerales
 Sus plantas implementan un proceso de selección adicional en el mineral extraído de las minas; Costoso pero mejora la calidad.
 Tratamiento de metales preciosos
 Recicla la impureza del metal precioso que no se utiliza en la producción industrial para crear una línea de joyería.
-Tratamiento de metales preciosos
 Recicla las impurezas extraídas de metales preciosos de la producción industrial para crear una línea de joyería.
 Mecanismo de colapso de seguridad
 Sus plantas grandes tienen un sistema que colapsa el horno en una cavidad subterránea en caso de fugas de metal. Muy eficaz en emergencias.
-Mecanismo de colapso de seguridad
 Sus plantas grandes tienen un sistema que colapsa el horno en una cavidad subterránea en caso de que ocurra una fuga de metal por fusible: muy efectivo en emergencias.
 Producción de superconductores
 Al utilizar la tecnología de gama alta necesaria para producir superconductores, usted mejora la calidad de sus productos.
-Producción de superconductores
 Al utilizar la tecnología de gama alta necesaria para producir superconductores, aumenta la calidad de sus productos.
 La mejor aleación de titanio
 Producción de la aleación de metal más fuerte jamás creada por los hombres. Utilizado principalmente en la industria aeroespacial.
-La mejor aleación de titanio
 Producción de la aleación de metal más fuerte jamás creada por el hombre; Utilizado principalmente en la industria aeroespacial.
 Actor resort
 Para atraer a los mejores actores y actrices, construya un lujoso resort dentro de sus estudios donde puedan vivir y dejarse mimar mientras filma sus películas.
@@ -1186,39 +1160,19 @@ Alfombras suaves
 Alfombras muy suaves cubren los pisos y pasillos: muy agradable para caminar.
 Greeter oficial
 Un portavoz oficial con uniforme se para fuera de la entrada principal y saluda y dirige a los visitantes; esto también garantiza que los bichos raros y otros indeseables se mantengan alejados.
-Geología avanzada
 Estudia los temas más avanzados en geología extraterrestre. Esto es obligatorio para realizar una investigación más avanzada en este campo.
-Seguridad avanzada de minas
 Protege a tus trabajadores de las emisiones tóxicas, nativas del planeta.
 Sensores avanzados
-Desarrollar métodos más eficientes para detectar impurezas en el mineral.
-Ejes de aire extra
 Los ejes de aire adicionales facilitan la tarea de los trabajadores en las minas, pero la abundancia de oxígeno puede corromper algunos minerales delicados.
-Exoesqueletos
-Los mineros utilizan exoesqueletos hidráulicos para extraer el mineral, este método es muy rápido pero no tan preciso.
-Mineria extraterrestre
 Deja de minar de la misma manera que lo hiciste en la tierra; Aprovecha las condiciones específicas del planeta.
-Minería a gran escala
-Aprende las habilidades básicas para gestionar grandes minas.
-Elevadores magneticos
-Los ascensores que operan con campos magnéticos naturales son mucho más seguros que los ascensores normales.
-Microexplosiones
 En lugar de llevar a cabo grandes explosiones en sus minas, cientos de pequeñas explosiones se llevan a cabo para descubrir depósitos de mineral.
 Localizadores de mineros
-Cada minero tiene un transmisor que siempre transmite su ubicación exacta: fundamental en emergencias.
-Conceptos básicos de minería
 Aprende las habilidades básicas para lidiar con la minería.
-Bacterias mineras
 Crea grandes poblaciones de bacterias que se alimentan de rocas para facilitar el acceso a los minerales. Esta práctica no ha sido probada como perjudicial para los humanos. Sin embargo, los trabajadores siguen siendo escépticos sobre este hecho.
-Droides mineros
 Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.
 Adulteracion mineral
-Aprende a introducir dosis de rocas comunes para aumentar la producción.
-Carros de control remoto
 Los carros mineros se administran por control remoto desde una oficina centralizada.
-Brocas de vapor
 Use vigas de vapor muy densas para derretir la roca y descubrir el mineral.
-Trazado subterráneo
 Desarrolla cartas subterráneas de las áreas donde operan tus minas. No solo ayuda a administrar sus operaciones, sino que también aumenta la sensación de seguridad.
 Fuentes alternativas
 Utilice materias primas alternativas como el cáñamo y el kenaf para producir papel. Salva algunos árboles y mejora la eficiencia.
@@ -1380,40 +1334,12 @@ Productos Sustitutivos
 Productos alternativos como pan de maíz, tofu y productos lácteos a base de vegetales: para clientes con alergias y problemas digestivos.
 Aplicaciones de agua
 El agua puede ser muy útil para agrandar las pechugas de pollo y extender los productos lácteos.
-Geología avanzada
-Estudia los temas más avanzados en geología extraterrestre. Esto es obligatorio para realizar una investigación más avanzada en este campo.
-Seguridad avanzada de minas
 Protege a tus trabajadores de las emisiones tóxicas nativas del planeta.
 Sensores químicos avanzados
-Desarrollar métodos más eficientes para detectar impurezas en el mineral.
-Ejes de aire extra
-Los ejes de aire adicionales facilitan la tarea de los trabajadores en las minas, pero la abundancia de oxígeno puede corromper algunos minerales delicados.
-Exoesqueletos
-Los mineros utilizan exoesqueletos hidráulicos para extraer el mineral, este método es muy rápido pero no tan preciso.
-Mineria extraterrestre
-Deja de minar de la misma manera que lo hiciste en la tierra; Aprovecha las condiciones específicas del planeta.
-Minería a gran escala
-Aprende las habilidades básicas para gestionar grandes minas.
-Elevadores magneticos
-Los ascensores que operan con campos magnéticos naturales son mucho más seguros que los ascensores normales.
-Microexplosiones
 En lugar de llevar a cabo grandes explosiones en sus minas, se llevan a cabo cientos de pequeñas explosiones para descubrir el mineral.
-Localizadores de mineros
-Cada minero tiene un transmisor que siempre transmite su ubicación exacta: fundamental en emergencias.
-Conceptos básicos de minería
 Aprende las habilidades básicas para gestionar la minería.
-Bacterias mineras
 Cree grandes poblaciones de bacterias que se alimentan de rocas para facilitar el acceso al mineral. Esta práctica no ha sido probada como perjudicial para los humanos. Sin embargo, los trabajadores siguen siendo escépticos sobre este hecho.
-Droides mineros
-Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.
 Adulteracion quimica
-Aprende a introducir dosis de rocas comunes para aumentar la producción.
-Carros de control remoto
-Los carros mineros se administran por control remoto desde una oficina centralizada.
-Brocas de vapor
-Use vigas de vapor muy densas para derretir la roca y descubrir el mineral.
-Trazado subterráneo
-Desarrolla cartas subterráneas de las áreas donde operan tus minas. No solo ayuda a administrar sus operaciones, sino que también aumenta la sensación de seguridad.
 Campaña de adoptar un piso
 Sus residentes pueden adoptar un piso y participar en su mantenimiento. Su nombre estará en una placa en su respectivo piso.
 Aromaterapia avanzada
@@ -1538,74 +1464,18 @@ Bodega
 Su elección de vinos ha mejorado mucho. También puedes ofrecer botellas de época.
 Suscripción al restaurante
 Para las personas que les gusta ir regularmente a los mismos restaurantes: precios reducidos para clientes leales.
-Geología avanzada
-Estudia los temas más avanzados en geología extraterrestre. Esto es obligatorio para realizar una investigación más avanzada en este campo.
-Seguridad avanzada de minas
-Protege a tus trabajadores de las emisiones tóxicas, nativas del planeta.
 Sensores de silicio avanzados
 Desarrollar métodos más eficientes para detectar impurezas en el silicio.
-Ejes de aire extra
-Los ejes de aire adicionales facilitan la tarea de los trabajadores en las minas, pero la abundancia de oxígeno puede corromper algunos minerales delicados.
-Exoesqueletos
 Los mineros utilizan exoesqueletos hidráulicos para extraer el mineral, este método es muy rápido pero no tan preciso.
-Mineria extraterrestre
-Deja de minar de la misma manera que lo hiciste en la tierra; Aprovecha las condiciones específicas del planeta.
-Minería a gran escala
-Aprende las habilidades básicas para gestionar grandes minas.
-Elevadores magneticos
-Los ascensores que operan con campos magnéticos naturales son mucho más seguros que los ascensores normales.
-Microexplosiones
-En lugar de llevar a cabo grandes explosiones en sus minas, cientos de pequeñas explosiones se llevan a cabo para descubrir depósitos de mineral.
-Localizadores de mineros
-Cada minero tiene un transmisor que siempre transmite su ubicación exacta: fundamental en emergencias.
-Conceptos básicos de minería
-Aprende las habilidades básicas para lidiar con la minería.
-Bacterias mineras
 Cree grandes poblaciones de bacterias que se alimentan de rocas para facilitar el acceso al silicio. Esta práctica no ha sido probada como perjudicial para los humanos. Sin embargo, los trabajadores siguen siendo escépticos sobre este hecho.
-Droides mineros
-Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.
 Adulteración del silicio
 Aprenda a introducir dosis de roca común para aumentar la producción.
-Carros de control remoto
-Los carros de minería se controlan de forma remota desde una oficina centralizada.
-Brocas de vapor
-Use vigas de vapor muy densas para derretir la roca y descubrir el mineral.
-Trazado subterráneo
-Desarrolla cartas subterráneas de las áreas donde operan tus minas. No solo ayuda a administrar sus operaciones, sino que también aumenta la sensación de seguridad.
-Geología avanzada
-Estudia los temas más avanzados en geología extraterrestre. Esto es obligatorio para realizar una investigación más avanzada en este campo.
-Seguridad avanzada de minas
-Protege a tus trabajadores de las emisiones tóxicas, nativas del planeta.
 Sensores de roca avanzados
 Desarrollar métodos más eficientes para detectar impurezas en las rocas.
-Ejes de aire extra
-Los ejes de aire adicionales facilitan la tarea de los trabajadores en las minas, pero la abundancia de oxígeno puede corromper algunos minerales delicados.
-Exoesqueletos
-Los mineros utilizan exoesqueletos hidráulicos para extraer el mineral, este método es muy rápido pero no tan preciso.
-Mineria extraterrestre
-Deja de minar de la misma manera que lo hiciste en la tierra; Aprovecha las condiciones específicas del planeta.
-Minería a gran escala
-Aprende las habilidades básicas para gestionar grandes minas.
-Elevadores magneticos
-Los ascensores que operan con campos magnéticos naturales son mucho más seguros que los ascensores normales.
-Microexplosiones
-En lugar de llevar a cabo grandes explosiones en sus minas, cientos de pequeñas explosiones se llevan a cabo para descubrir depósitos de mineral.
-Localizadores de mineros
-Cada minero tiene un transmisor que siempre transmite su ubicación exacta: fundamental en emergencias.
-Conceptos básicos de minería
-Aprende las habilidades básicas para gestionar la minería.
-Bacterias mineras
 Crea grandes poblaciones de bacterias especiales para facilitar el acceso a la roca. Esta práctica no ha sido probada como perjudicial para los humanos. Sin embargo, los trabajadores siguen siendo escépticos sobre este hecho.
-Droides mineros
-Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.
 Adulteración de rocas
 Aprenda a introducir dosis de sustancias comunes para aumentar la producción.
-Carros de control remoto
-Los carros de minería se controlan de forma remota desde una oficina centralizada.
-Brocas de vapor
 Utilice vigas de vapor muy densas para descubrir más fácilmente el mineral.
-Trazado subterráneo
-Desarrolla cartas subterráneas de las áreas donde operan tus minas. No solo ayuda a administrar sus operaciones, sino que también aumenta la sensación de seguridad.
 Espectáculos de premios
 Crea muchos premios para que el público pueda ver a sus celebridades favoritas disfrazadas y sonrientes. Nadie se preocupa realmente por el premio en sí mismo; es la pompa y la pompa que aman.
 Televisión
@@ -1666,15 +1536,12 @@ Música verde
 Cultiva árboles con la música New Age Tree. Los árboles crecen más y más rápido, pero la madera que producen es un poco de mal humor.
 Madera de alta densidad
 Producir madera de alta densidad. Es más resistente y duradero.
-Sistema de bus interno
 Las habitaciones y el ambiente de trabajo en una planta de madera tienen que estar muy separados debido al ambiente de alta temperatura. En plantas grandes, un sistema de bus interno hace que los viajes sean eficientes.
 Museo de la madera
 Usted crea un Museo de la Madera en la sede de su industria. Conocer la historia de la madera motiva a sus empleados.
-Desarrollos en nanotecnología
 Usted produce micro partes de madera para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.
 Fertilizante Sensible
 Use fertilizantes especiales que aumentarán la calidad de su madera.
-Producción de superconductores
 Al utilizar la tecnología de gama alta necesaria para producir superconductores, mejora la calidad de sus productos.
 Árboles siameses
 Produzca árboles mutantes que presentarán dos árboles completos para cada conjunto de raíces.

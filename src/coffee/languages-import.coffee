@@ -77,10 +77,10 @@ for json_path in (json_file_paths || [])
         invention_json.description = {
           'DE': description_values['DE'] || invention_json.description['DE'] || invention_json.description['EN']
           'EN': invention_json.description['EN']
-          'ES': description_values['ES'] || invention_json.description['EN']
+          'ES': description_values['ES'] || invention_json.description['ES'] || invention_json.description['EN']
           'FR': description_values['FR'] || invention_json.description['FR'] || invention_json.description['EN']
           'IT': description_values['IT'] || invention_json.description['IT'] || invention_json.description['EN']
-          'PT': description_values['PT'] || invention_json.description['EN']
+          'PT': description_values['PT'] || invention_json.description['PT'] || invention_json.description['EN']
         }
       else
         console.log "missing translations for description '#{invention_json.description['EN']}'"

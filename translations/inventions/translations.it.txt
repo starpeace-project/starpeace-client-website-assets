@@ -94,10 +94,10 @@ Verifica rigorosa dell'età
 Il barista chiede a tutti i clienti di mostrargli la carta d'identità per assicurarsi che abbiano superato l'età minima per il consumo di alcolici.
 Locali a tema
 I tuoi bar sono arredati in modo da attirare clientele ben definite. Tra i temi vi sono saloon in stile western, segrete medievali e locali per gay e lesbiche.
-Alien Writing
-Produce books written with invented alien languages for Sci-Fi fanatics. A niche market but valuable nonetheless.
-Big Letters
-Old people like to read books with big prints that don't tire their eyes. A sensible and lucrative line of products.
+Scrittura aliena
+Produci libri scritti con linguaggi alieni inventati per fanatici di fantascienza. Un mercato di nicchia ma comunque prezioso.
+Grandi lettere
+Gli anziani amano leggere libri con grandi stampe che non stancano i loro occhi. Una linea di prodotti ragionevole e redditizia.
 Letti
 Aggiungi letti alle zone di lettura dei tuoi negozi, in modo che i clienti possano provare libri e storie da leggere ai bambini prima che si addormentino.
 Solo best seller
@@ -128,34 +128,34 @@ Trailer dei libri
 Produci trailer digitali delle novità editoriali in modo da ravvivare l'interesse della tua clientela.
 Libri usati
 Vendi libri usati.
-Braille Books
-Produce books in Braille alphabet for blind people. Costly but you come accross as a benefactor.
-First Edition Scam
-When you print the first edition of a book, you put aside a number of copies to sell them after several years as collection items if the book is successful.
-Flowery Letters
-Put beautiful artistic letters at the start of the different chapters, just like in ancient miniated manuscripts.
-Flyers
-Specialize in low-quality printing for flyers and other bulk advertisement products.
-Font Database
-Any font ever invented on earth or on one of the new planets is stored in a huge database. Maximum variety for your clients.
-High Quality Pictures
-Specialize in printing pictures at a very high quality standard.
-History of Printing
-From Gutenberg to laser printing, study all the advancement in the history of printing to improve the quality of your products.
-Holograms
-Learn how to apply holograms on paper. They are very cool to look at and really difficult to forge.
-Luxury Bindings
-Use silk and leather along with extra resistant threads to make the covers of your books.
-Mint Outsourcing
-When the immigration rate is high in the new worlds, the mint can't produce enough local currency and out-sources banknote printing to your plants. The return is high and it raises your business profile.
-Plasticized Books
-Produce books whose pages are covered with a tiny film of transparent plastic, so that the customers can read it underwater.
-Printing Industry Basics
-Basic skills to manage Printing Plants.
-Quality Magazines
-Print high-end magazines for a cultural savvy audience.
-Watermarks
-Learn how to engrave sheets of paper with precious filaments of metal.
+Libri in Braille
+Produci libri in alfabeto Braille per non vedenti. Costoso, ma vieni ad essere un benefattore.
+Scam della prima edizione
+Quando stampi la prima edizione di un libro, metti da parte un certo numero di copie per venderle dopo diversi anni come oggetti da collezione se il libro ha successo.
+Lettere fiorite
+Metti belle lettere artistiche all'inizio dei diversi capitoli, proprio come negli antichi manoscritti miniati.
+volantini
+Specializzati nella stampa di bassa qualità per volantini e altri prodotti pubblicitari collettivi.
+Database dei font
+Ogni font mai inventato sulla terra o su uno dei nuovi pianeti è memorizzato in un enorme database. Massima varietà per i tuoi clienti.
+Immagini di alta qualità
+Specializzati nella stampa di immagini con standard qualitativi molto elevati.
+Storia della stampa
+Da Gutenberg alla stampa laser, studia tutti i progressi nella storia della stampa per migliorare la qualità dei tuoi prodotti.
+ologrammi
+Impara come applicare ologrammi su carta. Sono molto belli da vedere e davvero difficili da forgiare.
+Attacchi di lusso
+Usa seta e pelle insieme a fili extra resistenti per realizzare le copertine dei tuoi libri.
+Menta Outsourcing
+Quando il tasso di immigrazione è alto nei nuovi mondi, la zecca non può produrre abbastanza valuta locale e la stampa di banconote esterne alle vostre piante. Il rendimento è elevato e solleva il tuo profilo aziendale.
+Libri plastificati
+Produci libri le cui pagine sono ricoperte da un piccolo film di plastica trasparente, in modo che i clienti possano leggerlo sott'acqua.
+Nozioni di base del settore della stampa
+Abilità di base per gestire gli impianti di stampa.
+Riviste di qualità
+Stampa di riviste di fascia alta per un pubblico esperto di cultura.
+Filigrane
+Impara come incidere fogli di carta con preziosi filamenti di metallo.
 Sistema antispionaggio
 I tuoi stabilimenti sono protetti da sistemi molto sofisticati contro lo spionaggio industriale. In questo modo puoi introdurre migliorie dei processi senza temere che la concorrenza se ne appropri.
 Fondamenti della realizzazione di prodotti chimici
@@ -172,7 +172,7 @@ Chimica extraterrestre
 Le leggi chimiche della Terra differiscono leggermente da quelle degli altri mondi. Il loro studio ti permette di migliorare la qualità dei tuoi prodotti e l'efficienza dei tuoi impianti.
 Pompe da vuoto ultrapotenti
 Gli impianti sono dotati di pompe da vuoto di grande potenza che assicurano un ambiente migliore per le reazioni.
-Tuta protettiva integrale
+Full Body Security
 Per ragioni di sicurezza, ogni dipendente dello stabilimento deve indossare una tuta protettiva integrale.
 Smaltimento interno delle scorie chimiche
 Le scorie dei processi chimici non abbandonano mai ufficialmente lo stabilimento. Per il loro smaltimento vengono adottati metodi poco chiari, che preoccupano gli ecologisti.
@@ -281,75 +281,74 @@ Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiu
 Minatori droidi
 Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.
 Adulterazione dei minerali
-Impara come fare ad introdurre minerali comuni nei prodotti estrattivi onde accrescerne il volume.
+Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume.
 Carrelli telecomandati
 I carrelli delle miniere sono controllati da un ufficio centralizzato.
 Trivelle a vapore
 Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.
 Mappatura del sottosuolo
 Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.
-Alternative Cases
-Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.
-Anti Copying System
-If someone try to duplicate your CDs, they destroy themselves melting in the burner, hopelessly ruining it.
-Artist Subscription
-Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released.
-Audio Books
-Produce audio versions of famous books for blind people and long distance drivers.
-Old-fashioned Background Noise
-Add the option to play the tracks on your CDs with a faint scratchy background noise for people nostalgic of the vinyl era.
-Biodegradable CDs
-To avoid that lost CD will stay in the environment forever, use a special plastic like material derived from corn.
-CD Players Cleaner
-The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it.
-CD Signing
-Just like with books, have musicians come to your stores to meet the public and autograph the CD they buy.
-Dancing Demonstration
-When a new Disco song becomes a hit, not everybody knows how to dance to it. Hire professional dancers to perform an in-store demonstration.
-Edible CDs
-Why stop at biodegrability? Add taste to the special plastic so that poor people can dine on unusued CDs. Strangely enough, banana flavoured ones deliver a better sound quality.
-Echologic Lasers
-Use enviromentally friendly lasers that don't produce any waste when trashed at the end of their lifecycle.
+Casi alternativi
+Crea custodie di lusso per i tuoi CD, in modo che risultino gradevoli su scaffali o scaffali.
+Sistema anti-copia
+Se qualcuno cerca di duplicare i tuoi CD, si distruggono nel bruciatore, rovinandolo irrimediabilmente.
+Abbonamento dell'artista
+I tuoi clienti possono iscriversi a un servizio che li spedisce automaticamente il nuovo CD del loro artista preferito quando vengono rilasciati.
+Libri audio
+Produrre versioni audio di famosi libri per non vedenti e autisti a lunga distanza.
+Rumore di fondo vecchio stile
+Aggiungi l'opzione per riprodurre i brani dei tuoi CD con un debole rumore di sottofondo per le persone nostalgiche dell'era del vinile.
+CD biodegradabili
+Per evitare che il CD perso rimanga nell'ambiente per sempre, usa uno speciale materiale plastico simile al mais.
+Pulitore per lettori CD
+Il lato non riproducibile dei tuoi CD è appositamente progettato per pulire i lettori CD. Basta inserire il CD capovolto e riprodurlo.
+CD firma
+Proprio come con i libri, i musicisti vengono nei tuoi negozi per incontrare il pubblico e autografare il CD che acquistano.
+Dimostrazione di danza
+Quando una nuova discoteca diventa un successo, non tutti sanno come ballarlo. Assumi ballerini professionisti per eseguire una dimostrazione in negozio.
+CD commestibili
+Perché fermarsi alla biodegrabilità? Aggiungi gusto alla plastica speciale in modo che i poveri possano cenare su CD insoluti. Stranamente, quelli al gusto di banana offrono una migliore qualità del suono.
+Laser ecologico
+Utilizzare laser ecologici che non producono rifiuti quando cestinati alla fine del loro ciclo di vita.
 Fidelity Card
-As a promotional offer, your clients get a free CD every ten they buy.
-Flexible CDs
-Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends.
-Free for Blind
-Blind people can get a free CD every month in your store.
-Full Body Security
-Your workers wear a full body protection to avoid any minimal contact with laser beams.
-CD Industry Basics
-Basic skills to manage CD Plants.
-Infomercial CDs
-Recycle old songs in compilations specifically for TV selling. Big audiences grant a good return.
-Karaoke Ready
-When you play the CDs, the display of the CD player, instead of the track number or length, shows the lirics of the song being played for people to sing along.
-Listening Stations
-Put several CD players in your stores so that customers can listen to a CD before buying it.
-Live Performances
-Instead of just signing, the musicians perform pieces of their CDs live in your store.
-Mini CDs
-Put entire albums on mini CDs, compressing the tracks. The sound quality suffers a bit, but you save a lot in plastic.
-Music Consultant
-One of your employee is a music expert who gives advice to your clients based on their personal taste.
-Music Snobs
-When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven.
-Repairing Station
-Your clients can use this automatic machine to fix their scratched CDs.
-Rewritable CDs
-In case the buyer of the CD get tired of it, he can always reuse it to burn his own stuff.
-Singing Stations
-Trasform your listening station in soundproof cabin in which karaoke lovers can sing along their favourite songs.
+Come offerta promozionale, i tuoi clienti ricevono un CD gratuito ogni dieci che acquistano.
+CD flessibili
+Dal momento che il tuo CD non è incompatibile, puoi anche usare una plastica più leggera e più economica che si piega.
+Gratuito per non vedenti
+I non vedenti possono ottenere un CD gratuito ogni mese nel tuo negozio.
+I tuoi lavoratori indossano una protezione completa del corpo per evitare qualsiasi contatto minimo con i raggi laser.
+Nozioni di base sull'industria dei CD
+Abilità di base per la gestione di piante CD.
+CD Infomercial
+Ricicla vecchie canzoni in compilation appositamente per la vendita di TV. Un grande pubblico garantisce un buon ritorno.
+Karaoke pronto
+Quando si riproducono i CD, il display del lettore CD, al posto del numero o della lunghezza del brano, mostra i lirici del brano riprodotto per le persone da cantare.
+Stazioni di ascolto
+Metti diversi lettori CD nei tuoi negozi in modo che i clienti possano ascoltare un CD prima di acquistarlo.
+Esibizioni dal vivo
+Invece di firmare, i musicisti suonano pezzi dei loro CD dal vivo nel tuo negozio.
+Mini CD
+Metti interi album su mini CD, comprimendo le tracce. La qualità del suono soffre un po ', ma si risparmia molto sulla plastica.
+Consulente musicale
+Uno dei tuoi dipendenti è un esperto di musica che dà consigli ai tuoi clienti in base al loro gusto personale.
+Snob di musica
+Quando vuoi vendere un certo CD che hai fatto in eccesso, assumi qualcuno che si presenta come un cliente che parla rumorosamente nel negozio elogiando l'autore come il nuovo Beethoven.
+Stazione riparatrice
+I tuoi clienti possono usare questa macchina automatica per riparare i loro CD graffiati.
+CD riscrivibili
+Nel caso in cui l'acquirente del CD si stancasse, può sempre riutilizzarlo per masterizzare la sua roba.
+Stazioni di canto
+Trasforma la tua stazione d'ascolto in una cabina insonorizzata in cui gli amanti del karaoke possono cantare insieme alle loro canzoni preferite.
 Song Universal Database
-Create a universal database in which all the songs ever recorded on Earth and on the New Worlds are registered. Very useful in satisfying your customers requests.
-Tunes Expert
-To help customers who remember a song but not its title. They can whistle it to your expert who will recognize it immediately.
-Unscratchable Surface
-It's impossible to scratch your CDs, no matter how hard you try.
-Unwanted Bins
-Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them.
-Used Section
-People can buy or sell used CD in a special section of your store.
+Crea un database universale in cui sono registrate tutte le canzoni mai registrate sulla Terra e sui Nuovi Mondi. Molto utile per soddisfare le richieste dei clienti.
+Esperto di brani
+Aiutare i clienti che ricordano una canzone ma non il titolo. Possono fischiare il tuo esperto che lo riconoscerà immediatamente.
+Superficie non intrecciabile
+È impossibile grattare i tuoi CD, non importa quanto tu ci provi.
+Bidoni indesiderati
+Invece di restituire i CD invenduti, incollali in un cestino speciale. Puoi sempre sperare che qualcuno li comprerà.
+Sezione usata
+Le persone possono acquistare o vendere CD usati in una sezione speciale del tuo negozio.
 Sistema fondi-CD
 Per prevenire la pirateria, i tuoi CD fondono se qualcuno cerca di duplicarli, rendendo tra l'altro inservibile il masterizzatore.
 Servizi per la telefonia mobile
@@ -392,7 +391,7 @@ Addio Cloni
 Nessun clone viene venduto nei tuoi negozi, solo marche ufficiali.
 Cinque Anni di Garanzia
 Oggigiorno nessun computer dura 5 anni. Dare 5 anni di garanzia e' come darne 3, ma sembra meglio.
-Riparazioni Gratis
+Free Repairment Department
 Centro di riparazione in tutti i tuoi negozi. Aggiustano tutto a nessun costo per it tuoi clienti.
 Mouse senza filo
 Non fa molta differenza per la performance del computer, ma la gente adora gadget inutili.
@@ -650,38 +649,37 @@ Negozi specializzati
 Invece di concentrare l'intera gamma della tua offerta in ogni supermercato, apri negozi specializzati come panetterie, macellerie, pescherie, ecc.
 Pausa pranzo
 I tuoi supermercati preparano panini e piatti pronti da consumare in piedi per gli impiegati di fabbriche e uffici dei dintorni. Un'alternativa pratica ed economica a ristoranti e bar.
-Conference Call Funerals
-For some can be difficult to attend a funeral, especially in another planet. A special broadcasting and transmitting arrangement permits to say goodbye to the departed through a monitor and a microphone.
-Coffin Alarm
-For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued.
-Coffin Vision
-Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them.
-Free Repairment Department
-Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception.
-Crematory
-Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure.
-Embalming
-Stuff the bodies of your client and treat their skin to prevent putrefaction. Some people like to preserve their beloved for eternity.
-Ethnic Ceremonies
-From flaming pyres to mummifucation, you offer your clients any possible religious and ethnic funeral.
-Family Specials
-Book funerals for all the component of your family, no matter their age. Savings for everybody, both the clients and your parlours.
-Funeral Parlour Basics
-Paperwork for managing funeral parlours.
-Halloween Props
-Rent the furnitures and accessories used in your funerals for parties on Halloween. A creative way to increase your profit.
-Hospital Sentinels
-Save money on advertisement by paying someone to monitor hospitals. When a victim of an accident comes in, he will contact the family immediately and offer them your service.
-Luxury Urns
-For clients that want their ashes kept in over the top, precious urns.
-Mediums and Psychics
-Hire psychics to have your client discuss with their dead beloved the arrangement of the funeral exactly how they would have liked.
-Pet Funerals
-Why limit the care for the departed to humans? Lots of animal lovers are willing to pay for a full fledge funeral for their beloved pets.
-Wax Museum Connection
-When famous people die, you sell to wax museums the exact measures of their body, in order to create a perfect copy for their exposition.
-Wigs Production
-It's common knowledge that hair keep growing for a while after the death of the body. Use the hair cut from the corpses to create wigs and sell them to unaware specialty shop.
+Funerali per teleconferenze
+Per alcuni può essere difficile partecipare a un funerale, specialmente in un altro pianeta. Uno speciale sistema di trasmissione e trasmissione consente di dire addio al defunto attraverso un monitor e un microfono.
+Allarme bara
+Per le persone che hanno paura di essere sepolte vive. Un allarme è messo dentro la bara, insieme a una riserva d'aria. Se il morto si sveglia, può attivare l'allarme ed essere salvato.
+Visione della bara
+Alcune persone non possono vivere senza vedere i propri cari perduti. Metti una telecamera all'interno della bara collegata a un monitor che i tuoi clienti possono guardare tutti i giorni. Il fatto che il corpo si decomponga lentamente, non sembra infastidirli.
+A volte il cadavere di un cliente è in una forma troppo brutta per essere visualizzato. Paghi agli attori di sdraiarsi nella bara mimetizzati come i defunti per il ricevimento funebre.
+Crematorio
+I tuoi salotti hanno crematori incorporati per le persone che vogliono essere bruciate in cenere dopo la loro partenza.
+imbalsamazione
+Riempi i corpi del tuo cliente e tratta la pelle per prevenire la putrefazione. Ad alcune persone piace conservare i loro amati per l'eternità.
+Cerimonie etniche
+Dalle pire fiammeggianti alla mummifucazione, offri ai tuoi clienti ogni possibile funerale religioso ed etnico.
+Speciale famiglia
+Prenota i funerali per tutti i componenti della tua famiglia, indipendentemente dalla loro età. Risparmio per tutti, sia i clienti che i vostri salotti.
+Nozioni di base di pompe funebri
+Documenti per gestire le pompe funebri.
+Puntelli di Halloween
+Affitta gli arredi e gli accessori utilizzati nei tuoi funerali per le feste di Halloween. Un modo creativo per aumentare il tuo profitto.
+Sentinelle Ospedaliere
+Risparmia denaro sulla pubblicità pagando qualcuno per monitorare gli ospedali. Quando arriva una vittima di un incidente, contatta immediatamente la famiglia e offre loro il tuo servizio.
+Urne di lusso
+Per i clienti che vogliono le loro ceneri tenute in cima, preziose urne.
+Medium e Psychics
+Assumi i sensitivi per chiedere al tuo cliente di discutere con i propri cari l'organizzazione del funerale esattamente come avrebbero voluto.
+Funerali per animali domestici
+Perché limitare la cura per i defunti agli umani? Un sacco di amanti degli animali sono disposti a pagare per un funerale a tutti gli effetti per i loro amati animali domestici.
+Collegamento al museo delle cere
+Quando persone famose muoiono, vendi ai musei di cera le misure esatte del loro corpo, al fine di creare una copia perfetta per la loro esposizione.
+Produzione di parrucche
+È risaputo che i capelli continuano a crescere per un po 'dopo la morte del corpo. Usa i capelli tagliati dai cadaveri per creare parrucche e venderle a negozi di specialità ignari.
 Copie dei mobili di Barbra Streisand
 Ottieni i diritti di copyright sui mobili esposti al Museo Barbra Streisand di Tel Aviv. Attenzione, però: alcune persone pensano che siano di una bruttezza più unica che rara.
 Mobilia flessibile
@@ -701,13 +699,13 @@ Ottieni la licenza e le competenze di base per la gestione di fabbriche di mobil
 Garanzia a vita
 Offri una garanzia a vita sugli articoli che vendi.
 Servizio riparazioni
-Un servizio riparazioni in loco per i tuoi clienti.
+Ciascuno dei tuoi negozi è dotato di un servizio riparazioni ad uso della clientela.
 Prova notturna dei letti
 Permetti ai clienti di dormire per una notte nel negozio, in modo che possano provare letti e materassi.
 Venditori che diventano clienti
 Al momento dell'assunzione il tuo personale di vendita si impegna ad acquistare i propri mobili presso i tuoi negozi.
 Tecnici inesperti
-Per risparmiare soldi, i tuoi centri assistenza impiegano solo tecnici molto giovani.
+Per risparmiare soldi i tuoi centri assistenza impiegano solo tecnici molto giovani.
 Magazzinaggio verticale
 Tutti i tuoi mobili sono venduti in confezioni rettangolari. Ammassando le scatole l'una sull'altra risparmi moltissimo spazio, a costo di qualche scalfitura.
 Mobili che crescono
@@ -809,7 +807,6 @@ I soliti documenti per l'organizzazione aziendale.
 Impianti industriali
 I documenti necessari per la gestione di un'industria.
 Ministry Administration
-
 Riproduzione di monumenti
 Apprendi i procedimenti per la riproduzione di monumenti.
 Conquista dell'acqua
@@ -854,16 +851,12 @@ Mille animali domestici in uno
 Un robot in grado di mutare forma ti permette di scegliere ogni giorno l'animale domestico che preferisci, sia esso un cane da guardia o un gatto dal pelo lungo.
 Corsi di avviamento all'uso degli elettrodomestici
 I tuoi figli ti prendono in giro perché non sai far funzionare videoregistratore o CD? Un corso di un giorno presso il negozio permette anche ai più riluttanti di imparare l'essenziale.
-Servizio riparazioni
-Ciascuno dei tuoi negozi è dotato di un servizio riparazioni ad uso della clientela.
 Venditori che diventano clienti
 Al momento dell'assunzione il tuo personale di vendita si impegna ad acquistare i propri elettrodomestici presso i tuoi negozi.
 Lavatrici ad ultrasuoni
 Onde ultrasoniche permettono di fare a meno dei tradizionali detersivi. Un ritrovato ecologico e pratico.
 Televisione ultra-sottile
 Realizzi apparecchi televisivi dello spessore di un dipinto. La qualità delle immagini rimane eccellente.
-Tecnici inesperti
-Per risparmiare soldi i tuoi centri assistenza impiegano solo tecnici molto giovani.
 Elettrodomestico universale
 L'unificazione in una solo macchina di tutti i più comuni elettrodomestici per la cucina. La qualità non è pari a quella dei singoli apparecchi, ma le tue fabbriche risultano molto più efficienti.
 Componenti non schermati
@@ -1008,27 +1001,18 @@ Cassaforte a tempo
 I tuoi cassieri non hanno accesso alla cassaforte, che si apre solo ad orari fissi.
 Lastre metalliche ultra-sottili
 Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.
-Lastre metalliche ultra-sottili
-Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.
-Tute autorefrigeranti
-I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.
 Tute autorefrigeranti
 I tuoi operai indossano tute dotate di un'intercapedine contenente acqua che li rinfresca durante il lavoro alle alte temperature dello stabilimento, pur limitandone un po' i movimenti.
 Trasmettitori incorporati
 I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate.
-Trasmettitori incorporati
 I componenti metallici che produci sono dotati di trasmettitori che entrano in funzione quando la parte diventa inservibile. Molto utile, ad esempio, per le tubazioni interrate.
-Raffreddamento criogenico dell'acciaio
-L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente.
 Raffreddamento criogenico dell'acciaio
 L'acciaio che produci viene raffreddato a temperature bassissime tramite un procedimento criogenico. Il processo risulta complessivamente più efficiente.
 Leghe extraterrestri
 Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra.
-Leghe extraterrestri
 Le piccole differenza chimiche e fisiche dei nuovi mondi ti permettono di creare leghe che sarebbero impossibili sulla Terra.
 Servizio interno di autobus
 Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.
-Servizio interno di autobus
 Nelle aziende metallurgiche gli alloggi degli operai devono essere distanti dagli impianti a causa del-le alte temperature. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.
 Metallurgia su vasta scala
 Apprendi le conoscenze di base per la gestione di grandi aziende metallurgiche.
@@ -1036,39 +1020,29 @@ Metallurgia
 Fondamenti dell'industria metallurgica.
 Opere d'arte metalliche
 Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte.
-Opere d'arte metalliche
 Ricicli le scorie metalliche del processo di produzione come sculture di un inesistente artista terrestre, guadagnandoti una certa fama come esperto d'arte.
 Museo della metallurgia
 Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti.
-Museo della metallurgia
 Crei un museo della metallurgia nel tuo quartier generale per l'industria. La possibilità di conoscere la storia della lavorazione dei metalli funge da motivazione per i tuoi dipendenti.
-Parti per nanotecnologia
+Applicazioni per nanotecnologia
 Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.
-Parti per nanotecnologia
 Produci parti microscopiche per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.
-Formatura in assenza di gravità
-La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo.
 Formatura in assenza di gravità
 La formatura del metallo in assenza di gravità viene realizzata all'interno di una cabina in caduta libera all'interno dell'impianto. Tali condizioni migliorano la qualità del processo.
 Screening dei minerali
 I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità.
-Screening dei minerali
 I tuoi impianti adottano un ulteriore screening dei minerali trasportati dalle miniere. Si tratta di un procedimento costoso, ma che migliora la qualità.
 Trattamento dei metalli preziosi
 Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli.
-Trattamento dei metalli preziosi
 Ricicli le impurità dei metalli preziosi non utilizzate nella produzione industriale per creare una linea di gioielli.
 Meccanismo di autodistruzione degli altiforni
 I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze.
-Meccanismo di autodistruzione degli altiforni
 I tuoi impianti più grandi sono dotati di un sistema che fa crollare gli altiforni in una cavità sotterranea in caso di fuoriuscite di metallo fuso. Un sistema molto efficace nelle emergenze.
 Produzione di superconduttori
 Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.
-Produzione di superconduttori
 Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.
 Lega al titanio ultra-resistente
 La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale.
-Lega al titanio ultra-resistente
 La produzione della lega metallica più resistente mai creata dall'uomo. Le sue applicazioni principali sono nell'industria aerospaziale.
 Villaggio per gli attori
 Per attirare i migliori attori e attrici i tuoi studi sono attrezzati con un lussuoso hotel. Gli attori vi risiedono durante la lavorazione del film.
@@ -1186,72 +1160,52 @@ Moquette soffici
 Le hall e i corridoi sono ricoperti di moquette molto soffici sulle quali è piacevole camminare.
 Portiere
 Un portiere in uniforme staziona fuori dall'ingresso e dà il benvenuto ai visitatori, tenendo alla larga i tipi sospetti e gli individui indesiderabili in genere.
-Geologia avanzata
 Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo.
-Nozioni avanzate di sicurezza delle miniere
 Proteggi i tuoi operai dalle emissioni tossiche.
 Sensori minerari avanzati
-Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari.
-Condotte supplementari per l'aria
 Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati.
-Esoscheletri
-I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso.
-Tecniche minerarie extraterrestri
 Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta.
-Attività minerarie su vasta scala
-Apprendi le conoscenze di base per la gestione di grandi miniere.
-Ascensori magnetici
-Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni.
-Microesplosioni
 Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche.
 Trasmettitori per minatori
-Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze.
-Fondamenti dell'industria mineraria
 Apprendi le nozioni fondamentali per la gestione di attività minerarie.
-Batteri per gli scavi minerari
 Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici.
-Minatori droidi
 Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.
 Adulterazione dei minerali
-Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume.
-Carrelli telecomandati
 I carrelli delle miniere sono controllati da un ufficio centralizzato.
-Trivelle a vapore
 Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.
-Mappatura del sottosuolo
 Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.
-Alternative Sources
-Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.
-Color Changing Paper
-Based on the principle of litmus paper, produce special sheets that change colors if they are immersed in different liquids. Your clients can have fun with them.
-Extraterrestrial Fibers
-Extraterrestrial wood can be slightly different from the earth one. Study those differences to improve the paper production.
-Food Containers
-Produce special hygienic containers to store food. Safety is a major concern.
-Hand Made Paper
-Hire artisans able to manufacture beautiful hand-made paper for demanding clients. They are not cheap, but the overall quality of your products greatly improves.
-Make Your Own Paper Kit
-Have your paper artisans prepare a special kit to be sold in stores to people who wants to venture in creating their own paper. A new line of business.
-Mint Contract
-Provide high quality paper to the mint to print banknotes. Very high profile contract.
-Packaging Materials
-Produce cardboard boxes and other paper based packaging devices. A very demanded line of products.
-Paper Bag Campaign
-Launch a massive campaign to promote the use of paper bag over plastic ones in grocery stores. Increase the demand and come across as environmentally friendly.
-Paper Clothes
-Produce cheap but still good looking attires completely made out of high quality paper.
-Paper History
-Study how the paper was made in previous centuries on earth, it will give you insights on how to improve the quality of your factories paper.
-Paper Industry Basics
-Basic skills to manage Paper factories.
-Paper Knives
-Everybody knows how nasty a paper cut be. Create special knives with paper blades for cutting soft materials.
-Parchment
-Produce ancient style paper with modern machinery. Very nice to look at and perfect for diplomas.
-Recycling Facility
-Build a recycling facility inside your plants that allows you to use old paper for your new products. Very costly effective an environmentally friendly.
-Tissue Production
-Adds tissues and other paper based cleaning products to your line of products. A very lucrative business.
+Fonti alternative
+Utilizzare materie prime alternative come la canapa e il kenaf per produrre carta. Salvare alcuni alberi e migliorare l'efficienza.
+Carta che cambia colore
+Basato sul principio della carta di tornasole, produce fogli speciali che cambiano i colori se sono immersi in diversi liquidi. I tuoi clienti possono divertirsi con loro.
+Fibre extraterrestri
+Il legno extraterrestre può essere leggermente diverso da quello terrestre. Studia quelle differenze per migliorare la produzione di carta.
+Contenitori alimentari
+Produci contenitori igienici speciali per conservare il cibo. La sicurezza è una delle maggiori preoccupazioni.
+Carta fatta a mano
+Assumi artigiani in grado di produrre bellissime carte fatte a mano per clienti esigenti. Non sono economici, ma la qualità complessiva dei tuoi prodotti migliora notevolmente.
+Crea il tuo kit di carta
+Chiedi ai tuoi artigiani di carta di preparare un kit speciale da vendere nei negozi alle persone che vogliono avventurarsi nella creazione di una propria carta. Una nuova linea di business.
+Contratto di menta
+Fornire carta di alta qualità alla zecca per stampare banconote. Contratto di altissimo profilo.
+Materiali da imballaggio
+Produci scatole di cartone e altri dispositivi di imballaggio basati su carta. Una linea di prodotti molto richiesta.
+Campagna di sacchetti di carta
+Avvia una massiccia campagna per promuovere l'uso del sacchetto di carta su quelli di plastica nei negozi di alimentari. Aumentare la domanda e trovare eco-compatibili.
+Vestiti di carta
+Produci abbigliamenti economici ma di bell'aspetto fatti completamente con carta di alta qualità.
+Storia della carta
+Studia come la carta è stata prodotta nei secoli precedenti sulla terra, ti fornirà informazioni su come migliorare la qualità della carta delle tue fabbriche.
+Nozioni di base sull'industria della carta
+Abilità di base per gestire le fabbriche di carta.
+Coltelli di carta
+Tutti sanno quanto sia brutto un taglio di carta. Crea coltelli speciali con lame di carta per tagliare materiali morbidi.
+Pergamena
+Produci carta stile antico con macchinari moderni. Molto bello da vedere e perfetto per i diplomi.
+Impianto di riciclaggio
+Costruisci un impianto di riciclaggio all'interno dei tuoi impianti che ti permetta di usare carta vecchia per i tuoi nuovi prodotti. Molto economico ed ecocompatibile.
+Produzione di tessuti
+Aggiunge tessuti e altri prodotti per la pulizia a base di carta alla tua linea di prodotti. Un affare molto redditizio.
 Archivio allergie
 Un enorme archivio contenente i rimedi per ogni tipo di reazione allergica. Molto utile nelle emergenze.
 Test allergologici obbligatori
@@ -1380,40 +1334,12 @@ Prodotti sostitutivi
 Prodotti alternativi come pane di granturco, tofu e latte vegetale. Per i clienti che soffrono di allergie alimentari o problemi digestivi.
 Gonfiaggio tramite acqua
 Iniezioni di acqua ti permettono di aumentare il volume di petti di pollo e latticini.
-Geologia avanzata
-Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo.
-Nozioni avanzate di sicurezza delle miniere
 Proteggi i tuoi operai dalle emissioni tossiche.
 Sensori minerari avanzati
-Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari.
-Condotte supplementari per l'aria
-Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati.
-Esoscheletri
-I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso.
-Tecniche minerarie extraterrestri
-Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta.
-Attività minerarie su vasta scala
-Apprendi le competenze di base per la gestione di grandi miniere.
-Ascensori magnetici
-Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni.
-Microesplosioni
 Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche.
-Trasmettitori per minatori
-Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze.
-Fondamenti dell'industria mineraria
 Apprendi le nozioni fondamentali per la gestione di attività minerarie.
-Batteri per gli scavi minerari
 Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici.
-Minatori droidi
-Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.
 Adulterazione dei minerali
-Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume.
-Carrelli telecomandati
-I carrelli delle miniere sono controllati da un ufficio centralizzato.
-Trivelle a vapore
-Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.
-Mappatura del sottosuolo
-Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.
 Campagna "adotta un piano"
 I tuoi inquilini possono adottare un piano dell'edificio e partecipare alla sua manutenzione. Il loro nome sarà esposto su un'apposita targa sulle pareti del piano in questione.
 Aromaterapia avanzata
@@ -1538,74 +1464,18 @@ Cantina di vini
 il tuo assortimento di vini migliora in maniera considerevole, fino a comprendere vini d'annata.
 Abbonamento annuale
 Per le persone a cui piace recarsi regolarmente allo stesso ristorante. Prezzi ridotti per la clientela più affezionata.
-Geologia avanzata
-Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo.
-Nozioni avanzate di sicurezza delle miniere
-Proteggi i tuoi operai dalle emissioni tossiche.
 Sensori minerari avanzati
 Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari.
-Condotte supplementari per l'aria
-Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati.
-Esoscheletri
 I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso.
-Tecniche minerarie extraterrestri
-Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta.
-Attività minerarie su vasta scala
-Apprendi le competenze di base per la gestione di grandi miniere.
-Ascensori magnetici
-Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni.
-Microesplosioni
-Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche.
-Trasmettitori per minatori
-Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze.
-Fondamenti dell'industria mineraria
-Apprendi le nozioni fondamentali per la gestione di attività minerarie.
-Batteri per gli scavi minerari
 Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici.
-Minatori droidi
-Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.
 Adulterazione dei minerali
 Impara come fare ad introdurre minerali comuni nei prodotti estrattivi onde accrescerne il volume.
-Carrelli telecomandati
-I carrelli delle miniere sono controllati da un ufficio centralizzato.
-Trivelle a vapore
-Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.
-Mappatura del sottosuolo
-Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.
-Geologia avanzata
-Studia le materie più avanzate nel campo della geologia extraterrestre. Si tratta di un passaggio obbligato per chi vuole approfondire gli studi in questo ramo.
-Nozioni avanzate di sicurezza delle miniere
-Proteggi i tuoi operai dalle emissioni tossiche.
 Sensori minerari avanzati
 Sviluppa metodi più avanzati per rilevare le impurità dei giacimenti minerari.
-Condotte supplementari per l'aria
-Le condotte supplementari per l'aria rendono più semplice il lavoro dei minatori, ma l'abbondanza di ossigeno può nuocere ai minerali più delicati.
-Esoscheletri
-I minatori usano esoscheletri idraulici per l'estrazione dei minerali. Il procedimento è molto rapido ma non altrettanto preciso.
-Tecniche minerarie extraterrestri
-Anziché adottare le tecniche minerarie in uso sulla Terra, le modifichi in modo da sfruttare le condizioni specifiche del pianeta.
-Attività minerarie su vasta scala
-Apprendi le competenze di base per la gestione di grandi miniere.
-Ascensori magnetici
-Gli ascensori che funzionano sfruttando i campi magnetici naturali sono molto più sicuri degli ascensori comuni.
-Microesplosioni
-Invece di ricorrere a grosse cariche esplosive per portare alla luce i giacimenti, nelle tue miniere si utilizzano centinaia di piccole cariche.
-Trasmettitori per minatori
-Ciascun minatore è dotato di un trasmettitore che permette di conoscere sempre la sua posizione. Fondamentale nelle emergenze.
-Fondamenti dell'industria mineraria
-Apprendi le nozioni fondamentali per la gestione di attività minerarie.
-Batteri per gli scavi minerari
 Crea grandi colonie di batteri in grado di scavare attraverso la roccia e raggiungere i giacimenti. A quanto si sa questa pratica non è nociva per gli esseri umani, ma i minatori sono scettici.
-Minatori droidi
-Sostituisci gli esseri umani con dei droidi nelle procedure più pericolose.
 Adulterazione dei minerali
 Impara come introdurre piccole quantità di minerali comuni nei prodotti estrattivi onde accrescerne il volume.
-Carrelli telecomandati
-I carrelli delle miniere sono controllati da un ufficio centralizzato.
-Trivelle a vapore
 Utilizza getti di vapore ad alta densità per fondere le rocce e raggiungere i giacimenti.
-Mappatura del sottosuolo
-Crea mappe del sottosuolo per le zone in cui operano le tue miniere. Ciò permette non solo di controllare meglio l'attività, ma anche di aumentare la sicurezza.
 Spettacoli Celebrativi
 Produci spettacoli che diano premi a varie celebrità, in modo che gli spettatori possano vedere il più possibile i loro idoli. A nessuno interessa la reale validità dei premi.
 Televisione
@@ -1666,15 +1536,12 @@ Musica per gli alberi
 Aiuta gli alberi a crescere con la musica new age. Essi assumono effettivamente dimensioni superiori, ma si rivelano un po' lunatici.
 Legname ad alta densità
 Produci un legname molto denso, e che si rivela più resistente e durevole.
-Servizio interno di autobus
 Nelle segherie gli alloggi degli operai devono essere distanti dagli impianti a causa delle schegge vaganti. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.
 Museo del legname
 Crei un museo del legname nel tuo quartier generale per l'industria. La possibilità di conoscere la storia di questa attività funge da motivazione per i tuoi dipendenti.
-Applicazioni per nanotecnologia
 Produci parti microscopiche in legno per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.
 Fertilizzanti
 Applichi fertilizzanti speciali che aumentano la qualità del legno.
-Produzione di superconduttori
 Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.
 Alberi siamesi
 Produci alberi mutanti che sviluppano due fusti a parte da una sola radice.

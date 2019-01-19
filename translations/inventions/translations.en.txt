@@ -316,7 +316,6 @@ Flexible CDs
 Since your CDs are scratch-resistant, you may as well use a lighter and cheaper plastic that bends.
 Free CD for the Blind
 The Blind can get a free CD from your strore every month.
-Full-Body Protection
 Your workers wear full-body protection to avoid even minimal contact with laser beams.
 CD Industry Basics
 Basic skills to manage CD Plants.
@@ -656,7 +655,6 @@ Coffin Alarm
 For people who are afraid to be buried alive. An alarm is installed inside the coffin, along an air reserve. If the deceased wakes up, he or she can trigger the alarm and be rescued.
 Coffin Vision
 Some people cannot live without seeing their dearly departed loved one. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body is slowl
-Free Repair Department
 Sometimes the corpse isn't in good enough shape to be displayed. You pay actors to lay down in the coffin disguised as the departed for the funeral reception.
 Crematory
 Your funeral parlors have built-in crematories for people who want to be burnt to ashes after their departure.
@@ -809,7 +807,6 @@ The usual paperwork necessary for establishing and organizing a company.
 Industrial Facilities
 Paperwork necessary for the management of industries.
 Ministry Administration
-
 Monument Reproduction
 Acquire the skills to reproduce monuments.
 Water Quest Licenses
@@ -854,16 +851,12 @@ Morphing Pet
 Choose the domestic animal you want daily with this special shape-changing robot: from a guard dog to a hairy cat, it will transform itself on request.
 One Day Technology Course
 Do your kids make fun of you because you don't know how to operate a VCR or a CD player? A one day in-store course reveals the mystery of technology to the more traditional customer.
-Repair Department
-In-store repair center for your customers.
 Salespeople-As-Customer
 When they are hired, your salespeople agree to only buy their appliances from your store.
 Ultrasound Washing Machine
 No detergent is needed, thanks to the ultrasound waves. Ecologically sound and practical.
 Ultra Thin TV
 Produce TVs thin as paintings. Picture quality is excellent.
-Inexperienced Technicians
-To save money, your repair center only employs very young technicians.
 Universal Machine
 Unify all the most common kitchen appliances into a single machine. It's not quite as good as the single pieces separately, but your factories are much more efficient.
 Unscreened Components
@@ -1008,27 +1001,18 @@ Safe Timer
 Your cashiers don't have access to the store safe, it only opens at fixed hours.
 Atom Size Metal Sheets
 The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.
-Atom Size Metal Sheets
-The use of zero-gravity shaping permits you to create sheets of metal that are only a few atoms in width; extremely useful in industrial applications.
-Auto-Cooling Suits
-Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.
 Auto-Cooling Suits
 Your workers wear suits that have fresh water running over their body to keep them cool in the plant's high temperature environment. Unfortunately, the suits make them a little clumsy.
 Built-In Transmitters
 The metal parts you produce have a built in transmittor that alerts when the part is ruined.Extremely useful for buried components like pipes.
-Built-In Transmitters
 The metal parts you produce have a built-in transmitter that alerts to when the part is ruined; extremely useful for buried components like pipes.
-Cryogenic Steel Cooling
-The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.
 Cryogenic Steel Cooling
 The steel you produce is cooled at cryogenic temperatures making the overall process more efficient.
 Extraterrestrial Alloys
 The slightly different chemistry and physics of the new worlds allows you to create new alloys that can't be produced on Earth.
-Extraterrestrial Alloys
 The slightly different chemistry and physic's principles on the new worlds allow you to create new alloys that can't be produced on Earth.
 Internal Bus System
 The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.
-Internal Bus System
 A metallurgic plant's living quarters have to far removed from the plant due to its high temperatures. In large plants, an internal bus system efficiently moves workers.
 Large Scale Metallurgy Production
 Learn the basic skills to manage large scale metallurgy production.
@@ -1036,39 +1020,29 @@ Metallurgy
 Basic metallurgy production.
 Metallic Art
 You recycle the metal pieces thrown away by the production process as artistic sculptures created by an unexistent Earth artist. You gain some reputation as an art expert.
-Metallic Art
 You recycle the metal pieces thrown away from the production process as artistic sculptures created by a fictional artist from Earth. You gain a reputation as an art expert.
 Metallurgy Museum
 You create a metallurgy museum in your industry headquarter. Watching the history of metal working motivates your employees.
-Metallurgy Museum
 You create a metallurgy museum in your industry headquarters. Viewing the history of metal working motivates your employees.
 Nanotechnology Developments
 You produce metallics micro parts for nanotechnology uses. It forces your plants to implement a better quality process.
-Nanotechnology Developments
 You produce metallics micro-parts for nanotechnology uses. It forces your plants to implement a better quality process.
-Zero Gravity Shaping
-The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.
 Zero Gravity Shaping
 The shaping of metal is performed in a special free-falling cabin within your plant. The zero-gravity field inside it permits a better quality process.
 Ore Screening
 Your plants implement an ulterior screening of the ore bought from mines. Costly but improve the quality.
-Ore Screening
 Your plants implement an additional screening process on the ore extracted from mines; costly but improves quality.
 Precious Metal Treatment
 You recycle the impurity of precious metal not used in the industrial production to create a jewellery line.
-Precious Metal Treatment
 You recycle the impurities extracted from precious metal from industrial production to create a jewellery line.
 Security Collapsing Mechanism
 Your large plants have a system that collapses the furnace in an underground cavity in case of fuse metal leakage. Very effective in emergencies.
-Security Collapsing Mechanism
 Your large plants have a system that collapses the furnace into an underground cavity in the event that fuse metal leakage occurs: very effective in emergencies.
 Superconductor Production
 By using the high end technology needed to produce superconductors, you improves your products quality.
-Superconductor Production
 By using the high-end technology needed to produce superconductors, you increase the quality of your products.
 Ultimate Titanium Alloy
 Production of the strongest metal alloy ever created by men. Used mainly in aerospace industry.
-Ultimate Titanium Alloy
 Production of the strongest metal alloy ever created by man; used mainly in the aerospace industry.
 Actor Resort
 To attract the best actors and actresses, build a luxurious resort inside your studios where they can live and be pampered while shooting your movies.
@@ -1186,39 +1160,19 @@ Soft Carpets
 Very soft carpets cover the floors and corridors: very nice to walk on.
 Official Greeter
 An official greeter in uniform stands outside the main entrance and greets and directs visitors; this also ensures weirdoes and other undesirables are kept out.
-Advanced Geology
 Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.
-Advanced Mine Security
 Protect your workers from the toxic emissions, native to the planet.
 Advanced Sensors
-Develop more efficient methods to detect impurities in ore.
-Extra Air Shafts
 Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoskeletons
-The miners use hydraulic exoskeletons to extract ore, this method is very fast but not as precise.
-Extraterrestrial Mining
 Stop mining the same way you did on earth; take advantage of specific planet conditions.
-Large Scale Mining
-Learn the basic skills to manage large mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-Microexplosions
 Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore deposits.
 Miner Locators
-Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.
-Mining Basics
 Learn the basic skills to deal with mining.
-Mining Bacteria
 Create large populations of rock eating bacteria to facilitate access to minerals. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.
-Mining Droids
 Replace humans with droids to work on the most dangerous tasks.
 Mineral Adulteration
-Learn how to introduce doses of common rocks in order to increase production.
-Remote Control Carts
 The mining carts are managed by remote control from a centralized office.
-Steam Drills
 Use highly dense steam-beams to melt rock and uncover ore.
-Underground Charting
 Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.
 Alternative Sources
 Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve efficiency.
@@ -1380,40 +1334,12 @@ Substitutive Products
 Alternative products like corn bread, tofu and vegetable based dairy: for customers with allergies and digestive problems.
 Water Applications
 Water can be very useful in enlarging chicken breasts and extending dairy products.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.
-Advanced Mine Security
 Protect your workers from the toxic emissions native to the planet.
 Advanced Chemical Sensors
-Develop more efficient methods to detect impurities in ore.
-Extra Air Shafts
-Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoskeletons
-The miners use hydraulic exoskeletons to extract ore, this method is very fast but not as precise.
-Extraterrestrial Mining
-Stop mining the same way you did on earth; take advantage of specific planet conditions.
-Large Scale Mining
-Learn the basic skills to manage large mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-Microexplosions
 Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore.
-Miner Locators
-Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.
-Mining Basics
 Learn the basic skills to manage mining.
-Mining Bacteria
 Create large populations of rock eating bacteria to facilitate access to ore. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans with droids to work on the most dangerous tasks.
 Chemical Adulteration
-Learn how to introduce doses of common rocks in order to increase production.
-Remote Control Carts
-The mining carts are managed by remote control from a centralized office.
-Steam Drills
-Use highly dense steam-beams to melt rock and uncover ore.
-Underground Charting
-Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.
 Adopt-A-Floor Campaign
 Your residents can adopt a floor and participate in its maintenance. Their name will be on a plaque on their respective floor.
 Advanced Aromatherapy
@@ -1538,74 +1464,18 @@ Wine Cellar
 Your choice of wines is greatly improved. You are also able to offer vintage bottles.
 Restaurant Subscription
 For people who like to regularly go to the same restaurants: reduced prices for loyal customers.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.
-Advanced Mine Security
-Protect your workers from the toxic emissions, native to the planet.
 Advanced Silicon Sensors
 Develop more efficient methods to detect impurities in silicon.
-Extra Air Shafts
-Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoskeletons
 The miners use hydraulic exoskeletons to extract the ore, this method is very fast but not as precise.
-Extraterrestrial Mining
-Stop mining the same way you did on earth; take advantage of specific planet conditions.
-Large Scale Mining
-Learn the basic skills to manage large mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-Microexplosions
-Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore deposits.
-Miner Locators
-Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.
-Mining Basics
-Learn the basic skills to deal with mining.
-Mining Bacteria
 Create large populations of rock eating bacteria to facilitate access to silicon. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans with droids to work on the most dangerous tasks.
 Silicon Adulteration
 Learn how to introduce doses of common rock in order to increase production.
-Remote Control Carts
-The mining carts are controlled remotely from a centralized office.
-Steam Drills
-Use highly dense steam-beams to melt rock and uncover ore.
-Underground Charting
-Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory in order to conduct more advanced research in this field.
-Advanced Mine Security
-Protect your workers from the toxic emissions, native to the planet.
 Advanced Rock Sensors
 Develop more efficient methods to detect impurities in rocks.
-Extra Air Shafts
-Extra air shafts make it easier for workers at the mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoskeletons
-The miners use hydraulic exoskeletons to extract ore, this method is very fast but not as precise.
-Extraterrestrial Mining
-Stop mining the same way you did on earth; take advantage of specific planet conditions.
-Large Scale Mining
-Learn the basic skills to manage large mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-Microexplosions
-Instead of carrying out large explosions in your mines, hundreds of small explosions are carried out in order to uncover ore deposits.
-Miner Locators
-Every miner has a transmitter that always transmits his or her exact location: fundamental in emergencies.
-Mining Basics
-Learn the basic skills to manage mining.
-Mining Bacteria
 Create large populations of special bacteria to facilitate access to rock. This practice has not been proven harmful to humans. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans with droids to work on the most dangerous tasks.
 Rock Adulteration
 Learn how to introduce doses of common substances in order to increase production.
-Remote Control Carts
-The mining carts are controlled remotely from a centralized office.
-Steam Drills
 Use highly dense steam-beams to more easily uncover ore.
-Underground Charting
-Develop underground charts of the areas where your mines operate. It not only helps manage your operations, but it also increases the sense of security.
 Award Shows
 Create many awards show so that audiences can watch their favorite celebrities all dressed up and smiling. Nobody actually cares about the award itself; it's the pomp and pageantry they love.
 Television
@@ -1666,15 +1536,12 @@ Green Music
 Grow trees using New Age Tree Music. Trees grow bigger, faster, but the wood they produce is a bit moody.
 High Density Wood
 Produce high density wood. It's more resistant and durable.
-Internal Bus System
 The living quarters and the working environment in a wood plant have to be far apart due to the high temperature environment. In large plants, an internal bus system makes travel efficient.
 Timber Museum
 You create a Timber Museum at your industry headquarter. Knowing the history of timber motivates your employees.
-Nanotechnology Developments
 You produce micro timber parts for nanotechnology uses. It forces your plants to implement a better quality process.
 Sensible Fertilizing
 Use special fertilizers that will increase the quality of your timber.
-Superconductor Production
 By using the high end technology needed to produce superconductors, you improve your products quality.
 Siamese Trees
 Produce mutant trees that will feature two full grown tress for every set of roots.

@@ -254,40 +254,40 @@ Unifuß-Schuhe
 So wie Unisex, aber für die Füße. Der rechte Schuh gleicht genau dem linken. Die Form ist so konzipiert, dass sie auf beide Füße passt.
 Altkleiderwiederverkauf
 Anstatt die Altkleider einer Wohlfahrt zu geben, lassen Sie sie von Ihren Schneidern ausbessern und verkaufen sie wieder.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.
-Advanced Mines Security
-Protect your workers from the native toxic emissions.
-Advanced Ore Sensors
-Develop more efficent methods to detect impurities in ore.
-Extra Air Conducts
-Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoscheletons
-The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.
-Extraterrestrial Mining
-Stop mining like you were on Earth. Take advantage of the specific planet conditions.
-Large Scale Minning
-Learn the basic skills to manage big mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-MicroExplosions
-Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.
-Miners Locators
-Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.
-Mining Basics
-Learn the basic skills to deal with minery.
-Mining Bacteria
+Fortgeschrittene Geologie
+Studieren Sie die fortschrittlichsten Themen zur außerirdischen Geologie. Das ist obligatorisch für fortgeschrittene Entwicklungen auf diesem Gebiet.
+Minensicherheit für Fortgeschrittene
+Schützen Sie Ihre Arbeiter vor den nativen Giftgasen.
+Fortgeschrittene Erzsensoren
+Entwickeln Sie effizientere Methoden um Unreinheiten in Erzen zu entdecken.
+Extra Luftschächte
+Extra Luftschächte machen es den Arbeitern in den Bergwerken leichter, aber zu viel Sauerstoff kann sensible Mineralien verderben.
+Außenskelette
+Die Minenarbeiter verwenden Außenskelette um das Erz abzubauen. Sehr schnell, aber nicht so präzise.
+Außerirdischer Bergbau
+Hören Sie auf Bergbau zu betreiben, als wären Sie nach auf der Erde. Nutzen Sie die planeteneigenen Bedingungen aus.
+Große Bergwerke
+Erlernen Sie das Grundwissen für das Management von großen Bergwerken.
+Magnetfahrstühle
+Fahrstühle, die mit natürlichen Magnetfeldern arbeiten sind wesentlich sicherer als normale Fahrstühle.
+Mikroexplosionen
+Anstatt von großen Explosionen werden in Ihren Bergwerken hunderte kleiner Explosionen verwendet, um das Erz freizulegen.
+Beeper für Kumpel
+Jeder Arbeiter des Bergwerks verfügt über einen Sender, der seine genaue Position anzeigt. In Notfällen lebenswichtig.
+Bergbaugrundlagen
+Lernen Sie die Grundlagen des Bergbaus.
+Bergwerksbakterien
 Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans by droids on the most dangerous tasks.
-Ore Adulteration
-Learn how to introduce dosages of common rocks in order to increase production.
-Remote Controlled Carts
-The mining carts are controlled from a centralized office.
-Steam Drills
-Use higly dense steam-beams to melt rocks and uncover ore.
-Underground Charting
-Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.
+Bergwerksdroiden
+Ersetzen Sie bei gefährlichen Aufgaben Menschen durch Droiden.
+Erzverfälschung
+Lernen Sie, wie man Anteile von normalem Stein untermischt, um die Produktion zu steigern.
+Ferngesteuerte Waggons
+Die Waggons in den Bergwerken werden von einem Zentralbüro gesteuert.
+Dampfbohrer
+Verwenden Sie hochdichte Dampfstrahler, um Felsen zu schmelzen und das Erz freizulegen.
+Untergrundkarten
+Erstellen Sie Karten vom Untergrund Ihrer Bergwerke. Sie können nicht nur gezielter arbeiten, sondern auch das Gefühl der Sicherheit wird verbessert.
 Alternative Cases
 Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.
 Anti Copying System
@@ -316,7 +316,6 @@ Flexible CDs
 Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends.
 Free for Blind
 Blind people can get a free CD every month in your store.
-Full Body Security
 Your workers wear a full body protection to avoid any minimal contact with laser beams.
 CD Industry Basics
 Basic skills to manage CD Plants.
@@ -656,7 +655,6 @@ Coffin Alarm
 For people who are afraid to be buried alive. An alarm is put inside the coffin, along with a reserve of air. If the dead wakes up, he can trigger the alarm and be rescued.
 Coffin Vision
 Some people cannot live without seeing their lost beloved. You put a camera inside the coffin connected to a monitor that your clients can watch every day. The fact that the body slowly decompose, doesn't seem to bother them.
-Free Repairment Department
 Sometimes the corpse of a client is in too bad a shape to be displayed. You pay actors to lay down in the coffin camouflaged as the departed for the funeral reception.
 Crematory
 Your parlours have built-in crematories for people who wants to be burnt to ashes after their departure.
@@ -700,14 +698,14 @@ Furniture Production
 Get the License and basic knowledge to manage furniture factories.
 Lifetime Guarantee
 Offer lifetime guarantee for the items you sell.
-Repairment Department
-In store repairment center for your clients.
+Reparaturabteilung
+Reparaturabteilung vor Ort für Ihre Kunden.
 Sleep Over program
 Allow customers to sleep for one night in the store. An effective way to test beds and mattresses.
 Sales People As Customer
 When they are hired, your salesmen agree to buy the furniture for their houses only at your store.
-Unexperienced Technicians
-To save money, your repairment center employs only very young technicians.
+Unerfahrene Techniker
+Um Geld zu sparen, stellen Sie für Ihre Reparaturzentren nur sehr junge Techniker ein.
 Vertical Storage
 All the appliances you sell are in rectangular boxes. By storing them one above the other you save a lot of space, but sometimes they are a little scratched.
 Growing furniture
@@ -809,7 +807,6 @@ Die üblichen Papiere zur Organisation eines Unternehmens.
 Industrieeinrichtungen
 Papiere für das Management von Industrien.
 Ministry Administration
-
 Reproduktion von Denkmälern
 Eignen Sie sich die Kenntnis über die Reproduktion von Denkmälern an.
 Water Quest Licenses
@@ -854,16 +851,12 @@ Verwandelbares Haustier
 Mit diesem Roboter können Sie sich jeden Tag aussuchen, was für ein Haustier sie wollen. Vom Wachhund zur Rassekatze, er ändert seine Form auf Befehl.
 Eintageskurs
 Ihre Kinder machen sich über Sie lustig, weil Sie nicht wissen, wie man einen Videorekorder oder einen CD-Player bedient? In einem Eintageskurs werden Sie in die Geheimnisse der Technik eingeweiht.
-Reparaturabteilung
-Reparaturabteilung vor Ort für Ihre Kunden.
 Verkäufer sind Kunden
 Bei ihrer Einstellung erklären sich die Verkäufer bereit, Haushaltsgeräte nur in Ihrem Geschäft zu kaufen.
 Ultraschall-Waschmaschinen
 Keine Waschmittel mehr dank der Ultraschallwellen. Ökologisch und praktisch.
 Ultra-Flachbildfernseher
 Herstellung von Fernsehern, die so flach sind wie Bilder. Die Bildqualität ist hervorragend.
-Unerfahrene Techniker
-Um Geld zu sparen, stellen Sie für Ihre Reparaturzentren nur sehr junge Techniker ein.
 Universalmaschine
 Alle gängigen Küchengeräte sind in einer Maschine zusammengefasst. Sie funktioniert nicht so gut wie separate Maschinen, aber Ihre Fabriken arbeiten wesentlich effizienter.
 Ungeschützte Komponenten
@@ -1008,27 +1001,18 @@ Safe mit Zeitschalter
 Ihre Kassierer haben keinen Zugang zum Geschäftssafe, er öffnet sich nur zu bestimmten Uhrzeiten.
 Atomdünne Metallplatten
 Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.
-Atomdünne Metallplatten
-Die Verwendung von schwerelosem Formen ermöglicht Ihnen die Herstellung von Metallplatten, die nur wenige Atome dick sind. Sehr nützlich in der Industrie.
-Selbstkühlende Anzüge
-Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.
 Selbstkühlende Anzüge
 Ihre Arbeiter tragen Anzüge, in denen kalten Wasser über den ganzen Körper läuft, um sie in der hocherhitzten Atmosphäre der Fabrik zu kühlen. Hindert allerdings die Bewegungen.
 Eingebaute Sender
 Die von Ihnen produzierten Metallteile enthalten Sender, die Alarm auslösen, wenn das Teil beschädigt ist. Sehr nützlich für eingegrabene Teile, wie z.B. Röhren.
-Eingebaute Sender
 Die von Ihnen produzierten Metallteile enthalten Sender, die Alarm auslösen, wenn das Teil beschädigt ist. Sehr nützlich für eingegrabene Teile, wie z.B. Röhren.
-Kryogene Stahlabkühlung
-Der von Ihnen produzierte Stahl wird bei kryogenen Temperaturen abgekühlt. Der Gesamtprozeß ist effizienter.
 Kryogene Stahlabkühlung
 Der von Ihnen produzierte Stahl wird bei kryogenen Temperaturen abgekühlt. Der Gesamtprozeß ist effizienter.
 Außerirdische Legierungen
 Die etwas andere Chemie und Physik in den neuen Welten ermöglichen Ihnen die Herstellung von neuen Legierungen, die auf der Erde nicht produziert werden können.
-Außerirdische Legierungen
 Die etwas andere Chemie und Physik in den neuen Welten ermöglichen Ihnen die Herstellung von neuen Legierungen, die auf der Erde nicht produziert werden können.
 Internes Bussystem
 Die Wohngebiete und die Arbeitsstätten bei Metallindustrien müssen auf Grund der Hitze weit voneinander entfernt liegen. In großen Unternehmen verbessert ein internes Bussystem die Effizienz.
-Internes Bussystem
 Die Wohngebiete und die Arbeitsstätten bei Metallindustrien müssen auf Grund der Hitze weit voneinander entfernt liegen. In großen Unternehmen verbessert ein internes Bussystem die Effizienz.
 Große Metallindustrien
 Erlernen Sie das Grundwissen für das Management von großen Metallindustrien.
@@ -1036,39 +1020,29 @@ Metallurgie
 Grundlagen der Metallproduktion.
 Metallkunst
 Sie recyclen Metallabfälle der Produktionsverfahren als Kunstwerke eines nicht existierenden Künstlers von der Erde. Sie erlangen einen gewissen Ruf als Kunstexperte.
-Metallkunst
 Sie recyclen Metallabfälle der Produktionsverfahrens als Kunstwerke eines nicht existierenden Künstlers von der Erde. Sie erlangen einen gewissen Ruf als Kunstexperte.
 Metallmuseum
 Sie gründen ein Metallmuseum in Ihrer Industriezentrale. Die Geschichte der Metallverarbeitung motiviert Ihre Angestellten.
-Metallmuseum
 Sie gründen ein Metallmuseum in Ihrer Industriezentrale. Die Geschichte der Metallverarbeitung motiviert Ihre Angestellten.
 Nanotechnologie-Entwicklungen
 Sie produzieren metallische Mikroteile für den Einsatz in der Nanotechnologie. Das zwingt Ihre Fabriken qualitativ hochwertigere Verfahren einzusetzen.
-Nanotechnologie-Entwicklungen
 Sie produzieren metallische Mikroteile für den Einsatz in der Nanotechnologie. Das zwingt Ihre Fabriken qualitativ hochwertigere Verfahren einzusetzen.
 Schwereloses Formen
 Das Formen des Metalls findet in einer Spezialkabinen auf Ihrem Fabrikgelände statt. Die Schwerelosigkeit darin ermöglicht ein besseres Verfahren.
-Schwereloses Formen
-Das Formen des Metalls findet in einer Spezialkabinen auf Ihrem Fabrikgelände statt. Die Schwerelosigkeit darin ermöglicht ein besseres Verfahren.
 Erzüberprüfung
 In Ihren Fabriken wird das in den Bergwerken gekaufte Erz noch einmal überprüft. Teuer aber verbessert die Qualität.
-Erzüberprüfung
 In Ihren Fabriken wird das in den Bergwerken gekaufte Erz noch einmal überprüft. Teuer aber verbessert die Qualität.
 Behandlung von Edelmetallen
 Sie recyclen die Unreinheiten der Edelmetalle, die in der Industrie nicht genutzt werden und entwerfen eine Schmuckkollektion.
-Behandlung von Edelmetallen
 Sie recyclen die Unreinheiten der Edelmetalle, die in der Industrie nicht genutzt werden und entwerfen eine Schmuckkollektion.
 Sicherheitssystem für Hochöfen
 Ihre großen Fabriken verfügen über ein System, das den Hochofen in eine unterirdische Grube zusammenbrechen lässt, wenn geschmolzenes Metall ausläuft. Im Notfall sehr effizient.
-Sicherheitssystem für Hochöfen
 Ihre großen Fabriken verfügen über ein System, das den Hochofen in eine unterirdische Grube zusammenbrechen lässt, wenn geschmolzenes Metall ausläuft. Im Notfall sehr effizient.
 Produktion von Superleitern
 Durch die Nutzung der Spitzentechnologie, die zur Herstellung von Superleitern benötigt wird, verbessern Sie die Qualität Ihrer Produkte.
-Produktion von Superleitern
 Durch die Nutzung der Spitzentechnologie, die zur Herstellung von Superleitern benötigt wird, verbessern Sie die Qualität Ihrer Produkte.
 Ultimative Titanlegierung
 Produktion der haltbarsten Metalllegierung, die je von Menschen hergestellt wurde. Hauptsächlich für die Raumfahrt.
-Ultimative Titanlegierung
 Produktion der haltbarsten Metalllegierung, die je von Menschen hergestellt wurde. Hauptsächlich für die Raumfahrt.
 Actors' Resort
 Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.
@@ -1186,39 +1160,19 @@ Weiche Teppiche
 Sehr weiche Teppiche in der Halle und in den Korridoren, Angenehm, darauf zu laufen.
 Türsteher
 Ein Türsteher in Uniform steht außerhalb des Haupteingangs. Er begrüßt die hereinkommenden Personen, und verweigert Spinnern und sonstigen unerwünschten Typen den Zutritt.
-Geologie für Fortgeschrittene
 Studieren Sie die fortschrittlichsten Themen zur außerirdischen Geologie. Das ist obligatorisch für fortgeschrittene Entwicklungen auf diesem Gebiet.
-Minensicherheit für Fortgeschrittene
 Schützen Sie Ihre Arbeiter vor den nativen Giftgasen.
 Erzsensoren für Fortgeschrittene
-Entwickeln Sie effizientere Methoden um Unreinheiten in Erzen zu entdecken.
-Extra Luftschächte
 Extra Luftschächte machen es den Arbeitern in den Bergwerken leichter, aber zu viel Sauerstoff kann sensible Mineralien verderben.
-Außenskelette
-Die Minenarbeiter verwenden Außenskelette um das Erz abzubauen. Sehr schnell, aber nicht so präzise.
-Außerirdischer Bergbau
 Hören Sie auf Bergbau zu betreiben, als wären Sie nach auf der Erde. Nutzen Sie die planeteneigenen Bedingungen aus.
-Große Bergwerke
-Erlernen Sie das Grundwissen für das Management von großen Bergwerken.
-Magnetfahrstühle
-Fahrstühle, die mit natürlichen Magnetfeldern arbeiten sind wesentlich sicherer als normale Fahrstühle.
-Mikroexplosionen
 Anstatt von großen Explosionen werden in Ihren Bergwerken hunderte kleiner Explosionen verwendet, um das Erz freizulegen.
 Beeper für Kumpel
-Jeder Arbeiter des Bergwerks verfügt über einen Sender, der seine genaue Position anzeigt. In Notfällen lebenswichtig.
-Bergbaugrundlagen
 Lernen Sie die Grundlagen des Bergbaus.
-Bergwerksbakterien
 Züchten Sie große Mengen von steinessenden Bakterien, um den Zugang zu den Erzen zu vereinfachen. Es hat sich als für den Menschen unschädlich erwiesen. Die Kumpel bleiben skeptisch.
-Bergwerksdroiden
 Ersetzen Sie bei gefährlichen Aufgaben Menschen durch Droiden.
 Erzabwandlung
-Lernen Sie, wie man Anteile von normalem Stein untermischt, um die Produktion zu steigern.
-Ferngesteuerte Waggons
 Die Waggons in den Bergwerken werden von einem Zentralbüro gesteuert.
-Dampfbohrer
 Verwenden Sie hochdichte Dampfstrahler, um Felsen zu schmelzen und das Erz freizulegen.
-Untergrundkarten
 Erstellen Sie Karten vom Untergrund Ihrer Bergwerke. Sie können nicht nur gezielter arbeiten, sondern auch das Gefühl der Sicherheit wird verbessert.
 Alternative Sources
 Use alternative raw materials like hemp and kenaf to produce paper. Save some trees and improve the efficiency.
@@ -1380,40 +1334,12 @@ Ersatzprodukte
 Alternative Produkte wie Vollkornbrot, Tofu und pflanzliche Ersatzprodukte für Milchwaren. Für Kunden mit Allergien und Verdauungsschwierigkeiten
 Wassernutzung
 Wasser kann sehr gut zur Vergrößerung von Hühnchenbrüsten und zum Verwässern von Milchprodukten verwendet werden.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.
-Advanced Mines Security
-Protect your workers from the native toxic emissions.
-Advanced Ore Sensors
-Develop more efficent methods to detect impurities in ore.
-Extra Air Conducts
-Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoscheletons
-The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.
-Extraterrestrial Mining
-Stop mining like you were on Earth. Take advantage of the specific planet conditions.
-Large Scale Minning
-Learn the basic skills to manage big mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-MicroExplosions
-Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.
-Miners Locators
-Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.
-Mining Basics
-Learn the basic skills to deal with minery.
-Mining Bacteria
+Schützen Sie Ihre Arbeiter vor den nativen Giftgasen.
+Fortgeschrittene Erzsensoren
+Anstatt von großen Explosionen werden in Ihren Bergwerken hunderte kleiner Explosionen verwendet, um das Erz freizulegen.
+Lernen Sie die Grundlagen des Bergbaus.
 Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans by droids on the most dangerous tasks.
-Ore Adulteration
-Learn how to introduce dosages of common rocks in order to increase production.
-Remote Controlled Carts
-The mining carts are controlled from a centralized office.
-Steam Drills
-Use higly dense steam-beams to melt rocks and uncover ore.
-Underground Charting
-Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.
+Erzverfälschung
 Adopt A Floor Campaign
 Your residents can adopt a floor and participate to his maintenance. Their name will be put on a plaque on the wall of the floor.
 Aromatherapie für Fortgeschrittene
@@ -1538,74 +1464,18 @@ Weinkeller
 Ihre Auswahl an Weinen hat sich deutlich verbessert. Sie haben auch Weine großer Jahrgänge im Angebot.
 Jahresabo
 Für Leute die gerne immer in das gleiche Restaurant gehen. Sonderpreise für treue Kunden.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.
-Advanced Mines Security
-Protect your workers from the native toxic emissions.
-Advanced Ore Sensors
-Develop more efficent methods to detect impurities in ore.
-Extra Air Conducts
-Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoscheletons
-The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.
-Extraterrestrial Mining
-Stop mining like you were on Earth. Take advantage of the specific planet conditions.
-Large Scale Minning
-Learn the basic skills to manage big mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-MicroExplosions
-Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.
-Miners Locators
-Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.
-Mining Basics
-Learn the basic skills to deal with minery.
-Mining Bacteria
+Fortgeschrittene Erzsensoren
+Entwickeln Sie effizientere Methoden um Unreinheiten in Erzen zu entdecken.
+Die Minenarbeiter verwenden Außenskelette um das Erz abzubauen. Sehr schnell, aber nicht so präzise.
 Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans by droids on the most dangerous tasks.
-Ore Adulteration
-Learn how to introduce dosages of common rocks in order to increase production.
-Remote Controlled Carts
-The mining carts are controlled from a centralized office.
-Steam Drills
-Use higly dense steam-beams to melt rocks and uncover ore.
-Underground Charting
-Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.
-Advanced Geology
-Study the most advanced topics in extraterrestrial geology. This is mandatory for more advanced researches on this field.
-Advanced Mines Security
-Protect your workers from the native toxic emissions.
-Advanced Ore Sensors
-Develop more efficent methods to detect impurities in ore.
-Extra Air Conducts
-Extra air conducts make it easier for the workers at mines, but the abundance of oxygen can corrupt some delicate minerals.
-Exoscheletons
-The miners use hydraulic exoscheletons to extract the ore. Very fast but not as precise.
-Extraterrestrial Mining
-Stop mining like you were on Earth. Take advantage of the specific planet conditions.
-Large Scale Minning
-Learn the basic skills to manage big mines.
-Magnetic Elevators
-Elevators operating with natural magnetic fields are far more secure than normal elevators.
-MicroExplosions
-Instead of big explosions, in your mines hundreds of little explosions are perfomed to uncover the ore.
-Miners Locators
-Every miner as a transmitter that always comunicates his or her exact location. Fundamental in emergencies.
-Mining Basics
-Learn the basic skills to deal with minery.
-Mining Bacteria
+Erzverfälschung
+Lernen Sie, wie man Anteile von normalem Stein untermischt, um die Produktion zu steigern.
+Fortgeschrittene Erzsensoren
+Entwickeln Sie effizientere Methoden um Unreinheiten in Erzen zu entdecken.
 Create large populations of rock eating bacteria to ease access to ore. This practice has not proven harmful for human beings. However, workers remain skeptical about this fact.
-Mining Droids
-Replace humans by droids on the most dangerous tasks.
-Ore Adulteration
-Learn how to introduce dosages of common rocks in order to increase production.
-Remote Controlled Carts
-The mining carts are controlled from a centralized office.
-Steam Drills
-Use higly dense steam-beams to melt rocks and uncover ore.
-Underground Charting
-Develop underground charts for the areas where your mines operate. It not only helps to keep your mining in focus but also increases the feeling of security in your mines.
+Erzverfälschung
+Lernen Sie, wie man Anteile von normalem Stein untermischt, um die Produktion zu steigern.
+Verwenden Sie hochdichte Dampfstrahler, um Felsen zu schmelzen und das Erz freizulegen.
 Award Shows
 Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.
 Fernsehen
@@ -1666,15 +1536,12 @@ Green Music
 Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.
 Hi Density Wood
 Produce high density wood. More resistant and durable.
-Internal Bus System
 The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.
 Timber Museum
 You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.
-Nanotechnology Developments
 You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.
 Sensible Fertilizing
 Apply special fertilizers that will increase the quality of your timber.
-Superconductors Production
 By using the high end technology needed to produce superconductors, you improves your products quality.
 Siamese Trees
 Produce mutant trees that will feature two full grown tress for a single set of roots.

@@ -7,15 +7,15 @@
       "EN": "Alternative CD Cases",
       "ES": "Cajas de CD alternativas",
       "FR": "Boîtes de CD alternatives",
-      "IT": "Alternative Cases",
+      "IT": "Casi alternativi",
       "PT": "Capas Alternativas para CD"
     },
     "description": {
       "DE": "Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.",
       "EN": "Create luxury cases for your CDs, so that they will look attractive on bookshelves or racks.",
       "ES": "Cree estuches de lujo para sus CD, de modo que se vean atractivos en estanterías o estantes.",
-      "FR": "Créez des coffrets de luxe pour vos CDs pour quils soient attrayants sur les étagères ou dans les rayons.",
-      "IT": "Create luxury cases for your CDs, so that they will look nice on bookshelves or racks.",
+      "FR": "Créez des coffrets de luxe pour vos CDs pour qu'ils soient attrayants sur les étagères ou dans les rayons.",
+      "IT": "Crea custodie di lusso per i tuoi CD, in modo che risultino gradevoli su scaffali o scaffali.",
       "PT": "Crie cases de luxo para seus CDs, para que eles pareçam atraentes em estantes ou prateleiras."
     },
     "properties": {
@@ -37,7 +37,7 @@
       "EN": "Anti-Copying System",
       "ES": "Sistema Anti-Copiado",
       "FR": "Système anti-copiant",
-      "IT": "Anti Copying System",
+      "IT": "Sistema anti-copia",
       "PT": "Sistema Anti-Copiador"
     },
     "description": {
@@ -45,7 +45,7 @@
       "EN": "If someone tries to copy your CD, the CD will melt in the CD-burner, hopelessly ruining it.",
       "ES": "Si alguien intenta copiar tu CD, el CD se fundirá en la grabadora de CD, arruinándolo irremediablemente.",
       "FR": "Si quelqu'un essaie de copier votre CD, le CD fondra dans le graveur de CD, le détruisant pour sûr.",
-      "IT": "If someone try to duplicate your CDs, they destroy themselves melting in the burner, hopelessly ruining it.",
+      "IT": "Se qualcuno cerca di duplicare i tuoi CD, si distruggono nel bruciatore, rovinandolo irrimediabilmente.",
       "PT": "Se alguém tentar copiar seu CD, o CD vai derreter no gravador de CD, estragando-o irremediavelmente."
     },
     "properties": {
@@ -67,15 +67,15 @@
       "EN": "Artist Subscription Service",
       "ES": "Servicio de suscripción de artistas",
       "FR": "Service d'abonnement d'artiste",
-      "IT": "Artist Subscription",
+      "IT": "Abbonamento dell'artista",
       "PT": "Serviço de assinatura de artista"
     },
     "description": {
       "DE": "Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released.",
       "EN": "Your customers can subscribe to a service that automatically ships them their favorite artist's new CD as soon as it's released.",
       "ES": "Sus clientes pueden suscribirse a un servicio que les envía automáticamente el nuevo CD de su artista favorito tan pronto como se lanza.",
-      "FR": "Vos clients peuvent sabonner à un service qui leur expédie automatiquement le nouveau CD de leur artiste préféré dès sa mise en marché.",
-      "IT": "Your customers can subscribe to a service that automatically ships them the new CD of their favorite artist when they are released.",
+      "FR": "Vos clients peuvent s'abonner à un service qui leur expédie automatiquement le nouveau CD de leur artiste préféré dès sa mise en marché.",
+      "IT": "I tuoi clienti possono iscriversi a un servizio che li spedisce automaticamente il nuovo CD del loro artista preferito quando vengono rilasciati.",
       "PT": "Seus clientes podem assinar um serviço que envia automaticamente o novo CD do artista favorito assim que é lançado."
     },
     "properties": {
@@ -93,7 +93,7 @@
       "EN": "Audio Books",
       "ES": "Audiolibros",
       "FR": "Livres sonores",
-      "IT": "Audio Books",
+      "IT": "Libri audio",
       "PT": "Livros de áudio"
     },
     "description": {
@@ -101,7 +101,7 @@
       "EN": "Produce audio versions of famous books for the blind and commuters.",
       "ES": "Produce versiones de audio de libros famosos para ciegos y personas que viajan diariamente.",
       "FR": "Produisez des versions sonores des livres célèbres pour les aveugles et les banlieusards.",
-      "IT": "Produce audio versions of famous books for blind people and long distance drivers.",
+      "IT": "Produrre versioni audio di famosi libri per non vedenti e autisti a lunga distanza.",
       "PT": "Produza versões em áudio de livros famosos para cegos e passageiros."
     },
     "properties": {
@@ -123,7 +123,7 @@
       "EN": "Old fashioned Background Noise",
       "ES": "Ruido de fondo antiguo",
       "FR": "Bruit de fond rétro",
-      "IT": "Old-fashioned Background Noise",
+      "IT": "Rumore di fondo vecchio stile",
       "PT": "Ruído de fundo antiquado"
     },
     "description": {
@@ -131,7 +131,7 @@
       "EN": "Add the option of playing CD tracks with a faint scratchy background noise; ideal for people nostalgic of the vinyl era.",
       "ES": "Agregue la opción de reproducir pistas de CD con un leve ruido de fondo; Ideal para gente nostálgica de la era del vinilo.",
       "FR": "Ajoutez l'option de faire tourner les CD avec un léger bruit de fond de friture;  idéal pour les personnes qui sont nostalgiques de l'ère du vinyle.",
-      "IT": "Add the option to play the tracks on your CDs with a faint scratchy background noise for people nostalgic of the vinyl era.",
+      "IT": "Aggiungi l'opzione per riprodurre i brani dei tuoi CD con un debole rumore di sottofondo per le persone nostalgiche dell'era del vinile.",
       "PT": "Adicione a opção de reproduzir faixas de CD com um leve ruído de fundo; ideal para pessoas nostálgicas da era do vinil."
     },
     "properties": {
@@ -153,7 +153,7 @@
       "EN": "Biodegradable CDs",
       "ES": "CD biodegradables",
       "FR": "CDs biodégradables",
-      "IT": "Biodegradable CDs",
+      "IT": "CD biodegradabili",
       "PT": "CDs biodegradáveis"
     },
     "description": {
@@ -161,7 +161,7 @@
       "EN": "To avoid that discarded CDs increase waste, use a special plastic-like material derived from corn that is biodegradable.",
       "ES": "Para evitar que los CD descartados aumenten el desperdicio, use un material especial similar al plástico derivado del maíz que sea biodegradable.",
       "FR": "Pour éviter une augmentation des déchets reliée aux Cds rejetés, employez un matériau spécial similaire au plastique dérivé du maïs qui, lui, est biodégradable.",
-      "IT": "To avoid that lost CD will stay in the environment forever, use a special plastic like material derived from corn.",
+      "IT": "Per evitare che il CD perso rimanga nell'ambiente per sempre, usa uno speciale materiale plastico simile al mais.",
       "PT": "Para evitar que os CDs descartados aumentem o desperdício, use um material plástico especial, derivado do milho, que seja biodegradável."
     },
     "properties": {
@@ -183,15 +183,15 @@
       "EN": "CD Player Cleaner",
       "ES": "Limpiador de CD Player",
       "FR": "Nettoyeur de lecteur de disques compacts",
-      "IT": "CD Players Cleaner",
+      "IT": "Pulitore per lettori CD",
       "PT": "Limpador de CD Player"
     },
     "description": {
       "DE": "The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it.",
       "EN": "The non-playable side of your CD is specially designed to clean CD players. To clean, simply insert the CD upside down and press play.",
       "ES": "El lado no reproducible de su CD está especialmente diseñado para limpiar reproductores de CD. Para limpiar, simplemente inserte el CD al revés y presione play.",
-      "FR": "Le côté non gravé de votre CD est conçu pour nettoyer les lecteurs de disques compacts.  Pour nettoyer, insérez simplement le CD à l'envers et appuyer sur la touche play.",
-      "IT": "The non playable side of your CDs is specially designed to clean CD players. Simply insert the CD upside down and play it.",
+      "FR": "Le côté non gravé de votre CD est conçu pour nettoyer les lecteurs de disques compacts.  Pour nettoyer, insérez simplement le CD à l'envers et appuyer sur la touche play'.",
+      "IT": "Il lato non riproducibile dei tuoi CD è appositamente progettato per pulire i lettori CD. Basta inserire il CD capovolto e riprodurlo.",
       "PT": "O lado não reproduzível do seu CD é especialmente projetado para limpar os CD players. Para limpar, basta inserir o CD de cabeça para baixo e pressionar play."
     },
     "properties": {
@@ -213,7 +213,7 @@
       "EN": "CD Signing",
       "ES": "Firma de CD",
       "FR": "Signature de CDs",
-      "IT": "CD Signing",
+      "IT": "CD firma",
       "PT": "Assinatura de CD"
     },
     "description": {
@@ -221,7 +221,7 @@
       "EN": "Just like with books, have musicians come to your stores to meet the public and autograph their CD.",
       "ES": "Al igual que con los libros, haga que los músicos acudan a sus tiendas para reunirse con el público y firmar sus CD.",
       "FR": "Tout comme avec des livres, faites venir les musiciens à vos magasins pour rencontrer le public et pour dédicacer leur CDs.",
-      "IT": "Just like with books, have musicians come to your stores to meet the public and autograph the CD they buy.",
+      "IT": "Proprio come con i libri, i musicisti vengono nei tuoi negozi per incontrare il pubblico e autografare il CD che acquistano.",
       "PT": "Assim como nos livros, os músicos vêm até suas lojas para conhecer o público e autografar o CD."
     },
     "properties": {
@@ -240,7 +240,7 @@
       "EN": "Dancing Demonstration",
       "ES": "Demostración de baile",
       "FR": "Démonstration de danse",
-      "IT": "Dancing Demonstration",
+      "IT": "Dimostrazione di danza",
       "PT": "Demonstração Dançante"
     },
     "description": {
@@ -248,7 +248,7 @@
       "EN": "When a new dance song becomes a hit, everybody won't know how to dance to it; hire professional dancers to perform an in-store demonstration.",
       "ES": "Cuando una nueva canción de baile se convierte en un éxito, todo el mundo no sabrá cómo bailarla; contratar a bailarines profesionales para realizar una demostración en la tienda.",
       "FR": "Quand une nouvelle chanson de danse devient un grand succès, le public ne saura pas comment danser; engagez des danseurs professionnels pour exécuter une démonstration sur les lieux.",
-      "IT": "When a new Disco song becomes a hit, not everybody knows how to dance to it. Hire professional dancers to perform an in-store demonstration.",
+      "IT": "Quando una nuova discoteca diventa un successo, non tutti sanno come ballarlo. Assumi ballerini professionisti per eseguire una dimostrazione in negozio.",
       "PT": "Quando uma nova música de dança se torna um sucesso, todo mundo não sabe como dançar; contratar dançarinos profissionais para realizar uma demonstração na loja."
     },
     "properties": {
@@ -267,7 +267,7 @@
       "EN": "Edible CDs",
       "ES": "CDs comestibles",
       "FR": "CDs comestibles",
-      "IT": "Edible CDs",
+      "IT": "CD commestibili",
       "PT": "CDs Comestíveis"
     },
     "description": {
@@ -275,7 +275,7 @@
       "EN": "Why stop at biodegradable? Add taste to these special plastics so that poor people can dine on unused CDs. Strangely enough, banana flavored ones produce better sound quality.",
       "ES": "¿Por qué parar en biodegradable? Agregue sabor a estos plásticos especiales para que las personas pobres puedan comer en los CD no utilizados. Por extraño que parezca, los de sabor a banana producen una mejor calidad de sonido.",
       "FR": "Pourquoi se limiter dans le biodégradable?  Ajoutez des saveurs à ces plastiques spéciaux de sorte que que les personnes pauvres puissent diner des CDs inutilisés. Assez bizarrement, les CDs au goût de banane ont une meilleure qualité de son.",
-      "IT": "Why stop at biodegrability? Add taste to the special plastic so that poor people can dine on unusued CDs. Strangely enough, banana flavoured ones deliver a better sound quality.",
+      "IT": "Perché fermarsi alla biodegrabilità? Aggiungi gusto alla plastica speciale in modo che i poveri possano cenare su CD insoluti. Stranamente, quelli al gusto di banana offrono una migliore qualità del suono.",
       "PT": "Por que parar em biodegradável? Acrescente gosto a esses plásticos especiais para que pessoas pobres possam comer CDs não utilizados. Estranhamente, os com sabor de banana produzem melhor qualidade de som."
     },
     "properties": {
@@ -298,7 +298,7 @@
       "EN": "Ecological Lasers",
       "ES": "Láseres ecológicos",
       "FR": "Lasers écologiques",
-      "IT": "Echologic Lasers",
+      "IT": "Laser ecologico",
       "PT": "Lasers Ecológicos"
     },
     "description": {
@@ -306,7 +306,7 @@
       "EN": "Use environmentally friendly lasers that won't produce any waste when discarded at the end of their lifecycle.",
       "ES": "Use láseres amigables con el medio ambiente que no produzcan ningún desperdicio cuando se desechan al final de su ciclo de vida.",
       "FR": "Utilisez des lasers écologiques qui ne produiront aucun déchet quand rejetés en fin de cycle.",
-      "IT": "Use enviromentally friendly lasers that don't produce any waste when trashed at the end of their lifecycle.",
+      "IT": "Utilizzare laser ecologici che non producono rifiuti quando cestinati alla fine del loro ciclo di vita.",
       "PT": "Use lasers ecologicamente corretos que não produzirão nenhum resíduo quando descartados no final de seu ciclo de vida."
     },
     "properties": {
@@ -337,7 +337,7 @@
       "EN": "As a promotional offer, your clients get a free CD for every ten they buy.",
       "ES": "Como oferta promocional, sus clientes obtienen un CD gratis por cada diez que compran.",
       "FR": "Comme offre promotionnelle, vos clients obtiennent un CD gratuit pour chaque dix qu'ils achètent.",
-      "IT": "As a promotional offer, your clients get a free CD every ten they buy.",
+      "IT": "Come offerta promozionale, i tuoi clienti ricevono un CD gratuito ogni dieci che acquistano.",
       "PT": "Como oferta promocional, seus clientes recebem um CD grátis para cada dez comprados."
     },
     "properties": {
@@ -355,7 +355,7 @@
       "EN": "Flexible CDs",
       "ES": "CDs flexibles",
       "FR": "CDs flexibles",
-      "IT": "Flexible CDs",
+      "IT": "CD flessibili",
       "PT": "CDs flexíveis"
     },
     "description": {
@@ -363,7 +363,7 @@
       "EN": "Since your CDs are scratch-resistant, you may as well use a lighter and cheaper plastic that bends.",
       "ES": "Ya que sus CD son resistentes a los rasguños, también puede usar un plástico más liviano y barato que se doble.",
       "FR": "Puisque vos CDs sont résistant aux égratignures, vous pouvez aussi employer un plastique plus économique et léger qui se plie.",
-      "IT": "Since your CD are unscratchable, you may as well use a lighter and cheaper plastic that bends.",
+      "IT": "Dal momento che il tuo CD non è incompatibile, puoi anche usare una plastica più leggera e più economica che si piega.",
       "PT": "Como seus CDs são resistentes a riscos, você pode usar um plástico mais leve e mais barato que dobre."
     },
     "properties": {
@@ -385,7 +385,7 @@
       "EN": "Free CD for the Blind",
       "ES": "CD gratis para ciegos",
       "FR": "CD gratuit pour les aveugles",
-      "IT": "Free for Blind",
+      "IT": "Gratuito per non vedenti",
       "PT": "CD grátis para cegos"
     },
     "description": {
@@ -393,7 +393,7 @@
       "EN": "The Blind can get a free CD from your strore every month.",
       "ES": "The Blind puede obtener un CD gratis de tu historia cada mes.",
       "FR": "Chaque mois, les non-voyants peuvent obtenir un CD gratuit de votre magasin.",
-      "IT": "Blind people can get a free CD every month in your store.",
+      "IT": "I non vedenti possono ottenere un CD gratuito ogni mese nel tuo negozio.",
       "PT": "The Blind pode obter um CD grátis do seu strore todos os meses."
     },
     "properties": {
@@ -408,7 +408,7 @@
     "id": "cdFullBodySecurity",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Full Body Security",
+      "DE": "Voller Körperschutz",
       "EN": "Full-Body Protection",
       "ES": "Protección de cuerpo completo",
       "FR": "Protection complete du corps",
@@ -420,7 +420,7 @@
       "EN": "Your workers wear full-body protection to avoid even minimal contact with laser beams.",
       "ES": "Sus trabajadores usan protección de cuerpo completo para evitar incluso un contacto mínimo con los rayos láser.",
       "FR": "Vos ouvriers portent une protection complète du corps pour éviter le moindre contact avec des rayons laser.",
-      "IT": "Your workers wear a full body protection to avoid any minimal contact with laser beams.",
+      "IT": "I tuoi lavoratori indossano una protezione completa del corpo per evitare qualsiasi contatto minimo con i raggi laser.",
       "PT": "Seus trabalhadores usam proteção de corpo inteiro para evitar contato mínimo com raios laser."
     },
     "properties": {
@@ -442,8 +442,8 @@
       "DE": "CD Industry Basics",
       "EN": "CD Industry Basics",
       "ES": "Fundamentos de la industria de CD",
-      "FR": "Fondement de lindustrie du CD",
-      "IT": "CD Industry Basics",
+      "FR": "Fondement de l'industrie du CD",
+      "IT": "Nozioni di base sull'industria dei CD",
       "PT": "Fundamentos da indústria de CD"
     },
     "description": {
@@ -451,7 +451,7 @@
       "EN": "Basic skills to manage CD Plants.",
       "ES": "Habilidades básicas para gestionar plantas de CD.",
       "FR": "Techniques de base pour gérer les usines à CD.",
-      "IT": "Basic skills to manage CD Plants.",
+      "IT": "Abilità di base per la gestione di piante CD.",
       "PT": "Habilidades básicas para gerenciar plantas de CD."
     },
     "properties": {
@@ -471,7 +471,7 @@
       "EN": "Infomercial CD Sales",
       "ES": "Ventas de CD infomerciales",
       "FR": "Vente des CDs par infopublicité",
-      "IT": "Infomercial CDs",
+      "IT": "CD Infomercial",
       "PT": "Vendas de CD de infomercial"
     },
     "description": {
@@ -479,7 +479,7 @@
       "EN": "Recycle old songs by creating compilation CDs, specifically for sale on TV. Large viewing audiences generate very favorable returns.",
       "ES": "Recicle canciones antiguas creando CD de compilación, específicamente para la venta en TV. Los grandes espectadores generan retornos muy favorables.",
       "FR": "Réutilisez les vieilles chansons en créant des CDs de compilation, spécifiquement pour vente à la TV. Les larges audiences produisent des retours très favorables.",
-      "IT": "Recycle old songs in compilations specifically for TV selling. Big audiences grant a good return.",
+      "IT": "Ricicla vecchie canzoni in compilation appositamente per la vendita di TV. Un grande pubblico garantisce un buon ritorno.",
       "PT": "Recicle músicas antigas criando CDs de compilação, especificamente para venda na TV. Grandes audiências de visualização geram retornos muito favoráveis."
     },
     "properties": {
@@ -501,7 +501,7 @@
       "EN": "Karaoke Ready",
       "ES": "Listo para karaoke",
       "FR": "Karaoke Prêt",
-      "IT": "Karaoke Ready",
+      "IT": "Karaoke pronto",
       "PT": "Pronto para karaokê"
     },
     "description": {
@@ -509,7 +509,7 @@
       "EN": "When you play CDs, the CD player display will the song's lyrics so people to sing along.",
       "ES": "Cuando reproduzcas CD, el reproductor de CD mostrará las letras de la canción para que la gente las cante.",
       "FR": "Quand vous écoutez les CDs, l'affichage du lecteur de CD montrera les paroles de la chanson de sorte que les gens pourront chanter en chur.",
-      "IT": "When you play the CDs, the display of the CD player, instead of the track number or length, shows the lirics of the song being played for people to sing along.",
+      "IT": "Quando si riproducono i CD, il display del lettore CD, al posto del numero o della lunghezza del brano, mostra i lirici del brano riprodotto per le persone da cantare.",
       "PT": "Quando você toca CDs, o CD player exibe as letras da música para que as pessoas possam cantar junto."
     },
     "properties": {
@@ -530,8 +530,8 @@
       "DE": "Listening Stations",
       "EN": "Listening Stations",
       "ES": "Estaciones de escucha",
-      "FR": "Stations découte",
-      "IT": "Listening Stations",
+      "FR": "Stations d'écoute",
+      "IT": "Stazioni di ascolto",
       "PT": "Estações de escuta"
     },
     "description": {
@@ -539,7 +539,7 @@
       "EN": "Put several CD players in your stores so that customers can listen to a CD before buying it.",
       "ES": "Coloque varios reproductores de CD en sus tiendas para que los clientes puedan escuchar un CD antes de comprarlo.",
       "FR": "Mettez plusieurs lecteurs de CD dans vos magasins de sorte que les clients puissent écouter un CD avant de l'acheter.",
-      "IT": "Put several CD players in your stores so that customers can listen to a CD before buying it.",
+      "IT": "Metti diversi lettori CD nei tuoi negozi in modo che i clienti possano ascoltare un CD prima di acquistarlo.",
       "PT": "Coloque vários CD players em suas lojas para que os clientes possam ouvir um CD antes de comprá-lo."
     },
     "properties": {
@@ -558,7 +558,7 @@
       "EN": "Live Performances",
       "ES": "Espectáculos en vivo",
       "FR": "Interprétation en direct",
-      "IT": "Live Performances",
+      "IT": "Esibizioni dal vivo",
       "PT": "Performances ao vivo"
     },
     "description": {
@@ -566,7 +566,7 @@
       "EN": "Instead of just signing, musicians perform songs from their CD, live in your store.",
       "ES": "En lugar de solo firmar, los músicos interpretan canciones de su CD, en vivo en su tienda.",
       "FR": "Au lieu de juste signer leurs CDs, les musiciens exécutent des chansons de leurs CDs, en direct dans votre magasin.",
-      "IT": "Instead of just signing, the musicians perform pieces of their CDs live in your store.",
+      "IT": "Invece di firmare, i musicisti suonano pezzi dei loro CD dal vivo nel tuo negozio.",
       "PT": "Em vez de apenas assinar, os músicos tocam músicas do CD, ao vivo na sua loja."
     },
     "properties": {
@@ -589,7 +589,7 @@
       "EN": "Mini CDs",
       "ES": "Mini cds",
       "FR": "CD Mini",
-      "IT": "Mini CDs",
+      "IT": "Mini CD",
       "PT": "Mini CDs"
     },
     "description": {
@@ -597,7 +597,7 @@
       "EN": "Put entire albums on mini CDs, by compressing the tracks. The sound quality suffers slightly, but you save a lot in plastic.",
       "ES": "Ponga álbumes enteros en mini CDs, comprimiendo las pistas. La calidad del sonido se resiente ligeramente, pero se ahorra mucho en plástico.",
       "FR": "Mettez les albums entiers sur mini CDs, en comprimant les pistes d'enregistrement. La qualité de son en souffre légèrement, mais vous économiser beaucoup de plastique.",
-      "IT": "Put entire albums on mini CDs, compressing the tracks. The sound quality suffers a bit, but you save a lot in plastic.",
+      "IT": "Metti interi album su mini CD, comprimendo le tracce. La qualità del suono soffre un po ', ma si risparmia molto sulla plastica.",
       "PT": "Coloque álbuns inteiros em mini CDs, comprimindo as faixas. A qualidade do som sofre um pouco, mas você economiza muito em plástico."
     },
     "properties": {
@@ -619,7 +619,7 @@
       "EN": "Music Consultant",
       "ES": "Consultor musical",
       "FR": "Conseil en musique",
-      "IT": "Music Consultant",
+      "IT": "Consulente musicale",
       "PT": "Consultor de Música"
     },
     "description": {
@@ -627,7 +627,7 @@
       "EN": "One of your employees is a music expert who provides your customers with music advice based on their personal tastes.",
       "ES": "Uno de sus empleados es un experto en música que brinda a sus clientes consejos musicales basados ​​en sus gustos personales.",
       "FR": "Un de vos employés est un expert en matière de musique et fournit à vos clients des conseils avisés dans le domaine basés sur leurs goûts personnels.",
-      "IT": "One of your employee is a music expert who gives advice to your clients based on their personal taste.",
+      "IT": "Uno dei tuoi dipendenti è un esperto di musica che dà consigli ai tuoi clienti in base al loro gusto personale.",
       "PT": "Um de seus funcionários é um especialista em música que fornece aos seus clientes conselhos sobre música com base em seus gostos pessoais."
     },
     "properties": {
@@ -646,15 +646,15 @@
       "EN": "Music Snobs",
       "ES": "Snobs de musica",
       "FR": "Prétentieux de musique",
-      "IT": "Music Snobs",
+      "IT": "Snob di musica",
       "PT": "Snobs de música"
     },
     "description": {
       "DE": "When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven.",
       "EN": "When you want sell a CD you've overstocked, hire someone that poses as a customer and talks loudly about the respective CD praising the musician as the next Beethoven.",
       "ES": "Cuando desee vender un CD que haya excedido en su inventario, contrate a alguien que se haga pasar por cliente y hable en voz alta sobre el respectivo CD y elogie al músico como el próximo Beethoven.",
-      "FR": "Quand vous voulez vendre un CD que vous avez surstocké, engagez quelqu'un qui joue au client et parle haut et fort du CD en question faisant léloge du musicien comme sil était le prochain Beethoven.",
-      "IT": "When you want sell a certain CD you overstocked, hire someone that posing as a customer talk loud in the store praising the author as the new Beethoven.",
+      "FR": "Quand vous voulez vendre un CD que vous avez surstocké, engagez quelqu'un qui joue au client et parle haut et fort du CD en question faisant l'éloge du musicien comme s'il était le prochain Beethoven.",
+      "IT": "Quando vuoi vendere un certo CD che hai fatto in eccesso, assumi qualcuno che si presenta come un cliente che parla rumorosamente nel negozio elogiando l'autore come il nuovo Beethoven.",
       "PT": "Quando você quer vender um CD que você está sobrecarregado, contrate alguém que posa como um cliente e fale em voz alta sobre o respectivo CD elogiando o músico como o próximo Beethoven."
     },
     "properties": {
@@ -673,7 +673,7 @@
       "EN": "CD Repair Station",
       "ES": "Estación de reparación de CD",
       "FR": "Salle de réparation de CDs",
-      "IT": "Repairing Station",
+      "IT": "Stazione riparatrice",
       "PT": "Estação de Reparação de CD"
     },
     "description": {
@@ -681,7 +681,7 @@
       "EN": "Your clients can use this machine to automatically fix scratched CDs.",
       "ES": "Sus clientes pueden usar esta máquina para reparar automáticamente los CD rayados.",
       "FR": "Vos clients peuvent utiliser cette machine pour automatiquement réparer leurs CDs rayés.",
-      "IT": "Your clients can use this automatic machine to fix their scratched CDs.",
+      "IT": "I tuoi clienti possono usare questa macchina automatica per riparare i loro CD graffiati.",
       "PT": "Seus clientes podem usar essa máquina para corrigir automaticamente CDs riscados."
     },
     "properties": {
@@ -700,7 +700,7 @@
       "EN": "Rewritable CDs",
       "ES": "CD regrabables",
       "FR": "Disque compact réinscriptible",
-      "IT": "Rewritable CDs",
+      "IT": "CD riscrivibili",
       "PT": "CDs regraváveis"
     },
     "description": {
@@ -708,7 +708,7 @@
       "EN": "In the event a CD buyer gets tired of the CD, he or she can always reuse it to burn new stuff on it.",
       "ES": "En el caso de que un comprador de CD se canse del CD, él o ella siempre puede reutilizarlo para grabar cosas nuevas en él.",
       "FR": "Dans le cas où un client se fatiguerait du CD, il ou elle pourrait toujours le réutiliser pour graver des chansons nouvelles.",
-      "IT": "In case the buyer of the CD get tired of it, he can always reuse it to burn his own stuff.",
+      "IT": "Nel caso in cui l'acquirente del CD si stancasse, può sempre riutilizzarlo per masterizzare la sua roba.",
       "PT": "No caso de um comprador de CD se cansar do CD, ele ou ela sempre poderá reutilizá-lo para gravar coisas novas nele."
     },
     "properties": {
@@ -731,7 +731,7 @@
       "EN": "Singing Stations",
       "ES": "Estaciones de canto",
       "FR": "Postes de chant",
-      "IT": "Singing Stations",
+      "IT": "Stazioni di canto",
       "PT": "Estações de canto"
     },
     "description": {
@@ -739,7 +739,7 @@
       "EN": "Transform your listening stations into a soundproof cabin, where karaoke lovers can sing along to their favorite tunes.",
       "ES": "Transforme sus estaciones de escucha en una cabina insonorizada, donde los amantes del karaoke pueden cantar sus canciones favoritas.",
       "FR": "Transformez vos stations d'écoute en cabine insonorisée, où les mordus du  karaoke pourront chanter en chur leurs chansons préférées.",
-      "IT": "Trasform your listening station in soundproof cabin in which karaoke lovers can sing along their favourite songs.",
+      "IT": "Trasforma la tua stazione d'ascolto in una cabina insonorizzata in cui gli amanti del karaoke possono cantare insieme alle loro canzoni preferite.",
       "PT": "Transforme suas estações de escuta em uma cabine à prova de som, onde os amantes do karaokê podem cantar junto com suas músicas favoritas."
     },
     "properties": {
@@ -769,7 +769,7 @@
       "EN": "Create a universal song database in which all the songs, ever recorded on Earth and on the New Worlds, are registered. Very useful in satisfying your customers requests.",
       "ES": "Cree una base de datos de canciones universal en la que se registren todas las canciones, jamás registradas en la Tierra y en los Nuevos Mundos. Muy útil para satisfacer las peticiones de sus clientes.",
       "FR": "Créez une base de données universelle de chansons dans laquelle toutes les chansons, enregistrées sur terre et ailleurs dans les nouveaux mondes, soient enregistrées.  Très utile pour satisfaire les demandes de vos clients.",
-      "IT": "Create a universal database in which all the songs ever recorded on Earth and on the New Worlds are registered. Very useful in satisfying your customers requests.",
+      "IT": "Crea un database universale in cui sono registrate tutte le canzoni mai registrate sulla Terra e sui Nuovi Mondi. Molto utile per soddisfare le richieste dei clienti.",
       "PT": "Crie um banco de dados de música universal no qual todas as músicas, já gravadas na Terra e no Novo Mundo, estão registradas. Muito útil para satisfazer os pedidos dos seus clientes."
     },
     "properties": {
@@ -787,7 +787,7 @@
       "EN": "Tune Expert",
       "ES": "Tune Expert",
       "FR": "Expert en matière de chansons",
-      "IT": "Tunes Expert",
+      "IT": "Esperto di brani",
       "PT": "Tune Expert"
     },
     "description": {
@@ -795,7 +795,7 @@
       "EN": "To help customers who remember a song but not its title, they can whistle it to your tune expert who will recognize it immediately.",
       "ES": "Para ayudar a los clientes que recuerdan una canción pero no su título, pueden silbársela a su experto en melodías para que la reconozca de inmediato.",
       "FR": "Pour aider les clients qui se rappellent une chanson mais pas de son titre, ils peuvent la siffler à votre expert en matière de chansons qui l'identifiera immédiatement.",
-      "IT": "To help customers who remember a song but not its title. They can whistle it to your expert who will recognize it immediately.",
+      "IT": "Aiutare i clienti che ricordano una canzone ma non il titolo. Possono fischiare il tuo esperto che lo riconoscerà immediatamente.",
       "PT": "Para ajudar os clientes que se lembram de uma música, mas não o título, eles podem denunciá-la ao seu especialista em música que a reconhecerá imediatamente."
     },
     "properties": {
@@ -814,7 +814,7 @@
       "EN": "Scratch Resistant CDs",
       "ES": "CDs resistentes a los arañazos",
       "FR": "CDs résistants aux égratignures",
-      "IT": "Unscratchable Surface",
+      "IT": "Superficie non intrecciabile",
       "PT": "CDs resistentes a riscos"
     },
     "description": {
@@ -822,7 +822,7 @@
       "EN": "It's impossible to scratch your CDs, no matter how hard you try.",
       "ES": "Es imposible rascar tus CD, no importa cuánto lo intentes.",
       "FR": "Il est impossible de rayer votre CD, qu'importe comment vous essayez de le faire.",
-      "IT": "It's impossible to scratch your CDs, no matter how hard you try.",
+      "IT": "È impossibile grattare i tuoi CD, non importa quanto tu ci provi.",
       "PT": "É impossível arranhar seus CDs, não importa o quanto você tente."
     },
     "properties": {
@@ -844,15 +844,15 @@
       "EN": "Specially Priced CD Bins",
       "ES": "CD de precios especiales",
       "FR": "Caisse de Cds à prix spéciaux",
-      "IT": "Unwanted Bins",
+      "IT": "Bidoni indesiderati",
       "PT": "Caixas de CD com preço especial"
     },
     "description": {
       "DE": "Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them.",
       "EN": "Instead of returning unsold CDs, stick them in a special price bin. Someone will buy them eventually, even if it's only because they are so cheap.",
       "ES": "En lugar de devolver los CD no vendidos, péguelos en un contenedor de precios especiales. Alguien los comprará eventualmente, aunque solo sea porque son muy baratos.",
-      "FR": "Au lieu de renvoyer les CDs invendus, mettez-les en spécial.  Quelqu'un les achètera sans doute, même si cest seulement pour leur bas prix.",
-      "IT": "Instead of returning the unsold CDs, stick them in a special price bin. You can always hope eventually someone will buy them.",
+      "FR": "Au lieu de renvoyer les CDs invendus, mettez-les en spécial.  Quelqu'un les achètera sans doute, même si c'est seulement pour leur bas prix.",
+      "IT": "Invece di restituire i CD invenduti, incollali in un cestino speciale. Puoi sempre sperare che qualcuno li comprerà.",
       "PT": "Em vez de devolver CDs não vendidos, coloque-os em uma posição especial. Alguém vai comprá-los eventualmente, mesmo que seja apenas porque eles são tão baratos."
     },
     "properties": {
@@ -871,7 +871,7 @@
       "EN": "Used CD Section",
       "ES": "Sección de CD usado",
       "FR": "Section de CDs usagées",
-      "IT": "Used Section",
+      "IT": "Sezione usata",
       "PT": "Seção CD Usada"
     },
     "description": {
@@ -879,7 +879,7 @@
       "EN": "People can buy or sell used CDs in a special section of your store.",
       "ES": "Las personas pueden comprar o vender CD usados ​​en una sección especial de su tienda.",
       "FR": "Les gens peuvent acheter ou vendre leur CDs usagés dans une section spéciale de votre magasin.",
-      "IT": "People can buy or sell used CD in a special section of your store.",
+      "IT": "Le persone possono acquistare o vendere CD usati in una sezione speciale del tuo negozio.",
       "PT": "As pessoas podem comprar ou vender CDs usados ​​em uma seção especial de sua loja."
     },
     "properties": {

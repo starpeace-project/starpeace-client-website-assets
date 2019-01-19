@@ -6,7 +6,7 @@ Voitures autonettoyantes
 Système hydraulique intégré dans le châssis de la voiture qui distribue de l'eau et du détergent lorsqu'un détecteur indique que la voiture est sale. Votre voiture est toujours comme neuve.
 Transfert entre les mondes
 Vous vous occupez pour vos clients de tous les papiers à remplir lorsqu'un véhicule doit changer de monde.
-Détecteurs dangle mort
+Détecteurs d'angle mort
 De petits capteurs sont placés sur les rétroviseurs latéraux pour avertir le conducteur de tout obstacle qui se trouve dans son angle mort. Les risques d'accident sont considérablement réduits.
 Carrosserie
 Votre centre de réparation s'occupe également des dommages causés au châssis de la voiture.
@@ -61,7 +61,7 @@ Vos voitures disposent d'une garantie de trois ans ou de 100 000 km.
 Recyclage des épaves
 Vos usines récupèrent les véhicules usagés afin de recycler les pièces en état et les utiliser dans les nouveaux modèles. C'est meilleur marché, mais la qualité s'en ressent.
 Principes de la banque
-Assimilez les principes de gestion dune banque.
+Assimilez les principes de gestion d'une banque.
 Divertissement pour adultes
 Quelques-uns de vos bars proposent des strip-tease et des shows de danse érotique. Le sexe a incontestablement sa clientèle.
 Bars
@@ -94,10 +94,10 @@ Vérification stricte de l'identité
 Le barman demande à tout consommateur une pièce d'identité afin de s'assurer qu'ils sont majeurs et sont autorisés à boire.
 Bars à thème
 Vos bars sont décorés dans un certain style pour plaire à certains groupes de personnes. Par exemples : saloon de l'ouest américain, caves gothiques et salons gay et lesbiens.
-Livres dextraterrestres
+Livres d'extraterrestres
 Produisez des livres écrits dans des langues extraterrestres inventées; excellent pour les fanatiques de science fiction. Un marché à créneaux spécifique mais néanmoins intéressant
 Livres en grand police des caractères
-Les clients plus âgés aiment lire des livres à grands caractères dimprimerie qui ne fatiguent pas les yeux: une ligne des produits sensé et lucrative.
+Les clients plus âgés aiment lire des livres à grands caractères d'imprimerie qui ne fatiguent pas les yeux: une ligne des produits sensé et lucrative.
 Lits
 Add beds to reading areas in your stores so people can try bed-time books and stories.
 Seulement Best-Sellers
@@ -115,7 +115,7 @@ Créez les versions olographes des livres pour vos magasins de sorte que les vra
 Livres pour les Enfants
 Créez un département dans vos magasins qui comporteront seulement des livres pour les enfants et les personnes qui ont souffert du dommages graves au cerveau.
 Ecrivans Vivent
-Vous obligez vos auteurs signés daller à vos magasins un jour chaque mois et se reposer dans un compartiment de verre où lui ou elle feindra travailler sur leur nouveau projet.
+Vous obligez vos auteurs signés d'aller à vos magasins un jour chaque mois et se reposer dans un compartiment de verre où lui ou elle feindra travailler sur leur nouveau projet.
 Information Fausse Mais Postivie
 Vous créez des feuillets et affiches avec toutes sortes de rapports et statistiques faux pour faire vos clients se sentire plus intelligent: "ne jamais avoir fini un livre est un signe d'intelligence. - Goethe "
 Club de Poésie
@@ -125,19 +125,19 @@ Vos magasins publieront seulement les livres qui ont été certifiés comme non-
 Livres Braille
 Vos librairies auront une section pour les personnes aveugles.
 Réserve des bas de page
-Vous produirez des bas de page de CGI pour les livres que vous vendez de façon à éveiller lintérêt de votre clientèle.
+Vous produirez des bas de page de CGI pour les livres que vous vendez de façon à éveiller l'intérêt de votre clientèle.
 Livres Usés
 Vendre Livres Usés
 Livres en Braille
 Produisez des livres en Braille pour les non-voyants. Bien que cela soit coûteux vous apparaîtrez ouverts au social et pleins de compassion.
 Arnaque de première édition
-Quand vous imprimez la première édition d'un livre, vous mettez de côté un certain nombre de copies pour les vendre comme articles de collection au cas où dans lavenir le livre remporterait un grand succès.
-Police dimprimerie de fantaisie
+Quand vous imprimez la première édition d'un livre, vous mettez de côté un certain nombre de copies pour les vendre comme articles de collection au cas où dans l'avenir le livre remporterait un grand succès.
+Police d'imprimerie de fantaisie
 Employez une belle lettre artistique au début de chaque chapitre, imitant les manuscrits antiques.
 Feuillets
 Spécialisez-vous à  produire des impressions de basse qualité pour des feuillets et d'autres produits de publicité en bloc.
 Base de données de polices
-N'importe quelle police dimprimerie, inventée sur terre ou dans un des nouveaux mondes, est gardée dans une grande base de données.  Ceci assure une variété maximale à vos clients.
+N'importe quelle police d'imprimerie, inventée sur terre ou dans un des nouveaux mondes, est gardée dans une grande base de données.  Ceci assure une variété maximale à vos clients.
 Images de haute qualité
 Spécialisez-vous en imprimant des images de très grande qualité.
 Histoire de l'impression
@@ -147,10 +147,10 @@ Apprenez comment appliquer des hologrammes sur le papier.  Ils sont agréables �
 Reliure De luxe
 Use silk, leather and other resistant threads to make luxurious book covers.
 Impartition des billets de banque
-Quand le taux d'immigration dans un nouveau monde est haut, lHôtel de la Monnaie ne peut pas produire assez de pièces en monnaie locale, ils commandent alors limpression de billets de banque à vos usines.  Les retours sont élevés et le contrat améliore le profil de votre entreprise.
+Quand le taux d'immigration dans un nouveau monde est haut, l'Hôtel de la Monnaie ne peut pas produire assez de pièces en monnaie locale, ils commandent alors l'impression de billets de banque à vos usines.  Les retours sont élevés et le contrat améliore le profil de votre entreprise.
 Livres en plastique
-Produisez des livres dont les pages sont laminées de sorte que les clients puissent les lire sous leau ou dehors.
-Fondements de lindustrie d'imprimerie
+Produisez des livres dont les pages sont laminées de sorte que les clients puissent les lire sous l'eau ou dehors.
+Fondements de l'industrie d'imprimerie
 Techniques de base pour gérer les imprimeries.
 Revues de grande qualité
 Imprimez des magasines haut de gamme pour des lecteurs cultivés et avisés.
@@ -172,7 +172,7 @@ Chimie extraterrestre
 Les lois de la chimie diffèrent quelque peu sur Terre et dans les nouveaux mondes. Etudiez-les pour améliorer la qualité de vos produits et l'efficacité de vos usines.
 Pompes à vide
 Les usines sont équipées de pompes à vide ultra puissantes qui permettent d'obtenir un meilleur environnement pour les réactions.
-Sécurité corporelle
+Protection complete du corps
 Tous les employés de l'usine doivent porter un costume qui les protège des pieds à la tête pour des raisons de sécurité.
 Evacuation des ordures dans la maison
 Les déchets provenant des processus chimiques ne quittent jamais officiellement l'usine. Des méthodes frauduleuses sont utilisées pour s'en débarrasser. Les associations environnementales expriment leur inquiétude.
@@ -195,7 +195,7 @@ Miroirs spéciaux faisant sembler plus mince la personne qui s'y regarde.
 Costumes anti-extraterrestres
 Juste au cas où. Personne n'a jamais vu d'extraterrestre.
 Design haute couture avancé
-Cette recherche vous permet daccéder aux meilleures techniques de design qui existent.
+Cette recherche vous permet d'accéder aux meilleures techniques de design qui existent.
 Couture automatique au laser
 Les points faits au laser permettent d'assurer la couture des tissus. Très efficace, mais les vêtements ont parfois un aspect étrange.
 Grandes tailles
@@ -289,11 +289,11 @@ Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent
 Etablissement de cartes souterraines
 Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.
 Boîtes de CD alternatives
-Créez des coffrets de luxe pour vos CDs pour quils soient attrayants sur les étagères ou dans les rayons.
+Créez des coffrets de luxe pour vos CDs pour qu'ils soient attrayants sur les étagères ou dans les rayons.
 Système anti-copiant
 Si quelqu'un essaie de copier votre CD, le CD fondra dans le graveur de CD, le détruisant pour sûr.
 Service d'abonnement d'artiste
-Vos clients peuvent sabonner à un service qui leur expédie automatiquement le nouveau CD de leur artiste préféré dès sa mise en marché.
+Vos clients peuvent s'abonner à un service qui leur expédie automatiquement le nouveau CD de leur artiste préféré dès sa mise en marché.
 Livres sonores
 Produisez des versions sonores des livres célèbres pour les aveugles et les banlieusards.
 Bruit de fond rétro
@@ -301,7 +301,7 @@ Ajoutez l'option de faire tourner les CD avec un léger bruit de fond de friture
 CDs biodégradables
 Pour éviter une augmentation des déchets reliée aux Cds rejetés, employez un matériau spécial similaire au plastique dérivé du maïs qui, lui, est biodégradable.
 Nettoyeur de lecteur de disques compacts
-Le côté non gravé de votre CD est conçu pour nettoyer les lecteurs de disques compacts.  Pour nettoyer, insérez simplement le CD à l'envers et appuyer sur la touche play.
+Le côté non gravé de votre CD est conçu pour nettoyer les lecteurs de disques compacts.  Pour nettoyer, insérez simplement le CD à l'envers et appuyer sur la touche play'.
 Signature de CDs
 Tout comme avec des livres, faites venir les musiciens à vos magasins pour rencontrer le public et pour dédicacer leur CDs.
 Démonstration de danse
@@ -316,15 +316,14 @@ CDs flexibles
 Puisque vos CDs sont résistant aux égratignures, vous pouvez aussi employer un plastique plus économique et léger qui se plie.
 CD gratuit pour les aveugles
 Chaque mois, les non-voyants peuvent obtenir un CD gratuit de votre magasin.
-Protection complete du corps
 Vos ouvriers portent une protection complète du corps pour éviter le moindre contact avec des rayons laser.
-Fondement de lindustrie du CD
+Fondement de l'industrie du CD
 Techniques de base pour gérer les usines à CD.
 Vente des CDs par infopublicité
 Réutilisez les vieilles chansons en créant des CDs de compilation, spécifiquement pour vente à la TV. Les larges audiences produisent des retours très favorables.
 Karaoke Prêt
 Quand vous écoutez les CDs, l'affichage du lecteur de CD montrera les paroles de la chanson de sorte que les gens pourront chanter en chur.
-Stations découte
+Stations d'écoute
 Mettez plusieurs lecteurs de CD dans vos magasins de sorte que les clients puissent écouter un CD avant de l'acheter.
 Interprétation en direct
 Au lieu de juste signer leurs CDs, les musiciens exécutent des chansons de leurs CDs, en direct dans votre magasin.
@@ -333,7 +332,7 @@ Mettez les albums entiers sur mini CDs, en comprimant les pistes d'enregistremen
 Conseil en musique
 Un de vos employés est un expert en matière de musique et fournit à vos clients des conseils avisés dans le domaine basés sur leurs goûts personnels.
 Prétentieux de musique
-Quand vous voulez vendre un CD que vous avez surstocké, engagez quelqu'un qui joue au client et parle haut et fort du CD en question faisant léloge du musicien comme sil était le prochain Beethoven.
+Quand vous voulez vendre un CD que vous avez surstocké, engagez quelqu'un qui joue au client et parle haut et fort du CD en question faisant l'éloge du musicien comme s'il était le prochain Beethoven.
 Salle de réparation de CDs
 Vos clients peuvent utiliser cette machine pour automatiquement réparer leurs CDs rayés.
 Disque compact réinscriptible
@@ -347,7 +346,7 @@ Pour aider les clients qui se rappellent une chanson mais pas de son titre, ils 
 CDs résistants aux égratignures
 Il est impossible de rayer votre CD, qu'importe comment vous essayez de le faire.
 Caisse de Cds à prix spéciaux
-Au lieu de renvoyer les CDs invendus, mettez-les en spécial.  Quelqu'un les achètera sans doute, même si cest seulement pour leur bas prix.
+Au lieu de renvoyer les CDs invendus, mettez-les en spécial.  Quelqu'un les achètera sans doute, même si c'est seulement pour leur bas prix.
 Section de CDs usagées
 Les gens peuvent acheter ou vendre leur CDs usagés dans une section spéciale de votre magasin.
 Sécurité par fonte de CD
@@ -387,12 +386,12 @@ Donnez à votre client une ligne téléphonique qu'ils peuvent appeler à tout m
 Production de biens d'équipement
 Principes de gestion d'usines de biens d'équipement.
 Ordinateurs de Braille
-Vos magasins vendent des ordinateurs construits pour les personnes aveugles, avec des clefs de braille et un bourrelet émettant de lélectricité que remplace l'écran.
+Vos magasins vendent des ordinateurs construits pour les personnes aveugles, avec des clefs de braille et un bourrelet émettant de l'électricité que remplace l'écran.
 Aurevoir Clones
 Vous ne vous vendez pas clones, seulement des marques connues.
 Garantie de Cinq Ans
 De nos jours les ordinateurs ne durent pas plus de cinq ans. Donner une garantie de cinq ans n'est pas très différent que donner un de trois ans, mais ça plait ta clientèle.
-Département De Repairment Gratuit
+Acteurs mortuaires
 Free in store repairment center for your clients.
 Souris Sans Fil
 A cordless mouse makes no much difference in one computer, but today people love gadgets.
@@ -408,7 +407,7 @@ Accès par empreintes digitales
 Mesure de sécurité permettant au propriétaire d'accéder à un poste de travail. Pour le déverrouiller, il doit apposer son pouce gauche sur un dispositif prévu à cet effet.
 Distributeur de boissons énergisantes
 Vous produisez des distributeurs de boissons calorifiques spéciales qui réduisent la pause repas de vos employés.
-Un An dInternet Gratuit
+Un An d'Internet Gratuit
 You give customers one year free access to the new world Internet. Seems cool, but with worlds just started, the sites are very few.
 Paquet de Jeu
 Des petits robots grimpent le long de votre bâtiment pour maintenir les fenêtres toujours propres.
@@ -553,7 +552,7 @@ Vous créatifs doivent vraiment apprendre que les vêtements, en plus de permett
 Tissus biodégradables
 Développez des tissus facilement assimilables par la nature une fois qu'ils sont usagés.
 Design des zones aveugles
-Cela permet aux fabricants de tissus dutiliser moins de colorants aux endroits les moins visibles dun vêtement.
+Cela permet aux fabricants de tissus d'utiliser moins de colorants aux endroits les moins visibles d'un vêtement.
 Tissus coulomb
 Les fils sont gardés très proches les uns des autres grâce à un champ d'électricité statique.
 Agrandissement de tissu
@@ -656,7 +655,6 @@ Alarme pour cercueils
 Une alarme est intégrée à l'intérieur des cercueils, avec une réserve d'air, pour les gens qui sont obsédés par l'idée d'être incinérés vivant. Si le défunt revient à la vie, il peut déclancher l'alarme et être sauvé.
 Cercueil Vision
 Certaines personnes dans le deuil ne peuvent vivre sans leur être cher perdu. Une caméra est placée dans le cerceuil et réliée à un moniteur que vos clients peuvent regarder chaque jour. Le corps qui se décompose lentement ne semble pas les affecter.
-Acteurs mortuaires
 Parfois, le corps des défunts est en trop mauvais état pour être exposé. Vous payez des acteurs pour rempalcer les morts pendant les cérémonies.
 Fours crématoires
 Vos maisons funéraires possèdent des fours crématoires pour incinérer efficacement les cadavres.
@@ -689,7 +687,7 @@ Des meubles sont préparés pour courber avec élégance sous le poids de l'util
 Cours d'Assemblée
 Créez un département pour enseigner les clients comment assembler les meubles qu'ils achètent.
 Apporter à la Maison
-Le magasin mettra des meubles dans la maison de l'acheteur potentiel de sorte quils peuvent être essayé par la famille entière.
+Le magasin mettra des meubles dans la maison de l'acheteur potentiel de sorte qu'ils peuvent être essayé par la famille entière.
 Test de Dîner
 Dinner sets are showcased along with food so customers can get the entire experience.
 Spéciale la maison entière
@@ -700,19 +698,19 @@ Production De Meubles
 Get the License and basic knowledge to manage furniture factories.
 Garantie De Vie
 Offrez une garantie de vie pour les articles que vous vous vendez.
-Département De Repairment
-In store repairment center for your clients.
+Service de réparation
+Centre de réparation dans les magasins à l'usage de vos clients.
 Dormir dans le Magasin
 Permettez aux clients de dormir dans le magasin pour une nuit. Une manière efficace pour leur permetter à essayer les lits et matelas.
 Vendeurs Comme Clients
 Quand ils sont engagés, vos vendeurs acceptent de seulement acheter les meubles pour leurs maisons à votre magasin.
-Unexperienced Technicians
-Pour économiser l'argent, votre centre de réparation emploie seulement les techniciens très jeunes.
+Techniciens sans expérience
+Pour économiser de l'argent, vos centres de réparation emploient uniquement de très jeunes techniciens.
 Stockage vertical De Meubles
 Tous les meubles que vous vendez se trouvent dans des boîtes rectangulaires. En les empilant les unes sur les autre, vous économisez de l'espace, mais les appareils sont parfois abîmés.
 Meubles Cultiver
 Ajoutez assez d'eau et  soleil, et vous pourrez accroître un lit de taille de reine dans une taille de roi en une semaine.
-Ligne DEnfants
+Ligne D'Enfants
 Produce tiny furniture for kids.
 Meubles De Lego
 Build all your furniture from a very small set of pieces.
@@ -723,7 +721,7 @@ Produisez les meubles qui non seulement ne brûleront pas, mais qui peuvent auss
 Meubles Personnalisés
 Furniture will learn from the user so it can serve him best.
 Chaise Psy
-Des meubles sont formés d'une manière que résonnera avec les vagues universelles de Psy, faisant la sensation que lutilisateur se sent relié à l'univers.
+Des meubles sont formés d'une manière que résonnera avec les vagues universelles de Psy, faisant la sensation que l'utilisateur se sent relié à l'univers.
 Bureau Intelligent
 Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.
 Colle Forte
@@ -809,7 +807,6 @@ Quantité de travail administratif habituelle nécessaire à l'organisation de t
 Bâtiments industriels
 Travail administratif nécessaire à la gestion industrielle.
 Ministry Administration
-
 Reproduction de monuments
 Apprenez à reproduire les monuments.
 Water Quest Licenses
@@ -819,7 +816,7 @@ Votre TV tombe en panne au début d'un match de foot ? Votre climatiseur explos
 Alerte extraterrestre
 Vous créez une alarme qui examine la température et les émissions chimiques des personnes qui entrent dans la maison. S'il s'agit d'éléments non humains, la police est alertée.
 Animaux de compagnie artificiels
-Petits robots ressemblant à des chats, des chiens ou des oiseaux en cage. Pour navoir que les avantages des animaux, sans les inconvénients. Certaines personnes voient cela comme peu naturel et pervers.
+Petits robots ressemblant à des chats, des chiens ou des oiseaux en cage. Pour n'avoir que les avantages des animaux, sans les inconvénients. Certaines personnes voient cela comme peu naturel et pervers.
 Fente pour pièces de monnaie
 Appareils utilisés uniquement pour le paiement. L'acheteur dispose d'une clé pour collecter l'argent. A utiliser dans les familles nombreuses pour économiser l'argent. Les machines sont moins utilisées et durent plus longtemps.
 Poubelles à désintégration
@@ -854,16 +851,12 @@ Changement de forme d'un animal
 Choisissez l'animal de compagnie que vous souhaitez avoir chaque jour grâce à ce robot spécial qui change de forme. Du chien de garde au chat angora, il se transforme sur demande.
 Formation d'une journée
 Vos enfants se moquent de vous parce que vous ne savez pas vous servir du magnétoscope ou du lecteur de CD ? Une formation d'une journée est organisée au magasin pour vous expliquer les mystères de la technologies pour ceux qui n'y connaissent rien.
-Service de réparation
-Centre de réparation dans les magasins à l'usage de vos clients.
 Vendeurs comme clients
 Lorsque vous les embauchez, vos vendeurs s'engagent à acheter leurs appareils domestiques uniquement dans vos magasins.
 Lave-linge à ultrasons
 Grâce aux ultrasons, aucun détergent n'est nécessaire. Ecologique et pratique.
 Téléviseur extra plat
 Produisez des téléviseurs aussi plat que des peintures. La qualité de l'image est excellente.
-Techniciens sans expérience
-Pour économiser de l'argent, vos centres de réparation emploient uniquement de très jeunes techniciens.
 Machine universelle
 Tous les appareils de la cuisine sont réunis en une seule machine. Elle n'est pas aussi efficace que les appareils individuels, mais vos usines sont beaucoup plus rentables.
 Composants non protégés
@@ -1006,29 +999,20 @@ Principes de supermarché
 Apprenez les principes de création et de gestion de supermarchés.
 Coffre-fort à ouverture temporaire
 Vous caissières n'ont pas accès au coffre-fort du magasin. Il ne s'ouvre qu'à heures fixes.
-Feuilles de métal de lépaisseur d'un atome
-L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.
-Feuilles de métal de lépaisseur d'un atome
-L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de lépaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.
+Feuilles de métal de l'épaisseur d'un atome
+L'usinage en atmosphère sans gravité vous permet de créer des feuilles de métal de l'épaisseur de quelques atomes. Très utile dans le cadre d'applications industrielles.
 Costumes à refroidissement automatique
-En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.
-Costumes à refroidissement automatique
-En raison des fortes températures quils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.
+En raison des fortes températures qu'ils doivent supporter dans les usines, vos employés doivent porter des costumes équipés de systèmes de refroidissement. Malheureusement, cela les rend plus maladroits.
 Transmetteurs incorporés
 Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.
-Transmetteurs incorporés
 Les pièces métalliques que vous produisez sont munies d'un transmetteur qui vous avertit lorsque la pièce est usée. Très utile dans le cas de composants enterrés, tels que des canalisations.
-Refroidissement cryogénique de l'acier
-L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.
 Refroidissement cryogénique de l'acier
 L'acier que vous produisez est refroidi à des températures cryogéniques. Ce traitement est plus efficace.
 Alliages élaborés ailleurs que sur sol terrestre
 La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.
-Alliages élaborés ailleurs que sur sol terrestre
 La physique et la chimie légèrement différentes dans les nouveaux mondes vous permettent de créer de nouveaux alliages impossibles à créer sur Terre.
-Système de bus interne
+Système D'Autobus Interne
 Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.
-Système de bus interne
 Les zones de détente et de travail dans les usines métallurgiques doivent être éloignées compte tenu des températures élevées. Dans les grandes usines, un système de bus interne améliore l'efficacité dans le travail.
 Métallurgie à grande échelle
 Apprenez les principes élémentaires de gestion dans le domaine de la métallurgie à grande échelle.
@@ -1036,50 +1020,40 @@ Métallurgie
 Principes de production métallurgique.
 uvres d'art en métal
 Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.
-uvres d'art en métal
 Vous recyclez les pièces métalliques rejetées au cours du processus de production en tant que sculptures réalisées par un artiste de la Terre fictif. Vous acquerrez une certaine réputation en tant qu'expert en art.
 Musée de la métallurgie
 Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés.
-Musée de la métallurgie
 Vous créez un musée de la métallurgie au siège de votre industrie. Le fait de connaître l'histoire du travail du métal motive vos employés
-Développement en matière de nanotechnologie
+Développements De Nanotechnologie
 Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.
-Développement en matière de nanotechnologie
 Vous produisez des pièces métalliques microscopiques pour un usage en nanotechnologie. Cela force vos usines à mettre en place un meilleur processus de qualité.
-Mise en forme en état d'impesanteur
-La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.
 Mise en forme en état d'impesanteur
 La mise en forme du métal est effectuée dans une cabine de chute libre spéciale qui se trouve dans votre usine. Le champ de gravité nulle qui se trouve à l'intérieur permet d'obtenir une meilleure qualité.
 Filtrage du minerai
 Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.
-Filtrage du minerai
 Vos usines installent un processus de filtrage du minerai acheté aux mines. Cher, mais la qualité est améliorée.
 Traitement des métaux précieux
 Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.
-Traitement des métaux précieux
 Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pas utilisés dans la production industrielle pour créer une ligne de bijoux.
 Mécanisme rétractile en cas d'alerte
 Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.
-Mécanisme rétractile en cas d'alerte
 Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.
-Production de supraconducteurs
+Superconductors Production
 En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.
-Production de supraconducteurs
 En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.
 Alliage de titane absolu
 Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.
-Alliage de titane absolu
 Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.
 Lieu de vacances d'Acteurs
 Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.
 Films d'Adulte
-Consacrez une partie de votre studio aux films d'adulte. Cet une industrie de très bon marché qui garantit un retour régulier.
+Consacrez une partie de votre studio aux films d'adulte. C'et une industrie de très bon marché qui garantit un retour régulier.
 Formation des Animaux
 Construisez les écuries et les camps dans vos studios pour former et employer des animaux dans vos films. Vous faites  sûr de les traiter le mieux possible pour des raisons de relations publiques.
 Jeux d'arcade
 Vos halls sont remplis de jeux vidéo et de flippers.
 Audience Avant-Première
-Avant de bateler vos films aux théâtres vous avez un avant-première internes pour voir si l'audience laime. Il évite des navets et maintient la qualité à un niveau acceptable.
+Avant de bateler vos films aux théâtres vous avez un avant-première internes pour voir si l'audience l'aime. Il évite des navets et maintient la qualité à un niveau acceptable.
 Cabine de projection automatique
 Plus besoin d'un opérateur pour faire fonctionner la machine. Les syndicats se plaignent.
 Stratégie de Pression pour Prime
@@ -1091,7 +1065,7 @@ Pas de films culturels prétentieux. Faites vérifier votre cerveau à l'entrée
 Programmeur de CGI
 Your Special Effects department has a battery of computer artists. Produce artificial images for your movies that seems real to the audience.
 Films pour Cultures Particulières
-Western Spaghetti, film daction de modèle Hong Kong, monstres Japonais etc... Films qui plait aux cultures particulières.
+Western Spaghetti, film d'action de modèle Hong Kong, monstres Japonais etc... Films qui plait aux cultures particulières.
 Jour de remise
 Une fois par semaine, un jour donné, le prix des billets est réduit de moitié.
 Département De Doublage
@@ -1099,7 +1073,7 @@ Doublez vos films pour atteindre plus de spectateurs. Certains specateurs n'aime
 Caractéristiques de DVD
 Tandis que votre film est tourné, les vedettes supplémentaires sont produites pour le DVD. Les mordus de film aiment beaucoup voir des entrevues avec le directeur et des choses semblables.
 Dictature de Rédation
-Baisez le directeur, comme le producteur vous avez lautorité définitive sur la version finale du film.
+Baisez le directeur, comme le producteur vous avez l'autorité définitive sur la version finale du film.
 Filmmaking Expérimental
 Engagez des directeurs inconnus avec des idées révolutionnaires. L'art est parfois plus important que la caisse.
 Exploitation des Extras
@@ -1111,7 +1085,7 @@ Faites des films sanglats de bas budget, des films avec un noyau qui garantit un
 Fauteuils impériaux
 Vos clients adoreront ces fauteuils très spacieux et confortables.
 Auteurs dans le Studio
-Il ya souvent des changements aux manuscrits de derniers minute. Vous avez un groupe d'auteurs dexpérience dans le studio prêt à les exécuter.
+Il ya souvent des changements aux manuscrits de derniers minute. Vous avez un groupe d'auteurs d'expérience dans le studio prêt à les exécuter.
 Studios De Film
 Assimilate the knowledge to get the License to manage Movie Studios.
 Principes d'exploitation de salles de cinéma
@@ -1186,39 +1160,19 @@ Moquette douce
 De la moquette très douce recouvre le sol du hall et des couloirs. Sensation très agréable lorsque vous marchez.
 Portier
 Un portier en uniforme se tient devant la porte d'entrée afin d'accueillir les personnes qui entrent et tenir les personnes étranges et autres visiteurs indésirables à l'écart.
-Géologie avancée
 Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.
-Sécurité minière avancée
 Protégez vos ouvriers contre les émissions naturelles toxiques.
 Détecteurs de minerais avancés
-Développez des méthodes plus efficaces de détection des impuretés dans les minerais.
-Conduits d'aération supplémentaires
 Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.
-Exosquelettes
-Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.
-Exploitation minière du sol extraterrestre
 Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.
-Exploitation minière à grande échelle
-Apprenez les principes élémentaires de gestion de mines de grande envergure.
-Ascenseurs magnétiques
-Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.
-Micro-explosions
 Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.
 Système de repérage des mineurs
-Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.
-Principes d'exploitation minière
 Apprenez les principes vous permettant de vous occuper d'exploitation minière.
-Bactéries utilisées dans l'exploitation minière
 Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.
-Droïdes de minage
 Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.
 Adultération du minerai
-Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.
-Chariots télécommandés
 Les chariots des mineurs sont contrôlés à partir d'un bureau central.
-Forage à la vapeur
 Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.
-Etablissement de cartes souterraines
 Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.
 Sources alternatives
 Employez des matières premières alternatives comme le chanvre et le kénaf pour produire le papier. Économiser quelques arbres et améliorez l'efficacité.
@@ -1227,22 +1181,22 @@ Basé selon le principe du papier tournesol, produisez des feuilles spéciales d
 Fibres extraterrestres
 Le bois extraterrestre peut être légèrement différent du bois de la terre.  Étudiez ces différences pour améliorer la production de papier.
 Contenants alimentaires
-Produisez des récipients hygiéniques spécifiquement conçus pour lentreposage de nourriture: cela répond au souci de sécurité des consommateurs.
+Produisez des récipients hygiéniques spécifiquement conçus pour l'entreposage de nourriture: cela répond au souci de sécurité des consommateurs.
 Papier fait à la main
 Engagez des artisans qui soient capables de créer du beau papier á la main: ceci pour les clients les plus exigeants.  Cet article n'est pas bon marché, mais la qualité du produit est nettement augmentée.
 Nécessaire à papier pour le bricoleur
 Demandez à vos artisans de préparer un nécessaire à papier spécial qui pourra être vendu dans les magasins aux personnes qui veulent créer leur propre papier: une nouvelle branche d'activité.
 Contrat pour billets de banque
-Fournissez du papier de haute qualité à lHôtel de la Monnaie pour l'impression des billets de banque: un contrat très prestigieux.
+Fournissez du papier de haute qualité à l'Hôtel de la Monnaie pour l'impression des billets de banque: un contrat très prestigieux.
 Emballage
 Produisez des boîtes de carton et tout autre empaquetage en papier : des produits très demandés.
 Campagne de sac de papier
-Lancez une campagne massive pour favoriser l'utilisation des sacs en papier au lieu de ceux en plastique dans les magasins.  Augmentez ainsi la demande pour vos produits  tout en ayant lair de protéger  lenvironnement.
+Lancez une campagne massive pour favoriser l'utilisation des sacs en papier au lieu de ceux en plastique dans les magasins.  Augmentez ainsi la demande pour vos produits  tout en ayant l'air de protéger  l'environnement.
 Vêtements de papier
 Produisez des vêtements attrayants à un prix abordable, entièrement faits de papier de première qualité.
 Histoire du papier
 Étudiez comment au commencement des temps le papier a été fabriqué sur la terre; cela vous donnera des idées sur comment améliorer la qualité de votre papier.
-Fondement de lindustrie papetière
+Fondement de l'industrie papetière
 Techniques de base pour gérer les usines à papier.
 Coupe-papiers
 Tout le monde sait combien mauvaise peut être une coupure faite avec du papier: créez une ligne de couteaux avec lames en papier, idéale pour couper les matériaux mous.
@@ -1307,7 +1261,7 @@ Régulièrement, vous stockez des moyens de contraception, puis vous lancez une 
 Casquette de sécurité pour enfants
 Pas besoin d'explication.
 Interdiction des suppositoires
-Personne n'apprécie d'utiliser cette méthode inconfortable dadministration des médicaments. Vos usines le remplacent par un médicament à administration orale plus appréciée.
+Personne n'apprécie d'utiliser cette méthode inconfortable d'administration des médicaments. Vos usines le remplacent par un médicament à administration orale plus appréciée.
 Test sur des êtres humains
 Vous lancez un projet de test de médicaments sur des cobayes humains rétribués. Ceci aide vos recherches, mais l'opinion publique perçoit cela comme une aberration.
 Interdiction de la vivisection
@@ -1317,7 +1271,7 @@ Embauchez uniquement des pharmaciens jeunes et sans beaucoup d'expérience afin 
 Sacs plastique anti-étouffement
 Pour éviter les problèmes d'asphyxie d'enfants, vous créez des sacs plastique dont certaines parties sont biodégradables et qui fondent lorsqu'elles sont en contact avec de la salive. Les parents font de vous un héros.
 Matériau biodégradable semblable à du plastique
-Vous produisez un matériau semblable à du plastique à partir du maïs. Il remplace le plastique dans certains cas et vous permet de jouer la carte de lécologie.
+Vous produisez un matériau semblable à du plastique à partir du maïs. Il remplace le plastique dans certains cas et vous permet de jouer la carte de l'écologie.
 Campagne d'éveil écologique
 Vous lancez une campagne visant à encourager la population à recycler le plastique en l'apportant dans des centres de recyclage. Rentable et bon pour l'environnement.
 Plastique extra résistant
@@ -1380,42 +1334,14 @@ Produits de substitution
 Des produits alternatifs, tels que le pain de maïs, le tofu et les laitages à base de végétaux. Destinés aux clients souffrant d'allergies et de problèmes digestifs.
 Utilisation de l'eau
 L'eau peut être très utile pour accroître la quantité de blanc de poulet et de produits laitiers.
-Géologie avancée
-Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.
-Sécurité minière avancée
 Protégez vos ouvriers contre les émissions naturelles toxiques.
 Détecteurs de minerais avancés
-Développez des méthodes plus efficaces de détection des impuretés dans les minerais.
-Conduits d'aération supplémentaires
-Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.
-Exosquelettes
-Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.
-Exploitation minière du sol extraterrestre
-Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.
-Exploitation minière à grande échelle
-Apprenez les principes élémentaires de gestion de mines de grande envergure.
-Ascenseurs magnétiques
-Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.
-Micro-explosions
 Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.
-Système de repérage des mineurs
-Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.
-Principes d'exploitation minière
 Apprenez les principes vous permettant de vous occuper d'exploitation minière.
-Bactéries utilisées dans l'exploitation minière
 Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.
-Droïdes de minage
-Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.
 Adultération du minerai
-Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.
-Chariots télécommandés
-Les chariots des mineurs sont contrôlés à partir d'un bureau central.
-Forage à la vapeur
-Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.
-Etablissement de cartes souterraines
-Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.
 Adopter un Étage
-Vos résidants peuvent adopter un étage et participer à son entretien. Leur nom sera mis sur une plaque sur le mur de létage.
+Vos résidants peuvent adopter un étage et participer à son entretien. Leur nom sera mis sur une plaque sur le mur de l'étage.
 Aromathérapie avancée
 Utilisez les parfums pour rendre vos salles et vos halls plus conviviaux.
 Décoration avancée
@@ -1455,7 +1381,7 @@ Dans des bâtiments massifs, prender les escaliers en cas d'urgence est ineffica
 Musique d'ambiance
 Ajoutez des musiques d'ambiance pour rendre vos locaux plus agréables.
 Service D'Escorte
-Pour éviter des agressions dans les couloirs, sur demande, vos locataires peuvent être escortés par des gardes de l'entrée du bâtiment jusquà leur appartement.
+Pour éviter des agressions dans les couloirs, sur demande, vos locataires peuvent être escortés par des gardes de l'entrée du bâtiment jusqu'à leur appartement.
 Feng Shui
 Les secteurs communs du bâtiment sont décorés accordant cette discipline orientale.
 Aquariums
@@ -1538,75 +1464,19 @@ Cave à vin
 Votre choix en vins s'est grandement amélioré. Vous proposez également des grands crus.
 Abonnement annuel
 Destiné aux personnes qui vont régulièrement dans les mêmes restaurants. Prix réduits pour les clients fidèles.
-Géologie avancée
-Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.
-Sécurité minière avancée
-Protégez vos ouvriers contre les émissions naturelles toxiques.
 Détecteurs de minerais avancés
 Développez des méthodes plus efficaces de détection des impuretés dans les minerais.
-Conduits d'aération supplémentaires
-Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.
-Exosquelettes
 Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.
-Exploitation minière du sol extraterrestre
-Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.
-Exploitation minière à grande échelle
-Apprenez les principes élémentaires de gestion de mines de grande envergure.
-Ascenseurs magnétiques
-Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.
-Micro-explosions
-Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.
-Système de repérage des mineurs
-Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.
-Principes d'exploitation minière
-Apprenez les principes vous permettant de vous occuper d'exploitation minière.
-Bactéries utilisées dans l'exploitation minière
 Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.
-Droïdes de minage
-Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.
 Adultération du minerai
 Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.
-Chariots télécommandés
-Les chariots des mineurs sont contrôlés à partir d'un bureau central.
-Forage à la vapeur
-Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.
-Etablissement de cartes souterraines
-Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.
-Géologie avancée
-Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.
-Sécurité minière avancée
-Protégez vos ouvriers contre les émissions naturelles toxiques.
 Détecteurs de minerais avancés
 Développez des méthodes plus efficaces de détection des impuretés dans les minerais.
-Conduits d'aération supplémentaires
-Des conduits d'aération supplémentaires facilitent le travail des ouvriers dans les mines, mais l'abondance d'oxygène risque d'altérer certains minerais délicats.
-Exosquelettes
-Les mineurs utilisent des exosquelettes pour extraire le minerai. Très rapide, mais pas très précis.
-Exploitation minière du sol extraterrestre
-Arrêter l'exploitation minière telle que vous la pratiquiez sur Terre. Tirez parti des conditions spécifiques de chaque planète.
-Exploitation minière à grande échelle
-Apprenez les principes élémentaires de gestion de mines de grande envergure.
-Ascenseurs magnétiques
-Ascenseurs fonctionnant grâce aux champs magnétiques naturels. Ils sont beaucoup plus sûrs que les ascenseurs habituels.
-Micro-explosions
-Dans vos mines, au lieu de grandes explosions, vous procédez à de petites explosions pour mettre à jour le minerai.
-Système de repérage des mineurs
-Chaque mineur est équipé d'un transmetteur qui communique en permanence son emplacement exact. Ceci est crucial en cas d'urgence.
-Principes d'exploitation minière
-Apprenez les principes vous permettant de vous occuper d'exploitation minière.
-Bactéries utilisées dans l'exploitation minière
 Créez de grandes quantités de bactéries mangeuses de roche pour faciliter l'accès au minerai. Cette pratique ne s'est par révélée dangereuse pour l'être humain. Toutefois, les ouvriers restent sceptiques.
-Droïdes de minage
-Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.
 Adultération du minerai
 Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.
-Chariots télécommandés
-Les chariots des mineurs sont contrôlés à partir d'un bureau central.
-Forage à la vapeur
 Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.
-Etablissement de cartes souterraines
-Développez des cartes souterraines dans les zones couvertes par votre mine. Non seulement cela permet de savoir où vous en êtes, mais le sentiment de sécurité des mines est accru.
-Émission DAward
+Émission D'Award
 Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.
 Télévision
 Découvrez le métier de la télévision.
@@ -1643,14 +1513,14 @@ Add channels specialized in broadcasting only events of a single sport. Throw in
 Invasion de Comédies
 Les comédies réussis comme des des 'Les petits-enfants de Friends', ou 'Frasier ressuscités'  créent des avantages et  encaisses sur des personnages que le publique déjà adore.
 Excellence de Soap Operas
-Étudiez les origines et les exemples les plus réussis de ce genre populaire pour produire une série de haute qualité. Branchez sur lhéritage latino-américain pour réaliser l'excellence.
+Étudiez les origines et les exemples les plus réussis de ce genre populaire pour produire une série de haute qualité. Branchez sur l'héritage latino-américain pour réaliser l'excellence.
 Sous-titres
 For hearing impared viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for the illiterates.
 Emissions de Chat Sottises
 Shows that makes Jerry Springer descendants blush. The man who chose a limping goat over his 450 pounds transexual lover is just an example of the average guest.
 Bois de construction Extraterrestre
 La chimie et la physique légèrement différentes des nouveaux mondes vous permet à développer des nouveaux types de bois qui ne peuvent pas être produits sur terre.
-Contrôle de la maladie darbre folle
+Contrôle de la maladie d'arbre folle
 Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.
 Bois Aromatique
 Wood will have built-in aromatic properties.
@@ -1666,15 +1536,12 @@ Musique Verte
 Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.
 Hi Density Wood
 Produce high density wood. More resistant and durable.
-Système D'Autobus Interne
 The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.
 Musée De Bois de construction
 You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.
-Développements De Nanotechnologie
 You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.
 Fertilisation Pratique
 Apply special fertilizers that will increase the quality of your timber.
-Superconductors Production
 By using the high end technology needed to produce superconductors, you improves your products quality.
 Arbres Siamois
 Produce mutant trees that will feature two full grown tress for a single set of roots.
@@ -1685,7 +1552,7 @@ Porté par la vague du succès de votre jeu vidéo, vous lancez des figurines ba
 Gamme de jeux pour adultes
 Lancez une ligne de jeux pour adultes, du casse-tête au jeu de société érotique.
 Campagne marketing agressif
-Une fois quun client a acheté un jouet chez vous, il entre dans la population cible de votre campagne agressive, qui utilise les prospectus et les appels téléphoniques pour influencer les clients dans le choix de leur prochain achat de jouet.
+Une fois qu'un client a acheté un jouet chez vous, il entre dans la population cible de votre campagne agressive, qui utilise les prospectus et les appels téléphoniques pour influencer les clients dans le choix de leur prochain achat de jouet.
 Animateurs
 Animateurs professionnels pour les fêtes des enfants. Les parents s'arrachent moins les cheveux.
 Surveillance anti-extraterrestre

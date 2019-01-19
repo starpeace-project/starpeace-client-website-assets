@@ -36,7 +36,7 @@
       "DE": "Mad Tree Disease control",
       "EN": "Mad Tree Disease Control",
       "ES": "Control de la enfermedad del árbol loco",
-      "FR": "Contrôle de la maladie darbre folle",
+      "FR": "Contrôle de la maladie d'arbre folle",
       "IT": "Lotta alla \"pianta pazza\"",
       "PT": "Controle De Doença De Árvore Mad"
     },
@@ -273,7 +273,7 @@
     "id": "TimbInternalBusSystem",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Internal Bus System",
+      "DE": "Internes Bussystem",
       "EN": "Internal Bus System",
       "ES": "Sistema de bus interno",
       "FR": "Système D'Autobus Interne",
@@ -333,7 +333,7 @@
     "id": "TimbNanoDev",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Nanotechnology Developments",
+      "DE": "Nanotechnologie-Entwicklungen",
       "EN": "Nanotechnology Developments",
       "ES": "Desarrollos en nanotecnología",
       "FR": "Développements De Nanotechnologie",
@@ -393,7 +393,7 @@
     "id": "TimbSupercondProd",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Superconductors Production",
+      "DE": "Produktion von Superleitern",
       "EN": "Superconductor Production",
       "ES": "Producción de superconductores",
       "FR": "Superconductors Production",
