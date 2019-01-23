@@ -27,7 +27,7 @@
         { "resource": "LEGAL_SERVICES", "max": 0.4 }
       ],
       "outputs": [
-        { "resource": "CLOTHES_MID", "max": 60 }
+        { "resource": "CLOTHES", "max": 60 }
       ]
     }
   },
@@ -58,7 +58,7 @@
         { "resource": "LEGAL_SERVICES", "max": 0.2 }
       ],
       "outputs": [
-        { "resource": "CLOTHES_MID", "max": 30 }
+        { "resource": "CLOTHES", "max": 30 }
       ]
     }
   }

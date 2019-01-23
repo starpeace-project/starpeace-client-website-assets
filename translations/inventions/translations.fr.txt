@@ -183,7 +183,7 @@ Apprenez les principes de création et de gestion de grandes usines chimiques.
 Stockage massif de produits chimiques
 Malgré le fait que cela puisse être perçu comme dangereux, vos usines stockent des grandes quantités de produits chimiques pour économiser sur les achats et éviter toute pénurie.
 Remplacement régulier des instruments
-Vos usines mettent en uvre une politique de remplacements obligatoires et fréquents des petits instruments jetables, tels que les becs Bunsen et fioles en verre.
+Vos usines mettent en œuvre une politique de remplacements obligatoires et fréquents des petits instruments jetables, tels que les becs Bunsen et fioles en verre.
 Contrôle des matières premières
 Avant que des matières premières n'entrent dans l'un des processus de fabrication de vos usines, il subit une dernière vérification interne.
 Recyclage des déchets chimiques
@@ -233,7 +233,7 @@ Sous-vêtements de luxe pour les clients fortunés.
 Fabrication de vêtements à grande échelle
 Apprenez les principes élémentaires de gestion de la fabrication de vêtements à grande échelle.
 Caisses de recyclage des vêtements usagés
-Vos magasins sont équipés de caisses dans lesquelles les clients peuvent déposer les vêtements usagés. Vous donnez ensuite les vêtements en bon état à des uvres caritatives.
+Vos magasins sont équipés de caisses dans lesquelles les clients peuvent déposer les vêtements usagés. Vous donnez ensuite les vêtements en bon état à des œuvres caritatives.
 Vêtements à usage unique
 Vêtements de mauvaise qualité qui sont jetés au lieu de les laver.
 Stockage de vêtements passés de mode
@@ -253,7 +253,7 @@ Importez les anciennes traditions de la Terre dans les nouveaux mondes. Reproduc
 Chaussure sans distinction de pied
 Comme les vêtements unisexes, mais pour les pieds. La chaussure droite est identique à la gauche. La forme de la chaussure est conçue pour s'adapter aux deux pieds.
 Remise en forme des vêtements usagés
-Au lieu de donner vos vêtements usagés que vous avez collectés à des uvres de bienfaisance, vos couturières les réparent afin de pouvoir les remettre en vente.
+Au lieu de donner vos vêtements usagés que vous avez collectés à des œuvres de bienfaisance, vos couturières les réparent afin de pouvoir les remettre en vente.
 Géologie avancée
 Etudiez les dernières nouveautés en matière de géologie extraterrestre. Cette étape est indispensable pour permettre des recherches plus poussées dans ce domaine.
 Sécurité minière avancée
@@ -322,7 +322,7 @@ Techniques de base pour gérer les usines à CD.
 Vente des CDs par infopublicité
 Réutilisez les vieilles chansons en créant des CDs de compilation, spécifiquement pour vente à la TV. Les larges audiences produisent des retours très favorables.
 Karaoke Prêt
-Quand vous écoutez les CDs, l'affichage du lecteur de CD montrera les paroles de la chanson de sorte que les gens pourront chanter en chur.
+Quand vous écoutez les CDs, l'affichage du lecteur de CD montrera les paroles de la chanson de sorte que les gens pourront chanter en chœur.
 Stations d'écoute
 Mettez plusieurs lecteurs de CD dans vos magasins de sorte que les clients puissent écouter un CD avant de l'acheter.
 Interprétation en direct
@@ -338,7 +338,7 @@ Vos clients peuvent utiliser cette machine pour automatiquement réparer leurs C
 Disque compact réinscriptible
 Dans le cas où un client se fatiguerait du CD, il ou elle pourrait toujours le réutiliser pour graver des chansons nouvelles.
 Postes de chant
-Transformez vos stations d'écoute en cabine insonorisée, où les mordus du  karaoke pourront chanter en chur leurs chansons préférées.
+Transformez vos stations d'écoute en cabine insonorisée, où les mordus du  karaoke pourront chanter en chœur leurs chansons préférées.
 Base de données universelle de chansons
 Créez une base de données universelle de chansons dans laquelle toutes les chansons, enregistrées sur terre et ailleurs dans les nouveaux mondes, soient enregistrées.  Très utile pour satisfaire les demandes de vos clients.
 Expert en matière de chansons
@@ -434,7 +434,7 @@ Pay some computers developer to come and pretend to program in a glass cage in t
 Système de livraison robotisé
 Pour livrer des papiers et des documents d'un bureau à l'autre, il n'y a rien de mieux que ces adorables petits robots qui parcourent les couloirs à grande vitesse.
 Souris électrique
-Souris spéciale qui, en fonction du battement de cur de l'utilisateur, détecte le moment où il s'assoupit et émet un petit choc électrique qui le réveille. Quelque peu barbare, mais efficace.
+Souris spéciale qui, en fonction du battement de cœur de l'utilisateur, détecte le moment où il s'assoupit et émet un petit choc électrique qui le réveille. Quelque peu barbare, mais efficace.
 Système de surveillance des logiciels
 Vous avez peur que vos employés installent des jeux ou des images pornos sur leurs ordinateurs ? Ce système examine tout logiciel sans rapport avec le travail et l'efface du disque dur.
 Ecrans tactiles
@@ -560,7 +560,7 @@ Développez une procédure pour agrandir les tissus une fois qu'ils ont été te
 Tricotage inversé
 Mettez en place des métiers à tisser avec des glissières inversées. Cela laisse quelques trous dans le tissus, mais ils sont généralement imperceptibles pour des non professionnels.
 Tissus vivants
-Développez des tissus composés d'organismes organiques semi-vivants. Les vêtements fabriqués à partir de ces tissus s'adaptent à l'environnement et l'il humain y est très sensible.
+Développez des tissus composés d'organismes organiques semi-vivants. Les vêtements fabriqués à partir de ces tissus s'adaptent à l'environnement et l'œil humain y est très sensible.
 Industrie textile à grande échelle
 Principes de création et de gestion d'usines textiles importantes.
 Chenilles mutantes
@@ -749,7 +749,7 @@ Pompes spéciales qui se nettoient automatiquement de manière régulière.
 Paiement automatique par lecture de la plaque
 Un dispositif lit la plaque d'immatriculation qui effectue le plein et débite automatique la carte de crédit du client. Rapide et efficace.
 Purification anti-bactérienne
-Met en uvre un système de purification anti-bactérienne si vos fournisseurs ont fait la recherche sur la « bactérie mangeuse d'impuretés ». L'éradication des impuretés améliore la qualité du carburant.
+Met en œuvre un système de purification anti-bactérienne si vos fournisseurs ont fait la recherche sur la « bactérie mangeuse d'impuretés ». L'éradication des impuretés améliore la qualité du carburant.
 Détergent pour moteur de voiture
 Vous mélangez un nettoyant spécial à votre carburant qui fait que, lorsque vous utilisez votre voiture, toutes les parties du moteur restent propres. Les automobilistes l'adorent.
 Centre de lavage de voiture
@@ -781,7 +781,7 @@ Etant donné que la concentration en oxygène de l'air des mondes extraterrestre
 Arrêt au stand
 Pour les fanatiques de course automobile, vos stations proposent un arrêt comme dans les courses avec plein rapide, rotation des pneumatiques et contrôle de la pression.
 Stratégie marketing en fonction des plaques d'immatriculation
-A partir des plaques d'immatriculation, vous pouvez obtenir des informations sur vos clients et mettre en uvre une stratégie marketing ciblée.
+A partir des plaques d'immatriculation, vous pouvez obtenir des informations sur vos clients et mettre en œuvre une stratégie marketing ciblée.
 Carte de fidélité
 Pour vos clients habituels. Chaque fois qu'il achètent du carburant, ils accumulent des points et reçoivent des cadeaux.
 Production de carburant
@@ -1561,8 +1561,8 @@ Jouets anti-étouffement
 Toutes les pièces de petite taille qui risqueraient de provoquer l'étouffement des enfants sont retirées de vos jouets. Les parents vous remercient.
 Spécialistes de l'assemblage
 Pour les parents qui deviennent fous lorsqu'ils tentent de monter les jouets compliqués de leurs enfants. Des employés spéciaux se rendent au domicile des clients et se chargent du montage des jouets.
-Donation à des uvres caritatives
-Vous faites des dons de jouets à des uvres caritatives. Ces jouets ont été collectés à l'occasion d'une campagne de reprise.
+Donation à des œuvres caritatives
+Vous faites des dons de jouets à des œuvres caritatives. Ces jouets ont été collectés à l'occasion d'une campagne de reprise.
 Collection de livres pour enfants
 Embauchez un groupe d'écrivains médiocres pour écrire des centaines de livres pour enfants.
 Liste de cadeaux de Noël
@@ -1604,7 +1604,7 @@ Appareil gratuit permettant de stériliser les jouets pour nouveau-nés. Les par
 Production de jouets
 Apprenez à produire des jouets.
 Zones de test des jouets
-Salles spéciales dans lesquelles les enfants peuvent essayer les jouets avant de les acheter. Très apprécié des parents qui évitent ainsi de dépenser de l'argent pour un coup de cur de dix minutes.
+Salles spéciales dans lesquelles les enfants peuvent essayer les jouets avant de les acheter. Très apprécié des parents qui évitent ainsi de dépenser de l'argent pour un coup de cœur de dix minutes.
 Reprise de jouets usagés
 Remises sur les nouveaux jouets dans le cas où le client rapporte des jouets anciens ou usagés.
 Console de jeux
