@@ -35,7 +35,7 @@ module.exports = function(grunt) {
         exec: 'node build/languages-export.js assets translations'
       },
       import_languages: {
-        exec: 'node build/languages-import.js assets translations'
+        exec: 'node build/languages-import.js assets translations --type=' + (grunt.option('type') || '')
       }
     }
   });

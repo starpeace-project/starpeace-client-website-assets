@@ -44,7 +44,7 @@
       "DE": "Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.",
       "EN": "Make sure your trees aren't affected by the Mad Tree bacteria found in the colonies.",
       "ES": "Asegúrese de que sus árboles no se vean afectados por la bacteria Mad Tree que se encuentra en las colonias.",
-      "FR": "Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.",
+      "FR": "Assurez-vous que vos bactéries ne seront pas affectées par la bactérie de la maladie de l’arbre fou trouvée dans les colonies.",
       "IT": "Ti adoperi affinché i tuoi alberi non vengano colpiti dai batteri che causano l'encefalite arborea (la cosiddetta \"pianta pazza\") e che sono diffusi nelle colonie.",
       "PT": "Certifique-se de que suas árvores não sejam afetadas pelas bactérias da Árvore Louca encontradas nas colônias."
     },
@@ -74,7 +74,7 @@
       "DE": "Wood will have built-in aromatic properties.",
       "EN": "Wood with built-in aromatic properties.",
       "ES": "Madera con propiedades aromáticas incorporadas.",
-      "FR": "Wood will have built-in aromatic properties.",
+      "FR": "Le bois aura des propriétés aromatiques intégrées.",
       "IT": "Un legno dalle proprietà aromatiche.",
       "PT": "Madeira com propriedades aromáticas incorporadas."
     },
@@ -97,7 +97,7 @@
       "DE": "Atomic Size Metal Sheets",
       "EN": "Atom Size Wood Sheets",
       "ES": "Hojas de madera de tamaño de átomo",
-      "FR": "Atomic Size Metal Sheets",
+      "FR": "Feuilles Métalliques de Taille Atomique",
       "IT": "Lastre metalliche ultra-sottili",
       "PT": "Folhas de madeira do tamanho do átomo"
     },
@@ -105,7 +105,7 @@
       "DE": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
       "EN": "The use of zero gravity shaping permits you to create sheet of woods very few atoms in width: extremely useful in industrial applications.",
       "ES": "El uso de la conformación de gravedad cero le permite crear láminas de madera de muy pocos átomos de ancho: extremadamente útil en aplicaciones industriales.",
-      "FR": "The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.",
+      "FR": "L'utilisation d'une mise en forme sans gravité vous permet de créer des feuilles de métaux de quelques atomes de largeur. Extrêmement utile dans les applications industrielles.",
       "IT": "Grazie alla formatura in assenza di gravità sei in grado di creare lastre metalliche dello spessore di pochi atomi, molto utili nelle applicazioni industriali.",
       "PT": "O uso da modelagem por gravidade zero permite que você crie uma folha de madeira com poucos átomos de largura: extremamente útil em aplicações industriais."
     },
@@ -127,7 +127,7 @@
       "DE": "Cat Repelent",
       "EN": "Cat Repellent",
       "ES": "Repelente de gatos",
-      "FR": "Cat Repelent",
+      "FR": "Repousse Chat",
       "IT": "Alberi a prova di gatto",
       "PT": "Repelente de gato"
     },
@@ -135,7 +135,7 @@
       "DE": "Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.",
       "EN": "Your trees will repel cats. Without this technology, trees are at the mercy of these vicious felines and the fireman that invariably come in their rescue.",
       "ES": "Tus árboles repelerán a los gatos. Sin esta tecnología, los árboles están a merced de estos felinos viciosos y del bombero que invariablemente acuden en su rescate.",
-      "FR": "Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.",
+      "FR": "Vos arbres vont repousser les chats. Sans cette technologie, les arbres sont à la merci de ces méchantes camarades et des pompiers qui viennent invariablement à leur secours.",
       "IT": "Grazie a questo ritrovato i gatti (e i pompieri a cui toccherebbe poi soccorrerli) si terranno alla larga dai tuoi alberi.",
       "PT": "Suas árvores vão repelir gatos. Sem essa tecnologia, as árvores ficam à mercê desses felinos ferozes e do bombeiro que invariavelmente vêm em seu socorro."
     },
@@ -165,7 +165,7 @@
       "DE": "Trees will come in color. Furniture shops love this.",
       "EN": "Trees will grow in different colors. Furniture shops love this.",
       "ES": "Los árboles crecerán en diferentes colores. Las tiendas de muebles aman esto.",
-      "FR": "Trees will come in color. Furniture shops love this.",
+      "FR": "Les arbres vont venir en couleur. Les magasins de meubles adorent ça.",
       "IT": "Gli alberi crescono già dipinti, per la gioia dei negozi di mobili.",
       "PT": "As árvores vão crescer em cores diferentes. Lojas de móveis adoram isso."
     },
@@ -195,7 +195,7 @@
       "DE": "Basic Timber production.",
       "EN": "Knowledge for basic timber production.",
       "ES": "Conocimientos para la producción de madera básica.",
-      "FR": "Basic Timber production.",
+      "FR": "Production de Bois de Base",
       "IT": "I fondamenti della produzione del legname.",
       "PT": "Conhecimento para produção básica de madeira."
     },
@@ -223,7 +223,7 @@
       "DE": "Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.",
       "EN": "Grow trees using New Age Tree Music. Trees grow bigger, faster, but the wood they produce is a bit moody.",
       "ES": "Cultiva árboles con la música New Age Tree. Los árboles crecen más y más rápido, pero la madera que producen es un poco de mal humor.",
-      "FR": "Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.",
+      "FR": "Cultivez vos arbres en utilisant la musique New-Age Tree. Les arbres grossissent, mais le bois qu'ils produisent est un peu maussade.",
       "IT": "Aiuta gli alberi a crescere con la musica new age. Essi assumono effettivamente dimensioni superiori, ma si rivelano un po' lunatici.",
       "PT": "Cultive árvores usando o New Age Tree Music. As árvores crescem mais rápido, mas a madeira que produzem é um pouco instável."
     },
@@ -245,7 +245,7 @@
       "DE": "Hi Density Wood",
       "EN": "High Density Wood",
       "ES": "Madera de alta densidad",
-      "FR": "Hi Density Wood",
+      "FR": "Bois de Densité Élevée",
       "IT": "Legname ad alta densità",
       "PT": "Madeira de alta densidade"
     },
@@ -253,7 +253,7 @@
       "DE": "Produce high density wood. More resistant and durable.",
       "EN": "Produce high density wood. It's more resistant and durable.",
       "ES": "Producir madera de alta densidad. Es más resistente y duradero.",
-      "FR": "Produce high density wood. More resistant and durable.",
+      "FR": "Produire du bois haute densité. Plus résistant et durable.",
       "IT": "Produci un legname molto denso, e che si rivela più resistente e durevole.",
       "PT": "Produza madeira de alta densidade. É mais resistente e durável."
     },
@@ -284,7 +284,7 @@
       "DE": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
       "EN": "The living quarters and the working environment in a wood plant have to be far apart due to the high temperature environment. In large plants, an internal bus system makes travel efficient.",
       "ES": "Las habitaciones y el ambiente de trabajo en una planta de madera tienen que estar muy separados debido al ambiente de alta temperatura. En plantas grandes, un sistema de bus interno hace que los viajes sean eficientes.",
-      "FR": "The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.",
+      "FR": "Les locaux d'habitation et l'environnement de travail dans une usine métallurgique doivent être éloignés à cause de la température élevée. Dans les grandes installations, un système de bus interne améliore l'efficacité du travail.",
       "IT": "Nelle segherie gli alloggi degli operai devono essere distanti dagli impianti a causa delle schegge vaganti. Servizi interni di autobus migliorano l'efficienza delle fabbriche più estese.",
       "PT": "Os alojamentos e o ambiente de trabalho em uma fábrica de madeira têm que estar distantes devido ao ambiente de alta temperatura. Em grandes fábricas, um sistema de ônibus interno torna a viagem eficiente."
     },
@@ -314,7 +314,7 @@
       "DE": "You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.",
       "EN": "You create a Timber Museum at your industry headquarter. Knowing the history of timber motivates your employees.",
       "ES": "Usted crea un Museo de la Madera en la sede de su industria. Conocer la historia de la madera motiva a sus empleados.",
-      "FR": "You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.",
+      "FR": "Vous créez un musée du bois dans votre siège social. Regarder l'histoire du travail du bois motive vos employés.",
       "IT": "Crei un museo del legname nel tuo quartier generale per l'industria. La possibilità di conoscere la storia di questa attività funge da motivazione per i tuoi dipendenti.",
       "PT": "Você cria um Museu da Madeira na sua sede da indústria. Conhecer a história da madeira motiva seus funcionários."
     },
@@ -344,7 +344,7 @@
       "DE": "You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
       "EN": "You produce micro timber parts for nanotechnology uses. It forces your plants to implement a better quality process.",
       "ES": "Usted produce micro partes de madera para usos de nanotecnología. Obliga a tus plantas a implementar un proceso de mejor calidad.",
-      "FR": "You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.",
+      "FR": "Vous produisez des micro-pièces Timbers à usage nanotechnologique. Cela oblige vos usines à mettre en place un processus de meilleure qualité.",
       "IT": "Produci parti microscopiche in legno per applicazioni nel settore della nanotecnologia. Ciò fa sì che i tuoi impianti debbano adottare processi più sofisticati.",
       "PT": "Você produz micro peças de madeira para uso em nanotecnologia. Isso força suas fábricas a implementar um processo de melhor qualidade."
     },
@@ -374,7 +374,7 @@
       "DE": "Apply special fertilizers that will increase the quality of your timber.",
       "EN": "Use special fertilizers that will increase the quality of your timber.",
       "ES": "Use fertilizantes especiales que aumentarán la calidad de su madera.",
-      "FR": "Apply special fertilizers that will increase the quality of your timber.",
+      "FR": "Appliquez des engrais spéciaux qui augmenteront la qualité de votre bois.",
       "IT": "Applichi fertilizzanti speciali che aumentano la qualità del legno.",
       "PT": "Use fertilizantes especiais que aumentem a qualidade de sua madeira."
     },
@@ -396,7 +396,7 @@
       "DE": "Produktion von Superleitern",
       "EN": "Superconductor Production",
       "ES": "Producción de superconductores",
-      "FR": "Superconductors Production",
+      "FR": "Production de supraconducteurs",
       "IT": "Produzione di superconduttori",
       "PT": "Produção Supercondutor"
     },
@@ -404,7 +404,7 @@
       "DE": "By using the high end technology needed to produce superconductors, you improves your products quality.",
       "EN": "By using the high end technology needed to produce superconductors, you improve your products quality.",
       "ES": "Al utilizar la tecnología de gama alta necesaria para producir superconductores, mejora la calidad de sus productos.",
-      "FR": "By using the high end technology needed to produce superconductors, you improves your products quality.",
+      "FR": "En utilisant la technologie de pointe nécessaire pour produire des supraconducteurs, vous améliorez la qualité de vos produits.",
       "IT": "Utilizzando la tecnologia all'avanguardia necessaria per la produzione di superconduttori, migliori la qualità dei tuoi prodotti.",
       "PT": "Usando a tecnologia de ponta necessária para produzir supercondutores, você melhora a qualidade de seus produtos."
     },
@@ -434,7 +434,7 @@
       "DE": "Produce mutant trees that will feature two full grown tress for a single set of roots.",
       "EN": "Produce mutant trees that will feature two full grown tress for every set of roots.",
       "ES": "Produzca árboles mutantes que presentarán dos árboles completos para cada conjunto de raíces.",
-      "FR": "Produce mutant trees that will feature two full grown tress for a single set of roots.",
+      "FR": "Produisez des arbres mutants qui comporteront deux arbres de grande taille pour un seul ensemble de racines.",
       "IT": "Produci alberi mutanti che sviluppano due fusti a parte da una sola radice.",
       "PT": "Produza árvores mutantes que contenham duas árvores adultas para cada conjunto de raízes."
     },
@@ -465,7 +465,7 @@
       "DE": "Trees will generate large mutant cells filled with air. Wood production is increased.",
       "EN": "Trees will generate large mutant cells filled with air, increasing wood production.",
       "ES": "Los árboles generarán grandes células mutantes llenas de aire, aumentando la producción de madera.",
-      "FR": "Trees will generate large mutant cells filled with air. Wood production is increased.",
+      "FR": "Les arbres vont générer de grandes cellules mutantes remplies d'air. La production de bois est augmentée.",
       "IT": "Gli alberi producono cellule mutanti piene d'aria, aumentando così il volume del legname prodotto.",
       "PT": "As árvores geram grandes células mutantes cheias de ar, aumentando a produção de madeira."
     },

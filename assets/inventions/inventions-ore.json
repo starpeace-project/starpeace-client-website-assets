@@ -361,7 +361,7 @@
     "id": "MiningDroids",
     "category": "INDUSTRY",
     "name": {
-      "DE": "Mining Droids",
+      "DE": "Bergwerksdroiden",
       "EN": "Mining Droids",
       "ES": "Droides mineros",
       "FR": "Droïdes de minage",
@@ -369,7 +369,7 @@
       "PT": "Droides de Mineração"
     },
     "description": {
-      "DE": "Replace humans by droids on the most dangerous tasks.",
+      "DE": "Ersetzen Sie bei gefährlichen Aufgaben Menschen durch Droiden.",
       "EN": "Replace humans with droids to work on the most dangerous tasks.",
       "ES": "Reemplaza a los humanos con droides para trabajar en las tareas más peligrosas.",
       "FR": "Remplacez les humains par des droïdes qui effectuent les tâches les plus dangereuses.",

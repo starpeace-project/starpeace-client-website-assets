@@ -99,17 +99,17 @@ Produisez des livres écrits dans des langues extraterrestres inventées; excell
 Livres en grand police des caractères
 Les clients plus âgés aiment lire des livres à grands caractères d'imprimerie qui ne fatiguent pas les yeux: une ligne des produits sensé et lucrative.
 Lits
-Add beds to reading areas in your stores so people can try bed-time books and stories.
+Ajoutez des lits aux aires de lecture de vos magasins pour que les gens puissent essayer des livres et des histoires au coucher.
 Seulement Best-Sellers
 Vos magasins vendront seulement les best-seller.
 Les lancements de livre
 Signez des auteurs populaires pour lancer leurs livres exclusivement dans votre chaîne de librairie.
-Flirting
-You hire nice looking people to flirt with potential customers and offer to discuss Melville at a nearby cafe.
+Flirt
+Vous embauchez des personnes attrayantes pour draguer des clients potentiels et vous proposez de discuter de Melville dans un café voisin.
 Catalogue Digital
 Vos magasins auront des ordinateurs dans les couloirs ainsi que les clients peuvent facilement trouver les livres qu'ils veulent.
 Recherche de Livre
-Form part of a bookstore network that allows customers to locate rare books.
+Faites partie d'un réseau de librairies permettant aux clients de localiser des livres rares.
 Livres Holographique
 Créez les versions olographes des livres pour vos magasins de sorte que les vrais livres ne sont pas endommagés. En plus, les Holo-livres peuvent être emmenés à la maison pendant une période d'essai. Ils disparaîtront après un temps fixe.
 Livres pour les Enfants
@@ -145,7 +145,7 @@ De Gutenberg à l'impression laser, étudiez l'histoire de l'imprimerie pour am�
 Hologrammes
 Apprenez comment appliquer des hologrammes sur le papier.  Ils sont agréables à regarder mais difficiles à réaliser.
 Reliure De luxe
-Use silk, leather and other resistant threads to make luxurious book covers.
+Utilisez de la soie, du cuir et d’autres fils résistants pour créer des couvertures de livres luxueuses.
 Impartition des billets de banque
 Quand le taux d'immigration dans un nouveau monde est haut, l'Hôtel de la Monnaie ne peut pas produire assez de pièces en monnaie locale, ils commandent alors l'impression de billets de banque à vos usines.  Les retours sont élevés et le contrat améliore le profil de votre entreprise.
 Livres en plastique
@@ -392,9 +392,9 @@ Vous ne vous vendez pas clones, seulement des marques connues.
 Garantie de Cinq Ans
 De nos jours les ordinateurs ne durent pas plus de cinq ans. Donner une garantie de cinq ans n'est pas très différent que donner un de trois ans, mais ça plait ta clientèle.
 Acteurs mortuaires
-Free in store repairment center for your clients.
+Centre de réparation gratuit en magasin pour vos clients.
 Souris Sans Fil
-A cordless mouse makes no much difference in one computer, but today people love gadgets.
+Une souris sans fil ne fait pas une grande différence sur un ordinateur, mais aujourd'hui, les gens adorent les gadgets.
 Station d'Amarrage
 YVous offrez une station d'amarrage dans laquelle vos clients peuvent connecter leurs ordinateurs portatifs pour les transformer dans des ordinateurs de bureau.
 Suites pour les cadres
@@ -408,7 +408,7 @@ Mesure de sécurité permettant au propriétaire d'accéder à un poste de trava
 Distributeur de boissons énergisantes
 Vous produisez des distributeurs de boissons calorifiques spéciales qui réduisent la pause repas de vos employés.
 Un An d'Internet Gratuit
-You give customers one year free access to the new world Internet. Seems cool, but with worlds just started, the sites are very few.
+Vous donnez aux clients un an d’accès gratuit au nouveau monde Internet. Cela semble cool, mais avec les mondes qui viennent de commencer, les sites sont très peu nombreux.
 Paquet de Jeu
 Des petits robots grimpent le long de votre bâtiment pour maintenir les fenêtres toujours propres.
 Système de sauvegarde général
@@ -416,7 +416,7 @@ Unité qui effectue régulièrement la sauvegarde de tous les disques dur du bur
 Ordinateurs Comme des Théâtres
 Des ordinateurs personnels peuvent être utilisés comme des théâtres. Idéal pour jouer des jeux, des videos et écouter la musique, tout en feignant à  travailler.
 Service D'Installation de LAN
-With a small amount of money, your customers can have one of your technician going to their house and hook-up all their computers in a LAN.
+Avec un peu d'argent, vos clients peuvent demander à l'un de vos techniciens de se rendre chez eux et de brancher tous leurs ordinateurs sur un réseau local.
 Meubles modulables
 Méthode parfaite permettant de meubler des espaces ouverts. Ils semblent tous identiques, mais c'est efficace.
 Optimisation de l'éclairage dans les bureaux
@@ -426,11 +426,11 @@ Vous proposez une solution de recyclage intégrée  au bureau qui produit du nou
 Générateur de mots de passe
 Toute application informatique nécessite un mot de passe. Il est fréquent de les oublier. C'est pourquoi ce dispositif examine votre cerveau et y recherche les mots de passe qu'il ne peut pas oublier.
 PC à la charité
-Take the used computers of your customers and give them, after a quick check-up to charity organizations for free.
+Prenez les ordinateurs usagés de vos clients et remettez-les-les, après un rapide bilan, gratuitement, à des organisations caritatives.
 Programme de réparation des imprimantes
 Un transmetteur intégré à l'imprimante alerte automatiquement vos usines lorsqu'une intervention est nécessaire.
 Visualization de Programmeur
-Pay some computers developer to come and pretend to program in a glass cage in the middle of your store for your customer to see how the software is created.
+Payez un développeur informatique pour venir prétendre programmer dans une cage en verre au milieu de votre magasin pour que votre client voie comment le logiciel est créé.
 Système de livraison robotisé
 Pour livrer des papiers et des documents d'un bureau à l'autre, il n'y a rien de mieux que ces adorables petits robots qui parcourent les couloirs à grande vitesse.
 Souris électrique
@@ -689,13 +689,13 @@ Créez un département pour enseigner les clients comment assembler les meubles 
 Apporter à la Maison
 Le magasin mettra des meubles dans la maison de l'acheteur potentiel de sorte qu'ils peuvent être essayé par la famille entière.
 Test de Dîner
-Dinner sets are showcased along with food so customers can get the entire experience.
+Des dîners sont présentés avec de la nourriture pour que les clients puissent profiter de toute l'expérience.
 Spéciale la maison entière
-Special discount to the clients that accept to buy all the furniture from your store.
+Réduction spéciale pour les clients qui acceptent d'acheter tous les meubles de votre magasin.
 Utilisation d'Hamac
-Create a course to teach customers the tricky art of sleeping in a hammock.
+Créez un cours pour enseigner aux clients l’art délicat de dormir dans un hamac.
 Production De Meubles
-Get the License and basic knowledge to manage furniture factories.
+Obtenez la licence et les connaissances de base pour gérer les usines de meubles.
 Garantie De Vie
 Offrez une garantie de vie pour les articles que vous vous vendez.
 Service de réparation
@@ -711,31 +711,31 @@ Tous les meubles que vous vendez se trouvent dans des boîtes rectangulaires. En
 Meubles Cultiver
 Ajoutez assez d'eau et  soleil, et vous pourrez accroître un lit de taille de reine dans une taille de roi en une semaine.
 Ligne D'Enfants
-Produce tiny furniture for kids.
+Produisez des meubles minuscules pour les enfants.
 Meubles De Lego
-Build all your furniture from a very small set of pieces.
+Construisez tous vos meubles à partir d'un très petit ensemble de pièces.
 Meubles qui Masseront
 Produisez des meubles qui masseront l'utilisateur. Très détendant.
 Meubles qui non Brûleront
 Produisez les meubles qui non seulement ne brûleront pas, mais qui peuvent aussi être employé pour eteindre un feu.
 Meubles Personnalisés
-Furniture will learn from the user so it can serve him best.
+Les meubles apprendront de l'utilisateur afin de mieux le servir.
 Chaise Psy
 Des meubles sont formés d'une manière que résonnera avec les vagues universelles de Psy, faisant la sensation que l'utilisateur se sent relié à l'univers.
 Bureau Intelligent
-Produce desks with a built-in 1024 bit organizer. It will keep papers organized and remind the user of important events.
+Produisez des bureaux avec un organiseur 1024 bits intégré. Il maintiendra les documents organisés et rappellera à l'utilisateur les événements importants.
 Colle Forte
-Develop a special glue that will keep furniture pieces together for centuries.
+Développez une colle spéciale qui maintiendra les meubles pendant des siècles.
 Bois Super
-A procedure is applied to grow the wood pieces to be used. The results are unnoticeable, but furniture is prone to break when used by overweight individuals.
+Une procédure est appliquée pour faire pousser les pièces de bois à utiliser. Les résultats sont imperceptibles, mais les meubles ont tendance à se casser lorsqu'ils sont utilisés par des personnes en surpoids.
 Épines
-Produce pieces that will recognize criminal fingerprints and cast numerous thorns in a legitim self-defensive act.
+Produisez des pièces qui reconnaîtront les empreintes digitales des criminels et jetteront de nombreuses épines dans un acte de légitime défense.
 Chaise Universelle
-Produce the famous Universal Chair, designed by the late Michael Chang.
+Produisez la célèbre chaise universelle, conçue par le regretté Michael Chang.
 Marché De Meubles Usés
-Market your store used furniture, every week.
+Commercialisez votre magasin des meubles usagés chaque semaine.
 Morceaux imperméables
-This will allow the production of wooden delicate furniture that will endure harsh weather (like a refined Luis XIV barbacue set).
+Cela permettra de produire des meubles en bois délicats qui résisteront aux intempéries (comme un ensemble raffiné de barbacue Louis XIV).
 Fonctionnement 24 heures sur 24
 Vos stations service sont toujours ouvertes.
 Boutique d'accessoires automobiles
@@ -806,11 +806,11 @@ Direction répartie
 Quantité de travail administratif habituelle nécessaire à l'organisation de toute société.
 Bâtiments industriels
 Travail administratif nécessaire à la gestion industrielle.
-Ministry Administration
+Administration du Ministère
 Reproduction de monuments
 Apprenez à reproduire les monuments.
-Water Quest Licenses
-Build urban structures over the water. Since it will allow you to build residential, commerce and offices over the water this research will take 3 IFEL Licenses.
+Licences Water Quest
+Construire des structures urbaines au-dessus de l'eau. Etant donné qu’elle vous permettra de construire des logements, des commerces et des bureaux au-dessus de l’eau, cette recherche nécessitera 3 licences IFEL.
 Service technique 24 heures sur 24
 Votre TV tombe en panne au début d'un match de foot ? Votre climatiseur explose le jour le plus chaud de l'année ? Appelez nos techniciens et quelqu'un sera chez vous une demi-heure plus tard !
 Alerte extraterrestre
@@ -1038,14 +1038,14 @@ Vous recyclez les impuretés contenues dans les métaux précieux qui ne sont pa
 Mécanisme rétractile en cas d'alerte
 Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.
 Vos grandes usines sont équipées d'un système qui fait disparaître les fourneaux dans une cavité souterraine en cas de fuite de métal en fusion. Très efficace en cas d'urgence.
-Superconductors Production
+Production de supraconducteurs
 En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.
 En utilisant la technologie de pointe nécessaire à la production de supraconducteurs, vous améliorez la qualité de vos produits.
 Alliage de titane absolu
 Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.
 Production de l'alliage de métal le plus résistant jamais créé par l'Homme. Principalement utilisé dans l'industrie aérospatiale.
 Lieu de vacances d'Acteurs
-Build a luxurious resort inside your studios to attract the best actors and actresses. During the shooting they live in the maximum comfort.
+Construisez un complexe hôtelier luxueux dans vos studios pour attirer les meilleurs acteurs et actrices. Pendant le tournage, ils vivent dans le maximum de confort.
 Films d'Adulte
 Consacrez une partie de votre studio aux films d'adulte. C'et une industrie de très bon marché qui garantit un retour régulier.
 Formation des Animaux
@@ -1057,13 +1057,13 @@ Avant de bateler vos films aux théâtres vous avez un avant-première internes 
 Cabine de projection automatique
 Plus besoin d'un opérateur pour faire fonctionner la machine. Les syndicats se plaignent.
 Stratégie de Pression pour Prime
-Lobby with the organizers of famous prize shows like the Intraworld Oscars to have your movies nominate in all the categories.
+Faites du lobby auprès des organisateurs d’émissions de grands prix comme les Oscars d’Intraworld pour que vos films soient nominés dans toutes les catégories.
 Seulement Personnes Fameuses
-Your movies have only the biggest stars in the main roles. They are what people want to watch on the screen.
+Vos films n'ont que les plus grandes stars dans les rôles principaux. Ils sont ce que les gens veulent regarder à l'écran.
 Politique de films à gros succès
 Pas de films culturels prétentieux. Faites vérifier votre cerveau à l'entrée.
 Programmeur de CGI
-Your Special Effects department has a battery of computer artists. Produce artificial images for your movies that seems real to the audience.
+Votre département des effets spéciaux dispose d’une batterie d’informaticiens. Produisez pour vos films des images artificielles qui semblent réelles pour le public.
 Films pour Cultures Particulières
 Western Spaghetti, film d'action de modèle Hong Kong, monstres Japonais etc... Films qui plait aux cultures particulières.
 Jour de remise
@@ -1087,7 +1087,7 @@ Vos clients adoreront ces fauteuils très spacieux et confortables.
 Auteurs dans le Studio
 Il ya souvent des changements aux manuscrits de derniers minute. Vous avez un groupe d'auteurs d'expérience dans le studio prêt à les exécuter.
 Studios De Film
-Assimilate the knowledge to get the License to manage Movie Studios.
+Assimilez les connaissances pour obtenir la licence permettant de gérer les studios de cinéma.
 Principes d'exploitation de salles de cinéma
 Travail administratif de gestion de salles de cinéma.
 Odorama
@@ -1099,11 +1099,11 @@ Dans le hall des cinémas, le cerveau des clients est soumis à des stimulations
 Suites et Refait
 Les suites et refait de films garanties un revenu sûr. Attitude conservatrice qui paye au loin à la caisse.
 Département D'Effet Spéciale
-Hire a group of artists fully dedicated to special effect crafting. Ideal for Science Fiction and Horror movies.
+Embaucher un groupe d'artistes entièrement dédié à la création d'effets spéciaux. Idéal pour les films de science-fiction et d'horreur.
 Directement à Vidéo
 Si ton film bombe pendant votre projection privé , vous l'envoient directement à vidéo. Aucun point à ruiner la réputation de votre studio avec un effondrement sûr.
 Excursion de Studio
-Offer a tour of the studio to paying visitors. Another source of income and people are happy to take a peek at their favorite stars.
+Offrez une visite du studio aux visiteurs payants. Une autre source de revenus et les gens sont heureux de jeter un coup d’œil sur leurs stars préférées.
 Messages subliminaux
 Influencez vos clients afin qu'ils achètent plus de nourriture ou reviennent chez vous grâce à des messages cachés insérés entre les images d'un film.
 Bandes-annonces à emporter
@@ -1111,7 +1111,7 @@ Distribution gratuite de cassettes aux clients avec les bandes-annonces des film
 Ecarts de température
 Les unités de chauffage et d'air conditionné font varier la température dans le cinéma selon le lieu de l'action du film. Pour une expérience plus intense et réaliste.
 Programme de Tourner Serré
-It's imperative that your crew stays in the deadline for the shooting of the movie. You don't want the budget to explode.
+Il est impératif que votre équipe reste dans les délais impartis pour le tournage du film. Vous ne voulez pas que le budget explose.
 Stimulation du toucher
 Des dispositifs sont placés sur les accoudoirs de vos fauteuils sur lesquels les spectateurs peuvent poser leurs mains. Des pressions sont exercées sur les doigts et sur la paume des mains pour créer des émotions et des tensions en fonction de l'histoire.
 Films X
@@ -1359,7 +1359,7 @@ Développez des murs qui arrêtent les radiations nuisibles provenant des usines
 Sauter De Banjee
 Personnes qui veulent essayer cette forme de divertissement extrême peuvent le faire à partir du toit de leurs bâtiments.
 Surveillance du Système de Nettoyage
-A cameras system monitors the common areas of your building and send cleaners only if strictly necessary.
+Un système de caméras surveille les zones communes de votre bâtiment et envoie des nettoyeurs uniquement si cela est strictement nécessaire.
 Circuits fermés
 Installez un circuit fermé de surveillance TV.
 Colossus
@@ -1399,19 +1399,19 @@ Installez des compartiments activés à la voix dans les halls des bâtiments af
 Miroirs dans les halls
 Installez des miroirs convexes pour détecter facilement tout danger dans les couloirs.
 Arbres De Vestibule
-The larger hallways of the building are lined with trees. They look nice and purify the air.
+Les couloirs les plus grands du bâtiment sont bordés d'arbres. Ils ont l'air sympa et purifient l'air.
 Ascenseurs À Grande Vitesse
 L'utilisateur entre dans une boule qui les enveloppe complètement et adhère à leur corps. Il est levé  rapidement par un éclat élevé d'air pressurisé.
 Inscription de Pariahs
 Plusieurs communautés de pariahs jaillissent naturellement dans les coins cachés des bâtiments énormes. Vous décidez de les employer pour exécuter les travaux de concierge.
 Centres De Vacances
-Special built-in resorts exclusively available to your residents. Some people start to never leave the building.
+Des complexes hôteliers spéciaux exclusivement disponibles pour vos résidents. Certaines personnes commencent à ne jamais quitter le bâtiment.
 Zoo Interne
-For the joy of the children, your building has an internal zoo,
+Pour la joie des enfants, votre bâtiment possède un zoo interne.
 Expansion de l'intérieur
 Agrandissez l'intérieur des pièces en faisant des murs plus minces.
 Appartements Mobiles
-The apartments are built on enormous rails which move every few days. Residents have a ever-changing view and get a chance to often change their neighborhood.
+Les appartements sont construits sur des rails énormes qui se déplacent tous les deux ou trois jours. Les résidents ont une vision en constante évolution et ont l'occasion de changer souvent de quartier.
 Masques à oxygène
 Installez des masques à oxygène jetables dans les couloirs et les vestibules des bâtiments.
 Peintures
@@ -1421,17 +1421,17 @@ Créez un système de patrouille chargé d'empêcher tout individu suspect d'ent
 Principes de location de maison
 Apprenez à construire des logements
 Diffuseurs De Parfum
-Special dispensers free perfumed chemicals in the air to please and soothe your tenants.
+Des distributeurs spéciaux libèrent dans l'air des produits chimiques parfumés pour plaire et apaiser vos locataires.
 Sculptures
 Créez un système permettant d'acheter des sculptures et de les installer dans les patios, les foyers et les couloirs de vos bâtiments.
 Environnement Scellé
-The building is pressure sealed from the outside to drastically reduce pollution.
+Le bâtiment est scellé de l'extérieur pour réduire considérablement la pollution.
 Cours d'autodéfense
 Apprenez vos locataires à se défendre contre des attaques.
 Terrasse De Suicide
-On top of the building, a special terrace provides a quiet place for those who want to die. They fall on a dedicated area on the ground without causing any harm to others.
+Au sommet du bâtiment, une terrasse spéciale offre un endroit calme pour ceux qui veulent mourir. Ils tombent sur une zone dédiée sur le sol sans causer de préjudice à autrui.
 Loyer Zero Tolerance
-Your tenants are immediately evicted if they don't pay the rent.
+Vos locataires sont immédiatement expulsés s'ils ne paient pas le loyer.
 Apportez vos propres ingrédients
 Si vos clients le souhaitent, ils peuvent apporter des ingrédients afin que vos chefs les cuisinent. Très apprécié des personnes allergiques à certains aliments et aux estomacs sensibles.
 Réservations obligatoires
@@ -1477,76 +1477,76 @@ Adultération du minerai
 Apprenez à doser les roches ordinaires dans les mélanges avec vos minerais afin d'accroître la production.
 Utilisez des faisceaux de vapeur très denses qui fondent la roche et révèlent le minerai.
 Émission D'Award
-Create many awards show in which people can see their favourite celebrities dressed up and smiling. Nobody cares about the validity of the prices that they win.
+Créez de nombreuses récompenses dans lesquelles les gens peuvent voir leurs célébrités préférées habillées et souriantes. Personne ne se soucie de la validité des prix qu’ils gagnent.
 Télévision
 Découvrez le métier de la télévision.
 Animation
 Vous produisez des séries animée pour les enfants et adultes. De « L'homme Araignée contre le Mangeur d'Homme de Pathran » au « Simpsons et Fritz le chat conquièrent Planitia » tout le monde trouvera quelque chose.
 Commentateurs Pour les Aveugles
-For blind people you have a commentator who describes the scenes on the TV in the dialog pauses. For the first time those who can't see are not limited to radio.
+Pour les aveugles, vous avez un commentateur qui décrit les scènes à la télévision dans les pauses de dialogue. Pour la première fois, ceux qui ne peuvent pas voir ne se limitent pas à la radio.
 Séries de Détective
-Criminal vs Police stories have always been a big part of television programming. Create new series that deals with the struggle for justice, on Earth and on the new worlds.
+Les histoires criminelles et policières ont toujours occupé une grande place dans les émissions de télévision. Créez une nouvelle série traitant de la lutte pour la justice, sur Terre et dans les nouveaux mondes.
 Plateformes Digitales
-Thanks to the digital signal, you can offer thousands of channels. Provide channels like 'The Laundry Tips Station' or 'The Prostate Surgery Network' to keep surfers busy.
+Grâce au signal numérique, vous pouvez offrir des milliers de chaînes. Fournissez des canaux comme « The Laundry Tips Station » ou « The Prostate Surgery Network » (Réseau de chirurgie de la prostate) pour occuper les surfeurs.
 Publi-informations
-A quick way to reduce your expenses is to give unpopular hours to vendors of useless gadgets like 'The Amazing Carrot and Sausage Peeler' or 'Sulphuric Acid Acne Remover'
+Un moyen rapide de réduire vos dépenses est de donner des heures impopulaires aux vendeurs de gadgets inutiles tels que « L'étonnant éminceur de carottes et de saucisses » ou « Dissolvant de l'acné sulfurique ».
 Journalisme Investigateur
-Programs like '60 Minutes' made the history of television as vehicles for social justice. Imitate them and unveil hidden government scandals in the new worlds.
+Des programmes comme « 60 minutes » ont fait de la télévision l’histoire de la justice sociale. Imitez-les et dévoilez les scandales cachés du gouvernement dans les nouveaux mondes.
 Emissions Tards
-Hire comedians to host late night talk show offering variations of the same jokes all over again. Late at night your audience will be half asleep and won't complain.
+Embauchez des comiques pour animer une émission-débat en fin de soirée proposant à nouveau des variantes des mêmes blagues. Tard dans la nuit, votre auditoire sera à moitié endormi et ne se plaindra pas.
 Interdiction des Ris Enregistrer
-Instead of recorded laugh tracks, hire live audiences to laugh at the jokes in your sit coms. A little more expensive, but sounds natural and you create more jobs.
+Au lieu d’enregistrer des morceaux de rire, engagez un public en direct pour rire des blagues de vos sit coms. Un peu plus cher, mais cela semble naturel et vous créez plus d'emplois.
 Nouvelles Locales
-People loves to watch about their town, even when the most poignant piece of news is about the Contest for the Fastest Hot Dogs eater. Cheap and with a steady audience.
+Les gens adorent regarder leur ville, même lorsque la nouvelle la plus poignante concerne le concours du plus rapide mangeur de hot-dogs. Pas cher et avec un public constant.
 Noveaux Talents
-Hire scouts to hunt down local unknown actors and actress to employ in your production. They come cheap and eager to make it.
+Embauchez des éclaireurs pour traquer les acteurs inconnus et l'actrice locaux à employer dans votre production. Ils viennent pas cher et désireux de le faire.
 Service à la Demande
 Avec l'excuse que les clients doivent payer pour le service, vous emittez n'importe quoi sans tracasser avec les normes morales. Les films d'adulte et les sports violents sont seulement le débout .
 Jeu-questionnaire
-People identify in those who wins millions on TV dreaming about what they could do with that kind of money. For this reason, quiz shows are always popular and cheap to make.
+Les gens identifient ceux qui gagnent des millions à la télévision en rêvant de ce qu’ils pourraient faire avec ce type d’argent. Pour cette raison, les jeux-questionnaires sont toujours populaires et peu coûteux à réaliser.
 Émission vérité
-Programs like 'Survivors XXXII: The Venusian Landscapes' or 'Temptations Asteroid' are expensives and considered trash by the critics, but people can't get enough of them.
+Des programmes tels que « Survivors XXXII: The Venusian Landscapes » ou « Temptations Asteroid » coûtent cher et sont considérés comme des déchets par la critique, mais les gens ne peuvent pas en avoir assez.
 Emission Sexy De Variété
-Produce old style variety shows with tits and asses as common denominator. 'The Wet Shirt Contest' or 'Bikini Mud Fighting' are common features of them.
+Produire des spectacles de variétés à l’ancienne avec les seins et les culs comme dénominateur commun. Le «concours de chemises mouillées» ou le «combat de boue bikini» en sont des caractéristiques courantes.
 Canaux De Sport Simples
-Add channels specialized in broadcasting only events of a single sport. Throw in new and unknown disciplines like 'Rope Jumping Over Lava' or 'Zero Gravity Parachuting'.
+Ajoutez des chaînes spécialisées dans la diffusion des événements d’un seul sport. Ajoutez à cela des disciplines nouvelles et inconnues telles que le « saut à la corde sur la lave » ou le « parachutisme de gravité zéro ».
 Invasion de Comédies
 Les comédies réussis comme des des 'Les petits-enfants de Friends', ou 'Frasier ressuscités'  créent des avantages et  encaisses sur des personnages que le publique déjà adore.
 Excellence de Soap Operas
 Étudiez les origines et les exemples les plus réussis de ce genre populaire pour produire une série de haute qualité. Branchez sur l'héritage latino-américain pour réaliser l'excellence.
 Sous-titres
-For hearing impared viewers, all your programs come with subtitles, in the original or other languages. You even have an icon system for the illiterates.
+Pour les téléspectateurs malentendants, tous vos programmes sont dotés de sous-titres, dans la langue d'origine ou dans une autre langue. Vous avez même un système d'icônes pour les analphabètes.
 Emissions de Chat Sottises
-Shows that makes Jerry Springer descendants blush. The man who chose a limping goat over his 450 pounds transexual lover is just an example of the average guest.
+Des spectacles qui font rougir les descendants de Jerry Springer. L’homme qui a choisi une chèvre boiteuse au lieu de son amant transsexuel n’est qu’un exemple de l’invité moyen.
 Bois de construction Extraterrestre
 La chimie et la physique légèrement différentes des nouveaux mondes vous permet à développer des nouveaux types de bois qui ne peuvent pas être produits sur terre.
 Contrôle de la maladie d'arbre folle
-Make sure your trees won't be affected by the Mad Tree disease bacteria found in the colonies.
+Assurez-vous que vos bactéries ne seront pas affectées par la bactérie de la maladie de l’arbre fou trouvée dans les colonies.
 Bois Aromatique
-Wood will have built-in aromatic properties.
-Atomic Size Metal Sheets
-The use of no gravity shaping permits you to create sheet of metals of few atoms width. Extremely useful in industrial applications.
-Cat Repelent
-Your trees will be cat-repelent. Without this technology, trees are at the mercy of these vicious fellines and the fireman that invariably come in their rescue.
+Le bois aura des propriétés aromatiques intégrées.
+Feuilles Métalliques de Taille Atomique
+L'utilisation d'une mise en forme sans gravité vous permet de créer des feuilles de métaux de quelques atomes de largeur. Extrêmement utile dans les applications industrielles.
+Repousse Chat
+Vos arbres vont repousser les chats. Sans cette technologie, les arbres sont à la merci de ces méchantes camarades et des pompiers qui viennent invariablement à leur secours.
 Arbres Colorés
-Trees will come in color. Furniture shops love this.
+Les arbres vont venir en couleur. Les magasins de meubles adorent ça.
 Production de Bois de Construction
-Basic Timber production.
+Production de Bois de Base
 Musique Verte
-Grow tress using New-Age Tree Music. Trees grow bigger, but the wood they produce is a bit moody.
-Hi Density Wood
-Produce high density wood. More resistant and durable.
-The living quarters and the working environment in a metallurgic plants have to be distant because of the high temperature. In large plants, an internal bus system improves the efficiency of the work.
+Cultivez vos arbres en utilisant la musique New-Age Tree. Les arbres grossissent, mais le bois qu'ils produisent est un peu maussade.
+Bois de Densité Élevée
+Produire du bois haute densité. Plus résistant et durable.
+Les locaux d'habitation et l'environnement de travail dans une usine métallurgique doivent être éloignés à cause de la température élevée. Dans les grandes installations, un système de bus interne améliore l'efficacité du travail.
 Musée De Bois de construction
-You create a Timber museum in your industry headquarter. Watching the history of timber working motivates your employees.
-You produce Timbers micro parts for nanotechnology uses. It forces your plants to implement a better quality process.
+Vous créez un musée du bois dans votre siège social. Regarder l'histoire du travail du bois motive vos employés.
+Vous produisez des micro-pièces Timbers à usage nanotechnologique. Cela oblige vos usines à mettre en place un processus de meilleure qualité.
 Fertilisation Pratique
-Apply special fertilizers that will increase the quality of your timber.
-By using the high end technology needed to produce superconductors, you improves your products quality.
+Appliquez des engrais spéciaux qui augmenteront la qualité de votre bois.
+En utilisant la technologie de pointe nécessaire pour produire des supraconducteurs, vous améliorez la qualité de vos produits.
 Arbres Siamois
-Produce mutant trees that will feature two full grown tress for a single set of roots.
+Produisez des arbres mutants qui comporteront deux arbres de grande taille pour un seul ensemble de racines.
 Bulles En bois
-Trees will generate large mutant cells filled with air. Wood production is increased.
+Les arbres vont générer de grandes cellules mutantes remplies d'air. La production de bois est augmentée.
 Figurines
 Porté par la vague du succès de votre jeu vidéo, vous lancez des figurines basées sur ce jeu.
 Gamme de jeux pour adultes
