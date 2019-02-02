@@ -4,29 +4,60 @@
     "image_id": "dis.clothes.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Clothing Factory"
+      "DE": "Bekleidungsfabrik",
+      "EN": "Clothing Factory",
+      "ES": "Fábrica de ropa",
+      "FR": "Usine de vêtements",
+      "IT": "Fabbrica di abbigliamento",
+      "PT": "Fábrica de Roupas"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["LSCManuf"],
+    "required_inventions": [
+      "LSCManuf"
+    ],
     "industry": {
       "budget": 670,
       "cost": 10080000,
       "required_inputs": [
-        { "resource": "FABRIC", "max": 26 },
-        { "resource": "ORGANIC_MATERIAL", "max": 10 },
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "WORK_FORCE_MID", "max": 2 },
-        { "resource": "WORK_FORCE_LO", "max": 109 }
+        {
+          "resource": "FABRIC",
+          "max": 26
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 10
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 109
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.6
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "CLOTHES", "max": 60 }
+        {
+          "resource": "CLOTHES",
+          "max": 60
+        }
       ]
     }
   },
@@ -35,29 +66,60 @@
     "image_id": "dis.clothes.industry.small",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Small Clothing Factory"
+      "DE": "Kleine Bekleidungsfabrik",
+      "EN": "Small Clothing Factory",
+      "ES": "Fábrica de ropa pequeña",
+      "FR": "Petite usine de vêtements",
+      "IT": "Piccola fabbrica di abbigliamento",
+      "PT": "Fábrica de Roupas Pequenas"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CLOTHES",
-    "required_inventions": ["ClothesLic"],
+    "required_inventions": [
+      "ClothesLic"
+    ],
     "industry": {
       "budget": 57,
       "cost": 2400000,
       "required_inputs": [
-        { "resource": "FABRIC", "max": 9 },
-        { "resource": "ORGANIC_MATERIAL", "max": 3 },
-        { "resource": "CHEMICAL", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 63 }
+        {
+          "resource": "FABRIC",
+          "max": 9
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 3
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 63
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "CLOTHES", "max": 12 }
+        {
+          "resource": "CLOTHES",
+          "max": 12
+        }
       ]
     }
   },
@@ -66,13 +128,20 @@
     "image_id": "dis.clothes.store",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Clothes Store"
+      "DE": "Bekleidungsgeschäft",
+      "EN": "Clothes Store",
+      "ES": "Tienda de ropa",
+      "FR": "Magasin de vêtements",
+      "IT": "Negozio di abbigliamento",
+      "PT": "Loja de roupas"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "CLOTHES",
-    "required_inventions": ["BasicCommerce"],
+    "required_inventions": [
+      "BasicCommerce"
+    ],
     "commerce": {}
   }
 ]

@@ -4,29 +4,60 @@
     "image_id": "pgi.metal.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Large Metal Factory"
+      "DE": "Große Metallfabrik",
+      "EN": "Large Metal Factory",
+      "ES": "Fábrica grande de metales",
+      "FR": "Grande usine de métal",
+      "IT": "Grande fabbrica di metalli",
+      "PT": "Grande fábrica de metal"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["LSMetal"],
+    "required_inventions": [
+      "LSMetal"
+    ],
     "industry": {
       "budget": 140,
       "cost": 30800000,
       "required_inputs": [
-        { "resource": "ORE", "max": 495 },
-        { "resource": "CHEMICAL", "max": 40 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 3 },
-        { "resource": "WORK_FORCE_LO", "max": 169 }
+        {
+          "resource": "ORE",
+          "max": 495
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 40
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 169
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "METAL", "max": 241 }
+        {
+          "resource": "METAL",
+          "max": 241
+        }
       ]
     }
   },
@@ -35,29 +66,60 @@
     "image_id": "pgi.metal.industry.small",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Metal Factory"
+      "DE": "Metallfabrik",
+      "EN": "Metal Factory",
+      "ES": "Fábrica de metales",
+      "FR": "Usine de métal",
+      "IT": "Fabbrica di metalli",
+      "PT": "Fábrica de metal"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic"],
+    "required_inventions": [
+      "Metallic"
+    ],
     "industry": {
       "budget": 24,
       "cost": 11000000,
       "required_inputs": [
-        { "resource": "ORE", "max": 250 },
-        { "resource": "CHEMICAL", "max": 20 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 2 },
-        { "resource": "WORK_FORCE_LO", "max": 120 }
+        {
+          "resource": "ORE",
+          "max": 250
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 120
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "METAL", "max": 120 }
+        {
+          "resource": "METAL",
+          "max": 120
+        }
       ]
     }
   }

@@ -1,0 +1,218 @@
+Fabbrica di elettrodomestici
+Fabbrica di piccoli elettrodomestici
+Negozio di elettrodomestici
+Fabbrica di automobili
+Concessionaria automobilistica
+Banca
+Bar
+Libreria
+Impianto chimico
+Piccolo stabilimento chimico
+Fabbrica di abbigliamento
+Piccola fabbrica di abbigliamento
+Negozio di abbigliamento
+Servizi informatici
+Fabbrica di computer
+Cantiere di costruzione
+Fabbrica di componenti elettronici
+Piccola fabbrica di componenti elettronici
+Fabbrica tessile
+Piccola fabbrica tessile
+Azienda agricola
+Piccola fattoria
+Fast Food
+Pompe funebri
+Fabbrica di mobili
+Negozio di mobili
+Ospedale
+Quartier generale
+Piccolo parco
+Stazione di polizia
+Scuola
+Municipio
+Tradecenter
+Studio legale
+Distilleria
+Fabbrica di macchinari
+Grande mercato
+Mercato delle pulci
+Fabbrica di metalli
+Piccola fabbrica di metalli
+Cinema
+Costolette
+Palla rossa
+Duango
+Minerale
+Piccola miniera di minerali
+Robot da cucina
+Piccolo robot da cucina
+Ago
+Balloon House
+Imbuto
+Cottage
+Edificio di alta classe generico
+Generico edificio di bassa classe
+Generico edificio della classe media
+Case riciclate
+Edifici riciclati
+Lattine di sardine
+La caserma
+Torre dei sogni
+I funghi
+Le boccole
+Avvitatore
+Castelli
+Guglia
+Ristorante
+Antenna TV
+Stazione TV
+Segheria
+Fabbrica di giocattoli
+Negozio di giocattoli
+Campidoglio
+Università
+Cumulo di rifiuti
+Prigione
+Museo
+Lizzard Park
+Gobblin Park
+Pollo Park
+Alien Park
+Parco centrale
+Parco
+Portale in entrata
+Portale in uscita
+Statua
+Campo da tennis
+Torre IFEL
+Mausoleo della leggenda
+Mausoleo del Paradigma
+Stoccaggio chimico
+Celle frigorifere
+Super Cold Storage
+Esporta spazio di archiviazione
+Stoccaggio di tessuti
+Importa memoria
+Deposito minerale
+Archiviazione generale
+Sede Magna
+Magna Research Center
+Venditore Sky
+Galaxie
+Studi cinematografici
+Cloud City
+Il cielo del lavoratore
+L'alveare
+Torre d'avorio
+Maggio Fiore
+Il polpo
+Sky Dome
+solario
+La primavera
+Tulipano
+The Whirlpool
+Fabbrica di Compact Disc
+Compact Disc Store
+Negozio di computer
+Mercato di Takuri
+Mercato Tamakura
+Mercato di Satoi
+Yamamoto
+Tanakuta
+Sato Scraper
+Kunawa Scraper
+Koto-ku
+Piccolo Koto
+Fabbrica di plastica
+Katana House
+Casa Sohei
+Casa Tarakawa
+Katana Building
+Edificio Nikotori
+Edificio Hazobito
+Edificio di Hisogari
+Taramagushi
+Camere Somsei-Taj
+Camere di Marakas
+Yohito Rooms
+Camere Hirijoto-Manko
+Camere blu
+Delizia viola
+Round Mariko
+Cupola per elettrodomestici
+Cupola dell'automobile
+Cupola della gioia
+Miniera chimica
+Cupola chimica
+Cupola di vestiti
+Cupola del computer
+Cupola di costruzione
+Piattaforma petrolifera
+Cupola di patatine
+Cupola di fili
+Cratere alimentare
+Stazione di servizio
+Refinery Dome
+Cattedrale di Moab
+Moab Correctional
+Torre degli affari civici
+Torre delle industrie
+Torre del commercio
+Real Estate Tower
+Cupola del macchinario
+Supermercato Moab
+Cupola di metalli
+Basilica di Moab
+Dark Crysler
+Cupola alimentare
+Palazzo Zharot
+Palazzo nero
+Knights Dome
+Bungalow dei Cavalieri
+Guruh Dome
+Cupola di Lothar
+Ciotola nera
+Souls Dome
+Infermiera dome
+Zoo dell'infermiera
+Stanze dell'infermiera
+Infermiera Fraternità
+Grande fabbrica di elettrodomestici
+Impianto di stampa
+Piccola miniera chimica
+Grande impianto chimico
+Grande fattoria
+Caserma dei pompieri
+Centro commerciale
+Supermercato
+Mercato
+Grande fabbrica di metalli
+Puntura
+Davis Bow
+Mc Neon Tower
+The Spire
+Cartiera
+Farmacia
+Fabbrica farmaceutica
+Grande robot da cucina
+Palazzo Xanadu
+Atrio
+The Willington
+Golden Cap
+Kent Square
+Torri di Lisgar
+Capanna bianca
+Camere di Lione
+Blue Mansion
+Mansion rosa
+Playfair Towers
+Arlington Rooms
+Atrio di Cesare
+La Sicilia
+Mountbatten Rooms
+L'Ambasciatore
+Gladston Apts.
+Quincy
+Metcalfe Towers
+Delmar Apts.
+Sunset Apts.

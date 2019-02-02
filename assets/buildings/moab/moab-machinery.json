@@ -4,30 +4,64 @@
     "image_id": "moab.heavy.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Machinery Dome"
+      "DE": "Maschinenhaube",
+      "EN": "Machinery Dome",
+      "ES": "Cúpula de maquinaria",
+      "FR": "Dôme de machines",
+      "IT": "Cupola del macchinario",
+      "PT": "Cúpula de Máquinas"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "MACHINERY",
-    "required_inventions": ["MachInd"],
+    "required_inventions": [
+      "MachInd"
+    ],
     "industry": {
       "budget": 1200,
       "cost": 50000000,
       "required_inputs": [
-        { "resource": "METAL", "max": 600 },
-        { "resource": "CHEMICAL", "max": 50 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 20 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 10 },
-        { "resource": "WORK_FORCE_LO", "max": 150 }
+        {
+          "resource": "METAL",
+          "max": 600
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 50
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 150
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.4
+        }
       ],
       "outputs": [
-        { "resource": "MACHINERY", "max": 10 }
+        {
+          "resource": "MACHINERY",
+          "max": 10
+        }
       ]
     }
   }

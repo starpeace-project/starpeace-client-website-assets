@@ -4,29 +4,60 @@
     "image_id": "moab.food.proc",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Food Dome"
+      "DE": "Food Dome",
+      "EN": "Food Dome",
+      "ES": "Cúpula de comida",
+      "FR": "Dôme alimentaire",
+      "IT": "Cupola alimentare",
+      "PT": "Cúpula Alimentar"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["FoodPrcLic"],
+    "required_inventions": [
+      "FoodPrcLic"
+    ],
     "industry": {
       "budget": 100,
       "cost": 20000000,
       "required_inputs": [
-        { "resource": "FRESH_FOOD", "max": 150 },
-        { "resource": "CHEMICAL", "max": 12 },
-        { "resource": "WORK_FORCE_HI", "max": 2 },
-        { "resource": "WORK_FORCE_MID", "max": 7 },
-        { "resource": "WORK_FORCE_LO", "max": 133 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 150
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 12
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 7
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 133
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.5
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "PROCESSED_FOOD", "max": 40 }
+        {
+          "resource": "PROCESSED_FOOD",
+          "max": 40
+        }
       ]
     }
   }

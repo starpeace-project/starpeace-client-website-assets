@@ -4,27 +4,52 @@
     "image_id": "moab.computing",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Computer Services"
+      "DE": "Computer Service",
+      "EN": "Computer Services",
+      "ES": "Servicios informaticos",
+      "FR": "Services informatiques",
+      "IT": "Servizi informatici",
+      "PT": "Serviços informáticos"
     },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "COMPUTER_SERVICES",
-    "required_inventions": ["SoftwareFirms"],
+    "required_inventions": [
+      "SoftwareFirms"
+    ],
     "industry": {
       "budget": 100,
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "COMPUTER", "max": 1 },
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 33 },
-        { "resource": "WORK_FORCE_LO", "max": 7 }
+        {
+          "resource": "COMPUTER",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 33
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 7
+        }
       ],
       "optional_inputs": [
-        { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.5
+        }
       ],
       "outputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 5 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 5
+        }
       ]
     }
   }

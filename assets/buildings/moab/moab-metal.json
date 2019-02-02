@@ -4,29 +4,60 @@
     "image_id": "moab.metal.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Metals Dome"
+      "DE": "Metallkuppel",
+      "EN": "Metals Dome",
+      "ES": "Cúpula de metales",
+      "FR": "Dôme Métaux",
+      "IT": "Cupola di metalli",
+      "PT": "Cúpula de metais"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic"],
+    "required_inventions": [
+      "Metallic"
+    ],
     "industry": {
       "budget": 2000,
       "cost": 40000000,
       "required_inputs": [
-        { "resource": "ORE", "max": 250 },
-        { "resource": "CHEMICAL", "max": 20 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 2 },
-        { "resource": "WORK_FORCE_LO", "max": 120 }
+        {
+          "resource": "ORE",
+          "max": 250
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 120
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.6
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "METAL", "max": 120 }
+        {
+          "resource": "METAL",
+          "max": 120
+        }
       ]
     }
   }

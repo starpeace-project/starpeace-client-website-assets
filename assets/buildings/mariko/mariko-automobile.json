@@ -4,31 +4,68 @@
     "image_id": "mko.car.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en":"Automobile Factory"
+      "DE": "Automobilfabrik",
+      "EN": "Automobile Factory",
+      "ES": "Fábrica de automóviles",
+      "FR": "Usine automobile",
+      "IT": "Fabbrica di automobili",
+      "PT": "Fábrica de Automóveis"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
-    "required_inventions": ["AutoInd"],
+    "required_inventions": [
+      "AutoInd"
+    ],
     "industry": {
       "budget": 1400,
       "cost": 20160000,
       "required_inputs": [
-        { "resource": "METAL", "max": 356 },
-        { "resource": "FABRIC", "max": 32 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 14 },
-        { "resource": "CHEMICAL", "max": 36 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 20 },
-        { "resource": "WORK_FORCE_LO", "max": 200 }
+        {
+          "resource": "METAL",
+          "max": 356
+        },
+        {
+          "resource": "FABRIC",
+          "max": 32
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 14
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 36
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 200
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1.77999997138977 },
-        { "resource": "LEGAL_SERVICES", "max": 0.534000039100647 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1.77999997138977
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.534000039100647
+        }
       ],
       "outputs": [
-        { "resource": "AUTOMOBILE", "max": 1 }
+        {
+          "resource": "AUTOMOBILE",
+          "max": 1
+        }
       ]
     }
   },
@@ -37,7 +74,12 @@
     "image_id": "mko.car.store",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en":"Automobile Dealership"
+      "DE": "Autohändler",
+      "EN": "Automobile Dealership",
+      "ES": "Concesionario de automóviles",
+      "FR": "Concessionnaire automobile",
+      "IT": "Concessionaria automobilistica",
+      "PT": "Concessionária de Automóveis"
     },
     "seal": "mariko",
     "zone": "COMMERCIAL",

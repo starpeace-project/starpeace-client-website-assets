@@ -4,7 +4,12 @@
     "image_id": "pgi.movie.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Movie Theater"
+      "DE": "Kino",
+      "EN": "Movie Theater",
+      "ES": "Cine",
+      "FR": "Cinéma",
+      "IT": "Cinema",
+      "PT": "Cinema"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
@@ -18,7 +23,12 @@
     "image_id": "pgi.movie.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Movie Theater"
+      "DE": "Kino",
+      "EN": "Movie Theater",
+      "ES": "Cine",
+      "FR": "Cinéma",
+      "IT": "Cinema",
+      "PT": "Cinema"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",

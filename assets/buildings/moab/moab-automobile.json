@@ -4,31 +4,68 @@
     "image_id": "moab.car.industry",
     "construction_image_id": "generic.construction.6",
     "name": {
-      "en": "Automobile Dome"
+      "DE": "Automobile Dome",
+      "EN": "Automobile Dome",
+      "ES": "Domo de automovil",
+      "FR": "Dôme Automobile",
+      "IT": "Cupola dell'automobile",
+      "PT": "Cúpula Automóvel"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "AUTOMOBILE",
-    "required_inventions": ["AutoInd"],
+    "required_inventions": [
+      "AutoInd"
+    ],
     "industry": {
       "budget": 700,
       "cost": 40000000,
       "required_inputs": [
-        { "resource": "METAL", "max": 750 },
-        { "resource": "FABRIC", "max": 30 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 10 },
-        { "resource": "CHEMICAL", "max": 50 },
-        { "resource": "WORK_FORCE_HI", "max": 12 },
-        { "resource": "WORK_FORCE_MID", "max": 33 },
-        { "resource": "WORK_FORCE_LO", "max": 333 }
+        {
+          "resource": "METAL",
+          "max": 750
+        },
+        {
+          "resource": "FABRIC",
+          "max": 30
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 10
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 50
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 12
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 33
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 333
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "AUTOMOBILE", "max": 1 }
+        {
+          "resource": "AUTOMOBILE",
+          "max": 1
+        }
       ]
     }
   },
@@ -37,7 +74,12 @@
     "image_id": "moab.car.store",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Automobile Dealership"
+      "DE": "Autohändler",
+      "EN": "Automobile Dealership",
+      "ES": "Concesionario de automóviles",
+      "FR": "Concessionnaire automobile",
+      "IT": "Concessionaria automobilistica",
+      "PT": "Concessionária de Automóveis"
     },
     "seal": "moab",
     "zone": "COMMERCIAL",

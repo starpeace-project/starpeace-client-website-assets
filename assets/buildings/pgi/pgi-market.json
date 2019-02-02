@@ -4,13 +4,20 @@
     "image_id": "pgi.market.a",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Mall"
+      "DE": "Einkaufszentrum",
+      "EN": "Mall",
+      "ES": "Centro comercial",
+      "FR": "Centre commercial",
+      "IT": "Centro commerciale",
+      "PT": "Shopping"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "pgi.market.b",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Supermarket"
+      "DE": "Supermarkt",
+      "EN": "Supermarket",
+      "ES": "Supermercado",
+      "FR": "Supermarché",
+      "IT": "Supermercato",
+      "PT": "Supermercado"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "pgi.market.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Mart"
+      "DE": "Mart",
+      "EN": "Mart",
+      "ES": "Mercado",
+      "FR": "Marché",
+      "IT": "Mercato",
+      "PT": "Mart"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   }
 ]

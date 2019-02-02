@@ -1,0 +1,218 @@
+Appliances Factory
+Small Appliances Factory
+Appliances Store
+Automobile Factory
+Automobile Dealership
+Bank
+Bar
+Book Store
+Chemical Plant
+Small Chemical Plant
+Clothing Factory
+Small Clothing Factory
+Clothes Store
+Computer Services
+Computer Factory
+Construction Workyard
+Electronic Component Factory
+Small Electronic Component Factory
+Textile Factory
+Small Textile Factory
+Farm
+Small Farm
+Fast Food
+Funeral Parlor
+Furniture Factory
+Furniture Store
+Hospital
+Headquarters
+Small Park
+Police Station
+School
+Townhall
+Tradecenter
+Law Firm
+Distillery
+Machinery Factory
+Big Market
+Flea Market
+Metal Factory
+Small Metal Factory
+Movie Theater
+Ribs
+Red Ball
+Duango
+Ore Mine
+Small Ore Mine
+Food Processor
+Small Food Processor
+Needle
+Balloon House
+Funnel
+Cottage
+Generic high class building
+Generic low class building
+Generic middle class building
+Recycled Homes
+Recycled Buildings
+Sardine Cans
+The Barracks
+Dreams Tower
+The Mushrooms
+The Bushings
+Screwer
+Castles
+Spire
+Restaurant
+TV Antenna
+TV Station
+Lumber Mill
+Toy Factory
+Toy Store
+Capitol
+College
+Dump
+Jail
+Museum
+Lizzard Park
+Gobblin Park
+Chicken Park
+Alien Park
+Central Park
+Park
+Inbound Portal
+Outbound Portal
+Statue
+Tennis Court
+IFEL Tower
+Legend Mausoleum
+Paradigm Mausoleum
+Chemical Storage
+Cold Storage
+Super Cold Storage
+Export Storage
+Fabrics Storage
+Import Storage
+Ore Storage
+General Storage
+Magna Headquarters
+Magna Research Center
+Sky Seller
+Galaxie
+Movie Studios
+Cloud City
+Worker's Heaven
+The Hive
+Ivory Tower
+May Flower
+The Octopus
+Sky Dome
+Solarium
+The Spring
+Tulip
+The Whirlpool
+Compact Disc Factory
+Compact Disc Store
+Computer Store
+Takuri Market
+Tamakura Market
+Satoi Market
+Yamamoto
+Tanakuta
+Sato Scraper
+Kunawa Scraper
+Koto-ku
+Small Koto
+Plastic Factory
+Katana House
+Sohei House
+Tarakawa House
+Katana Building
+Nikotori Building
+Hazobito Building
+Hisogari Building
+Taramagushi
+Somsei-Taj Rooms
+Marakas Rooms
+Yohito Rooms
+Hirijoto-Manko Rooms
+Blue Rooms
+Purple Delight
+Round Mariko
+Appliances Dome
+Automobile Dome
+Dome of Joy
+Chemical Mine
+Chemical Dome
+Dome of Clothes
+Computer Dome
+Construction Dome
+Oil Rig
+Dome of Chips
+Dome of Threads
+Food Crater
+Gas Station
+Refinery Dome
+Moab Cathedral
+Moab Correctional
+Civic Affairs Tower
+Industries Tower
+Commerce Tower
+Real Estate Tower
+Machinery Dome
+Moab Supermarket
+Metals Dome
+Moab Basilica
+Dark Crysler
+Food Dome
+Zharot Palace
+Black Palace
+Knights Dome
+Knights Bungalow
+Guruh Dome
+Lothar Dome
+Black Bowl
+Souls Dome
+Nurse Dome
+Nurse Zoo
+Nurse Rooms
+Nurse Fraternity
+Large Appliances Factory
+Printing Plant
+Small Chemical Mine
+Large Chemical Plant
+Large Farm
+Fire Station
+Mall
+Supermarket
+Mart
+Large Metal Factory
+Sting
+Davis Bow
+Mc Neon Tower
+The Spire
+Paper Mill
+Drug Store
+Pharmaceutical Factory
+Large Food Processor
+Xanadu Palace
+Atrium
+The Willington
+Golden Cap
+Kent Square
+Lisgar Towers
+White Hut
+Lyon Rooms
+Blue Mansion
+Pink Mansion
+Playfair Towers
+Arlington Rooms
+Caesar's Atrium
+The Sicily
+Mountbatten Rooms
+The Ambassador
+Gladston Apts.
+Quincy
+Metcalfe Towers
+Delmar Apts.
+Sunset Apts.

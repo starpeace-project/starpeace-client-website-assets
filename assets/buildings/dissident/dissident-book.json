@@ -4,13 +4,20 @@
     "image_id": "dis.book.store",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Book Store"
+      "DE": "Buchladen",
+      "EN": "Book Store",
+      "ES": "Librería",
+      "FR": "Librairie",
+      "IT": "Libreria",
+      "PT": "Livraria"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "BOOK",
-    "required_inventions": ["BasicCommerce"],
+    "required_inventions": [
+      "BasicCommerce"
+    ],
     "commerce": {}
   }
 ]

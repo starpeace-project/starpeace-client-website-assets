@@ -4,7 +4,12 @@
     "image_id": "generic.capitol",
     "construction_image_id": "generic.construction.7",
     "name": {
-      "en": "Capitol"
+      "DE": "Kapitol",
+      "EN": "Capitol",
+      "ES": "Capitolio",
+      "FR": "Capitole",
+      "IT": "Campidoglio",
+      "PT": "Capitólio"
     },
     "seal": "generic",
     "zone": "CIVICS",
@@ -18,13 +23,20 @@
     "image_id": "generic.college",
     "construction_image_id": "generic.construction.8",
     "name": {
-      "en": "College"
+      "DE": "Hochschule",
+      "EN": "College",
+      "ES": "Universidad",
+      "FR": "Université",
+      "IT": "Università",
+      "PT": "Faculdade"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "COLLEGE",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -32,13 +44,20 @@
     "image_id": "generic.dump",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Dump"
+      "DE": "Dump",
+      "EN": "Dump",
+      "ES": "Tugurio",
+      "FR": "Déverser",
+      "IT": "Cumulo di rifiuti",
+      "PT": "Despejo"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "GARBAGE",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -46,13 +65,20 @@
     "image_id": "generic.jail",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Jail"
+      "DE": "Gefängnis",
+      "EN": "Jail",
+      "ES": "Cárcel",
+      "FR": "Prison",
+      "IT": "Prigione",
+      "PT": "Cadeia"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PRISON",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -60,13 +86,20 @@
     "image_id": "generic.museum",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Museum"
+      "DE": "Museum",
+      "EN": "Museum",
+      "ES": "Museo",
+      "FR": "Musée",
+      "IT": "Museo",
+      "PT": "Museu"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "MUSEUM",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -74,13 +107,20 @@
     "image_id": "generic.park.alien.a",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Lizzard Park"
+      "DE": "Lizzard Park",
+      "EN": "Lizzard Park",
+      "ES": "Lizzard Park",
+      "FR": "Lizzard Park",
+      "IT": "Lizzard Park",
+      "PT": "Lizzard Park"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -88,13 +128,20 @@
     "image_id": "generic.park.alien.b",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Gobblin Park"
+      "DE": "Gobblin Park",
+      "EN": "Gobblin Park",
+      "ES": "Parque Gobblin",
+      "FR": "Gobblin Park",
+      "IT": "Gobblin Park",
+      "PT": "Parque Gobblin"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -102,13 +149,20 @@
     "image_id": "generic.park.alien.c",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Chicken Park"
+      "DE": "Chicken Park",
+      "EN": "Chicken Park",
+      "ES": "Chicken Park",
+      "FR": "Parc de poulet",
+      "IT": "Pollo Park",
+      "PT": "Frango Park"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -116,13 +170,20 @@
     "image_id": "generic.park.alien.d",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Alien Park"
+      "DE": "Alien Park",
+      "EN": "Alien Park",
+      "ES": "Parque alienígena",
+      "FR": "Alien Park",
+      "IT": "Alien Park",
+      "PT": "Parque Alienígena"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -130,13 +191,20 @@
     "image_id": "generic.park.central",
     "construction_image_id": "generic.construction.7",
     "name": {
-      "en": "Central Park"
+      "DE": "Zentralpark",
+      "EN": "Central Park",
+      "ES": "Parque Central",
+      "FR": "Parc central",
+      "IT": "Parco centrale",
+      "PT": "Parque Central"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -144,13 +212,20 @@
     "image_id": "generic.park.medium",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Park"
+      "DE": "Park",
+      "EN": "Park",
+      "ES": "Parque",
+      "FR": "Parc",
+      "IT": "Parco",
+      "PT": "Parque"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -158,13 +233,20 @@
     "image_id": "generic.park.small",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Small Park"
+      "DE": "Kleiner Park",
+      "EN": "Small Park",
+      "ES": "Parque pequeño",
+      "FR": "Petit parc",
+      "IT": "Piccolo parco",
+      "PT": "Pequeno parque"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -172,7 +254,12 @@
     "image_id": "generic.portal.in",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Inbound Portal"
+      "DE": "Eingehendes Portal",
+      "EN": "Inbound Portal",
+      "ES": "Portal de entrada",
+      "FR": "Portail entrant",
+      "IT": "Portale in entrata",
+      "PT": "Portal de entrada"
     },
     "seal": "generic",
     "zone": "RESERVED",
@@ -186,7 +273,12 @@
     "image_id": "generic.portal.out",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Outbound Portal"
+      "DE": "Ausgehendes Portal",
+      "EN": "Outbound Portal",
+      "ES": "Portal de salida",
+      "FR": "Portail sortant",
+      "IT": "Portale in uscita",
+      "PT": "Portal de saída"
     },
     "seal": "generic",
     "zone": "RESERVED",
@@ -200,13 +292,20 @@
     "image_id": "generic.statue",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Statue"
+      "DE": "Statue",
+      "EN": "Statue",
+      "ES": "Estatua",
+      "FR": "Statue",
+      "IT": "Statua",
+      "PT": "Estátua"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -214,13 +313,20 @@
     "image_id": "generic.tennis",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Tennis Court"
+      "DE": "Tennisplatz",
+      "EN": "Tennis Court",
+      "ES": "Pista de tenis",
+      "FR": "Court de tennis",
+      "IT": "Campo da tennis",
+      "PT": "Quadra de tênis"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -228,13 +334,20 @@
     "image_id": "generic.tower",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "IFEL Tower"
+      "DE": "IFEL Tower",
+      "EN": "IFEL Tower",
+      "ES": "Torre de IFEL",
+      "FR": "Tour IFEL",
+      "IT": "Torre IFEL",
+      "PT": "Torre IFEL"
     },
     "seal": "generic",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PARK",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   }
 ]

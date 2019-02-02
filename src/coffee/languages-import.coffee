@@ -101,3 +101,71 @@ if import_inventions
       output_json[key] = invention_json
 
     fs.writeFileSync(json_path, JSON.stringify(output_json, null, 2))
+
+
+if import_buildings
+  assets_buildings_dir = path.join(assets_dir, 'buildings')
+  translations_buildings_dir = path.join(target_dir, 'buildings')
+
+  console.log "importing buildings translations..."
+  console.log "buildings translations directory: #{translations_buildings_dir}"
+  console.log "buildings assets directory: #{assets_buildings_dir}"
+
+  building_lines = {}
+  building_lines['DE'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.de.txt')).toString().split('\n')
+  building_lines['EN'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.en.txt')).toString().split('\n')
+  building_lines['ES'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.es.txt')).toString().split('\n')
+  building_lines['FR'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.fr.txt')).toString().split('\n')
+  building_lines['IT'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.it.txt')).toString().split('\n')
+  building_lines['PT'] = fs.readFileSync(path.join(translations_buildings_dir, 'translations.pt.txt')).toString().split('\n')
+
+  unless building_lines['EN'].length == building_lines['DE'].length && building_lines['EN'].length == building_lines['ES'].length &&
+        building_lines['EN'].length == building_lines['FR'].length && building_lines['EN'].length == building_lines['IT'].length &&
+        building_lines['EN'].length == building_lines['PT'].length
+    console.log "missing translations, make sure all translations.txt are complete:"
+    console.log "DE: #{building_lines['DE'].length}"
+    console.log "EN: #{building_lines['EN'].length}"
+    console.log "ES: #{building_lines['ES'].length}"
+    console.log "FR: #{building_lines['FR'].length}"
+    console.log "IT: #{building_lines['IT'].length}"
+    console.log "PT: #{building_lines['PT'].length}"
+    process.exit(1)
+
+  language_values = {}
+  for line in [0..building_lines['EN'].length]
+    en_value = building_lines['EN'][line]
+    continue unless en_value?.length
+    language_values[en_value] = {
+      'DE': building_lines['DE'][line]
+      'ES': building_lines['ES'][line]
+      'FR': building_lines['FR'][line]
+      'IT': building_lines['IT'][line]
+      'PT': building_lines['PT'][line]
+    }
+
+  json_file_paths = _.filter(FileUtils.read_all_files_sync(assets_buildings_dir), (file_path) -> file_path.endsWith('.json'))
+  for json_path in (json_file_paths || [])
+    console.log "attempting to parse #{json_path}"
+    buildings_data = JSON.parse(fs.readFileSync(json_path))
+
+    did_change = false
+    for building in buildings_data
+      if building.name?
+        name_en = building.name.en || building.name.EN
+        name_values = language_values[name_en]
+        if name_values?
+          did_change = true
+          building.name = {
+            'DE': name_values['DE'] || building.name['DE'] || name_en
+            'EN': name_en
+            'ES': name_values['ES'] || building.name['ES'] || name_en
+            'FR': name_values['FR'] || building.name['FR'] || name_en
+            'IT': name_values['IT'] || building.name['IT'] || name_en
+            'PT': name_values['PT'] || building.name['PT'] || name_en
+          }
+        else
+          console.log "missing translations for name '#{invention_json.name['EN']}'"
+
+    if did_change
+      console.log "updating JSON data at #{json_path}"
+      fs.writeFileSync(json_path, JSON.stringify(buildings_data, null, 2))

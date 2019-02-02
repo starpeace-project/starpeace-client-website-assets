@@ -1,0 +1,218 @@
+Fábrica de Eletrodomésticos
+Fábrica de Pequenos Eletrodomésticos
+Loja de Eletrodomésticos
+Fábrica de Automóveis
+Concessionária de Automóveis
+Banco
+Barra
+Livraria
+Planta química
+Planta Química Pequena
+Fábrica de Roupas
+Fábrica de Roupas Pequenas
+Loja de roupas
+Serviços informáticos
+Fábrica de Computadores
+Estaleiro de construção
+Fábrica de Componentes Eletrônicos
+Fábrica de Pequenos Componentes Eletrônicos
+Fábrica têxtil
+Fábrica de Pequenos Têxteis
+Fazenda
+Fazendinha
+Comida rápida
+Salão Funerário
+Fábrica de móveis
+Loja de móveis
+Hospital
+Quartel general
+Pequeno parque
+Delegacia de polícia
+Escola
+Prefeitura
+Centro comercial
+Escritório de advocacia
+Destilaria
+Fábrica de Máquinas
+Grande mercado
+Mercado de pulgas
+Fábrica de metal
+Pequena fábrica de metal
+Cinema
+Costelas
+Bola vermelha
+Duango
+Mina De Minério
+Mina de minério pequena
+Processador de alimentos
+Processador de Alimentos Pequenos
+Agulha
+Casa de Balão
+Funil
+Chalé
+Edifício genérico de alta classe
+Edifício genérico de baixa classe
+Edifício de classe média genérico
+Casas recicladas
+Edifícios reciclados
+Latas de sardinha
+O quartel
+Torre dos Sonhos
+Os cogumelos
+As buchas
+Screwer
+Castelos
+Pináculo
+Restaurante
+Antena de tv
+Estação de TV
+Serraria
+Fábrica de brinquedos
+Loja de brinquedos
+Capitólio
+Faculdade
+Despejo
+Cadeia
+Museu
+Lizzard Park
+Parque Gobblin
+Frango Park
+Parque Alienígena
+Parque Central
+Parque
+Portal de entrada
+Portal de saída
+Estátua
+Quadra de tênis
+Torre IFEL
+Mausoléu lendário
+Paradigma Mausoléu
+Armazenamento de produtos químicos
+Armazém frio
+Super armazenamento a frio
+Armazenamento de Exportação
+Armazenamento de Tecidos
+Importar Armazenamento
+Armazenamento De Minério
+Armazenamento Geral
+Sede da Magna
+Centro de Pesquisas Magna
+Vendedor do céu
+Galaxie
+Estúdios de cinema
+Cloud City
+Céu do trabalhador
+A colméia
+Torre de marfim
+Pode flor
+O polvo
+Sky Dome
+Solário
+A primavera
+Tulipa
+O Whirlpool
+Fábrica de Compact Disc
+Loja de discos compactos
+Loja de informática
+Mercado Takuri
+Tamakura Market
+Satoi Market
+Yamamoto
+Tanakuta
+Raspador Sato
+Raspador Kunawa
+Koto-ku
+Koto Pequeno
+Fábrica De Plásticos
+Katana House
+Sohei House
+Casa Tarakawa
+Edifício Katana
+Edifício Nikotori
+Edifício Hazobito
+Edifício Hisogari
+Taramagushi
+Quartos Somsei-Taj
+Quartos Marakas
+Quartos Yohito
+Quartos Hirijoto-Manko
+Quartos azuis
+Prazer Roxo
+Mariko Rodada
+Cúpula de Eletrodomésticos
+Cúpula Automóvel
+Domo da Alegria
+Mina Química
+Domo Químico
+Cúpula de Roupas
+Cúpula de computador
+Cúpula de construção
+Plataforma de petróleo
+Cúpula de batatas fritas
+Domo de Roscas
+Cratera Alimentar
+Posto de gasolina
+Abóbada da refinaria
+Catedral de Moab
+Moab Correcional
+Torre dos Assuntos Cívicos
+Torre de indústrias
+Torre de comércio
+Torre Imobiliária
+Cúpula de Máquinas
+Supermercado Moab
+Cúpula de metais
+Basílica de Moabe
+Dark Crysler
+Cúpula Alimentar
+Palácio Zharot
+Palácio Negro
+Cavaleiros cúpula
+Bungalow Cavaleiros
+Guruh Dome
+Lothar Dome
+Taça Negra
+Cúpula de almas
+Enfermeira, cúpula
+Enfermeira, jardim zoológico
+Enfermeira
+Enfermeira Fraternidade
+Fábrica de Grandes Eletrodomésticos
+Planta de impressão
+Mina Química Pequena
+Grande fábrica de produtos químicos
+Grande fazenda
+Corpo de Bombeiros
+Shopping
+Supermercado
+Mart
+Grande fábrica de metal
+Picada
+Davis Bow
+Mc Neon Tower
+O Pináculo
+Moinho De Papel
+Farmácia
+Fábrica Farmacêutica
+Grande processador de alimentos
+Palácio Xanadu
+Átrio
+The Willington
+Boné de ouro
+Kent Square
+Torres de Lisgar
+Cabana branca
+Quartos em Lyon
+Mansão azul
+Mansão Rosa
+Torres Playfair
+Arlington Quartos
+Átrio de César
+A Sicília
+Quartos em Mountbatten
+O embaixador
+Gladston Apts.
+Quincy
+Torres Metcalfe
+Delmar Apts.
+Apts do por do sol.

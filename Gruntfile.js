@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         exec: 'node build/generate-planet-animations.js src/images assets build/public'
       },
       export_languages: {
-        exec: 'node build/languages-export.js assets translations'
+        exec: 'node build/languages-export.js assets translations --type=' + (grunt.option('type') || '')
       },
       import_languages: {
         exec: 'node build/languages-import.js assets translations --type=' + (grunt.option('type') || '')

@@ -4,26 +4,48 @@
     "image_id": "moab.legal.services",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Law Firm"
+      "DE": "Anwaltskanzlei",
+      "EN": "Law Firm",
+      "ES": "Bufete de abogados",
+      "FR": "Cabinet d'avocats",
+      "IT": "Studio legale",
+      "PT": "Escritório de advocacia"
     },
     "seal": "moab",
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "LEGAL_SERVICES",
-    "required_inventions": ["LawyerFirms"],
+    "required_inventions": [
+      "LawyerFirms"
+    ],
     "industry": {
       "budget": 1500,
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_HI", "max": 7 },
-        { "resource": "WORK_FORCE_MID", "max": 33 },
-        { "resource": "WORK_FORCE_LO", "max": 5 }
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 7
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 33
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 5
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        }
       ],
       "outputs": [
-        { "resource": "LEGAL_SERVICES", "max": 11 }
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 11
+        }
       ]
     }
   }

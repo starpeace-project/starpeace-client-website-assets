@@ -4,7 +4,12 @@
     "image_id": "magna.research.a",
     "construction_image_id": "magna.construction",
     "name": {
-      "en": "Magna Headquarters"
+      "DE": "Magna-Hauptquartier",
+      "EN": "Magna Headquarters",
+      "ES": "Sede magna",
+      "FR": "Siège Magna",
+      "IT": "Sede Magna",
+      "PT": "Sede da Magna"
     },
     "seal": "magna",
     "zone": "COMMERCIAL",
@@ -17,7 +22,12 @@
     "image_id": "magna.research.b",
     "construction_image_id": "magna.construction",
     "name": {
-      "en": "Magna Research Center"
+      "DE": "Magna-Forschungszentrum",
+      "EN": "Magna Research Center",
+      "ES": "Centro de Investigación Magna",
+      "FR": "Centre de recherche Magna",
+      "IT": "Magna Research Center",
+      "PT": "Centro de Pesquisas Magna"
     },
     "seal": "magna",
     "zone": "COMMERCIAL",

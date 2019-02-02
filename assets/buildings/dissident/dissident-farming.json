@@ -4,28 +4,56 @@
     "image_id": "dis.farm",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Farm"
+      "DE": "Bauernhof",
+      "EN": "Farm",
+      "ES": "Granja",
+      "FR": "Ferme",
+      "IT": "Azienda agricola",
+      "PT": "Fazenda"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["LargeFarms"],
+    "required_inventions": [
+      "LargeFarms"
+    ],
     "industry": {
       "budget": 370,
       "cost": 6720000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 22 }
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 22
+        }
       ],
       "optional_inputs": [
-        { "resource": "CHEMICAL", "max": 1 },
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "CHEMICAL",
+          "max": 1
+        },
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "FRESH_FOOD", "max": 50 },
-        { "resource": "ORGANIC_MATERIAL", "max": 24 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 50
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 24
+        }
       ]
     }
   },
@@ -34,28 +62,56 @@
     "image_id": "dis.farm.small",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Small Farm"
+      "DE": "Kleine Farm",
+      "EN": "Small Farm",
+      "ES": "Pequeña granja",
+      "FR": "Petite ferme",
+      "IT": "Piccola fattoria",
+      "PT": "Fazendinha"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic"],
+    "required_inventions": [
+      "FarmLic"
+    ],
     "industry": {
       "budget": 60,
       "cost": 1600000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 13 }
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 13
+        }
       ],
       "optional_inputs": [
-        { "resource": "CHEMICAL", "max": 0.3 },
-        { "resource": "COMPUTER_SERVICES", "max": 0.05 },
-        { "resource": "LEGAL_SERVICES", "max": 0.01 }
+        {
+          "resource": "CHEMICAL",
+          "max": 0.3
+        },
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.05
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.01
+        }
       ],
       "outputs": [
-        { "resource": "FRESH_FOOD", "max": 10 },
-        { "resource": "ORGANIC_MATERIAL", "max": 4 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 10
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 4
+        }
       ]
     }
   }

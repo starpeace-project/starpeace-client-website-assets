@@ -29,10 +29,7 @@ class Translation
     }
 
   @for_languages: (id, language_codes_to_text) ->
-    text_by_language = {}
-    for language,text of language_codes_to_text
-      text_by_language[language.toUpperCase()] = text if LANGUAGE_CODES[language.toUpperCase()]
-    new Translation(id, text_by_language)
+    new Translation(id, language_codes_to_text)
 
   @for_english: (id, text) ->
     new Translation(id, { 'EN': text })

@@ -4,7 +4,12 @@
     "image_id": "generic.warehouse.chemical",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Chemical Storage"
+      "DE": "Chemielager",
+      "EN": "Chemical Storage",
+      "ES": "Almacenamiento de productos químicos",
+      "FR": "Stockage de produits chimiques",
+      "IT": "Stoccaggio chimico",
+      "PT": "Armazenamento de produtos químicos"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -14,13 +19,25 @@
     "warehouse": {
       "cost": 1000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 10 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 10
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "CHEMICAL", "max": 100000 },
-        { "resource": "CRUDE_OIL", "max": 100000 },
-        { "resource": "GASOLINE", "max": 100000 }
+        {
+          "resource": "CHEMICAL",
+          "max": 100000
+        },
+        {
+          "resource": "CRUDE_OIL",
+          "max": 100000
+        },
+        {
+          "resource": "GASOLINE",
+          "max": 100000
+        }
       ]
     }
   },
@@ -29,7 +46,12 @@
     "image_id": "generic.warehouse.cold",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Cold Storage"
+      "DE": "Kühlhaus",
+      "EN": "Cold Storage",
+      "ES": "Almacenamiento en frio",
+      "FR": "Chambre froide",
+      "IT": "Celle frigorifere",
+      "PT": "Armazém frio"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -39,13 +61,25 @@
     "warehouse": {
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 10 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 10
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "FRESH_FOOD", "max": 1000000 },
-        { "resource": "PROCESSED_FOOD", "max": 250000 },
-        { "resource": "LIQUOR", "max": 250000 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 1000000
+        },
+        {
+          "resource": "PROCESSED_FOOD",
+          "max": 250000
+        },
+        {
+          "resource": "LIQUOR",
+          "max": 250000
+        }
       ]
     }
   },
@@ -54,7 +88,12 @@
     "image_id": "generic.warehouse.cold.super",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Super Cold Storage"
+      "DE": "Super Cold Storage",
+      "EN": "Super Cold Storage",
+      "ES": "Almacenamiento Super Frío",
+      "FR": "Super stockage à froid",
+      "IT": "Super Cold Storage",
+      "PT": "Super armazenamento a frio"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -64,13 +103,25 @@
     "warehouse": {
       "cost": 100000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 12 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 12
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "FRESH_FOOD", "max": 20000000 },
-        { "resource": "PROCESSED_FOOD", "max": 2500000 },
-        { "resource": "LIQUOR", "max": 2500000 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 20000000
+        },
+        {
+          "resource": "PROCESSED_FOOD",
+          "max": 2500000
+        },
+        {
+          "resource": "LIQUOR",
+          "max": 2500000
+        }
       ]
     }
   },
@@ -79,7 +130,12 @@
     "image_id": "generic.warehouse.export",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Export Storage"
+      "DE": "Speicher Exportieren",
+      "EN": "Export Storage",
+      "ES": "Almacenamiento de exportación",
+      "FR": "Stockage d'exportation",
+      "IT": "Esporta spazio di archiviazione",
+      "PT": "Armazenamento de Exportação"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -89,11 +145,13 @@
     "warehouse": {
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 10 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 10
+        }
       ],
       "optional_inputs": [],
-      "storage": [
-      ]
+      "storage": []
     }
   },
   {
@@ -101,7 +159,12 @@
     "image_id": "generic.warehouse.fabric",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Fabrics Storage"
+      "DE": "Aufbewahrung von Stoffen",
+      "EN": "Fabrics Storage",
+      "ES": "Almacenamiento de telas",
+      "FR": "Stockage des tissus",
+      "IT": "Stoccaggio di tessuti",
+      "PT": "Armazenamento de Tecidos"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -111,15 +174,33 @@
     "warehouse": {
       "cost": 100000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 12 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 12
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "ORGANIC_MATERIAL", "max": 20000000 },
-        { "resource": "FABRIC", "max": 250000 },
-        { "resource": "CLOTHES", "max": 100000 },
-        { "resource": "PAPER", "max": 250000 },
-        { "resource": "PRINTED_MATERIAL", "max": 250000 }
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 20000000
+        },
+        {
+          "resource": "FABRIC",
+          "max": 250000
+        },
+        {
+          "resource": "CLOTHES",
+          "max": 100000
+        },
+        {
+          "resource": "PAPER",
+          "max": 250000
+        },
+        {
+          "resource": "PRINTED_MATERIAL",
+          "max": 250000
+        }
       ]
     }
   },
@@ -128,7 +209,12 @@
     "image_id": "generic.warehouse.import",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Import Storage"
+      "DE": "Speicher importieren",
+      "EN": "Import Storage",
+      "ES": "Almacenamiento de importación",
+      "FR": "Stockage d'importation",
+      "IT": "Importa memoria",
+      "PT": "Importar Armazenamento"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -138,11 +224,13 @@
     "warehouse": {
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 10 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 10
+        }
       ],
       "optional_inputs": [],
-      "storage": [
-      ]
+      "storage": []
     }
   },
   {
@@ -150,7 +238,12 @@
     "image_id": "generic.warehouse.ore",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Ore Storage"
+      "DE": "Erzlagerung",
+      "EN": "Ore Storage",
+      "ES": "Almacenamiento de mineral",
+      "FR": "Stockage de minerai",
+      "IT": "Deposito minerale",
+      "PT": "Armazenamento De Minério"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -160,14 +253,29 @@
     "warehouse": {
       "cost": 20000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_LO", "max": 12 }
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 12
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "ORE", "max": 200000 },
-        { "resource": "METAL", "max": 50000 },
-        { "resource": "CONSTRUCTION", "max": 500000 },
-        { "resource": "TIMBER", "max": 500000 }
+        {
+          "resource": "ORE",
+          "max": 200000
+        },
+        {
+          "resource": "METAL",
+          "max": 50000
+        },
+        {
+          "resource": "CONSTRUCTION",
+          "max": 500000
+        },
+        {
+          "resource": "TIMBER",
+          "max": 500000
+        }
       ]
     }
   },
@@ -176,7 +284,12 @@
     "image_id": "generic.warehouse.univeral",
     "construction_image_id": "generic.construction.6",
     "name": {
-      "en": "General Storage"
+      "DE": "Allgemeine Lagerung",
+      "EN": "General Storage",
+      "ES": "Almacenamiento general",
+      "FR": "Stockage général",
+      "IT": "Archiviazione generale",
+      "PT": "Armazenamento Geral"
     },
     "seal": "generic",
     "zone": "WAREHOUSE",
@@ -186,26 +299,77 @@
     "warehouse": {
       "cost": 20000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 80 }
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 80
+        }
       ],
       "optional_inputs": [],
       "storage": [
-        { "resource": "ORGANIC_MATERIAL", "max": 10000 },
-        { "resource": "FABRIC", "max": 10000 },
-        { "resource": "CLOTHES", "max": 10000 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 10000 },
-        { "resource": "APPLIANCE", "max": 10000 },
-        { "resource": "COMPUTER", "max": 10000 },
-        { "resource": "METAL", "max": 25000 },
-        { "resource": "AUTOMOBILE", "max": 160 },
-        { "resource": "TOY", "max": 10000 },
-        { "resource": "PHARMACEUTICAL", "max": 10000 },
-        { "resource": "PLASTIC", "max": 20000 },
-        { "resource": "MACHINERY", "max": 1000 },
-        { "resource": "FURNITURE", "max": 15000 },
-        { "resource": "BOOK", "max": 10000 },
-        { "resource": "COMPACT_DISC", "max": 10000 }
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 10000
+        },
+        {
+          "resource": "FABRIC",
+          "max": 10000
+        },
+        {
+          "resource": "CLOTHES",
+          "max": 10000
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 10000
+        },
+        {
+          "resource": "APPLIANCE",
+          "max": 10000
+        },
+        {
+          "resource": "COMPUTER",
+          "max": 10000
+        },
+        {
+          "resource": "METAL",
+          "max": 25000
+        },
+        {
+          "resource": "AUTOMOBILE",
+          "max": 160
+        },
+        {
+          "resource": "TOY",
+          "max": 10000
+        },
+        {
+          "resource": "PHARMACEUTICAL",
+          "max": 10000
+        },
+        {
+          "resource": "PLASTIC",
+          "max": 20000
+        },
+        {
+          "resource": "MACHINERY",
+          "max": 1000
+        },
+        {
+          "resource": "FURNITURE",
+          "max": 15000
+        },
+        {
+          "resource": "BOOK",
+          "max": 10000
+        },
+        {
+          "resource": "COMPACT_DISC",
+          "max": 10000
+        }
       ]
     }
   }

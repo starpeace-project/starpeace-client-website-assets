@@ -4,28 +4,56 @@
     "image_id": "dis.chemical.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Chemical Plant"
+      "DE": "Chemiefabrik",
+      "EN": "Chemical Plant",
+      "ES": "Planta química",
+      "FR": "Usine chimique",
+      "IT": "Impianto chimico",
+      "PT": "Planta química"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["LargeChem"],
+    "required_inventions": [
+      "LargeChem"
+    ],
     "industry": {
       "budget": 2000,
       "cost": 30000000,
       "required_inputs": [
-        { "resource": "ORE", "max": 476 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 11 },
-        { "resource": "WORK_FORCE_LO", "max": 131 }
+        {
+          "resource": "ORE",
+          "max": 476
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 11
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 131
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.476000040769577 },
-        { "resource": "LEGAL_SERVICES", "max": 0.357000023126602 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.476000040769577
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.357000023126602
+        }
       ],
       "outputs": [
-        { "resource": "CHEMICAL", "max": 80 }
+        {
+          "resource": "CHEMICAL",
+          "max": 80
+        }
       ]
     }
   },
@@ -34,28 +62,56 @@
     "image_id": "dis.chemical.industry.small",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Small Chemical Plant"
+      "DE": "Kleine Chemiefabrik",
+      "EN": "Small Chemical Plant",
+      "ES": "Pequeña planta química",
+      "FR": "Petite usine chimique",
+      "IT": "Piccolo stabilimento chimico",
+      "PT": "Planta Química Pequena"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic"],
+    "required_inventions": [
+      "ChemLic"
+    ],
     "industry": {
       "budget": 300,
       "cost": 7800000,
       "required_inputs": [
-        { "resource": "ORE", "max": 160 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 6 },
-        { "resource": "WORK_FORCE_LO", "max": 76 }
+        {
+          "resource": "ORE",
+          "max": 160
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 6
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 76
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "CHEMICAL", "max": 16 }
+        {
+          "resource": "CHEMICAL",
+          "max": 16
+        }
       ]
     }
   }

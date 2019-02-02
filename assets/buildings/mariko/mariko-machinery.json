@@ -4,30 +4,64 @@
     "image_id": "mko.heavy.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Machinery Factory"
+      "DE": "Maschinenfabrik",
+      "EN": "Machinery Factory",
+      "ES": "Fábrica de Maquinaria",
+      "FR": "Usine de machines",
+      "IT": "Fabbrica di macchinari",
+      "PT": "Fábrica de Máquinas"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "MACHINERY",
-    "required_inventions": ["MachInd"],
+    "required_inventions": [
+      "MachInd"
+    ],
     "industry": {
       "budget": 2600,
       "cost": 40000000,
       "required_inputs": [
-        { "resource": "METAL", "max": 1068 },
-        { "resource": "CHEMICAL", "max": 89 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 36 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 13 },
-        { "resource": "WORK_FORCE_LO", "max": 200 }
+        {
+          "resource": "METAL",
+          "max": 1068
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 89
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 36
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 13
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 200
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "MACHINERY", "max": 2 }
+        {
+          "resource": "MACHINERY",
+          "max": 2
+        }
       ]
     }
   }

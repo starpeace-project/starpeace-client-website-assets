@@ -4,13 +4,20 @@
     "image_id": "dis.office.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Ribs"
+      "DE": "Rippen",
+      "EN": "Ribs",
+      "ES": "Costillas",
+      "FR": "Travers de porc",
+      "IT": "Costolette",
+      "PT": "Costelas"
     },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "dis.office.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Red Ball"
+      "DE": "Roter Ball",
+      "EN": "Red Ball",
+      "ES": "Bola roja",
+      "FR": "Balle rouge",
+      "IT": "Palla rossa",
+      "PT": "Bola vermelha"
     },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "dis.office.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Duango"
+      "DE": "Duango",
+      "EN": "Duango",
+      "ES": "Duango",
+      "FR": "Duango",
+      "IT": "Duango",
+      "PT": "Duango"
     },
     "seal": "dissident",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   }
 ]

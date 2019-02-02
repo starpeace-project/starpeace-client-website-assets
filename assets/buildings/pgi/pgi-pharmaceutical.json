@@ -4,7 +4,12 @@
     "image_id": "pgi.drug.store",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Drug Store"
+      "DE": "Drogerie",
+      "EN": "Drug Store",
+      "ES": "Tienda de drogas",
+      "FR": "Pharmacie",
+      "IT": "Farmacia",
+      "PT": "Farmácia"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
@@ -18,29 +23,60 @@
     "image_id": "pgi.pharma.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Pharmaceutical Factory"
+      "DE": "Pharmazeutische Fabrik",
+      "EN": "Pharmaceutical Factory",
+      "ES": "Fábrica de productos farmacéuticos",
+      "FR": "Usine Pharmaceutique",
+      "IT": "Fabbrica farmaceutica",
+      "PT": "Fábrica Farmacêutica"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PHARMACEUTICAL",
-    "required_inventions": ["PharmaIndustry"],
+    "required_inventions": [
+      "PharmaIndustry"
+    ],
     "industry": {
       "budget": 133,
       "cost": 20000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 50 },
-        { "resource": "PLASTIC", "max": 50 },
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 50 },
-        { "resource": "WORK_FORCE_LO", "max": 100 }
+        {
+          "resource": "CHEMICAL",
+          "max": 50
+        },
+        {
+          "resource": "PLASTIC",
+          "max": 50
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 50
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 100
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.75 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.75
+        }
       ],
       "outputs": [
-        { "resource": "PHARMACEUTICAL", "max": 100 }
+        {
+          "resource": "PHARMACEUTICAL",
+          "max": 100
+        }
       ]
     }
   }

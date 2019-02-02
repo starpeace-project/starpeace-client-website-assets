@@ -4,13 +4,20 @@
     "image_id": "dis.restaurant.a",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Restaurant"
+      "DE": "Restaurant",
+      "EN": "Restaurant",
+      "ES": "Restaurante",
+      "FR": "Restaurant",
+      "IT": "Ristorante",
+      "PT": "Restaurante"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "RESTAURANT",
-    "required_inventions": ["Restaurants"],
+    "required_inventions": [
+      "Restaurants"
+    ],
     "commerce": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "dis.restaurant.b",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Restaurant"
+      "DE": "Restaurant",
+      "EN": "Restaurant",
+      "ES": "Restaurante",
+      "FR": "Restaurant",
+      "IT": "Ristorante",
+      "PT": "Restaurante"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "RESTAURANT",
-    "required_inventions": ["Restaurants"],
+    "required_inventions": [
+      "Restaurants"
+    ],
     "commerce": {}
   }
 ]

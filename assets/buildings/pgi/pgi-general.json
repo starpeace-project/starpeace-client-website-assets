@@ -4,13 +4,20 @@
     "image_id": "pgi.fire",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Fire Station"
+      "DE": "Feuerwehr",
+      "EN": "Fire Station",
+      "ES": "Estación de bomberos",
+      "FR": "Caserne de pompiers",
+      "IT": "Caserma dei pompieri",
+      "PT": "Corpo de Bombeiros"
     },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "FIRE_PREVENTION",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "pgi.hospital",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Hospital"
+      "DE": "Krankenhaus",
+      "EN": "Hospital",
+      "ES": "Hospital",
+      "FR": "Hôpital",
+      "IT": "Ospedale",
+      "PT": "Hospital"
     },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "HOSPITAL",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -32,7 +46,12 @@
     "image_id": "pgi.hq.1",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Headquarters"
+      "DE": "Hauptquartier",
+      "EN": "Headquarters",
+      "ES": "Sede",
+      "FR": "Quartier général",
+      "IT": "Quartier generale",
+      "PT": "Quartel general"
     },
     "seal": "pgi",
     "zone": "SERVICE",
@@ -45,13 +64,20 @@
     "image_id": "pgi.police",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Police Station"
+      "DE": "Polizeistation",
+      "EN": "Police Station",
+      "ES": "Estación de policía",
+      "FR": "Poste de police",
+      "IT": "Stazione di polizia",
+      "PT": "Delegacia de polícia"
     },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "POLICE",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -59,13 +85,20 @@
     "image_id": "pgi.school",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "School"
+      "DE": "Schule",
+      "EN": "School",
+      "ES": "Colegio",
+      "FR": "École",
+      "IT": "Scuola",
+      "PT": "Escola"
     },
     "seal": "pgi",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "SCHOOL",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -73,7 +106,12 @@
     "image_id": "pgi.townhall",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Townhall"
+      "DE": "Rathaus",
+      "EN": "Townhall",
+      "ES": "Ayuntamiento",
+      "FR": "Mairie",
+      "IT": "Municipio",
+      "PT": "Prefeitura"
     },
     "seal": "pgi",
     "zone": "CIVICS",
@@ -87,7 +125,12 @@
     "image_id": "pgi.tradecenter",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Tradecenter"
+      "DE": "Handelszentrum",
+      "EN": "Tradecenter",
+      "ES": "Centro de Comercio",
+      "FR": "Centre commercial",
+      "IT": "Tradecenter",
+      "PT": "Centro comercial"
     },
     "seal": "pgi",
     "zone": "CIVICS",

@@ -4,29 +4,60 @@
     "image_id": "moab.farm",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Food Crater"
+      "DE": "Nahrungskrater",
+      "EN": "Food Crater",
+      "ES": "Crater de comida",
+      "FR": "Cratère alimentaire",
+      "IT": "Cratere alimentare",
+      "PT": "Cratera Alimentar"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic"],
+    "required_inventions": [
+      "FarmLic"
+    ],
     "industry": {
       "budget": 300,
       "cost": 5000000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_HI", "max": 2 },
-        { "resource": "WORK_FORCE_MID", "max": 4 },
-        { "resource": "WORK_FORCE_LO", "max": 50 }
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 4
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 50
+        }
       ],
       "optional_inputs": [
-        { "resource": "CHEMICAL", "max": 2 },
-        { "resource": "COMPUTER_SERVICES", "max": 0.3 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "CHEMICAL",
+          "max": 2
+        },
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.3
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "FRESH_FOOD", "max": 100 },
-        { "resource": "ORGANIC_MATERIAL", "max": 50 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 100
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 50
+        }
       ]
     }
   }

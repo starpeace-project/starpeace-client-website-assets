@@ -4,13 +4,20 @@
     "image_id": "mko.hi.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Katana House"
+      "DE": "Katana Haus",
+      "EN": "Katana House",
+      "ES": "Casa Katana",
+      "FR": "Maison Katana",
+      "IT": "Katana House",
+      "PT": "Katana House"
     },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "mko.hi.res.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Sohei House"
+      "DE": "Sohei House",
+      "EN": "Sohei House",
+      "ES": "Casa Sohei",
+      "FR": "Maison Sohei",
+      "IT": "Casa Sohei",
+      "PT": "Sohei House"
     },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "mko.hi.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Tarakawa House"
+      "DE": "Tarakawa Haus",
+      "EN": "Tarakawa House",
+      "ES": "Casa Tarakawa",
+      "FR": "Maison Tarakawa",
+      "IT": "Casa Tarakawa",
+      "PT": "Casa Tarakawa"
     },
     "seal": "mariko",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -46,13 +67,20 @@
     "image_id": "mko.lo.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Katana Building"
+      "DE": "Katana-Gebäude",
+      "EN": "Katana Building",
+      "ES": "Edificio Katana",
+      "FR": "Bâtiment Katana",
+      "IT": "Katana Building",
+      "PT": "Edifício Katana"
     },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -60,13 +88,20 @@
     "image_id": "mko.lo.res.b",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Nikotori Building"
+      "DE": "Nikotori-Gebäude",
+      "EN": "Nikotori Building",
+      "ES": "Edificio Nikotori",
+      "FR": "Bâtiment Nikotori",
+      "IT": "Edificio Nikotori",
+      "PT": "Edifício Nikotori"
     },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -74,13 +109,20 @@
     "image_id": "mko.lo.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Hazobito Building"
+      "DE": "Hazobito-Gebäude",
+      "EN": "Hazobito Building",
+      "ES": "Edificio Hazobito",
+      "FR": "Bâtiment Hazobito",
+      "IT": "Edificio Hazobito",
+      "PT": "Edifício Hazobito"
     },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -88,13 +130,20 @@
     "image_id": "mko.lo.res.d",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Hisogari Building"
+      "DE": "Hisogari-Gebäude",
+      "EN": "Hisogari Building",
+      "ES": "Edificio hisogari",
+      "FR": "Bâtiment Hisogari",
+      "IT": "Edificio di Hisogari",
+      "PT": "Edifício Hisogari"
     },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -102,13 +151,20 @@
     "image_id": "mko.lo.res.e",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Taramagushi"
+      "DE": "Taramagushi",
+      "EN": "Taramagushi",
+      "ES": "Taramagushi",
+      "FR": "Taramagushi",
+      "IT": "Taramagushi",
+      "PT": "Taramagushi"
     },
     "seal": "mariko",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -116,13 +172,20 @@
     "image_id": "mko.mi.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Somsei-Taj Rooms"
+      "DE": "Somsei-Taj Zimmer",
+      "EN": "Somsei-Taj Rooms",
+      "ES": "Habitaciones Somsei-Taj",
+      "FR": "Chambres Somsei-Taj",
+      "IT": "Camere Somsei-Taj",
+      "PT": "Quartos Somsei-Taj"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -130,13 +193,20 @@
     "image_id": "mko.mi.res.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Marakas Rooms"
+      "DE": "Marakas Zimmer",
+      "EN": "Marakas Rooms",
+      "ES": "Habitaciones marakas",
+      "FR": "Chambres Marakas",
+      "IT": "Camere di Marakas",
+      "PT": "Quartos Marakas"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -144,13 +214,20 @@
     "image_id": "mko.mi.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Yohito Rooms"
+      "DE": "Yohito Zimmer",
+      "EN": "Yohito Rooms",
+      "ES": "Habitaciones yohito",
+      "FR": "Chambres Yohito",
+      "IT": "Yohito Rooms",
+      "PT": "Quartos Yohito"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -158,13 +235,20 @@
     "image_id": "mko.mi.res.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Hirijoto-Manko Rooms"
+      "DE": "Hirijoto-Manko Zimmer",
+      "EN": "Hirijoto-Manko Rooms",
+      "ES": "Habitaciones Hirijoto-Manko",
+      "FR": "Chambres Hirijoto-Manko",
+      "IT": "Camere Hirijoto-Manko",
+      "PT": "Quartos Hirijoto-Manko"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -172,13 +256,20 @@
     "image_id": "mko.mi.res.e",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Blue Rooms"
+      "DE": "Blaue Zimmer",
+      "EN": "Blue Rooms",
+      "ES": "Habitaciones azules",
+      "FR": "Chambres bleues",
+      "IT": "Camere blu",
+      "PT": "Quartos azuis"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -186,13 +277,20 @@
     "image_id": "mko.mi.res.f",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Purple Delight"
+      "DE": "Lila Freude",
+      "EN": "Purple Delight",
+      "ES": "Deleite Morado",
+      "FR": "Purple Delight",
+      "IT": "Delizia viola",
+      "PT": "Prazer Roxo"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -200,13 +298,20 @@
     "image_id": "mko.mi.res.g",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Round Mariko"
+      "DE": "Runde Mariko",
+      "EN": "Round Mariko",
+      "ES": "Mariko Redondo",
+      "FR": "Rond mariko",
+      "IT": "Round Mariko",
+      "PT": "Mariko Rodada"
     },
     "seal": "mariko",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   }
 ]

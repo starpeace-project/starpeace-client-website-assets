@@ -4,13 +4,20 @@
     "image_id": "dis.market.a",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Big Market"
+      "DE": "Großer Markt",
+      "EN": "Big Market",
+      "ES": "Gran mercado",
+      "FR": "Grand marché",
+      "IT": "Grande mercato",
+      "PT": "Grande mercado"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "dis.market.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Flea Market"
+      "DE": "Flohmarkt",
+      "EN": "Flea Market",
+      "ES": "Mercado de pulgas",
+      "FR": "Marché aux puces",
+      "IT": "Mercato delle pulci",
+      "PT": "Mercado de pulgas"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   }
 ]

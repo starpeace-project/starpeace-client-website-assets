@@ -4,28 +4,56 @@
     "image_id": "mko.chemical.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en":"Chemical Plant"
+      "DE": "Chemiefabrik",
+      "EN": "Chemical Plant",
+      "ES": "Planta química",
+      "FR": "Usine chimique",
+      "IT": "Impianto chimico",
+      "PT": "Planta química"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["LargeChem"],
+    "required_inventions": [
+      "LargeChem"
+    ],
     "industry": {
       "budget": 1500,
       "cost": 17640000,
       "required_inputs": [
-        { "resource": "ORE", "max": 712 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 13 },
-        { "resource": "WORK_FORCE_LO", "max": 160 }
+        {
+          "resource": "ORE",
+          "max": 712
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 13
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 160
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.7 },
-        { "resource": "LEGAL_SERVICES", "max": 0.5 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.7
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.5
+        }
       ],
       "outputs": [
-        { "resource": "CHEMICAL", "max": 72 }
+        {
+          "resource": "CHEMICAL",
+          "max": 72
+        }
       ]
     }
   },
@@ -34,28 +62,56 @@
     "image_id": "mko.chemical.industry.small",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en":"Small Chemical Plant"
+      "DE": "Kleine Chemiefabrik",
+      "EN": "Small Chemical Plant",
+      "ES": "Pequeña planta química",
+      "FR": "Petite usine chimique",
+      "IT": "Piccolo stabilimento chimico",
+      "PT": "Planta Química Pequena"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic"],
+    "required_inventions": [
+      "ChemLic"
+    ],
     "industry": {
       "budget": 140,
       "cost": 4200000,
       "required_inputs": [
-        { "resource": "ORE", "max": 240 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 8 },
-        { "resource": "WORK_FORCE_LO", "max": 93 }
+        {
+          "resource": "ORE",
+          "max": 240
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 8
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 93
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.3 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.3
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "CHEMICAL", "max": 25 }
+        {
+          "resource": "CHEMICAL",
+          "max": 25
+        }
       ]
     }
   }

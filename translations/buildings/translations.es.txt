@@ -1,0 +1,218 @@
+Fábrica de electrodomésticos
+Fábrica de pequeños electrodomésticos
+Tienda de electrodomésticos
+Fábrica de automóviles
+Concesionario de automóviles
+Banco
+Bar
+Librería
+Planta química
+Pequeña planta química
+Fábrica de ropa
+Fábrica de ropa pequeña
+Tienda de ropa
+Servicios informaticos
+Fábrica de computadoras
+Patio de la construcción
+Fábrica de componentes electrónicos
+Fábrica de componentes electrónicos pequeños
+Fabrica textil
+Fábrica de textiles pequeños
+Granja
+Pequeña granja
+Comida rápida
+Funeraria
+Fábrica de muebles
+Tienda de muebles
+Hospital
+Sede
+Parque pequeño
+Estación de policía
+Colegio
+Ayuntamiento
+Centro de Comercio
+Bufete de abogados
+Destilería
+Fábrica de Maquinaria
+Gran mercado
+Mercado de pulgas
+Fábrica de metales
+Pequeña fábrica de metales
+Cine
+Costillas
+Bola roja
+Duango
+Mina de mineral
+Pequeña mina de mineral
+Procesador de alimentos
+Pequeño procesador de alimentos
+Aguja
+Casa del globo
+Embudo
+Cabaña
+Edificio genérico de clase alta.
+Edificio genérico de clase baja.
+Edificio genérico de clase media.
+Casas recicladas
+Edificios reciclados
+Latas De Sardina
+Los cuarteles
+Torre de sueños
+Los champiñones
+Los bujes
+Atornillador
+Castillos
+Aguja
+Restaurante
+Antena de televisión
+Estación de televisión
+Serreria
+Fábrica de juguetes
+Tienda de juguetes
+Capitolio
+Universidad
+Tugurio
+Cárcel
+Museo
+Lizzard Park
+Parque Gobblin
+Chicken Park
+Parque alienígena
+Parque Central
+Parque
+Portal de entrada
+Portal de salida
+Estatua
+Pista de tenis
+Torre de IFEL
+Leyenda del mausoleo
+Mausoleo del paradigma
+Almacenamiento de productos químicos
+Almacenamiento en frio
+Almacenamiento Super Frío
+Almacenamiento de exportación
+Almacenamiento de telas
+Almacenamiento de importación
+Almacenamiento de mineral
+Almacenamiento general
+Sede magna
+Centro de Investigación Magna
+Vendedor del cielo
+Galaxie
+Estudios de cine
+Cloud City
+El cielo del trabajador
+La colmena
+Torre de marfil
+Flor de mayo
+El pulpo
+Bóveda celeste
+Solárium
+La primavera
+Tulipán
+El hidromasaje
+Fábrica de discos compactos
+Tienda de discos compactos
+Tienda de computadoras
+Mercado de Takuri
+Mercado de Tamakura
+Mercado de satoi
+Yamamoto
+Tanakuta
+Sato Scraper
+Raspador Kunawa
+Koto-ku
+Koto pequeño
+Fábrica de plástico
+Casa Katana
+Casa Sohei
+Casa Tarakawa
+Edificio Katana
+Edificio Nikotori
+Edificio Hazobito
+Edificio hisogari
+Taramagushi
+Habitaciones Somsei-Taj
+Habitaciones marakas
+Habitaciones yohito
+Habitaciones Hirijoto-Manko
+Habitaciones azules
+Deleite Morado
+Mariko Redondo
+Domo de electrodomesticos
+Domo de automovil
+Cúpula de la alegría
+Mina quimica
+Domo quimico
+Cúpula de ropa
+Domo de computadora
+Cúpula de construcción
+Plataforma petrolera
+Cúpula de papas fritas
+Cúpula de hilos
+Crater de comida
+Gasolinera
+Cúpula de refineria
+Catedral de moab
+Moab correccional
+Torre de asuntos cívicos
+Torre de industrias
+Torre de comercio
+Torre inmobiliaria
+Cúpula de maquinaria
+Supermercado Moab
+Cúpula de metales
+Basílica de moab
+Crysler Oscuro
+Cúpula de comida
+Palacio Zharot
+Palacio negro
+Domo caballeros
+Bungalow Caballeros
+Cúpula de guruh
+Lothar Dome
+Cuenco negro
+Cúpula de almas
+Enfermera domo
+Enfermera zoo
+Habitaciones de enfermeras
+Enfermera de la fraternidad
+Fábrica de electrodomésticos grandes
+Planta de impresión
+Pequeña mina química
+Gran planta quimica
+Gran granja
+Estación de bomberos
+Centro comercial
+Supermercado
+Mercado
+Fábrica grande de metales
+Picadura
+Arco de davis
+Torre de neón mc
+El chapitel
+Fábrica de papel
+Tienda de drogas
+Fábrica de productos farmacéuticos
+Gran procesador de alimentos
+Palacio de Xanadu
+Atrio
+El willington
+Casquillo de oro
+Plaza kent
+Torres lisgar
+Cabaña blanca
+Habitaciones de lyon
+Mansión azul
+Mansion rosa
+Playfair Towers
+Habitaciones de Arlington
+Atrio de caesar
+La sicilia
+Habitaciones Mountbatten
+El embajador
+Gladston Apts.
+Quincy
+Torres de metcalfe
+Delmar Apts.
+Apts al atardecer.

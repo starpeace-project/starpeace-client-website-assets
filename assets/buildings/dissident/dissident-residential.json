@@ -4,13 +4,20 @@
     "image_id": "dis.hi.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Needle"
+      "DE": "Nadel",
+      "EN": "Needle",
+      "ES": "Aguja",
+      "FR": "Aiguille",
+      "IT": "Ago",
+      "PT": "Agulha"
     },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "dis.hi.res.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Balloon House"
+      "DE": "Ballonhaus",
+      "EN": "Balloon House",
+      "ES": "Casa del globo",
+      "FR": "Balloon House",
+      "IT": "Balloon House",
+      "PT": "Casa de Balão"
     },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "dis.hi.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Funnel"
+      "DE": "Trichter",
+      "EN": "Funnel",
+      "ES": "Embudo",
+      "FR": "Entonnoir",
+      "IT": "Imbuto",
+      "PT": "Funil"
     },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -46,13 +67,20 @@
     "image_id": "dis.hi.res.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Cottage"
+      "DE": "Hütte",
+      "EN": "Cottage",
+      "ES": "Cabaña",
+      "FR": "Chalet",
+      "IT": "Cottage",
+      "PT": "Chalé"
     },
     "seal": "dissident",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -60,13 +88,20 @@
     "image_id": "dis.lo.cost.hi.res",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Generic high class building"
+      "DE": "Generisches hochwertiges Gebäude",
+      "EN": "Generic high class building",
+      "ES": "Edificio genérico de clase alta.",
+      "FR": "Bâtiment générique de grande classe",
+      "IT": "Edificio di alta classe generico",
+      "PT": "Edifício genérico de alta classe"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -74,13 +109,20 @@
     "image_id": "dis.lo.cost.lo.res",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Generic low class building"
+      "DE": "Generisches niedriges Gebäude",
+      "EN": "Generic low class building",
+      "ES": "Edificio genérico de clase baja.",
+      "FR": "Bâtiment générique de basse classe",
+      "IT": "Generico edificio di bassa classe",
+      "PT": "Edifício genérico de baixa classe"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -88,13 +130,20 @@
     "image_id": "dis.lo.cost.mi.res",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Generic middle class building"
+      "DE": "Generisches Mittelklassegebäude",
+      "EN": "Generic middle class building",
+      "ES": "Edificio genérico de clase media.",
+      "FR": "Bâtiment générique de la classe moyenne",
+      "IT": "Generico edificio della classe media",
+      "PT": "Edifício de classe média genérico"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -102,13 +151,20 @@
     "image_id": "dis.lo.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Recycled Homes"
+      "DE": "Recycling-Häuser",
+      "EN": "Recycled Homes",
+      "ES": "Casas recicladas",
+      "FR": "Maisons recyclées",
+      "IT": "Case riciclate",
+      "PT": "Casas recicladas"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -116,13 +172,20 @@
     "image_id": "dis.lo.res.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Recycled Buildings"
+      "DE": "Recycling-Gebäude",
+      "EN": "Recycled Buildings",
+      "ES": "Edificios reciclados",
+      "FR": "Bâtiments Recyclés",
+      "IT": "Edifici riciclati",
+      "PT": "Edifícios reciclados"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -130,13 +193,20 @@
     "image_id": "dis.lo.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Sardine Cans"
+      "DE": "Sardinenbüchsen",
+      "EN": "Sardine Cans",
+      "ES": "Latas De Sardina",
+      "FR": "Boîtes de sardines",
+      "IT": "Lattine di sardine",
+      "PT": "Latas de sardinha"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -144,13 +214,20 @@
     "image_id": "dis.lo.res.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "The Barracks"
+      "DE": "Die Kaserne",
+      "EN": "The Barracks",
+      "ES": "Los cuarteles",
+      "FR": "La caserne",
+      "IT": "La caserma",
+      "PT": "O quartel"
     },
     "seal": "dissident",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -158,13 +235,20 @@
     "image_id": "dis.mi.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Dreams Tower"
+      "DE": "Dreams Tower",
+      "EN": "Dreams Tower",
+      "ES": "Torre de sueños",
+      "FR": "Tour de rêves",
+      "IT": "Torre dei sogni",
+      "PT": "Torre dos Sonhos"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -172,13 +256,20 @@
     "image_id": "dis.mi.res.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "The Mushrooms"
+      "DE": "Die Pilze",
+      "EN": "The Mushrooms",
+      "ES": "Los champiñones",
+      "FR": "Les champignons",
+      "IT": "I funghi",
+      "PT": "Os cogumelos"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -186,13 +277,20 @@
     "image_id": "dis.mi.res.c",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "The Bushings"
+      "DE": "Die Bushings",
+      "EN": "The Bushings",
+      "ES": "Los bujes",
+      "FR": "Les buissons",
+      "IT": "Le boccole",
+      "PT": "As buchas"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -200,13 +298,20 @@
     "image_id": "dis.mi.res.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Screwer"
+      "DE": "Schraubendreher",
+      "EN": "Screwer",
+      "ES": "Atornillador",
+      "FR": "Visseuse",
+      "IT": "Avvitatore",
+      "PT": "Screwer"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -214,13 +319,20 @@
     "image_id": "dis.mi.res.e",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Castles"
+      "DE": "Schlösser",
+      "EN": "Castles",
+      "ES": "Castillos",
+      "FR": "Châteaux",
+      "IT": "Castelli",
+      "PT": "Castelos"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -228,13 +340,20 @@
     "image_id": "dis.mi.res.f",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Spire"
+      "DE": "Turm",
+      "EN": "Spire",
+      "ES": "Aguja",
+      "FR": "Flèche",
+      "IT": "Guglia",
+      "PT": "Pináculo"
     },
     "seal": "dissident",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   }
 ]

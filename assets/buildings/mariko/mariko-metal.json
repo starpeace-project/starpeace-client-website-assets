@@ -4,29 +4,60 @@
     "image_id": "mko.metal.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Metal Factory"
+      "DE": "Metallfabrik",
+      "EN": "Metal Factory",
+      "ES": "Fábrica de metales",
+      "FR": "Usine de métal",
+      "IT": "Fabbrica di metalli",
+      "PT": "Fábrica de metal"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["LSMetal"],
+    "required_inventions": [
+      "LSMetal"
+    ],
     "industry": {
       "budget": 600,
       "cost": 27719999,
       "required_inputs": [
-        { "resource": "ORE", "max": 445 },
-        { "resource": "CHEMICAL", "max": 36 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 3 },
-        { "resource": "WORK_FORCE_LO", "max": 160 }
+        {
+          "resource": "ORE",
+          "max": 445
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 36
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 160
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "METAL", "max": 218 }
+        {
+          "resource": "METAL",
+          "max": 218
+        }
       ]
     }
   },
@@ -35,29 +66,60 @@
     "image_id": "mko.metal.industry.small",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Small Metal Factory"
+      "DE": "Kleine Metallfabrik",
+      "EN": "Small Metal Factory",
+      "ES": "Pequeña fábrica de metales",
+      "FR": "Petite usine de métal",
+      "IT": "Piccola fabbrica di metalli",
+      "PT": "Pequena fábrica de metal"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "METAL",
-    "required_inventions": ["Metallic"],
+    "required_inventions": [
+      "Metallic"
+    ],
     "industry": {
       "budget": 120,
       "cost": 6600000,
       "required_inputs": [
-        { "resource": "ORE", "max": 150 },
-        { "resource": "CHEMICAL", "max": 12 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 2 },
-        { "resource": "WORK_FORCE_LO", "max": 90 }
+        {
+          "resource": "ORE",
+          "max": 150
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 12
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 90
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "METAL", "max": 72 }
+        {
+          "resource": "METAL",
+          "max": 72
+        }
       ]
     }
   }

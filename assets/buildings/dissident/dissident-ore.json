@@ -4,27 +4,52 @@
     "image_id": "dis.mine",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Ore Mine"
+      "DE": "Erz mein",
+      "EN": "Ore Mine",
+      "ES": "Mina de mineral",
+      "FR": "Mine de minerai",
+      "IT": "Minerale",
+      "PT": "Mina De Minério"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ORE",
-    "required_inventions": ["LSMining"],
+    "required_inventions": [
+      "LSMining"
+    ],
     "industry": {
       "budget": 340,
       "cost": 8400000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 109 }
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 109
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "ORE", "max": 800 }
+        {
+          "resource": "ORE",
+          "max": 800
+        }
       ]
     }
   },
@@ -33,27 +58,52 @@
     "image_id": "dis.mine.small",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Small Ore Mine"
+      "DE": "Kleine Erzmine",
+      "EN": "Small Ore Mine",
+      "ES": "Pequeña mina de mineral",
+      "FR": "Petite mine de minerai",
+      "IT": "Piccola miniera di minerali",
+      "PT": "Mina de minério pequena"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ORE",
-    "required_inventions": ["Mining"],
+    "required_inventions": [
+      "Mining"
+    ],
     "industry": {
       "budget": 120,
       "cost": 2000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 60 }
+        {
+          "resource": "CHEMICAL",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 60
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.03 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.03
+        }
       ],
       "outputs": [
-        { "resource": "ORE", "max": 175 }
+        {
+          "resource": "ORE",
+          "max": 175
+        }
       ]
     }
   }

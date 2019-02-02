@@ -4,26 +4,48 @@
     "image_id": "pgi.legal.services",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Law Firm"
+      "DE": "Anwaltskanzlei",
+      "EN": "Law Firm",
+      "ES": "Bufete de abogados",
+      "FR": "Cabinet d'avocats",
+      "IT": "Studio legale",
+      "PT": "Escritório de advocacia"
     },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "LEGAL_SERVICES",
-    "required_inventions": ["LawyerFirms"],
+    "required_inventions": [
+      "LawyerFirms"
+    ],
     "industry": {
       "budget": 1300,
       "cost": 6720000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 7 },
-        { "resource": "WORK_FORCE_LO", "max": 15 }
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 7
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 15
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 2
+        }
       ],
       "outputs": [
-        { "resource": "LEGAL_SERVICES", "max": 10 }
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 10
+        }
       ]
     }
   }

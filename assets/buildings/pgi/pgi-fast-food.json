@@ -4,7 +4,12 @@
     "image_id": "pgi.food.store",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Fast Food"
+      "DE": "Fast Food",
+      "EN": "Fast Food",
+      "ES": "Comida rápida",
+      "FR": "Fast food",
+      "IT": "Fast Food",
+      "PT": "Comida rápida"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",

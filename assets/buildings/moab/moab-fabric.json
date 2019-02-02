@@ -4,29 +4,60 @@
     "image_id": "moab.textile.industry",
     "construction_id": "generic.construction.4",
     "name": {
-      "en": "Dome of Threads"
+      "DE": "Kuppel der Fäden",
+      "EN": "Dome of Threads",
+      "ES": "Cúpula de hilos",
+      "FR": "Dôme de fils",
+      "IT": "Cupola di fili",
+      "PT": "Domo de Roscas"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "required_inventions": ["TextileLic"],
+    "required_inventions": [
+      "TextileLic"
+    ],
     "industry": {
       "budget": 500,
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "ORGANIC_MATERIAL", "max": 100 },
-        { "resource": "CHEMICAL", "max": 20 },
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 33 },
-        { "resource": "WORK_FORCE_LO", "max": 133 }
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 100
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 33
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 133
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.6 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.6
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "FABRIC", "max": 300 }
+        {
+          "resource": "FABRIC",
+          "max": 300
+        }
       ]
     }
   }

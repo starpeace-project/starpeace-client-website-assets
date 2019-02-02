@@ -4,29 +4,60 @@
     "image_id": "moab.construction.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Construction Dome"
+      "DE": "Bauhaube",
+      "EN": "Construction Dome",
+      "ES": "Cúpula de construcción",
+      "FR": "Dôme de construction",
+      "IT": "Cupola di costruzione",
+      "PT": "Cúpula de construção"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CONSTRUCTION",
-    "required_inventions": ["ConstInd"],
+    "required_inventions": [
+      "ConstInd"
+    ],
     "industry": {
       "budget": 800,
       "cost": 15400000,
       "required_inputs": [
-        { "resource": "ORE", "max": 120 },
-        { "resource": "METAL", "max": 25 },
-        { "resource": "CHEMICAL", "max": 25 },
-        { "resource": "WORK_FORCE_MID", "max": 4 },
-        { "resource": "WORK_FORCE_LO", "max": 150 }
+        {
+          "resource": "ORE",
+          "max": 120
+        },
+        {
+          "resource": "METAL",
+          "max": 25
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 25
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 4
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 150
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "CONSTRUCTION", "max": 20 }
+        {
+          "resource": "CONSTRUCTION",
+          "max": 20
+        }
       ]
     }
   }

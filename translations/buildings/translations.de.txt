@@ -1,0 +1,218 @@
+Gerätefabrik
+Kleingerätefabrik
+Appliances Store
+Automobilfabrik
+Autohändler
+Bank
+Bar
+Buchladen
+Chemiefabrik
+Kleine Chemiefabrik
+Bekleidungsfabrik
+Kleine Bekleidungsfabrik
+Bekleidungsgeschäft
+Computer Service
+Computerfabrik
+Bauarbeitsplatz
+Elektronische Komponentenfabrik
+Kleine elektronische Komponentenfabrik
+Textilfabrik
+Kleine Textilfabrik
+Bauernhof
+Kleine Farm
+Fast Food
+Bestattungsinstitut
+Möbelfabrik
+Möbelgeschäft
+Krankenhaus
+Hauptquartier
+Kleiner Park
+Polizeistation
+Schule
+Rathaus
+Handelszentrum
+Anwaltskanzlei
+Brennerei
+Maschinenfabrik
+Großer Markt
+Flohmarkt
+Metallfabrik
+Kleine Metallfabrik
+Kino
+Rippen
+Roter Ball
+Duango
+Erz mein
+Kleine Erzmine
+Küchenmaschine
+Kleine Küchenmaschine
+Nadel
+Ballonhaus
+Trichter
+Hütte
+Generisches hochwertiges Gebäude
+Generisches niedriges Gebäude
+Generisches Mittelklassegebäude
+Recycling-Häuser
+Recycling-Gebäude
+Sardinenbüchsen
+Die Kaserne
+Dreams Tower
+Die Pilze
+Die Bushings
+Schraubendreher
+Schlösser
+Turm
+Restaurant
+TV-Antenne
+Fernsehstation
+Sägewerk
+Spielzeugfabrik
+Spielzeugladen
+Kapitol
+Hochschule
+Dump
+Gefängnis
+Museum
+Lizzard Park
+Gobblin Park
+Chicken Park
+Alien Park
+Zentralpark
+Park
+Eingehendes Portal
+Ausgehendes Portal
+Statue
+Tennisplatz
+IFEL Tower
+Legende Mausoleum
+Paradigma Mausoleum
+Chemielager
+Kühlhaus
+Super Cold Storage
+Speicher Exportieren
+Aufbewahrung von Stoffen
+Speicher importieren
+Erzlagerung
+Allgemeine Lagerung
+Magna-Hauptquartier
+Magna-Forschungszentrum
+Sky Verkäufer
+Galaxie
+Filmstudios
+Wolkenstadt
+Der Himmel der Arbeiter
+Der Bienenstock
+Elfenbeinturm
+Mai blühen
+Der Oktopus
+Himmelskuppel
+Solarium
+Der Frühling
+Tulpe
+Der Whirlpool
+CD-Fabrik
+CD-Speicher
+Computergeschäft
+Takuri-Markt
+Tamakura-Markt
+Satoi-Markt
+Yamamoto
+Tanakuta
+Sato-Schaber
+Kunawa Schaber
+Koto-ku
+Kleines Koto
+Plastikfabrik
+Katana Haus
+Sohei House
+Tarakawa Haus
+Katana-Gebäude
+Nikotori-Gebäude
+Hazobito-Gebäude
+Hisogari-Gebäude
+Taramagushi
+Somsei-Taj Zimmer
+Marakas Zimmer
+Yohito Zimmer
+Hirijoto-Manko Zimmer
+Blaue Zimmer
+Lila Freude
+Runde Mariko
+Gerätekuppel
+Automobile Dome
+Kuppel der Freude
+Chemische Mine
+Chemische Kuppel
+Kuppel der Kleidung
+Computerhaube
+Bauhaube
+Ölbohrinsel
+Haube von Chips
+Kuppel der Fäden
+Nahrungskrater
+Tankstelle
+Raffineriekuppel
+Moab Kathedrale
+Moab Correctional
+Civic Affairs Tower
+Industries Tower
+Commerce Tower
+Immobilien-Turm
+Maschinenhaube
+Moab Supermarkt
+Metallkuppel
+Moab Basilika
+Dunkler Crysler
+Food Dome
+Zharot Palace
+Schwarzer Palast
+Knights Dome
+Ritter-Bungalow
+Guruh Dome
+Lothar Dome
+Schwarze Schüssel
+Seelen Dome
+Krankenschwester Dome
+Krankenschwester Zoo
+Krankenschwesterzimmer
+Krankenschwester Brüderlichkeit
+Große Gerätefabrik
+Druckerei
+Kleine Chemische Mine
+Große Chemiefabrik
+Große Farm
+Feuerwehr
+Einkaufszentrum
+Supermarkt
+Mart
+Große Metallfabrik
+Stachel
+Davis Bow
+Mc Neon Tower
+Der Turm
+Papierfabrik
+Drogerie
+Pharmazeutische Fabrik
+Große Küchenmaschine
+Xanadu-Palast
+Atrium
+Der Willington
+Goldene Mütze
+Kent Square
+Lisgar Towers
+Weiße Hütte
+Lyon Zimmer
+Blaue Villa
+Rosa Villa
+Spieltürme
+Arlington Zimmer
+Caesars Atrium
+Sizilien
+Mountbatten Rooms
+Der Botschafter
+Gladston Apts.
+Quincy
+Metcalfe-Türme
+Delmar Apts.
+Sunset Apts.

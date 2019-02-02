@@ -4,26 +4,48 @@
     "image_id": "mko.farm",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en":"Farm"
+      "DE": "Bauernhof",
+      "EN": "Farm",
+      "ES": "Granja",
+      "FR": "Ferme",
+      "IT": "Azienda agricola",
+      "PT": "Fazenda"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["LargeFarms"],
+    "required_inventions": [
+      "LargeFarms"
+    ],
     "industry": {
       "budget": 300,
       "cost": 10080000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 27 }
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 27
+        }
       ],
       "optional_inputs": [
-        { "resource": "CHEMICAL", "max": 0.5 }
+        {
+          "resource": "CHEMICAL",
+          "max": 0.5
+        }
       ],
       "outputs": [
-        { "resource": "FRESH_FOOD", "max": 45 },
-        { "resource": "ORGANIC_MATERIAL", "max": 21 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 45
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 21
+        }
       ]
     }
   },
@@ -32,26 +54,48 @@
     "image_id": "mko.farm.small",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en":"Small Farm"
+      "DE": "Kleine Farm",
+      "EN": "Small Farm",
+      "ES": "Pequeña granja",
+      "FR": "Petite ferme",
+      "IT": "Piccola fattoria",
+      "PT": "Fazendinha"
     },
     "seal": "mariko",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FARMING",
-    "required_inventions": ["FarmLic"],
+    "required_inventions": [
+      "FarmLic"
+    ],
     "industry": {
       "budget": 100,
       "cost": 2400000,
       "required_inputs": [
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 15 }
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 15
+        }
       ],
       "optional_inputs": [
-        { "resource": "CHEMICAL", "max": 0.2 }
+        {
+          "resource": "CHEMICAL",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "FRESH_FOOD", "max": 15 },
-        { "resource": "ORGANIC_MATERIAL", "max": 7 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 15
+        },
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 7
+        }
       ]
     }
   }

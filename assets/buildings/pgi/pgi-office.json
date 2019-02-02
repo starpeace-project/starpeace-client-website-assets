@@ -4,13 +4,20 @@
     "image_id": "pgi.office.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Sting"
+      "DE": "Stachel",
+      "EN": "Sting",
+      "ES": "Picadura",
+      "FR": "Piquer",
+      "IT": "Puntura",
+      "PT": "Picada"
     },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "pgi.office.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Davis Bow"
+      "DE": "Davis Bow",
+      "EN": "Davis Bow",
+      "ES": "Arco de davis",
+      "FR": "Davis Bow",
+      "IT": "Davis Bow",
+      "PT": "Davis Bow"
     },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "pgi.office.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Mc Neon Tower"
+      "DE": "Mc Neon Tower",
+      "EN": "Mc Neon Tower",
+      "ES": "Torre de neón mc",
+      "FR": "Mc Neon Tower",
+      "IT": "Mc Neon Tower",
+      "PT": "Mc Neon Tower"
     },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -46,13 +67,20 @@
     "image_id": "pgi.office.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "The Spire"
+      "DE": "Der Turm",
+      "EN": "The Spire",
+      "ES": "El chapitel",
+      "FR": "La Flèche",
+      "IT": "The Spire",
+      "PT": "O Pináculo"
     },
     "seal": "pgi",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   }
 ]

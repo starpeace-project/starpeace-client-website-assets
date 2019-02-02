@@ -4,7 +4,12 @@
     "image_id": "moab.gas.station",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Gas Station"
+      "DE": "Tankstelle",
+      "EN": "Gas Station",
+      "ES": "Gasolinera",
+      "FR": "Station-essence",
+      "IT": "Stazione di servizio",
+      "PT": "Posto de gasolina"
     },
     "seal": "moab",
     "zone": "COMMERCIAL",
@@ -18,28 +23,56 @@
     "image_id": "moab.refinery",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Refinery Dome"
+      "DE": "Raffineriekuppel",
+      "EN": "Refinery Dome",
+      "ES": "Cúpula de refineria",
+      "FR": "Dôme de raffinerie",
+      "IT": "Refinery Dome",
+      "PT": "Abóbada da refinaria"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "GASOLINE",
-    "required_inventions": ["Refinery"],
+    "required_inventions": [
+      "Refinery"
+    ],
     "industry": {
       "budget": 100,
       "cost": 35000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "CRUDE_OIL", "max": 3000 },
-        { "resource": "WORK_FORCE_MID", "max": 2 },
-        { "resource": "WORK_FORCE_LO", "max": 100 }
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "CRUDE_OIL",
+          "max": 3000
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 100
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.3 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.3
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "GASOLINE", "max": 3000 }
+        {
+          "resource": "GASOLINE",
+          "max": 3000
+        }
       ]
     }
   }

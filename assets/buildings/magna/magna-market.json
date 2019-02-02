@@ -4,13 +4,20 @@
     "image_id": "magna.supermarket.a",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Sky Seller"
+      "DE": "Sky Verkäufer",
+      "EN": "Sky Seller",
+      "ES": "Vendedor del cielo",
+      "FR": "Vendeur Sky",
+      "IT": "Venditore Sky",
+      "PT": "Vendedor do céu"
     },
     "seal": "magna",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "magna.supermarket.b",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Galaxie"
+      "DE": "Galaxie",
+      "EN": "Galaxie",
+      "ES": "Galaxie",
+      "FR": "Galaxie",
+      "IT": "Galaxie",
+      "PT": "Galaxie"
     },
     "seal": "magna",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "MARKET",
-    "required_inventions": ["Supermarkets"],
+    "required_inventions": [
+      "Supermarkets"
+    ],
     "commerce": {}
   }
 ]

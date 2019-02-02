@@ -4,27 +4,52 @@
     "image_id": "pgi.computing",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Computer Services"
+      "DE": "Computer Service",
+      "EN": "Computer Services",
+      "ES": "Servicios informaticos",
+      "FR": "Services informatiques",
+      "IT": "Servizi informatici",
+      "PT": "Serviços informáticos"
     },
     "seal": "pgi",
     "zone": "SERVICE",
     "category": "SERVICE",
     "industry_type": "COMPUTER_SERVICES",
-    "required_inventions": ["SoftwareFirms"],
+    "required_inventions": [
+      "SoftwareFirms"
+    ],
     "industry": {
       "budget": 2000,
       "cost": 33600000,
       "required_inputs": [
-        { "resource": "COMPUTER", "max": 1 },
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 19 },
-        { "resource": "WORK_FORCE_LO", "max": 15 }
+        {
+          "resource": "COMPUTER",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 19
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 15
+        }
       ],
       "optional_inputs": [
-        { "resource": "LEGAL_SERVICES", "max": 1 }
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 1
+        }
       ],
       "outputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 5 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 5
+        }
       ]
     }
   }

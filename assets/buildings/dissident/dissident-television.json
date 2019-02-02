@@ -4,13 +4,20 @@
     "image_id": "dis.tv.antenna",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "TV Antenna"
+      "DE": "TV-Antenne",
+      "EN": "TV Antenna",
+      "ES": "Antena de televisión",
+      "FR": "Antenne de télévision",
+      "IT": "Antenna TV",
+      "PT": "Antena de tv"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "TELEVISION",
-    "required_inventions": ["BasicTelevision"],
+    "required_inventions": [
+      "BasicTelevision"
+    ],
     "television": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "dis.tv.station",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "TV Station"
+      "DE": "Fernsehstation",
+      "EN": "TV Station",
+      "ES": "Estación de televisión",
+      "FR": "Chaîne TV",
+      "IT": "Stazione TV",
+      "PT": "Estação de TV"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "TELEVISION",
-    "required_inventions": ["BasicTelevision"],
+    "required_inventions": [
+      "BasicTelevision"
+    ],
     "television": {}
   }
 ]

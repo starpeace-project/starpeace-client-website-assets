@@ -4,13 +4,20 @@
     "image_id": "mko.office.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en":"Yamamoto"
+      "DE": "Yamamoto",
+      "EN": "Yamamoto",
+      "ES": "Yamamoto",
+      "FR": "Yamamoto",
+      "IT": "Yamamoto",
+      "PT": "Yamamoto"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "mko.office.b",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en":"Tanakuta"
+      "DE": "Tanakuta",
+      "EN": "Tanakuta",
+      "ES": "Tanakuta",
+      "FR": "Tanakuta",
+      "IT": "Tanakuta",
+      "PT": "Tanakuta"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "mko.office.c",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en":"Sato Scraper"
+      "DE": "Sato-Schaber",
+      "EN": "Sato Scraper",
+      "ES": "Sato Scraper",
+      "FR": "Grattoir Sato",
+      "IT": "Sato Scraper",
+      "PT": "Raspador Sato"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -46,13 +67,20 @@
     "image_id": "mko.office.d",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en":"Kunawa Scraper"
+      "DE": "Kunawa Schaber",
+      "EN": "Kunawa Scraper",
+      "ES": "Raspador Kunawa",
+      "FR": "Racloir Kunawa",
+      "IT": "Kunawa Scraper",
+      "PT": "Raspador Kunawa"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -60,13 +88,20 @@
     "image_id": "mko.office.e",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en":"Koto-ku"
+      "DE": "Koto-ku",
+      "EN": "Koto-ku",
+      "ES": "Koto-ku",
+      "FR": "Koto-ku",
+      "IT": "Koto-ku",
+      "PT": "Koto-ku"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   },
   {
@@ -74,13 +109,20 @@
     "image_id": "mko.office.f",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en":"Small Koto"
+      "DE": "Kleines Koto",
+      "EN": "Small Koto",
+      "ES": "Koto pequeño",
+      "FR": "Petit koto",
+      "IT": "Piccolo Koto",
+      "PT": "Koto Pequeno"
     },
     "seal": "mariko",
     "zone": "OFFICES",
     "category": "REAL_ESTATE",
     "industry_type": "OFFICE",
-    "required_inventions": ["Offices"],
+    "required_inventions": [
+      "Offices"
+    ],
     "office": {}
   }
 ]

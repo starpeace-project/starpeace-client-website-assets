@@ -4,13 +4,20 @@
     "image_id": "moab.hi.res.a",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Zharot Palace"
+      "DE": "Zharot Palace",
+      "EN": "Zharot Palace",
+      "ES": "Palacio Zharot",
+      "FR": "Zharot Palace",
+      "IT": "Palazzo Zharot",
+      "PT": "Palácio Zharot"
     },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -18,13 +25,20 @@
     "image_id": "moab.hi.res.b",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Black Palace"
+      "DE": "Schwarzer Palast",
+      "EN": "Black Palace",
+      "ES": "Palacio negro",
+      "FR": "Black Palace",
+      "IT": "Palazzo nero",
+      "PT": "Palácio Negro"
     },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -32,13 +46,20 @@
     "image_id": "moab.hi.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Knights Dome"
+      "DE": "Knights Dome",
+      "EN": "Knights Dome",
+      "ES": "Domo caballeros",
+      "FR": "Dôme des Chevaliers",
+      "IT": "Knights Dome",
+      "PT": "Cavaleiros cúpula"
     },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -46,13 +67,20 @@
     "image_id": "moab.hi.res.d",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Knights Bungalow"
+      "DE": "Ritter-Bungalow",
+      "EN": "Knights Bungalow",
+      "ES": "Bungalow Caballeros",
+      "FR": "Bungalow des Chevaliers",
+      "IT": "Bungalow dei Cavalieri",
+      "PT": "Bungalow Cavaleiros"
     },
     "seal": "moab",
     "zone": "HC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "HC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -60,13 +88,20 @@
     "image_id": "moab.lo.res.a",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Guruh Dome"
+      "DE": "Guruh Dome",
+      "EN": "Guruh Dome",
+      "ES": "Cúpula de guruh",
+      "FR": "Guruh Dome",
+      "IT": "Guruh Dome",
+      "PT": "Guruh Dome"
     },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -74,13 +109,20 @@
     "image_id": "moab.lo.res.b",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Lothar Dome"
+      "DE": "Lothar Dome",
+      "EN": "Lothar Dome",
+      "ES": "Lothar Dome",
+      "FR": "Dôme de Lothar",
+      "IT": "Cupola di Lothar",
+      "PT": "Lothar Dome"
     },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -88,13 +130,20 @@
     "image_id": "moab.lo.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Black Bowl"
+      "DE": "Schwarze Schüssel",
+      "EN": "Black Bowl",
+      "ES": "Cuenco negro",
+      "FR": "Bol noir",
+      "IT": "Ciotola nera",
+      "PT": "Taça Negra"
     },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -102,13 +151,20 @@
     "image_id": "moab.lo.res.d",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Souls Dome"
+      "DE": "Seelen Dome",
+      "EN": "Souls Dome",
+      "ES": "Cúpula de almas",
+      "FR": "Dôme des âmes",
+      "IT": "Souls Dome",
+      "PT": "Cúpula de almas"
     },
     "seal": "moab",
     "zone": "LC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "LC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -116,13 +172,20 @@
     "image_id": "moab.mi.res.a",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Nurse Dome"
+      "DE": "Krankenschwester Dome",
+      "EN": "Nurse Dome",
+      "ES": "Enfermera domo",
+      "FR": "Infirmière dôme",
+      "IT": "Infermiera dome",
+      "PT": "Enfermeira, cúpula"
     },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -130,13 +193,20 @@
     "image_id": "moab.mi.res.b",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Nurse Zoo"
+      "DE": "Krankenschwester Zoo",
+      "EN": "Nurse Zoo",
+      "ES": "Enfermera zoo",
+      "FR": "Infirmière Zoo",
+      "IT": "Zoo dell'infermiera",
+      "PT": "Enfermeira, jardim zoológico"
     },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -144,13 +214,20 @@
     "image_id": "moab.mi.res.c",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Nurse Rooms"
+      "DE": "Krankenschwesterzimmer",
+      "EN": "Nurse Rooms",
+      "ES": "Habitaciones de enfermeras",
+      "FR": "Chambres d'infirmières",
+      "IT": "Stanze dell'infermiera",
+      "PT": "Enfermeira"
     },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   },
   {
@@ -158,13 +235,20 @@
     "image_id": "moab.mi.res.d",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Nurse Fraternity"
+      "DE": "Krankenschwester Brüderlichkeit",
+      "EN": "Nurse Fraternity",
+      "ES": "Enfermera de la fraternidad",
+      "FR": "Infirmière Fraternité",
+      "IT": "Infermiera Fraternità",
+      "PT": "Enfermeira Fraternidade"
     },
     "seal": "moab",
     "zone": "MC_RESIDENTIAL",
     "category": "REAL_ESTATE",
     "industry_type": "MC_RESIDENTIAL",
-    "required_inventions": ["RealEstate"],
+    "required_inventions": [
+      "RealEstate"
+    ],
     "residential": {}
   }
 ]

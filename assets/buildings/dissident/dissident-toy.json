@@ -4,30 +4,64 @@
     "image_id": "dis.toy.industry",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Toy Factory"
+      "DE": "Spielzeugfabrik",
+      "EN": "Toy Factory",
+      "ES": "Fábrica de juguetes",
+      "FR": "Usine de jouets",
+      "IT": "Fabbrica di giocattoli",
+      "PT": "Fábrica de brinquedos"
     },
     "seal": "dissident",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "TOY",
-    "required_inventions": ["ToyIndustry"],
+    "required_inventions": [
+      "ToyIndustry"
+    ],
     "industry": {
       "budget": 600,
       "cost": 30000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 6 },
-        { "resource": "PLASTIC", "max": 21 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 12 },
-        { "resource": "WORK_FORCE_HI", "max": 2 },
-        { "resource": "WORK_FORCE_MID", "max": 5 },
-        { "resource": "WORK_FORCE_LO", "max": 120 }
+        {
+          "resource": "CHEMICAL",
+          "max": 6
+        },
+        {
+          "resource": "PLASTIC",
+          "max": 21
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 12
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 5
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 120
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1.5 },
-        { "resource": "LEGAL_SERVICES", "max": 0.75 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1.5
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.75
+        }
       ],
       "outputs": [
-        { "resource": "TOY", "max": 48 }
+        {
+          "resource": "TOY",
+          "max": 48
+        }
       ]
     }
   },
@@ -36,13 +70,20 @@
     "image_id": "dis.toy.store",
     "construction_image_id": "generic.construction.1",
     "name": {
-      "en": "Toy Store"
+      "DE": "Spielzeugladen",
+      "EN": "Toy Store",
+      "ES": "Tienda de juguetes",
+      "FR": "Magasin de jouets",
+      "IT": "Negozio di giocattoli",
+      "PT": "Loja de brinquedos"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "COMMERCE",
     "industry_type": "TOY",
-    "required_inventions": ["BasicCommerce"],
+    "required_inventions": [
+      "BasicCommerce"
+    ],
     "commerce": {}
   }
 ]

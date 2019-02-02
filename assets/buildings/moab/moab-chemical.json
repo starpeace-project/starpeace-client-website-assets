@@ -4,28 +4,56 @@
     "image_id": "moab.chemical.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Chemical Dome"
+      "DE": "Chemische Kuppel",
+      "EN": "Chemical Dome",
+      "ES": "Domo quimico",
+      "FR": "Dôme chimique",
+      "IT": "Cupola chimica",
+      "PT": "Domo Químico"
     },
     "seal": "moab",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CHEMICAL",
-    "required_inventions": ["ChemLic"],
+    "required_inventions": [
+      "ChemLic"
+    ],
     "industry": {
       "budget": 100,
       "cost": 40000000,
       "required_inputs": [
-        { "resource": "RAW_CHEMICAL", "max": 400 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 10 },
-        { "resource": "WORK_FORCE_LO", "max": 120 }
+        {
+          "resource": "RAW_CHEMICAL",
+          "max": 400
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 120
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.3 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.3
+        }
       ],
       "outputs": [
-        { "resource": "CHEMICAL", "max": 40 }
+        {
+          "resource": "CHEMICAL",
+          "max": 40
+        }
       ]
     }
   }

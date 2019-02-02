@@ -4,29 +4,60 @@
     "image_id": "pgi.textile.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Textile Factory"
+      "DE": "Textilfabrik",
+      "EN": "Textile Factory",
+      "ES": "Fabrica textil",
+      "FR": "Usine de textile",
+      "IT": "Fabbrica tessile",
+      "PT": "Fábrica têxtil"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "required_inventions": ["LSTextile"],
+    "required_inventions": [
+      "LSTextile"
+    ],
     "industry": {
       "budget": 100,
       "cost": 16800000,
       "required_inputs": [
-        { "resource": "ORGANIC_MATERIAL", "max": 30 },
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 6 },
-        { "resource": "WORK_FORCE_LO", "max": 113 }
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 30
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 6
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 113
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "FABRIC", "max": 120.599998474121 }
+        {
+          "resource": "FABRIC",
+          "max": 120.599998474121
+        }
       ]
     }
   },
@@ -35,28 +66,56 @@
     "image_id": "pgi.textile.industry.small",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Small Textile Factory"
+      "DE": "Kleine Textilfabrik",
+      "EN": "Small Textile Factory",
+      "ES": "Fábrica de textiles pequeños",
+      "FR": "Petite usine textile",
+      "IT": "Piccola fabbrica tessile",
+      "PT": "Fábrica de Pequenos Têxteis"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "FABRIC",
-    "required_inventions": ["TextileLic"],
+    "required_inventions": [
+      "TextileLic"
+    ],
     "industry": {
       "budget": 24,
       "cost": 6000000,
       "required_inputs": [
-        { "resource": "ORGANIC_MATERIAL", "max": 15 },
-        { "resource": "CHEMICAL", "max": 5 },
-        { "resource": "WORK_FORCE_MID", "max": 4 },
-        { "resource": "WORK_FORCE_LO", "max": 80 }
+        {
+          "resource": "ORGANIC_MATERIAL",
+          "max": 15
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 5
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 4
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 80
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.1 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.1
+        }
       ],
       "outputs": [
-        { "resource": "FABRIC", "max": 60 }
+        {
+          "resource": "FABRIC",
+          "max": 60
+        }
       ]
     }
   }

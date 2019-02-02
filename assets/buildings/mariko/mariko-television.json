@@ -4,13 +4,20 @@
     "image_id": "mko.tv.station",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "TV Station"
+      "DE": "Fernsehstation",
+      "EN": "TV Station",
+      "ES": "Estación de televisión",
+      "FR": "Chaîne TV",
+      "IT": "Stazione TV",
+      "PT": "Estação de TV"
     },
     "seal": "mariko",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "TELEVISION",
-    "required_inventions": ["BasicTelevision"],
+    "required_inventions": [
+      "BasicTelevision"
+    ],
     "television": {}
   }
 ]

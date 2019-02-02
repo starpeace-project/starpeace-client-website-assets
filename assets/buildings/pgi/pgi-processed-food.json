@@ -4,28 +4,56 @@
     "image_id": "pgi.food.proc",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Large Food Processor"
+      "DE": "Große Küchenmaschine",
+      "EN": "Large Food Processor",
+      "ES": "Gran procesador de alimentos",
+      "FR": "Grand robot culinaire",
+      "IT": "Grande robot da cucina",
+      "PT": "Grande processador de alimentos"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["LSFoodPrc"],
+    "required_inventions": [
+      "LSFoodPrc"
+    ],
     "industry": {
       "budget": 100,
       "cost": 25200000,
       "required_inputs": [
-        { "resource": "FRESH_FOOD", "max": 79 },
-        { "resource": "CHEMICAL", "max": 20 },
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 70 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 79
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 70
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.4 },
-        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.4
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.4
+        }
       ],
       "outputs": [
-        { "resource": "PROCESSED_FOOD", "max": 80 }
+        {
+          "resource": "PROCESSED_FOOD",
+          "max": 80
+        }
       ]
     }
   },
@@ -34,28 +62,56 @@
     "image_id": "pgi.food.proc.small",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Food Processor"
+      "DE": "Küchenmaschine",
+      "EN": "Food Processor",
+      "ES": "Procesador de alimentos",
+      "FR": "Robot culinaire",
+      "IT": "Robot da cucina",
+      "PT": "Processador de alimentos"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "PROCESSED_FOOD",
-    "required_inventions": ["FoodPrcLic"],
+    "required_inventions": [
+      "FoodPrcLic"
+    ],
     "industry": {
       "budget": 30,
       "cost": 9000000,
       "required_inputs": [
-        { "resource": "FRESH_FOOD", "max": 40 },
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "WORK_FORCE_MID", "max": 1 },
-        { "resource": "WORK_FORCE_LO", "max": 50 }
+        {
+          "resource": "FRESH_FOOD",
+          "max": 40
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 50
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.2 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.2
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "PROCESSED_FOOD", "max": 40 }
+        {
+          "resource": "PROCESSED_FOOD",
+          "max": 40
+        }
       ]
     }
   }

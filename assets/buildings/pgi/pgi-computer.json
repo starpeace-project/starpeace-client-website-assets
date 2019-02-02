@@ -4,30 +4,64 @@
     "image_id": "pgi.bm.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Computer Factory"
+      "DE": "Computerfabrik",
+      "EN": "Computer Factory",
+      "ES": "Fábrica de computadoras",
+      "FR": "Usine informatique",
+      "IT": "Fabbrica di computer",
+      "PT": "Fábrica de Computadores"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "COMPUTER",
-    "required_inventions": ["BMInd"],
+    "required_inventions": [
+      "BMInd"
+    ],
     "industry": {
       "budget": 2300,
       "cost": 28000000,
       "required_inputs": [
-        { "resource": "METAL", "max": 25 },
-        { "resource": "ELECTRONIC_COMPONENT", "max": 25 },
-        { "resource": "CHEMICAL", "max": 10 },
-        { "resource": "WORK_FORCE_HI", "max": 1 },
-        { "resource": "WORK_FORCE_MID", "max": 25 },
-        { "resource": "WORK_FORCE_LO", "max": 50 }
+        {
+          "resource": "METAL",
+          "max": 25
+        },
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 25
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 10
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 1
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 25
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 50
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "COMPUTER", "max": 5 }
+        {
+          "resource": "COMPUTER",
+          "max": 5
+        }
       ]
     }
   }

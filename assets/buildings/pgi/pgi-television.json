@@ -4,13 +4,20 @@
     "image_id": "pgi.tv.station",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "TV Station"
+      "DE": "Fernsehstation",
+      "EN": "TV Station",
+      "ES": "Estación de televisión",
+      "FR": "Chaîne TV",
+      "IT": "Stazione TV",
+      "PT": "Estação de TV"
     },
     "seal": "pgi",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "TELEVISION",
-    "required_inventions": ["BasicTelevision"],
+    "required_inventions": [
+      "BasicTelevision"
+    ],
     "television": {}
   }
 ]

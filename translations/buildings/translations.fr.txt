@@ -1,0 +1,218 @@
+Usine d'électroménagers
+Usine de petits appareils
+Magasin d'électroménager
+Usine automobile
+Concessionnaire automobile
+Banque
+Bar
+Librairie
+Usine chimique
+Petite usine chimique
+Usine de vêtements
+Petite usine de vêtements
+Magasin de vêtements
+Services informatiques
+Usine informatique
+Chantier de construction
+Usine de composants électroniques
+Petite usine de composants électroniques
+Usine de textile
+Petite usine textile
+Ferme
+Petite ferme
+Fast food
+Pompes funèbres
+Usine de meubles
+Magasin de meubles
+Hôpital
+Quartier général
+Petit parc
+Poste de police
+École
+Mairie
+Centre commercial
+Cabinet d'avocats
+Distillerie
+Usine de machines
+Grand marché
+Marché aux puces
+Usine de métal
+Petite usine de métal
+Cinéma
+Travers de porc
+Balle rouge
+Duango
+Mine de minerai
+Petite mine de minerai
+Robot culinaire
+Petit robot culinaire
+Aiguille
+Balloon House
+Entonnoir
+Chalet
+Bâtiment générique de grande classe
+Bâtiment générique de basse classe
+Bâtiment générique de la classe moyenne
+Maisons recyclées
+Bâtiments Recyclés
+Boîtes de sardines
+La caserne
+Tour de rêves
+Les champignons
+Les buissons
+Visseuse
+Châteaux
+Flèche
+Restaurant
+Antenne de télévision
+Chaîne TV
+Scierie
+Usine de jouets
+Magasin de jouets
+Capitole
+Université
+Déverser
+Prison
+Musée
+Lizzard Park
+Gobblin Park
+Parc de poulet
+Alien Park
+Parc central
+Parc
+Portail entrant
+Portail sortant
+Statue
+Court de tennis
+Tour IFEL
+Mausolée de Légende
+Mausolée Paradigm
+Stockage de produits chimiques
+Chambre froide
+Super stockage à froid
+Stockage d'exportation
+Stockage des tissus
+Stockage d'importation
+Stockage de minerai
+Stockage général
+Siège Magna
+Centre de recherche Magna
+Vendeur Sky
+Galaxie
+Studios de cinéma
+Cloud City
+Le paradis des travailleurs
+La ruche
+Tour d'ivoire
+Fleur de mai
+La pieuvre
+Sky Dome
+Solarium
+Le printemps
+Tulipe
+Le tourbillon
+Usine de disques compacts
+Magasin de disques compacts
+Magasin d'informatique
+Marché de Takuri
+Marché de tamakura
+Satoi Market
+Yamamoto
+Tanakuta
+Grattoir Sato
+Racloir Kunawa
+Koto-ku
+Petit koto
+Usine de plastique
+Maison Katana
+Maison Sohei
+Maison Tarakawa
+Bâtiment Katana
+Bâtiment Nikotori
+Bâtiment Hazobito
+Bâtiment Hisogari
+Taramagushi
+Chambres Somsei-Taj
+Chambres Marakas
+Chambres Yohito
+Chambres Hirijoto-Manko
+Chambres bleues
+Purple Delight
+Rond mariko
+Electroménager Dome
+Dôme Automobile
+Dôme de Joie
+Mine chimique
+Dôme chimique
+Dôme de vêtements
+Dôme informatique
+Dôme de construction
+Plate-forme pétrolière
+Dôme de puces
+Dôme de fils
+Cratère alimentaire
+Station-essence
+Dôme de raffinerie
+Cathédrale de Moab
+Moab Correctional
+Tour des affaires civiques
+Tour des industries
+Tour de commerce
+Tour immobilier
+Dôme de machines
+Moab Supermarché
+Dôme Métaux
+Moab Basilica
+Dark Crysler
+Dôme alimentaire
+Zharot Palace
+Black Palace
+Dôme des Chevaliers
+Bungalow des Chevaliers
+Guruh Dome
+Dôme de Lothar
+Bol noir
+Dôme des âmes
+Infirmière dôme
+Infirmière Zoo
+Chambres d'infirmières
+Infirmière Fraternité
+Grande usine d'électroménagers
+Usine d'impression
+Petite mine chimique
+Grande usine chimique
+Grande Ferme
+Caserne de pompiers
+Centre commercial
+Supermarché
+Marché
+Grande usine de métal
+Piquer
+Davis Bow
+Mc Neon Tower
+La Flèche
+Papeterie
+Pharmacie
+Usine Pharmaceutique
+Grand robot culinaire
+Palais Xanadu
+Atrium
+Le Willington
+Golden Cap
+Kent Square
+Tours Lisgar
+Cabane Blanche
+Lyon Chambres
+Blue Mansion
+Manoir Rose
+Tours de Playfair
+Chambres Arlington
+Atrium de César
+La Sicile
+Chambres Mountbatten
+L'Ambassadeur
+Gladston Apts.
+Quincy
+Tours Metcalfe
+Delmar Apts.
+Sunset Apts.

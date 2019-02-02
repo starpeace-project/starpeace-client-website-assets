@@ -4,7 +4,12 @@
     "image_id": "moab.movie",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Movie Theater"
+      "DE": "Kino",
+      "EN": "Movie Theater",
+      "ES": "Cine",
+      "FR": "Cinéma",
+      "IT": "Cinema",
+      "PT": "Cinema"
     },
     "seal": "moab",
     "zone": "COMMERCIAL",

@@ -4,7 +4,12 @@
     "image_id": "generic.mausoleum.legend",
     "construction_image_id": "generic.mausoleum.construction",
     "name": {
-      "en": "Legend Mausoleum"
+      "DE": "Legende Mausoleum",
+      "EN": "Legend Mausoleum",
+      "ES": "Leyenda del mausoleo",
+      "FR": "Mausolée de Légende",
+      "IT": "Mausoleo della leggenda",
+      "PT": "Mausoléu lendário"
     },
     "seal": "generic",
     "zone": "MAUSOLEUM",
@@ -18,7 +23,12 @@
     "image_id": "generic.mausoleum.paradigm",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Paradigm Mausoleum"
+      "DE": "Paradigma Mausoleum",
+      "EN": "Paradigm Mausoleum",
+      "ES": "Mausoleo del paradigma",
+      "FR": "Mausolée Paradigm",
+      "IT": "Mausoleo del Paradigma",
+      "PT": "Paradigma Mausoléu"
     },
     "seal": "generic",
     "zone": "MAUSOLEUM",

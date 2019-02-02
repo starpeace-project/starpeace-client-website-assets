@@ -4,7 +4,12 @@
     "image_id": "moab.cathedral",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Moab Cathedral"
+      "DE": "Moab Kathedrale",
+      "EN": "Moab Cathedral",
+      "ES": "Catedral de moab",
+      "FR": "Cathédrale de Moab",
+      "IT": "Cattedrale di Moab",
+      "PT": "Catedral de Moab"
     },
     "seal": "moab",
     "zone": "SERVICE",
@@ -18,13 +23,20 @@
     "image_id": "moab.correctional",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Moab Correctional"
+      "DE": "Moab Correctional",
+      "EN": "Moab Correctional",
+      "ES": "Moab correccional",
+      "FR": "Moab Correctional",
+      "IT": "Moab Correctional",
+      "PT": "Moab Correcional"
     },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PRISON",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -32,13 +44,20 @@
     "image_id": "moab.correctional.tower",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Civic Affairs Tower"
+      "DE": "Civic Affairs Tower",
+      "EN": "Civic Affairs Tower",
+      "ES": "Torre de asuntos cívicos",
+      "FR": "Tour des affaires civiques",
+      "IT": "Torre degli affari civici",
+      "PT": "Torre dos Assuntos Cívicos"
     },
     "seal": "moab",
     "zone": "CIVICS",
     "category": "CIVIC",
     "industry_type": "PRISON",
-    "required_inventions": ["CivicFac"],
+    "required_inventions": [
+      "CivicFac"
+    ],
     "civic": {}
   },
   {
@@ -46,7 +65,12 @@
     "image_id": "moab.hq.1",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Headquarters"
+      "DE": "Hauptquartier",
+      "EN": "Headquarters",
+      "ES": "Sede",
+      "FR": "Quartier général",
+      "IT": "Quartier generale",
+      "PT": "Quartel general"
     },
     "seal": "moab",
     "zone": "SERVICE",
@@ -59,7 +83,12 @@
     "image_id": "moab.industry.tower",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Industries Tower"
+      "DE": "Industries Tower",
+      "EN": "Industries Tower",
+      "ES": "Torre de industrias",
+      "FR": "Tour des industries",
+      "IT": "Torre delle industrie",
+      "PT": "Torre de indústrias"
     },
     "seal": "moab",
     "zone": "SERVICE",
@@ -72,7 +101,12 @@
     "image_id": "moab.market.tower",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Commerce Tower"
+      "DE": "Commerce Tower",
+      "EN": "Commerce Tower",
+      "ES": "Torre de comercio",
+      "FR": "Tour de commerce",
+      "IT": "Torre del commercio",
+      "PT": "Torre de comércio"
     },
     "seal": "moab",
     "zone": "SERVICE",
@@ -85,7 +119,12 @@
     "image_id": "moab.residential.tower",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Real Estate Tower"
+      "DE": "Immobilien-Turm",
+      "EN": "Real Estate Tower",
+      "ES": "Torre inmobiliaria",
+      "FR": "Tour immobilier",
+      "IT": "Real Estate Tower",
+      "PT": "Torre Imobiliária"
     },
     "seal": "moab",
     "zone": "SERVICE",
@@ -98,7 +137,12 @@
     "image_id": "moab.townhall",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Townhall"
+      "DE": "Rathaus",
+      "EN": "Townhall",
+      "ES": "Ayuntamiento",
+      "FR": "Mairie",
+      "IT": "Municipio",
+      "PT": "Prefeitura"
     },
     "seal": "moab",
     "zone": "CIVICS",
@@ -112,7 +156,12 @@
     "image_id": "moab.tradecenter",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Tradecenter"
+      "DE": "Handelszentrum",
+      "EN": "Tradecenter",
+      "ES": "Centro de Comercio",
+      "FR": "Centre commercial",
+      "IT": "Tradecenter",
+      "PT": "Centro comercial"
     },
     "seal": "moab",
     "zone": "CIVICS",

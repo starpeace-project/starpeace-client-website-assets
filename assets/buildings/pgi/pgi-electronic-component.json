@@ -4,29 +4,60 @@
     "image_id": "pgi.elect.comp.industry",
     "construction_image_id": "generic.construction.5",
     "name": {
-      "en": "Electronic Component Factory"
+      "DE": "Elektronische Komponentenfabrik",
+      "EN": "Electronic Component Factory",
+      "ES": "Fábrica de componentes electrónicos",
+      "FR": "Usine de composants électroniques",
+      "IT": "Fabbrica di componenti elettronici",
+      "PT": "Fábrica de Componentes Eletrônicos"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "required_inventions": ["LSEPrd"],
+    "required_inventions": [
+      "LSEPrd"
+    ],
     "industry": {
       "budget": 120,
       "cost": 28000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 24 },
-        { "resource": "METAL", "max": 40 },
-        { "resource": "WORK_FORCE_HI", "max": 3 },
-        { "resource": "WORK_FORCE_MID", "max": 8 },
-        { "resource": "WORK_FORCE_LO", "max": 70 }
+        {
+          "resource": "CHEMICAL",
+          "max": 24
+        },
+        {
+          "resource": "METAL",
+          "max": 40
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 3
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 8
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 70
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.5 },
-        { "resource": "LEGAL_SERVICES", "max": 0.8 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.5
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.8
+        }
       ],
       "outputs": [
-        { "resource": "ELECTRONIC_COMPONENT", "max": 50 }
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 50
+        }
       ]
     }
   },
@@ -35,29 +66,60 @@
     "image_id": "pgi.elect.comp.industry.small",
     "construction_image_id": "generic.construction.3",
     "name": {
-      "en": "Small Electronic Component Factory"
+      "DE": "Kleine elektronische Komponentenfabrik",
+      "EN": "Small Electronic Component Factory",
+      "ES": "Fábrica de componentes electrónicos pequeños",
+      "FR": "Petite usine de composants électroniques",
+      "IT": "Piccola fabbrica di componenti elettronici",
+      "PT": "Fábrica de Pequenos Componentes Eletrônicos"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "ELECTRONIC_COMPONENT",
-    "required_inventions": ["ElecLic"],
+    "required_inventions": [
+      "ElecLic"
+    ],
     "industry": {
       "budget": 30,
       "cost": 10000000,
       "required_inputs": [
-        { "resource": "CHEMICAL", "max": 12 },
-        { "resource": "METAL", "max": 20 },
-        { "resource": "WORK_FORCE_HI", "max": 2 },
-        { "resource": "WORK_FORCE_MID", "max": 6 },
-        { "resource": "WORK_FORCE_LO", "max": 50 }
+        {
+          "resource": "CHEMICAL",
+          "max": 12
+        },
+        {
+          "resource": "METAL",
+          "max": 20
+        },
+        {
+          "resource": "WORK_FORCE_HI",
+          "max": 2
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 6
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 50
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 0.25 },
-        { "resource": "LEGAL_SERVICES", "max": 0.4 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 0.25
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.4
+        }
       ],
       "outputs": [
-        { "resource": "ELECTRONIC_COMPONENT", "max": 25 }
+        {
+          "resource": "ELECTRONIC_COMPONENT",
+          "max": 25
+        }
       ]
     }
   }

@@ -4,29 +4,60 @@
     "image_id": "pgi.const.industry",
     "construction_image_id": "generic.construction.4",
     "name": {
-      "en": "Construction Workyard"
+      "DE": "Bauarbeitsplatz",
+      "EN": "Construction Workyard",
+      "ES": "Patio de la construcción",
+      "FR": "Chantier de construction",
+      "IT": "Cantiere di costruzione",
+      "PT": "Estaleiro de construção"
     },
     "seal": "pgi",
     "zone": "INDUSTRIAL",
     "category": "INDUSTRY",
     "industry_type": "CONSTRUCTION",
-    "required_inventions": ["ConstInd"],
+    "required_inventions": [
+      "ConstInd"
+    ],
     "industry": {
       "budget": 2500,
       "cost": 36960000,
       "required_inputs": [
-        { "resource": "ORE", "max": 264 },
-        { "resource": "METAL", "max": 55 },
-        { "resource": "CHEMICAL", "max": 55 },
-        { "resource": "WORK_FORCE_MID", "max": 6 },
-        { "resource": "WORK_FORCE_LO", "max": 222 }
+        {
+          "resource": "ORE",
+          "max": 264
+        },
+        {
+          "resource": "METAL",
+          "max": 55
+        },
+        {
+          "resource": "CHEMICAL",
+          "max": 55
+        },
+        {
+          "resource": "WORK_FORCE_MID",
+          "max": 6
+        },
+        {
+          "resource": "WORK_FORCE_LO",
+          "max": 222
+        }
       ],
       "optional_inputs": [
-        { "resource": "COMPUTER_SERVICES", "max": 1 },
-        { "resource": "LEGAL_SERVICES", "max": 0.2 }
+        {
+          "resource": "COMPUTER_SERVICES",
+          "max": 1
+        },
+        {
+          "resource": "LEGAL_SERVICES",
+          "max": 0.2
+        }
       ],
       "outputs": [
-        { "resource": "CONSTRUCTION", "max": 50 }
+        {
+          "resource": "CONSTRUCTION",
+          "max": 50
+        }
       ]
     }
   }

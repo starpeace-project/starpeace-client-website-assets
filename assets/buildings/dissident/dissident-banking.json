@@ -4,13 +4,20 @@
     "image_id": "dis.bank",
     "construction_image_id": "generic.construction.2",
     "name": {
-      "en": "Bank"
+      "DE": "Bank",
+      "EN": "Bank",
+      "ES": "Banco",
+      "FR": "Banque",
+      "IT": "Banca",
+      "PT": "Banco"
     },
     "seal": "dissident",
     "zone": "COMMERCIAL",
     "category": "SERVICE",
     "industry_type": "BANKING",
-    "required_inventions": ["Banking"],
+    "required_inventions": [
+      "Banking"
+    ],
     "banking": {}
   }
 ]
