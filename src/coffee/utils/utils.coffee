@@ -7,6 +7,8 @@ Jimp = require('jimp')
 streamToArray = require('stream-to-array')
 gifFrames = require('gif-frames')
 
+ConsoleProgressUpdater = require('./console-progress-updater')
+
 class Utils
   @random_md5: () ->
     data = (Math.random() * new Date().getTime()) + "asdf" + (Math.random() * 1000000) + "fdsa" +(Math.random() * 1000000)
@@ -41,20 +43,28 @@ class Utils
 
     image
 
-  @load_and_group_animation: (image_file_paths) ->
+  @load_and_group_animation: (root_dir, image_file_paths, show_progress=false) ->
+    progress_updater = new ConsoleProgressUpdater(image_file_paths.length) if show_progress
     Promise.all(_.map(image_file_paths, (file_path) -> new Promise (done) ->
-      gifFrames({ url: file_path, frames: 'all', outputType: 'png' })
-        .then (data) -> done(data)
+      gif_path = if root_dir? then path.resolve(root_dir, file_path) else file_path
+      gifFrames({ url: gif_path, frames: 'all', outputType: 'png' })
+        .then (data) ->
+          progress_updater.next() if progress_updater?
+          done(data)
         .catch (error) -> console.log "failed to load #{file_path}"
     ))
     .then (frame_groups) -> new Promise (done) ->
-      Promise.all(_.map(frame_groups, (group) -> Utils.group_to_buffer(group))).then(done)
+      progress_updater = new ConsoleProgressUpdater(3 * _.sum(_.map(frame_groups, 'length'))) if show_progress
+      Promise.all(_.map(frame_groups, (group) -> Utils.group_to_buffer(group, progress_updater))).then(done)
 
-  @group_to_buffer: (frame_group) ->
+  @group_to_buffer: (frame_group, progress_updater) ->
     new Promise (done) ->
       Promise.all(_.map(frame_group, (frame) -> new Promise (inner_done) ->
+        progress_updater.next() if progress_updater?
         streamToArray(frame.getImage()).then (parts) ->
+          progress_updater.next() if progress_updater?
           Jimp.read(Buffer.concat(_.map(parts, (part) -> Buffer.from(part)))).then (image) ->
+            progress_updater.next() if progress_updater?
             inner_done([frame.frameIndex, image])
       )).then(done)
 

@@ -62,7 +62,7 @@ write_assets = (output_dir) -> ([concrete_definition_manifest, concrete_spritesh
     metadata_file = path.join(output_dir, "concrete.metadata.json")
     fs.mkdirsSync(path.dirname(metadata_file))
     fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-    console.log "concrete metadata saved to #{metadata_file}"
+    console.log " [OK] concrete metadata saved to #{metadata_file}"
 
     Promise.all(write_promises).then (result) ->
       process.stdout.write '\n'

@@ -14,7 +14,7 @@ class CombineStaticNews
         source_news_file = path.join(news_dir, "news.static.#{language}.json")
         target_news_file = path.join(target_dir, "news.static.#{language}.json")
         fs.copySync(source_news_file, target_news_file)
-        console.log "static news #{source_news_file} copied to #{target_news_file}"
+        console.log " [OK] static news #{source_news_file} copied to #{target_news_file}"
 
       done([])
 

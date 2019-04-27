@@ -30,7 +30,7 @@ aggregate = ([overlay_definition_manifest, overlay_texture_manifest]) ->
       definition.frame_ids = _.map(frame_textures, (frame) -> frame.id)
 
       frame_texture_groups.push frame_textures
-      console.log "#{definition.id} has #{frame_textures.length} frames"
+      console.log " [OK] #{definition.id} has #{frame_textures.length} frames"
 
     done([overlay_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
@@ -68,7 +68,7 @@ write_assets = (output_dir) -> ([overlay_definition_manifest, overlay_spriteshee
     metadata_file = path.join(output_dir, "overlay.metadata.json")
     fs.mkdirsSync(path.dirname(metadata_file))
     fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-    console.log "overlay metadata saved to #{metadata_file}"
+    console.log " [OK] overlay metadata saved to #{metadata_file}"
 
     Promise.all(write_promises).then (result) ->
       process.stdout.write '\n'

@@ -68,7 +68,7 @@ write_assets = (output_dir) -> (land_manifests) ->
       metadata_file = path.join(output_dir, "land.#{manifest.planet_type}.metadata.json")
       fs.mkdirsSync(path.dirname(metadata_file))
       fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-      console.log "land metadata for planet #{manifest.planet_type} saved to #{metadata_file}"
+      console.log " [OK] land metadata for planet #{manifest.planet_type} saved to #{metadata_file}"
 
 
     Promise.all(write_promises).then (result) ->

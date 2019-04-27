@@ -22,7 +22,7 @@ module.exports = class EffectTexture
       console.log "loading effect textures from #{effect_dir}\n"
 
       image_file_paths = _.filter(FileUtils.read_all_files_sync(effect_dir), (file_path) -> file_path.indexOf('legacy') < 0 && file_path.endsWith('.gif'))
-      Utils.load_and_group_animation(image_file_paths)
+      Utils.load_and_group_animation(null, image_file_paths)
         .then (frame_groups) ->
           progress = new ConsoleProgressUpdater(frame_groups.length)
           _.map(_.zip(image_file_paths, frame_groups), (pair) ->

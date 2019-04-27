@@ -16,6 +16,6 @@ module.exports = class PlaneTextureManifest
     new Promise (fulfill, reject) ->
       PlaneTexture.load(land_dir)
         .then (textures) ->
-          console.log "found and loaded #{textures.length} plane textures into manifest\n"
+          console.log " [OK] found and loaded #{textures.length} plane textures into manifest\n"
           fulfill(new PlaneTextureManifest(textures))
         .catch reject

@@ -13,7 +13,7 @@ write_map_images = (output_dir) -> (map_images) ->
     for image in map_images
       bmp_map_file = path.join(output_dir, "map.#{image.name.toLowerCase()}.texture.bmp")
       fs.copySync(image.full_path, bmp_map_file)
-      console.log "map #{image.full_path} copied to #{bmp_map_file}"
+      console.log " [OK] map #{image.full_path} copied to #{bmp_map_file}"
 
     done([])
 

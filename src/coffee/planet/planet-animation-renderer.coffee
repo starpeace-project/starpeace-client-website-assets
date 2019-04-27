@@ -84,8 +84,8 @@ class PlanetAnimationRenderer
         canvas: { addEventListener: () -> }
         context: gl
       })
-      # renderer.setPixelRatio(ASPECT)
-      # renderer.setSize(WIDTH, HEIGHT)
+      renderer.setPixelRatio(PlanetAnimationRenderer.WIDTH / PlanetAnimationRenderer.HEIGHT)
+      # renderer.setSize(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT)
       renderer.setDrawingBufferSize(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, PlanetAnimationRenderer.ASPECT)
 
       renderTarget = new THREE.WebGLRenderTarget(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, {
@@ -94,7 +94,8 @@ class PlanetAnimationRenderer
         format: THREE.RGBAFormat
       })
 
-      renderer.render(scene, camera, renderTarget)
+      renderer.setRenderTarget(renderTarget);
+      renderer.render(scene, camera)
 
       pixels = new Uint8Array(4 * PlanetAnimationRenderer.WIDTH * PlanetAnimationRenderer.HEIGHT)
       renderer.readRenderTargetPixels(renderTarget, 0, 0, PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, pixels)

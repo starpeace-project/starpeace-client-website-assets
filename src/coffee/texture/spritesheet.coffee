@@ -12,7 +12,7 @@ DEBUG_MODE = true
 
 class Spritesheet
   constructor: (@index, @width, @height, @packed_texture_data) ->
-    console.log "#{@packed_texture_data.length} textures packed into spritesheet"
+    console.log " [OK] #{@packed_texture_data.length} textures packed into spritesheet"
 
   render_to_texture: () ->
     image = new Jimp(@width, @height)
@@ -28,7 +28,7 @@ class Spritesheet
   save_texture: (output_dir, texture_name) ->
     texture_file = path.join(output_dir, texture_name)
     fs.mkdirsSync(path.dirname(texture_file))
-    console.log "spritesheet texture saved to #{texture_file}"
+    console.log " [OK] spritesheet texture saved to #{texture_file}"
     @render_to_texture().write(texture_file)
 
   frames_json: () ->
@@ -55,7 +55,7 @@ class Spritesheet
     spritesheet_atlas = path.join(output_dir, atlas_name)
     fs.mkdirsSync(path.dirname(spritesheet_atlas))
     fs.writeFileSync(spritesheet_atlas, if debug_mode then JSON.stringify(json, null, 2) else JSON.stringify(json))
-    console.log "spritesheet atlas saved to #{spritesheet_atlas}"
+    console.log " [OK] spritesheet atlas saved to #{spritesheet_atlas}"
 
   @data_from_texture: (texture, texture_keys_used) ->
     spritesheet_key = texture.key_for_spritesheet()

@@ -58,7 +58,6 @@ console.log "\n-----------------------------------------------------------------
 
 sound_dir = path.join(assets_dir, 'sounds')
 
-buildings_dir = path.join(assets_dir, 'buildings')
 concrete_dir = path.join(assets_dir, 'concrete')
 effects_dir = path.join(assets_dir, 'effects')
 inventions_dir = path.join(assets_dir, 'inventions')
@@ -69,12 +68,11 @@ news_dir = path.join(assets_dir, 'news')
 overlays_dir = path.join(assets_dir, 'overlays')
 planes_dir = path.join(assets_dir, 'planes')
 roads_dir = path.join(assets_dir, 'roads')
-seals_dir = path.join(assets_dir, 'seals')
 
 translations_manifest = new TranslationsManifest()
 
 jobs = []
-jobs.push(CombineBuildingManifest.combine(translations_manifest, buildings_dir, seals_dir, target_with_version)) unless SKIP_BUILDINGS
+jobs.push(CombineBuildingManifest.combine(translations_manifest, assets_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_with_version)) unless SKIP_EFFECTS
 jobs.push(CombineInventionManifest.combine(translations_manifest, inventions_dir, target_with_version)) unless SKIP_INVENTIONS
@@ -94,3 +92,4 @@ Promise.all(jobs)
   .catch (error) ->
     console.log "there was an error during execution:"
     console.log error
+    process.exit(1)

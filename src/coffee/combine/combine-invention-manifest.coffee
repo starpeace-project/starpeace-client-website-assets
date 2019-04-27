@@ -3,29 +3,50 @@ path = require('path')
 fs = require('fs-extra')
 _ = require('lodash')
 
-InventionDefinitionManifest = require('../invention/invention-definition-manifest')
+{
+  InventionDefinition
+} = require('@starpeace/starpeace-assets-types')
+
+FileUtils = require('../utils/file-utils')
 
 DEBUG_MODE = false
 
 
-write_assets = (translations_manifest, output_dir) -> ([invention_definition_manifest]) ->
+load_inventions = (inventions_dir) ->
+  new Promise (done, error) ->
+    try
+      console.log " [OK] loading invention configurations from #{inventions_dir}"
+      definitions = _.map(FileUtils.parse_to_json(inventions_dir, ['.json'], []), InventionDefinition.from_json)
+      console.log " [OK] found #{definitions.length} invention definitions"
+
+      done({ definitions })
+    catch err
+      error(err)
+
+write_assets = (translations_manifest, output_dir) -> (combine_results) ->
   new Promise (done) ->
-
-    definitions = []
-    for key,invention of invention_definition_manifest.all_definitions
-      definitions.push invention.to_compiled_json()
-
-      translations_manifest.accumulate_i18n_text(invention.name_key(), invention.name)
-      translations_manifest.accumulate_i18n_text(invention.description_key(), invention.description)
+    for key,invention of combine_results.definitions
+      translations_manifest.accumulate_i18n_text("invention.#{invention.id}.name", invention.name)
+      translations_manifest.accumulate_i18n_text("invention.#{invention.id}.description", invention.description)
 
     json = {
-      inventions: definitions
+      inventions: _.map(combine_results.definitions, (definition) ->
+        {
+          id: definition.id
+          category: definition.category
+          industry_type: definition.industry_type
+          depends_on: definition.depends_on
+          name_key: "invention.#{definition.id}.name"
+          description_key: "invention.#{definition.id}.description"
+          properties: definition.properties
+        }
+      )
     }
 
     metadata_file = path.join(output_dir, "invention.metadata.json")
     fs.mkdirsSync(path.dirname(metadata_file))
     fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-    console.log "invention metadata saved to #{metadata_file}\n"
+    console.log " [OK] invention metadata saved to #{metadata_file}\n"
 
     done()
 
@@ -33,7 +54,7 @@ write_assets = (translations_manifest, output_dir) -> ([invention_definition_man
 class CombineInventionManifest
   @combine: (translations_manifest, inventions_dir, target_dir) ->
     new Promise (done, error) ->
-      Promise.all [ InventionDefinitionManifest.load(inventions_dir) ]
+      load_inventions(inventions_dir)
         .then write_assets(translations_manifest, target_dir)
         .then done
         .catch error

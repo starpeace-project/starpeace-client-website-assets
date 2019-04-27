@@ -22,32 +22,19 @@ module.exports = function(grunt) {
       options: {
         failOnError: true
       },
-      audit_textures: {
-        exec: 'node build/audit-textures.js assets'
-      },
       combine_textures: {
-        exec: 'node build/combine-manifest.js assets build/public'
+        exec: 'node build/combine-manifest.js node_modules/@starpeace/starpeace-assets/assets build/public'
       },
       animate_planets: {
-        exec: 'node build/generate-planet-animations.js src/images assets build/public'
-      },
-      export_languages: {
-        exec: 'node build/languages-export.js assets translations --type=' + (grunt.option('type') || '')
-      },
-      import_languages: {
-        exec: 'node build/languages-import.js assets translations --type=' + (grunt.option('type') || '')
+        exec: 'node build/generate-planet-animations.js src/images node_modules/@starpeace/starpeace-assets/assets build/public'
       }
     }
   });
 
   grunt.registerTask('build', ['coffee:compile']);
 
-  grunt.registerTask('audit', ['build', 'run:audit_textures']);
   grunt.registerTask('combine', ['build', 'run:combine_textures']);
   grunt.registerTask('animate_planets', ['build', 'run:animate_planets']);
-
-  grunt.registerTask('export', ['build', 'run:export_languages']);
-  grunt.registerTask('import', ['build', 'run:import_languages']);
 
   grunt.registerTask('default', ['clean', 'build', 'combine', 'animate_planets']);
 }

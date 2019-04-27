@@ -27,7 +27,7 @@ aggregate = ([plane_definition_manifest, plane_texture_manifest]) ->
       definition.frame_ids = _.map(frame_textures, (frame) -> frame.id)
 
       frame_texture_groups.push frame_textures
-      console.log "#{definition.id} has #{frame_textures.length} frames"
+      console.log " [OK] #{definition.id} has #{frame_textures.length} frames"
 
     done([plane_definition_manifest, Spritesheet.pack_textures(frame_texture_groups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT)])
 
@@ -65,7 +65,8 @@ write_assets = (output_dir) -> ([plane_definition_manifest, plane_spritesheets])
     metadata_file = path.join(output_dir, "plane.metadata.json")
     fs.mkdirsSync(path.dirname(metadata_file))
     fs.writeFileSync(metadata_file, if DEBUG_MODE then JSON.stringify(json, null, 2) else JSON.stringify(json))
-    console.log "plane metadata saved to #{metadata_file}"
+    console.log()
+    console.log " [OK] plane metadata saved to #{metadata_file}"
 
     Promise.all(write_promises).then (result) ->
       process.stdout.write '\n'

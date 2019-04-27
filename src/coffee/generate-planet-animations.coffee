@@ -79,9 +79,8 @@ resize_frames = (map_animation_mask) -> (frames) ->
               channels: 4
             }
           })
-          .background({r:0, g:255, b:255, alpha:0})
+          .flatten({background: {r:0, g:255, b:255, alpha:0}})
           .overlayWith(map_animation_mask, { cutout: true })
-          # .blur(0.5)
           .toBuffer()
           .then((masked_buffer) ->
             # improves gif transparency at border of planet
@@ -101,8 +100,7 @@ resize_frames = (map_animation_mask) -> (frames) ->
                 channels: 4
               }
             })
-            .background({r:0, g:255, b:255, alpha:0})
-            # .blur(0.6)
+            # .flatten({background: {r:0, g:255, b:255, alpha:0}})
             .toBuffer()
             .then(frame_done)
           )
