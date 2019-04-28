@@ -127,7 +127,7 @@ write_assets = (output_dir) -> (combine_results) ->
           hit_area: _.map(image.hit_area, (coordinate_list) -> _.map(coordinate_list.coordinates, (coordinate) -> { x: coordinate.x, y: coordinate.y }))
           atlas: frame_atlas[image.frame_ids[0]]
           frames: image.frame_ids
-          effects: image.effects if image.effects?.length
+          effects: _.map(image.effects, (effect) -> { type: effect.type, x: effect.x, y: effect.y }) if image.effects?.length
         }
       )
       definitions: _.map(combine_results.definitions, (definition) ->
