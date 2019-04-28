@@ -12,7 +12,6 @@ module.exports = class RoadTexture extends Texture
   constructor: (@file_path, image, @target_width) ->
     super(image)
 
-    @_swap_rb_of_rgb = @file_path.indexOf('.bmp') > 0
     @id = @file_path.replace('.bmp', '').replace('.png', '')
     @target_height = image.height * (image.width / @target_width)
 
@@ -23,7 +22,6 @@ module.exports = class RoadTexture extends Texture
   key_for_spritesheet: () -> @id
 
   filter_mode: () -> { road_colors: true }
-  swap_rb_of_rgb: () -> @_swap_rb_of_rgb
 
   @load: (road_dir) ->
     new Promise (fulfill, reject) ->

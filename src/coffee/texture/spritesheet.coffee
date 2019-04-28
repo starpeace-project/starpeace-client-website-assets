@@ -61,7 +61,7 @@ class Spritesheet
     spritesheet_key = texture.key_for_spritesheet()
     return null unless spritesheet_key?.length && (!texture_keys_used.size || texture_keys_used.has(spritesheet_key))
 
-    image_for_sheet = Utils.clone_image(texture.image.bitmap, texture.swap_rb_of_rgb(), texture.filter_mode())
+    image_for_sheet = Utils.clone_image(texture.image.bitmap, texture.filter_mode())
     image_for_sheet.resize(texture.target_width, Jimp.AUTO) if texture.target_width? && texture.width() != texture.target_width
 
     {

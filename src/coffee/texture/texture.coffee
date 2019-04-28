@@ -9,6 +9,4 @@ class Texture
 
   filter_mode: () -> { blue: false, white: false, grey: false, green: false, grey160:false }
 
-  swap_rb_of_rgb: () -> false
-
 module.exports = Texture
