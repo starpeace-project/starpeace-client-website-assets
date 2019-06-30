@@ -11,7 +11,6 @@ TranslationsManifest = require('./translation/translations-manifest')
 CombineBuildingManifest = require('./combine/combine-building-manifest')
 CombineConcreteManifest = require('./combine/combine-concrete-manifest')
 CombineEffectManifest = require('./combine/combine-effect-manifest')
-CombineInventionManifest = require('./combine/combine-invention-manifest')
 CombineLandManifest = require('./combine/combine-land-manifest')
 CombineMapManifest = require('./combine/combine-map-manifest')
 CombineOverlayManifest = require('./combine/combine-overlay-manifest')
@@ -26,7 +25,6 @@ Utils = require('./utils/utils')
 SKIP_BUILDINGS = false
 SKIP_CONCRETE = false
 SKIP_EFFECTS = false
-SKIP_INVENTIONS = false
 SKIP_LAND = false
 SKIP_MAPS = false
 SKIP_MUSIC = false
@@ -60,7 +58,6 @@ sound_dir = path.join(assets_dir, 'sounds')
 
 concrete_dir = path.join(assets_dir, 'concrete')
 effects_dir = path.join(assets_dir, 'effects')
-inventions_dir = path.join(assets_dir, 'inventions')
 land_dir = path.join(assets_dir, 'land')
 maps_dir = path.join(assets_dir, 'maps')
 music_dir = path.join(sound_dir, 'music')
@@ -69,13 +66,12 @@ overlays_dir = path.join(assets_dir, 'overlays')
 planes_dir = path.join(assets_dir, 'planes')
 roads_dir = path.join(assets_dir, 'roads')
 
-translations_manifest = new TranslationsManifest()
+# translations_manifest = new TranslationsManifest()
 
 jobs = []
-jobs.push(CombineBuildingManifest.combine(translations_manifest, assets_dir, target_with_version)) unless SKIP_BUILDINGS
+jobs.push(CombineBuildingManifest.combine(assets_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
 jobs.push(CombineEffectManifest.combine(effects_dir, target_with_version)) unless SKIP_EFFECTS
-jobs.push(CombineInventionManifest.combine(translations_manifest, inventions_dir, target_with_version)) unless SKIP_INVENTIONS
 jobs.push(CombineLandManifest.combine(land_dir, target_with_version)) unless SKIP_LAND
 jobs.push(CombineMapManifest.combine(maps_dir, target_with_version)) unless SKIP_MAPS
 jobs.push(CombineOverlayManifest.combine(overlays_dir, target_with_version)) unless SKIP_OVERLAYS
@@ -85,7 +81,7 @@ jobs.push(CombineStaticMusic.combine(music_dir, target_with_version)) unless SKI
 jobs.push(CombineStaticNews.combine(news_dir, target_with_version)) unless SKIP_NEWS
 
 Promise.all(jobs)
-  .then CombineTranslationsManifest.combine(translations_manifest, target_with_version)
+  # .then CombineTranslationsManifest.combine(translations_manifest, target_with_version)
   .then ->
     console.log "\nfinished successfully, thank you for using combine-manifest.js!"
 

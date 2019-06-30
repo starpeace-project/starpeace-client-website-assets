@@ -3,12 +3,7 @@ path = require('path')
 fs = require('fs-extra')
 _ = require('lodash')
 
-{
-  BuildingDefinition
-  BuildingImageDefinition
-  BuildingSimulationDefinitionParser
-  CompanySeal
-} = require('@starpeace/starpeace-assets-types')
+STARPEACE = require('@starpeace/starpeace-assets-types')
 
 BuildingTexture = require('../building/building-texture')
 Spritesheet = require('../texture/spritesheet')
@@ -29,18 +24,10 @@ load_buildings = (buildings_dir, seals_dir) ->
   new Promise (done, error) ->
     try
       console.log " [OK] loading building configurations from #{buildings_dir}"
-      definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['.json'], ['-image.json', '-simulation.json']), BuildingDefinition.from_json)
-      image_definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['-image.json'], []), BuildingImageDefinition.from_json)
-      simulation_definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['-simulation.json'], []), BuildingSimulationDefinitionParser.from_json)
-      console.log " [OK] found #{definitions.length} building definitions"
+      image_definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['-image.json'], []), STARPEACE.building.BuildingImageDefinition.from_json)
       console.log " [OK] found #{image_definitions.length} image definitions"
-      console.log " [OK] found #{simulation_definitions.length} simulation definitions\n"
 
-      console.log " [OK] loading seal configurations from #{seals_dir}"
-      seal_definitions = _.map(FileUtils.parse_to_json(seals_dir, [], []), CompanySeal.from_json)
-      console.log " [OK] found #{seal_definitions.length} seal definitions\n"
-
-      done({ definitions, image_definitions, simulation_definitions, seal_definitions })
+      done({ image_definitions })
     catch err
       error(err)
 
@@ -72,11 +59,8 @@ load_building_textures = (root_assets_dir) -> (combine_results) ->
       error(err)
 
 
-aggregate = (translations_manifest) -> (combine_results) ->
+aggregate = (combine_results) ->
   new Promise (done, error) ->
-
-    for definition in combine_results.definitions
-      translations_manifest.accumulate_i18n_text("building.#{definition.id}.name", definition.name) if definition.name?
 
     frame_texture_groups = []
     for building_image in combine_results.image_definitions
@@ -130,20 +114,6 @@ write_assets = (output_dir) -> (combine_results) ->
           effects: _.map(image.effects, (effect) -> { type: effect.type, x: effect.x, y: effect.y }) if image.effects?.length
         }
       )
-      definitions: _.map(combine_results.definitions, (definition) ->
-        {
-          id: definition.id
-          name_key: "building.#{definition.id}.name"
-          image_id: definition.image_id
-          construction_image_id: definition.construction_image_id
-          seal_ids: _.uniq(_.map(_.filter(combine_results.seal_definitions, (seal) -> seal.buildings.indexOf(definition.id) >= 0), 'id'))
-          category: definition.category if definition.category?.length
-          industry_type: definition.industry_type if definition.industry_type?.length
-          zone: definition.zone if definition.zone?.length
-          restricted: true if definition.restricted
-          required_invention_ids: definition.required_invention_ids if definition.required_invention_ids?.length
-        }
-      )
     }
 
     metadata_file = path.join(output_dir, "building.metadata.json")
@@ -157,13 +127,13 @@ write_assets = (output_dir) -> (combine_results) ->
 
 
 class CombineBuildingManifest
-  @combine: (translations_manifest, assets_dir, target_dir) ->
+  @combine: (assets_dir, target_dir) ->
     buildings_dir = path.join(assets_dir, 'buildings')
     seals_dir = path.join(assets_dir, 'seals')
     new Promise (done, error) ->
       load_buildings(buildings_dir, seals_dir)
         .then load_building_textures(path.resolve(assets_dir, '..'))
-        .then aggregate(translations_manifest)
+        .then aggregate
         .then write_assets(target_dir)
         .then done
         .catch error
