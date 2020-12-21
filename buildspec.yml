@@ -22,7 +22,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - xvfb-run -s "-ac -screen 0 800x600x24" grunt --force combine
+      - xvfb-run -s "-ac -screen 0 800x600x24" grunt combine
 
   post_build:
     commands:

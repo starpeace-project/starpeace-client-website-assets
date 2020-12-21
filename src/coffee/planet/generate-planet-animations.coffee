@@ -24,7 +24,7 @@ generate_planet_animation = (map_image_file, map_animation_file) ->
   frames = await Promise.all(_.map([0..SLICES], (degrees) ->
     PlanetAnimationRenderer.render_frame(map_texture, degrees * ROTATION, ANIMATION_WIDTH, ANIMATION_HEIGHT)
   ))
-  console.log "Rendered #{SLICES} frames"
+  console.log "Rendered #{frames.length} frames"
 
   frames = await Promise.all(_.map(frames, (frame) ->
     img = new Jimp({ data: frame, width: PlanetAnimationRenderer.WIDTH, height: PlanetAnimationRenderer.HEIGHT })
