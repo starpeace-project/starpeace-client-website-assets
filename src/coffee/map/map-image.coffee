@@ -24,19 +24,20 @@ class MapImage
 
 
   @load: (map_dir) ->
-    new Promise((done) ->
-      console.log "loading map information from #{map_dir}\n"
-      image_file_paths = _.filter(FileUtils.read_all_files_sync(map_dir), (path) -> path.endsWith('.bmp'))
-      Promise.all(_.map(image_file_paths, (p) -> Jimp.read(p))).then((images) ->
-        progress = new ConsoleProgressUpdater(images.length)
-        maps = _.map(_.zip(image_file_paths, images), (pair) ->
-          progress.next()
-          new MapImage(pair[0], pair[0].substring(map_dir.length + 1), pair[1])
-        )
-        console.log "found and loaded #{maps.length} maps\n"
-        done(maps)
-      )
+    console.log "loading map information from #{map_dir}\n"
+    image_file_paths = _.filter(FileUtils.read_all_files_sync(map_dir), (path) -> path.endsWith('.bmp'))
+
+    progress = new ConsoleProgressUpdater(image_file_paths.length)
+    images = await Promise.all(_.map(image_file_paths, (p) ->
+      img = await Jimp.read(p)
+      progress.next()
+      img
+    ))
+
+    maps = _.map(_.zip(image_file_paths, images), (pair) ->
+      new MapImage(pair[0], pair[0].substring(map_dir.length + 1), pair[1])
     )
+    console.log "found and loaded #{maps.length} maps\n"
+    maps
 
 module.exports = MapImage
-
