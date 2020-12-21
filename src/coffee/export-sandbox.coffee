@@ -3,7 +3,6 @@ path = require('path')
 fs = require('fs-extra')
 
 ExportMetadataBuildings = require('./sandbox/export-metadata-buildings')
-ExportMetadataCore = require('./sandbox/export-metadata-core')
 ExportMetadataInventions = require('./sandbox/export-metadata-inventions')
 
 Utils = require('./utils/utils')
@@ -29,7 +28,6 @@ console.log "\n-----------------------------------------------------------------
 
 jobs = []
 jobs.push(ExportMetadataBuildings.export(assets_dir, target_dir))
-jobs.push(ExportMetadataCore.export(assets_dir, target_dir))
 jobs.push(ExportMetadataInventions.export(assets_dir, target_dir))
 
 Promise.all(jobs)

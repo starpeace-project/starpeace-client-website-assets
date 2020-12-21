@@ -18,5 +18,4 @@ cache:
     - node_modules
 
 script:
-  - grunt combine
-  - xvfb-run -s "-ac -screen 0 800x600x24" grunt animate_planets
+  - xvfb-run -s "-ac -screen 0 800x600x24" grunt combine

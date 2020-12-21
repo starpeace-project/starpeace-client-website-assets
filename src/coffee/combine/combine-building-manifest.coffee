@@ -24,7 +24,7 @@ load_buildings = (buildings_dir, seals_dir) ->
   new Promise (done, error) ->
     try
       console.log " [OK] loading building configurations from #{buildings_dir}"
-      image_definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['-image.json'], []), STARPEACE.building.BuildingImageDefinition.from_json)
+      image_definitions = _.map(FileUtils.parse_to_json(buildings_dir, ['-image.json'], []), STARPEACE.building.BuildingImageDefinition.fromJson)
       console.log " [OK] found #{image_definitions.length} image definitions"
 
       done({ image_definitions })
@@ -34,7 +34,7 @@ load_buildings = (buildings_dir, seals_dir) ->
 load_building_textures = (root_assets_dir) -> (combine_results) ->
   new Promise (done, error) ->
     try
-      image_paths = _.map(combine_results.image_definitions, 'image_path')
+      image_paths = _.map(combine_results.image_definitions, 'imagePath')
       console.log " [OK] loading #{image_paths.length} building textures from #{root_assets_dir}\n"
       Utils.load_and_group_animation(root_assets_dir, image_paths, true)
         .then (frame_groups) ->
@@ -64,12 +64,12 @@ aggregate = (combine_results) ->
 
     frame_texture_groups = []
     for building_image in combine_results.image_definitions
-      image = combine_results.textures_by_path[building_image.image_path]
+      image = combine_results.textures_by_path[building_image.imagePath]
       unless image?
-        console.log " [ERROR] unable to find building image #{building_image.image_path}"
+        console.log " [ERROR] unable to find building image #{building_image.imagePath}"
         continue
 
-      frame_textures = image.get_frame_textures(building_image.id, building_image.tile_width * TILE_WIDTH, building_image.tile_height * TILE_HEIGHT)
+      frame_textures = image.get_frame_textures(building_image.id, building_image.tileWidth * TILE_WIDTH, building_image.tileHeight * TILE_HEIGHT)
       building_image.frame_ids = _.map(frame_textures, (frame) -> frame.id)
 
       frame_texture_groups.push frame_textures
@@ -106,9 +106,9 @@ write_assets = (output_dir) -> (combine_results) ->
       images: _.map(combine_results.image_definitions, (image) ->
         {
           id: image.id
-          w: image.tile_width
-          h: image.tile_height
-          hit_area: _.map(image.hit_area, (coordinate_list) -> _.map(coordinate_list.coordinates, (coordinate) -> { x: coordinate.x, y: coordinate.y }))
+          w: image.tileWidth
+          h: image.tileHeight
+          hit_area: _.map(image.hitArea, (coordinate_list) -> _.map(coordinate_list.coordinates, (coordinate) -> { x: coordinate.x, y: coordinate.y }))
           atlas: frame_atlas[image.frame_ids[0]]
           frames: image.frame_ids
           effects: _.map(image.effects, (effect) -> { type: effect.type, x: effect.x, y: effect.y }) if image.effects?.length

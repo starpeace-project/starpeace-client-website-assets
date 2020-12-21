@@ -3,8 +3,6 @@ path = require('path')
 fs = require('fs-extra')
 
 _ = require('lodash')
-Jimp = require('jimp')
-sharp = require('sharp')
 
 TranslationsManifest = require('./translation/translations-manifest')
 
@@ -18,7 +16,8 @@ CombinePlaneManifest = require('./combine/combine-plane-manifest')
 CombineRoadManifest = require('./combine/combine-road-manifest')
 CombineStaticMusic = require('./combine/combine-static-music')
 CombineStaticNews = require('./combine/combine-static-news')
-CombineTranslationsManifest = require('./combine/combine-translations-manifest')
+
+GeneratePlanetAnimations = require('./planet/generate-planet-animations')
 
 Utils = require('./utils/utils')
 
@@ -33,16 +32,19 @@ SKIP_OVERLAYS = false
 SKIP_PLANES = false
 SKIP_ROADS = false
 
+SKIP_PLANET_ANIMATIONS = false
+
 console.log "\n===============================================================================\n"
-console.log " combine-manifest.js - https://www.starpeace.io\n"
+console.log " combine-assets.js - https://www.starpeace.io\n"
 console.log " combine game textures and generate summary metadata for use with game client\n"
 console.log " see README.md for more details"
 console.log "\n===============================================================================\n"
 
 
 root = process.cwd()
-assets_dir = path.join(root, process.argv[2])
-target_dir = path.join(root, process.argv[3])
+source_dir = path.join(root, process.argv[2])
+assets_dir = path.join(root, process.argv[3])
+target_dir = path.join(root, process.argv[4])
 
 unique_hash = Utils.random_md5()
 target_with_version = path.join(target_dir, unique_hash)
@@ -66,8 +68,6 @@ overlays_dir = path.join(assets_dir, 'overlays')
 planes_dir = path.join(assets_dir, 'planes')
 roads_dir = path.join(assets_dir, 'roads')
 
-# translations_manifest = new TranslationsManifest()
-
 jobs = []
 jobs.push(CombineBuildingManifest.combine(assets_dir, target_with_version)) unless SKIP_BUILDINGS
 jobs.push(CombineConcreteManifest.combine(concrete_dir, target_with_version)) unless SKIP_CONCRETE
@@ -79,9 +79,9 @@ jobs.push(CombinePlaneManifest.combine(planes_dir, target_with_version)) unless 
 jobs.push(CombineRoadManifest.combine(roads_dir, target_with_version)) unless SKIP_ROADS
 jobs.push(CombineStaticMusic.combine(music_dir, target_with_version)) unless SKIP_MUSIC
 jobs.push(CombineStaticNews.combine(news_dir, target_with_version)) unless SKIP_NEWS
+jobs.push(GeneratePlanetAnimations.combine(source_dir, maps_dir, target_with_version)) unless SKIP_PLANET_ANIMATIONS
 
 Promise.all(jobs)
-  # .then CombineTranslationsManifest.combine(translations_manifest, target_with_version)
   .then ->
     console.log "\nfinished successfully, thank you for using combine-manifest.js!"
 

@@ -1,4 +1,4 @@
-# starpeace-website-client-assets
+# starpeace-client-website-assets
 ## Development
 
 Local development can be accomplished in a few commands. The following build-time dependencies must be installed:
@@ -9,25 +9,19 @@ Local development can be accomplished in a few commands. The following build-tim
 Retrieve copy of repository and navigate to root:
 
 ```
-$ git clone https://github.com/starpeace-project/starpeace-website-client-assets.git
-$ cd starpeace-website-client-assets
+$ git clone https://github.com/starpeace-project/starpeace-client-website-assets.git
+$ cd starpeace-client-website-assets
 ```
 
-Install starpeace-website-client-assets dependencies:
+Install starpeace-client-website-assets dependencies:
 
 ```
 $ npm install
 ```
 
-Raw assets can be compiled to game-ready with default or ```combine``` grunt target:
+Raw assets can be compiled and planet animations generated with default or ```combine``` grunt target:
 
 ```
 $ grunt
 $ grunt combine
-```
-
-Planet animations can be generated with ```animate_planets``` target:
-
-```
-$ grunt animate_planets
 ```

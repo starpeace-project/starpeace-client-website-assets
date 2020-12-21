@@ -1,6 +1,6 @@
 
 module.exports = class OverlayDefinition
-  constructor: (@id, @image, @tile_width, @tile_height) ->
+  constructor: (@id, @image, @tileWidth, @tileHeight) ->
 
-  @from_json: (json) ->
-    new OverlayDefinition(json.id, json.image, json.tile_width, json.tile_height)
+  @fromJson: (json) ->
+    new OverlayDefinition(json.id, json.image, json.tileWidth, json.tileHeight)

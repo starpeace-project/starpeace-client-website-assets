@@ -35,7 +35,7 @@ class TreeDefinition
       @zone
     }
 
-  @from_json: (json) ->
+  @fromJson: (json) ->
     tile = new TreeDefinition()
     tile.id = json.id
     tile.zone = json.zone
@@ -45,4 +45,3 @@ class TreeDefinition
     tile
 
 module.exports = TreeDefinition
-

@@ -26,7 +26,7 @@ aggregate = ([overlay_definition_manifest, overlay_texture_manifest]) ->
         console.log "unable to find overlay image #{key}"
         continue
 
-      frame_textures = texture.get_frame_textures(definition.id, definition.tile_width * TILE_WIDTH, definition.tile_height * TILE_WIDTH)
+      frame_textures = texture.get_frame_textures(definition.id, definition.tileWidth * TILE_WIDTH, definition.tileHeight * TILE_WIDTH)
       definition.frame_ids = _.map(frame_textures, (frame) -> frame.id)
 
       frame_texture_groups.push frame_textures
@@ -54,8 +54,8 @@ write_assets = (output_dir) -> ([overlay_definition_manifest, overlay_spriteshee
 
     definitions = {}
     definitions[definition.id] = {
-      w: definition.tile_width
-      h: definition.tile_height
+      w: definition.tileWidth
+      h: definition.tileHeight
       atlas: frame_atlas[definition.frame_ids[0]]
       frames: definition.frame_ids
     } for definition in overlay_definition_manifest.all_definitions

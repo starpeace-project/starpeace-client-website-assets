@@ -20,7 +20,7 @@ class InventionDefinition
       properties: @properties
     }
 
-  @from_json: (json) ->
+  @fromJson: (json) ->
     new InventionDefinition(json.id, json.category, json.industry_type, json.depends_on, json.name, json.description, json.properties)
 
 module.exports = InventionDefinition

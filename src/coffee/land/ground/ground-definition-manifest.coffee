@@ -30,7 +30,7 @@ class GroundDefinitionManifest
     new Promise (fulfill, reject) ->
       console.log "loading ground definition manifest from #{land_dir}\n"
 
-      manifest = new GroundDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(land_dir, 'ground-manifest.json'))), GroundDefinition.from_json))
+      manifest = new GroundDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(land_dir, 'ground-manifest.json'))), GroundDefinition.fromJson))
       console.log "found and loaded #{manifest.all_tiles.length} ground definitions\n"
       fulfill(manifest)
 

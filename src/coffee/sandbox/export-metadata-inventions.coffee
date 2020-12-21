@@ -12,7 +12,7 @@ load_inventions = (inventions_dir) ->
   new Promise (done, error) ->
     try
       console.log " [OK] loading invention configurations from #{inventions_dir}"
-      definitions = _.map(FileUtils.parse_to_json(inventions_dir, ['.json'], []), STARPEACE.invention.InventionDefinition.from_json)
+      definitions = _.map(FileUtils.parse_to_json(inventions_dir, ['.json'], []), STARPEACE.invention.InventionDefinition.fromJson)
       console.log " [OK] found #{definitions.length} invention definitions"
 
       done({ definitions })
@@ -22,7 +22,7 @@ load_inventions = (inventions_dir) ->
 write_assets = (output_dir) -> (combine_results) ->
   new Promise (done) ->
     json = {
-      inventions: _.map(combine_results.definitions, (definition) -> definition.toJSON())
+      inventions: _.map(combine_results.definitions, (definition) -> definition.toJson())
     }
 
     metadata_file = path.join(output_dir, "metadata-invention.json")

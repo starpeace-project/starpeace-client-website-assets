@@ -12,6 +12,6 @@ module.exports = class RoadDefinitionManifest
     new Promise (fulfill, reject) ->
       console.log "loading road definition manifest from #{road_dir}\n"
 
-      manifest = new RoadDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(road_dir, 'road-manifest.json'))), RoadDefinition.from_json))
+      manifest = new RoadDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(road_dir, 'road-manifest.json'))), RoadDefinition.fromJson))
       console.log "found and loaded #{manifest.all_definitions.length} road definitions\n"
       fulfill(manifest)

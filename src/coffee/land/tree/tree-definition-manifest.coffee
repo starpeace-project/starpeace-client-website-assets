@@ -20,7 +20,7 @@ class TreeDefinitionManifest
     new Promise (fulfill, reject) ->
       console.log "loading tree definition manifest from #{land_dir}\n"
 
-      manifest = new TreeDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(land_dir, 'tree-manifest.json'))), TreeDefinition.from_json))
+      manifest = new TreeDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(land_dir, 'tree-manifest.json'))), TreeDefinition.fromJson))
       console.log "found and loaded #{manifest.all_definitions.length} tree definitions\n"
       fulfill(manifest)
 

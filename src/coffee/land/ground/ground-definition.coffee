@@ -60,7 +60,7 @@ class GroundDefinition
       is_coast: @zone == LandAttributes.ZONES.water && !@is_center()
     }
 
-  @from_json: (json) ->
+  @fromJson: (json) ->
     tile = new GroundDefinition()
     tile.id = json.id
     tile.map_color = json.map_color

@@ -4,8 +4,7 @@ HEIGHT = 512
 
 CAMERA_D = 5.25
 
-PNG = require('pngjs').PNG
-
+Jimp = require('jimp')
 THREE = require('three')
 THREEP = require('postprocessing')
 gl = require('gl')(WIDTH, HEIGHT, {})
@@ -31,17 +30,25 @@ class PlanetAnimationRenderer
   ###
 
   @create_texture_from_file: (map_image_file) ->
-    throw "source file must be a PNG" unless map_image_file.toLowerCase().endsWith('.png')
-    new Promise (done, error) ->
-      png = new PNG
-      stream = fs.createReadStream map_image_file
-      stream.pipe png
+    img = await Jimp.read(map_image_file)
 
-      png.on 'parsed', () ->
-        dataTexture = new THREE.DataTexture(png.data, png.width, png.height, THREE.RGBAFormat)
-        dataTexture.needsUpdate = true
-        done(dataTexture)
+    size = img.bitmap.width * img.bitmap.height
+    rgbData = new Uint8Array(3 * size)
+    for index in [0..size]
+      if img.bitmap.data[index * 4 + 0] == 0 && img.bitmap.data[index * 4 + 1] == 0 && img.bitmap.data[index * 4 + 2] == 0
+        # fill image border with water
+        rgbData[index * 3 + 0] = 43
+        rgbData[index * 3 + 1] = 84
+        rgbData[index * 3 + 2] = 99
+      else
+        rgbData[index * 3 + 0] = img.bitmap.data[index * 4 + 0]
+        rgbData[index * 3 + 1] = img.bitmap.data[index * 4 + 1]
+        rgbData[index * 3 + 2] = img.bitmap.data[index * 4 + 2]
 
+    dataTexture = new THREE.DataTexture(rgbData, img.bitmap.width, img.bitmap.height, THREE.RGBFormat)
+    dataTexture.minFilter = THREE.LinearFilter
+    dataTexture.needsUpdate = true
+    dataTexture
 
   @render_frame: (map_texture, degrees, target_width, target_height) ->
     new Promise (done, error) ->
@@ -50,32 +57,21 @@ class PlanetAnimationRenderer
       camera.lookAt(0, 0, 0)
 
       scene = new THREE.Scene()
-      scene.background = new THREE.Color(0x00ffff)
 
-      planet_geometry = new THREE.SphereBufferGeometry(5, 32, 32)
+      planet_geometry = new THREE.SphereBufferGeometry(5, 64, 64)
+      planet_material = new THREE.MeshPhongMaterial({
+        map: map_texture
+        shininess: 10
+      })
 
-      planet_material = new THREE.ShaderMaterial()
-      planet_material.vertexShader = '''
-      varying vec2 vUv;
-
-      void main() {
-          vUv = uv;
-          gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
-      }
-      '''
-      planet_material.fragmentShader = '''
-      uniform sampler2D dataTexture;
-      varying vec2 vUv;
-      void main() {
-          gl_FragColor = texture2D(dataTexture, vUv);
-      }
-      '''
-      planet_material.uniforms = dataTexture: { type: "t", value: map_texture }
-
-      # new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: false } )
       mesh = new THREE.Mesh(planet_geometry, planet_material)
       mesh.rotation.y = THREE.Math.degToRad(degrees)
       scene.add(mesh)
+
+      light = new THREE.DirectionalLight(0xffffff, 1)
+      light.position.set(1000, -600, 1000)
+      scene.add(light)
+      scene.add(new THREE.AmbientLight(0x333333))
 
       renderer = new THREE.WebGLRenderer({
         antialias: true
@@ -85,12 +81,11 @@ class PlanetAnimationRenderer
         context: gl
       })
       renderer.setPixelRatio(PlanetAnimationRenderer.WIDTH / PlanetAnimationRenderer.HEIGHT)
-      # renderer.setSize(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT)
       renderer.setDrawingBufferSize(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, PlanetAnimationRenderer.ASPECT)
 
       renderTarget = new THREE.WebGLRenderTarget(PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, {
-        minFilter: THREE.LinearFilter,
-        magFilter: THREE.NearestFilter,
+        minFilter: THREE.LinearFilter
+        magFilter: THREE.NearestFilter
         format: THREE.RGBAFormat
       })
 
