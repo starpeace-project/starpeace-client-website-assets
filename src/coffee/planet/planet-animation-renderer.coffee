@@ -40,6 +40,9 @@ class PlanetAnimationRenderer
 
   @render_frame: (map_texture, degrees, target_width, target_height) ->
     new Promise (done, error) ->
+      warn_logger = console.warn
+      console.warn = () -> {}
+
       camera = new THREE.OrthographicCamera(-CAMERA_D, CAMERA_D, CAMERA_D, -CAMERA_D, -10, 1000)
       camera.position.set(10, -6, 10)
       camera.lookAt(0, 0, 0)
@@ -82,6 +85,8 @@ class PlanetAnimationRenderer
 
       pixels = new Uint8Array(4 * PlanetAnimationRenderer.WIDTH * PlanetAnimationRenderer.HEIGHT)
       renderer.readRenderTargetPixels(renderTarget, 0, 0, PlanetAnimationRenderer.WIDTH, PlanetAnimationRenderer.HEIGHT, pixels)
+
+      console.warn = warn_logger
       done(pixels)
 
 module.exports = PlanetAnimationRenderer
