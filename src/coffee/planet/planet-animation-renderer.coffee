@@ -17,18 +17,6 @@ class PlanetAnimationRenderer
   @HEIGHT: HEIGHT
   @ASPECT: @WIDTH / @HEIGHT
 
-  ###
-  * legacy code supporting shaders:
-  *
-  * composer = new THREEP.EffectComposer(renderer, {})
-  * composer.readBuffer = renderTarget
-  * composer.writeBuffer = renderTarget.clone()
-  * composer.addPass(new THREEP.RenderPass(scene, camera, { clear: true, clearColor: 0x00ffff, clearAlpha: 1 }))
-  * composer.addPass(new THREEP.PixelationPass(4))
-  *
-  * composer.render()
-  ###
-
   @create_texture_from_file: (map_image_file) ->
     img = await Jimp.read(map_image_file)
 

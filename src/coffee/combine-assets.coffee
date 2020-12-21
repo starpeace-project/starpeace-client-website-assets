@@ -30,7 +30,7 @@ SKIP_OVERLAYS = false
 SKIP_PLANES = false
 SKIP_ROADS = false
 
-SKIP_PLANET_ANIMATIONS = false
+SKIP_PLANET_ANIMATIONS = true
 
 console.log "\n===============================================================================\n"
 console.log " combine-assets.js - https://www.starpeace.io\n"
