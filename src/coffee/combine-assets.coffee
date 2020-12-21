@@ -77,9 +77,9 @@ jobs.push(CombinePlaneManifest.combine(planes_dir, target_with_version)) unless 
 jobs.push(CombineRoadManifest.combine(roads_dir, target_with_version)) unless SKIP_ROADS
 jobs.push(CombineStaticMusic.combine(music_dir, target_with_version)) unless SKIP_MUSIC
 jobs.push(CombineStaticNews.combine(news_dir, target_with_version)) unless SKIP_NEWS
-jobs.push(GeneratePlanetAnimations.combine(source_dir, maps_dir, target_with_version)) unless SKIP_PLANET_ANIMATIONS
 
 Promise.all(jobs)
+  .then -> if SKIP_PLANET_ANIMATIONS then Promise.resolve(true) else GeneratePlanetAnimations.combine(source_dir, maps_dir, target_with_version)
   .then ->
     console.log "\nfinished successfully, thank you for using combine-assets.js!"
 

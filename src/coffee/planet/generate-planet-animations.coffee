@@ -72,6 +72,7 @@ class GeneratePlanetAnimations
       promises.push generate_planet_animation(path.join(maps_dir, "#{mapId}.bmp"), map_animation_mask, path.join(target_dir, "map.#{mapId}.animation.gif"))
 
     new Promise (done, error) ->
+      console.log "Found #{promises.length} planet maps to animate"
       Promise.all(promises)
         .then done
         .catch error
