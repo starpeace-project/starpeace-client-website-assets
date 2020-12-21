@@ -4,8 +4,6 @@ fs = require('fs-extra')
 
 _ = require('lodash')
 
-TranslationsManifest = require('./translation/translations-manifest')
-
 CombineBuildingManifest = require('./combine/combine-building-manifest')
 CombineConcreteManifest = require('./combine/combine-concrete-manifest')
 CombineEffectManifest = require('./combine/combine-effect-manifest')
@@ -83,7 +81,7 @@ jobs.push(GeneratePlanetAnimations.combine(source_dir, maps_dir, target_with_ver
 
 Promise.all(jobs)
   .then ->
-    console.log "\nfinished successfully, thank you for using combine-manifest.js!"
+    console.log "\nfinished successfully, thank you for using combine-assets.js!"
 
   .catch (error) ->
     console.log "there was an error during execution:"
