@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         expand: true,
-        cwd: "src/coffee",
+        cwd: 'src',
         src: ['**/*.coffee'],
         dest: 'build',
         ext: '.js'
@@ -23,10 +23,13 @@ module.exports = function(grunt) {
         failOnError: true
       },
       combine_assets: {
-        exec: 'node build/combine-assets.js src/images node_modules/@starpeace/starpeace-assets/assets build/public'
+        exec: 'node build/combine-assets.js assets node_modules/@starpeace/starpeace-assets/assets build/public'
       },
       export_sandbox: {
         exec: 'node build/export-sandbox.js node_modules/@starpeace/starpeace-assets/assets build/sandbox'
+      },
+      backfill_towns: {
+        exec: 'node build/backfill-towns.js node_modules/@starpeace/starpeace-assets/assets build/towns'
       }
     }
   });
@@ -35,6 +38,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('combine', ['build', 'run:combine_assets']);
   grunt.registerTask('export', ['build', 'run:export_sandbox']);
+  grunt.registerTask('towns', ['build', 'run:backfill_towns']);
 
   grunt.registerTask('default', ['clean', 'build', 'combine']);
 }
