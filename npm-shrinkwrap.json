@@ -363,8 +363,8 @@
       "integrity": "sha512-dyQxe6ukILV6qaEvxoKCIwhblgRjYp1ZGlClo4xvfbmxzFO5LYu7Tnrg2AZrRgN7VsSragsGcNjzUe9kCdKHYQ=="
     },
     "@starpeace/starpeace-assets": {
-      "version": "git://github.com/starpeace-project/starpeace-assets.git#09485c3bb38bfa813ba023e26fccf31a095d7d2b",
-      "from": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.15",
+      "version": "git://github.com/starpeace-project/starpeace-assets.git#f5fa356f9159518b2ed02261d5aba534b39684e7",
+      "from": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.16",
       "dependencies": {
         "@starpeace/starpeace-assets-types": {
           "version": "git://github.com/starpeace-project/starpeace-assets-types.git#002e8e56872e9455403c6924161871d87a9ac3f9",
@@ -12313,9 +12313,9 @@
       }
     },
     "three": {
-      "version": "0.123.0",
-      "resolved": "https://registry.npmjs.org/three/-/three-0.123.0.tgz",
-      "integrity": "sha512-KNnx/IbilvoHRkxOtL0ouozoDoElyuvAXhFB21RK7F5IPWSmqyFelICK6x3hJerLNSlAdHxR0hkuvMMhH9pqXg=="
+      "version": "0.124.0",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.124.0.tgz",
+      "integrity": "sha512-ROXp1Ly7YyF+jC910DQyAWj++Qlw2lQv0qwYLNQwdDbjk4bsOXAfGO92wYTMPNei1GMJUmCxSxc3MjGBTS09Rg=="
     },
     "through": {
       "version": "2.3.8",

@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@mapbox/shelf-pack": "^3.2.0",
-    "@starpeace/starpeace-assets": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.15",
+    "@starpeace/starpeace-assets": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.16",
     "@starpeace/starpeace-assets-types": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.21",
     "fs-extra": "^9.0.1",
     "gif-encoder": "^0.7.2",
@@ -30,7 +30,7 @@
     "postprocessing": "^6.18.0",
     "promise": "^8.1.0",
     "stream-to-array": "^2.3.0",
-    "three": "0.123.0",
+    "three": "0.124.0",
     "yargs": "^16.2.0"
   }
 }
