@@ -103,7 +103,7 @@ write_assets = (output_dir) -> (combine_results) ->
     json = {
       atlas: atlas_names
       images: _.map(combine_results.image_definitions, (image) ->
-        {
+        json = {
           id: image.id
           w: image.tileWidth
           h: image.tileHeight
@@ -112,6 +112,8 @@ write_assets = (output_dir) -> (combine_results) ->
           frames: image.frame_ids
           effects: _.map(image.effects, (effect) -> { type: effect.type, x: effect.x, y: effect.y }) if image.effects?.length
         }
+        json.sign = { x: image.signPosition.x, y: image.signPosition.y } if image.signPosition?
+        json
       )
     }
 
