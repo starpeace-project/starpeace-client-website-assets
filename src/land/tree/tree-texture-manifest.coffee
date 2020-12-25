@@ -1,14 +1,12 @@
-
+_ = require('lodash')
 path = require('path')
 crypto = require('crypto')
-_ = require('lodash')
 
 TreeTexture = require('./tree-texture')
-
 LandAttributes = require('../land-attributes')
 
 
-class TreeTextureManifest
+module.exports = class TreeTextureManifest
   constructor: (@all_textures) ->
     @planet_type_id_season_textures = {}
 
@@ -43,5 +41,3 @@ class TreeTextureManifest
           console.log "found and loaded #{textures.length} tree textures into manifest\n"
           fulfill(new TreeTextureManifest(textures))
         .catch reject
-
-module.exports = TreeTextureManifest

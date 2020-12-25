@@ -1,8 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 crypto = require('crypto')
-
-_ = require('lodash')
 Jimp = require('jimp')
 
 LandAttributes = require('../land-attributes')

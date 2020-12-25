@@ -1,14 +1,12 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
-
-_ = require('lodash')
 Jimp = require('jimp')
 
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
 FileUtils = require('../utils/file-utils')
 
-class MapImage
+module.exports = class MapImage
 
   constructor: (@full_path, @path, @image) ->
     @name = path.basename(@path).replace('.bmp', '')
@@ -34,10 +32,4 @@ class MapImage
       img
     ))
 
-    maps = _.map(_.zip(image_file_paths, images), (pair) ->
-      new MapImage(pair[0], pair[0].substring(map_dir.length + 1), pair[1])
-    )
-    console.log "found and loaded #{maps.length} maps\n"
-    maps
-
-module.exports = MapImage
+    _.map(_.zip(image_file_paths, images), (pair) -> new MapImage(pair[0], pair[0].substring(map_dir.length + 1), pair[1]))

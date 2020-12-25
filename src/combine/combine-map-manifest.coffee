@@ -1,7 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
 MapImage = require('../map/map-image')
 
@@ -10,6 +9,7 @@ write_map_images = (output_dir) -> (map_images) ->
   new Promise (done) ->
     fs.mkdirsSync(output_dir)
 
+    console.log "found and loaded #{map_images.length} maps\n"
     for image in map_images
       bmp_map_file = path.join(output_dir, "map.#{image.name.toLowerCase()}.texture.bmp")
       fs.copySync(image.full_path, bmp_map_file)

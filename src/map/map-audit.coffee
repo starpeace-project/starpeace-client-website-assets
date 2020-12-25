@@ -1,8 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
-
-_ = require('lodash')
 Jimp = require('jimp')
 
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
@@ -26,7 +24,7 @@ class MapAudit
       progress.next()
 
   sorted_missing_colors: () ->
-    _.map(@missing_colors, (count,color) -> [color, count]).sort((lhs, rhs) -> rhs[1] - lhs[1]) 
+    _.map(@missing_colors, (count,color) -> [color, count]).sort((lhs, rhs) -> rhs[1] - lhs[1])
 
   unused_tile_colors: () ->
     _.map(_.filter(_.map(@tile_counts_by_color, (count,color) -> [color, count]), (pair) -> pair[1] == 0), '0')

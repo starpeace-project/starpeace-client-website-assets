@@ -1,8 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-
-_ = require('lodash')
 GifEncoder = require('gif-encoder')
 Jimp = require('jimp')
 

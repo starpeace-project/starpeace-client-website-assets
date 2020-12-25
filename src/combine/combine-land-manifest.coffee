@@ -1,7 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
 GroundDefinitionManifest = require('../land/ground/ground-definition-manifest')
 GroundTextureManifest = require('../land/ground/ground-texture-manifest')

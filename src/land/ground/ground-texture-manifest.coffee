@@ -1,9 +1,7 @@
 
-
 GroundTexture = require('./ground-texture')
 
-
-class GroundTextureManifest
+module.exports = class GroundTextureManifest
   constructor: (@all_textures) ->
 
   for_planet_type: (planet_type) ->
@@ -19,5 +17,3 @@ class GroundTextureManifest
           console.log "found and loaded #{textures.length} ground textures into manifest\n"
           fulfill(new GroundTextureManifest(textures))
         .catch reject
-
-module.exports = GroundTextureManifest

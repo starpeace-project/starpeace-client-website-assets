@@ -1,11 +1,8 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
 
-_ = require('lodash')
-Jimp = require('jimp')
-
-Spritesheet = require('../texture/spritesheet')
+Spritesheet = require('../common/spritesheet')
 
 
 # FIXME: TODO: add other orientations

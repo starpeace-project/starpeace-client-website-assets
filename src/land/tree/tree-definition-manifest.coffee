@@ -1,13 +1,11 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
-
-_ = require('lodash')
 
 TreeDefinition = require('./tree-definition')
 
 
-class TreeDefinitionManifest
+module.exports = class TreeDefinitionManifest
   constructor: (@all_definitions) ->
 
   for_planet_type: (planet_type) ->
@@ -23,5 +21,3 @@ class TreeDefinitionManifest
       manifest = new TreeDefinitionManifest(_.map(JSON.parse(fs.readFileSync(path.join(land_dir, 'tree-manifest.json'))), TreeDefinition.fromJson))
       console.log "found and loaded #{manifest.all_definitions.length} tree definitions\n"
       fulfill(manifest)
-
-module.exports = TreeDefinitionManifest

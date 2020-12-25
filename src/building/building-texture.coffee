@@ -1,8 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 crypto = require('crypto')
-
-_ = require('lodash')
 
 BuildingFrameTexture = require('./building-frame-texture')
 ConsoleProgressUpdater = require('../utils/console-progress-updater')

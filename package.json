@@ -1,6 +1,6 @@
 {
   "name": "@starpeace/starpeace-client-website-assets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compilation logic to package STARPEACE assets, gameplay resources, and simulation configurations for starpeace-client-website application",
   "keywords": [],
   "author": "starpeace-project",
@@ -15,21 +15,20 @@
     "grunt-contrib-coffee": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-run": "^0.8.1",
-    "jimp": "^0.16.1",
     "matchdep": "*"
   },
   "dependencies": {
     "@mapbox/shelf-pack": "^3.2.0",
-    "@starpeace/starpeace-assets": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.11",
-    "@starpeace/starpeace-assets-types": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.17",
+    "@starpeace/starpeace-assets": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.14",
+    "@starpeace/starpeace-assets-types": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.20",
     "fs-extra": "^9.0.1",
     "gif-encoder": "^0.7.2",
     "gif-frames": "^1.0.1",
     "gl": "^4.9.0",
+    "jimp": "^0.16.1",
     "lodash": "^4.17.20",
     "postprocessing": "^6.18.0",
     "promise": "^8.1.0",
-    "readline-sync": "^1.4.10",
     "stream-to-array": "^2.3.0",
     "three": "0.123.0",
     "yargs": "^16.2.0"

@@ -1,11 +1,8 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
 
-_ = require('lodash')
-
 InventionDefinition = require('./invention-definition')
-
 FileUtils = require('../utils/file-utils')
 
 class InventionDefinitionManifest

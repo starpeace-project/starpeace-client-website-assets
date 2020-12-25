@@ -1,5 +1,5 @@
-crypto = require('crypto')
 _ = require('lodash')
+crypto = require('crypto')
 path = require('path')
 fs = require('fs')
 
@@ -21,6 +21,7 @@ class Utils
     image = new Jimp(source_bitmap.width, source_bitmap.height)
     image.background(0x00000000)
 
+    skip = {}
     for y in [0...source_bitmap.height]
       for x in [0...source_bitmap.width]
         index = image.getPixelIndex(x, y)
@@ -28,14 +29,29 @@ class Utils
         green = source_bitmap.data[index + 1]
         blue  = source_bitmap.data[index + 2]
         alpha = source_bitmap.data[index + 3]
-        # continue if filter_mode.black && red == 0 && green == 0 && blue == 0
-        continue if filter_mode.blue && red == 0 && green == 0 && blue == 255
-        continue if filter_mode.white && red == 255 && green == 255 && blue == 255
-        continue if filter_mode.grey && red == 247 && green == 247 && blue == 247
-        continue if filter_mode.grey160 && red == 160 && green == 160 && blue == 160
-        continue if filter_mode.road_colors && (red == 39 && green == 84 && blue == 99 || red == 255 && green == 255 && blue == 255)
+        if filter_mode.blue && red == 0 && green == 0 && blue == 255
+          skip.blue = true
+          continue
+        if filter_mode.white && red == 255 && green == 255 && blue == 255
+          skip.white = true
+          continue
+        if filter_mode.grey && red == 247 && green == 247 && blue == 247
+          skip.grey = true
+          continue
+        if filter_mode.grey160 && red == 160 && green == 160 && blue == 160
+          skip.grey160 = true
+          continue
+        if filter_mode.road_colors && (red == 39 && green == 84 && blue == 99 || red == 255 && green == 255 && blue == 255)
+          skip.road = true
+          continue
 
         image.setPixelColor(Jimp.rgbaToInt(red, green, blue, alpha), x, y)
+
+    # console.log "SKIP BLUE" if skip.blue?
+    # console.log "SKIP WHITE" if skip.white?
+    # console.log "SKIP GREY" if skip.grey?
+    # console.log "SKIP GREY160" if skip.grey160?
+    # console.log "SKIP ROAD" if skip.road?
 
     image
 

@@ -1,14 +1,12 @@
-
+_ = require('lodash')
 path = require('path')
 crypto = require('crypto')
-
-_ = require('lodash')
 Jimp = require('jimp')
 
 LandAttributes = require('../land-attributes')
 
 
-class TreeDefinition
+module.exports = class TreeDefinition
 
   constructor: () ->
     @id = Number.NaN
@@ -43,5 +41,3 @@ class TreeDefinition
     tile.variant = json.variant
     tile.seasons = new Set(json.seasons || [LandAttributes.SEASONS.winter, LandAttributes.SEASONS.spring, LandAttributes.SEASONS.summer, LandAttributes.SEASONS.fall])
     tile
-
-module.exports = TreeDefinition

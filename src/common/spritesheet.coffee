@@ -1,10 +1,8 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-ShelfPack = require('@mapbox/shelf-pack')
-
-_ = require('lodash')
 Jimp = require('jimp')
+ShelfPack = require('@mapbox/shelf-pack')
 
 Utils = require('../utils/utils')
 

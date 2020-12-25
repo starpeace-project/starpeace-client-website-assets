@@ -1,21 +1,10 @@
-
+_ = require('lodash')
 path = require('path')
 
-_ = require('lodash')
+Texture = require('../common/texture')
 
-Texture = require('../texture/texture')
+module.exports = class BuildingFrameTexture extends Texture
+  constructor: (id, image, target_width) ->
+    super(id, image, target_width)
 
-class BuildingFrameTexture extends Texture
-  constructor: (@id, image, @target_width) ->
-    super(image)
-
-
-  toString: () -> "#{@id} => #{@width()}x#{@height()}"
-
-  target_width: () -> @target_width
-
-  key_for_spritesheet: () -> @id
-
-  filter_mode: () -> { black: true, blue: true, white: false, grey: true, green: true, grey160: true }
-
-module.exports = BuildingFrameTexture
+  filter_mode: () -> { blue: true, grey: true, green: true, grey160: true }

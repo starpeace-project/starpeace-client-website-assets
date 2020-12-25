@@ -1,7 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
 module.exports = class CombineStaticMusic
   @combine: (music_dir, target_dir) ->

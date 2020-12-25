@@ -1,11 +1,13 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
-OverlayDefinitionManifest = require('../overlay/overlay-definition-manifest')
-OverlayTextureManifest = require('../overlay/overlay-texture-manifest')
-Spritesheet = require('../texture/spritesheet')
+STARPEACE = require('@starpeace/starpeace-assets-types')
+
+Manifest = require('../common/manifest')
+Spritesheet = require('../common/spritesheet')
+Texture = require('../common/texture')
+TextureManifest = require('../common/texture-manifest')
 Utils = require('../utils/utils')
 
 DEBUG_MODE = false
@@ -16,14 +18,26 @@ TILE_HEIGHT = 32
 OUTPUT_TEXTURE_WIDTH = 1024
 OUTPUT_TEXTURE_HEIGHT = 1024
 
+
+load_overlay_manifest = (overlay_dir) ->
+  new Promise (done) ->
+    console.log "loading concrete definition manifest from #{overlay_dir}\n"
+    definitions = _.map(JSON.parse(fs.readFileSync(path.join(overlay_dir, 'overlay-manifest.json'))), STARPEACE.overlay.OverlayDefinition.fromJson)
+    console.log "found and loaded #{definitions.length} concrete definitions\n"
+    done(new Manifest(definitions))
+
+load_overlay_textures = (overlay_dir) ->
+  textures = await Texture.load(overlay_dir)
+  console.log "found and loaded #{textures.length} effect textures into manifest\n"
+  new TextureManifest(textures)
+
 aggregate = ([overlay_definition_manifest, overlay_texture_manifest]) ->
   new Promise (done, error) ->
-
     frame_texture_groups = []
-    for definition in overlay_definition_manifest.all_definitions
+    for definition in overlay_definition_manifest.definitions
       texture = overlay_texture_manifest.by_file_path[definition.image]
       unless texture?
-        console.log "unable to find overlay image #{key}"
+        console.log "unable to find overlay image #{definition.image}"
         continue
 
       frame_textures = texture.get_frame_textures(definition.id, definition.tileWidth * TILE_WIDTH, definition.tileHeight * TILE_WIDTH)
@@ -58,7 +72,7 @@ write_assets = (output_dir) -> ([overlay_definition_manifest, overlay_spriteshee
       h: definition.tileHeight
       atlas: frame_atlas[definition.frame_ids[0]]
       frames: definition.frame_ids
-    } for definition in overlay_definition_manifest.all_definitions
+    } for definition in overlay_definition_manifest.definitions
 
     json = {
       atlas: atlas_names
@@ -79,7 +93,7 @@ module.exports = class CombineOverlayManifest
   @combine: (overlay_dir, target_dir) ->
     new Promise (done, error) ->
       Promise.all [
-          OverlayDefinitionManifest.load(overlay_dir), OverlayTextureManifest.load(overlay_dir)
+          load_overlay_manifest(overlay_dir), load_overlay_textures(overlay_dir)
         ]
         .then aggregate
         .then write_assets(target_dir)

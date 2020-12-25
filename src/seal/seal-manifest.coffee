@@ -1,8 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs')
-
-_ = require('lodash')
 
 FileUtils = require('../utils/file-utils')
 

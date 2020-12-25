@@ -1,7 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
 NEWS_LANGUAGES = ['de', 'en', 'es', 'fr', 'it', 'pt']
 

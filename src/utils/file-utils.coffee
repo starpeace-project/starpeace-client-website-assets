@@ -1,6 +1,5 @@
-
-fs = require('fs')
 _ = require('lodash')
+fs = require('fs')
 path = require('path')
 
 class FileUtils

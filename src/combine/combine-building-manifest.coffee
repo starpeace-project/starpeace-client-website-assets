@@ -1,12 +1,11 @@
-
+_ = require('lodash')
 path = require('path')
 fs = require('fs-extra')
-_ = require('lodash')
 
 STARPEACE = require('@starpeace/starpeace-assets-types')
 
 BuildingTexture = require('../building/building-texture')
-Spritesheet = require('../texture/spritesheet')
+Spritesheet = require('../common/spritesheet')
 
 ConsoleProgressUpdater = require('../utils/console-progress-updater')
 FileUtils = require('../utils/file-utils')

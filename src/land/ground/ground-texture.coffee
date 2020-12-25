@@ -1,20 +1,17 @@
-
+_ = require('lodash')
 path = require('path')
 crypto = require('crypto')
-
-_ = require('lodash')
 Jimp = require('jimp')
 
+Texture = require('../../common/texture')
 LandAttributes = require('../land-attributes')
-
-Texture = require('../../texture/texture')
 ConsoleProgressUpdater = require('../../utils/console-progress-updater')
 FileUtils = require('../../utils/file-utils')
 
 
 class GroundTexture extends Texture
   constructor: (@directory, @file_path, image) ->
-    super(image)
+    super(null, image)
 
     @hash = GroundTexture.image_hash(@image.bitmap.width, @image.bitmap.height, @image.bitmap.data)
     @map_color = GroundTexture.calculate_map_color(@image.bitmap.width, @image.bitmap.height, @image.bitmap.data)
@@ -29,13 +26,10 @@ class GroundTexture extends Texture
     @variant = attributes.variant
 
 
-  ideal_file_name: () ->
-    "ground.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}.bmp"
+  ideal_file_name: () -> "ground.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}.bmp"
+  key_for_spritesheet: () -> "#{@season}.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}"
 
-  key_for_spritesheet: () ->
-    "#{@season}.#{@id.toString().padStart(3, '0')}.#{@zone}.#{@type}.#{@variant}"
-
-  filter_mode: () -> { blue: true, white: false, grey: true, green: false, grey160:false }
+  filter_mode: () -> { blue: true, grey: true }
 
   has_valid_attributes: () ->
     @planet_type != LandAttributes.PLANET_TYPES.other && @season != LandAttributes.SEASONS.other &&

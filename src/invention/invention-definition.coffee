@@ -1,7 +1,6 @@
-
+_ = require('lodash')
 path = require('path')
 
-_ = require('lodash')
 
 class InventionDefinition
   constructor: (@id, @category, @industry_type, @depends_on, @name, @description, @properties) ->
