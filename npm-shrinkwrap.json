@@ -363,12 +363,12 @@
       "integrity": "sha512-dyQxe6ukILV6qaEvxoKCIwhblgRjYp1ZGlClo4xvfbmxzFO5LYu7Tnrg2AZrRgN7VsSragsGcNjzUe9kCdKHYQ=="
     },
     "@starpeace/starpeace-assets": {
-      "version": "git://github.com/starpeace-project/starpeace-assets.git#f5fa356f9159518b2ed02261d5aba534b39684e7",
-      "from": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.16",
+      "version": "git://github.com/starpeace-project/starpeace-assets.git#a8995642e60022e5b8b94f1c56350fdd76110f4f",
+      "from": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.24",
       "dependencies": {
         "@starpeace/starpeace-assets-types": {
-          "version": "git://github.com/starpeace-project/starpeace-assets-types.git#002e8e56872e9455403c6924161871d87a9ac3f9",
-          "from": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.21",
+          "version": "git://github.com/starpeace-project/starpeace-assets-types.git#c364ef7737699360fbdaa21d43534d227c9a9164",
+          "from": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.24",
           "dependencies": {
             "@babel/parser": {
               "version": "7.12.11",
@@ -5634,8 +5634,8 @@
       }
     },
     "@starpeace/starpeace-assets-types": {
-      "version": "git://github.com/starpeace-project/starpeace-assets-types.git#002e8e56872e9455403c6924161871d87a9ac3f9",
-      "from": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.21",
+      "version": "git://github.com/starpeace-project/starpeace-assets-types.git#c364ef7737699360fbdaa21d43534d227c9a9164",
+      "from": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.24",
       "dependencies": {
         "@babel/parser": {
           "version": "7.12.11",
