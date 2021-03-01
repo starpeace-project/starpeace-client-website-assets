@@ -30,7 +30,7 @@
     "postprocessing": "^6.18.0",
     "promise": "^8.1.0",
     "stream-to-array": "^2.3.0",
-    "three": "0.124.0",
+    "three": "0.125.0",
     "yargs": "^16.2.0"
   }
 }
