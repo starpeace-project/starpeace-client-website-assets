@@ -19,9 +19,8 @@ Install starpeace-client-website-assets dependencies:
 $ npm install
 ```
 
-Raw assets can be compiled and planet animations generated with default or ```combine``` grunt target:
+Raw assets can be compiled and planet animations generated with ```assets``` npm target:
 
 ```
-$ grunt
-$ grunt combine
+$ npm run assets
 ```

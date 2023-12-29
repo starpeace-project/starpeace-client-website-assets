@@ -1,6 +1,6 @@
 {
   "name": "@starpeace/starpeace-client-website-assets",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Compilation logic to package STARPEACE assets, gameplay resources, and simulation configurations for starpeace-client-website application",
   "keywords": [],
   "author": "starpeace-project",
@@ -9,28 +9,26 @@
     "type": "git",
     "url": "git://github.com/starpeace-project/starpeace-client-website-assets.git"
   },
-  "devDependencies": {
-    "grunt": "^1.4.1",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-coffee": "^2.1.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-run": "^0.8.1",
-    "matchdep": "*"
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "assets": "npm run build && node --trace-deprecation build/combine-assets.js node_modules/@starpeace/starpeace-assets/assets build/public"
   },
   "dependencies": {
     "@mapbox/shelf-pack": "^3.2.0",
-    "@starpeace/starpeace-assets": "git://github.com/starpeace-project/starpeace-assets.git#v0.2.24",
-    "@starpeace/starpeace-assets-types": "git://github.com/starpeace-project/starpeace-assets-types.git#v0.2.24",
-    "fs-extra": "^10.0.0",
-    "gif-encoder": "^0.7.2",
-    "gif-frames": "^1.0.1",
-    "gl": "^4.9.0",
-    "jimp": "^0.16.1",
+    "@starpeace/starpeace-assets": "github:starpeace-project/starpeace-assets.git#v0.3.5",
+    "@starpeace/starpeace-assets-types": "github:starpeace-project/starpeace-assets-types.git#v0.4.7",
+    "decode-gif": "^1.0.1",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.10",
     "lodash": "^4.17.21",
-    "postprocessing": "^6.22.0",
-    "promise": "^8.1.0",
     "stream-to-array": "^2.3.0",
-    "three": "0.129.0",
-    "yargs": "^17.0.1"
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.14.202",
+    "@types/mapbox__shelf-pack": "^3.0.6",
+    "@types/stream-to-array": "^2.3.3"
   }
 }

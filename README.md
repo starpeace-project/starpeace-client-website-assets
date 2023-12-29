@@ -2,7 +2,6 @@
 # starpeace-client-website-assets
 
 [![GitHub release](https://img.shields.io/github/release/starpeace-project/starpeace-client-website-assets.svg)](https://github.com/starpeace-project/starpeace-client-website-assets/releases/)
-[![Build Status](https://travis-ci.org/starpeace-project/starpeace-client-website-assets.svg)](https://travis-ci.org/starpeace-project/starpeace-client-website-assets)
 [![GitHub license](https://img.shields.io/github/license/starpeace-project/starpeace-client-website-assets.svg)](https://github.com/starpeace-project/starpeace-client-website-assets/blob/master/LICENSE)
 
 Compilation logic and tools for [STARPEACE](https://www.starpeace.io) to process and package gameplay images, sounds, and baseline simulation configurations for client website integration.
@@ -21,7 +20,7 @@ Please see [development manual](./DEVELOPMENT.md) for starpeace-client-website-a
 
 ## Build and Deployment
 
-After building repository with grunt ```combine```, game-ready assets are compiled and placed within the ```/build/public/``` folder. These resources should be served as static assets from web application and can be cached if desired.
+After building repository with ```npm run assets```, game-ready assets are compiled and placed within the ```/build/public/``` folder. These resources should be served as static assets from web application and can be cached if desired.
 
 ### cdn.starpeace.io
 
@@ -30,7 +29,7 @@ Repository is currently deployed to and hosted with AWS S3. Changes pushed to re
 ## Asset Tools
 ### Combine
 
-combine-manifest.js is executed with grunt ```combine``` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
+combine-manifest.js is executed with ```npm run assets```` target and provides logic to combine and optimize raw assets as well as generate description metadata to be used with game client
 
 
 ## License

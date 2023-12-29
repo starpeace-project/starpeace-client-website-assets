@@ -3,26 +3,21 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 10
+      nodejs: 18
     commands:
       - echo Entered the install phase...
-      - apt-get update
-      - apt-get install -y xvfb
-      - apt-get install -y build-essential libxmu-dev libxi-dev libglu1-mesa-dev libglew-dev
       - npm update -g npm
-      - npm install -g grunt-cli
-
 
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - npm install --verbose
+      - npm install
 
   build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - xvfb-run -s "-ac -screen 0 800x600x24" grunt combine
+      - npm run assets
 
   post_build:
     commands:
