@@ -28,13 +28,40 @@ export default class Utils {
         const green = sourceBitmap.data[index + 1];
         const blue  = sourceBitmap.data[index + 2];
         const alpha = sourceBitmap.data[index + 3];
+        if (filterMode.red && red == 255 && green == 0 && blue == 0) {
+          continue;
+        }
         if (filterMode.blue && red == 0 && green == 0 && blue == 255) {
+          continue;
+        }
+        if (filterMode.blue204 && red == 0 && green == 0 && blue == 204) {
           continue;
         }
         if (filterMode.white && red == 255 && green == 255 && blue == 255) {
           continue;
         }
         if (filterMode.grey && red == 247 && green == 247 && blue == 247) {
+          continue;
+        }
+        if (filterMode.lime && red == 51 && green == 255 && blue == 102) {
+          continue;
+        }
+        if (filterMode.lime169 && red == 0 && green == 255 && blue == 169) {
+          continue;
+        }
+        if (filterMode.lightBlue && red == 0 && green == 204 && blue == 255) {
+          continue;
+        }
+        if (filterMode.purple && red == 237 && green == 50 && blue == 255) {
+          continue;
+        }
+        if (filterMode.orange && red == 255 && green == 169 && blue == 0) {
+          continue;
+        }
+        if (filterMode.orange203 && red == 203 && green == 135 && blue == 0) {
+          continue;
+        }
+        if (filterMode.orange255 && red == 255 && green == 0 && blue == 34) {
           continue;
         }
         if (filterMode.grey160 && red == 160 && green == 160 && blue == 160) {

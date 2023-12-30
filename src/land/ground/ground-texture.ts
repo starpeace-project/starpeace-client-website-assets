@@ -10,7 +10,7 @@ import FileUtils from '../../utils/file-utils.js';
 
 
 export default class GroundTexture extends Texture {
-  filePath: string;
+  fileKey: string;
 
   planetType: string;
   season: string;
@@ -21,9 +21,9 @@ export default class GroundTexture extends Texture {
   hash: string;
   mapColor: number;
 
-  constructor (filePath: string, image: Jimp, planetType: string, id: number, season: string, zone: string, type: string, variant: number, hash: string, mapColor: number) {
+  constructor (fileKey: string, image: Jimp, planetType: string, id: number, season: string, zone: string, type: string, variant: number, hash: string, mapColor: number) {
     super(isNaN(id) ? `${planetType}.${season}.${zone}.${type}.${variant}` : id.toString(), image);
-    this.filePath = filePath;
+    this.fileKey = fileKey;
     this.planetType = planetType;
     this.season = season;
     this.zone = zone;
@@ -95,13 +95,14 @@ export default class GroundTexture extends Texture {
   }
 
   static create (filePath: string, image: Jimp): GroundTexture {
-    const attributes = LandAttributes.parse(path.basename(filePath));
+    const fileKey = path.basename(filePath);
+    const attributes = LandAttributes.parse(fileKey);
     return new GroundTexture(
-      filePath,
+      fileKey,
       image,
-      LandAttributes.planetTypeFromValue(filePath),
+      LandAttributes.planetTypeFromFilePath(filePath),
       attributes.id,
-      LandAttributes.seasonFromValue(filePath),
+      LandAttributes.seasonFromFilePath(filePath),
       attributes.zone,
       attributes.type,
       attributes.variant,

@@ -8,15 +8,15 @@ import TreeDefinitionManifest from '../land/tree/tree-definition-manifest.js';
 import TreeTextureManifest from '../land/tree/tree-texture-manifest.js';
 
 
-const PLANET_TYPES = ['earth'];
+const PLANET_TYPES = ['earth', 'alien1', 'alien2'];
 const DEBUG_MODE = false;
 
 function aggregateByPlanet (groundDefinitionManifest: GroundDefinitionManifest, groundTextureManifest: GroundTextureManifest, treeDefinitionManifest: TreeDefinitionManifest, treeTextureManifest: TreeTextureManifest): Array<LandManifest> {
   const landManifests = [];
   for (const planetType of PLANET_TYPES) {
     landManifests.push(LandManifest.merge(planetType,
-        groundDefinitionManifest.allTiles, groundTextureManifest.forPlanetType(planetType),
-        treeDefinitionManifest.allDefinitions, treeTextureManifest.forPlanetType(planetType)))
+        groundDefinitionManifest.defintions, groundTextureManifest.texturesByPlanetType[planetType] ?? [],
+        treeDefinitionManifest.defintions, treeTextureManifest.texturesByPlanetType[planetType] ?? []))
   }
   return landManifests;
 }
@@ -28,7 +28,7 @@ async function writeAssets (outputDir: string, landManifests: Array<LandManifest
 
     for (const spritesheet of manifest.groundSpritesheets) {
       const textureName = `ground.${manifest.planetType}.texture.${spritesheet.index}.png`;
-      writePromises.push(spritesheet.saveTexture(outputDir, textureName)); // , true, false, true
+      writePromises.push(spritesheet.saveTexture(outputDir, textureName));
 
       const atlasName = `ground.${manifest.planetType}.atlas.${spritesheet.index}.json`;
       atlasNames.push(`./${atlasName}`);
@@ -38,7 +38,7 @@ async function writeAssets (outputDir: string, landManifests: Array<LandManifest
 
     for (const spritesheet of manifest.treeSpritesheets) {
       const textureName = `tree.${manifest.planetType}.texture.${spritesheet.index}.png`;
-      writePromises.push(spritesheet.saveTexture(outputDir, textureName)); //, true, true, true
+      writePromises.push(spritesheet.saveTexture(outputDir, textureName));
 
       const atlasName = `tree.${manifest.planetType}.atlas.${spritesheet.index}.json`;
       atlasNames.push(`./${atlasName}`);
@@ -49,8 +49,8 @@ async function writeAssets (outputDir: string, landManifests: Array<LandManifest
     const json = {
       planet_type: manifest.planetType,
       atlas: atlasNames,
-      ground_definitions: manifest.groundMetadata,
-      tree_definitions: manifest.treeMetadata
+      ground_definitions: manifest.groundByKey,
+      tree_definitions: manifest.treeByKey
     };
 
     const metadataFile = path.join(outputDir, `land.${manifest.planetType}.metadata.json`);

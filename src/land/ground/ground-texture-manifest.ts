@@ -1,20 +1,13 @@
 import GroundTexture from './ground-texture.js';
 
 export default class GroundTextureManifest {
-  allTextures: Array<GroundTexture>;
+  texturesByPlanetType: Record<string, Array<GroundTexture>> = {};
 
-  constructor (allTextures: Array<GroundTexture>) {
-    this.allTextures = allTextures;
-  }
-
-  forPlanetType (planetType: string): Array<GroundTexture> {
-    const textures = [];
-    for (const texture of this.allTextures) {
-      if (texture.planetType === planetType) {
-        textures.push(texture);
-      }
+  constructor (textures: Array<GroundTexture>) {
+    for (const texture of textures) {
+      this.texturesByPlanetType[texture.planetType] ||= [];
+      this.texturesByPlanetType[texture.planetType].push(texture);
     }
-    return textures;
   }
 
   static async load (landDir: string): Promise<GroundTextureManifest> {

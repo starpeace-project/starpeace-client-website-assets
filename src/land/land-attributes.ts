@@ -1,24 +1,24 @@
 
 export default class LandAttributes {
-  // FIXME: TODO: add alien swamp
   static PLANET_TYPES: Record<string, string> = {
-    other: 'other',
-    earth: 'earth'
+    earth: 'earth',
+    alien1: 'alien1',
+    alien2: 'alien2'
   }
   static SEASONS: Record<string, string> = {
-    other:'other',
-    winter:'winter',
-    spring:'spring',
-    summer:'summer',
-    fall:'fall'
+    winter: 'winter',
+    spring: 'spring',
+    summer: 'summer',
+    fall: 'fall',
+    other: 'other'
   }
   static ZONES: Record<string, string> = {
-    other:'other',
-    border:'border',
-    midgrass:'midgrass',
-    grass:'grass',
-    dryground:'dryground',
-    water:'water'
+    border: 'border',
+    midgrass: 'midgrass',
+    grass: 'grass',
+    dryground: 'dryground',
+    water: 'water',
+    other: 'other'
   }
   static TYPES: Record<string, string> = {
     other:'other', special:'special', center:'center',
@@ -42,57 +42,45 @@ export default class LandAttributes {
     return type;
   }
 
-  static planetTypeFromValue (value: string | Array<string>): string {
-    if (typeof value === 'string' && !!LandAttributes.PLANET_TYPES[value]) {
-      return LandAttributes.PLANET_TYPES[value];
-    }
+  static planetTypeFromFilePath (filePath: string): string {
     for (const key of Object.keys(LandAttributes.PLANET_TYPES)) {
-      if (value.indexOf(key) >= 0) {
+      if (filePath.indexOf(key) >= 0) {
         return LandAttributes.PLANET_TYPES[key];
       }
     }
-    return LandAttributes.PLANET_TYPES.other;
+    return LandAttributes.PLANET_TYPES.earth;
   }
 
-  static seasonFromValue (value: string): string {
-    const safeValue = value.toLowerCase();
-    if (!!LandAttributes.SEASONS[safeValue]) {
-      return LandAttributes.SEASONS[safeValue];
-    }
+  static seasonFromFilePath (filePath: string): string {
+    const safePath = filePath.toLowerCase();
     for (const key of Object.keys(LandAttributes.SEASONS)) {
-      if (safeValue.indexOf(key) >= 0) {
+      if (safePath.indexOf(key) >= 0) {
         return LandAttributes.SEASONS[key];
       }
     }
     return LandAttributes.SEASONS.other;
   }
 
-  static zoneFromValue (value: string): string {
-    if (LandAttributes.ZONES[value]) {
-      return LandAttributes.ZONES[value];
-    }
+  static zoneFromFileKey (fileKey: string): string {
     for (const key of Object.keys(LandAttributes.ZONES)) {
-      if (value.indexOf(key) >= 0) {
+      if (fileKey.indexOf(key) >= 0) {
         return LandAttributes.ZONES[key];
       }
     }
     return LandAttributes.ZONES.other;
   }
 
-  static typeFromValue (value: string): string {
-    if (!!LandAttributes.TYPES[value]) {
-      return LandAttributes.TYPES[value];
-    }
+  static typeFromFileKey (fileKey: string): string {
     for (const key of Object.keys(LandAttributes.TYPES)) {
-      if (value.indexOf(key) >= 0) {
+      if (fileKey.indexOf(key) >= 0) {
         return LandAttributes.TYPES[key];
       }
     }
     return LandAttributes.TYPES.other;
   }
 
-  static variantFromValue (value: string): number {
-    const match = /[a-zA-Z]*(\d+)/g.exec(value);
+  static variantFromFileKey (fileKey: string): number {
+    const match = /[a-zA-Z]*(\d+)/g.exec(fileKey);
     return match ? parseInt(match[1]) : Number.NaN;
   }
 
@@ -114,11 +102,11 @@ export default class LandAttributes {
       }
 
       let mainContent = parts.length > 2 ? parts[2] : parts[0];
-      attributes.zone = LandAttributes.zoneFromValue(mainContent);
+      attributes.zone = LandAttributes.zoneFromFileKey(mainContent);
       mainContent = mainContent.replace(new RegExp(attributes.zone, 'gi'), '');
-      attributes.type = LandAttributes.typeFromValue(mainContent);
+      attributes.type = LandAttributes.typeFromFileKey(mainContent);
       mainContent = mainContent.replace(new RegExp(attributes.type, 'gi'), '');
-      attributes.variant = LandAttributes.variantFromValue(mainContent);
+      attributes.variant = LandAttributes.variantFromFileKey(mainContent);
     }
 
     return attributes;

@@ -7,16 +7,32 @@ interface TextureInfo {
   key: string;
 }
 
+export interface GroundDefitionJson {
+  id: number;
+  map_color: number;
+  zone: string;
+  is_coast: boolean;
+
+  // orientation -> season -> type/direction -> key
+  textures: Record<string, Record<string, Record<string, string>>>;
+}
+
 export default class GroundDefinition {
-  id: number = Number.NaN;
-  mapColor: number = Number.NaN;
-  zone: string = LandAttributes.ZONES.other;
+  id: number; // TODO: remove?
+  mapColor: number;
+  zone: string;
   textureByOrientation: Record<string, TextureInfo> = {};
 
-  get key (): string {
-    return `ground.${this.id.toString().padStart(3, '0')}.${this.zone}`;
+  constructor (id: number, mapColor: number, zone: string, textureByOrientation: Record<string, TextureInfo>) {
+    this.id = id;
+    this.mapColor = mapColor;
+    this.zone = zone;
+    this.textureByOrientation = textureByOrientation;
   }
 
+  get textureKey (): string {
+    return `ground.${this.id.toString().padStart(3, '0')}.${this.zone}`;
+  }
   get textureKeys (): Array<string> {
     return Object.values(this.textureByOrientation).map((texture) => texture.key);
   }
@@ -55,21 +71,22 @@ export default class GroundDefinition {
     };
   }
 
-  toCompiledJson (): any {
+  toCompiledJson (): GroundDefitionJson {
     return {
       id: this.id,
       map_color: this.mapColor,
       zone: this.zone,
-      is_coast: this.zone === LandAttributes.ZONES.water && !this.isCenter
+      is_coast: this.zone === LandAttributes.ZONES.water && !this.isCenter,
+      textures: {}
     };
   }
 
   static fromJson (json: any): GroundDefinition {
-    const tile = new GroundDefinition();
-    tile.id = json.id;
-    tile.mapColor = json.map_color;
-    tile.zone = json.zone ?? LandAttributes.ZONES.other;
-    tile.textureByOrientation = json.textures ?? {};
-    return tile;
+    return new GroundDefinition(
+      json.id ?? Number.NaN,
+      json.map_color ?? Number.NaN,
+      json.zone ?? LandAttributes.ZONES.other,
+      json.textures ?? {}
+    );
   }
 }

@@ -8,17 +8,17 @@ import LandAttributes from '../land-attributes.js';
 import ConsoleProgressUpdater from '../../utils/console-progress-updater.js';
 
 export default class TreeTexture extends Texture {
-  filePath: string;
+  fileKey: string;
 
   planetType: string;
   season: string;
   variant: number;
   zone: string;
 
-  constructor (filePath: string, image: Jimp, id: string, planetType: string, season: string, variant: number, zone: string) {
+  constructor (fileKey: string, image: Jimp, id: string, planetType: string, season: string, variant: number, zone: string) {
     super(id, image);
 
-    this.filePath = filePath;
+    this.fileKey = fileKey;
     this.planetType = planetType;
     this.season = season;
     this.variant = variant;
@@ -34,24 +34,34 @@ export default class TreeTexture extends Texture {
 
   get filterMode (): any {
     return {
+      red: true,
       blue: true,
+      blue204: true,
       white: true,
-      grey: true
+      grey: true,
+      lime: true,
+      lime169: true,
+      lightBlue: true,
+      orange: true,
+      orange203: true,
+      orange255: true,
+      purple: true
     };
   }
 
   static create (filePath: string, image: Jimp): TreeTexture {
-    const planetType = LandAttributes.planetTypeFromValue(filePath);
-    const season = LandAttributes.seasonFromValue(filePath);
+    const planetType = LandAttributes.planetTypeFromFilePath(filePath);
+    const season = LandAttributes.seasonFromFilePath(filePath);
 
+    const fileKey = path.basename(filePath);
     let variant = Number.NaN;
     let zone = LandAttributes.ZONES.other;
-    const keyMatch = /tree\.(\S+)\.(\S+)\.bmp/.exec(path.basename(filePath));
+    const keyMatch = /tree\.(\S+)\.(\S+)\.bmp/.exec(fileKey);
     if (keyMatch) {
       variant = parseInt(keyMatch[2]);
-      zone = LandAttributes.zoneFromValue(keyMatch[1]);
+      zone = LandAttributes.zoneFromFileKey(keyMatch[1]);
     }
-    return new TreeTexture(filePath, image, `${planetType}.${season}.${zone}.${variant}`, planetType, season, variant, zone);
+    return new TreeTexture(fileKey, image, `${planetType}.${season}.${zone}.${variant}`, planetType, season, variant, zone);
   }
 
   static async load (landDir: string): Promise<Array<TreeTexture>> {
