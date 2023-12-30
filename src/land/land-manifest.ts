@@ -26,36 +26,32 @@ export default class LandManifest {
   static merge (planetType: string, groundDefinitions: Array<GroundDefinition>, groundTextures: Array<GroundTexture>, treeDefinitions: Array<TreeDefinition>, treeTextures: Array<TreeTexture>) {
     const groundTextureByKeySeason: Record<string, Record<string, any>> = {};
     for (const texture of groundTextures) {
-      const textureKey = texture.idealFileName;
-      groundTextureByKeySeason[textureKey] ||= {};
-      groundTextureByKeySeason[textureKey][texture.season] = texture;
+      groundTextureByKeySeason[texture.textureKey] ||= {};
+      groundTextureByKeySeason[texture.textureKey][texture.season] = texture;
     }
 
     const treeTextureByKeySeason: Record<string, Record<string, TreeTexture>> = {};
     for (const texture of treeTextures) {
-      const textureKey = texture.idealFileName;
-      treeTextureByKeySeason[textureKey] ||= {};
-      treeTextureByKeySeason[textureKey][texture.season] = texture;
+      treeTextureByKeySeason[texture.textureKey] ||= {};
+      treeTextureByKeySeason[texture.textureKey][texture.season] = texture;
     }
 
     const groundMetadataByKey: Record<string, Record<string, GroundTexture>> = {};
     const groundTextureKeys = new Set<string>();
     for (const tile of groundDefinitions) {
-      for (const [orientation, typeTextureKey] of Object.entries(tile.texturesByOrientationType)) {
+      for (const [orientation, textureInfo] of Object.entries(tile.textureByOrientation)) {
         if (!ORIENTATIONS.has(orientation)) {
           continue;
         }
-        const groundMetadata = groundMetadataByKey[tile.key] = tile.toCompiledJson();
 
-        for (const season of Object.keys(groundTextureByKeySeason[typeTextureKey.key] || {})) {
-          if (tile.seasons.has(season)) {
-            const spritesheetKey = groundTextureByKeySeason[typeTextureKey.key][season].keyForSpritesheet;
-            groundMetadata.textures ||= {};
-            groundMetadata.textures[orientation] ||= {};
-            groundMetadata.textures[orientation][season] ||= {};
-            groundMetadata.textures[orientation][season][typeTextureKey.type] = spritesheetKey;
-            groundTextureKeys.add(spritesheetKey);
-          }
+        const groundMetadata = groundMetadataByKey[tile.key] = tile.toCompiledJson();
+        for (const season of Object.keys(groundTextureByKeySeason[textureInfo.key] ?? {})) {
+          const spritesheetKey = groundTextureByKeySeason[textureInfo.key][season].keyForSpritesheet;
+          groundMetadata.textures ||= {};
+          groundMetadata.textures[orientation] ||= {};
+          groundMetadata.textures[orientation][season] ||= {};
+          groundMetadata.textures[orientation][season][textureInfo.type] = spritesheetKey;
+          groundTextureKeys.add(spritesheetKey);
         }
       }
     }
@@ -64,14 +60,11 @@ export default class LandManifest {
     const treeTextureKeys = new Set<string>();
     for (const definition of treeDefinitions) {
       const treeMetadata = treeMetadataByKey[definition.key] = definition.toCompiledJson();
-
       for (const season of Object.keys(treeTextureByKeySeason[definition.key] ?? {})) {
-        if (definition.seasons.has(season)) {
-          const spritesheetKey = treeTextureByKeySeason[definition.key][season].keyForSpritesheet;
-          treeMetadata.textures ||= {};
-          treeMetadata.textures[season] = spritesheetKey;
-          treeTextureKeys.add(spritesheetKey);
-        }
+        const spritesheetKey = treeTextureByKeySeason[definition.key][season].keyForSpritesheet;
+        treeMetadata.textures ||= {};
+        treeMetadata.textures[season] = spritesheetKey;
+        treeTextureKeys.add(spritesheetKey);
       }
     }
 

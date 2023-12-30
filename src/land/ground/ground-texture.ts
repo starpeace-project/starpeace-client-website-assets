@@ -10,7 +10,6 @@ import FileUtils from '../../utils/file-utils.js';
 
 
 export default class GroundTexture extends Texture {
-  // directory: string;
   filePath: string;
 
   planetType: string;
@@ -34,8 +33,8 @@ export default class GroundTexture extends Texture {
     this.mapColor = mapColor;
   };
 
-  get idealFileName (): string {
-    return `ground.${this.id?.toString()?.padStart(3, '0')}.${this.zone}.${this.type}.${this.variant}.bmp`;
+  get textureKey (): string {
+    return `ground.${this.id?.toString()?.padStart(3, '0')}.${this.zone}.${this.type}.${this.variant}`;
   }
   get keyForSpritesheet (): string {
     return `${this.season}.${this.id?.toString()?.padStart(3, '0')}.${this.zone}.${this.type}.${this.variant}`;
@@ -54,10 +53,6 @@ export default class GroundTexture extends Texture {
         this.zone !== LandAttributes.ZONES.other &&
         this.type !== LandAttributes.TYPES.other &&
         !isNaN(this.variant);
-  }
-
-  get hasValidFileName (): boolean {
-    return this.idealFileName === path.basename(this.filePath);
   }
 
   static imageHash (width: number, height: number, bitmapData: any): string {

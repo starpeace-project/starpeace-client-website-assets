@@ -23,12 +23,12 @@ export default class GroundDefinitionManifest {
     }
   }
 
-  forPlanetType (planetType: string): Array<GroundDefinition> {
+  forPlanetType (_planetType: string): Array<GroundDefinition> {
     const definitions = [];
     for (const tile of this.allTiles) {
-      if (tile.planetType === planetType) {
+      //if (tile.planetType === planetType) {
         definitions.push(tile);
-      }
+      //}
     }
     return definitions;
   }

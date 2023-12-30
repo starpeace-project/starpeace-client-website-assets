@@ -49,7 +49,7 @@ export default class Spritesheet {
     const textureFile = path.join(outputDir, textureName);
     fs.mkdirsSync(path.dirname(textureFile));
     console.log(` [OK] spritesheet texture saved to ${textureFile}`);
-    this.renderToTexture().write(textureFile);
+    this.renderToTexture().quality(100).write(textureFile);
   }
 
   framesJson (): Record<string, any> {

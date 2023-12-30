@@ -25,8 +25,8 @@ export default class TreeTexture extends Texture {
     this.zone = zone;
   }
 
-  get idealFileName (): string {
-    return `tree.${this.zone}.${this.variant.toString().padStart(2, '0')}.bmp`;
+  get textureKey (): string {
+    return `tree.${this.zone}.${this.variant.toString().padStart(2, '0')}`;
   }
   get keyForSpritesheet (): string {
     return `${this.season}.${this.zone}.${this.variant.toString().padStart(2, '0')}`;

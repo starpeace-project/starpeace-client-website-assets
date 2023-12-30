@@ -4,18 +4,18 @@ import path from 'path';
 import TreeDefinition from './tree-definition.js';
 
 export default class TreeDefinitionManifest {
-  allDefinitions: Array<any>;
+  allDefinitions: Array<TreeDefinition>;
 
-  constructor (allDefinitions: Array<any>) {
+  constructor (allDefinitions: Array<TreeDefinition>) {
     this.allDefinitions = allDefinitions;
   }
 
-  forPlanetType (planetType: string): Array<any> {
+  forPlanetType (_planetType: string): Array<any> {
     const definitions = [];
     for (const definition of this.allDefinitions) {
-      if (definition.planetType === planetType) {
+      //if (definition.planetType === planetType) {
         definitions.push(definition);
-      }
+      //}
     }
     return definitions;
   }
