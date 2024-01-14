@@ -1,6 +1,6 @@
 {
   "name": "@starpeace/starpeace-client-website-assets",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Compilation logic to package STARPEACE assets, gameplay resources, and simulation configurations for starpeace-client-website application",
   "keywords": [],
   "author": "starpeace-project",
@@ -16,12 +16,13 @@
   },
   "dependencies": {
     "@mapbox/shelf-pack": "^3.2.0",
-    "@starpeace/starpeace-assets": "github:starpeace-project/starpeace-assets.git#v0.3.9",
+    "@starpeace/starpeace-assets": "github:starpeace-project/starpeace-assets.git#v0.3.11",
     "@starpeace/starpeace-assets-types": "github:starpeace-project/starpeace-assets-types.git#v0.4.7",
     "decode-gif": "^1.0.1",
     "fs-extra": "^11.2.0",
     "jimp": "^0.22.10",
     "lodash": "^4.17.21",
+    "sharp": "^0.33.2",
     "stream-to-array": "^2.3.0",
     "typescript": "^5.3.3"
   },

@@ -9,9 +9,9 @@ async function writeMapImages (outputDir: string, mapImages: Array<MapImage>) {
 
   console.log(`found and loaded ${mapImages.length} maps\n`);
   for (const image of mapImages) {
-    const bmpMapFile = path.join(outputDir, `map.${image.name.toLowerCase()}.texture.bmp`);
-    fs.copySync(image.fullPath, bmpMapFile);
-    console.log(` [OK] map ${image.fullPath} copied to ${bmpMapFile}`);
+    const pngMapFile = path.join(outputDir, `map.${image.name.toLowerCase()}.texture.png`);
+    fs.copySync(image.fullPath, pngMapFile);
+    console.log(` [OK] map ${image.fullPath} copied to ${pngMapFile}`);
   }
 
   return [];

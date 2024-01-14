@@ -15,7 +15,7 @@ export default class MapImage {
   constructor (fullPath: string, imagePath: string, image: Jimp) {
     this.fullPath = fullPath;
     this.imagePath = imagePath;
-    this.name = path.basename(this.imagePath).replace('.bmp', '')
+    this.name = path.basename(this.imagePath).replace('.png', '')
     this.image = image;
   }
 
@@ -33,7 +33,7 @@ export default class MapImage {
 
   static async load (mapDir: string): Promise<Array<MapImage>> {
     console.log(`loading map information from ${mapDir}\n`);
-    const imagePaths = FileUtils.readAllFiles(mapDir).filter((path) => path.endsWith('.bmp'));
+    const imagePaths = FileUtils.readAllFiles(mapDir).filter((path) => path.endsWith('.png'));
 
     const progress = new ConsoleProgressUpdater(imagePaths.length);
     const images = await Promise.all(imagePaths.map(async (p) => {

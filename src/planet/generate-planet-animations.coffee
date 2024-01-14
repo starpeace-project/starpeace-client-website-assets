@@ -61,6 +61,6 @@ class GeneratePlanetAnimations
 
     for mapId in mapIds
       console.log "Generating animation for planet map #{mapId}"
-      await generate_planet_animation(path.join(maps_dir, "#{mapId}.bmp"), path.join(target_dir, "map.#{mapId}.animation.gif"))
+      await generate_planet_animation(path.join(maps_dir, "#{mapId}.png"), path.join(target_dir, "map.#{mapId}.animation.gif"))
 
 module.exports = GeneratePlanetAnimations
