@@ -80,20 +80,27 @@ export default class Utils {
 
   static async loadAndGroupAnimation (rootDir: string | undefined, imageFilePaths: Array<string>, showProgress: boolean = false): Promise<Array<Array<[number, Jimp]>>> {
     let progressUpdater = showProgress ? new ConsoleProgressUpdater(2 * imageFilePaths.length) : undefined;
-    return imageFilePaths.map((filePath) => {
+    return Promise.all(imageFilePaths.map(async (filePath) => {
       const gifPath = rootDir ? path.resolve(rootDir, filePath) : filePath;
-      const data = decodeGif(fs.readFileSync(gifPath));
-      progressUpdater?.next();
 
       const framePairs: Array<[number, Jimp]> = [];
-      data.frames.sort((lhs, rhs) => lhs.timeCode - rhs.timeCode);
-      for (let frameIndex = 0; frameIndex < data.frames.length; frameIndex++) {
-        const image = new Jimp({ data: Buffer.from(data.frames[frameIndex].data), width: data.width, height: data.height });
-        framePairs.push([frameIndex, image]);
+      if (gifPath.endsWith('.gif')) {
+        const data = decodeGif(fs.readFileSync(gifPath));
+        progressUpdater?.next();
+
+        data.frames.sort((lhs, rhs) => lhs.timeCode - rhs.timeCode);
+        for (let frameIndex = 0; frameIndex < data.frames.length; frameIndex++) {
+          const image = new Jimp({ data: Buffer.from(data.frames[frameIndex].data), width: data.width, height: data.height });
+          framePairs.push([frameIndex, image]);
+        }
+        progressUpdater?.next();
       }
-      progressUpdater?.next();
+      else {
+        framePairs.push([0, await Jimp.read(gifPath)]);
+        progressUpdater?.next();
+      }
       return framePairs;
-    });
+    }));
   }
 
 }
