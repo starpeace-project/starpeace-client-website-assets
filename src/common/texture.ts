@@ -49,7 +49,7 @@ export default class Texture {
     return [new Texture(rootId, this.image, width, height)];
   }
 
-  static async load (directory: string): Promise<Array<Texture>> {
+  static async load (directory: string, baseDirectory: string | undefined = undefined): Promise<Array<Texture>> {
     console.log(`loading animated textures from ${directory}\n`);
 
     const imageFilePaths = FileUtils.readAllFiles(directory).filter((filePath) => filePath.indexOf('legacy') < 0 && (filePath.endsWith('.bmp') || filePath.endsWith('.png')));
@@ -61,7 +61,7 @@ export default class Texture {
     }));
 
     return _.zip(imageFilePaths, images).filter((pair) => pair[0] && pair[1]).map((pair) => {
-      const filePath = (pair[0] as string).substring(directory.length + 1)
+      const filePath = (pair[0] as string).substring((baseDirectory ?? directory).length + 1).replace(/\\/g, '/');
       const image = new Texture(filePath.replace('.bmp', '').replace('.png', ''), (pair[1] as Jimp));
       image.filePath = filePath;
       return image;

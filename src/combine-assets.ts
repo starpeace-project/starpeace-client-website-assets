@@ -53,6 +53,7 @@ console.log(`output directory: ${targetDir}`);
 
 console.log("\n-------------------------------------------------------------------------------\n");
 
+const baseDir = path.dirname(assetsDir);
 const soundDir = path.join(assetsDir, 'sounds');
 const concreteDir = path.join(assetsDir, 'concrete');
 const effectsDir = path.join(assetsDir, 'effects');
@@ -65,6 +66,7 @@ const planesDir = path.join(assetsDir, 'planes');
 const roadsDir = path.join(assetsDir, 'roads');
 const signsDir = path.join(assetsDir, 'signs');
 
+
 const jobs = [];
 if (!SKIP.BUILDINGS) jobs.push(CombineBuildingManifest.combine(assetsDir, targetWithVersion));
 if (!SKIP.CONCRETE) jobs.push(CombineConcreteManifest.combine(concreteDir, targetWithVersion));
@@ -75,7 +77,7 @@ if (!SKIP.MUSIC) jobs.push(CombineStaticMusic.combine(musicDir, targetWithVersio
 if (!SKIP.NEWS) jobs.push(CombineStaticNews.combine(newsDir, targetWithVersion));
 if (!SKIP.OVERLAYS) jobs.push(CombineOverlayManifest.combine(overlaysDir, targetWithVersion));
 if (!SKIP.PLANES) jobs.push(CombinePlaneManifest.combine(planesDir, targetWithVersion));
-if (!SKIP.ROADS) jobs.push(CombineRoadManifest.combine(roadsDir, targetWithVersion));
+if (!SKIP.ROADS) jobs.push(CombineRoadManifest.combine(baseDir, roadsDir, targetWithVersion));
 if (!SKIP.SIGNS) jobs.push(CombineSignManifest.combine(signsDir, targetWithVersion));
 
 Promise.all(jobs)

@@ -1,8 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { RoadDefinition } from '@starpeace/starpeace-assets-types'
+import { RoadDefinition, RoadImageDefinition } from '@starpeace/starpeace-assets-types'
 
-import Manifest from '../common/manifest.js'
 import Spritesheet from '../common/spritesheet.js';
 import Texture from '../common/texture.js';
 import TextureManifest from '../common/texture-manifest.js';
@@ -14,45 +13,67 @@ const OUTPUT_TEXTURE_WIDTH = 512;
 const OUTPUT_TEXTURE_HEIGHT = 512;
 
 interface Aggregatation {
+  imageDefinitions: Array<RoadImageDefinition>;
   spritesheets: Array<Spritesheet>;
   frameIdsById: Record<string, Array<string>>;
 }
 
-function loadRoadManifest (roadDir: string): Manifest {
-  console.log(`loading road definition manifest from ${roadDir}\n`);
-  const definitions = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-manifest.json')).toString()).map(RoadDefinition.fromJson);
+function loadRoadDefinitions (roadDir: string): RoadDefinition[] {
+  console.log(`loading road definitions from ${roadDir}\n`);
+  const definitions = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-definition.json')).toString()).map(RoadDefinition.fromJson);
   console.log(`found and loaded ${definitions.length} road definitions\n`);
-  return new Manifest(definitions);
+  return definitions;
 }
 
-async function loadRoadTextures (roadDir: string): Promise<TextureManifest> {
-  const textures = await Texture.load(roadDir);
+function loadRoadImageDefinitions (roadDir: string): RoadImageDefinition[] {
+  console.log(`loading road image definitions from ${roadDir}\n`);
+  const definitions = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-image.json')).toString()).map(RoadImageDefinition.fromJson);
+  console.log(`found and loaded ${definitions.length} road image definitions\n`);
+  return definitions;
+}
+
+async function loadRoadTextures (baseDir: string, roadDir: string): Promise<TextureManifest> {
+  const textures = await Texture.load(path.join(roadDir, 'images'), baseDir);
   console.log(`found and loaded ${textures.length} road textures into manifest\n`);
   return new TextureManifest(textures);
 }
 
-function aggregate (definitionManifest: Manifest, textureManifest: TextureManifest): Aggregatation {
+function aggregate (definitions: RoadDefinition[], imageDefinitions: RoadImageDefinition[], textureManifest: TextureManifest): Aggregatation {
+  const imageDefinitionById = Object.fromEntries(imageDefinitions.map(d => [d.id, d]));
   const frameTextureGroups = [];
   const frameIdsById: Record<string, Array<string>> = {};
-  for (const definition of definitionManifest.definitions) {
-    const texture = textureManifest.byFilePath[definition.image];
-    if (!texture) {
-      console.log(`unable to find road image ${definition.image}`);
-      continue;
-    }
+  const includedImageDefinitions = [];
+  for (const definition of definitions) {
+    for (const imageIdByOrientation of Object.values(definition.imageCatalog)) {
+      for (const imageId of Object.values(imageIdByOrientation)) {
+        const imageDefinition = imageDefinitionById[imageId as string];
+        if (!imageDefinition) {
+          console.log(`unable to find road image definition ${imageId}`);
+          continue;
+        }
 
-    texture.id = definition.id;
-    frameIdsById[definition.id] = [texture.id];
-    frameTextureGroups.push(texture.getFrameTextures(texture.id));
+        const texture = textureManifest.byFilePath[imageDefinition.imagePath];
+        if (!texture) {
+          console.log(`unable to find road image ${imageDefinition.imagePath}`);
+          continue;
+        }
+
+        includedImageDefinitions.push(imageDefinition);
+        texture.id = imageId as string;
+        frameIdsById[texture.id] = [texture.id];
+        frameTextureGroups.push(texture.getFrameTextures(texture.id));
+      }
+    }
   }
 
   return {
+    imageDefinitions: includedImageDefinitions,
     spritesheets: Spritesheet.packTextures(frameTextureGroups, new Set(), OUTPUT_TEXTURE_WIDTH, OUTPUT_TEXTURE_HEIGHT),
     frameIdsById: frameIdsById
   };
 }
 
-async function writeAssets (outputDir: string, definitionManifest: Manifest, spritesheets: Array<Spritesheet>, frameIdsById: Record<string, Array<string>>): Promise<void> {
+async function writeAssets (outputDir: string, imageDefinitions: RoadImageDefinition[], spritesheets: Array<Spritesheet>, frameIdsById: Record<string, Array<string>>): Promise<void> {
   const writePromises = [];
 
   const frameAtlas: Record<string, string> = {};
@@ -71,7 +92,7 @@ async function writeAssets (outputDir: string, definitionManifest: Manifest, spr
   }
 
   const definitions: Record<string, any> = {};
-  for (const definition of definitionManifest.definitions) {
+  for (const definition of imageDefinitions) {
     definitions[definition.id] = {
       atlas: frameAtlas[frameIdsById[definition.id][0]],
       frames: frameIdsById[definition.id]
@@ -93,10 +114,11 @@ async function writeAssets (outputDir: string, definitionManifest: Manifest, spr
 }
 
 export default class CombineRoadManifest {
-  static async combine (roadDir: string, targetDir: string): Promise<void> {
-    const definitionManifest = loadRoadManifest(roadDir);
-    const textureManifest = await loadRoadTextures(roadDir);
-    const { spritesheets, frameIdsById } = aggregate(definitionManifest, textureManifest);
-    await writeAssets(targetDir, definitionManifest, spritesheets, frameIdsById);
+  static async combine (baseDir: string, roadDir: string, targetDir: string): Promise<void> {
+    const definitions = loadRoadDefinitions(roadDir);
+    const allImageDefinitions = loadRoadImageDefinitions(roadDir);
+    const textureManifest = await loadRoadTextures(baseDir, roadDir);
+    const { imageDefinitions, spritesheets, frameIdsById } = aggregate(definitions, allImageDefinitions, textureManifest);
+    await writeAssets(targetDir, imageDefinitions, spritesheets, frameIdsById);
   }
 }
