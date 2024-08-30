@@ -18,22 +18,28 @@ interface Aggregatation {
   frameIdsById: Record<string, Array<string>>;
 }
 
-function loadRoadDefinitions (roadDir: string): RoadDefinition[] {
-  console.log(`loading road definitions from ${roadDir}\n`);
-  const definitions = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-definition.json')).toString()).map(RoadDefinition.fromJson);
+function loadDefinitions (roadDir: string, tracksDir: string): RoadDefinition[] {
+  console.log(`loading road definitions from ${roadDir} and ${tracksDir}\n`);
+  const roads = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-definition.json')).toString()).map(RoadDefinition.fromJson);
+  const tracks = JSON.parse(fs.readFileSync(path.join(tracksDir, 'track-definition.json')).toString()).map(RoadDefinition.fromJson);
+  const definitions = [...roads, ...tracks];
   console.log(`found and loaded ${definitions.length} road definitions\n`);
   return definitions;
 }
 
-function loadRoadImageDefinitions (roadDir: string): RoadImageDefinition[] {
-  console.log(`loading road image definitions from ${roadDir}\n`);
-  const definitions = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-image.json')).toString()).map(RoadImageDefinition.fromJson);
+function loadImageDefinitions (roadDir: string, tracksDir: string): RoadImageDefinition[] {
+  console.log(`loading road image definitions from ${roadDir} and ${tracksDir}\n`);
+  const roads = JSON.parse(fs.readFileSync(path.join(roadDir, 'road-image.json')).toString()).map(RoadImageDefinition.fromJson);
+  const tracks = JSON.parse(fs.readFileSync(path.join(tracksDir, 'track-image.json')).toString()).map(RoadImageDefinition.fromJson);
+  const definitions = [...roads, ...tracks];
   console.log(`found and loaded ${definitions.length} road image definitions\n`);
   return definitions;
 }
 
-async function loadRoadTextures (baseDir: string, roadDir: string): Promise<TextureManifest> {
-  const textures = await Texture.load(path.join(roadDir, 'images'), baseDir);
+async function loadRoadTextures (baseDir: string, roadDir: string, trackDir: string): Promise<TextureManifest> {
+  const roads = await Texture.load(path.join(roadDir, 'images'), baseDir);
+  const tracks = await Texture.load(path.join(trackDir, 'images'), baseDir);
+  const textures = [...roads, ...tracks];
   console.log(`found and loaded ${textures.length} road textures into manifest\n`);
   return new TextureManifest(textures);
 }
@@ -114,10 +120,10 @@ async function writeAssets (outputDir: string, imageDefinitions: RoadImageDefini
 }
 
 export default class CombineRoadManifest {
-  static async combine (baseDir: string, roadDir: string, targetDir: string): Promise<void> {
-    const definitions = loadRoadDefinitions(roadDir);
-    const allImageDefinitions = loadRoadImageDefinitions(roadDir);
-    const textureManifest = await loadRoadTextures(baseDir, roadDir);
+  static async combine (baseDir: string, roadDir: string, tracksDir: string, targetDir: string): Promise<void> {
+    const definitions = loadDefinitions(roadDir, tracksDir);
+    const allImageDefinitions = loadImageDefinitions(roadDir, tracksDir);
+    const textureManifest = await loadRoadTextures(baseDir, roadDir, tracksDir);
     const { imageDefinitions, spritesheets, frameIdsById } = aggregate(definitions, allImageDefinitions, textureManifest);
     await writeAssets(targetDir, imageDefinitions, spritesheets, frameIdsById);
   }
